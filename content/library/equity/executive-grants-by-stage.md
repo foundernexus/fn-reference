@@ -79,6 +79,8 @@ Run the same check in the [executive equity calculator](/tools/executive-equity-
 
 **Title inflation at seed.** Index, quoting Seedcamp’s Reshma Sohoni: at seed, role and title inflation is best avoided. Initial executive-level hires typically wait for Series A. Finance, HR, and ops wait for Series B. UltraTalent’s seed row is “first sales hire,” not VP. Paying a seed builder on a Series A VP percentage spends pool you will need when the scaler arrives.
 
+**Paying scaler equity to a phase hire.** The person who gets you from zero to ten is often not the person who takes ten to fifty. Write the grant for the job in front of you. If you already know they may not be the seat in eighteen months, do not paper over that with a true-VP percentage. Say the phase out loud, keep the band honest, and leave room in the pool for the scaler.
+
 **Late-stage cash on a seed percentage.** UltraTalent’s growth / Series D+ VP Sales cash is $380k–$500k base and $760k–$1M OTE, with 0.10–0.40% equity. Seed first-sales equity is 0.5–2.0% FD. Those are different jobs.
 
 **Stale 409A.** A 409A is valid for 12 months from its effective date, and ends sooner after a material event (Carta, 4 August 2026). Strike must be at least FMV on the grant date. Board-approve the new FMV before you grant.

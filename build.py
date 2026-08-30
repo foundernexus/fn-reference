@@ -357,13 +357,11 @@ def base(
 <footer class="site-footer">
   <div class="wrap">
     <p class="footer-name">{html.escape(SITE_NAME)}</p>
-    <p class="footer-pub">Published by {html.escape(PUBLISHER_NAME)}</p>
     <p class="footer-links">
       <a href="{url('/library/')}">Library</a>
       <a href="{url('/tools/')}">Tools</a>
       <a href="{url('/about/')}">About</a>
     </p>
-    <p class="footer-tiny"><a href="{html.escape(PUBLISHER_URL, quote=True)}">{html.escape(PUBLISHER_NAME)}</a></p>
   </div>
 </footer>
 {js}

@@ -13,7 +13,7 @@ Do not turn this into a landing page.
 - Header wordmark is the text **Founder Decisions** (Plus Jakarta Sans 700, navy #01052A). No FounderNexus lockup or mark in the header or favicon.
 - No “Apply now” in global nav. No membership pitch, conversion column, or second navy band.
 - No “community” language. No “the room is the product.”
-- On an article, a contextual close is optional: one short paragraph in body type, plus a text link to https://www.foundernexus.com. No CTA card, no header button. Do not put this on the homepage.
+- On an article, a contextual close is optional: one short paragraph plus a text link to FounderNexus as a next step, not as publisher. No CTA card, no header button, no “Published by FounderNexus.” Do not put this on the homepage. Do not link The Startup Bible; it is an internal check only.
 - `cta` in frontmatter is optional. The build does not fail if a page has none.
 
 ## Voice
