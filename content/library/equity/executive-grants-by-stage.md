@@ -36,6 +36,7 @@ You are the founder writing the grant. Percentages are fully diluted. Not legal,
 - ⁷ High end of the Index VP band (product and engineering). Non-founding CTO as C-level: Index says 1% is typical in the US at Series A or B (0.7% typical in Europe). C-level range 0.8–1.5% FDE.
 - ⁸ True CFO, Index C-level. Typical 1%. Index: most Series A and B companies have no more than three true non-founding C-level executives.
 - ⁹ Smaller end of the Index VP band (HR and finance). Index lists finance, HR, and ops as Series B central-team hires. No Head of People percentage is published as its own row.
+- ¹⁰ FounderNexus session, February 2026. Operator judgment, not a survey range.
 
 Empty cells mean the source did not publish that number.
 
@@ -79,7 +80,7 @@ Run the same check in the [executive equity calculator](/tools/executive-equity-
 
 **Title inflation at seed.** Index, quoting Seedcamp’s Reshma Sohoni: at seed, role and title inflation is best avoided. Initial executive-level hires typically wait for Series A. Finance, HR, and ops wait for Series B. UltraTalent’s seed row is “first sales hire,” not VP. Paying a seed builder on a Series A VP percentage spends pool you will need when the scaler arrives.
 
-**Paying scaler equity to a phase hire.** The person who gets you from zero to ten is often not the person who takes ten to fifty. Write the grant for the job in front of you. If you already know they may not be the seat in eighteen months, do not paper over that with a true-VP percentage. Say the phase out loud, keep the band honest, and leave room in the pool for the scaler.
+**Paying scaler equity to a phase hire.** The person who gets you from zero to ten is often not the person who takes ten to fifty. Write the grant for the job in front of you. If you already know they may not be the seat in eighteen months, do not paper over that with a true-VP percentage. Say the phase out loud, keep the band honest, and leave room in the pool for the scaler.¹⁰
 
 **Late-stage cash on a seed percentage.** UltraTalent’s growth / Series D+ VP Sales cash is $380k–$500k base and $760k–$1M OTE, with 0.10–0.40% equity. Seed first-sales equity is 0.5–2.0% FD. Those are different jobs.
 
@@ -115,6 +116,7 @@ Standalone 409A cost, per Carta: $1,000 to over $10,000 depending on size and co
 - [The CRO Report, VP Sales salary at Series B](https://thecroreport.com/blog/vp-sales-salary-series-b/) — 15 February 2026; April 2026 note
 - [Kruze, option pool shuffle](https://kruzeconsulting.com/blog/option-pool-shuffle/) — 29 January 2024
 - [Kruze, startup compensation guide](https://kruzeconsulting.com/blog/startup-compensation-guide/) — 4 December 2024
+- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder session, February 2026. Hire for the phase: the 0–10 operator is often not the 10–50 operator. Not a compensation dataset.
 
 ## Related
 
