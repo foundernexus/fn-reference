@@ -418,7 +418,7 @@ def related_block(page: dict, by_key: dict[str, dict]) -> str:
     )
     return (
         '<section class="section related-section">'
-        '<div class="wrap article-width">'
+        '<div class="article-width">'
         f"<h2>Related</h2><ul class=\"page-list\">{lis}</ul>"
         "</div></section>"
     )
@@ -596,14 +596,14 @@ def render_article(page: dict, by_key: dict[str, dict]) -> str:
         eyebrow = f'<p class="eyebrow">{html.escape(kicker)} · {html.escape(page["date"])}</p>'
     body = f"""<main id="main">
   <section class="page-hero">
-    <div class="wrap">
+    <div class="article-width">
       {crumbs(trail)}
       {eyebrow}
       <h1>{html.escape(page['title'])}</h1>
       <p class="lead">{html.escape(page['description'])}</p>
     </div>
   </section>
-  <article class="wrap prose article-width">
+  <article class="prose article-width">
     {render_markdown(page['_body'])}
     {extra}
     {close_html}

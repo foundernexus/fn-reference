@@ -92,6 +92,8 @@ a:hover { color: var(--blue-hover); }
 .article-width {
   width: min(var(--article), calc(100% - 64px));
   margin-inline: auto;
+}
+article.article-width {
   padding: 8px 0 80px;
 }
 
