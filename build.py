@@ -257,7 +257,7 @@ def page_path(fm: dict) -> str:
 def load_pages() -> list[dict]:
     pages = []
     for path in sorted(CONTENT.rglob("*.md")):
-        if path.name.startswith("_"):
+        if path.name.startswith("_") and path.name != "_hub.md":
             continue
         fm, body = parse_frontmatter(path.read_text(encoding="utf-8"))
         required = ["title", "description", "slug", "section", "date"]
@@ -267,9 +267,15 @@ def load_pages() -> list[dict]:
         fm["_src"] = path
         fm["_body"] = body
         fm["draft"] = bool(fm.get("draft", False))
-        fm["layout"] = fm.get("layout", "article")
-        fm["path"] = page_path(fm)
         fm["related"] = fm.get("related") or []
+        if path.name == "_hub.md":
+            cluster = fm.get("cluster") or path.parent.name
+            fm["cluster"] = cluster
+            fm["layout"] = "hub"
+            fm["path"] = f"/{fm['section']}/{cluster}/"
+        else:
+            fm["layout"] = fm.get("layout", "article")
+            fm["path"] = page_path(fm)
         pages.append(fm)
     return pages
 
@@ -553,7 +559,7 @@ def load_hub(cid: str) -> dict | None:
 def render_cluster(cid: str, pages: list[dict]) -> str:
     cl = CLUSTERS[cid]
     sec = SECTIONS[cl["section"]]
-    subset = [p for p in pages if p.get("cluster") == cid]
+    subset = [p for p in pages if p.get("cluster") == cid and p.get("layout") != "hub"]
     hub = load_hub(cid)
     title = (hub.get("title") if hub else None) or cl["title"]
     description = (hub.get("description") if hub else None) or cl["description"]
@@ -722,7 +728,7 @@ def write_sitemap(pages: list[dict]) -> None:
     for cid, cl in CLUSTERS.items():
         urls.append((f"/{cl['section']}/{cid}/", date.today().isoformat(), "0.7"))
     for p in pages:
-        if p["path"] == "/about/":
+        if p["path"] == "/about/" or p.get("layout") == "hub":
             continue
         urls.append((p["path"], p["date"], "0.9"))
     items = []
@@ -766,6 +772,8 @@ def build() -> None:
         cl = CLUSTERS[cid]
         write(DIST / cl["section"] / cid / "index.html", render_cluster(cid, pages))
     for p in pages:
+        if p.get("layout") == "hub":
+            continue
         rel = p["path"].strip("/") + "/index.html"
         write(DIST / rel, render_article(p, by_key))
     write(DIST / "404.html", render_404())
