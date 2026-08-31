@@ -60,8 +60,8 @@ NAV_ITEMS = [
 CLUSTERS = {
     "equity": {
         "section": "library",
-        "title": "Equity",
-        "description": "How you grant, vest, and explain ownership at the executive layer.",
+        "title": "Equity & cap table",
+        "description": "Option pool size, executive grants as pool draws, and pre-money dilution through the next round.",
     },
 }
 
@@ -257,6 +257,8 @@ def page_path(fm: dict) -> str:
 def load_pages() -> list[dict]:
     pages = []
     for path in sorted(CONTENT.rglob("*.md")):
+        if path.name.startswith("_"):
+            continue
         fm, body = parse_frontmatter(path.read_text(encoding="utf-8"))
         required = ["title", "description", "slug", "section", "date"]
         missing = [k for k in required if k not in fm]
@@ -536,22 +538,74 @@ def render_section(key: str, pages: list[dict]) -> str:
     )
 
 
+def load_hub(cid: str) -> dict | None:
+    """Optional editorial hub: content/{section}/{cid}/_hub.md"""
+    cl = CLUSTERS[cid]
+    hub_path = CONTENT / cl["section"] / cid / "_hub.md"
+    if not hub_path.exists():
+        return None
+    fm, body = parse_frontmatter(hub_path.read_text(encoding="utf-8"))
+    fm["_body"] = body
+    fm["_src"] = hub_path
+    return fm
+
+
 def render_cluster(cid: str, pages: list[dict]) -> str:
     cl = CLUSTERS[cid]
     sec = SECTIONS[cl["section"]]
     subset = [p for p in pages if p.get("cluster") == cid]
+    hub = load_hub(cid)
+    title = (hub.get("title") if hub else None) or cl["title"]
+    description = (hub.get("description") if hub else None) or cl["description"]
     listing = (
         page_cards(subset)
         if subset
         else '<div class="empty"><p>No pages in this cluster yet.</p></div>'
     )
     path = f"/{cl['section']}/{cid}/"
-    body = f"""<main id="main">
+    trail = [
+        ("Home", url("/")),
+        (sec["title"], url("/" + cl["section"] + "/")),
+        (title, None),
+    ]
+
+    if hub:
+        date = hub.get("date") or ""
+        eyebrow = (
+            f'<p class="eyebrow">{html.escape(sec["kicker"])} · {html.escape(date)}</p>'
+            if date
+            else f'<p class="eyebrow">{html.escape(sec["kicker"])}</p>'
+        )
+        editorial = (
+            f'<article class="prose article-width">'
+            f'{render_markdown(hub["_body"])}'
+            f'{article_close(hub.get("close") or "")}'
+            f"</article>"
+        )
+        body = f"""<main id="main">
+  <section class="page-hero">
+    <div class="article-width">
+      {crumbs(trail)}
+      {eyebrow}
+      <h1>{html.escape(title)}</h1>
+      <p class="lead">{html.escape(description)}</p>
+    </div>
+  </section>
+  {editorial}
+  <section class="section">
+    <div class="wrap">
+      <h2 class="section-title">In this topic</h2>
+      {listing}
+    </div>
+  </section>
+</main>"""
+    else:
+        body = f"""<main id="main">
   <section class="page-hero">
     <div class="wrap">
-      {crumbs([("Home", url("/")), (sec["title"], url("/" + cl["section"] + "/")), (cl["title"], None)])}
-      <h1>{html.escape(cl["title"])}</h1>
-      <p class="lead">{html.escape(cl["description"])}</p>
+      {crumbs(trail)}
+      <h1>{html.escape(title)}</h1>
+      <p class="lead">{html.escape(description)}</p>
     </div>
   </section>
   <section class="section" style="padding-top:0">
@@ -559,8 +613,8 @@ def render_cluster(cid: str, pages: list[dict]) -> str:
   </section>
 </main>"""
     return base(
-        title=cl["title"],
-        description=cl["description"],
+        title=title,
+        description=description,
         canonical_path=path,
         body=body,
         active=cl["section"],

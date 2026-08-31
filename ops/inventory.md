@@ -6,5 +6,6 @@ Track what shipped, the query it should rank for, and the last review. Weekly re
 | --- | --- | --- | --- | --- |
 | 2026-08-29 | /library/equity/executive-grants-by-stage/ | how much equity to give VP of sales startup | 2026-08-29 | Page 1. Cite Index, Carta, UltraTalent, CRO Report, Kruze. |
 | 2026-08-29 | /tools/executive-equity-calculator/ | startup VP equity calculator | 2026-08-29 | Sibling tool to page 1. |
+| 2026-08-31 | /library/equity/ | startup option pool size | 2026-08-31 | Editorial hub. Cited pool-size table (Index, Carta/HSBC, Kruze). Spokes: grants-by-stage + calculator. |
 
 FounderNexus links use `utm_source=founderdecisions&utm_medium=referral&utm_campaign=library` so HubSpot can see the referral once the site is public.
