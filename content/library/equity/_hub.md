@@ -33,7 +33,7 @@ Carta (20 August 2026): build the pool bottoms-up from the next 12–18 months o
 
 A VP grant is not a vibe check on the candidate. It is a line item against remaining unallocated pool, next to IC grants and refreshers you have not written yet.
 
-Use [executive equity grants by stage](/library/equity/executive-grants-by-stage/) for cited Seed–Series B bands by seat. Run a proposed percentage against remaining pool in the [executive equity calculator](/tools/executive-equity-calculator/).
+Use [size the option pool from a hiring plan](/library/equity/option-pool-from-hiring-plan/) to add the seats up. Use [executive equity grants by stage](/library/equity/executive-grants-by-stage/) for cited Seed–Series B bands by seat. Run a proposed percentage against remaining pool in the [executive equity calculator](/tools/executive-equity-calculator/).
 
 ## Option pool shuffle
 
@@ -61,5 +61,6 @@ A priced round is a material event. Carta: a 409A is generally required before i
 
 ## Related
 
+- [Size the option pool from a hiring plan](/library/equity/option-pool-from-hiring-plan/)
 - [Executive equity grants by stage](/library/equity/executive-grants-by-stage/)
 - [Executive equity calculator](/tools/executive-equity-calculator/)
