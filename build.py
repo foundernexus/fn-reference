@@ -444,10 +444,45 @@ def article_close(sentence: str) -> str:
     return f'<p class="article-close">{linked}</p>'
 
 
-CALCULATOR_FORM = """
-<div id="equity-calculator" class="calc-mount"></div>
-<p class="small muted" style="margin-top:16px">Series D+ is not in this form. Cited sources on the companion page do not publish a VP band for that stage.</p>
-"""
+# Default mount/JS for calculator pages that omit calculator_js.
+# Per-page override: frontmatter calculator_js (and optional calculator_mount, calculator_note).
+CALCULATOR_DEFAULT_JS = "equity-calculator.js"
+CALCULATOR_DEFAULT_MOUNT = "equity-calculator"
+CALCULATOR_DEFAULT_NOTE = (
+    "Series D+ is not in this form. Cited sources on the companion page do not "
+    "publish a VP band for that stage."
+)
+
+
+def calculator_mount_and_js(page: dict) -> tuple[str, str | None]:
+    """Return (mount HTML, js filename) for a page. Empty mount and None js if not a calculator."""
+    if page.get("layout") != "calculator":
+        return "", None
+    js = (page.get("calculator_js") or CALCULATOR_DEFAULT_JS).strip()
+    if not js.endswith(".js"):
+        js = js + ".js"
+    mount = (page.get("calculator_mount") or "").strip()
+    if not mount:
+        if page.get("calculator_js"):
+            mount = js[:-3]  # option-pool-shuffle-calculator.js -> id
+        else:
+            mount = CALCULATOR_DEFAULT_MOUNT
+    if "calculator_note" in page:
+        note = (page.get("calculator_note") or "").strip()
+    elif page.get("calculator_js"):
+        note = ""
+    else:
+        note = CALCULATOR_DEFAULT_NOTE
+    note_html = (
+        f'<p class="small muted" style="margin-top:16px">{html.escape(note)}</p>'
+        if note
+        else ""
+    )
+    mount_html = (
+        f'<div id="{html.escape(mount, quote=True)}" class="calc-mount"></div>'
+        f"{note_html}"
+    )
+    return mount_html, js
 
 
 def render_home(pages: list[dict]) -> str:
@@ -647,7 +682,7 @@ def render_article(page: dict, by_key: dict[str, dict]) -> str:
         trail.append((page["title"], None))
         kicker = cluster["title"] if cluster else sec["kicker"]
         active = section
-    extra = CALCULATOR_FORM if page["layout"] == "calculator" else ""
+    extra, extra_js = calculator_mount_and_js(page)
     sentence = page.get("close") or page.get("cta_sentence") or ""
     close_html = article_close(sentence)
     related = related_block(page, by_key)
@@ -670,7 +705,6 @@ def render_article(page: dict, by_key: dict[str, dict]) -> str:
   </article>
   {related}
 </main>"""
-    extra_js = "equity-calculator.js" if page["layout"] == "calculator" else None
     return base(
         title=page["title"],
         description=page["description"],

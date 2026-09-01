@@ -45,7 +45,7 @@ Kruze: investors often require the pool top-up to happen before the new money pr
 
 Not a company. Round numbers so the arithmetic is visible.
 
-Pre-money valuation $40M. New money $10M. Investor wants a 15% pool measured pre-money, and unallocated pool today is 5%. The top-up to 15% dilutes existing holders before the new money. If the same 15% were measured post-money, more of that dilution would sit after the round. Same headline pool percentage. Different owner of the dilution. Run the real numbers with counsel and your cap table software. Do not treat this sketch as a term sheet.
+Pre-money valuation $40M. New money $10M. Investor wants a 15% pool measured pre-money, and unallocated pool today is 5%. The top-up to 15% dilutes existing holders before the new money. If the same 15% were measured post-money, more of that dilution would sit after the round. Same headline pool percentage. Different owner of the dilution. Run the side-by-side in the [option pool shuffle calculator](/tools/option-pool-shuffle-calculator/). Confirm with counsel and your cap table software. Do not treat this sketch as a term sheet.
 
 ## 409A before you grant after a priced round
 
@@ -64,3 +64,4 @@ A priced round is a material event. Carta: a 409A is generally required before i
 - [Size the option pool from a hiring plan](/library/equity/option-pool-from-hiring-plan/)
 - [Executive equity grants by stage](/library/equity/executive-grants-by-stage/)
 - [Executive equity calculator](/tools/executive-equity-calculator/)
+- [Option pool shuffle calculator](/tools/option-pool-shuffle-calculator/)
