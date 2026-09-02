@@ -63,6 +63,11 @@ CLUSTERS = {
         "title": "Equity & cap table",
         "description": "Option pool size, executive grants as pool draws, and pre-money dilution through the next round.",
     },
+    "hiring": {
+        "section": "library",
+        "title": "Hiring executives",
+        "description": "When the first VP is actually a VP, and when it is still a founder-led motion.",
+    },
 }
 
 

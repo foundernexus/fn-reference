@@ -10,5 +10,6 @@ Track what shipped, the query it should rank for, and the last review. Weekly re
 | 2026-08-31 | /library/equity/option-pool-from-hiring-plan/ | how to size option pool | 2026-08-31 | Spoke. Bottoms-up hiring plan (Index Series A 50-hire / 10.4% vs 12%; Carta 12–18 months). |
 | 2026-09-01 | /tools/option-pool-shuffle-calculator/ | option pool shuffle calculator | 2026-09-01 | Companion to equity hub shuffle section. Pre vs post-money pool placement. Cite Kruze, Carta/HSBC. |
 | 2026-09-02 | /library/equity/409a-after-priced-round/ | 409A after funding round | 2026-09-02 | Spoke from equity hub 409A teaser. Carta material-event + Kruze/Promise cost & timing (bands shown separately). |
+| 2026-09-02 | /library/hiring/when-to-hire-first-vp-sales/ | when to hire VP of sales startup | 2026-09-02 | First hiring spoke. CRO Report vs SaaStr vs Index/UltraTalent on VP vs first sales hire. |
 
 FounderNexus links use `utm_source=founderdecisions&utm_medium=referral&utm_campaign=library` so HubSpot can see the referral once the site is public.

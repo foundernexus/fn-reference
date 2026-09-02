@@ -120,5 +120,6 @@ Standalone 409A cost, per Carta: $1,000 to over $10,000 depending on size and co
 
 ## Related
 
+- [When to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/)
 - [Size the option pool from a hiring plan](/library/equity/option-pool-from-hiring-plan/)
-- [Executive equity calculator](/tools/executive-equity-calculator)
+- [Executive equity calculator](/tools/executive-equity-calculator/)
