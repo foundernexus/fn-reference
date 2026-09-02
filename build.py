@@ -149,6 +149,30 @@ def render_markdown(src: str) -> str:
             out.append("<hr>")
             i += 1
             continue
+        if line.strip().startswith(":::"):
+            fence = line.strip()[3:].strip()
+            i += 1
+            if not fence:
+                continue
+            kind, _, label = fence.partition(" ")
+            kind = kind.lower().strip()
+            buf = []
+            while i < len(lines) and lines[i].strip() != ":::":
+                buf.append(lines[i])
+                i += 1
+            if i < len(lines) and lines[i].strip() == ":::":
+                i += 1
+            inner_html = render_markdown("\n".join(buf))
+            if kind in ("takeaways", "takeaway"):
+                label = label.strip() or "Need to know"
+                out.append(
+                    f'<aside class="takeaways"><p class="takeaways-label">{html.escape(label)}</p>{inner_html}</aside>'
+                )
+            elif kind in ("highlight", "note"):
+                out.append(f'<aside class="highlight">{inner_html}</aside>')
+            else:
+                out.append(inner_html)
+            continue
         if line.startswith("#"):
             m = re.match(r"^(#{1,4})\s+(.*)$", line)
             if m:
@@ -201,6 +225,7 @@ def render_markdown(src: str) -> str:
             and not re.match(r"^\d+\.\s+", lines[i])
             and not lines[i].startswith(">")
             and not re.match(r"^---+\s*$", lines[i])
+            and not lines[i].strip().startswith(":::")
         ):
             buf.append(lines[i])
             i += 1

@@ -14,6 +14,12 @@ draft: false
 
 Do not start at 10%. Carta’s method is bottoms-up: list the roles you will fill before the next priced round, put a cited grant on each seat, add refresh, then sanity-check the total against peer percentages. Index’s default Series A hiring plan through Series B adds up to about 10.4% fully diluted, against a 12% ESOP recommendation. The gap is the buffer. Not legal, tax, or compensation advice.
 
+:::takeaways
+- Size the pool from the seats you will hire before the next round, then check 10–15% term-sheet defaults.
+- Carta horizon: next 12–18 months of hiring. Kruze: 18–24 months if you are walking a sheet down.
+- Index Series A example: hiring list ~10.4% FD. Recommendation 12%. The gap is buffer.
+:::
+
 Horizon is the next round, not an IPO. Carta: size for the next 12–18 months of hiring. Among startups raising Series A in Q2 2025, the median time since seed was 616 days, about 20 months. Kruze uses 18–24 months when you walk a term-sheet pool down from a round number. If your plan says 14 months to the next raise, use 14. If it says 20, use 20.
 
 ## What the bottoms-up is

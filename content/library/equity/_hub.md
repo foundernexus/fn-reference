@@ -13,6 +13,12 @@ draft: false
 
 Size the option pool from a hiring plan that reaches the next round. Every executive grant is a draw on unallocated pool. When a term sheet tops up the pool pre-money, existing holders take that dilution. Not legal, tax, or compensation advice.
 
+:::takeaways
+- Build the pool bottoms-up from hiring through the next round. Then check published ranges.
+- Every exec grant is a draw on unallocated pool, next to IC grants and refreshers.
+- A pre-money pool top-up dilutes existing holders. Same headline % post-money is a different owner.
+:::
+
 ## Option pool size by stage
 
 Sources disagree on the right percentage. Do not average them. Size bottoms-up from the seats you will hire, then check the range your investors expect.

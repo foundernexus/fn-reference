@@ -16,6 +16,13 @@ A first sales leader at seed is typically 0.5–2.0% fully diluted. A Series A V
 
 You are the founder writing the grant. Percentages are fully diluted. Not legal, tax, or compensation advice.
 
+:::takeaways
+- Seed first sales leader: 0.5–2.0% fully diluted (UltraTalent, CRO Report).
+- Series A VP: 0.3–0.8% on Index’s rule of thumb. Product and engineering high, sales low.
+- Vesting: four years, one-year cliff, monthly after that.
+- Series B sales bands disagree. Show them separately.
+:::
+
 ## Equity by role and stage
 
 | Role | Seed | Series A | Series B |

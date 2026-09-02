@@ -14,11 +14,19 @@ draft: false
 
 Do not hire a VP of Sales to find product-market fit. Close the first deals yourself. Then hire someone who can run the motion you already run. Sources disagree on whether that person gets a VP title on day one. They agree on the order: founder closes, then quota-carrying sellers, then a leader who hires. Not legal, tax, or compensation advice.
 
+:::takeaways
+- Sequence: founder closes 10–20 paid deals, then two quota-carrying sellers, then a leader who still sells.
+- $1M–$2M ARR is not one job. CRO Report: a builder who still carries a bag. SaaStr: a VP after two reps at quota. Index: a true exec typically at Series A.
+- Seed title is often first sales hire, not VP (UltraTalent, Index).
+:::
+
 The CRO Report’s shorthand is $1M–$2M ARR with a repeatable process the founder closed. SaaStr’s bar for a real VP is two reps already hitting quota, usually after $1M–$2M ARR. Index treats initial executive-level hires as a Series A event and flags title inflation at seed. UltraTalent’s seed row is “first sales hire,” not VP. Show those separately. Do not average them into one ARR number.
 
 ## The sequence, not the title
 
-**Founder closes.** SaaStr: close at least 10–20 customers yourself before you hire a salesperson, so you can teach the motion. The CRO Report uses the same 10–20 closed-won deals, not trials, not free pilots, plus two other conditions at the same time: you can describe first-call-to-close in steps with rough conversion, and you are losing deals to speed rather than product. If inbound sits for days because you are in board meetings, that is the bottleneck signal. If you have closed three deals and cannot name the buyer, a VP will spend six months running experiments you should have run, on a Seed/Series A base the CRO Report puts at $188k–$250k.
+**Founder closes.** SaaStr: close at least 10–20 customers yourself before you hire a salesperson, so you can teach the motion. The CRO Report uses the same 10–20 closed-won deals, not trials, not free pilots.
+
+Two other conditions have to be true at the same time: you can describe first-call-to-close in steps with rough conversion, and you are losing deals to speed rather than product. If inbound sits for days because you are in board meetings, that is the bottleneck signal. If you have closed three deals and cannot name the buyer, a VP will spend six months running experiments you should have run, on a Seed/Series A base the CRO Report puts at $188k–$250k.
 
 **Then sellers, not a manager of none.** SaaStr: hire two reps, not one, so you can tell whether the motion transfers. You are not ready for a real VP until two reps hit quota. The VP’s job is to take you from a handful of reps to many, not to be the first person running the playbook. Lenny Rachitsky and Jason Lemkin, on SaaStr: hire the first salesperson after about 10 customers and when sales is more than 20% of your time; hire a VP to go from three reps to 300, not to invent product-market fit.
 

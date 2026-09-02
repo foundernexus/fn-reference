@@ -14,6 +14,13 @@ draft: false
 
 A priced round is typically a material event under IRC §409A. Carta: reliance on a prior 409A generally ends at that point; companies obtain an updated 409A before issuing new options. Freeze new grants at close until the refreshed report is in hand and the board adopts the new FMV. Then grant. Not legal, tax, or compensation advice.
 
+:::takeaways
+- Freeze new grants at close. Refresh FMV, board-adopt, then grant.
+- A priced round typically ends reliance on the prior 409A (Carta).
+- Refresh at least every 12 months, or sooner after a material event.
+- Cost bands disagree. Show each source. Do not average.
+:::
+
 ## What triggers a refresh
 
 You need a current 409A before issuing options, after every new raise, after a material business event, and at least every 12 months (Kruze checklist, 17 September 2025). Carta: a third-party valuation is generally “good” for up to 12 months unless a material event, such as a new priced equity financing, makes the prior valuation stale.
