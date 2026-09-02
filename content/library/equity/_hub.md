@@ -49,7 +49,7 @@ Pre-money valuation $40M. New money $10M. Investor wants a 15% pool measured pre
 
 ## 409A before you grant after a priced round
 
-A priced round is a material event. Carta: a 409A is generally required before issuing common stock options to US tax residents; validity is typically 12 months from the effective date and ends sooner after a material event. Refresh the 409A, board-approve the new FMV, then grant. Strike must be at least FMV on the grant date. Standalone 409A cost, per Carta: roughly $1,000 to over $10,000 depending on size and complexity.
+A priced round is a material event. Carta: a 409A is generally required before issuing common stock options to US tax residents; validity is typically 12 months from the effective date and ends sooner after a material event. Refresh the 409A, board-approve the new FMV, then grant. Strike must be at least FMV on the grant date. Standalone 409A cost, per Carta: roughly $1,000 to over $10,000 depending on size and complexity. Full spoke: [409A after a priced round](/library/equity/409a-after-priced-round/) — cost bands, freeze-to-grant timeline, and why common ≠ preferred.
 
 ## Sources
 
@@ -61,6 +61,7 @@ A priced round is a material event. Carta: a 409A is generally required before i
 
 ## Related
 
+- [409A after a priced round](/library/equity/409a-after-priced-round/)
 - [Size the option pool from a hiring plan](/library/equity/option-pool-from-hiring-plan/)
 - [Executive equity grants by stage](/library/equity/executive-grants-by-stage/)
 - [Executive equity calculator](/tools/executive-equity-calculator/)

@@ -2,33 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://founderdecisions.com/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-09-02</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://founderdecisions.com/library/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-09-02</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://founderdecisions.com/tools/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-09-02</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://founderdecisions.com/compare/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-09-02</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://founderdecisions.com/about/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-09-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://founderdecisions.com/library/equity/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-09-02</lastmod>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://founderdecisions.com/library/equity/409a-after-priced-round/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://founderdecisions.com/library/equity/executive-grants-by-stage/</loc>
