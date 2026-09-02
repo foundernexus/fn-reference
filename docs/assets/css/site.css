@@ -101,7 +101,6 @@ article.article-width {
 .site-header {
   height: var(--header);
   background: var(--white);
-  border-top: 3px solid var(--blue);
   border-bottom: 1px solid var(--border-subtle);
 }
 .site-header .wrap {
@@ -200,7 +199,7 @@ main { flex: 1; }
   font-weight: 500;
   letter-spacing: 0.02em;
   text-transform: none;
-  color: var(--blue);
+  color: var(--muted);
   margin: 0 0 12px;
 }
 h1, .h1 {
@@ -416,19 +415,18 @@ caption {
 .callout p:last-child { margin-bottom: 0; }
 
 .takeaways {
-  background: var(--pale);
-  border: 1px solid var(--chip);
-  border-left: 3px solid var(--blue);
+  background: var(--page);
+  border: 1px solid var(--border-subtle);
+  border-left: 2px solid var(--blue);
   border-radius: 8px;
   padding: 18px 22px 6px;
-  margin: 4px 0 32px;
+  margin: 8px 0 32px;
 }
 .takeaways-label {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--blue);
+  letter-spacing: -0.01em;
+  color: var(--navy);
   margin: 0 0 10px;
 }
 .takeaways ul, .takeaways ol {
@@ -439,13 +437,20 @@ caption {
 .takeaways p:last-child { margin-bottom: 0; }
 
 .highlight {
-  background: var(--pale);
-  border-left: 3px solid var(--blue);
-  border-radius: 0 8px 8px 0;
-  padding: 14px 18px;
-  margin: 0 0 28px;
+  background: transparent;
+  border-left: 2px solid var(--blue);
+  border-radius: 0;
+  padding: 0 0 0 14px;
+  margin: -4px 0 24px;
+  color: var(--navy);
 }
-.highlight p { margin: 0; }
+.highlight p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.45;
+  color: var(--navy);
+}
+.prose h2 + .highlight { margin-top: -8px; }
 .disclaimer {
   font-size: 14px;
   color: var(--muted);

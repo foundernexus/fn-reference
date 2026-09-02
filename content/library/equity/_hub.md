@@ -21,6 +21,10 @@ Size the option pool from a hiring plan that reaches the next round. Every execu
 
 ## Option pool size by stage
 
+:::highlight
+Sources disagree on the percentage. Size from hiring, then check the range. Do not average.
+:::
+
 Sources disagree on the right percentage. Do not average them. Size bottoms-up from the seats you will hire, then check the range your investors expect.
 
 | Source | Seed | Series A | Later / note |

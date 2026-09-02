@@ -24,6 +24,10 @@ Horizon is the next round, not an IPO. Carta: size for the next 12–18 months o
 
 ## What the bottoms-up is
 
+:::highlight
+Seats, then a cited grant on each, then refresh and a buffer. Then check the term-sheet percentage.
+:::
+
 Write the seats. Not “grow headcount 40%.” Names of functions and seniority, through the date you expect to raise again.
 
 Put a grant on each seat from a named source. Executives as a percent of fully diluted equity. Staff as Index does it after Series A: a percent of base salary, converted at the post-money. Use [executive equity grants by stage](/library/equity/executive-grants-by-stage/) for VP and C-level bands. Empty cell if the source did not publish that seat.

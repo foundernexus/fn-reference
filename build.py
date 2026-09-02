@@ -164,7 +164,7 @@ def render_markdown(src: str) -> str:
                 i += 1
             inner_html = render_markdown("\n".join(buf))
             if kind in ("takeaways", "takeaway"):
-                label = label.strip() or "Need to know"
+                label = label.strip() or "In short"
                 out.append(
                     f'<aside class="takeaways"><p class="takeaways-label">{html.escape(label)}</p>{inner_html}</aside>'
                 )

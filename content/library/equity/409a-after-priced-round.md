@@ -23,6 +23,10 @@ A priced round is typically a material event under IRC §409A. Carta: reliance o
 
 ## What triggers a refresh
 
+:::highlight
+New raise, material event, or 12 months. Do not grant on a stale FMV.
+:::
+
 You need a current 409A before issuing options, after every new raise, after a material business event, and at least every 12 months (Kruze checklist, 17 September 2025). Carta: a third-party valuation is generally “good” for up to 12 months unless a material event, such as a new priced equity financing, makes the prior valuation stale.
 
 Promise Legal (updated 29 September 2025) publishes this timing table:

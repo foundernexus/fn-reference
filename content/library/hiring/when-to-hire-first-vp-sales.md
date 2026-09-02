@@ -24,6 +24,10 @@ The CRO Report’s shorthand is $1M–$2M ARR with a repeatable process the foun
 
 ## The sequence, not the title
 
+:::highlight
+Founder closes 10–20 paid deals. Then two sellers at quota. Then a leader who still sells.
+:::
+
 **Founder closes.** SaaStr: close at least 10–20 customers yourself before you hire a salesperson, so you can teach the motion. The CRO Report uses the same 10–20 closed-won deals, not trials, not free pilots.
 
 Two other conditions have to be true at the same time: you can describe first-call-to-close in steps with rough conversion, and you are losing deals to speed rather than product. If inbound sits for days because you are in board meetings, that is the bottleneck signal. If you have closed three deals and cannot name the buyer, a VP will spend six months running experiments you should have run, on a Seed/Series A base the CRO Report puts at $188k–$250k.
@@ -33,6 +37,10 @@ Two other conditions have to be true at the same time: you can describe first-ca
 **Then a leader who still sells.** The CRO Report: 272 of 1,501 VP Sales postings (18.1%) are “build from scratch” or first-sales-hire language. Most of those roles still carry a personal quota. A candidate who expects to arrive and only manage has the wrong job. Index, quoting Seedcamp’s Reshma Sohoni: at seed, role and title inflation is best avoided. Initial executive-level hires typically wait for Series A. UltraTalent’s Pre-Seed/Seed row is first sales hire at $140k base, $180k median OTE, 0.5–2.0% FD. Their first VP band is Series A to B.
 
 ## Where the sources sit
+
+:::highlight
+$1M–$2M ARR is used by two sources for two different jobs. Do not treat it as one seat.
+:::
 
 | Source | Hire a VP when | First sales seat if you are earlier |
 | --- | --- | --- |
@@ -47,6 +55,10 @@ The CRO Report and SaaStr both use $1M–$2M ARR. They do not mean the same seat
 
 ## What the first leader is paid
 
+:::highlight
+Pay the job in front of you. Seed first-sales cash is not Series A VP cash.
+:::
+
 Cash belongs to the job in front of you, not the title the candidate wants. The CRO Report Seed/Series A builder: $188k–$250k base, 0.5–2% equity; “build from scratch” subset averages $184k–$228k base (16 postings with salary in that cut). UltraTalent first sales hire at Pre-Seed/Seed: $140k base, $180k median OTE, 0.5–2.0% FD. UltraTalent first VP, Series A to B: $200k base, $325k median OTE, 0.60–1.00% FD. Index VP band at Series A: 0.3–0.8% FDE, sales at the low end.
 
 If the offer is UltraTalent VP cash on a seed first-sales job, you are stacking stages. Write the grant on [executive equity grants by stage](/library/equity/executive-grants-by-stage/).
@@ -54,6 +66,10 @@ If the offer is UltraTalent VP cash on a seed first-sales job, you are stacking 
 The CRO Report: do not title a 10-person company with no revenue org a CRO. You need a sales leader who might become CRO later. Comp at Seed/Series A for VP and CRO postings in their CRO-timing piece is nearly the same; the difference is the expectation, not the base.
 
 ## Mistakes that waste a year
+
+:::highlight
+Do not hire a scaler to build, skip the IC phase, or disappear on day one.
+:::
 
 **Hiring a scaler to build.** The CRO Report: the Salesforce VP who ran 200 people is not the person who builds from zero. Seed/Series A postings emphasize build. Series B/C emphasize scale. Those are different people. A FounderNexus session put the same split on tenure: the 0–10 operator is often not the 10–50 operator. Say the phase in the offer. Do not paper over it with a true-VP percentage.
 
