@@ -1,20 +1,21 @@
 ---
-title: Executive equity grants by stage
-description: What to offer a first VP at seed, Series A, and Series B. For founders writing the grant, not candidates hunting salary.
+title: How much equity to give a VP of Sales (by stage)
+description: Seed through Series B equity bands for a first VP of Sales and peer roles. Cited Index, UltraTalent, CRO Report. For founders writing the grant.
 slug: executive-grants-by-stage
 section: library
 cluster: equity
 layout: article
 target_query: how much equity to give VP of sales startup
 date: 2026-08-29
+updated: 2026-09-04
 close: Public ranges are a starting point. If you want the number in the offer pressure-tested by founders who just made this hire, that conversation happens at FounderNexus.
 disclaimer: not-legal-tax
 draft: false
 ---
 
-A first sales leader at seed is typically 0.5–2.0% fully diluted. A Series A VP sits at 0.3–0.8% on Index’s rule of thumb: engineering and product at the high end, finance, people, and sales at the low end. Vesting is four years, one-year cliff, monthly after that. Sources disagree at Series B sales, so the table shows those bands separately rather than averaging them.
+How much equity to give a VP of Sales depends on stage and whether the seat is a bag-carrying first sales hire or a true VP. A first sales leader at seed is typically 0.5–2.0% fully diluted. A Series A VP sits at 0.3–0.8% on Index’s rule of thumb: engineering and product at the high end, finance, people, and sales at the low end. Vesting is four years, one-year cliff, monthly after that. Sources disagree at Series B sales, so the table shows those bands separately rather than averaging them.
 
-You are the founder writing the grant. Percentages are fully diluted. Not legal, tax, or compensation advice.
+You are the founder writing the grant. Percentages are fully diluted. The table covers Sales plus Eng, Product, Finance, and People so you can keep peer grants coherent. Not legal, tax, or compensation advice.
 
 :::takeaways
 - Seed first sales leader: 0.5–2.0% fully diluted (UltraTalent, CRO Report).
