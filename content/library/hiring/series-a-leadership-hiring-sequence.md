@@ -37,13 +37,13 @@ Following Series A, Index expects roughly four executives: three at VP level and
 Show each source. Do not average Sales-first and Eng-first into one order.
 :::
 
-| Source | First leadership hire after Series A | What triggers it |
-| --- | --- | --- |
-| Majhi Group, B2B SaaS benchmarks (June 2026) | VP Sales / CRO (months 1–4) | Board funded growth; commercial leader before burn runs down. Then Eng (3–8), Marketing (6–12), People (9–18), CFO (12–24 or pre-B). |
-| Majhi Group, by sector | AI/ML and DevTools: VP Eng (or VP AI). Fintech: VP Eng or CFO. B2B SaaS: VP Sales. | Sector column, not one universal ladder. |
-| Nxt Level | VP Engineering or Head of Product at Series A | Founder spending 50%+ of the week on one function. Round alone is not the trigger. |
-| Ready Set Exec | The single most acute bottleneck | Product-led with no commercial motion → VP Sales / CRO. Strong commercial, eng cannot scale → CTO / VP Eng. Both capable, ops efficiency dropping → CFO / COO. Sequential, not simultaneous. |
-| Index Ventures | Initial executive-level hires at Series A; seed avoids title inflation | Stage table: customer-facing and exec seats arrive with the A, not a ranked month-by-month list. |
+| Source | What they say about the first seat |
+| --- | --- |
+| Majhi Group, B2B SaaS benchmarks (June 2026) | First: VP Sales / CRO (months 1–4), after the board funded growth. Then Eng (3–8), Marketing (6–12), People (9–18), CFO (12–24 or pre-B). |
+| Majhi Group, by sector | First seat flips: AI/ML and DevTools start with VP Eng (or VP AI); Fintech with VP Eng or CFO; B2B SaaS with VP Sales. Not one universal ladder. |
+| Nxt Level | VP Engineering or Head of Product at Series A, when the founder spends 50%+ of the week on one function. The round alone is not the trigger. |
+| Ready Set Exec | Hire the single most acute bottleneck. Product-led with no commercial motion: VP Sales / CRO. Strong commercial, eng cannot scale: CTO / VP Eng. Both capable, ops efficiency dropping: CFO / COO. Sequential, not simultaneous. |
+| Index Ventures | Initial executive-level hires at Series A; avoid title inflation at seed. Customer-facing and exec seats arrive with the A. Stage and count, not a ranked month list. |
 
 Empty cells are intentional. Index publishes stage and count. Majhi and Ready Set Exec publish order logic. Nxt Level publishes a founder-time trigger. Keep them separate when your board asks “who first?”
 
