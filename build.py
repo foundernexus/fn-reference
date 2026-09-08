@@ -384,6 +384,7 @@ def base(
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="{url('/')}">
+      <span class="brand-mark" aria-hidden="true"></span>
       <span class="brand-wordmark">{html.escape(SITE_NAME)}</span>
     </a>
     <nav class="nav-links" aria-label="Sections">
@@ -395,6 +396,7 @@ def base(
 <footer class="site-footer">
   <div class="wrap">
     <p class="footer-name">{html.escape(SITE_NAME)}</p>
+    <p class="footer-pub">An independent library of decision pages for venture-scale founders.</p>
     <p class="footer-links">
       <a href="{url('/library/')}">Library</a>
       <a href="{url('/tools/')}">Tools</a>
@@ -529,10 +531,21 @@ def render_home(pages: list[dict]) -> str:
 </a>"""
         )
     body = f"""<main id="main">
-  <section class="page-hero">
+  <section class="page-hero home-hero">
     <div class="wrap">
+      <p class="eyebrow">{html.escape(SITE_NAME)}</p>
       <h1>{html.escape(TAGLINE.rstrip('.'))}</h1>
       <p class="lead">Public ranges, tables, and calculators for the grants and hires you write. One challenge at a time.</p>
+    </div>
+  </section>
+  <section class="how-strip" aria-label="How these pages work">
+    <div class="wrap">
+      <p class="how-strip-label">How these pages work</p>
+      <ul class="how-strip-list">
+        <li><strong>One challenge</strong> Each page covers a single decision, not a curriculum.</li>
+        <li><strong>Cited ranges</strong> Tables and bands stay attributed to the source that published them.</li>
+        <li><strong>Disagreements shown</strong> When sources conflict, the page shows the split instead of averaging it away.</li>
+      </ul>
     </div>
   </section>
   <section class="section">
