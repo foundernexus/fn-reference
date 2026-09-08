@@ -19,7 +19,7 @@ Tool sibling: /tools/executive-equity-calculator
 6. NRR, magic number, CAC payback, Rule of 40
 7. How to run a Series A board meeting
 8. Independent director: when, who, equity
-9. YPO vs EO vs Hampton vs a venture-scale room (park until topical pages exist)
+9. YPO vs EO vs Hampton vs a venture-scale room (shipped 2026-09-08 as /compare/ypo-vs-hampton-vs-venture-scale-room/)
 10. Fractional vs full-time CFO
 
 ## IA
@@ -50,7 +50,7 @@ foundernexus.com/ → Apply product
 17. Independent director: when, who, equity
 18. Fractional vs full-time CFO
 19. Founder rooms hub
-20. YPO vs EO vs Hampton vs venture-scale room
+20. YPO vs EO vs Hampton vs venture-scale room (done 2026-09-08)
 21. Executive coaching vs founder peer group
 22. Fundraising hub + Series A diligence checklist
 

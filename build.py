@@ -54,6 +54,7 @@ SECTIONS = {
 NAV_ITEMS = [
     ("library", "Library", "/library/"),
     ("tools", "Tools", "/tools/"),
+    ("compare", "Compare", "/compare/"),
     ("about", "About", "/about/"),
 ]
 

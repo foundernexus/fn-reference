@@ -13,5 +13,6 @@ Track what shipped, the query it should rank for, and the last review. Weekly re
 | 2026-09-02 | /library/hiring/when-to-hire-first-vp-sales/ | when to hire VP of sales startup | 2026-09-04 | SERP: CRO Report, Pepper Effect, SaaStr-adjacent. Phase-hire judgment aligns with internal session source. |
 | 2026-09-07 | /library/hiring/series-a-leadership-hiring-sequence/ | Series A leadership hiring sequence |  | Second hiring spoke. Cite Index, Majhi, Nxt Level, Ready Set Exec, Kruze. Hire-for-phase via FounderNexus session. |
 | 2026-09-08 | /library/hiring/ | when to hire executives startup |  | Editorial hub. Orients VP Sales + Series A sequence spokes; composite cited sequence table; equity sibling links. SERP: Norman, Key Search, workfully, HSG, Ready Set Exec / Majhi adjacent. |
+| 2026-09-08 | /compare/ypo-vs-hampton-vs-venture-scale-room/ | YPO vs Hampton vs EO founder community | 2026-09-08 | Fair rooms compare. YPO/EO/Hampton/Vistage/Powderkeg/FounderNexus from org pages. Empty dues. FN quiet close only. |
 
 FounderNexus links use `utm_source=founderdecisions&utm_medium=referral&utm_campaign=library` so HubSpot can see the referral once the site is public.
