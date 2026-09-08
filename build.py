@@ -457,9 +457,10 @@ def related_block(page: dict, by_key: dict[str, dict]) -> str:
         for o in items
     )
     return (
-        '<section class="section related-section">'
+        '<section class="section related-section" aria-label="Related">'
         '<div class="article-width">'
-        f"<h2>Related</h2><ul class=\"page-list\">{lis}</ul>"
+        f'<h2 class="related-heading">Related</h2>'
+        f'<ul class="page-list">{lis}</ul>'
         "</div></section>"
     )
 
