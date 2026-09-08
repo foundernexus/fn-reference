@@ -123,15 +123,24 @@ def _scalar(val: str):
 
 
 def inline_md(text: str) -> str:
+    # Capture markdown links before escape so query-string & is not double-encoded
+    # into &amp;amp; inside hrefs.
+    links: list[tuple[str, str]] = []
+
+    def _park_link(m: re.Match) -> str:
+        links.append((m.group(1), m.group(2)))
+        return f"\x00MDLINK{len(links) - 1}\x00"
+
+    text = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", _park_link, text)
     text = html.escape(text)
     text = re.sub(r"`([^`]+)`", r"<code>\1</code>", text)
     text = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
     text = re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", r"<em>\1</em>", text)
-    text = re.sub(
-        r"\[([^\]]+)\]\(([^)]+)\)",
-        lambda m: f'<a href="{html.escape(m.group(2), quote=True)}">{m.group(1)}</a>',
-        text,
-    )
+    for i, (label, href) in enumerate(links):
+        text = text.replace(
+            f"\x00MDLINK{i}\x00",
+            f'<a href="{html.escape(href, quote=True)}">{html.escape(label)}</a>',
+        )
     return text
 
 

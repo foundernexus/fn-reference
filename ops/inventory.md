@@ -11,6 +11,7 @@ Track what shipped, the query it should rank for, and the last review. Weekly re
 | 2026-09-01 | /tools/option-pool-shuffle-calculator/ | option pool shuffle calculator | 2026-09-04 | SERP: MetricKit, freestartupfunding, Tekk already have calculators. Need indexing + side-by-side clarity to compete. |
 | 2026-09-02 | /library/equity/409a-after-priced-round/ | 409A after funding round | 2026-09-04 | SERP: 409a-valuation.com guides. Ours cites Carta/Kruze/Promise with freeze→grant sequence. |
 | 2026-09-02 | /library/hiring/when-to-hire-first-vp-sales/ | when to hire VP of sales startup | 2026-09-04 | SERP: CRO Report, Pepper Effect, SaaStr-adjacent. Phase-hire judgment aligns with internal session source. |
-| 2026-09-07 | /library/hiring/series-a-leadership-hiring-sequence/ | Series A leadership hiring sequence |  | Second hiring spoke. Cite Index, Majhi, Nxt Level, Ready Set Exec, Kruze. Hire-for-phase via FounderNexus session. Hub still deferred until editorial hub is intentional. |
+| 2026-09-07 | /library/hiring/series-a-leadership-hiring-sequence/ | Series A leadership hiring sequence |  | Second hiring spoke. Cite Index, Majhi, Nxt Level, Ready Set Exec, Kruze. Hire-for-phase via FounderNexus session. |
+| 2026-09-08 | /library/hiring/ | when to hire executives startup |  | Editorial hub. Orients VP Sales + Series A sequence spokes; composite cited sequence table; equity sibling links. SERP: Norman, Key Search, workfully, HSG, Ready Set Exec / Majhi adjacent. |
 
 FounderNexus links use `utm_source=founderdecisions&utm_medium=referral&utm_campaign=library` so HubSpot can see the referral once the site is public.
