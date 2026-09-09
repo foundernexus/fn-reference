@@ -42,7 +42,7 @@ foundernexus.com/ → Apply product
 9. Series A leadership hiring sequence
 10. Finance, metrics & runway hub
 11. Runway calculator with hiring plan
-12. Burn multiple vs Rule of 40
+12. Burn multiple vs Rule of 40 (done 2026-09-09 → /library/finance/burn-multiple-vs-rule-of-40/)
 13. Magic number & CAC payback calculator
 14. NRR vs GRR for the board pack
 15. Board & governance hub
