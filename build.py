@@ -69,6 +69,11 @@ CLUSTERS = {
         "title": "Hiring executives",
         "description": "When the first VP is actually a VP, and when it is still a founder-led motion.",
     },
+    "finance": {
+        "section": "library",
+        "title": "Finance, metrics & runway",
+        "description": "Burn multiple, Rule of 40, and the efficiency metrics boards ask for before runway math.",
+    },
 }
 
 
@@ -244,9 +249,14 @@ def render_markdown(src: str) -> str:
 
 
 def _looks_numeric(text: str) -> bool:
-    stripped = re.sub(r"[¹²³⁴⁵⁶⁷⁸⁹⁰*†‡\s]", "", text)
-    stripped = stripped.replace("{br}", "")
-    return bool(re.search(r"[\d$%]|—", stripped))
+    """Mark short figure cells for nowrap. Skip prose that merely contains a year or digit."""
+    plain = re.sub(r"[¹²³⁴⁵⁶⁷⁸⁹⁰*†‡]", "", text).replace("{br}", " ").strip()
+    if len(plain) > 40:
+        return False
+    if not re.search(r"[\d$%×]|—", plain):
+        return False
+    letters = len(re.findall(r"[A-Za-z]", plain))
+    return letters <= 8
 
 
 def _render_table(rows: list[str]) -> str:
