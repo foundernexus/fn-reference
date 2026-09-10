@@ -72,7 +72,7 @@ CLUSTERS = {
     "finance": {
         "section": "library",
         "title": "Finance, metrics & runway",
-        "description": "Burn multiple, Rule of 40, and the efficiency metrics boards ask for before runway math.",
+        "description": "Runway with a hiring plan, burn multiple, Rule of 40, and the efficiency metrics boards ask for.",
     },
 }
 

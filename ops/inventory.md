@@ -16,5 +16,6 @@ Track what shipped, the query it should rank for, and the last review. Weekly re
 | 2026-09-08 | /compare/ypo-vs-hampton-vs-venture-scale-room/ | YPO vs Hampton vs EO founder community | 2026-09-08 | Fair rooms compare. YPO/EO/Hampton/Vistage/Powderkeg/FounderNexus from org pages. Empty dues. FN quiet close only. |
 
 | 2026-09-09 | /library/finance/burn-multiple-vs-rule-of-40/ | burn multiple vs rule of 40 |  | First finance spoke (hub deferred until two spokes). Cite Sacks/Craft, Feld, Bessemer Rule of X. |
+| 2026-09-10 | /tools/runway-calculator/ | startup runway calculator hiring plan |  | Finance tool. Cite PG default alive/dead, Kruze rolling cash forecast, Carta Q1 2024 round timing. |
 
 FounderNexus links use `utm_source=founderdecisions&utm_medium=referral&utm_campaign=library` so HubSpot can see the referral once the site is public.

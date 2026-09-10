@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Runway calculator with hiring plan · Founder Decisions</title>
+<meta name="description" content="Turn cash, burn, revenue growth, and a hire ladder into snapshot runway, months to cash-out, and a Paul Graham–style default alive or default dead read. Labeled hypothetical. Not advice.">
+<link rel="canonical" href="https://founderdecisions.com/tools/runway-calculator/">
+<meta property="og:title" content="Runway calculator with hiring plan · Founder Decisions">
+<meta property="og:description" content="Turn cash, burn, revenue growth, and a hire ladder into snapshot runway, months to cash-out, and a Paul Graham–style default alive or default dead read. Labeled hypothetical. Not advice.">
+<meta property="og:url" content="https://founderdecisions.com/tools/runway-calculator/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Founder Decisions">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/favicon.png" type="image/png" sizes="32x32">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/site.css?v=e0918410">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-wordmark">Founder Decisions</span>
+    </a>
+    <nav class="nav-links" aria-label="Sections">
+      <a href="/library/">Library</a><a href="/tools/" class="is-active">Tools</a><a href="/compare/">Compare</a><a href="/about/">About</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section class="page-hero">
+    <div class="article-width">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/tools/">Tools</a><span aria-hidden="true">/</span><a href="/library/finance/">Finance, metrics &amp; runway</a><span aria-hidden="true">/</span><span>Runway calculator with hiring plan</span></nav>
+      <p class="eyebrow">Finance, metrics &amp; runway · 2026-09-10</p>
+      <h1>Runway calculator with hiring plan</h1>
+      <p class="lead">Turn cash, burn, revenue growth, and a hire ladder into snapshot runway, months to cash-out, and a Paul Graham–style default alive or default dead read. Labeled hypothetical. Not advice.</p>
+    </div>
+  </section>
+  <article class="prose article-width">
+    <p>Enter cash, current revenue and expenses, a growth rate, and a planned hire ladder. You get snapshot runway (ignore hiring and growth), months to cash-out with the plan, and whether this model is default alive or default dead before cash hits zero. Not legal, tax, or investment advice.</p>
+<aside class="takeaways"><p class="takeaways-label">In short</p><ul><li>Snapshot runway = cash ÷ monthly net burn (Kruze). Net burn = cash out − cash in. If net burn ≤ 0 at today’s run-rate, you are not burning.</li><li>A forecast without the hire ladder is a guess. Kruze: headcount is often 60–80% of burn.</li><li>Paul Graham (2015): default alive means, if expenses stay constant and recent revenue growth continues, you reach profitability on the cash you have. Default dead means you do not. Hiring too fast is by far the biggest killer of startups that raise money.</li><li>Carta Q1 2024: median Seed→A was 766 days; A→B was 824 days. Longer waits mean more runway required.</li><li>Use cash, not only P&amp;L. Average net burn over the last 3–6 months when you set the starting point (Kruze).</li></ul></aside>
+<h2 id="what-it-models">What it models</h2>
+<aside class="highlight"><p>Constant base expenses plus an explicit hire ladder, with revenue compounding monthly.</p></aside>
+<p>Month zero is cash on hand, current monthly revenue, and current monthly expenses before planned hires. Each later month grows revenue by your growth %, adds fully loaded cost for every hire whose start month has arrived, holds other expenses flat, and updates cash by revenue minus expenses.</p>
+<p>That matches Paul Graham’s “expenses remain constant” test, with the hiring plan as the one expense path you choose to change. It is not Trevor Blackwell’s calculator that PG points to. It is a browser tool for the same question with your hire dates typed in.</p>
+<h2 id="snapshot-runway-vs-trajectory">Snapshot runway vs trajectory</h2>
+<aside class="highlight"><p>Snapshot is a static ratio. Trajectory asks whether you cross to profitable before cash runs out.</p></aside>
+<div class="table-wrap"><table><thead><tr><th>Term</th><th>Definition</th><th>Source</th></tr></thead><tbody><tr><td>Gross burn</td><td>Cash out for the period</td><td>Kruze Consulting, 22 Feb 2026</td></tr><tr><td>Net burn</td><td>Cash out − cash in</td><td>Kruze Consulting, 22 Feb 2026</td></tr><tr><td>Runway (months)</td><td>Cash ÷ monthly net burn</td><td>Kruze Consulting, 22 Feb 2026</td></tr><tr><td>Default alive</td><td>On constant expenses and recent revenue growth, reach profitability before cash runs out</td><td>Paul Graham, Oct 2015</td></tr><tr><td>Default dead</td><td>Same assumptions; you do not reach profitability on the cash left</td><td>Paul Graham, Oct 2015</td></tr></tbody></table></div>
+<p>Kruze’s worked example: $4.2M cash ÷ $350k net burn = 12 months; at $280k burn → 15 months. Snapshot runway in this tool is that ratio with hiring and growth turned off.</p>
+<p>Paul Graham’s question is different. Assume expenses stay constant and revenue keeps growing as it has in recent months. Do you hit profitability on the cash you have? If yes, default alive. If no, default dead. The fatal pinch is default dead plus slow growth plus not enough time to fix it. He also notes Airbnb waited four months after raising at the end of YC before the first employee.</p>
+<p>Carta’s State of Private Markets Q1 2024: median time between rounds lengthened (Seed→A 766 days; A→B 824 days in that quarter). Their piece frames a longer A→B wait versus an earlier cycle as needing more runway (on the order of three more months in their comparison). Longer fundraising clocks raise the bar on how much cash you need under either read.</p>
+<h2 id="hiring-plan-as-burn-plan">Hiring plan as burn plan</h2>
+<aside class="highlight"><p>Most burn is people. Model start dates, not hope dates.</p></aside>
+<p>Kruze: headcount often runs 60–80% of total burn. A rolling 18-month cash forecast without the hire plan is not a forecast. They cite a US SBA rule of thumb for fully loaded cost of about 1.25–1.4× base salary. Build that into the monthly cost per hire field. Assume future hires start a month or two later than the date on the slide.</p>
+<p>Spacing matters. Three hires in month two is a different cash path than one hire every other month. PG’s warning that hiring too fast is the biggest killer of startups that raise money is the same problem in operator language.</p>
+<h2 id="labeled-hypothetical">Labeled hypothetical</h2>
+<p>Not a company. Scaled to Kruze’s $4.2M / ~$350k example.</p>
+<p>Cash $4.2M. Revenue $80k. Expenses before planned hires $430k (so starting net burn $350k). Monthly revenue growth 8%. Three hires at $18k fully loaded per month each. First starts in month 2, then one per month. Horizon 18 months. Load those defaults. Read snapshot versus plan, then whether revenue covers expenses before cash hits zero. Replace every input with your numbers before you take anything to a board.</p>
+<h2 id="board-uses">Board uses</h2>
+<aside class="highlight"><p>Put both the static months and the alive/dead call in the pack with the hire dates.</p></aside>
+<p>Show snapshot runway so everyone shares the same cash ÷ net burn starting point. Show the hire ladder and the month cash would hit zero if the plan runs. Show whether this model crosses to revenue ≥ expenses before that month. If Carta-style round timing is stretching, say how many months of buffer you are buying. Tie efficiency reads (burn multiple, Rule of 40) to a sibling page. Do not present a single “runway” number when the hire plan is still open.</p>
+<h2 id="mistakes">Mistakes</h2>
+<ul><li>Treating snapshot runway as the plan when three hires are already verbal-offered.</li><li>Using P&amp;L burn and ignoring cash timing (Kruze: use cash; average the last 3–6 months of net burn when you set the start).</li><li>Booking hire starts on the recruiting slide date instead of a month or two later.</li><li>Calling the company default alive because last month’s growth looked fine while the hire plan doubles expenses before revenue catches up.</li><li>Inventing round-timing benchmarks. Cite Carta’s published medians or leave the cell empty.</li></ul>
+<h2 id="sources">Sources</h2>
+<ul><li><a href="http://paulgraham.com/aord.html">Paul Graham, Default Alive or Default Dead?</a>. October 2015. Default alive vs default dead; hiring too fast; Airbnb’s four-month wait; fatal pinch; points to Trevor Blackwell’s calculator.</li><li><a href="https://kruzeconsulting.com/blog/build-a-rolling-cash-forecast/">Kruze Consulting, Build a Rolling Cash Forecast to Maximize Startup Runway</a>. 22 February 2026. Gross vs net burn; runway = cash ÷ monthly net burn; $4.2M / $350k example; headcount 60–80% of burn; rolling 18-month forecast; SBA fully loaded 1.25–1.4×; recruiting slips; cash over P&amp;L.</li><li><a href="https://carta.com/sg/en/data/state-of-private-markets-q1-2024/">Carta, State of Private Markets Q1 2024</a>. Median Seed→A 766 days; A→B 824 days; longer waits imply more runway required.</li></ul>
+    <div id="runway-calculator" class="calc-mount"></div>
+    <p class="article-close">Runway and default-alive calls are board-visible. If you want founders who just lived that conversation to pressure-test your hiring plan against the cash left, that conversation happens at <a href="https://www.foundernexus.com?utm_source=founderdecisions&amp;utm_medium=referral&amp;utm_campaign=library">FounderNexus</a>.</p>
+  </article>
+  <section class="section related-section" aria-label="Related"><div class="article-width"><h2 class="related-heading">Related</h2><ul class="page-list"><li><a href="/library/finance/burn-multiple-vs-rule-of-40/"><span class="list-title">Burn multiple vs Rule of 40</span><p class="list-desc">Burn multiple is the early-stage efficiency read. Rule of 40 is the later balance of growth and margin. Show both formulas, cited bands, and when each belongs in the board pack.</p></a></li><li><a href="/tools/option-pool-shuffle-calculator/"><span class="list-title">Option pool shuffle calculator</span><p class="list-desc">See who takes the dilution when a term sheet tops up the option pool pre-money versus post-money. Same headline pool percentage. Different owner of the dilution.</p></a></li></ul></div></section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="footer-name">Founder Decisions</p>
+    <p class="footer-pub">An independent library of decision pages for venture-scale founders.</p>
+    <p class="footer-links">
+      <a href="/library/">Library</a>
+      <a href="/tools/">Tools</a>
+      <a href="/about/">About</a>
+    </p>
+  </div>
+</footer>
+<script src="/assets/js/runway-calculator.js?v=69852266" defer></script>
+</body>
+</html>
