@@ -496,7 +496,7 @@ a.card:hover {
 .list-title { font-weight: 600; font-size: 17px; }
 .list-desc { flex-basis: 100%; color: var(--muted); font-size: 14px; margin: 0; }
 
-/* Tables — scannable, numeric nowrap, room to breathe */
+/* Tables — scannable, sticky first col, quiet header chrome */
 .table-wrap {
   overflow-x: auto;
   margin: 8px 0 16px;
@@ -506,14 +506,15 @@ a.card:hover {
 }
 table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0;
   font-size: 15px;
   font-variant-numeric: tabular-nums;
   min-width: 0;
 }
 th, td {
   text-align: left;
-  padding: 14px 20px;
+  padding: 12px 18px;
   border-bottom: 1px solid var(--border-subtle);
   vertical-align: top;
   line-height: 1.5;
@@ -522,17 +523,42 @@ th, td {
   hyphens: auto;
 }
 tbody tr:last-child td { border-bottom: 0; }
+tbody tr:hover td {
+  background: var(--pale);
+}
 th {
   font-weight: 600;
   font-size: 12px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
+  text-transform: none;
   background: var(--pale);
-  color: var(--muted);
+  color: var(--navy);
+  border-bottom: 1px solid var(--border);
 }
 th:first-child,
 td:first-child {
   width: 28%;
   min-width: 9rem;
+  font-weight: 600;
+  color: var(--navy);
+}
+/* Keep source/role labels visible while scanning wide grids */
+@media (min-width: 720px) {
+  th:first-child,
+  td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background: var(--white);
+    box-shadow: 1px 0 0 var(--border-subtle);
+  }
+  th:first-child {
+    background: var(--pale);
+    z-index: 2;
+  }
+  tbody tr:hover td:first-child {
+    background: var(--pale);
+  }
 }
 td.num {
   white-space: nowrap;
