@@ -44,7 +44,7 @@ foundernexus.com/ → Apply product
 11. Runway calculator with hiring plan (done 2026-09-10 → /tools/runway-calculator/)
 12. Burn multiple vs Rule of 40 (done 2026-09-09 → /library/finance/burn-multiple-vs-rule-of-40/)
 13. Magic number & CAC payback calculator (done 2026-09-11 → /tools/magic-number-cac-payback-calculator/)
-14. NRR vs GRR for the board pack
+14. NRR vs GRR for the board pack (done 2026-09-14 → /library/finance/nrr-vs-grr-board-pack/)
 15. Board & governance hub
 16. Series A board meeting agenda
 17. Independent director: when, who, equity

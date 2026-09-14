@@ -606,7 +606,8 @@ caption {
   margin: 0 0 14px;
   padding-left: 18px;
 }
-.takeaways li { margin: 0 0 8px; }
+.takeaways li { margin: 0 0 10px; line-height: 1.55; }
+.takeaways li:last-child { margin-bottom: 2px; }
 .takeaways p:last-child { margin-bottom: 0; }
 
 .highlight {
