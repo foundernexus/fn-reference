@@ -375,6 +375,68 @@ def _github_contents(path: str) -> tuple[int, bytes]:
         return e.code, e.read()
 
 
+INTERNAL_SOURCE_HOSTS = (
+    "startup-bible-theta.vercel.app",
+    "startup-bible",
+)
+PUBLIC_SESSION_SOURCE_URL = PUBLISHER_URL
+PUBLIC_SESSION_SOURCE_LABEL = "FounderNexus session"
+
+
+def _is_internal_source_url(url: str) -> bool:
+    u = (url or "").lower()
+    return any(h in u for h in INTERNAL_SOURCE_HOSTS)
+
+
+def _scrub_internal_source_text(text: str) -> str:
+    """Remove Startup Bible URLs/names from public copy. Keep FounderNexus session framing."""
+    if not text:
+        return text
+    import re
+    out = text
+    # Drop "Playbook: <bible-url>" tails
+    out = re.sub(
+        r"(?i)\s*Playbook:\s*https?://startup-bible-theta\.vercel\.app\S*",
+        "",
+        out,
+    )
+    out = re.sub(
+        r"(?i)https?://startup-bible-theta\.vercel\.app\S*",
+        PUBLIC_SESSION_SOURCE_URL,
+        out,
+    )
+    out = re.sub(r"(?i)The Startup Bible", "a FounderNexus session", out)
+    out = re.sub(r"(?i)Startup Bible", "FounderNexus session", out)
+    return out.strip()
+
+
+def sanitize_decision_page(page: dict) -> dict:
+    """Public pages must never show Startup Bible URLs or names. Internal-only source."""
+    import copy
+    page = copy.deepcopy(page)
+    src = str(page.get("source_url") or "")
+    if _is_internal_source_url(src):
+        page["source_url"] = PUBLIC_SESSION_SOURCE_URL
+        page["source_label"] = PUBLIC_SESSION_SOURCE_LABEL
+    # Scrub nested strings in blocks / FAQ
+    def walk(obj):
+        if isinstance(obj, dict):
+            return {k: walk(v) for k, v in obj.items()}
+        if isinstance(obj, list):
+            return [walk(v) for v in obj]
+        if isinstance(obj, str):
+            return _scrub_internal_source_text(obj)
+        return obj
+    page["blocks"] = walk(page.get("blocks") or [])
+    for key in ("meta_description", "title", "stage_label"):
+        if isinstance(page.get(key), str):
+            page[key] = _scrub_internal_source_text(page[key])
+    fn = page.get("fn_link")
+    if isinstance(fn, dict):
+        page["fn_link"] = walk(fn)
+    return page
+
+
 def fetch_decision_json() -> list[dict]:
     """Load renders/founderdecisions/**/*.json from fn-content. 404 => no pages yet."""
     code, body = _github_contents(FN_RENDERS_DIR)
@@ -428,7 +490,7 @@ def fetch_decision_json() -> list[dict]:
             raise SystemExit(f"invalid JSON {item['path']}: {e}") from e
         if not isinstance(data, dict) or not data.get("slug"):
             raise SystemExit(f"{item['path']} missing slug")
-        pages.append(data)
+        pages.append(sanitize_decision_page(data))
     return pages
 
 
@@ -515,9 +577,10 @@ def render_decision_json(page: dict) -> str:
         )
     source = ""
     if page.get("source_url"):
+        label = page.get("source_label") or page.get("source_url")
         source = (
             f'<p class="meta">Source: <a href="{html.escape(str(page["source_url"]), quote=True)}">'
-            f'{html.escape(str(page.get("source_url")))}</a>'
+            f'{html.escape(str(label))}</a>'
             f' · {html.escape(str(page.get("source_date") or ""))}</p>'
         )
     body = f"""<main id="main">
