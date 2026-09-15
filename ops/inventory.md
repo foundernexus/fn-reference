@@ -16,6 +16,7 @@ Track what shipped, the query it should rank for, and the last review. Weekly re
 | 2026-09-10 | /tools/runway-calculator/ | startup runway calculator hiring plan | 2026-09-11 | Finance tool. Cite PG default alive/dead, Kruze rolling cash forecast, Carta Q1 2024 round timing. |
 | 2026-09-11 | /tools/magic-number-cac-payback-calculator/ | saas magic number cac payback calculator | 2026-09-11 | Finance tool. Cite Scale magic number (0.7 median), ChartMogul payback + bands, Bessemer segment targets + SotC 2023 ladder. |
 | 2026-09-14 | /library/finance/nrr-vs-grr-board-pack/ | nrr vs grr saas | 2026-09-14 | Second finance spoke (hub deferred). Cite ChartMogul formulas + Dec 2025 median, SaaS Capital RB28, Bessemer SotC 2019 / Scaling / churn. |
+| 2026-09-15 | /library/board/series-a-board-meeting-agenda/ | how to run a Series A board meeting | 2026-09-15 | First board spoke (hub deferred). Cite Lightspeed/Unusual, Feld, CRV. Decision-first timed agenda. |
 FounderNexus links use `utm_source=founderdecisions&utm_medium=referral&utm_campaign=library` so HubSpot can see the referral once the site is public.
 
 Weekly 2026-09-11 indexing: requested for runway-calculator, hiring hub, rooms compare, finance hub (magic-number already queued earlier same day). Burn-multiple already on Google. Indexing coverage: 11 indexed / 6 not indexed (3 redirect, 2 discovered-not-indexed, 1 crawled-not-indexed).

@@ -46,7 +46,7 @@ foundernexus.com/ → Apply product
 13. Magic number & CAC payback calculator (done 2026-09-11 → /tools/magic-number-cac-payback-calculator/)
 14. NRR vs GRR for the board pack (done 2026-09-14 → /library/finance/nrr-vs-grr-board-pack/)
 15. Board & governance hub
-16. Series A board meeting agenda
+16. Series A board meeting agenda (done 2026-09-15 → /library/board/series-a-board-meeting-agenda/)
 17. Independent director: when, who, equity
 18. Fractional vs full-time CFO
 19. Founder rooms hub

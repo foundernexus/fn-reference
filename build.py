@@ -79,6 +79,11 @@ CLUSTERS = {
         "title": "Finance, metrics & runway",
         "description": "Runway with a hiring plan, burn multiple, Rule of 40, and the efficiency metrics boards ask for.",
     },
+    "board": {
+        "section": "library",
+        "title": "Board & governance",
+        "description": "Series A board cadence, decision-first agendas, packs, and closed-session norms.",
+    },
 }
 
 
