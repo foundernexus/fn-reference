@@ -64,5 +64,14 @@
   </div>
 </footer>
 
+<script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments);};</script>
+<script defer src="https://va.vercel-scripts.com/v1/script.js"></script>
+<script>
+document.addEventListener("click", function (e) {
+  var a = e.target && e.target.closest && e.target.closest("a[data-fn-click]");
+  if (!a || typeof window.va !== "function") return;
+  window.va("event", { name: "fn_click", data: { slug: a.getAttribute("data-fn-click") } });
+});
+</script>
 </body>
 </html>

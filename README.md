@@ -30,6 +30,17 @@ Do not invent ranges. Named public sources only. Empty cell if unknown. When sou
 
 Legal line once, short, on finance/legal pages: “Not legal, tax, or compensation advice.”
 
+## fn-content decision pages
+
+At build, `build.py` fetches `renders/founderdecisions/*.json` from `foundernexus/fn-content` using `FN_CONTENT_TOKEN` and writes one `/decisions/<slug>/` page per file (JSON-LD from `schema`, one `fn_link`). A 404 on that directory means zero pages, not a failed build. Other errors exit non-zero.
+
+```bash
+export FN_CONTENT_TOKEN=...   # fine-grained PAT, foundernexus/fn-content, contents: read
+python3 build.py
+```
+
+FounderNexus links fire a Vercel Web Analytics custom event `fn_click` with the page slug.
+
 ## Daily shipping workflow
 
 1. Add or edit a Markdown file under content/.
