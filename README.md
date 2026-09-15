@@ -2,7 +2,7 @@
 
 Decision pages for venture-scale founders. An editorial/reference property, not a FounderNexus marketing site.
 
-Local only. Canonical placeholder: https://founderdecisions.com. Matt McKinney (mattm@foundernexus.com) must approve anything public, any domain, and any BASE_PATH change in build.py. Do not deploy.
+Canonical host: https://founderdecisions.com. Built by `python3 build.py` (output `dist/`). Hosted on Vercel. `FN_CONTENT_TOKEN` is required at build.
 
 FounderNexus is named once as publisher, in the footer, like First Round Review. It is how some readers go deeper on a live decision. It is not the product of the page.
 
@@ -40,6 +40,8 @@ python3 build.py
 ```
 
 FounderNexus links fire a Vercel Web Analytics custom event `fn_click` with the page slug.
+
+Vercel: `vercel.json` runs `python3 build.py` and serves `dist/`. Set `FN_CONTENT_TOKEN` on the project (fine-grained PAT, foundernexus/fn-content, contents: read).
 
 ## Daily shipping workflow
 
