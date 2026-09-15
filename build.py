@@ -10,8 +10,12 @@ from __future__ import annotations
 
 import hashlib
 import html
+import json
+import os
 import re
 import shutil
+import urllib.error
+import urllib.request
 from datetime import date
 from pathlib import Path
 
@@ -342,6 +346,233 @@ def content_pages(pages: list[dict]) -> list[dict]:
 # HTML chrome
 # ---------------------------------------------------------------------------
 
+FN_CONTENT_REPO = "foundernexus/fn-content"
+FN_RENDERS_DIR = "renders/founderdecisions"
+
+
+def _github_contents(path: str) -> tuple[int, bytes]:
+    token = os.environ.get("FN_CONTENT_TOKEN")
+    if not token:
+        raise SystemExit(
+            "FN_CONTENT_TOKEN is required. Fine-grained PAT, foundernexus/fn-content, contents: read."
+        )
+    url = (
+        f"https://api.github.com/repos/{FN_CONTENT_REPO}/contents/{path}?ref=main"
+    )
+    req = urllib.request.Request(
+        url,
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Accept": "application/vnd.github+json",
+            "X-GitHub-Api-Version": "2022-11-28",
+            "User-Agent": "founderdecisions-build",
+        },
+    )
+    try:
+        with urllib.request.urlopen(req) as res:
+            return res.status, res.read()
+    except urllib.error.HTTPError as e:
+        return e.code, e.read()
+
+
+def fetch_decision_json() -> list[dict]:
+    """Load renders/founderdecisions/**/*.json from fn-content. 404 => no pages yet."""
+    code, body = _github_contents(FN_RENDERS_DIR)
+    if code == 404:
+        return []
+    if code != 200:
+        raise SystemExit(f"fetch {FN_RENDERS_DIR} failed: {code} {body[:400]!r}")
+    try:
+        items = json.loads(body)
+    except json.JSONDecodeError as e:
+        raise SystemExit(f"invalid JSON listing {FN_RENDERS_DIR}: {e}") from e
+    if not isinstance(items, list):
+        raise SystemExit(f"{FN_RENDERS_DIR} is not a directory listing")
+    files: list[dict] = []
+    queue = list(items)
+    while queue:
+        item = queue.pop(0)
+        if item.get("type") == "dir" and item.get("path"):
+            c2, b2 = _github_contents(item["path"])
+            if c2 == 404:
+                continue
+            if c2 != 200:
+                raise SystemExit(
+                    f"fetch {item['path']} failed: {c2} {b2[:400]!r}"
+                )
+            queue.extend(json.loads(b2))
+        elif str(item.get("name", "")).endswith(".json") and item.get("path"):
+            files.append(item)
+    pages: list[dict] = []
+    token = os.environ["FN_CONTENT_TOKEN"]
+    for item in files:
+        req = urllib.request.Request(
+            f"https://api.github.com/repos/{FN_CONTENT_REPO}/contents/{item['path']}?ref=main",
+            headers={
+                "Authorization": f"Bearer {token}",
+                "Accept": "application/vnd.github.raw",
+                "X-GitHub-Api-Version": "2022-11-28",
+                "User-Agent": "founderdecisions-build",
+            },
+        )
+        try:
+            with urllib.request.urlopen(req) as res:
+                raw = res.read().decode("utf-8")
+        except urllib.error.HTTPError as e:
+            raise SystemExit(
+                f"fetch {item['path']} failed: {e.code} {e.read()[:400]!r}"
+            ) from e
+        try:
+            data = json.loads(raw)
+        except json.JSONDecodeError as e:
+            raise SystemExit(f"invalid JSON {item['path']}: {e}") from e
+        if not isinstance(data, dict) or not data.get("slug"):
+            raise SystemExit(f"{item['path']} missing slug")
+        pages.append(data)
+    return pages
+
+
+def json_ld_for_decision(page: dict) -> str:
+    types = page.get("schema") or []
+    blocks = {b.get("type"): b for b in page.get("blocks") or [] if isinstance(b, dict)}
+    nodes: list[dict] = []
+    if "Article" in types:
+        nodes.append(
+            {
+                "@context": "https://schema.org",
+                "@type": "Article",
+                "headline": page.get("title"),
+                "description": page.get("meta_description") or page.get("title"),
+                "datePublished": page.get("source_date"),
+                "url": abs_url(f"/decisions/{page['slug']}/"),
+            }
+        )
+    if "FAQPage" in types:
+        faq = blocks.get("faq") or {}
+        items = faq.get("items") or []
+        nodes.append(
+            {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": it.get("q"),
+                        "acceptedAnswer": {"@type": "Answer", "text": it.get("a")},
+                    }
+                    for it in items
+                    if it.get("q")
+                ],
+            }
+        )
+    if not nodes:
+        return ""
+    payload = nodes[0] if len(nodes) == 1 else nodes
+    blob = json.dumps(payload, ensure_ascii=False).replace("<", "\\u003c")
+    return f'<script type="application/ld+json">{blob}</script>\n'
+
+
+def render_decision_json(page: dict) -> str:
+    slug = page["slug"]
+    blocks = page.get("blocks") or []
+    parts: list[str] = []
+    for b in blocks:
+        kind = b.get("type")
+        if kind == "situation":
+            parts.append(f"<p>{html.escape(str(b.get('text') or ''))}</p>")
+        elif kind == "options":
+            items = b.get("items") or []
+            lis = "".join(f"<li>{html.escape(str(it))}</li>" for it in items)
+            parts.append(f"<h2>Options</h2><ul>{lis}</ul>")
+        elif kind == "what_mattered":
+            items = b.get("items") or []
+            lis = "".join(f"<li>{html.escape(str(it))}</li>" for it in items)
+            parts.append(f"<h2>What mattered</h2><ul>{lis}</ul>")
+        elif kind == "what_was_done":
+            parts.append(
+                f"<h2>What was done</h2><p>{html.escape(str(b.get('text') or ''))}</p>"
+            )
+        elif kind == "claim":
+            parts.append(
+                f'<p class="claim">{html.escape(str(b.get("text") or ""))}</p>'
+            )
+        elif kind == "faq":
+            items = b.get("items") or []
+            dl = []
+            for it in items:
+                dl.append(
+                    f"<dt>{html.escape(str(it.get('q') or ''))}</dt>"
+                    f"<dd>{html.escape(str(it.get('a') or ''))}</dd>"
+                )
+            parts.append(f"<h2>FAQ</h2><dl>{''.join(dl)}</dl>")
+    fn = page.get("fn_link") or {}
+    fn_html = ""
+    if fn.get("href") and fn.get("text"):
+        fn_html = (
+            f'<p class="article-close"><a href="{html.escape(fn["href"], quote=True)}" '
+            f'data-fn-click="{html.escape(slug, quote=True)}">'
+            f'{html.escape(fn["text"])}</a></p>'
+        )
+    source = ""
+    if page.get("source_url"):
+        source = (
+            f'<p class="meta">Source: <a href="{html.escape(str(page["source_url"]), quote=True)}">'
+            f'{html.escape(str(page.get("source_url")))}</a>'
+            f' · {html.escape(str(page.get("source_date") or ""))}</p>'
+        )
+    body = f"""<main id="main">
+  <article class="article-width wrap" style="padding:48px 0">
+    {crumbs([("Home", url("/")), ("Decisions", url("/decisions/")), (page.get("title") or slug, None)])}
+    <p class="eyebrow">{html.escape(str(page.get("stage_label") or ""))}</p>
+    <h1>{html.escape(str(page.get("title") or slug))}</h1>
+    {"".join(parts)}
+    {fn_html}
+    {source}
+  </article>
+</main>"""
+    return base(
+        title=str(page.get("title") or slug),
+        description=str(page.get("meta_description") or page.get("title") or ""),
+        canonical_path=f"/decisions/{slug}/",
+        body=body,
+        extra_head=json_ld_for_decision(page),
+    )
+
+
+def render_decisions_index(pages: list[dict]) -> str:
+    if not pages:
+        listing = '<div class="empty"><p>No decision pages from fn-content yet.</p></div>'
+    else:
+        cards = []
+        for p in pages:
+            cards.append(
+                f"""<a class="card" href="{url('/decisions/' + p['slug'] + '/')}">
+  <div><span class="chip">Decision</span></div>
+  <h3>{html.escape(str(p.get("title") or p["slug"]))}</h3>
+  <p>{html.escape(str(p.get("meta_description") or ""))}</p>
+</a>"""
+            )
+        listing = f'<div class="grid grid-2">{"".join(cards)}</div>'
+    body = f"""<main id="main">
+  <section class="page-hero">
+    <div class="wrap">
+      {crumbs([("Home", url("/")), ("Decisions", None)])}
+      <h1>Decisions</h1>
+      <p class="lead">Pages rendered from foundernexus/fn-content. One JSON file, one route.</p>
+    </div>
+  </section>
+  <section class="section" style="padding-top:0">
+    <div class="wrap">{listing}</div>
+  </section>
+</main>"""
+    return base(
+        title="Decisions",
+        description="Decision pages rendered from fn-content.",
+        canonical_path="/decisions/",
+        body=body,
+    )
+
+
 def asset_version(rel: str) -> str:
     p = STATIC / rel
     if not p.exists():
@@ -359,6 +590,7 @@ def base(
     active: str | None = None,
     robots: str | None = None,
     extra_js: str | None = None,
+    extra_head: str = "",
     og_type: str = "website",
 ) -> str:
     full_title = title if title.endswith(SITE_NAME) else f"{title} · {SITE_NAME}"
@@ -378,6 +610,7 @@ def base(
         else ""
     )
     css_v = asset_version("assets/css/site.css")
+    extra_head_safe = extra_head.replace("{", "{{").replace("}", "}}")
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -399,7 +632,7 @@ def base(
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{url('/assets/css/site.css')}{css_v}">
-</head>
+{extra_head_safe}</head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
@@ -426,6 +659,15 @@ def base(
   </div>
 </footer>
 {js}
+<script>window.va=window.va||function(){{(window.vaq=window.vaq||[]).push(arguments);}};</script>
+<script defer src="https://va.vercel-scripts.com/v1/script.js"></script>
+<script>
+document.addEventListener("click", function (e) {{
+  var a = e.target && e.target.closest && e.target.closest("a[data-fn-click]");
+  if (!a || typeof window.va !== "function") return;
+  window.va("event", {{ name: "fn_click", data: {{ slug: a.getAttribute("data-fn-click") }} }});
+}});
+</script>
 </body>
 </html>
 """
@@ -492,7 +734,7 @@ def article_close(sentence: str) -> str:
     escaped = html.escape(sentence)
     linked = escaped.replace(
         PUBLISHER_NAME,
-        f'<a href="{html.escape(PUBLISHER_URL, quote=True)}">{html.escape(PUBLISHER_NAME)}</a>',
+        f'<a href="{html.escape(PUBLISHER_URL, quote=True)}" data-fn-click="close">{html.escape(PUBLISHER_NAME)}</a>',
         1,
     )
     return f'<p class="article-close">{linked}</p>'
@@ -819,17 +1061,26 @@ def write_robots() -> None:
     )
 
 
-def write_sitemap(pages: list[dict]) -> None:
+def write_sitemap(pages: list[dict], decision_pages: list[dict] | None = None) -> None:
     urls = [("/", date.today().isoformat(), "1.0")]
     for key in SECTIONS:
         urls.append((f"/{key}/", date.today().isoformat(), "0.8"))
     urls.append(("/about/", date.today().isoformat(), "0.6"))
+    urls.append(("/decisions/", date.today().isoformat(), "0.8"))
     for cid, cl in CLUSTERS.items():
         urls.append((f"/{cl['section']}/{cid}/", date.today().isoformat(), "0.7"))
     for p in pages:
         if p["path"] == "/about/" or p.get("layout") == "hub":
             continue
         urls.append((p["path"], p["date"], "0.9"))
+    for d in decision_pages or []:
+        urls.append(
+            (
+                f"/decisions/{d['slug']}/",
+                str(d.get("source_date") or date.today().isoformat()),
+                "0.9",
+            )
+        )
     items = []
     for path, lastmod, prio in urls:
         items.append(
@@ -876,11 +1127,21 @@ def build() -> None:
         rel = p["path"].strip("/") + "/index.html"
         write(DIST / rel, render_article(p, by_key))
     write(DIST / "404.html", render_404())
+
+    decision_pages = fetch_decision_json()
+    write(DIST / "decisions" / "index.html", render_decisions_index(decision_pages))
+    for d in decision_pages:
+        write(
+            DIST / "decisions" / d["slug"] / "index.html",
+            render_decision_json(d),
+        )
+
     write_robots()
-    write_sitemap(pages)
+    write_sitemap(pages, decision_pages)
     write(DIST / "CNAME", "founderdecisions.com\n")
 
     print(f"Built {len(pages)} published page(s), skipped {len(drafts)} draft(s).")
+    print(f"Fetched {len(decision_pages)} fn-content decision page(s).")
     print(f"Output: {DIST}")
     for p in pages:
         print(f"  {p['path']}")

@@ -2,7 +2,7 @@
 
 Decision pages for venture-scale founders. An editorial/reference property, not a FounderNexus marketing site.
 
-Local only. Canonical placeholder: https://founderdecisions.com. Matt McKinney (mattm@foundernexus.com) must approve anything public, any domain, and any BASE_PATH change in build.py. Do not deploy.
+Canonical host: https://founderdecisions.com. Built by `python3 build.py` (output `dist/`). Hosted on Vercel. `FN_CONTENT_TOKEN` is required at build.
 
 FounderNexus is named once as publisher, in the footer, like First Round Review. It is how some readers go deeper on a live decision. It is not the product of the page.
 
@@ -29,6 +29,19 @@ Do not announce that you are being careful. Just be careful. Do not say FounderN
 Do not invent ranges. Named public sources only. Empty cell if unknown. When sources disagree, show them separately.
 
 Legal line once, short, on finance/legal pages: “Not legal, tax, or compensation advice.”
+
+## fn-content decision pages
+
+At build, `build.py` fetches `renders/founderdecisions/*.json` from `foundernexus/fn-content` using `FN_CONTENT_TOKEN` and writes one `/decisions/<slug>/` page per file (JSON-LD from `schema`, one `fn_link`). A 404 on that directory means zero pages, not a failed build. Other errors exit non-zero.
+
+```bash
+export FN_CONTENT_TOKEN=...   # fine-grained PAT, foundernexus/fn-content, contents: read
+python3 build.py
+```
+
+FounderNexus links fire a Vercel Web Analytics custom event `fn_click` with the page slug.
+
+Vercel: `vercel.json` runs `python3 build.py` and serves `dist/`. Set `FN_CONTENT_TOKEN` on the project (fine-grained PAT, foundernexus/fn-content, contents: read).
 
 ## Daily shipping workflow
 

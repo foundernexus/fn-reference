@@ -97,7 +97,7 @@
 <h2 id="related">Related</h2>
 <ul><li><a href="/library/hiring/">Hiring executives</a></li><li><a href="/library/hiring/when-to-hire-first-vp-sales/">When to hire the first VP of Sales</a></li><li><a href="/library/hiring/series-a-leadership-hiring-sequence/">Series A leadership hiring sequence</a></li></ul>
     
-    <p class="article-close">If the filter you need is venture-scale peers on a live decision, start with <a href="https://www.foundernexus.com?utm_source=founderdecisions&amp;utm_medium=referral&amp;utm_campaign=library">FounderNexus</a> and pressure-test fit in a guest session.</p>
+    <p class="article-close">If the filter you need is venture-scale peers on a live decision, start with <a href="https://www.foundernexus.com?utm_source=founderdecisions&amp;utm_medium=referral&amp;utm_campaign=library" data-fn-click="close">FounderNexus</a> and pressure-test fit in a guest session.</p>
   </article>
   
 </main>
@@ -113,5 +113,14 @@
   </div>
 </footer>
 
+<script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments);};</script>
+<script defer src="https://va.vercel-scripts.com/v1/script.js"></script>
+<script>
+document.addEventListener("click", function (e) {
+  var a = e.target && e.target.closest && e.target.closest("a[data-fn-click]");
+  if (!a || typeof window.va !== "function") return;
+  window.va("event", { name: "fn_click", data: { slug: a.getAttribute("data-fn-click") } });
+});
+</script>
 </body>
 </html>

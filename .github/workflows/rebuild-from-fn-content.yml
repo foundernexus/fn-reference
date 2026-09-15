@@ -1,0 +1,31 @@
+name: rebuild-from-fn-content
+# Rebuilds GitHub Pages when fn-content changes. Needs FN_CONTENT_TOKEN
+# (fine-grained PAT, foundernexus/fn-content, contents: read).
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [fn-content]
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Fetch renders and build
+        env:
+          FN_CONTENT_TOKEN: ${{ secrets.FN_CONTENT_TOKEN }}
+        run: python3 build.py
+      - name: Publish dist to docs (GitHub Pages)
+        run: |
+          set -euo pipefail
+          rsync -a --delete --exclude .git --exclude CNAME dist/ docs/
+          cp dist/CNAME docs/CNAME
+          git config user.name grokbot
+          git config user.email grokbot@foundernexus.com
+          git add docs
+          git diff --cached --quiet && echo "nothing to commit" && exit 0
+          git commit -m "rebuild: fn-content decision pages"
+          git push

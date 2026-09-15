@@ -70,7 +70,7 @@
 <h2 id="sources">Sources</h2>
 <ul><li><a href="http://paulgraham.com/aord.html">Paul Graham, Default Alive or Default Dead?</a>. October 2015. Default alive vs default dead; hiring too fast; Airbnb’s four-month wait; fatal pinch; points to Trevor Blackwell’s calculator.</li><li><a href="https://kruzeconsulting.com/blog/build-a-rolling-cash-forecast/">Kruze Consulting, Build a Rolling Cash Forecast to Maximize Startup Runway</a>. 22 February 2026. Gross vs net burn; runway = cash ÷ monthly net burn; $4.2M / $350k example; headcount 60–80% of burn; rolling 18-month forecast; SBA fully loaded 1.25–1.4×; recruiting slips; cash over P&amp;L.</li><li><a href="https://carta.com/sg/en/data/state-of-private-markets-q1-2024/">Carta, State of Private Markets Q1 2024</a>. Median Seed→A 766 days; A→B 824 days; longer waits imply more runway required.</li></ul>
     <div id="runway-calculator" class="calc-mount"></div>
-    <p class="article-close">Runway and default-alive calls are board-visible. If you want founders who just lived that conversation to pressure-test your hiring plan against the cash left, that conversation happens at <a href="https://www.foundernexus.com?utm_source=founderdecisions&amp;utm_medium=referral&amp;utm_campaign=library">FounderNexus</a>.</p>
+    <p class="article-close">Runway and default-alive calls are board-visible. If you want founders who just lived that conversation to pressure-test your hiring plan against the cash left, that conversation happens at <a href="https://www.foundernexus.com?utm_source=founderdecisions&amp;utm_medium=referral&amp;utm_campaign=library" data-fn-click="close">FounderNexus</a>.</p>
   </article>
   <section class="section related-section" aria-label="Related"><div class="article-width"><h2 class="related-heading">Related</h2><ul class="page-list"><li><a href="/library/finance/burn-multiple-vs-rule-of-40/"><span class="list-title">Burn multiple vs Rule of 40</span><p class="list-desc">Burn multiple is the early-stage efficiency read. Rule of 40 is the later balance of growth and margin. Show both formulas, cited bands, and when each belongs in the board pack.</p></a></li><li><a href="/tools/option-pool-shuffle-calculator/"><span class="list-title">Option pool shuffle calculator</span><p class="list-desc">See who takes the dilution when a term sheet tops up the option pool pre-money versus post-money. Same headline pool percentage. Different owner of the dilution.</p></a></li></ul></div></section>
 </main>
@@ -86,5 +86,14 @@
   </div>
 </footer>
 <script src="/assets/js/runway-calculator.js?v=69852266" defer></script>
+<script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments);};</script>
+<script defer src="https://va.vercel-scripts.com/v1/script.js"></script>
+<script>
+document.addEventListener("click", function (e) {
+  var a = e.target && e.target.closest && e.target.closest("a[data-fn-click]");
+  if (!a || typeof window.va !== "function") return;
+  window.va("event", { name: "fn_click", data: { slug: a.getAttribute("data-fn-click") } });
+});
+</script>
 </body>
 </html>
