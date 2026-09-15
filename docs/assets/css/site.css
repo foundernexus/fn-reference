@@ -153,9 +153,12 @@ article.article-width {
   border-radius: 8px;
   line-height: 1.45;
 }
-.nav-links a:hover,
-.nav-links a.is-active {
+.nav-links a:hover {
   background: var(--page);
+  color: var(--navy);
+}
+.nav-links a.is-active {
+  background: var(--pale);
   color: var(--navy);
 }
 
@@ -452,7 +455,7 @@ h4, .h4 {
 .card {
   background: var(--white);
   border: 1px solid var(--border-subtle);
-  border-left: 2px solid var(--border-subtle);
+  border-left: 2px solid var(--chip);
   border-radius: 8px;
   box-shadow: none;
   padding: 26px 26px 24px;
@@ -470,7 +473,7 @@ a.card:hover {
   color: inherit;
   box-shadow: none;
   transform: none;
-  background: var(--white);
+  background: var(--pale);
 }
 .card h2, .card h3, .card .h3 {
   margin: 0;
@@ -590,7 +593,7 @@ caption {
 .takeaways {
   background: var(--page);
   border: 1px solid var(--border-subtle);
-  border-left: 2px solid var(--blue);
+  border-left: 2px solid var(--gray);
   border-radius: 8px;
   padding: 18px 22px 6px;
   margin: 8px 0 32px;
