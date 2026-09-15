@@ -57,6 +57,7 @@ SECTIONS = {
 
 NAV_ITEMS = [
     ("library", "Library", "/library/"),
+    ("benchmarks", "Benchmarks", "/benchmarks/"),
     ("tools", "Tools", "/tools/"),
     ("compare", "Compare", "/compare/"),
     ("about", "About", "/about/"),
@@ -348,6 +349,7 @@ def content_pages(pages: list[dict]) -> list[dict]:
 
 FN_CONTENT_REPO = "foundernexus/fn-content"
 FN_RENDERS_DIR = "renders/founderdecisions"
+FN_BENCHMARKS_DIR = "renders/founderdecisions-benchmarks"
 
 
 def _github_contents(path: str) -> tuple[int, bytes]:
@@ -437,19 +439,19 @@ def sanitize_decision_page(page: dict) -> dict:
     return page
 
 
-def fetch_decision_json() -> list[dict]:
-    """Load renders/founderdecisions/**/*.json from fn-content. 404 => no pages yet."""
-    code, body = _github_contents(FN_RENDERS_DIR)
+def fetch_json_dir(dir_path: str, *, sanitize: bool = False) -> list[dict]:
+    """Load renders/<dir>/**/*.json from fn-content. 404 => no pages yet."""
+    code, body = _github_contents(dir_path)
     if code == 404:
         return []
     if code != 200:
-        raise SystemExit(f"fetch {FN_RENDERS_DIR} failed: {code} {body[:400]!r}")
+        raise SystemExit(f"fetch {dir_path} failed: {code} {body[:400]!r}")
     try:
         items = json.loads(body)
     except json.JSONDecodeError as e:
-        raise SystemExit(f"invalid JSON listing {FN_RENDERS_DIR}: {e}") from e
+        raise SystemExit(f"invalid JSON listing {dir_path}: {e}") from e
     if not isinstance(items, list):
-        raise SystemExit(f"{FN_RENDERS_DIR} is not a directory listing")
+        raise SystemExit(f"{dir_path} is not a directory listing")
     files: list[dict] = []
     queue = list(items)
     while queue:
@@ -490,8 +492,16 @@ def fetch_decision_json() -> list[dict]:
             raise SystemExit(f"invalid JSON {item['path']}: {e}") from e
         if not isinstance(data, dict) or not data.get("slug"):
             raise SystemExit(f"{item['path']} missing slug")
-        pages.append(sanitize_decision_page(data))
+        pages.append(sanitize_decision_page(data) if sanitize else data)
     return pages
+
+
+def fetch_decision_json() -> list[dict]:
+    return fetch_json_dir(FN_RENDERS_DIR, sanitize=True)
+
+
+def fetch_benchmark_json() -> list[dict]:
+    return fetch_json_dir(FN_BENCHMARKS_DIR)
 
 
 def json_ld_for_decision(page: dict) -> str:
@@ -633,6 +643,161 @@ def render_decisions_index(pages: list[dict]) -> str:
         description="Decision pages rendered from fn-content.",
         canonical_path="/decisions/",
         body=body,
+    )
+
+
+def json_ld_for_benchmark(page: dict) -> str:
+    nodes: list[dict] = [
+        {
+            "@context": "https://schema.org",
+            "@type": "Dataset",
+            "name": page.get("title"),
+            "description": page.get("meta_description") or page.get("claim") or page.get("title"),
+            "url": abs_url(f"/benchmarks/{page['slug']}/"),
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": f"What is {page.get('metric') or page.get('title')}?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": page.get("how_to_read") or page.get("claim") or "",
+                    },
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where does this figure come from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": (
+                            f"{(page.get('source') or {}).get('name') or 'Publisher'}: "
+                            f"{(page.get('source') or {}).get('url') or ''} "
+                            f"({(page.get('source') or {}).get('date') or page.get('last_verified') or ''}). "
+                            "Different publishers are shown separately. They are not averaged."
+                        ),
+                    },
+                },
+            ],
+        },
+    ]
+    blob = json.dumps(nodes, ensure_ascii=False).replace("<", "\\u003c")
+    return f'<script type="application/ld+json">{blob}</script>\n'
+
+
+def render_benchmark_json(page: dict) -> str:
+    slug = page["slug"]
+    src = page.get("source") if isinstance(page.get("source"), dict) else {}
+    value = page.get("value")
+    value_s = "Not published" if value is None or value == "" else str(value)
+    unit = html.escape(str(page.get("unit") or ""))
+    percentile = html.escape(str(page.get("percentile") or ""))
+    segment = html.escape(str(page.get("segment") or ""))
+    period = html.escape(str(page.get("period") or ""))
+    metric = html.escape(str(page.get("metric") or ""))
+    claim = html.escape(str(page.get("claim") or page.get("meta_description") or ""))
+    how = html.escape(str(page.get("how_to_read") or ""))
+    verified = html.escape(str(page.get("last_verified") or src.get("date") or ""))
+    src_name = html.escape(str(src.get("name") or "Source"))
+    src_url = src.get("url") or ""
+    src_date = html.escape(str(src.get("date") or ""))
+    if src_url:
+        source_html = (
+            f'<p>Source: <a href="{html.escape(src_url, quote=True)}">{src_name}</a>'
+            f" · {src_date}. Cited as published. If another publisher disagrees, "
+            "show both rows. Do not average them.</p>"
+        )
+    else:
+        source_html = (
+            "<p>Source not published on this row. Empty cell; do not estimate.</p>"
+        )
+    fn = page.get("fn_link") or {}
+    fn_html = ""
+    if fn.get("href") and fn.get("text"):
+        fn_html = (
+            f'<p class="article-close"><a href="{html.escape(fn["href"], quote=True)}" '
+            f'data-fn-click="{html.escape(slug, quote=True)}">'
+            f'{html.escape(fn["text"])}</a></p>'
+        )
+    table = f"""<div class="table-wrap"><table>
+<thead><tr><th>Field</th><th>Published figure</th></tr></thead>
+<tbody>
+<tr><td>Metric</td><td>{metric}</td></tr>
+<tr><td>Value</td><td class="num">{html.escape(value_s)} {unit}</td></tr>
+<tr><td>Percentile</td><td>{percentile}</td></tr>
+<tr><td>Segment</td><td>{segment}</td></tr>
+<tr><td>Period</td><td>{period}</td></tr>
+<tr><td>Last verified</td><td>{verified}</td></tr>
+</tbody>
+</table></div>"""
+    how_block = f"<h2>How to read</h2><p>{how}</p>" if how else ""
+    body = f"""<main id="main">
+  <section class="page-hero">
+    <div class="article-width">
+      {crumbs([("Home", url("/")), ("Benchmarks", url("/benchmarks/")), (page.get("title") or slug, None)])}
+      <p class="eyebrow">Benchmarks · {verified}</p>
+      <h1>{html.escape(str(page.get("title") or slug))}</h1>
+      <p class="lead">{claim}</p>
+    </div>
+  </section>
+  <article class="prose article-width">
+    <aside class="takeaways"><p class="takeaways-label">In short</p>
+      <ul><li>One publisher, one figure, one date. Empty if unpublished.</li>
+      <li>Different samples stay on separate rows. Never average them into a target.</li></ul>
+    </aside>
+    {table}
+    {source_html}
+    {how_block}
+    {fn_html}
+  </article>
+</main>"""
+    return base(
+        title=str(page.get("title") or slug),
+        description=str(page.get("meta_description") or page.get("claim") or page.get("title") or ""),
+        canonical_path=f"/benchmarks/{slug}/",
+        body=body,
+        extra_head=json_ld_for_benchmark(page),
+        og_type="article",
+        active="benchmarks",
+    )
+
+
+def render_benchmarks_index(pages: list[dict]) -> str:
+    if not pages:
+        listing = '<div class="empty"><p>No benchmark pages from fn-content yet.</p></div>'
+    else:
+        cards = []
+        for p in pages:
+            src = p.get("source") if isinstance(p.get("source"), dict) else {}
+            cards.append(
+                f"""<a class="card" href="{url('/benchmarks/' + p['slug'] + '/')}">
+  <div><span class="chip">Benchmark</span></div>
+  <h3>{html.escape(str(p.get("title") or p["slug"]))}</h3>
+  <p>{html.escape(str(p.get("meta_description") or p.get("claim") or ""))}</p>
+  <p class="meta">{html.escape(str(src.get("name") or ""))} · {html.escape(str(p.get("last_verified") or src.get("date") or ""))}</p>
+</a>"""
+            )
+        listing = f'<div class="grid grid-2">{"".join(cards)}</div>'
+    body = f"""<main id="main">
+  <section class="page-hero">
+    <div class="wrap">
+      {crumbs([("Home", url("/")), ("Benchmarks", None)])}
+      <h1>Benchmarks</h1>
+      <p class="lead">Cited ranges from named publishers. Disagreements stay on separate rows. Nothing is averaged.</p>
+    </div>
+  </section>
+  <section class="section" style="padding-top:0">
+    <div class="wrap">{listing}</div>
+  </section>
+</main>"""
+    return base(
+        title="Benchmarks",
+        description="Cited metric ranges for venture-scale founders. One publisher per figure.",
+        canonical_path="/benchmarks/",
+        body=body,
+        active="benchmarks",
     )
 
 
@@ -1124,12 +1289,17 @@ def write_robots() -> None:
     )
 
 
-def write_sitemap(pages: list[dict], decision_pages: list[dict] | None = None) -> None:
+def write_sitemap(
+    pages: list[dict],
+    decision_pages: list[dict] | None = None,
+    benchmark_pages: list[dict] | None = None,
+) -> None:
     urls = [("/", date.today().isoformat(), "1.0")]
     for key in SECTIONS:
         urls.append((f"/{key}/", date.today().isoformat(), "0.8"))
     urls.append(("/about/", date.today().isoformat(), "0.6"))
     urls.append(("/decisions/", date.today().isoformat(), "0.8"))
+    urls.append(("/benchmarks/", date.today().isoformat(), "0.8"))
     for cid, cl in CLUSTERS.items():
         urls.append((f"/{cl['section']}/{cid}/", date.today().isoformat(), "0.7"))
     for p in pages:
@@ -1141,6 +1311,15 @@ def write_sitemap(pages: list[dict], decision_pages: list[dict] | None = None) -
             (
                 f"/decisions/{d['slug']}/",
                 str(d.get("source_date") or date.today().isoformat()),
+                "0.9",
+            )
+        )
+    for b in benchmark_pages or []:
+        src = b.get("source") if isinstance(b.get("source"), dict) else {}
+        urls.append(
+            (
+                f"/benchmarks/{b['slug']}/",
+                str(b.get("last_verified") or src.get("date") or date.today().isoformat()),
                 "0.9",
             )
         )
@@ -1199,12 +1378,21 @@ def build() -> None:
             render_decision_json(d),
         )
 
+    benchmark_pages = fetch_benchmark_json()
+    write(DIST / "benchmarks" / "index.html", render_benchmarks_index(benchmark_pages))
+    for b in benchmark_pages:
+        write(
+            DIST / "benchmarks" / b["slug"] / "index.html",
+            render_benchmark_json(b),
+        )
+
     write_robots()
-    write_sitemap(pages, decision_pages)
+    write_sitemap(pages, decision_pages, benchmark_pages)
     write(DIST / "CNAME", "founderdecisions.com\n")
 
     print(f"Built {len(pages)} published page(s), skipped {len(drafts)} draft(s).")
     print(f"Fetched {len(decision_pages)} fn-content decision page(s).")
+    print(f"Fetched {len(benchmark_pages)} fn-content benchmark page(s).")
     print(f"Output: {DIST}")
     for p in pages:
         print(f"  {p['path']}")

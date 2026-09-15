@@ -32,7 +32,7 @@ Legal line once, short, on finance/legal pages: “Not legal, tax, or compensati
 
 ## fn-content decision pages
 
-At build, `build.py` fetches `renders/founderdecisions/*.json` from `foundernexus/fn-content` using `FN_CONTENT_TOKEN` and writes one `/decisions/<slug>/` page per file (JSON-LD from `schema`, one `fn_link`). A 404 on that directory means zero pages, not a failed build. Other errors exit non-zero.
+At build, `build.py` fetches `renders/founderdecisions/*.json` → `/decisions/<slug>/` and `renders/founderdecisions-benchmarks/*.json` → `/benchmarks/<slug>/` from `foundernexus/fn-content` using `FN_CONTENT_TOKEN` (JSON-LD from `schema`, one `fn_link`). A 404 on a directory means zero pages, not a failed build. Other errors exit non-zero.
 
 ```bash
 export FN_CONTENT_TOKEN=...   # fine-grained PAT, foundernexus/fn-content, contents: read
