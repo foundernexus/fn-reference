@@ -383,6 +383,7 @@ def base(
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>{html.escape(full_title)}</title>
 <meta name="description" content="{html.escape(description, quote=True)}">
 {robots_tag}<link rel="canonical" href="{html.escape(canonical, quote=True)}">
