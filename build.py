@@ -1285,6 +1285,12 @@ def copy_static() -> None:
     if dest.exists():
         shutil.rmtree(dest)
     shutil.copytree(STATIC / "assets", dest)
+    media_src = ROOT / "media"
+    if media_src.exists():
+        media_dest = DIST / "media"
+        if media_dest.exists():
+            shutil.rmtree(media_dest)
+        shutil.copytree(media_src, media_dest)
 
 
 def write_robots() -> None:
