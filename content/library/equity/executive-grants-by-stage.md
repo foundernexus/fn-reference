@@ -1,13 +1,13 @@
 ---
-title: How much equity to give a VP of Sales (by stage)
-description: Seed through Series B equity bands for a first VP of Sales and peer roles. Cited Index, UltraTalent, CRO Report. For founders writing the grant.
+title: How much equity to give a VP of Sales
+description: Seed first sales leader: 0.5–2.0% FD. Series A VP: 0.3–0.8% (Index). Peer Eng/Product/Finance bands. Series B disagreement shown separately.
 slug: executive-grants-by-stage
 section: library
 cluster: equity
 layout: article
 target_query: how much equity to give VP of sales startup
 date: 2026-08-29
-updated: 2026-09-04
+updated: 2026-09-16
 close: Public ranges are a starting point. If you want the number in the offer pressure-tested by founders who just made this hire, that conversation happens at FounderNexus.
 disclaimer: not-legal-tax
 draft: false

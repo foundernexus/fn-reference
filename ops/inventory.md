@@ -2,7 +2,7 @@
 Track what shipped, the query it should rank for, and the last review. Weekly review updates the last two columns. Do not invent traffic numbers.
 | Shipped | Slug | Target query | Last reviewed | Notes |
 | --- | --- | --- | --- | --- |
-| 2026-08-29 | /library/equity/executive-grants-by-stage/ | how much equity to give VP of sales startup | 2026-09-11 | Title/lede rewritten to match query. SERP: Nobel, CRO Report, Prolifiq; we absent on exact query. Cite Index, Carta, UltraTalent, CRO Report, Kruze. |
+| 2026-08-29 | /library/equity/executive-grants-by-stage/ | how much equity to give VP of sales startup | 2026-09-16 | CTR rewrite: title drop “(by stage)” (37 chars; full w/ brand 57). Meta leads with Seed 0.5–2.0% / Series A 0.3–0.8% (Index). Bing SERP: topstartups salary DB, Fulfyld vague how-much, Founders Space pre-funding; numbers rare in snippets. |
 | 2026-08-29 | /tools/executive-equity-calculator/ | startup VP equity calculator | 2026-09-11 | Sibling tool. SERP: Nxt Level / blog calculators; no FD page. Frontmatter target_query still mirrors grants page — fix later if shipping. |
 | 2026-08-31 | /library/equity/ | startup option pool size | 2026-09-11 | Hub. SERP: Carta, Flux, HSBC. Content competitive once discovered. |
 | 2026-08-31 | /library/equity/option-pool-from-hiring-plan/ | how to size option pool | 2026-09-11 | Spoke. SERP: Carta dominates. Our bottoms-up Index 10.4% vs 12% scenario is differentiator. |
