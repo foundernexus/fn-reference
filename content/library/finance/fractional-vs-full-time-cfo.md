@@ -103,13 +103,13 @@ If the board pack is still a scramble every quarter but books are clean, buy fra
 
 ## Sources
 
-- [Kruze Consulting, When Does a Startup Need a CFO?](https://kruzeconsulting.com/startup-need-cfo/) — Series A generally no full-time CFO; part-time 3 months before a raise; Seed–Series A–C fit; hire full-time when part-time interaction is constant; past Series D often $240K+.
-- [Kruze Consulting, How to Hire a CFO for Your SaaS Startup](https://kruzeconsulting.com/saas-cfo-hire/) — most Series A clients have no CFO or VP Finance; outsource until Series B (often after Series C); near-IPO needs full-time ASAP.
-- [Kruze Consulting, When to Hire an In-House Accounting/Finance Team](https://kruzeconsulting.com/when-to-hire-an-in-house-accountingfinance-team-the-cost-benefit-break-down/) — role layers and salary bands; fractional $5K–$10K/mo; three-person in-house $450K–$650K+; ~$35K–$45K/mo outsource break-even.
-- [Bessemer Venture Partners Atlas, How to hire a CFO and build a finance team](https://www.bvp.com/atlas/how-to-hire-a-cfo-and-build-a-finance-team) — Mar 2023. Controllership vs FP&A; 37% at $10M–$25M ARR; complexity ~$5M–$10M; Kayton ~75% fractional spend rule.
-- [Majhi Group, Series A Leadership Team Benchmarks 2026](https://www.majhigroup.com/series-a-leadership-benchmarks-2026.html) — June 2026. B2B SaaS: CFO months 12–24 or pre–Series B.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder session, February 2026. Hire for the phase. Say it in the offer. Not a survey.
-- [fn-content #14](https://github.com/foundernexus/fn-content/issues/14) — benchmark request: fractional vs full-time CFO hire timing and cost.
+- [Kruze Consulting, When Does a Startup Need a CFO?](https://kruzeconsulting.com/startup-need-cfo/). Series A generally no full-time CFO; part-time 3 months before a raise; Seed–Series A–C fit; hire full-time when part-time interaction is constant; past Series D often $240K+.
+- [Kruze Consulting, How to Hire a CFO for Your SaaS Startup](https://kruzeconsulting.com/saas-cfo-hire/). most Series A clients have no CFO or VP Finance; outsource until Series B (often after Series C); near-IPO needs full-time ASAP.
+- [Kruze Consulting, When to Hire an In-House Accounting/Finance Team](https://kruzeconsulting.com/when-to-hire-an-in-house-accountingfinance-team-the-cost-benefit-break-down/). role layers and salary bands; fractional $5K–$10K/mo; three-person in-house $450K–$650K+; ~$35K–$45K/mo outsource break-even.
+- [Bessemer Venture Partners Atlas, How to hire a CFO and build a finance team](https://www.bvp.com/atlas/how-to-hire-a-cfo-and-build-a-finance-team). Mar 2023. Controllership vs FP&A; 37% at $10M–$25M ARR; complexity ~$5M–$10M; Kayton ~75% fractional spend rule.
+- [Majhi Group, Series A Leadership Team Benchmarks 2026](https://www.majhigroup.com/series-a-leadership-benchmarks-2026.html). June 2026. B2B SaaS: CFO months 12–24 or pre–Series B.
+- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). founder session, February 2026. Hire for the phase. Say it in the offer. Not a survey.
+- [fn-content #14](https://github.com/foundernexus/fn-content/issues/14). benchmark request: fractional vs full-time CFO hire timing and cost.
 
 ## Related
 
