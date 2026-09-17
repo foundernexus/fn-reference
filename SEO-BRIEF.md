@@ -20,7 +20,7 @@ Tool sibling: /tools/executive-equity-calculator
 7. How to run a Series A board meeting
 8. Independent director: when, who, equity
 9. YPO vs EO vs Hampton vs a venture-scale room (shipped 2026-09-08 as /compare/ypo-vs-hampton-vs-venture-scale-room/)
-10. Fractional vs full-time CFO
+10. Fractional vs full-time CFO (done 2026-09-17)
 
 ## IA
 foundernexus.com/ → Apply product
@@ -48,7 +48,7 @@ foundernexus.com/ → Apply product
 15. Board & governance hub
 16. Series A board meeting agenda (done 2026-09-15 → /library/board/series-a-board-meeting-agenda/)
 17. Independent director: when, who, equity
-18. Fractional vs full-time CFO
+18. Fractional vs full-time CFO (done 2026-09-17 → /library/finance/fractional-vs-full-time-cfo/)
 19. Founder rooms hub
 20. YPO vs EO vs Hampton vs venture-scale room (done 2026-09-08)
 21. Executive coaching vs founder peer group
