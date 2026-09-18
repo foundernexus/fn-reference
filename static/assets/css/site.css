@@ -499,7 +499,7 @@ a.card:hover {
 .list-title { font-weight: 600; font-size: 17px; }
 .list-desc { flex-basis: 100%; color: var(--muted); font-size: 14px; margin: 0; }
 
-/* Tables — scannable, sticky first col, quiet header chrome */
+/* Tables — sticky header + first col, quiet zebra, professional scan */
 .table-wrap {
   overflow-x: auto;
   margin: 8px 0 16px;
@@ -526,10 +526,17 @@ th, td {
   hyphens: auto;
 }
 tbody tr:last-child td { border-bottom: 0; }
+/* Quiet zebra — page wash on even rows, no marketing stripes */
+tbody tr:nth-child(even) td {
+  background: var(--page);
+}
 tbody tr:hover td {
   background: var(--pale);
 }
 th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
   font-weight: 600;
   font-size: 12px;
   letter-spacing: 0.01em;
@@ -545,7 +552,7 @@ td:first-child {
   font-weight: 600;
   color: var(--navy);
 }
-/* Keep source/role labels visible while scanning wide grids */
+/* Keep role labels + header corner visible while scanning wide grids */
 @media (min-width: 720px) {
   th:first-child,
   td:first-child {
@@ -556,8 +563,13 @@ td:first-child {
     box-shadow: 1px 0 0 var(--border-subtle);
   }
   th:first-child {
+    top: 0;
+    z-index: 3;
     background: var(--pale);
-    z-index: 2;
+    box-shadow: 1px 0 0 var(--border-subtle), 0 1px 0 var(--border);
+  }
+  tbody tr:nth-child(even) td:first-child {
+    background: var(--page);
   }
   tbody tr:hover td:first-child {
     background: var(--pale);
@@ -852,6 +864,17 @@ input:focus, select:focus {
     overflow-x: visible;
     border: 0;
     border-radius: 0;
+  }
+  .table-wrap th,
+  .table-wrap td:first-child {
+    position: static;
+    box-shadow: none;
+  }
+  .table-wrap tbody tr:nth-child(even) td {
+    background: transparent;
+  }
+  .table-wrap tbody tr:hover td {
+    background: transparent;
   }
   .table-wrap table,
   .table-wrap thead,

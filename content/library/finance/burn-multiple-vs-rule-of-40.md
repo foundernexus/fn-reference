@@ -133,3 +133,4 @@ Wrong stage metric, mixed periods, and GAAP-as-cash are the usual failures.
 - [Library](/library/)
 - [When to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/)
 - [Series A leadership hiring sequence](/library/hiring/series-a-leadership-hiring-sequence/)
+- [VP Sales equity: Seed 0.5–2%, A 0.3–0.8%](/library/equity/executive-grants-by-stage/)

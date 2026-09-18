@@ -1,21 +1,25 @@
 ---
-title: How much equity to give a VP of Sales
-description: Seed first sales leader: 0.5–2.0% FD. Series A VP: 0.3–0.8% (Index). Peer Eng/Product/Finance bands. Series B disagreement shown separately.
+title: "VP Sales equity: Seed 0.5–2%, A 0.3–0.8%"
+description: "How much equity for a VP of Sales? Seed first sales: 0.5–2.0% FD. Series A VP: 0.3–0.8% (Index). Peer Eng/Product/Finance bands; Series B shown separately."
 slug: executive-grants-by-stage
 section: library
 cluster: equity
 layout: article
 target_query: how much equity to give VP of sales startup
 date: 2026-08-29
-updated: 2026-09-16
+updated: 2026-09-18
 close: Public ranges are a starting point. If you want the number in the offer pressure-tested by founders who just made this hire, that conversation happens at FounderNexus.
 disclaimer: not-legal-tax
 draft: false
 ---
 
-How much equity to give a VP of Sales depends on stage and whether the seat is a bag-carrying first sales hire or a true VP. A first sales leader at seed is typically 0.5–2.0% fully diluted. A Series A VP sits at 0.3–0.8% on Index’s rule of thumb: engineering and product at the high end, finance, people, and sales at the low end. Vesting is four years, one-year cliff, monthly after that. Sources disagree at Series B sales, so the table shows those bands separately rather than averaging them.
+How much equity to give a VP of Sales depends on stage and whether the seat is a bag-carrying first sales hire or a true VP.
 
-You are the founder writing the grant. Percentages are fully diluted. The table covers Sales plus Eng, Product, Finance, and People so you can keep peer grants coherent. Not legal, tax, or compensation advice.
+:::highlight
+Seed first sales: 0.5–2.0% FD. Series A VP: 0.3–0.8% (Index). Eng/product high; sales low. Four-year vest, one-year cliff.
+:::
+
+A first sales leader at seed is typically 0.5–2.0% fully diluted. A Series A VP sits at 0.3–0.8% on Index’s rule of thumb: engineering and product at the high end, finance, people, and sales at the low end. Sources disagree at Series B sales, so the table shows those bands separately rather than averaging them. Percentages are fully diluted. The table covers Sales plus Eng, Product, Finance, and People so peer grants stay coherent. Not legal, tax, or compensation advice.
 
 :::takeaways
 - Seed first sales leader: 0.5–2.0% fully diluted (UltraTalent, CRO Report).

@@ -61,3 +61,29 @@ foundernexus.com/ → Apply product
 - Brand queries stay on foundernexus.com homepage.
 - Membership is offered, not sold. Apply names the decision.
 - No session content scraped into the library.
+
+
+## Friday 2026-09-18 Startup Bible check (internal)
+Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Judgment only — no closed-session numbers on FD pages. Cite as FounderNexus session → https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library when earned.
+
+### New/updated since ~2026-09-11
+- Homepage now surfaces two extra pillars: Marketing & PR (4) and Building the Company (4), beyond Raising Money / Getting Customers / Equity & Legal / Reference.
+- **GTM as a system** — LAST REVIEWED 2026-09; committed 2026-09-18 on fn-playbooks (Sep 2026 session). Five questions, blue-ocean lane, scatter-plot funnel, GTM hypothesis. Matches Matt's "AI + GTM" note.
+- Marketing & PR cluster: DIY PR; AI-era marketing stack; marketing AI products without saying AI; GTM as a system.
+- Building the Company cluster: executive team; data moats & flywheels; surviving the SaaS repricing; pricing in the AI era.
+- Also since last Friday: when-runway-runs-out playbook (fn-playbooks 2026-09-15). Sessions index now spans Dec 2025 – Sep 2026.
+
+### Pressure-test (judgment only) — no public edit today
+- VP Sales / Series A sequence / executive grants: aligned with executive-team "hire for the phase / 0→10 ≠ 10→50" (already FounderNexus session on those pages).
+- Fractional vs FT CFO: aligned on phase-hire; Bible has no dedicated CFO playbook — keep Kruze/Bessemer/Majhi.
+- AI SDR vs human: aligned with AI-era stack (no chatbot on inbound; amplify one seller; humans close). Already cites FounderNexus session.
+- Coaching vs peer group: no Bible analog — no action.
+
+### Candidate weekday queue (do not ship Friday)
+23. How to market an AI product (without leading with AI) — query: how to market an AI startup / marketing AI product without saying AI. Sibling to /library/gtm/ai-sdr-vs-human/. Public cites: Bessemer/agency-neutral + FounderNexus session for human-first placement.
+24. Seat vs usage vs outcome pricing for AI SaaS — query: seat based vs usage pricing AI SaaS. Bessemer Atlas AI pricing playbook is a named public spine; FounderNexus session for seats-for-humans / outcomes-for-agents judgment only.
+25. AEO vs SEO for B2B SaaS startups — query: AEO vs SEO B2B SaaS. Real 2026 SERP; pairs with SaaS-repricing "buyers ask AI before your site" judgment via FounderNexus session.
+26. DIY founder PR / founder narrative before launch — query: DIY PR for startups / founder narrative PR. Thin but founder-intent; use public PR-cost ranges carefully or open benchmark request.
+27. Data moat for AI startups — query: how to build a data moat startup. Competitive; only if we can cite public GP essays + FounderNexus session for flywheel mechanics without closed numbers.
+
+Priority for next weekdays after remaining SEO-BRIEF #15–22 leftovers: **#23 then #24** (strongest search + Bible alignment). Skip shipping thin GTM-system clones of the Sep session until a crisp decision query exists.
