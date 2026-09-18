@@ -593,7 +593,7 @@ caption {
 .takeaways {
   background: var(--page);
   border: 1px solid var(--border-subtle);
-  border-left: 3px solid var(--navy);
+  border-left: 3px solid var(--blue);
   border-radius: 8px;
   padding: 18px 22px 6px;
   margin: 8px 0 32px;
