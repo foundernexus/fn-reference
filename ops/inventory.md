@@ -2,6 +2,7 @@
 Track what shipped, the query it should rank for, and the last review. Weekly review updates the last two columns. Do not invent traffic numbers.
 | Shipped | Slug | Target query | Last reviewed | Notes |
 | --- | --- | --- | --- | --- |
+| 2026-09-17 | /library/gtm/ai-sdr-vs-human/ | AI SDR vs human SDR | 2026-09-17 | First GTM spoke (hub deferred). Cite Bridge Group 2025, Gartner 25 Jun 2025, SaaStr. Placement is a FounderNexus session. fn-content#15 benchmark request. |
 | 2026-09-17 | /library/finance/fractional-vs-full-time-cfo/ | fractional vs full-time CFO startup | 2026-09-17 | Third finance spoke (hub deferred). Cite Kruze, Bessemer Atlas, Majhi. Comp table Kruze-only; fn-content#14 benchmark request. |
 | 2026-08-29 | /library/equity/executive-grants-by-stage/ | how much equity to give VP of sales startup | 2026-09-16 | CTR rewrite: title drop “(by stage)” (37 chars; full w/ brand 57). Meta leads with Seed 0.5–2.0% / Series A 0.3–0.8% (Index). Bing SERP: topstartups salary DB, Fulfyld vague how-much, Founders Space pre-funding; numbers rare in snippets. |
 | 2026-08-29 | /tools/executive-equity-calculator/ | startup VP equity calculator | 2026-09-11 | Sibling tool. SERP: Nxt Level / blog calculators; no FD page. Frontmatter target_query still mirrors grants page — fix later if shipping. |

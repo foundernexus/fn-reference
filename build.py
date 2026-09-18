@@ -84,6 +84,11 @@ CLUSTERS = {
         "title": "Board & governance",
         "description": "Series A board cadence, decision-first agendas, packs, and closed-session norms.",
     },
+    "gtm": {
+        "section": "library",
+        "title": "Go-to-market",
+        "description": "Where AI sits in the sales motion, and the human SDR numbers to score it against.",
+    },
 }
 
 
