@@ -2,6 +2,7 @@
 Track what shipped, the query it should rank for, and the last review. Weekly review updates the last two columns. Do not invent traffic numbers.
 | Shipped | Slug | Target query | Last reviewed | Notes |
 | --- | --- | --- | --- | --- |
+| 2026-09-19 | /library/gtm/market-ai-product-without-saying-ai/ | how to market an AI startup | 2026-09-19 | SEO-BRIEF queue #23 / Saturday catch-up (daily cadence). Second GTM spoke (hub deferred). Cite Bessemer Atlas demand-gen + PMF, Gartner 25 Jun 2025 agent washing (~130 / thousands; >40% cancel). FN session for job-first / human close. fn-content#17 benchmark request. |
 | 2026-09-18 | /compare/executive-coaching-vs-founder-peer-group/ | executive coaching vs founder peer group | 2026-09-18 | SEO-BRIEF queue #21. Format decision not substitute. Cite Vistage, EO, YPO, Hampton, Manchester 2001 (caveated), ICF (9% caveat). FN quiet close. fn-content#16 benchmark request. |
 | 2026-09-17 | /library/gtm/ai-sdr-vs-human/ | AI SDR vs human SDR | 2026-09-17 | First GTM spoke (hub deferred). Cite Bridge Group 2025, Gartner 25 Jun 2025, SaaStr. Placement is a FounderNexus session. fn-content#15 benchmark request. |
 | 2026-09-17 | /library/finance/fractional-vs-full-time-cfo/ | fractional vs full-time CFO startup | 2026-09-17 | Third finance spoke (hub deferred). Cite Kruze, Bessemer Atlas, Majhi. Comp table Kruze-only; fn-content#14 benchmark request. |

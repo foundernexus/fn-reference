@@ -80,10 +80,10 @@ Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Ju
 - Coaching vs peer group: no Bible analog — no action.
 
 ### Candidate weekday queue (do not ship Friday)
-23. How to market an AI product (without leading with AI) — query: how to market an AI startup / marketing AI product without saying AI. Sibling to /library/gtm/ai-sdr-vs-human/. Public cites: Bessemer/agency-neutral + FounderNexus session for human-first placement.
+23. How to market an AI product (without leading with AI) — done 2026-09-19 → /library/gtm/market-ai-product-without-saying-ai/. Query: how to market an AI startup. Sibling to /library/gtm/ai-sdr-vs-human/. Cite Bessemer Atlas + Gartner agent washing; FounderNexus session for job-first / human close.
 24. Seat vs usage vs outcome pricing for AI SaaS — query: seat based vs usage pricing AI SaaS. Bessemer Atlas AI pricing playbook is a named public spine; FounderNexus session for seats-for-humans / outcomes-for-agents judgment only.
 25. AEO vs SEO for B2B SaaS startups — query: AEO vs SEO B2B SaaS. Real 2026 SERP; pairs with SaaS-repricing "buyers ask AI before your site" judgment via FounderNexus session.
 26. DIY founder PR / founder narrative before launch — query: DIY PR for startups / founder narrative PR. Thin but founder-intent; use public PR-cost ranges carefully or open benchmark request.
 27. Data moat for AI startups — query: how to build a data moat startup. Competitive; only if we can cite public GP essays + FounderNexus session for flywheel mechanics without closed numbers.
 
-Priority for next weekdays after remaining SEO-BRIEF #15–22 leftovers: **#23 then #24** (strongest search + Bible alignment). Skip shipping thin GTM-system clones of the Sep session until a crisp decision query exists.
+Priority for next days after remaining SEO-BRIEF #15–22 leftovers: **#24 then #25** (seat vs usage pricing, then AEO vs SEO). Skip shipping thin GTM-system clones of the Sep session until a crisp decision query exists. Cadence as of 2026-09-19: one new page every day including weekends.
