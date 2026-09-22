@@ -848,7 +848,8 @@ def base(
         else ""
     )
     css_v = asset_version("assets/css/site.css")
-    extra_head_safe = extra_head.replace("{", "{{").replace("}", "}}")
+    # extra_head is inserted via f-string {extra_head}; values are not re-parsed,
+    # so do NOT escape braces (that left literal {{ in JSON-LD and broke GSC).
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -870,7 +871,7 @@ def base(
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{url('/assets/css/site.css')}{css_v}">
-{extra_head_safe}</head>
+{extra_head}</head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
