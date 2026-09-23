@@ -13,7 +13,9 @@ import html
 import json
 import os
 import re
+import http.client
 import shutil
+import time
 import urllib.error
 import urllib.request
 from datetime import date
@@ -362,6 +364,33 @@ FN_RENDERS_DIR = "renders/founderdecisions"
 FN_BENCHMARKS_DIR = "renders/founderdecisions-benchmarks"
 
 
+_TRANSIENT_FETCH_ERRORS = (
+    http.client.RemoteDisconnected,
+    http.client.IncompleteRead,
+    ConnectionResetError,
+    TimeoutError,
+    urllib.error.URLError,
+)
+
+
+def _urlopen_with_retries(req: urllib.request.Request, *, what: str, attempts: int = 5):
+    """Open URL with retries for transient disconnects (common on Vercel→GitHub)."""
+    last: BaseException | None = None
+    for i in range(attempts):
+        try:
+            return urllib.request.urlopen(req, timeout=60)
+        except urllib.error.HTTPError:
+            raise
+        except _TRANSIENT_FETCH_ERRORS as e:
+            last = e
+            if i == attempts - 1:
+                break
+            delay = 0.5 * (2**i)
+            print(f"retry {i + 1}/{attempts - 1} after {what}: {type(e).__name__}: {e}")
+            time.sleep(delay)
+    raise SystemExit(f"{what} failed after {attempts} attempts: {last!r}") from last
+
+
 def _github_contents(path: str) -> tuple[int, bytes]:
     token = os.environ.get("FN_CONTENT_TOKEN")
     if not token:
@@ -381,7 +410,7 @@ def _github_contents(path: str) -> tuple[int, bytes]:
         },
     )
     try:
-        with urllib.request.urlopen(req) as res:
+        with _urlopen_with_retries(req, what=f"fetch {path}") as res:
             return res.status, res.read()
     except urllib.error.HTTPError as e:
         return e.code, e.read()
@@ -490,7 +519,7 @@ def fetch_json_dir(dir_path: str, *, sanitize: bool = False) -> list[dict]:
             },
         )
         try:
-            with urllib.request.urlopen(req) as res:
+            with _urlopen_with_retries(req, what=f"fetch {item['path']}") as res:
                 raw = res.read().decode("utf-8")
         except urllib.error.HTTPError as e:
             raise SystemExit(
@@ -513,6 +542,12 @@ def fetch_decision_json() -> list[dict]:
 def fetch_benchmark_json() -> list[dict]:
     return fetch_json_dir(FN_BENCHMARKS_DIR)
 
+
+
+def ld_json_script(payload: object) -> str:
+    """Serialize JSON-LD for <head>. Safe for any braces; never double-escape."""
+    blob = json.dumps(payload, ensure_ascii=False).replace("<", "\\u003c")
+    return f'<script type="application/ld+json">{blob}</script>\n'
 
 def json_ld_for_decision(page: dict) -> str:
     types = page.get("schema") or []
@@ -550,8 +585,7 @@ def json_ld_for_decision(page: dict) -> str:
     if not nodes:
         return ""
     payload = nodes[0] if len(nodes) == 1 else nodes
-    blob = json.dumps(payload, ensure_ascii=False).replace("<", "\\u003c")
-    return f'<script type="application/ld+json">{blob}</script>\n'
+    return ld_json_script(payload)
 
 
 def render_decision_json(page: dict) -> str:
@@ -693,8 +727,7 @@ def json_ld_for_benchmark(page: dict) -> str:
             ],
         },
     ]
-    blob = json.dumps(nodes, ensure_ascii=False).replace("<", "\\u003c")
-    return f'<script type="application/ld+json">{blob}</script>\n'
+    return ld_json_script(nodes)
 
 
 def render_benchmark_json(page: dict) -> str:
@@ -848,9 +881,9 @@ def base(
         else ""
     )
     css_v = asset_version("assets/css/site.css")
-    # extra_head is inserted via f-string {extra_head}; values are not re-parsed,
-    # so do NOT escape braces (that left literal {{ in JSON-LD and broke GSC).
-    return f"""<!DOCTYPE html>
+    # Insert extra_head/body via placeholders so JSON braces never collide
+    # with f-string/format template syntax (no brace-escaping required).
+    html_out = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -871,7 +904,7 @@ def base(
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{url('/assets/css/site.css')}{css_v}">
-{extra_head}</head>
+@@EXTRA_HEAD@@</head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
@@ -885,7 +918,7 @@ def base(
     </nav>
   </div>
 </header>
-{body}
+@@BODY@@
 <footer class="site-footer">
   <div class="wrap">
     <p class="footer-name">{html.escape(SITE_NAME)}</p>
@@ -910,6 +943,12 @@ document.addEventListener("click", function (e) {{
 </body>
 </html>
 """
+    return (
+        html_out
+        .replace("@@EXTRA_HEAD@@", extra_head)
+        .replace("@@BODY@@", body)
+    )
+
 
 
 def crumbs(items: list[tuple[str, str | None]]) -> str:
@@ -1363,6 +1402,32 @@ def page_key(p: dict) -> str:
     return path
 
 
+_LD_JSON_RE = re.compile(
+    r'<script\s+type=["\']application/ld\+json["\']>(.*?)</script>',
+    re.I | re.S,
+)
+
+
+def assert_json_ld_parses(dist: Path) -> None:
+    """Fail the build if any emitted application/ld+json block is not valid JSON."""
+    failures: list[str] = []
+    for html_path in sorted(dist.rglob("*.html")):
+        html_text = html_path.read_text(encoding="utf-8")
+        for i, m in enumerate(_LD_JSON_RE.finditer(html_text), 1):
+            raw = m.group(1).strip()
+            try:
+                json.loads(raw)
+            except json.JSONDecodeError as e:
+                rel = html_path.relative_to(dist)
+                failures.append(f"{rel} script#{i}: {e}")
+    if failures:
+        raise SystemExit(
+            "Invalid application/ld+json (must parse via json.loads):\n  "
+            + "\n  ".join(failures)
+        )
+
+
+
 def build() -> None:
     if DIST.exists():
         shutil.rmtree(DIST)
@@ -1406,6 +1471,8 @@ def build() -> None:
     write_robots()
     write_sitemap(pages, decision_pages, benchmark_pages)
     write(DIST / "CNAME", "founderdecisions.com\n")
+
+    assert_json_ld_parses(DIST)
 
     print(f"Built {len(pages)} published page(s), skipped {len(drafts)} draft(s).")
     print(f"Fetched {len(decision_pages)} fn-content decision page(s).")
