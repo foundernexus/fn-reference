@@ -202,6 +202,14 @@ def render_markdown(src: str) -> str:
                 )
             elif kind in ("highlight", "note"):
                 out.append(f'<aside class="highlight">{inner_html}</aside>')
+            elif kind in ("steps", "step"):
+                # :::steps [optional label] … :::  → numbered step/layer stack (CSS-only).
+                # Prefer an ordered list inside; headings + paragraphs also work.
+                label = label.strip()
+                label_html = (
+                    f'<p class="steps-label">{html.escape(label)}</p>' if label else ""
+                )
+                out.append(f'<div class="steps">{label_html}{inner_html}</div>')
             else:
                 out.append(inner_html)
             continue
@@ -597,9 +605,23 @@ def render_decision_json(page: dict) -> str:
         if kind == "situation":
             parts.append(f"<p>{html.escape(str(b.get('text') or ''))}</p>")
         elif kind == "options":
-            items = b.get("items") or []
-            lis = "".join(f"<li>{html.escape(str(it))}</li>" for it in items)
-            parts.append(f"<h2>Options</h2><ul>{lis}</ul>")
+            # Map existing options JSON → choice cards (renderer only; no content invent).
+            items = [str(it) for it in (b.get("items") or [])]
+            n = len(items)
+            cols = 3 if n == 3 or n >= 5 else 2
+            cards = []
+            for i, it in enumerate(items, 1):
+                cards.append(
+                    f'<div class="choice-card" role="listitem">'
+                    f'<span class="choice-index" aria-hidden="true">{i}</span>'
+                    f'<p class="choice-text">{html.escape(it)}</p>'
+                    f"</div>"
+                )
+            parts.append(
+                f'<h2 id="options">Options</h2>'
+                f'<div class="choice-grid choice-grid-{cols}" role="list">'
+                f'{"".join(cards)}</div>'
+            )
         elif kind == "what_mattered":
             items = b.get("items") or []
             lis = "".join(f"<li>{html.escape(str(it))}</li>" for it in items)
@@ -610,7 +632,8 @@ def render_decision_json(page: dict) -> str:
             )
         elif kind == "claim":
             parts.append(
-                f'<p class="claim">{html.escape(str(b.get("text") or ""))}</p>'
+                f'<p class="claim"><span class="claim-label">Claim</span>'
+                f'{html.escape(str(b.get("text") or ""))}</p>'
             )
         elif kind == "faq":
             items = b.get("items") or []

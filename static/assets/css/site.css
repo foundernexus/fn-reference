@@ -627,6 +627,125 @@ caption {
 .takeaways li:last-child { margin-bottom: 2px; }
 .takeaways p:last-child { margin-bottom: 0; }
 
+/* Decision choice cards — options JSON → scannable grid (renderer only) */
+.choice-grid {
+  display: grid;
+  gap: 16px;
+  margin: 8px 0 32px;
+}
+.choice-grid-2 { grid-template-columns: repeat(2, 1fr); }
+.choice-grid-3 { grid-template-columns: repeat(3, 1fr); }
+.choice-card {
+  background: var(--white);
+  border: 1px solid var(--border-subtle);
+  border-left: 2px solid var(--blue);
+  border-radius: 8px;
+  padding: 18px 18px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 100%;
+}
+.choice-index {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: var(--pale);
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1;
+}
+.choice-text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: var(--navy);
+}
+
+/* Decision claim — quiet accent, existing JSON claim text only */
+.claim {
+  background: var(--subtle);
+  border: 1px solid var(--border-subtle);
+  border-left: 3px solid var(--blue);
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 8px 0 32px;
+  font-size: 16px;
+  line-height: 1.55;
+  font-weight: 500;
+  color: var(--navy);
+}
+.claim-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--blue);
+  margin: 0 0 8px;
+}
+
+/* :::steps fence — numbered step / layer stacks (CSS-only, no images) */
+.steps {
+  margin: 8px 0 32px;
+  padding: 4px 0 0;
+}
+.steps-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--blue);
+  margin: 0 0 14px;
+}
+.steps ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: fd-step;
+}
+.steps ol > li {
+  position: relative;
+  counter-increment: fd-step;
+  margin: 0 0 14px;
+  padding: 14px 16px 14px 52px;
+  background: var(--white);
+  border: 1px solid var(--border-subtle);
+  border-left: 2px solid var(--chip);
+  border-radius: 8px;
+  line-height: 1.55;
+}
+.steps ol > li:last-child { margin-bottom: 0; }
+.steps ol > li::before {
+  content: counter(fd-step);
+  position: absolute;
+  left: 14px;
+  top: 14px;
+  width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  background: var(--pale);
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+.steps h3, .steps h4 {
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+.steps p { margin: 0 0 10px; }
+.steps p:last-child { margin-bottom: 0; }
+
 .highlight {
   background: transparent;
   border-left: 2px solid var(--blue);
@@ -926,7 +1045,8 @@ input:focus, select:focus {
 }
 
 @media (max-width: 900px) {
-  .grid-3, .grid-2, .calc-layout {
+  .grid-3, .grid-2, .calc-layout,
+  .choice-grid-2, .choice-grid-3 {
     grid-template-columns: 1fr;
   }
   .how-strip-list { grid-template-columns: 1fr; gap: 14px; }

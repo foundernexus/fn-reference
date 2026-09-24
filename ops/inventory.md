@@ -31,3 +31,8 @@ FounderNexus links use `utm_source=founderdecisions&utm_medium=referral&utm_camp
 Weekly 2026-09-11 indexing: requested for runway-calculator, hiring hub, rooms compare, finance hub (magic-number already queued earlier same day). Burn-multiple already on Google. Indexing coverage: 11 indexed / 6 not indexed (3 redirect, 2 discovered-not-indexed, 1 crawled-not-indexed).
 
 Weekly 2026-09-18 Startup Bible check (internal): Marketing & PR + Building the Company pillars visible; GTM-as-a-system (Sep 2026) + AI-era stack / pricing / moats / SaaS repricing. Pressure-tests on six live pages = aligned / no action. Queue candidates appended to SEO-BRIEF.md. No new fn-content issues (14–16 already cover recent ships). Live /decisions/ clean of Bible URLs.
+
+## Visual chrome (renderer)
+
+- 2026-09-24: `/decisions/` options JSON → choice-card grid in `render_decision_json` (build.py only; no fn-content edit). `:::steps` fence + CSS for library markdown. Screenshots: `ops/screenshots/decisions-options-*-2026-09-24.png`.
+

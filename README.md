@@ -30,7 +30,24 @@ Do not invent ranges. Named public sources only. Empty cell if unknown. When sou
 
 Legal line once, short, on finance/legal pages: “Not legal, tax, or compensation advice.”
 
+## Markdown fences (library articles)
+
+Supported in `render_markdown` (library/compare/about bodies only; not fn-content JSON):
+
+- `:::takeaways` / `:::takeaway` — In short box (optional label after the fence name).
+- `:::highlight` / `:::note` — thin blue left rule.
+- `:::steps` / `:::step` — numbered step/layer stack (CSS-only). Prefer an ordered list inside; optional label after the fence name.
+
+```md
+:::steps How to run it
+1. Name the hypothesis
+2. Run ten discovery calls
+3. Kill or keep the profile
+:::
+```
+
 ## fn-content decision pages
+
 
 At build, `build.py` fetches `renders/founderdecisions/*.json` → `/decisions/<slug>/` and `renders/founderdecisions-benchmarks/*.json` → `/benchmarks/<slug>/` from `foundernexus/fn-content` using `FN_CONTENT_TOKEN` (JSON-LD from `schema`, one `fn_link`). A 404 on a directory means zero pages, not a failed build. Other errors exit non-zero.
 
