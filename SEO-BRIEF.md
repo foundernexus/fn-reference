@@ -87,3 +87,5 @@ Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Ju
 27. Data moat for AI startups — done 2026-09-23 → /library/gtm/data-moat-ai-startup/. Query: how to build a data moat startup. a16z Empty Promise + Bessemer Vertical AI Part IV + Sequoia Own Your Intelligence; FN session data-as-moat / instant feedback. fn-content#22.
 
 Priority for next days: #23–#27 shipped. Next: pick a crisp unpublished library/tools/compare decision (hubs only when two spokes exist; skip thin GTM-system clones). Cadence: one new page every day including weekends.
+
+28. Series A diligence checklist — done 2026-09-24 → /library/fundraising/series-a-diligence-checklist/. Query: Series A diligence checklist. First fundraising spoke (hub deferred). Cite YC Kwon/Harris checklist + Underscore staged data room + Burkland 2026 evaluation lenses; FN session room-as-ops-signal. fn-content#23.

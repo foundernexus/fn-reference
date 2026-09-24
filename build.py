@@ -91,6 +91,11 @@ CLUSTERS = {
         "title": "Go-to-market",
         "description": "Where AI sits in the sales motion, and the human SDR numbers to score it against.",
     },
+    "fundraising": {
+        "section": "library",
+        "title": "Fundraising",
+        "description": "Series A diligence, data-room staging, and the evidence investors rebuild before they wire.",
+    },
 }
 
 
