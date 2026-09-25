@@ -90,3 +90,21 @@ Priority for next days: #23–#27 shipped. Next: pick a crisp unpublished librar
 
 28. Series A diligence checklist — done 2026-09-24 → /library/fundraising/series-a-diligence-checklist/. Query: Series A diligence checklist. First fundraising spoke (hub deferred). Cite YC Kwon/Harris checklist + Underscore staged data room + Burkland 2026 evaluation lenses; FN session room-as-ops-signal. fn-content#23.
 29. Finance, metrics & runway hub — done 2026-09-25 → /library/finance/. Queue #10. Query: startup board financial metrics.
+
+
+## Friday 2026-09-25 Startup Bible check (internal)
+Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Judgment only — no closed-session numbers on FD pages. Cite as FounderNexus session → https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library when earned.
+
+### New/updated since 2026-09-18
+- **Why AI isn't making engineering 10x faster** — Building the Company (5th playbook). LAST REVIEWED 2026-09; Sep 2026 session. Amdahl’s law on delivery loop (design/code/review/test/deploy/operate); “meat proxy” tax; AI-native default; engineering sovereignty.
+- New/updated concepts tied to that session: Amdahl’s law, engineering sovereignty, meat proxy, AI-native (LAST REVIEWED 2026-09).
+- Sessions index still Dec 2025 – Sep 2026. Data rooms playbook present (LAST REVIEWED 2026-08; Dec 2025 session) — already used as internal lens for Series A diligence spoke.
+
+### Pressure-test (judgment only)
+- Finance hub + burn / NRR / fractional CFO: aligned with runway / SaaS-repricing framing — no edit.
+- Hiring VP Sales + Series A sequence: aligned with executive-team hire-for-phase — no edit (KORE1 cite fixed this Friday).
+- GTM ships (AI SDR, market-AI, pricing, AEO, DIY PR, data moat): still aligned with Marketing & PR + Building the Company cluster — no edit.
+- Series A diligence checklist: aligned with data-rooms “room is the message / staged access” judgment already on page via Underscore + FN session — no edit.
+
+### Candidate weekday queue
+30. Why coding agents don’t 10x the company (Amdahl’s law on the delivery loop) — query candidates: AI coding agents productivity startup / why AI doesn’t 10x engineering. Public cites: Amdahl’s law (classic CS), vendor engineering blogs on review/test bottlenecks; FN session for meat-proxy / AI-native default (no closed-session numbers). Sibling to data-moat + seat-vs-usage pricing in GTM/Building cluster.

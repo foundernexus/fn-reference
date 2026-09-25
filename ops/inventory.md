@@ -32,6 +32,8 @@ FounderNexus links use `utm_source=founderdecisions&utm_medium=referral&utm_camp
 
 Weekly 2026-09-11 indexing: requested for runway-calculator, hiring hub, rooms compare, finance hub (magic-number already queued earlier same day). Burn-multiple already on Google. Indexing coverage: 11 indexed / 6 not indexed (3 redirect, 2 discovered-not-indexed, 1 crawled-not-indexed).
 
+Weekly 2026-09-25: GSC auth blocked (mtmckinney@gmail.com password prompt on box browser) — no fresh Performance/indexing pull; skipped GSC CTR ship and URL Inspection. Design: commit 3e1534b quiet In short/steps/claim labels. Credibility: bd13f9a KORE1 URL + equity calculator Sources. HubSpot-xai: 0 contacts/deals with utm_source=founderdecisions (portal analytics mostly OFFLINE). Startup Bible: new AI-engineering-10x playbook → SEO-BRIEF candidate #30.
+
 Weekly 2026-09-18 Startup Bible check (internal): Marketing & PR + Building the Company pillars visible; GTM-as-a-system (Sep 2026) + AI-era stack / pricing / moats / SaaS repricing. Pressure-tests on six live pages = aligned / no action. Queue candidates appended to SEO-BRIEF.md. No new fn-content issues (14–16 already cover recent ships). Live /decisions/ clean of Bible URLs.
 
 ## Visual chrome (renderer)
