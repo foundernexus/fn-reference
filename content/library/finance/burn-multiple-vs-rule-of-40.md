@@ -130,6 +130,7 @@ Wrong stage metric, mixed periods, and GAAP-as-cash are the usual failures.
 
 ## Related
 
+- [Finance, metrics & runway](/library/finance/)
 - [Library](/library/)
 - [When to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/)
 - [Series A leadership hiring sequence](/library/hiring/series-a-leadership-hiring-sequence/)

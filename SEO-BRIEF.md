@@ -40,7 +40,7 @@ foundernexus.com/ → Apply product
 7. Executive hiring hub
 8. When to hire first VP of Sales
 9. Series A leadership hiring sequence
-10. Finance, metrics & runway hub
+10. Finance, metrics & runway hub — done 2026-09-25 → /library/finance/. Query: startup board financial metrics. Orients three finance spokes + two tools; composite metric→when→spoke/tool table. Cites Sacks/Feld/Bessemer/ChartMogul/SaaS Capital/Scale/PG/Kruze/Carta; FN session stage-right pack.
 11. Runway calculator with hiring plan (done 2026-09-10 → /tools/runway-calculator/)
 12. Burn multiple vs Rule of 40 (done 2026-09-09 → /library/finance/burn-multiple-vs-rule-of-40/)
 13. Magic number & CAC payback calculator (done 2026-09-11 → /tools/magic-number-cac-payback-calculator/)
@@ -89,3 +89,4 @@ Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Ju
 Priority for next days: #23–#27 shipped. Next: pick a crisp unpublished library/tools/compare decision (hubs only when two spokes exist; skip thin GTM-system clones). Cadence: one new page every day including weekends.
 
 28. Series A diligence checklist — done 2026-09-24 → /library/fundraising/series-a-diligence-checklist/. Query: Series A diligence checklist. First fundraising spoke (hub deferred). Cite YC Kwon/Harris checklist + Underscore staged data room + Burkland 2026 evaluation lenses; FN session room-as-ops-signal. fn-content#23.
+29. Finance, metrics & runway hub — done 2026-09-25 → /library/finance/. Queue #10. Query: startup board financial metrics.
