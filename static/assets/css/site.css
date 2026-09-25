@@ -603,20 +603,21 @@ caption {
 .callout p:last-child { margin-bottom: 0; }
 
 .takeaways {
+  /* Quiet gray In short — scan aid, not a banner */
   background: var(--subtle);
   border: 1px solid var(--border-subtle);
-  border-left: 3px solid var(--blue);
+  border-left: 3px solid var(--border);
   border-radius: 8px;
   padding: 18px 22px 8px;
   margin: 8px 0 32px;
-  box-shadow: var(--shadow-sm);
+  box-shadow: none;
 }
 .takeaways-label {
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--blue);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-transform: none;
+  color: var(--muted);
   margin: 0 0 12px;
 }
 .takeaways ul, .takeaways ol {
@@ -684,10 +685,10 @@ caption {
 .claim-label {
   display: block;
   font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--blue);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-transform: none;
+  color: var(--muted);
   margin: 0 0 8px;
 }
 
@@ -697,11 +698,11 @@ caption {
   padding: 4px 0 0;
 }
 .steps-label {
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--blue);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-transform: none;
+  color: var(--muted);
   margin: 0 0 14px;
 }
 .steps ol {
