@@ -7,6 +7,7 @@ cluster: hiring
 layout: article
 target_query: Series A leadership hiring sequence
 date: 2026-09-07
+updated: 2026-09-25
 close: Sequencing these seats is a board-visible call. If you want founders who just made the first two VP hires after a raise to pressure-test which bottleneck is yours, that conversation happens at FounderNexus.
 disclaimer: not-legal-tax
 draft: false
@@ -137,6 +138,7 @@ Labeled sketches. Not a company.
 - [Majhi Group, hiring your first VP](https://www.majhigroup.com/first-vp-hire.html) — first VP A/B cash $180k–$280k; equity 0.3%–0.8%.
 - [Nxt Level, executive hiring](https://nxtlevel.io/executive.html) — 50%+ founder-time trigger; Series A typical first exec Eng or Head of Product; founder-to-VP authority failure mode.
 - [Ready Set Exec, Series A executive search](https://readysetexec.com/series-a-executive-search-scale-vs-stall/) — bottleneck-first; sequential vs simultaneous.
+- [KORE1, How to Scale Your Engineering Team After Series A](https://www.kore1.com/scale-engineering-team-series-a-startup-guide/) — technical leadership first, then senior owners who ship independently; management layers later than founders expect.
 - [Kruze Consulting, when a startup needs a CFO](https://kruzeconsulting.com/startup-need-cfo/) — Series A generally does not need full-time CFO; part-time fits Seed–Series C; hire full-time when part-time interaction is constant.
 - [Kruze Consulting, how to hire a SaaS CFO](https://kruzeconsulting.com/saas-cfo-hire/) — many Series A clients have no CFO or VP Finance; outsource until B (often later).
 - [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder session, February 2026. Hire for the phase. Say it in the offer. Not a survey.
