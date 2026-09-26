@@ -107,4 +107,4 @@ Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Ju
 - Series A diligence checklist: aligned with data-rooms “room is the message / staged access” judgment already on page via Underscore + FN session — no edit.
 
 ### Candidate weekday queue
-30. Why coding agents don’t 10x the company (Amdahl’s law on the delivery loop) — query candidates: AI coding agents productivity startup / why AI doesn’t 10x engineering. Public cites: Amdahl’s law (classic CS), vendor engineering blogs on review/test bottlenecks; FN session for meat-proxy / AI-native default (no closed-session numbers). Sibling to data-moat + seat-vs-usage pricing in GTM/Building cluster.
+30. Why coding agents don’t 10x the company (Amdahl’s law on the delivery loop) — done 2026-09-26 → /library/gtm/coding-agents-dont-10x-engineering/. Query: why AI coding agents don't 10x engineering. Cite Amdahl 1967 + Atlassian (3 Apr 2026) + Faros Acceleration Whiplash (12 Apr 2026) + METR RCT (10 Jul 2025) + Meagher; FN session score-the-loop / AI-native default / policy not every gate. fn-content#25.

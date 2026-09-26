@@ -379,11 +379,12 @@ h4, .h4 {
   border-top: 1px solid var(--border-subtle);
 }
 .related-section h2 {
-  margin: 0 0 16px;
-  font-size: 15px;
+  margin: 0 0 14px;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: -0.01em;
-  color: var(--navy);
+  text-transform: none;
+  color: var(--muted);
 }
 .related-section .page-list {
   border: 1px solid var(--border-subtle);
