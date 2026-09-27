@@ -7,7 +7,7 @@ cluster: gtm
 layout: article
 target_query: AEO vs SEO B2B SaaS
 date: 2026-09-21
-close: If you want founders who already rebalanced SEO and answer-engine work after buyers started asking AI before the homepage, that conversation happens at FounderNexus.
+close: Founders who have rebalanced SEO and answer-engine work after buyers started asking AI before visiting the homepage will compare notes with you in a FounderNexus session.
 draft: false
 related:
 - library/gtm/ai-sdr-vs-human
@@ -15,17 +15,17 @@ related:
 - library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas
 ---
 
-You are deciding where scarce content hours go in 2026. Classic SEO still owns commercial intent and the pages that close. Answer Engine Optimization (AEO) is the work of becoming the clear, citable source when buyers ask ChatGPT, Perplexity, Gemini, or Google AI Overviews before they hit your site. Google’s own Search Central guidance says optimizing for those AI features is still SEO, not a separate religion. This page helps you split the week without inventing a second marketing department.
+You are deciding where scarce content hours go in 2026. Classic SEO still owns commercial intent and the pages that close. Answer Engine Optimization (AEO) is the work of becoming the clear, citable source when buyers ask ChatGPT, Perplexity, Gemini, or Google AI Overviews before they hit your site. Google’s own Search Central guidance says optimizing for those AI features is still SEO. You can split the week between the two without building a second marketing department.
 
 :::takeaways
 - Google Search Central (AI optimization guide): **“AEO”** and **“GEO”** are industry labels. From Google’s perspective, optimizing for AI Overviews and AI Mode is optimizing for Search, and thus still **SEO**. Same crawl, index, and people-first rules. No special `llms.txt`, no magic schema for AI.
 - Google (21 May 2025): when people click from results pages **with AI Overviews**, those clicks are **higher quality**. Users are more likely to spend more time on the site. Do not optimize only for click count.
 - Google Search Console (3 Jun 2026; worldwide 31 Aug 2026): use the **Generative AI performance reports** for impressions of your URLs inside AI Overviews / AI Mode. That is separate from classic blue-link vanity.
-- SparkToro on Similarweb’s downstream study (29 Jun 2026): in consumer finance examples, devices that saw an AI brand mention were **7.2%** (American Express) and **14.2%** (Capital One) more likely to visit that brand within ~7 days. Consumer panel. Not a B2B SaaS conversion rate. Directional only.
+- SparkToro on Similarweb’s downstream study (29 Jun 2026): in consumer finance examples, devices that saw an AI brand mention were **7.2%** (American Express) and **14.2%** (Capital One) more likely to visit that brand within ~7 days. It is a consumer panel, not a B2B SaaS conversion rate, so treat it as directional.
 - Operator split for Seed–Series B: keep **bottom-funnel SEO** (pricing, compare, “vs,” integration) as the hard revenue path. Put AEO effort on **category education and comparison queries** so you are the entity AI systems cite ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Siblings: [AI SDR vs human](/library/gtm/ai-sdr-vs-human/), [market AI without saying AI](/library/gtm/market-ai-product-without-saying-ai/), [seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/).
 :::
 
-## What you are actually deciding
+## What you are deciding
 
 :::highlight
 You are allocating writer and founder hours between pages that convert and pages that teach the category so answer engines can cite you.
@@ -35,11 +35,11 @@ You are allocating writer and founder hours between pages that convert and pages
 | --- | --- | --- | --- |
 | Classic SEO | Rank and convert on queries with clear commercial intent | Buyer is comparing vendors, pricing, or “best X for Y” with purchase intent | You only publish soft thought leadership with no bottom-funnel pages |
 | AEO (answer / AI overview visibility) | Structured, entity-clear answers that models and AI Overviews can ground on | Category education, “what is,” compare frameworks, multi-step research | You chase “AI hacks” (chunking, fake mentions, special AI files) Google says to ignore |
-| Both (Google’s frame) | Same technical eligibility + unique non-commodity content | Site is crawlable, indexed, snippet-eligible, and actually helpful | You treat AEO as a separate product that replaces SEO |
+| Both (Google’s frame) | Same technical eligibility + unique non-commodity content | Site is crawlable, indexed, snippet-eligible, and useful to the reader | You treat AEO as a separate product that replaces SEO |
 
 Google’s AI features doc (updated 10 Dec 2025): there are **no additional technical requirements** beyond being indexed and eligible for a snippet. AI Overviews and AI Mode may use **query fan-out** (multiple related searches) and show a wider set of supporting links than classic Search.
 
-fn-content has no verified atom yet for how Seed–Series B B2B SaaS teams split SEO vs AEO hours, or for AI-referral share of pipeline. Tracked as [benchmark request: B2B SaaS SEO vs AEO effort split and AI-referral share](https://github.com/foundernexus/fn-content/issues/20). Until then, use the named public sources above and the stage table below, not an invented industry percentage.
+fn-content has no verified atom yet for how Seed–Series B B2B SaaS teams split SEO vs AEO hours, or for AI-referral share of pipeline. fn-content tracks it as [benchmark request: B2B SaaS SEO vs AEO effort split and AI-referral share](https://github.com/foundernexus/fn-content/issues/20). Until then, use the named public sources above and the stage table below, not an invented industry percentage.
 
 ## What AEO means in practice (not a new Google product)
 
@@ -50,11 +50,11 @@ AEO is editorial and entity work on top of SEO fundamentals. It is not a separat
 In operator language, AEO for B2B SaaS means:
 
 1. **Answer-shaped pages.** Lead with the decision, a short definition, and a comparison table. Models and AI Overviews prefer extractable structure. Google still tells you to write for humans with clear headings, not to “chunk” for machines.
-2. **Citation readiness.** Named sources, dates, and numbers that survive a check. Vague “industry averages” get skipped; specific public citations get reused.
+2. **Citation readiness.** Named sources, dates, and numbers that survive a check. Answer engines skip vague “industry averages” and reuse specific public citations.
 3. **Entity clarity.** Consistent product name, category, ICP, and “who it is for / not for” on the site. SparkToro (14 Aug 2026): AI Overviews, AI Mode, ChatGPT, Perplexity, and peers still learn from what they crawl on **your** site. Out-of-date help docs produce wrong answers.
-4. **Supporting links over vanity rank.** Google (May 2024 and May 2025): AI Overviews were designed to show links to explore further, and supporting links can reach a wider set of sites on complex queries.
+4. **Supporting links over vanity rank.** Google (May 2024 and May 2025): Google designed AI Overviews to show links to explore further, and supporting links can reach a wider set of sites on complex queries.
 
-What Google says you can **ignore** for Google Search (AI optimization guide): `llms.txt` and other special AI files, rewriting copy “just for AI,” inauthentic mention campaigns, and over-focusing on structured data as an AI Overviews hack. Structured data still helps rich results. It is not a secret AEO switch.
+Google says you can **ignore** these for Google Search (AI optimization guide): `llms.txt` and other special AI files, rewriting copy “just for AI,” inauthentic mention campaigns, and over-focusing on structured data as an AI Overviews hack. Structured data still helps rich results. It is not a secret AEO switch.
 
 ## When SEO still wins
 
@@ -69,7 +69,7 @@ Bottom-funnel commercial intent still pays the rent. Protect it first.
 | Integration / “X for Salesforce / HubSpot” | Implementation intent | Docs that match product reality |
 | Demo / trial / “alternatives to Y” | Late research with a vendor shortlist | Landing pages sales already use |
 
-Google’s May 2025 note is the measurement trap: AI Overview traffic can look softer on raw click volume while visits are **more engaged**. Score SEO pages on pipeline and time-to-value, not only GSC clicks.
+Google’s May 2025 note points to a measurement trap: AI Overview traffic can look softer on raw click volume while visits are **more engaged**. Score SEO pages on pipeline and time-to-value, not only GSC clicks.
 
 ## When to prioritize AEO
 
@@ -89,7 +89,7 @@ SparkToro’s read of Similarweb (consumer finance/travel/beauty panel): AI reco
 ## How measurement differs
 
 :::highlight
-Run two dashboards. Classic SEO for commercial queries. Generative AI reports for overview impressions. Pipeline for both.
+Run two dashboards: classic SEO for commercial queries and Generative AI reports for overview impressions. Tie both to pipeline.
 :::
 
 | Signal | Classic SEO | AEO / AI features | Source |
@@ -125,7 +125,7 @@ Labeled sketches. Thresholds are the public sources above, not a new study of yo
 
 **Series A, organic sessions flat, demos mention ChatGPT.** Add Generative AI impressions in GSC. Fix entity and docs that produce wrong answers (SparkToro’s home-base argument). Keep SEO on commercial queries. Measure branded search and direct alongside clicks.
 
-**Series B, competing on a crowded SERP for “[category] software.”** Double down on non-commodity proof (named customers, real numbers, “not for”). Google’s May 2025 and AI optimization guides both put unique value ahead of volume. Commodity listicles lose in AI Overviews and classic results.
+**Series B, competing on a crowded SERP for “[category] software.”** Put more effort into non-commodity proof (named customers, real numbers, “not for”). Google’s May 2025 and AI optimization guides both put unique value ahead of volume. Commodity listicles lose in AI Overviews and classic results.
 
 ## Sources
 

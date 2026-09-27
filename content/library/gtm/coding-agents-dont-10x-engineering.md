@@ -1,13 +1,13 @@
 ---
 title: Why coding agents don't 10x the company: Amdahl's law on the delivery loop
-description: Speeding coding alone does not 10x delivery. Score design, code, review, test, deploy, and operate. Invest where the queue actually sits.
+description: Speeding coding alone does not 10x delivery. Score design, code, review, test, deploy, and operate. Invest where the queue sits.
 slug: coding-agents-dont-10x-engineering
 section: library
 cluster: gtm
 layout: article
 target_query: why AI coding agents don't 10x engineering
 date: 2026-09-26
-close: If you want founders who already scored every stage of the delivery loop and moved AI past the coding step, that conversation happens at FounderNexus.
+close: Founders who have scored each stage of the delivery loop and moved AI past the coding step will compare notes with you in a FounderNexus session.
 draft: false
 related:
 - library/gtm/data-moat-ai-startup
@@ -16,7 +16,7 @@ related:
 - library/hiring/series-a-leadership-hiring-sequence
 ---
 
-You are deciding whether a coding-agent rollout is a company 10x or a local speedup that dumps work on review, CI, and ops. Most Seed and Series A teams measure the wrong slice. Agents draft faster. The delivery loop still includes design, review, test, deploy, and operate. If those stay human-paced, overall throughput barely moves. This page is the decision frame.
+You are deciding whether a coding-agent rollout is a company 10x or a local speedup that dumps work on review, CI, and ops. Many Seed and Series A teams measure the wrong slice. Agents draft faster, but the delivery loop still includes design, review, test, deploy, and operate. If those stay human-paced, overall throughput barely moves.
 
 :::takeaways
 - Gene Amdahl (1967): speedup from improving one part of a system is capped by how much time that part represents. Ten-x one equal stage in a five-stage loop is roughly a **20%** overall gain, not 10x.
@@ -26,7 +26,7 @@ You are deciding whether a coding-agent rollout is a company 10x or a local spee
 - Operator judgment: score every stage of the loop. Attack the lows. Make AI the default on more than typing, and put humans on policy instead of every gate ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Sibling: [data moat for AI startups](/library/gtm/data-moat-ai-startup/).
 :::
 
-## What you are actually deciding
+## What you are deciding
 
 :::highlight
 You are choosing whether next week’s engineering spend goes into more agent seats on the coding step, or into the stages that already gate verified production changes.
@@ -58,9 +58,9 @@ Amdahl’s law is classic CS: overall speedup = 1 / ((1 − P) + P / S), where P
 | 50% | 2x | ~1.33x |
 | 50% | 10x | ~1.82x |
 
-Their point matches what Evan Meagher (30 Jan 2026) and others spell out for agentic coding: once drafting is cheap, review, local verification, safe deploy, and production observation become the visible moles. A slow CI job or a 30+ minute pipeline stops being “annoying” and becomes the clock.
+Their point matches what Evan Meagher (30 Jan 2026) and others spell out for agentic coding: once drafting is cheap, review, local verification, safe deploy, and production observation become the visible moles. At that point a slow CI job or a 30+ minute pipeline sets your delivery pace.
 
-Illustrative equal-stage math (same shape as the Amdahl framing used in operator rooms): five stages at equal time; 10x one stage → about **20%** overall. That is not a measured benchmark for your company. It is the reason “we 10x’d coding” is the wrong victory condition.
+Illustrative equal-stage math (same shape as the Amdahl framing used in operator rooms): five stages at equal time; 10x one stage → about **20%** overall. That is an illustration, not a measured benchmark for your company, and it shows why “we 10x’d coding” is the wrong victory condition.
 
 ## What the telemetry shows when adoption rises
 
@@ -83,9 +83,9 @@ Faros’s 2026 Acceleration Whiplash report compares low vs high AI adoption ins
 | PRs merged with no review | **+31.3%** | Gate opens when capacity fails |
 | Bugs / developer | **+54%** | Defect load steepens with adoption |
 
-Faros is careful: incidents-to-PR is a ratio, not “each PR causes three outages.” The operating read for a venture-scale team is still clear. Generation got cheaper. Verification did not. If your board slide only shows merge rate, you are advertising the wrong side of the whiplash.
+Faros notes that incidents-to-PR is a ratio, not “each PR causes three outages.” For a venture-scale team the read is still clear: generation got cheaper and verification did not. If your board slide only shows merge rate, you are advertising the wrong side of the whiplash.
 
-METR’s RCT is the perception check. Experienced maintainers on large repos they already knew expected a **24%** speedup and still believed they were **20%** faster after the work. The clock said **19%** slower with early-2025 tooling. METR frames it as a snapshot of that setting and those tools, not a verdict on every model forever. Use it to distrust vibes and self-report.
+METR’s RCT is the perception check. Experienced maintainers on large repos they already knew expected a **24%** speedup and still believed they were **20%** faster after the work. Measured time came out **19%** slower with early-2025 tooling. METR frames it as a snapshot of that setting and those tools, not a verdict on every model forever. Use it to distrust vibes and self-report.
 
 ## Score the whole loop
 
@@ -96,9 +96,9 @@ Name where time and risk sit today. Then put agents on the lows, not only on the
 :::steps Delivery-loop score
 1. **List the stages.** At minimum: design / spec, code, review, test, deploy, operate. Add security or compliance gates if they already serialize releases.
 2. **Score each 0–5 for AI depth.** 0 = fully manual. 5 = agents do the work; humans set policy and exception gates. Do not average into one vanity “AI score.”
-3. **Mark the queue.** Where do changes wait? Faros and Atlassian both point at review, decisions, and validation as the usual pile-up after coding accelerates.
+3. **Mark the queue.** Find where changes wait. Faros and Atlassian both point at review, decisions, and validation as the usual pile-up after coding accelerates.
 4. **Separate local from system metrics.** Keep PR count if you want. Lead with lead time to production, review turnaround, rework, incidents-to-PR, and unreviewed merges.
-5. **Fund the lows first.** Faster typing into a fragile CI or human-only review path is how you create a senior-engineer tax, not a 10x company.
+5. **Fund the lows first.** If you speed up typing into a fragile CI or a human-only review path, you create a senior-engineer tax instead of a 10x company.
 :::
 
 | Stage | What “invest here” looks like | Public anchor |
@@ -113,7 +113,7 @@ Name where time and risk sit today. Then put agents on the lows, not only on the
 ## Decision table: buy more seats or fix the loop
 
 :::highlight
-More agent licenses are rational only when the verification path can absorb the volume.
+Buy more agent licenses only when the verification path can absorb the volume.
 :::
 
 | Situation | Do this | Skip this |
@@ -128,14 +128,14 @@ More agent licenses are rational only when the verification path can absorb the 
 ## Worked situations
 
 :::highlight
-Sketches. Thresholds come from the public sources above, not a new survey of your ICP.
+Labeled sketches. Thresholds come from the public sources above, not a new survey of your ICP.
 :::
 
 **Seed, five engineers, everyone on agents, “we’re shipping 3x.”** Measure lead time and review wait for two weeks. If drafts appear in an hour and sit two days for review, you sped the wrong step. Put one engineer-week into tests and smaller PRs before buying more seats. Cite Atlassian’s 20% / ~1.25x ceiling as the planning frame.
 
 **Series A, merge rate up, on-call noisy.** Pull incidents-to-PR and unreviewed merges. Faros’s direction (+242.7% incidents-to-PR; +31.3% no-review merges in their cohort) is the board language: show whether you match the whiplash pattern. Freeze seat growth until risk-tiered review and CI confidence catch up.
 
-**Series B, board asks “why aren’t we 10x yet?”** Show the stage scores. Replace the coding-only slide with Amdahl math plus your queue metrics. Operator rooms keep the same punchline: default to AI across the loop, put humans on policy, and stop treating paste-between-tools as “using AI” ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
+**Series B, board asks “why aren’t we 10x yet?”** Show the stage scores. Replace the coding-only slide with Amdahl math plus your queue metrics. Operator sessions land on the same advice: default to AI across the loop, put humans on policy, and stop treating paste-between-tools as “using AI” ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
 
 ## Sources
 
