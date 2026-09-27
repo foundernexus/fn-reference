@@ -7,7 +7,7 @@ cluster: board
 layout: article
 target_query: when to add independent director startup
 date: 2026-09-16
-close: The independent seat is a governance hire. If you want founders who just filled a Series A independent and lived through the first contested vote to pressure-test your shortlist, that conversation happens at FounderNexus.
+close: Treat the independent seat as a governance hire. Founders who have filled a Series A independent seat and sat through the first contested vote will pressure-test your shortlist in a FounderNexus session.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -16,7 +16,7 @@ related:
 - library/equity/option-pool-from-hiring-plan
 ---
 
-An independent director is a voting board member who is neither an employee nor an investor representative. Series A is when that seat usually becomes standard. You pick for judgment and gap-fill, not brand. Equity is typically under 1% of outstanding shares, vested over two to four years. Cash retainers usually wait until later. Not legal or compensation advice.
+An independent director is a voting board member who is neither an employee nor an investor representative. The seat usually becomes standard at Series A. Pick for judgment and for the gaps on your board, not for brand. Equity is typically under 1% of outstanding shares, vested over two to four years. Cash retainers usually wait until later. Not legal or compensation advice.
 
 :::takeaways
 - Timing: Series A is the standard trigger (CRV). Seed is usually founders plus at most one lead; practice with advisors, not a premature seat.
@@ -28,12 +28,12 @@ An independent director is a voting board member who is neither an employee nor 
 ## When the seat shows up
 
 :::highlight
-Series A is when the independent seat becomes a real term-sheet item. Seed is usually too early for the overhead.
+The independent seat becomes a real term-sheet item at Series A. At seed, the overhead usually comes too early.
 :::
 
 **Seed.** CRV: most seed boards are two founder-elected seats and at most one lead-investor seat. SAFE-heavy rounds often have no investor seat at all. Formalizing an independent too early adds fiduciary weight and process before the company needs it. Build relationships with candidates so you have a name ready.
 
-**Series A.** CRV: independent directors typically become standard here. Leading startup law firms describe the common post–Series A board as either three people (one founder, one VC, one independent) or five (two founders, two VCs, one independent). Composition is negotiated as a closing condition. Boards often leave the independent vacant at close; during the vacancy the board sits at founder–investor parity, so who fills the seat later matters.
+**Series A.** CRV: independent directors typically become standard here. Leading startup law firms describe the common post–Series A board as either three people (one founder, one VC, one independent) or five (two founders, two VCs, one independent). Founders and investors negotiate composition as a closing condition. Boards often leave the independent vacant at close; during the vacancy the board sits at founder–investor parity, and whoever fills the seat later holds the swing vote.
 
 **Series B and beyond.** CRV: by Series B, missing an independent is a recognizable governance gap. Independents also show up on related-party review and on audit and compensation committees as the company scales.
 
@@ -51,7 +51,7 @@ CRV’s job description is plain: no employment relationship with the company; j
 
 **Independence over prestige.** Source through founder peers and your own network. Mutual approval in the term sheet is necessary and not sufficient. CRV: enter negotiations with a candidate already identified, and keep mutual approval in the voting agreement. Prestige names who skip the pack are worse than a less famous director who shows up prepared.
 
-**Operator rule.** Treat the search like a senior hire. Reference-check for board behavior, not just resume glow. Do not outsource the shortlist to the lead alone ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
+**Operator rule.** Treat the search like a senior hire. Reference-check for board behavior as well as the resume. Do not outsource the shortlist to the lead alone ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
 
 ## Equity and cash (show sources separately)
 
@@ -59,7 +59,7 @@ CRV’s job description is plain: no employment relationship with the company; j
 Pay for governance responsibility above an advisor grant. Do not invent a midpoint across disagreeing sources.
 :::
 
-Independent directors at early-stage startups are paid in equity. Investor directors and employee/insider directors generally get nothing extra for the board seat (Boardspan / Paul Jones).
+Early-stage startups pay independent directors in equity. Investor directors and employee/insider directors generally get nothing extra for the board seat (Boardspan / Paul Jones).
 
 | Stage / frame | Independent director equity | Vesting / cash | Source |
 | --- | --- | --- | --- |
@@ -70,27 +70,27 @@ Independent directors at early-stage startups are paid in equity. Investor direc
 | Early-stage range (practitioner) | About **0.25%–2.0%** | Often ~2 years; 3–4 in longer-cycle cases | Boardspan / Paul Jones |
 | Series A advisor baseline (context) | Median ~**0.05%** FD | Director grant should sit well above this | CRV |
 
-Carta numbers are point-in-time initial grants to independent directors only, not founders, executives, or investor seats. They are not cumulative refreshes across rounds. Variability is high above the 75th percentile when the candidate brings unusual operating or industry value.
+Carta numbers are point-in-time initial grants to independent directors only. They exclude founders, executives, investor seats, and refreshes across rounds. Variability is high above the 75th percentile when the candidate brings unusual operating or industry value.
 
 CRV: a lead director or board chair often gets a modest premium over other board members; exact amount varies. Reimburse reasonable out-of-pocket expenses; do not confuse that with a cash retainer.
 
 Size the grant against the option pool you already sized from the hiring plan ([option pool from hiring plan](/library/equity/option-pool-from-hiring-plan/)). Peer executive bands live on [executive grants by stage](/library/equity/executive-grants-by-stage/).
 
-fn-content has no verified benchmark atom for this metric yet. Tracked as [benchmark request: independent director equity by stage](https://github.com/foundernexus/fn-content/issues/13).
+fn-content has no verified benchmark atom for this metric yet. fn-content tracks it as [benchmark request: independent director equity by stage](https://github.com/foundernexus/fn-content/issues/13).
 
 ## Mistakes that break the seat
 
 :::highlight
-Equity is not board control. Letting investors fill the swing seat is.
+Board control comes from seats. If investors fill the swing seat, you lose control whatever your equity.
 :::
 
 **Confusing shares with seats.** CRV: board seats are governance power; shares are economic power. A founder with 40% can still lose a board vote if two investor directors and a captive “independent” align.
 
 **Letting investors control selection.** Mutual approval language without an active founder shortlist cedes the tie-break. Drive the candidate list before the term sheet hardens.
 
-**Choosing for LinkedIn optics.** Disengaged prestige does not mediate a down round or a CEO transition.
+**Choosing for LinkedIn optics.** A disengaged big name will not help you through a down round or a CEO transition.
 
-**Treating the vacant seat as free time.** After Series A close with a vacancy, parity dynamics favor whoever shapes the eventual fill. Put a named process and deadline on the first board agendas ([how to run a Series A board meeting](/library/board/series-a-board-meeting-agenda/)).
+**Treating the vacant seat as free time.** If you close Series A with a vacancy, the side that shapes the eventual fill wins the parity standoff. Put a named process and deadline on the first board agendas ([how to run a Series A board meeting](/library/board/series-a-board-meeting-agenda/)).
 
 ## Sources
 

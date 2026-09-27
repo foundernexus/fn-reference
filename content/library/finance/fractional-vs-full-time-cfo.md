@@ -7,7 +7,7 @@ cluster: finance
 layout: article
 target_query: fractional vs full-time CFO startup
 date: 2026-09-17
-close: The CFO seat is a phase hire. If you want founders who just upgraded from fractional to full-time (or held the line and raised without one) to pressure-test your timing, that conversation happens at FounderNexus.
+close: The CFO seat is a phase hire. Founders who have upgraded from fractional to full-time (or held the line and raised without one) will pressure-test your timing in a FounderNexus session.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -18,7 +18,7 @@ related:
 - library/equity/executive-grants-by-stage
 ---
 
-Most Series A startups need CFO-level work. They do not need a full-time CFO yet. Buy the model, the board pack, and the raise prep on a fractional or outsourced seat. Convert to full-time when the interaction is constant, complexity is daily, or you are in the ARR band peers treat as the hire window. Not legal, tax, or investment advice.
+Most Series A startups need CFO-level work before they need a full-time CFO. Buy the model, the board pack, and the raise prep on a fractional or outsourced seat. Convert to full-time when the interaction is constant, complexity is daily, or you are in the ARR band peers treat as the hire window. Not legal, tax, or investment advice.
 
 :::takeaways
 - Series A: Kruze’s general case is no full-time CFO. Part-time / fractional fits Seed through Series A–C. Many Series A clients run with no CFO or VP Finance and outsource until Series B (often later).
@@ -43,7 +43,7 @@ Do not hire a titled CFO to do controller work. Kruze’s in-house guide separat
 | Fractional / part-time CFO | Model, KPIs, raise prep, board reporting, intermittent IR / debt / equity advice | Full-time presence and a growing accounting department | Kruze (when a startup needs a CFO) |
 | Full-time CFO | Same strategic work, plus daily ownership of a growing finance org | Clean books without a controller underneath | Kruze; Bessemer Atlas |
 
-A fractional CFO without clean books fails. Kruze and every serious outsourced shop put accrual / GAAP-ready accounting under the strategy seat. Build the close first.
+A fractional CFO cannot fix a model built on messy books. Kruze puts accrual / GAAP-ready accounting under the strategy seat. Build the close first.
 
 ## Stage triggers (who says what)
 
@@ -82,7 +82,7 @@ Cash bands below are publisher figures, not a blended market survey. Empty cells
 | Fully loaded three-person in-house team (staff + controller + CFO) | **$450,000–$650,000+** cash/year before equity | Kruze |
 | Break-even vs outsourcing (Kruze rule of thumb) | Do not bring the function in-house until outsourced billing exceeds roughly **$35,000–$45,000** per month | Kruze |
 
-fn-content has no verified benchmark atom for these metrics yet. Tracked as [benchmark request: fractional vs full-time CFO hire timing and cost](https://github.com/foundernexus/fn-content/issues/14). Peer executive equity bands for other seats live on [executive grants by stage](/library/equity/executive-grants-by-stage/). Runway math for the hire sits on the [runway calculator](/tools/runway-calculator/).
+fn-content has no verified benchmark atom for these metrics yet. fn-content tracks it as [benchmark request: fractional vs full-time CFO hire timing and cost](https://github.com/foundernexus/fn-content/issues/14). Peer executive equity bands for other seats live on [executive grants by stage](/library/equity/executive-grants-by-stage/). Runway math for the hire sits on the [runway calculator](/tools/runway-calculator/).
 
 ## Checklist: when to upgrade from fractional to full-time
 
@@ -90,7 +90,7 @@ fn-content has no verified benchmark atom for these metrics yet. Tracked as [ben
 Upgrade on workload and complexity, not on title envy after the last raise.
 :::
 
-Use these as yes/no signals. One yes is not enough. A cluster usually is.
+Use these as yes/no signals. One yes rarely justifies the hire; several together usually do.
 
 1. **Interaction is constant.** Kruze: hire full-time when your interaction with the part-time CFO becomes consistent. Between raises, intermittent work is the norm.
 2. **Fractional spend approaches a full-time package.** Bessemer Atlas quotes fractional CFO Betty Kayton: transition when you are spending about **75%+** of a full-time salary on fractional support, or when operational / financial complexity is about to jump.
@@ -99,7 +99,7 @@ Use these as yes/no signals. One yes is not enough. A cluster usually is.
 5. **IPO or major transaction is near.** Kruze: near-IPO needs a full-time CFO ASAP.
 6. **Hire for the phase.** The operator who built the model for the A may not be the operator who runs a 20-person finance function toward B. Say the phase out loud in the offer ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
 
-If the board pack is still a scramble every quarter but books are clean, buy fractional first. That worked-situation pattern is already on the hiring sequence spoke. Keep retention metrics honest on the pack with [NRR vs GRR](/library/finance/nrr-vs-grr-board-pack/) and efficiency with [burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/).
+If the board pack is still a scramble every quarter but books are clean, buy fractional first. The hiring sequence spoke works through that situation. Keep retention metrics honest on the pack with [NRR vs GRR](/library/finance/nrr-vs-grr-board-pack/) and efficiency with [burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/).
 
 ## Sources
 

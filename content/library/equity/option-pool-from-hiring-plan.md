@@ -7,7 +7,7 @@ cluster: equity
 layout: article
 target_query: how to size option pool
 date: 2026-08-31
-close: A hiring-plan pool is still a board number. If you want founders who just ran that math into a term sheet to pressure-test the seats and the remaining unallocated, that conversation happens at FounderNexus.
+close: A hiring-plan pool is still a board number. Founders who have taken that math into a term sheet will pressure-test the seats and the remaining unallocated pool in a FounderNexus session.
 disclaimer: not-legal-tax
 draft: false
 ---
@@ -28,13 +28,13 @@ Horizon is the next round, not an IPO. Carta: size for the next 12–18 months o
 Seats, then a cited grant on each, then refresh and a buffer. Then check the term-sheet percentage.
 :::
 
-Write the seats. Not “grow headcount 40%.” Names of functions and seniority, through the date you expect to raise again.
+Write down the seats: functions and seniority, through the date you expect to raise again. A line like “grow headcount 40%” does not count.
 
-Put a grant on each seat from a named source. Executives as a percent of fully diluted equity. Staff as Index does it after Series A: a percent of base salary, converted at the post-money. Use [executive equity grants by stage](/library/equity/executive-grants-by-stage/) for VP and C-level bands. Empty cell if the source did not publish that seat.
+Put a grant from a named source on each seat. Size executives as a percent of fully diluted equity. Size staff the way Index does after Series A: a percent of base salary, converted at the post-money. Use [executive equity grants by stage](/library/equity/executive-grants-by-stage/) for VP and C-level bands. Empty cell if the source did not publish that seat.
 
 Add refresh and a buffer for the hire you did not plan. Carta: the pool has to cover new-hire grants and refresh grants through the next round. Index: an unexpected executive, or a plan that steps up, is why their Series A scenario lands at 12% rather than the 10.4% the hiring list itself consumes.
 
-Then look top-down. HSBC Innovation Banking 2026 Term Sheet Guide, cited by Carta: most common pool 10–15%, 10% most frequent. Index US path: traditionally ~10% at seed, often ~15% at Series A. Kruze: term sheets often show 10%, 15%, or 20% as a generic ask. If bottoms-up is 11% and the sheet says 15%, the 4 points are the negotiation, not a law of nature.
+Then look top-down. HSBC Innovation Banking 2026 Term Sheet Guide, cited by Carta: most common pool 10–15%, 10% most frequent. Index US path: traditionally ~10% at seed, often ~15% at Series A. Kruze: term sheets often show 10%, 15%, or 20% as a generic ask. If bottoms-up is 11% and the sheet says 15%, you are negotiating over the 4 points.
 
 ## Index’s Series A list, added up
 
@@ -69,15 +69,15 @@ Do not spend the 10% traditional seed pool on two “VP” titles. Hold unalloca
 
 ## Take the list into the term sheet
 
-Kruze: ask why they want that pool size. The usual answer is “enough for the next 18 or 24 months of hiring.” Put the list on the table. If it is lower than 15%, you can often bring the number down. If it is too low, you run out mid-round and top up with less leverage.
+Kruze: ask why they want that pool size. The usual answer is “enough for the next 18 or 24 months of hiring.” Put the list on the table. If it is lower than 15%, you can often bring the number down. If it is too low, you run out mid-round and top up with less negotiating power.
 
-Who pays for the top-up is a separate argument. Pre-money pool dilutes existing holders before the new money prices in. Post-money shares it with the new investor. Kruze almost never sees the founder-friendly version. Carta calls the same mechanic the option pool shuffle. Walk the placement on the [equity hub](/library/equity/) or run the [option pool shuffle calculator](/tools/option-pool-shuffle-calculator/). The hiring plan decides how big. The shuffle decides whose percentage moves.
+Placement, meaning who pays for the top-up, is a separate argument. Pre-money pool dilutes existing holders before the new money prices in. Post-money shares it with the new investor. Kruze almost never sees the founder-friendly version. Carta calls the same mechanic the option pool shuffle. Walk the placement on the [equity hub](/library/equity/) or run the [option pool shuffle calculator](/tools/option-pool-shuffle-calculator/). Your hiring plan sets the size; placement sets whose percentage moves.
 
 SAFEs and converts price at the close. Kruze: they usually do not eat the pre-close pool increase, so founders take more of it.
 
 ## Mistakes that show up as a 15% line
 
-**Defaulting to 10%.** Carta: avoid picking 10% by default. The right size is the amount you need to hire the team that gets you to the next milestone. Too big over-dilutes you. Too small forces a top-up before you have leverage.
+**Defaulting to 10%.** Carta: avoid picking 10% by default. The right size is the amount you need to hire the team that gets you to the next milestone. Too big over-dilutes you. Too small forces a top-up before you have negotiating power.
 
 **Sizing to an IPO.** Index: ESOP size is a board decision meant to cover talent through the next round. You do not want to reopen the plan between raises if you can help it, but you also should not pre-pay Series D.
 
@@ -89,9 +89,9 @@ SAFEs and converts price at the close. Kruze: they usually do not eat the pre-cl
 
 ## Worked situation
 
-**You’re raising Series A. The sheet says 15% pool, unallocated today is 6%, and you have a 16-month hiring plan.** Build the 16-month list with cited grants. Suppose it comes to 9% including a 1-point buffer for refresh and one unplanned director. You need a top-up of 3 points of unallocated, not 9 points to 15%. Take 9–10% to the lawyer and the investor. If they still want 15% pre-money, they are asking existing holders to fund extra pool the plan does not consume. That is a price term. Model it. Do not treat 15% as the hiring plan.
+**You’re raising Series A. The sheet says 15% pool, unallocated today is 6%, and you have a 16-month hiring plan.** Build the 16-month list with cited grants. Suppose it comes to 9% including a 1-point buffer for refresh and one unplanned director. You need a top-up of 3 points of unallocated, not 9 points to 15%. Take 9–10% to the lawyer and the investor. If they still want 15% pre-money, they are asking existing holders to fund extra pool the plan does not consume. That is a price term, so model it as one instead of treating 15% as the hiring plan.
 
-This sketch is labeled. Not a company. Not a term sheet.
+Labeled sketch: not a company and not a term sheet.
 
 ## Sources
 

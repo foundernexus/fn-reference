@@ -7,7 +7,7 @@ cluster: equity
 layout: article
 target_query: 409A after funding round
 date: 2026-09-02
-close: After the round closes, the 409A is a hiring gate, not a formality. If you want founders who just sequenced the freeze, refresh, and first post-round grants to walk through your calendar, that conversation happens at FounderNexus.
+close: After the round closes, the 409A gates your next hires. Founders who have sequenced the freeze, refresh, and first post-round grants will walk through your calendar in a FounderNexus session.
 disclaimer: not-legal-tax
 draft: false
 ---
@@ -18,7 +18,7 @@ A priced round is typically a material event under IRC §409A. Carta: reliance o
 - Freeze new grants at close. Refresh FMV, board-adopt, then grant.
 - A priced round typically ends reliance on the prior 409A (Carta).
 - Refresh at least every 12 months, or sooner after a material event.
-- Cost bands disagree. Show each source. Do not average.
+- Cost bands disagree. Show each source instead of an average.
 :::
 
 ## What triggers a refresh
@@ -42,7 +42,7 @@ Promise’s “within 30 days” is one published target. The IRS does not publi
 
 ## What a post-round 409A costs
 
-Sources disagree. Do not average them. Show each band as published.
+Sources disagree, so this section shows each band as published instead of an average.
 
 **Kruze published fees** ([409A valuation cost](https://kruzeconsulting.com/409a-valuation-cost/)):
 
@@ -74,7 +74,7 @@ Coordinate with the valuation provider ahead of the round so the updated 409A ca
 
 | Step | What operators do | Published timing |
 | --- | --- | --- |
-| Engage | Start the provider before or at close; assemble financials, cap table, funding docs, 12–24 month projections | Doc lead time is real (Kruze checklist) |
+| Engage | Start the provider before or at close; assemble financials, cap table, funding docs, 12–24 month projections | Allow for document lead time (Kruze checklist) |
 | Valuation | Provider runs the report | Kruze: can complete in 10 business days; checklist: set aside 2–4 weeks plus board and doc lead time |
 | Board | Board adopts the new FMV | Same meeting or shortly after the signed report |
 | Grants resume | Issue options at or above the adopted FMV | After adoption, not on the old strike |
@@ -102,13 +102,13 @@ Penalties for underpriced options hit the holder: ordinary income on the spread,
 
 ## Mistakes after the round
 
-**Granting through the close on the old FMV.** The prior valuation is stale once the priced round is treated as a material event (Carta).
+**Granting through the close on the old FMV.** Once the priced round counts as a material event, the prior valuation is stale (Carta).
 
 **Waiting months to refresh.** Promise targets within 30 days after closing; Kruze recommends a new valuation after a raise. Open offers sit without a strike while you wait.
 
 **Treating preferred price as common strike.** Preferred rights make common FMV lower (Carta; Kruze backsolve).
 
-**Skipping board adoption.** The report alone is not enough. The board adopts FMV, then you grant.
+**Skipping board adoption.** The signed report does not set FMV on its own. The board adopts FMV, then you grant.
 
 **Letting the annual clock slip.** Even without a raise, safe harbor is generally up to 12 months from the valuation date (Carta; Kruze; Promise).
 

@@ -7,7 +7,7 @@ cluster: finance
 layout: article
 target_query: nrr vs grr saas
 date: 2026-09-14
-close: Retention is a board-visible call. If you want founders who just walked GRR and NRR through a raise or a board pack to pressure-test your cohort definitions, that conversation happens at FounderNexus.
+close: Your board will read retention closely. Founders who have walked GRR and NRR through a raise or a board pack will pressure-test your cohort definitions in a FounderNexus session.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -22,7 +22,7 @@ GRR answers how much recurring revenue you keep from a starting cohort with zero
 - NRR = (Starting MRR + Expansion + Reactivation − Contraction − Churn) / Starting MRR. Can exceed 100%. Also called NDR.
 - GRR = (Starting MRR − Contraction − Churn) / Starting MRR. Capped at 100%. Never counts expansion. Also called GDR.
 - Same cohort only. Exclude new logos mid-period. For that cohort, NRR ≥ GRR always.
-- SaaS Capital (2023, >$1M ARR): median NRR 102%, median GRR 91%. Table stakes: GRR at least ~90%. ChartMogul Dec 2025 (~3,500 software cos): median B2B SaaS NRR 82%, top quartile 97%. Different samples. Show separately.
+- SaaS Capital (2023, >$1M ARR): median NRR 102%, median GRR 91%. Table stakes: GRR at least ~90%. ChartMogul Dec 2025 (~3,500 software cos): median B2B SaaS NRR 82%, top quartile 97%. Different samples, so show them on separate rows.
 - Put GRR, NRR, and growth on one board page (Keith Wallington). A 70% GRR with 115% NRR is a leaky base covered by expansion.
 :::
 
@@ -57,19 +57,19 @@ ChartMogul movement formulas. Same starting cohort. No new logos mid-window.
 ## Why boards need both
 
 :::highlight
-Strong NRR with weak GRR is a masking story, not a retention win.
+Strong NRR with weak GRR means expansion is hiding churn.
 :::
 
-Keith Wallington (quoted on ChartMogul’s GRR page): chart GRR, NRR, and growth on one page for a board meeting. That frame forces the full customer journey. New business. Retention. Upsell.
+Keith Wallington (quoted on ChartMogul’s GRR page): chart GRR, NRR, and growth on one page for a board meeting. One page then shows the full customer journey: new business, retention, and upsell.
 
-ChartMogul’s masking warning: **70% GRR with 115% NRR** means a leaky base covered by expansion. Diligence cares about that. So should your board. Fix GRR leaks before you celebrate NRR.
+ChartMogul’s masking warning: **70% GRR with 115% NRR** means a leaky base covered by expansion. Investors check for it in diligence, and your board should too. Fix GRR leaks before you celebrate NRR.
 
-Bessemer’s Atlas churn piece: net dollar retention should be 100%+. Customer success North Star is net retention. That is the NRR bar. It does not replace the GRR leak check.
+Bessemer’s Atlas churn piece: net dollar retention should be 100%+. Bessemer names net retention as the customer success North Star. That sets the NRR bar; you still need the GRR leak check.
 
 ## Cited benchmarks (do not average)
 
 :::highlight
-Three publishers. Different samples and years. Keep the rows separate.
+Three publishers with different samples and years. Keep the rows separate.
 :::
 
 ### SaaS Capital Research Brief 28 (2023)
@@ -86,7 +86,7 @@ Survey of private B2B SaaS; retention cuts exclude companies with less than $1M 
 | ACV $100–250k | ~107% | ~93% |
 | ACV >$250k | ~110% | ~93% |
 
-Source: [SaaS Capital, Research Brief 28 — 2023 B2B SaaS Retention Benchmarks](https://www.saas-capital.com/wp-content/uploads/2023/05/RB28WS1-2023-B2B-SaaS-Retention-Benchmarks.pdf) (Figure 1 and conclusions).
+Source: [SaaS Capital, Research Brief 28: 2023 B2B SaaS Retention Benchmarks](https://www.saas-capital.com/wp-content/uploads/2023/05/RB28WS1-2023-B2B-SaaS-Retention-Benchmarks.pdf) (Figure 1 and conclusions).
 
 Other SaaS Capital lines from the same brief:
 
@@ -138,28 +138,28 @@ Period, cohort definition, GRR + NRR + growth. No blended publisher averages.
 ## Labeled board sketches
 
 :::highlight
-Round numbers so the arithmetic is visible. Not a company.
+Round numbers keep the arithmetic visible. Not a company.
 :::
 
-**Sketch A — healthy mid-market.** Starting cohort MRR $1,000k. Contraction $40k, churn $50k, expansion $120k, reactivation $0. GRR = (1000 − 40 − 50) / 1000 = **91%**. NRR = (1000 + 120 − 40 − 50) / 1000 = **103%**. Near SaaS Capital’s overall medians. Board talk: hold GRR above ~90% and push expansion without buying it with discounts that later contract.
+**Sketch A: healthy mid-market.** Starting cohort MRR $1,000k. Contraction $40k, churn $50k, expansion $120k, reactivation $0. GRR = (1000 − 40 − 50) / 1000 = **91%**. NRR = (1000 + 120 − 40 − 50) / 1000 = **103%**. Near SaaS Capital’s overall medians. Board talk: hold GRR above ~90% and push expansion without buying it with discounts that later contract.
 
-**Sketch B — masked leak.** Starting $1,000k. Contraction $80k, churn $220k, expansion $350k. GRR = **70%**. NRR = **105%**. Looks “fine” on net. ChartMogul’s 70% / 115%-style warning applies. Board talk: stop celebrating NRR until GRR recovers.
+**Sketch B: masked leak.** Starting $1,000k. Contraction $80k, churn $220k, expansion $350k. GRR = **70%**. NRR = **105%**. Looks “fine” on net. ChartMogul’s 70% / 115%-style warning applies. Board talk: stop celebrating NRR until GRR recovers.
 
-**Sketch C — enterprise expansion engine.** Starting $1,000k. Contraction $30k, churn $40k, expansion $200k. GRR = **93%**. NRR = **113%**. Sits near SaaS Capital’s higher-ACV medians and above Bessemer’s enterprise NRR floor (>100%). Board talk: protect GRR while expansion compounds.
+**Sketch C: enterprise expansion engine.** Starting $1,000k. Contraction $30k, churn $40k, expansion $200k. GRR = **93%**. NRR = **113%**. Sits near SaaS Capital’s higher-ACV medians and above Bessemer’s enterprise NRR floor (>100%). Board talk: protect GRR while expansion compounds.
 
 ## Mistakes that waste a board meeting
 
 :::highlight
-Wrong cohort, mixed acronyms, and averaged publishers are the usual failures.
+Most wasted retention slides come from the wrong cohort, mixed acronyms, or averaged publishers.
 :::
 
 **Showing only NRR.** Expansion can paper over churn. Bring GRR.
 
 **Mixing GRR and NRR labels.** GDR/NDR are the same metrics under dollar names. Compare like with like.
 
-**Including new logos in the retention cohort.** That inflates both numbers and is not retention.
+**Including new logos in the retention cohort.** That inflates both numbers and measures acquisition instead of retention.
 
-**Averaging SaaS Capital 102% with ChartMogul 82% into “aim for 92%.”** Different samples. Pick the band that matches your ACV and say which source.
+**Averaging SaaS Capital 102% with ChartMogul 82% into “aim for 92%.”** The samples differ. Pick the band that matches your ACV and say which source.
 
 **Treating Bessemer 2019 segment aims as 2023 survey medians.** Aims ≠ medians.
 
