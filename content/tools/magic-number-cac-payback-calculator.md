@@ -8,7 +8,7 @@ layout: calculator
 calculator_js: magic-number-cac-payback-calculator.js
 target_query: saas magic number cac payback calculator
 date: 2026-09-11
-close: Magic number and CAC payback are board-visible GTM calls. If you want founders who just defended those numbers in a raise or a board pack to pressure-test your S&M plan, that conversation happens at FounderNexus.
+close: Your board will see magic number and CAC payback. Founders who have defended those numbers in a raise or a board pack will pressure-test your S&M plan in a FounderNexus session.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -20,7 +20,7 @@ Enter prior and current quarter recurring revenue plus prior-quarter sales and m
 
 :::takeaways
 - Classic magic number = ((current-quarter recurring revenue − prior-quarter recurring revenue) × 4) ÷ prior-quarter sales & marketing spend. Scale Venture Partners popularized it; their Scale Studio long-term median is 0.7.
-- ChartMogul’s cheat sheet read: above ~0.75 is commonly treated as efficient enough to invest more in GTM; below ~0.5 suggests pulling back. Scale’s 0.7 median is a different publisher’s baseline. Show them separately.
+- ChartMogul’s cheat sheet read: operators commonly treat above ~0.75 as efficient enough to invest more in GTM; below ~0.5 suggests pulling back. Scale’s 0.7 median is a different publisher’s baseline. Show them separately.
 - CAC payback (months) = CAC ÷ (ARPA × gross margin %). ChartMogul: recover CAC through gross margin, not raw MRR.
 - Bessemer (Scaling to $100 Million): target payback under 12 months SMB, under 18 mid-market, under 24 enterprise. Their portfolio average in the $1–10M ARR band was about 15 months.
 - Use prior-quarter S&M in the magic number denominator. Same-quarter spend flatters a ramp and punishes a pipeline quarter.
@@ -85,7 +85,7 @@ Bessemer State of the Cloud 2023 also published a Good / Better / Best CAC payba
 
 Not a company. Numbers chosen so both metrics are readable.
 
-Prior-quarter ARR $2.0M. Current-quarter ARR $2.4M. Prior-quarter S&M $2.0M → classic magic number **0.80**. At 75% gross margin, a GM-adjusted variant on the same delta is **0.60**. CAC $12,000. Monthly ARPA $1,000. Gross margin 75% → payback **16.0 months** (inside Bessemer’s mid-market under-18 target; above their SMB under-12 target). Load those defaults, then replace every field with your board numbers.
+Prior-quarter ARR $2.0M. Current-quarter ARR $2.4M. Prior-quarter S&M $2.0M → classic magic number **0.80**. At 75% gross margin, a GM-adjusted variant on the same delta is **0.60**. CAC $12,000. Monthly ARPA $1,000. Gross margin 75% → payback **16.0 months** (inside Bessemer’s mid-market under-18 target; above their SMB under-12 target). Load those defaults, then replace each field with your board numbers.
 
 ## Board uses
 
@@ -93,7 +93,7 @@ Prior-quarter ARR $2.0M. Current-quarter ARR $2.4M. Prior-quarter S&M $2.0M → 
 Show formula, period, and which publisher’s band you are comparing against.
 :::
 
-Put magic number and payback on the same slide with the lag (prior-quarter S&M). State whether ARR is net new (includes churn) or new-logo only. State gross margin definition. If you sell mixed SMB and enterprise, show payback by segment against Bessemer’s three buckets rather than one blended number. Tie capital-efficiency context to burn multiple / Rule of 40 on the sibling page. Do not claim a single “good” magic number when Scale’s median and ChartMogul’s invest band disagree on the label.
+Put magic number and payback on one slide with the lag (prior-quarter S&M). State whether ARR is net new (includes churn) or new-logo only. State gross margin definition. If you sell mixed SMB and enterprise, show payback by segment against Bessemer’s three buckets rather than one blended number. Tie capital-efficiency context to burn multiple / Rule of 40 on the sibling page. Do not claim a single “good” magic number when Scale’s median and ChartMogul’s invest band disagree on the label.
 
 ## Mistakes
 

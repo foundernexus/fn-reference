@@ -7,7 +7,7 @@ cluster: equity
 layout: calculator
 target_query: how much equity to give VP of sales startup
 date: 2026-08-29
-close: If you want this grant pressure-tested by founders who just made the hire, that conversation happens at FounderNexus.
+close: To pressure-test this grant with founders who have made the same hire, bring it to a FounderNexus session.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -26,13 +26,13 @@ Use it next to [executive equity grants by stage](/library/equity/executive-gran
 - **This grant %:** the fully diluted percentage you are considering.
 - **Cash (optional):** base you are considering. Compared only where a source published a cash band (VP Sales). Other roles stay blank.
 
-All arithmetic runs in the browser. Nothing is stored or sent. Where sources conflict on Series B VP Sales equity, the calculator shows each published range rather than averaging them.
+All arithmetic runs in your browser. The tool stores and sends nothing. Sources conflict on Series B VP Sales equity, so the calculator shows each published range instead of an average.
 
 ## How to read the result
 
 A grant can sit inside a published band and still be wrong for the pool. If 0.8% is the high end of Index’s Series A VP range and you have 2.0% unallocated with three more exec seats plus ICs in the next 18 months, the band is not the constraint. Carta: size the pool from a 12–18 month hiring plan. Index: the ESOP should cover talent needs through the next round.
 
-Cash is not a substitute for percentage, or the reverse. UltraTalent and The CRO Report both show cash rising as equity percentage falls. Matching late-stage cash to seed percentage is two markets on one offer.
+Cash and percentage do not substitute for each other. UltraTalent and The CRO Report both show cash rising as equity percentage falls. If you match late-stage cash to a seed percentage, you are pricing one offer in two markets.
 
 After a priced round, SAFE, or other material event, the existing 409A is no longer valid (Carta). Refresh, board-approve FMV, then grant.
 

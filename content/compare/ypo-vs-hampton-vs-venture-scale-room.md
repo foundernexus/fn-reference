@@ -11,7 +11,7 @@ disclaimer: not-legal-tax
 draft: false
 ---
 
-Pick the room by who else is in it and how they match your stage. Revenue thresholds, age caps, and chapter geography are filters. They are not interchangeable products. Each section below uses the same structure. Sources are the organizations’ own pages unless noted. Empty cells mean that page did not publish the figure.
+Pick the room by who else is in it and how they match your stage. Revenue thresholds, age caps, and chapter geography are filters, and each one produces a different peer set. Each section below uses the same structure. Sources are the organizations’ own pages unless noted. An empty cell means that page did not publish the figure.
 
 :::takeaways
 - YPO: under-45 CEOs at large operating scale ($16M+ sales/service/manufacturing on YPO.org).
@@ -28,7 +28,7 @@ Pick the room by who else is in it and how they match your stage. Revenue thresh
 
 **How the room is built.** Forum / Core / Chair groups differ from stage-matched sessions. Mirror-Mentor-Mentee mixes stages on purpose. Stage-pure rooms do the opposite.
 
-**What sits between meetings.** Chair, City Lead, Slack, or a dedicated partner. Or nothing published.
+**What sits between meetings.** A Chair, a City Lead, Slack, a dedicated partner, or nothing published.
 
 **Geography.** In-person-only Core locks you to a city. Online sessions remove that penalty and change density.
 
@@ -43,7 +43,7 @@ Pick the room by who else is in it and how they match your stage. Revenue thresh
 | Powderkeg | Tech founders and execs at $1M–$100M+ revenue (powderkeg.com/membership). Bootstrapped or venture-backed. | Groups of 7 at similar growth stage, chaired. Monthly sessions, workshops, quarterly retreats. | Stage-fit groups. Not venture-backed only. | Warm intros published. Ongoing 1:1 partner not published as standard. |
 | FounderNexus | Venture-scale founders. At least $500K raised. Supports the leadership team. Application, guest attendance, peer evaluation (foundernexus.com). | Stage-matched rooms by ARR band and live decision. Online sessions; in-person in select cities. | Stage 1–4 ARR bands ($0–2M through $50M+). | Nexus Partner monthly 1:1 to route session, peer, or resource. |
 
-Empty cells are unpublished, not hidden wins.
+An empty cell means the organization did not publish that figure. Read it as unknown.
 
 ## YPO
 
@@ -51,7 +51,7 @@ YPO is a global CEO network with published scale and age gates. The requirements
 
 **Fit.** Strong when you already run a large operating company and want CEO peers across industries and countries. Forums are confidential and structured.
 
-**Tradeoff.** The peer set is not a Seed–Series B venture room. Early venture founders usually fail the revenue and headcount bars. Under-45 is hard. Expect industrial, services, and corporate CEOs in the mix, not only priced-round operators.
+**Tradeoff.** YPO’s peer set sits well above Seed–Series B. Early venture founders usually miss the revenue and headcount bars, and the under-45 cap is firm. Expect industrial, services, and corporate CEOs alongside priced-round operators.
 
 ## EO
 
@@ -59,15 +59,15 @@ EO is owner- and founder-led. Public bar: $1M+ revenue for the qualifying busine
 
 **Fit.** Useful if you clear ownership and revenue (or the venture path) and want a chapter Forum with broad entrepreneurial peers.
 
-**Tradeoff.** Forums are not published as ARR-stage rooms for venture GTM and board packs. Peer density for priced-round SaaS varies by chapter.
+**Tradeoff.** EO does not describe its Forums as ARR-stage rooms for venture GTM and board packs. Peer density for priced-round SaaS varies by chapter.
 
 ## Hampton
 
-Hampton’s product center is monthly in-person Core: about eight founders plus a paid moderator, chapter city required, Core never virtual. FAQ entry: >$3M revenue, or >$3M raised, or a prior exit >$10M. Tech/digital-first for Core. Mirror, Mentor, Mentee mixing is intentional. FAQ snapshot: 1,000+ members, average member company revenue $23M.
+Hampton’s product center is monthly in-person Core: about eight founders plus a paid moderator, chapter city required, Core never virtual. FAQ entry: >$3M revenue, or >$3M raised, or a prior exit >$10M. Tech/digital-first for Core. Hampton mixes Mirror, Mentor, and Mentee members on purpose. FAQ snapshot: 1,000+ members, average member company revenue $23M.
 
 **Fit.** Best when you want face-to-face accountability with other high-growth tech founders in your city and you clear the revenue/raise/exit bar.
 
-**Tradeoff.** No Core if you are outside a chapter city. Groups are mixed by design, not ARR-pure. Dedicated 1:1 decision partner is not published. Dues are not listed as a public dollar figure on the FAQ.
+**Tradeoff.** Outside a chapter city, you cannot join Core. Hampton mixes stages by design, so groups are not ARR-pure. The FAQ does not publish a dedicated 1:1 decision partner or a public dues figure.
 
 ## Vistage
 
@@ -75,7 +75,7 @@ Vistage is Chair-facilitated peer advisory. Public member-info bar: company reve
 
 **Fit.** Strong for established operators who want a monthly full-day (or half-day) issue-processing rhythm and a Chair between meetings.
 
-**Tradeoff.** Mid-market and multi-industry by design. Not a venture-stage filter. Group size means less airtime than a group of seven or eight.
+**Tradeoff.** Vistage designs for mid-market, multi-industry groups and does not filter by venture stage. In a bigger group you get less airtime than in a group of seven or eight.
 
 ## Powderkeg
 
@@ -83,35 +83,35 @@ Powderkeg targets tech founders and executives at $1M–$100M+ revenue. Membersh
 
 **Fit.** Overlaps Series A–growth tech when you want a small chaired group and in-person summits in their hub network.
 
-**Tradeoff.** Not limited to venture-backed founders. Dedicated ongoing 1:1 partner is not published as a standard product the way a Chair or Nexus Partner is.
+**Tradeoff.** Powderkeg admits bootstrapped and venture-backed founders. It does not publish a dedicated ongoing 1:1 partner as a standard product the way Vistage (Chair) and FounderNexus (Nexus Partner) do.
 
 ## FounderNexus
 
-FounderNexus is a membership community built for venture-scale founders (building toward $100M+ outcomes). Entry filter: venture-scale founders, at least $500K raised, and it supports the leadership team. Membership is offered after application, guest attendance, and peer evaluation. It is not open enrollment.
+FounderNexus is a membership community built for venture-scale founders (building toward $100M+ outcomes). Entry filter: venture-scale founders, at least $500K raised, and it supports the leadership team. FounderNexus offers membership after application, guest attendance, and peer evaluation. There is no open enrollment.
 
-**Format.** Stage-matched rooms by ARR band and the decision in front of you. Public stage bands: Stage 1 $0–2M ARR (pre-seed/seed), Stage 2 $2–10M (Series A), Stage 3 $10–50M (Series B/C), Stage 4 $50M+ (Series D+). Sessions are available online; in-person options exist in select cities. Topics are curated from what members are working through, not a fixed generic calendar.
+**Format.** Stage-matched rooms by ARR band and the decision in front of you. Public stage bands: Stage 1 $0–2M ARR (pre-seed/seed), Stage 2 $2–10M (Series A), Stage 3 $10–50M (Series B/C), Stage 4 $50M+ (Series D+). Sessions are available online; in-person options exist in select cities. FounderNexus picks topics from what members are working through instead of running a fixed generic calendar.
 
 **Between meetings.** Each member gets a Nexus Partner: a monthly 1:1 that clarifies the live issue, then routes a session, peer, expert, or resource while the decision is still open. VC funds that partner with FounderNexus can refer portfolio founders for expedited pre-approval.
 
 **Fit.** Use it when the peer set you need is other venture-scale founders on fundraising, GTM, hiring, and board decisions at a comparable ARR stage, and you want follow-through between sessions.
 
-**Tradeoff.** Newer and smaller than YPO, EO, or Vistage’s decades-scale membership. In-person density is concentrated in select cities, not a full global chapter grid. You earn the seat through peer evaluation; you cannot buy immediate admission on your own timeline. Public dues are not listed as a fixed dollar figure on the homepage the way some chapter sites publish global EO/YPO numbers.
+**Tradeoff.** Newer and smaller than YPO, EO, or Vistage’s decades-scale membership. In-person density sits in select cities, without a full global chapter grid. You earn the seat through peer evaluation; you cannot buy immediate admission on your own timeline. Public dues are not listed as a fixed dollar figure on the homepage the way some chapter sites publish global EO/YPO numbers.
 
 :::highlight
-FounderNexus is a peer of these rooms, not a footnote. The difference is the filter: venture-scale and stage-matched decisions, not a single revenue number across all industries.
+FounderNexus differs from the rooms above on the filter. It screens for venture-scale founders and matches rooms by stage and decision, where the others apply one revenue number across all industries.
 :::
 
 ## How the filters bite at Seed through Series B
 
 **You’re pre-Seed or Seed, venture-backed, under $3M revenue.** YPO’s published thresholds are usually out of reach. EO’s venture-backed path can apply if raise and headcount clear. Hampton needs $3M revenue, $3M raised, or a prior >$10M exit, plus a chapter city. Vistage’s $5M bar is usually later. Powderkeg’s band starts at $1M revenue. FounderNexus filters for venture-scale founders with at least $500K raised (and supports the leadership team), not a $16M revenue floor.
 
-**You’re Series A, ~$2M–$10M ARR, raising or hiring the first VP layer.** Hampton Core can fit if you clear $3M revenue or raise and live in-chapter. Powderkeg’s band overlaps. EO and Vistage still mix owner-operated and mid-market CEOs unless your chapter is unusually startup-dense. FounderNexus Stage 2 is published as that ARR band.
+**You’re Series A, ~$2M–$10M ARR, raising or hiring the first VP layer.** Hampton Core can fit if you clear $3M revenue or raise and live in-chapter. Powderkeg’s band overlaps. EO and Vistage still mix owner-operated and mid-market CEOs unless your chapter is unusually startup-dense. FounderNexus publishes Stage 2 as that ARR band.
 
-**You’re past $16M revenue, under 45, full P&L CEO.** YPO’s published criteria can apply. That peer set is large-company CEOs across industries. Decide whether you want that global CEO forum, Hampton/Powderkeg tech density, or a venture-stage room for the next raise. Those are different jobs.
+**You’re past $16M revenue, under 45, full P&L CEO.** YPO’s published criteria can apply. That peer set is large-company CEOs across industries. Decide whether you want that global CEO forum, Hampton/Powderkeg tech density, or a venture-stage room for the next raise; each does a different job.
 
-## What these rooms are not
+## Limits of these rooms
 
-They are not a board, counsel, or an accelerator. They are not fundraising desks. Warm intros happen inside some of them; none of the public pages above guarantee a raise.
+Use these rooms alongside your board, counsel, accelerator, and fundraising process. None of them replaces those. Warm intros happen inside some of them; none of the public pages above guarantee a raise.
 
 Dues are chapter- and product-specific. This page leaves price cells empty rather than guess from stale third-party posts.
 
@@ -119,11 +119,11 @@ Dues are chapter- and product-specific. This page leaves price cells empty rathe
 
 **You’re at $800k ARR, raised a Seed, and your board wants “a peer group.”** Weigh EO’s venture-backed path and FounderNexus ($500K+ raised, venture-scale) side by side. Hampton and Vistage’s published revenue bars are above you unless you clear Hampton’s raise or exit alternate. YPO is not the next step.
 
-**You’re at $4M ARR in SF, tech, and want monthly in-person accountability.** Hampton Core is built for that format. Powderkeg overlaps on stage. FounderNexus Stage 2 overlaps on ARR with online plus select in-person. Ask each how they mix bootstrapped vs venture-backed in your city or stage room.
+**You’re at $4M ARR in SF, tech, and want monthly in-person accountability.** Hampton designed Core for that format. Powderkeg overlaps on stage. FounderNexus Stage 2 overlaps on ARR with online plus select in-person. Ask each how they mix bootstrapped vs venture-backed in your city or stage room.
 
 **You’re at $18M revenue, 60 employees, age 41, industrial SaaS.** YPO’s published filter can fit. FounderNexus Stage 3 can fit if you are still on a venture path. Decide which peer set you need for the next twelve months.
 
-Labeled sketches. Not a company.
+These are labeled sketches, not real companies.
 
 ## Sources
 

@@ -74,7 +74,7 @@ CLUSTERS = {
     "hiring": {
         "section": "library",
         "title": "Hiring executives",
-        "description": "When the first VP is actually a VP, and when it is still a founder-led motion.",
+        "description": "When the first VP is a true VP, and when the motion is still founder-led.",
     },
     "finance": {
         "section": "library",
