@@ -37,7 +37,7 @@ You are choosing who owns the first version of the company story, and when money
 | Fractional / boutique retainer | Senior operator time + existing contacts | Clear news cadence; founder still does interviews | Retainer starts before you can explain the company in two sentences |
 | Mid-size agency | Team coverage, surge capacity | Multi-market news, sustained campaign load | One announcement a quarter and a junior doing the pitching |
 
-fn-content has no verified atom yet for Seed–Series B DIY vs agency spend or founder hours on press. fn-content tracks it as [benchmark request: DIY vs agency PR cost and founder hours by stage](https://github.com/foundernexus/fn-content/issues/21). Until then, use the named public ranges above. Do not invent a "typical" startup PR budget.
+We have no verified benchmark yet for Seed–Series B DIY vs agency spend or founder hours on press. We track it as [benchmark request: DIY vs agency PR cost and founder hours by stage](https://github.com/foundernexus/fn-content/issues/21). Until then, use the named public ranges above. Do not invent a "typical" startup PR budget.
 
 ## Build the narrative before you pitch
 
