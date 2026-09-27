@@ -82,7 +82,7 @@ Cash bands below are publisher figures, not a blended market survey. Empty cells
 | Fully loaded three-person in-house team (staff + controller + CFO) | **$450,000–$650,000+** cash/year before equity | Kruze |
 | Break-even vs outsourcing (Kruze rule of thumb) | Do not bring the function in-house until outsourced billing exceeds roughly **$35,000–$45,000** per month | Kruze |
 
-fn-content has no verified benchmark atom for these metrics yet. fn-content tracks it as [benchmark request: fractional vs full-time CFO hire timing and cost](https://github.com/foundernexus/fn-content/issues/14). Peer executive equity bands for other seats live on [executive grants by stage](/library/equity/executive-grants-by-stage/). Runway math for the hire sits on the [runway calculator](/tools/runway-calculator/).
+We have no verified benchmark yet for these metrics. We track them as [benchmark request: fractional vs full-time CFO hire timing and cost](https://github.com/foundernexus/fn-content/issues/14). Peer executive equity bands for other seats live on [executive grants by stage](/library/equity/executive-grants-by-stage/). Runway math for the hire sits on the [runway calculator](/tools/runway-calculator/).
 
 ## Checklist: when to upgrade from fractional to full-time
 

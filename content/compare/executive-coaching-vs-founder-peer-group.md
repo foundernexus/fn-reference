@@ -36,7 +36,7 @@ Compare format first and price second. Stage fit decides whether either product 
 | What you buy | Depth on your specific situation and behavior | Lateral pattern-matching from people who have sat in a similar seat |
 | Best when | Named skill or leadership gap; exit or turnaround on a compressed timeline; you already know the move and need accountability | Recurring founder decisions; isolation; you need many perspectives, not one voice |
 | Failure mode | Coach has not operated at your scale or complexity | You are the largest or only venture-backed company in the room |
-| Between meetings | Reachable coach (engagement-dependent) | Chair / City Lead / Slack / Nexus Partner, or nothing published |
+| Between meetings | Reachable coach (engagement-dependent) | Chair / City Lead / Slack / FounderNexus advocate, or nothing published |
 
 This page compares relative investment only, because few coaching retainers or peer dues carry a named public dollar figure. EO publishes a one-time **$3,500** initiation fee plus chapter dues that vary (helloeo.org). Vistage and most venture peer rooms do not list a public fixed price on the pages cited below. fn-content tracks this as a benchmark request.
 
@@ -81,11 +81,11 @@ Check the published entry filter before you compare formats. A room that will no
 | EO (published snapshot) | Median member sales **$4.3M**; **17,900+** members | Not ARR-stage venture rooms | helloeo.org |
 | YPO | Under 45; top operational leader; large FTE / revenue bars by company type (e.g. sales/service/manufacturing **$16M+**) | Confidential forums, global network | YPO membership requirements |
 | Hampton Core | **>$3M** revenue, or **>$3M** raised, or prior exit **>$10M**; chapter city; tech/digital-first | ~8 + paid moderator; Core never virtual | joinhampton.com FAQ |
-| FounderNexus | Venture-scale founders; at least **$500K** raised; supports the leadership team | Stage-matched ARR rooms; Nexus Partner between sessions | foundernexus.com |
+| FounderNexus | Venture-scale founders; at least **$500K** raised; supports the leadership team | Rooms matched by ARR band; an advocate between sessions | foundernexus.com |
 
 Side-by-side depth on YPO, EO, Hampton, Vistage, Powderkeg, and FounderNexus lives on [YPO vs EO vs Hampton vs a venture-scale room](/compare/ypo-vs-hampton-vs-venture-scale-room/).
 
-fn-content has no verified benchmark atom for coaching retainers or peer-group dues by stage yet. fn-content tracks it as [benchmark request: executive coaching cost and founder peer group dues](https://github.com/foundernexus/fn-content/issues/16).
+We have no verified benchmark yet for coaching retainers or peer-group dues by stage. We track it as [benchmark request: executive coaching cost and founder peer group dues](https://github.com/foundernexus/fn-content/issues/16).
 
 ## Worked situations
 

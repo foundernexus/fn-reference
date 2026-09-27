@@ -38,7 +38,7 @@ Pick the unit the buyer already budgets for. Then build ops so that unit stays p
 | Outcome (per successful result) | Unambiguous, measurable win; you can absorb compute variance | Outcome definition is fuzzy or failure modes are expensive | Intercom Fin: **$0.99** per ticket resolved, not per message or token |
 | Hybrid (base + usage/outcome) | Early stage; need predictability and expansion upside | You never harden one model and custom deals proliferate | Bessemer: middle ground for early startups; example **$12K + 100** included, then **$5K / 100** |
 
-fn-content has no verified atom yet for how common seat vs usage vs outcome is across AI SaaS cohorts. fn-content tracks it as [benchmark request: AI SaaS seat vs usage vs outcome pricing adoption mix](https://github.com/foundernexus/fn-content/issues/18). Until then, use Bessemer’s named examples and principles, not an invented category share.
+We have no verified benchmark yet for how common seat vs usage vs outcome is across AI SaaS cohorts. We track it as [benchmark request: AI SaaS seat vs usage vs outcome pricing adoption mix](https://github.com/foundernexus/fn-content/issues/18). Until then, use Bessemer’s named examples and principles, not an invented category share.
 
 ## Predictability vs value alignment vs margin risk
 

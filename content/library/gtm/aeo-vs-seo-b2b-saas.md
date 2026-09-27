@@ -39,7 +39,7 @@ You are allocating writer and founder hours between pages that convert and pages
 
 Google’s AI features doc (updated 10 Dec 2025): there are **no additional technical requirements** beyond being indexed and eligible for a snippet. AI Overviews and AI Mode may use **query fan-out** (multiple related searches) and show a wider set of supporting links than classic Search.
 
-fn-content has no verified atom yet for how Seed–Series B B2B SaaS teams split SEO vs AEO hours, or for AI-referral share of pipeline. fn-content tracks it as [benchmark request: B2B SaaS SEO vs AEO effort split and AI-referral share](https://github.com/foundernexus/fn-content/issues/20). Until then, use the named public sources above and the stage table below, not an invented industry percentage.
+We have no verified benchmark yet for how Seed–Series B B2B SaaS teams split SEO vs AEO hours, or for AI-referral share of pipeline. We track it as [benchmark request: B2B SaaS SEO vs AEO effort split and AI-referral share](https://github.com/foundernexus/fn-content/issues/20). Until then, use the named public sources above and the stage table below, not an invented industry percentage.
 
 ## What AEO means in practice (not a new Google product)
 
