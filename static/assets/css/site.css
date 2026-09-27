@@ -386,6 +386,20 @@ h4, .h4 {
   text-transform: none;
   color: var(--muted);
 }
+
+/* Quiet hub "In this topic" label — same scan-aid weight as Related / In short */
+article.prose + .section {
+  padding-top: 40px;
+  border-top: 1px solid var(--border-subtle);
+}
+article.prose + .section .section-title {
+  margin: 0 0 14px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-transform: none;
+  color: var(--muted);
+}
 .related-section .page-list {
   border: 1px solid var(--border-subtle);
   border-radius: 8px;
