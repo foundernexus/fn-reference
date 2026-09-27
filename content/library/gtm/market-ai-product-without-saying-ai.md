@@ -24,7 +24,7 @@ Most founders asking this are deciding whether to put “AI” in the hero. Buye
 - Put the model behind the job. Keep a person on the close and on inbound that matters ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Sibling: [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/).
 :::
 
-## What you are actually deciding
+## What you are deciding
 
 :::highlight
 You are choosing the first sentence a buyer reads. Job and outcome beat “AI-powered.” Technology belongs in the how, after trust starts.
@@ -39,7 +39,7 @@ You are choosing the first sentence a buyer reads. Job and outcome beat “AI-po
 | Proof | Named customer outcome, time saved, durable usage | Vague “AI magic,” unattributed pilots | Bessemer: case studies and third-party endorsements; Gartner: washers flood the category |
 | Sales motion | Founder-led until the message is repeatable | Cold demo asks with no problem framing | Bessemer: outbound that only introduces the product and asks for a demo fails |
 
-fn-content has no verified benchmark atom for outcome-led vs AI-led homepage conversion yet. Tracked as [benchmark request: AI product messaging — outcome-led vs AI-led conversion](https://github.com/foundernexus/fn-content/issues/17). Until then, use the named public judgment above, not an invented lift percentage.
+We have no verified benchmark yet for outcome-led vs AI-led homepage conversion. We track it as a [benchmark request: AI product messaging, outcome-led vs AI-led conversion](https://github.com/foundernexus/fn-content/issues/17). Until it lands, use the named public judgment above and skip invented lift percentages.
 
 ## Why leading with AI fails
 
@@ -63,7 +63,7 @@ Job. Outcome. Proof. Model last.
 
 **Lead with economic terms for the buyer who signs.** Bessemer: apps that replace cost, cut cost, or drive revenue are easier to sell and stickier. Put the number in their units. Hours. Dollars. Cycle time. Not tokens.
 
-**Give the end user a reason to keep the tool.** Same Bessemer note: supercharging capability and removing mundane work. If adoption depends on the person who feared the C-suite pitch, rewrite the end-user page before you scale spend.
+**Give the end user a reason to keep the tool.** Same Bessemer note: boost capability and remove mundane work. If adoption depends on the person who feared the C-suite pitch, rewrite the end-user page before you scale spend.
 
 **Position against the status quo first.** Kim Caldbeck via Bessemer: educate on the non-AI way of doing the job, then why your tool is the right one among AI options. Category education before vendor education.
 
@@ -83,7 +83,7 @@ Bessemer’s demand-gen playbook for early AI founders (Letteri, 13 Oct 2025) tr
 | Solution education | Frame how to evaluate | Status quo vs your approach, without model worship |
 | Value proposition | Why you, in buyer units | Outcome page with a named metric |
 | Customer / data story | Proof someone got the result | Case study with a number and a role |
-| Product deep dive | How it works after trust | Demo, workflow, integration path |
+| Product detail | How it works after trust | Demo, workflow, integration path |
 
 Channels they name for that middle: website, long-form content, events, LinkedIn with a deliberate narrative, earned media and communities where the ICP already gathers, email once you have a universe. They also say: do not spend early on channels that do not reach the ICP; for most B2B companies, paid ads can wait.
 
@@ -107,7 +107,7 @@ Labeled sketches. Not a company. Thresholds are the sources above.
 - [Bessemer Atlas, Mastering product-market fit: a detailed playbook for AI founders](https://www.bvp.com/atlas/mastering-product-market-fit-a-detailed-playbook-for-ai-founders). Christine Deakers, published 29 Jul 2025. Economic ROI for C-suite; capability messaging for end users; status-quo-first positioning (Kim Caldbeck); Brisk Teaching case (over 10 hours/week saved; over 1M educators as of March 2025 snapshot).
 - [Gartner, Over 40% of agentic AI projects will be canceled by the end of 2027](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027). Newsroom, 25 Jun 2025. Agent washing; about 130 of thousands of purported agentic vendors are real; over 40% cancel forecast. A forecast and an estimate, not your category win rate.
 - [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. Job-first placement; human on inbound and on the close. Not a survey.
-- [fn-content #17](https://github.com/foundernexus/fn-content/issues/17). Benchmark request: AI product messaging — outcome-led vs AI-led conversion.
+- [Benchmark request #17](https://github.com/foundernexus/fn-content/issues/17). Benchmark request: AI product messaging, outcome-led vs AI-led conversion.
 
 ## Related
 

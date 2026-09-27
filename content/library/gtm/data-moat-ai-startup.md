@@ -25,7 +25,7 @@ You are deciding whether “we have proprietary data” is a real moat or a pitc
 - Sibling decisions: [market AI without saying AI](/library/gtm/market-ai-product-without-saying-ai/) and [seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/).
 :::
 
-## What you are actually deciding
+## What you are deciding
 
 :::highlight
 You are choosing whether to invest next week in a compounding loop, or keep shipping features on rented intelligence and hope the logs become a moat later.
@@ -39,7 +39,7 @@ You are choosing whether to invest next week in a compounding loop, or keep ship
 | “Flywheel” | Each session creates corrections, exceptions, and ground truth you reuse | Accept/reject buttons nobody clicks; no trajectory store |
 | “Customers stay for the data” | Switching loses their history of decisions and edge cases | Switching loses a chat transcript they can export |
 
-fn-content has no verified atom yet for Seed–Series B time-to-minimum-viable-corpus, retention lift from proprietary loops, or quality-vs-quantity labeling spend. Tracked as [benchmark request: AI data moat signals](https://github.com/foundernexus/fn-content/issues/22). Until then, use the named public sources above. Do not invent a “typical” dataset size.
+We have no verified benchmark yet for Seed–Series B time-to-minimum-viable-corpus, retention lift from proprietary loops, or quality-vs-quantity labeling spend. We track it as a [benchmark request: AI data moat signals](https://github.com/foundernexus/fn-content/issues/22). Until then, use the named public sources above. Do not invent a “typical” dataset size.
 
 ## Scale effects are not network effects
 
@@ -58,7 +58,7 @@ Their enterprise observation still maps to application AI in 2026:
 
 The Eloquent Labs support-chatbot curve they cite is domain-specific, not a universal law. Use it as a caution: know *your* coverage curve before you tell investors the moat widens forever.
 
-## When data actually defends
+## When data defends
 
 :::highlight
 Defensibility shows up when sources are scarce, quality compounds, and the product embeds workflow memory competitors cannot copy-paste from an API.
@@ -86,9 +86,9 @@ Ship the shortest loop that improves a named eval. Then widen. Do not wait for �
 | 1. Eval | Turn real work into graded tasks (prompt, context, grader). Stop vibe-checking alone. | Sequoia / Harvey: benchmark before you own more of the stack |
 | 2. Capture | Log trajectories: context in, tools called, output, edits, undos, retries. | Sequoia online learning; failed task → new eval |
 | 3. Improve | Pick the lightest fix: RAG/context for missing facts; SFT for format; preference for taste; RL for specialized skill; distill for cost/latency. | Sequoia / Lin Qiao framing in Huang’s piece |
-| 4. Contract | Trade early discounts for utilization minimums and structured feedback obligations when you need the first turns of the flywheel. | Operator judgment from founder rooms ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)) |
+| 4. Contract | Trade early discounts for usage minimums and structured feedback obligations when you need the first turns of the flywheel. | Operator judgment from founder sessions ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)) |
 
-Two sources of differentiated data that repeatedly show up in operator rooms (without closed-session numbers): collect what nobody publishes, and apply decades-style domain fluency about what is signal versus noise in a niche. Commodity enrichment feeds are table stakes.
+Two sources of differentiated data that operators name again and again in founder sessions (without closed-session numbers): collect what nobody publishes, and apply decades-style domain fluency about what is signal versus noise in a niche. Commodity enrichment feeds are table stakes.
 
 Bessemer’s EvenUp lesson fits layer 1–3: early human review was a deliberate quality investment, not a failure to automate. Scale came after the feedback was trustworthy.
 
@@ -124,7 +124,7 @@ Labeled sketches. Thresholds come from the public sources above, not a new surve
 - [Bessemer Atlas, Part IV: Ten principles for building strong vertical AI businesses](https://www.bvp.com/atlas/part-iv-ten-principles-for-building-strong-vertical-ai-businesses). 28 Jan 2025. Principle 10 quality over quantity (EvenUp human review); principle 8 multimodality / models not a reliable moat; principle 2 end-to-end workflows vs commoditized features; industry-specific RAG as a foundational layer.
 - [Sequoia, Own Your Intelligence: A How-To Guide](https://sequoiacap.com/article/own-your-intelligence-a-how-to-guide). Sonya Huang, 19 Aug 2026. When proprietary data argues for owning stack slices; evals before post-training; harness and trajectories; Harvey Legal Agent Benchmark (**1,200+** tasks, **24** areas, **75,000+** rubric criteria); research team of **seven**.
 - [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions. Data as the ingredient a startup can own; unpublished collection and domain fluency; feedback that rewards the user instantly; small data still signals. Not a survey. No closed-session numbers.
-- [fn-content #22](https://github.com/foundernexus/fn-content/issues/22). Benchmark request: AI data moat signals (MVC size, loop latency, retention lift from proprietary loops).
+- [Benchmark request #22](https://github.com/foundernexus/fn-content/issues/22). Benchmark request: AI data moat signals (MVC size, loop latency, retention lift from proprietary loops).
 
 ## Related
 

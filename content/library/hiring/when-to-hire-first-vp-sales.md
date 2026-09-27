@@ -93,13 +93,13 @@ Labeled sketches. Not a company.
 
 ## Sources
 
-- [The CRO Report, founder-led sales to VP Sales](https://thecroreport.com/blog/founder-led-sales-to-vp-sales/) — 15 February 2026. 1,501 postings; 272 build-from-scratch; 10–20 closed deals; process; bandwidth; $1M–$2M shorthand; Seed/Series A $188k–$250k and 0.5–2%.
-- [SaaStr, sales rep first or sales manager](https://www.saastr.com/should-i-hire-a-sales-rep-first-or-a-sales-manager/) — founder closes 10–20; two reps at quota; then a head of sales, usually after $1M–$2M ARR.
-- [SaaStr, first salesperson](https://www.saastr.com/dear-saastr-when-should-a-startup-hire-its-first-sales-person-and-what-should-their-profile-look-like/) — two reps hitting quota before a real VP.
-- [SaaStr, how to hire a VP of Sales](https://www.saastr.com/dear-saastr-how-do-i-hire-a-great-vp-of-sales/) — don’t hire too early; recruiting is the job; still has to sell.
-- [Index Ventures, Rewarding Talent](https://www.indexventures.com/rewarding-talent/) — seed headcount and title inflation; executive-level hires typically at Series A.
-- [UltraTalent, VP Sales compensation benchmarks 2026](https://ultratalent.com/blog/vp-sales-compensation-benchmarks/) — 29 July 2026. Seed = first sales hire; first VP = Series A to B.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder session, February 2026. Hire for the phase. Not a survey.
+- [The CRO Report, founder-led sales to VP Sales](https://thecroreport.com/blog/founder-led-sales-to-vp-sales/): 15 February 2026. 1,501 postings; 272 build-from-scratch; 10–20 closed deals; process; bandwidth; $1M–$2M shorthand; Seed/Series A $188k–$250k and 0.5–2%.
+- [SaaStr, sales rep first or sales manager](https://www.saastr.com/should-i-hire-a-sales-rep-first-or-a-sales-manager/): founder closes 10–20; two reps at quota; then a head of sales, usually after $1M–$2M ARR.
+- [SaaStr, first salesperson](https://www.saastr.com/dear-saastr-when-should-a-startup-hire-its-first-sales-person-and-what-should-their-profile-look-like/): two reps hitting quota before a real VP.
+- [SaaStr, how to hire a VP of Sales](https://www.saastr.com/dear-saastr-how-do-i-hire-a-great-vp-of-sales/): don’t hire too early; recruiting is the job; still has to sell.
+- [Index Ventures, Rewarding Talent](https://www.indexventures.com/rewarding-talent/): seed headcount and title inflation; executive-level hires typically at Series A.
+- [UltraTalent, VP Sales compensation benchmarks 2026](https://ultratalent.com/blog/vp-sales-compensation-benchmarks/): 29 July 2026. Seed = first sales hire; first VP = Series A to B.
+- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): founder session, February 2026. Hire for the phase. Not a survey.
 
 ## Related
 

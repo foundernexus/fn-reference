@@ -25,7 +25,7 @@ You are deciding where scarce content hours go in 2026. Classic SEO still owns c
 - Operator split for Seed–Series B: keep **bottom-funnel SEO** (pricing, compare, “vs,” integration) as the hard revenue path. Put AEO effort on **category education and comparison queries** so you are the entity AI systems cite ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Siblings: [AI SDR vs human](/library/gtm/ai-sdr-vs-human/), [market AI without saying AI](/library/gtm/market-ai-product-without-saying-ai/), [seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/).
 :::
 
-## What you are actually deciding
+## What you are deciding
 
 :::highlight
 You are allocating writer and founder hours between pages that convert and pages that teach the category so answer engines can cite you.
@@ -35,11 +35,11 @@ You are allocating writer and founder hours between pages that convert and pages
 | --- | --- | --- | --- |
 | Classic SEO | Rank and convert on queries with clear commercial intent | Buyer is comparing vendors, pricing, or “best X for Y” with purchase intent | You only publish soft thought leadership with no bottom-funnel pages |
 | AEO (answer / AI overview visibility) | Structured, entity-clear answers that models and AI Overviews can ground on | Category education, “what is,” compare frameworks, multi-step research | You chase “AI hacks” (chunking, fake mentions, special AI files) Google says to ignore |
-| Both (Google’s frame) | Same technical eligibility + unique non-commodity content | Site is crawlable, indexed, snippet-eligible, and actually helpful | You treat AEO as a separate product that replaces SEO |
+| Both (Google’s frame) | Same technical eligibility + unique non-commodity content | Site is crawlable, indexed, snippet-eligible, and helpful | You treat AEO as a separate product that replaces SEO |
 
 Google’s AI features doc (updated 10 Dec 2025): there are **no additional technical requirements** beyond being indexed and eligible for a snippet. AI Overviews and AI Mode may use **query fan-out** (multiple related searches) and show a wider set of supporting links than classic Search.
 
-fn-content has no verified atom yet for how Seed–Series B B2B SaaS teams split SEO vs AEO hours, or for AI-referral share of pipeline. Tracked as [benchmark request: B2B SaaS SEO vs AEO effort split and AI-referral share](https://github.com/foundernexus/fn-content/issues/20). Until then, use the named public sources above and the stage table below, not an invented industry percentage.
+We have no verified benchmark yet for how Seed–Series B B2B SaaS teams split SEO vs AEO hours, or for AI-referral share of pipeline. We track it as a [benchmark request: B2B SaaS SEO vs AEO effort split and AI-referral share](https://github.com/foundernexus/fn-content/issues/20). Until then, use the named public sources above and the stage table below, not an invented industry percentage.
 
 ## What AEO means in practice (not a new Google product)
 
@@ -125,7 +125,7 @@ Labeled sketches. Thresholds are the public sources above, not a new study of yo
 
 **Series A, organic sessions flat, demos mention ChatGPT.** Add Generative AI impressions in GSC. Fix entity and docs that produce wrong answers (SparkToro’s home-base argument). Keep SEO on commercial queries. Measure branded search and direct alongside clicks.
 
-**Series B, competing on a crowded SERP for “[category] software.”** Double down on non-commodity proof (named customers, real numbers, “not for”). Google’s May 2025 and AI optimization guides both put unique value ahead of volume. Commodity listicles lose in AI Overviews and classic results.
+**Series B, competing on a crowded SERP for “[category] software.”** Commit to non-commodity proof (named customers, real numbers, “not for”). Google’s May 2025 and AI optimization guides both put unique value ahead of volume. Commodity listicles lose in AI Overviews and classic results.
 
 ## Sources
 
@@ -137,7 +137,7 @@ Labeled sketches. Thresholds are the public sources above, not a new study of yo
 - [SparkToro, Similarweb downstream AI visibility research](https://sparktoro.com/blog/new-research-from-similarweb-how-ai-brand-mentions-influence-direct-visits-traditional-search-queries/). Rand Fishkin, 29 Jun 2026. Consumer panel examples: Amex **+7.2%**, Capital One **+14.2%** visit likelihood after AI mention (~7 days). Caveat: not B2B SaaS.
 - [SparkToro, Does your website still matter in the zero-click era?](https://sparktoro.com/blog/does-your-website-still-matter-in-the-zero-click-era/). Rand Fishkin, 14 Aug 2026. Site as home base that informs AI tools; conversion still on-site.
 - [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. Buyers ask AI before your site; keep bottom-funnel SEO while making category answers citation-ready. Not a survey. No closed-session numbers.
-- [fn-content #19](https://github.com/foundernexus/fn-content/issues/20). Benchmark request: B2B SaaS SEO vs AEO effort split and AI-referral share.
+- [Benchmark request #19](https://github.com/foundernexus/fn-content/issues/20). Benchmark request: B2B SaaS SEO vs AEO effort split and AI-referral share.
 
 ## Related
 

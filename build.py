@@ -74,7 +74,7 @@ CLUSTERS = {
     "hiring": {
         "section": "library",
         "title": "Hiring executives",
-        "description": "When the first VP is actually a VP, and when it is still a founder-led motion.",
+        "description": "When the first VP is a real VP, and when it is still a founder-led motion.",
     },
     "finance": {
         "section": "library",
@@ -712,7 +712,7 @@ def render_decisions_index(pages: list[dict]) -> str:
 </main>"""
     return base(
         title="Decisions",
-        description="Decision pages rendered from fn-content.",
+        description="Decision pages for venture-scale founders, one decision per page.",
         canonical_path="/decisions/",
         body=body,
     )
@@ -748,7 +748,7 @@ def json_ld_for_benchmark(page: dict) -> str:
                             f"{(page.get('source') or {}).get('name') or 'Publisher'}: "
                             f"{(page.get('source') or {}).get('url') or ''} "
                             f"({(page.get('source') or {}).get('date') or page.get('last_verified') or ''}). "
-                            "Different publishers are shown separately. They are not averaged."
+                            "We show different publishers separately and never average them."
                         ),
                     },
                 },

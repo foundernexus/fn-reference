@@ -34,7 +34,7 @@ Constant base expenses plus an explicit hire ladder, with revenue compounding mo
 
 Month zero is cash on hand, current monthly revenue, and current monthly expenses before planned hires. Each later month grows revenue by your growth %, adds fully loaded cost for every hire whose start month has arrived, holds other expenses flat, and updates cash by revenue minus expenses.
 
-That matches Paul Graham’s “expenses remain constant” test, with the hiring plan as the one expense path you choose to change. It is not Trevor Blackwell’s calculator that PG points to. It is a browser tool for the same question with your hire dates typed in.
+That matches Paul Graham’s “expenses remain constant” test, with the hiring plan as the one expense path you choose to change. PG points to Trevor Blackwell’s calculator. This is a separate browser tool for the same question, with your hire dates typed in.
 
 ## Snapshot runway vs trajectory
 

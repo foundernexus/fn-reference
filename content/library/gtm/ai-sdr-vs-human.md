@@ -24,7 +24,7 @@ Most founders asking this are deciding whether a product can replace a seat. It 
 - Put AI on research and drafts. Keep a person on inbound and on the close ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
 :::
 
-## What you are actually comparing
+## What you are comparing
 
 :::highlight
 An AI SDR is a prep tool on a motion you already understand. It is not the person who learns the buyer, and it is not the closer.
@@ -59,7 +59,7 @@ These are medians for companies that already run SDR teams. Median revenue $47M.
 
 Sample: 351 B2B companies. 78% North America. 83% B2B SaaS. Median revenue $47M. Median ASP $50K. Published 6 February 2025. Survey responses, not an experiment. The full package for a first sales leader, which is a different seat, is on [when to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/).
 
-fn-content has no verified benchmark atom for these metrics yet. Tracked as [benchmark request: SDR OTE, ramp, quota attainment, and attrition](https://github.com/foundernexus/fn-content/issues/15).
+We have no verified benchmark yet for these metrics. We track them as a [benchmark request: SDR OTE, ramp, quota attainment, and attrition](https://github.com/foundernexus/fn-content/issues/15).
 
 ## When the AI SDR is the wrong buy
 
@@ -81,7 +81,7 @@ Labeled sketches. Not a company. The thresholds are the sources above, not a new
 
 **You have closed fewer than 10 customers, there is no sales rep, and the board wants an AI SDR that books meetings overnight.** SaaStr says you are still in the founder-close phase. There is no human seat to replace, and nothing for the tool to learn from. Bridge Group's $80K OTE and $3.78M pipeline describe companies at a $47M median revenue and a $50K median ASP. Keep selling until you can teach the motion.
 
-**Two closers are working, inbound sits for days, and the proposal is a chatbot plus an AI SDR instead of another person.** Put a person on inbound. If you still pilot AI, limit it to research and first drafts for those closers, with a human review before anything sends. Count Stage 0 meetings the AE will actually take, and raw pipeline, the way Bridge Group scores an SDR. A meeting the AE will not take does not count. Headcount comes later, and the title question is on the [Series A leadership sequence](/library/hiring/series-a-leadership-hiring-sequence/) if the board is already talking executives.
+**Two closers are working, inbound sits for days, and the proposal is a chatbot plus an AI SDR instead of another person.** Put a person on inbound. If you still pilot AI, limit it to research and first drafts for those closers, with a human review before anything sends. Count Stage 0 meetings the AE will take, and raw pipeline, the way Bridge Group scores an SDR. A meeting the AE will not take does not count. Headcount comes later, and the title question is on the [Series A leadership sequence](/library/hiring/series-a-leadership-hiring-sequence/) if the board is already talking executives.
 
 ## Sources
 
@@ -89,7 +89,7 @@ Labeled sketches. Not a company. The thresholds are the sources above, not a new
 - [Gartner, Over 40% of agentic AI projects will be canceled by the end of 2027](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027). Press release, 25 June 2025. Escalating costs, unclear business value, or inadequate risk controls. A forecast, not an SDR study.
 - [SaaStr, How to successfully source your first 2 sales reps](https://www.saastr.com/how-to-successfully-hire-your-first-2-sales-reps/). Close the first 10 or so yourself. Hire two. At least 18 months as an AE, not just as an SDR.
 - [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. AI on research and drafts. A person on inbound and on the close. Amplify the seller you have. Not a survey.
-- [fn-content #15](https://github.com/foundernexus/fn-content/issues/15). Benchmark request: SDR OTE, ramp, quota attainment, and attrition.
+- [Benchmark request #15](https://github.com/foundernexus/fn-content/issues/15). Benchmark request: SDR OTE, ramp, quota attainment, and attrition.
 
 ## Related
 

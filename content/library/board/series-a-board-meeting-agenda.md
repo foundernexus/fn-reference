@@ -129,7 +129,7 @@ Observers get the open-session pack and discussion norms you set with counsel an
 Status theater, late packs, and soft asks are the usual failure modes.
 :::
 
-**Treating the meeting as a sales deck.** Lightspeed: this is not a sales meeting to the board. Good, bad, and ugly. Experienced directors are not scared by facts. They are stuck if you hide them.
+**Treating the meeting as a sales deck.** Lightspeed: this is not a sales meeting to the board. Good, bad, and ugly. Experienced directors can handle bad facts. Hide them and you leave the board stuck.
 
 **Sending the pack the night before.** Feld’s 48-hour floor exists so “I didn’t have time to read” is not an excuse. CRV’s 5–7 day window is stricter for heavier packets.
 
@@ -141,13 +141,13 @@ Status theater, late packs, and soft asks are the usual failure modes.
 
 ## Sources
 
-- [Lightspeed, Managing Series A Board Meetings](https://lsvp.com/stories/managing-series-a-board-meetings/) — 28 Aug 2017. Cadence every 6–8 weeks; ~2–3 hours; 10-minute highlights/lowlights; five functional overviews; one deep dive; open vs closed session; not a progress-report meeting.
-- [Unusual, Managing a Series A board meeting](https://www.unusual.vc/field-guide/managing-a-series-a-board-meeting/) — Same Series A operating guidance (cadence, agenda, functional areas, closed session).
-- [Brad Feld, The Best Board Meetings](https://feld.com/archives/2009/08/the-best-board-meetings/) — 6 Aug 2009. Materials ≥48 hours ahead; reverse ~80% status / ~10% strategy; ~30 min admin; discussion off a short issue list.
-- [Brad Feld, My Ideal Board Meeting](https://feld.com/archives/2014/02/ideal-board-meeting/) — 7 Feb 2014. Pack several days ahead; ~3-hour template (admin / up to five topics / executive session); ending early is fine.
-- [Brad Feld, The Best Approach To A Board Package](https://feld.com/archives/2013/01/the-best-approach-to-a-board-package/) — 16 Jan 2013. Commentable pre-read; meeting without page-by-page deck walkthrough.
-- [CRV, How to Prepare for a Board Meeting](https://www.crv.com/content/how-to-prepare-for-a-board-meeting/) — Founder guide. CEO owns prep at seed/Series A; decision-first agenda wording; 5–7 day materials window; observer vs director; Series A board size framing.
-- [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: updates are not decisions; put the hard live item first.
+- [Lightspeed, Managing Series A Board Meetings](https://lsvp.com/stories/managing-series-a-board-meetings/): 28 Aug 2017. Cadence every 6–8 weeks; ~2–3 hours; 10-minute highlights/lowlights; five functional overviews; one deep dive; open vs closed session; not a progress-report meeting.
+- [Unusual, Managing a Series A board meeting](https://www.unusual.vc/field-guide/managing-a-series-a-board-meeting/): Same Series A operating guidance (cadence, agenda, functional areas, closed session).
+- [Brad Feld, The Best Board Meetings](https://feld.com/archives/2009/08/the-best-board-meetings/): 6 Aug 2009. Materials ≥48 hours ahead; reverse ~80% status / ~10% strategy; ~30 min admin; discussion off a short issue list.
+- [Brad Feld, My Ideal Board Meeting](https://feld.com/archives/2014/02/ideal-board-meeting/): 7 Feb 2014. Pack several days ahead; ~3-hour template (admin / up to five topics / executive session); ending early is fine.
+- [Brad Feld, The Best Approach To A Board Package](https://feld.com/archives/2013/01/the-best-approach-to-a-board-package/): 16 Jan 2013. Commentable pre-read; meeting without page-by-page deck walkthrough.
+- [CRV, How to Prepare for a Board Meeting](https://www.crv.com/content/how-to-prepare-for-a-board-meeting/): Founder guide. CEO owns prep at seed/Series A; decision-first agenda wording; 5–7 day materials window; observer vs director; Series A board size framing.
+- [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): Operator judgment: updates are not decisions; put the hard live item first.
 
 ## Related
 

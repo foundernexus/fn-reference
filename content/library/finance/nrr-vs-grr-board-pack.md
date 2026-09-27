@@ -141,11 +141,11 @@ Period, cohort definition, GRR + NRR + growth. No blended publisher averages.
 Round numbers so the arithmetic is visible. Not a company.
 :::
 
-**Sketch A — healthy mid-market.** Starting cohort MRR $1,000k. Contraction $40k, churn $50k, expansion $120k, reactivation $0. GRR = (1000 − 40 − 50) / 1000 = **91%**. NRR = (1000 + 120 − 40 − 50) / 1000 = **103%**. Near SaaS Capital’s overall medians. Board talk: hold GRR above ~90% and push expansion without buying it with discounts that later contract.
+**Sketch A: healthy mid-market.** Starting cohort MRR $1,000k. Contraction $40k, churn $50k, expansion $120k, reactivation $0. GRR = (1000 − 40 − 50) / 1000 = **91%**. NRR = (1000 + 120 − 40 − 50) / 1000 = **103%**. Near SaaS Capital’s overall medians. Board talk: hold GRR above ~90% and push expansion without buying it with discounts that later contract.
 
-**Sketch B — masked leak.** Starting $1,000k. Contraction $80k, churn $220k, expansion $350k. GRR = **70%**. NRR = **105%**. Looks “fine” on net. ChartMogul’s 70% / 115%-style warning applies. Board talk: stop celebrating NRR until GRR recovers.
+**Sketch B: masked leak.** Starting $1,000k. Contraction $80k, churn $220k, expansion $350k. GRR = **70%**. NRR = **105%**. Looks “fine” on net. ChartMogul’s 70% / 115%-style warning applies. Board talk: stop celebrating NRR until GRR recovers.
 
-**Sketch C — enterprise expansion engine.** Starting $1,000k. Contraction $30k, churn $40k, expansion $200k. GRR = **93%**. NRR = **113%**. Sits near SaaS Capital’s higher-ACV medians and above Bessemer’s enterprise NRR floor (>100%). Board talk: protect GRR while expansion compounds.
+**Sketch C: enterprise expansion engine.** Starting $1,000k. Contraction $30k, churn $40k, expansion $200k. GRR = **93%**. NRR = **113%**. Sits near SaaS Capital’s higher-ACV medians and above Bessemer’s enterprise NRR floor (>100%). Board talk: protect GRR while expansion compounds.
 
 ## Mistakes that waste a board meeting
 
@@ -167,12 +167,12 @@ Wrong cohort, mixed acronyms, and averaged publishers are the usual failures.
 
 ## Sources
 
-- [ChartMogul, Net Revenue Retention (NRR)](https://chartmogul.com/saas-metrics/nrr/) — updated 8 Sep 2026. Movement formula; $770 → $800 = 103.9% example; NRR ≥ GRR; NDR alias; Dec 2025 median B2B SaaS NRR 82% / top quartile 97%.
-- [ChartMogul, Gross Revenue Retention (GRR)](https://chartmogul.com/saas-metrics/grr/) — updated 8 Sep 2026. Movement formula; $770 → $630 excl. expansion = 81.8%; 100% cap; 70% GRR / 115% NRR masking example; best-in-class GRR >86%; Keith Wallington board-page quote.
-- [SaaS Capital, Research Brief 28: 2023 B2B SaaS Retention Benchmarks (PDF)](https://www.saas-capital.com/wp-content/uploads/2023/05/RB28WS1-2023-B2B-SaaS-Retention-Benchmarks.pdf) — 2023. Overall medians 102% NRR / 91% GRR; ACV table; ≥90% GRR table stakes; growth vs NRR bands; target NRR ≥100% for median 34% growth.
-- [Bessemer Venture Partners, State of the Cloud 2019](https://www.bvp.com/atlas/state-of-the-cloud-2019) — 6 Feb 2019. SMB / mid-market / enterprise GRR and NRR aims by ACV.
-- [Bessemer Venture Partners, Scaling to $100 Million](https://www.bvp.com/atlas/scaling-to-100-million) — Strong retention ~85%+ gross / ~120%+ net framing; net retention ranges by ARR band; Mindbody vs Okta ACV contrast.
-- [Bessemer Venture Partners, Understanding churn](https://www.bvp.com/atlas/understanding-churn-and-building-an-action-plan-to-fix-the-proverbial-leaky-bucket) — Net dollar retention should be 100%+; CS North Star is net retention.
+- [ChartMogul, Net Revenue Retention (NRR)](https://chartmogul.com/saas-metrics/nrr/): updated 8 Sep 2026. Movement formula; $770 → $800 = 103.9% example; NRR ≥ GRR; NDR alias; Dec 2025 median B2B SaaS NRR 82% / top quartile 97%.
+- [ChartMogul, Gross Revenue Retention (GRR)](https://chartmogul.com/saas-metrics/grr/): updated 8 Sep 2026. Movement formula; $770 → $630 excl. expansion = 81.8%; 100% cap; 70% GRR / 115% NRR masking example; best-in-class GRR >86%; Keith Wallington board-page quote.
+- [SaaS Capital, Research Brief 28: 2023 B2B SaaS Retention Benchmarks (PDF)](https://www.saas-capital.com/wp-content/uploads/2023/05/RB28WS1-2023-B2B-SaaS-Retention-Benchmarks.pdf): 2023. Overall medians 102% NRR / 91% GRR; ACV table; ≥90% GRR table stakes; growth vs NRR bands; target NRR ≥100% for median 34% growth.
+- [Bessemer Venture Partners, State of the Cloud 2019](https://www.bvp.com/atlas/state-of-the-cloud-2019): 6 Feb 2019. SMB / mid-market / enterprise GRR and NRR aims by ACV.
+- [Bessemer Venture Partners, Scaling to $100 Million](https://www.bvp.com/atlas/scaling-to-100-million): Strong retention ~85%+ gross / ~120%+ net framing; net retention ranges by ARR band; Mindbody vs Okta ACV contrast.
+- [Bessemer Venture Partners, Understanding churn](https://www.bvp.com/atlas/understanding-churn-and-building-an-action-plan-to-fix-the-proverbial-leaky-bucket): Net dollar retention should be 100%+; CS North Star is net retention.
 
 ## Related
 

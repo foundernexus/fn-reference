@@ -120,15 +120,15 @@ Standalone 409A cost, per Carta: $1,000 to over $10,000 depending on size and co
 
 ## Sources
 
-- [Index Ventures, Rewarding Talent](https://www.indexventures.com/rewarding-talent/) — executive FDE bands, vest, double-trigger, ESOP size, refresh. Also [option grants at seed](https://www.indexventures.com/rewarding-talent/option-grants-at-seed) (Advanced HR VCECS Seed Data, 2018) and [option grants at Series A](https://www.indexventures.com/rewarding-talent/option-grants-at-series-a).
+- [Index Ventures, Rewarding Talent](https://www.indexventures.com/rewarding-talent/): executive FDE bands, vest, double-trigger, ESOP size, refresh. Also [option grants at seed](https://www.indexventures.com/rewarding-talent/option-grants-at-seed) (Advanced HR VCECS Seed Data, 2018) and [option grants at Series A](https://www.indexventures.com/rewarding-talent/option-grants-at-series-a).
 - [Index Ventures OptionPlan](https://www.indexventures.com/optionplan/)
-- [Carta, option pools](https://carta.com/learn/startups/equity-management/option-pool/) — 20 August 2026
-- [Carta, 409A valuation](https://carta.com/learn/startups/equity-management/409a-valuation/) — 4 August 2026
-- [UltraTalent, VP Sales compensation benchmarks 2026](https://ultratalent.com/blog/vp-sales-compensation-benchmarks/) — 29 July 2026
-- [The CRO Report, VP Sales salary at Series B](https://thecroreport.com/blog/vp-sales-salary-series-b/) — 15 February 2026; April 2026 note
-- [Kruze, option pool shuffle](https://kruzeconsulting.com/blog/option-pool-shuffle/) — 29 January 2024
-- [Kruze, startup compensation guide](https://kruzeconsulting.com/blog/startup-compensation-guide/) — 4 December 2024
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder session, February 2026. Hire for the phase: the 0–10 operator is often not the 10–50 operator. Not a compensation dataset.
+- [Carta, option pools](https://carta.com/learn/startups/equity-management/option-pool/): 20 August 2026
+- [Carta, 409A valuation](https://carta.com/learn/startups/equity-management/409a-valuation/): 4 August 2026
+- [UltraTalent, VP Sales compensation benchmarks 2026](https://ultratalent.com/blog/vp-sales-compensation-benchmarks/): 29 July 2026
+- [The CRO Report, VP Sales salary at Series B](https://thecroreport.com/blog/vp-sales-salary-series-b/): 15 February 2026; April 2026 note
+- [Kruze, option pool shuffle](https://kruzeconsulting.com/blog/option-pool-shuffle/): 29 January 2024
+- [Kruze, startup compensation guide](https://kruzeconsulting.com/blog/startup-compensation-guide/): 4 December 2024
+- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): founder session, February 2026. Hire for the phase: the 0–10 operator is often not the 10–50 operator. Not a compensation dataset.
 
 ## Related
 

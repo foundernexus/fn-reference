@@ -41,7 +41,7 @@ Carta (20 August 2026): build the pool bottoms-up from the next 12–18 months o
 
 ## Grants are pool draws
 
-A VP grant is not a vibe check on the candidate. It is a line item against remaining unallocated pool, next to IC grants and refreshers you have not written yet.
+Treat a VP grant as a line item against the remaining unallocated pool, next to IC grants and refreshers you have not written yet.
 
 Use [size the option pool from a hiring plan](/library/equity/option-pool-from-hiring-plan/) to add the seats up. Use [executive equity grants by stage](/library/equity/executive-grants-by-stage/) for cited Seed–Series B bands by seat. Run a proposed percentage against remaining pool in the [executive equity calculator](/tools/executive-equity-calculator/).
 
@@ -59,7 +59,7 @@ Pre-money valuation $40M. New money $10M. Investor wants a 15% pool measured pre
 
 ## 409A before you grant after a priced round
 
-A priced round is a material event. Carta: a 409A is generally required before issuing common stock options to US tax residents; validity is typically 12 months from the effective date and ends sooner after a material event. Refresh the 409A, board-approve the new FMV, then grant. Strike must be at least FMV on the grant date. Standalone 409A cost, per Carta: roughly $1,000 to over $10,000 depending on size and complexity. Full spoke: [409A after a priced round](/library/equity/409a-after-priced-round/) — cost bands, freeze-to-grant timeline, and why common ≠ preferred.
+A priced round is a material event. Carta: a 409A is generally required before issuing common stock options to US tax residents; validity is typically 12 months from the effective date and ends sooner after a material event. Refresh the 409A, board-approve the new FMV, then grant. Strike must be at least FMV on the grant date. Standalone 409A cost, per Carta: roughly $1,000 to over $10,000 depending on size and complexity. Full spoke: [409A after a priced round](/library/equity/409a-after-priced-round/): cost bands, freeze-to-grant timeline, and why common ≠ preferred.
 
 ## Sources
 

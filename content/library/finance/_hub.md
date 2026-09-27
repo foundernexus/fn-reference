@@ -27,9 +27,9 @@ Early boards live on burn multiple, runway with a hiring plan, and whether you a
 Three decisions. Efficiency vs scale balance. Retention honesty. When the CFO seat is real.
 :::
 
-- [Burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/) — Burn multiple = net burn ÷ net new ARR (Sacks / Craft, April 2020). Rule of 40 = growth % + profit % (Feld, February 2015). Early pack: burn trend. Later: add Rule of 40 and say which profit. Bessemer’s Rule of X is a late-stage valuation frame, not a Seed slide.
-- [NRR vs GRR for the board pack](/library/finance/nrr-vs-grr-board-pack/) — GRR is the leak check (capped at 100%). NRR includes expansion and can exceed 100%. ChartMogul formulas; SaaS Capital and Bessemer bands stay on separate rows. A 70% GRR with strong NRR is a masking story.
-- [Fractional vs full-time CFO](/library/finance/fractional-vs-full-time-cfo/) — Series A needs the model, board pack, and raise prep. Kruze: usually not a full-time CFO yet. Bessemer community: many CFOs land at $10M–$25M ARR. Majhi B2B SaaS: often months 12–24 after A, or pre-B.
+- [Burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/): Burn multiple = net burn ÷ net new ARR (Sacks / Craft, April 2020). Rule of 40 = growth % + profit % (Feld, February 2015). Early pack: burn trend. Later: add Rule of 40 and say which profit. Bessemer’s Rule of X is a late-stage valuation frame, not a Seed slide.
+- [NRR vs GRR for the board pack](/library/finance/nrr-vs-grr-board-pack/): GRR is the leak check (capped at 100%). NRR includes expansion and can exceed 100%. ChartMogul formulas; SaaS Capital and Bessemer bands stay on separate rows. A 70% GRR with strong NRR is a masking story.
+- [Fractional vs full-time CFO](/library/finance/fractional-vs-full-time-cfo/): Series A needs the model, board pack, and raise prep. Kruze: usually not a full-time CFO yet. Bessemer community: many CFOs land at $10M–$25M ARR. Majhi B2B SaaS: often months 12–24 after A, or pre-B.
 
 ## Tools in this cluster
 
@@ -37,8 +37,8 @@ Three decisions. Efficiency vs scale balance. Retention honesty. When the CFO se
 Run the hire ladder and the GTM efficiency pair before the meeting, not during it.
 :::
 
-- [Runway calculator with hiring plan](/tools/runway-calculator/) — Snapshot runway (Kruze) plus months to cash-out with hires, plus a Paul Graham–style default alive / default dead read. Headcount often 60–80% of burn (Kruze). Carta Q1 2024 median Seed→A 766 days and A→B 824 days raise the buffer bar.
-- [Magic number & CAC payback calculator](/tools/magic-number-cac-payback-calculator/) — Scale-style magic number next to gross-margin CAC payback. Scale Studio long-term median 0.7. ChartMogul invest/pull-back bands (~0.75 / ~0.5) are a different publisher. Bessemer payback targets by segment.
+- [Runway calculator with hiring plan](/tools/runway-calculator/): Snapshot runway (Kruze) plus months to cash-out with hires, plus a Paul Graham–style default alive / default dead read. Headcount often 60–80% of burn (Kruze). Carta Q1 2024 median Seed→A 766 days and A→B 824 days raise the buffer bar.
+- [Magic number & CAC payback calculator](/tools/magic-number-cac-payback-calculator/): Scale-style magic number next to gross-margin CAC payback. Scale Studio long-term median 0.7. ChartMogul invest/pull-back bands (~0.75 / ~0.5) are a different publisher. Bessemer payback targets by segment.
 
 ## Which metric → when → where
 
@@ -75,18 +75,18 @@ Early: cash cost of growth and cash left. Later: add margin balance and GTM reco
 
 ## Sources
 
-- [David Sacks, The Burn Multiple (Craft Ventures / Medium)](https://medium.com/craft-ventures/the-burn-multiple-51a7e43cb200) — 23 April 2020. Formula; tier chart; stage guidance.
-- [Brad Feld, The Rule of 40% For a Healthy SaaS Company](https://feld.com/archives/2015/02/rule-40-healthy-saas-company/) — 25 February 2015. Growth + profit ≥ 40; scale caveat.
-- [Bessemer Venture Partners, The Rule of X](https://www.bvp.com/atlas/the-rule-of-x) — Rule of 40 restated; early-stage prefer burn multiple ~1×–1.5×.
-- [ChartMogul, NRR](https://chartmogul.com/saas-metrics/nrr/) and [GRR](https://chartmogul.com/saas-metrics/grr/) — movement formulas; masking warning; Dec 2025 sample.
-- [SaaS Capital, Research Brief 28: 2023 B2B SaaS Retention Benchmarks (PDF)](https://www.saas-capital.com/wp-content/uploads/2023/05/RB28WS1-2023-B2B-SaaS-Retention-Benchmarks.pdf) — median NRR 102% / GRR 91%; ≥90% GRR table stakes.
-- [Bessemer Venture Partners, State of the Cloud 2019](https://www.bvp.com/atlas/state-of-the-cloud-2019) and [Scaling to $100 Million](https://www.bvp.com/atlas/scaling-to-100-million) — segment GRR/NRR aims; CAC payback targets by segment.
-- [Scale Venture Partners, From $0 to $1M: The Magic of 0.7](https://www.scalevp.com/blog/from-0-to-1m-the-magic-of-07) — Dale Chang, 17 Sep 2021. Scale Studio long-term median magic number 0.7. See also [SaaS Metrics: A History of the Magic Number](https://www.scalevp.com/blog/saas-metrics-a-history-of-the-magic-number).
-- [ChartMogul, SaaS metrics cheat sheet](https://chartmogul.com/saas-metrics/cheat-sheet/) — magic number invest/pull-back framing; CAC payback through gross margin.
-- [Paul Graham, Default Alive or Default Dead?](http://www.paulgraham.com/aord.html) — October 2015. Alive/dead test; hiring too fast as the biggest killer after a raise.
-- [Kruze Consulting, rolling cash forecast / runway](https://kruzeconsulting.com/blog/build-a-rolling-cash-forecast/) — cash ÷ net burn; headcount 60–80% of burn. [When a startup needs a CFO](https://kruzeconsulting.com/startup-need-cfo/) — Series A generally fractional first.
-- [Carta, State of Private Markets Q1 2024](https://carta.com/sg/en/data/state-of-private-markets-q1-2024/) — median Seed→A 766 days; A→B 824 days.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder session. Stage-right board metrics; GRR beside NRR; default alive with hire dates. Not a survey.
+- [David Sacks, The Burn Multiple (Craft Ventures / Medium)](https://medium.com/craft-ventures/the-burn-multiple-51a7e43cb200): 23 April 2020. Formula; tier chart; stage guidance.
+- [Brad Feld, The Rule of 40% For a Healthy SaaS Company](https://feld.com/archives/2015/02/rule-40-healthy-saas-company/): 25 February 2015. Growth + profit ≥ 40; scale caveat.
+- [Bessemer Venture Partners, The Rule of X](https://www.bvp.com/atlas/the-rule-of-x): Rule of 40 restated; early-stage prefer burn multiple ~1×–1.5×.
+- [ChartMogul, NRR](https://chartmogul.com/saas-metrics/nrr/) and [GRR](https://chartmogul.com/saas-metrics/grr/): movement formulas; masking warning; Dec 2025 sample.
+- [SaaS Capital, Research Brief 28: 2023 B2B SaaS Retention Benchmarks (PDF)](https://www.saas-capital.com/wp-content/uploads/2023/05/RB28WS1-2023-B2B-SaaS-Retention-Benchmarks.pdf): median NRR 102% / GRR 91%; ≥90% GRR table stakes.
+- [Bessemer Venture Partners, State of the Cloud 2019](https://www.bvp.com/atlas/state-of-the-cloud-2019) and [Scaling to $100 Million](https://www.bvp.com/atlas/scaling-to-100-million): segment GRR/NRR aims; CAC payback targets by segment.
+- [Scale Venture Partners, From $0 to $1M: The Magic of 0.7](https://www.scalevp.com/blog/from-0-to-1m-the-magic-of-07): Dale Chang, 17 Sep 2021. Scale Studio long-term median magic number 0.7. See also [SaaS Metrics: A History of the Magic Number](https://www.scalevp.com/blog/saas-metrics-a-history-of-the-magic-number).
+- [ChartMogul, SaaS metrics cheat sheet](https://chartmogul.com/saas-metrics/cheat-sheet/): magic number invest/pull-back framing; CAC payback through gross margin.
+- [Paul Graham, Default Alive or Default Dead?](http://www.paulgraham.com/aord.html): October 2015. Alive/dead test; hiring too fast as the biggest killer after a raise.
+- [Kruze Consulting, rolling cash forecast / runway](https://kruzeconsulting.com/blog/build-a-rolling-cash-forecast/): cash ÷ net burn; headcount 60–80% of burn. [When a startup needs a CFO](https://kruzeconsulting.com/startup-need-cfo/): Series A generally fractional first.
+- [Carta, State of Private Markets Q1 2024](https://carta.com/sg/en/data/state-of-private-markets-q1-2024/): median Seed→A 766 days; A→B 824 days.
+- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): founder session. Stage-right board metrics; GRR beside NRR; default alive with hire dates. Not a survey.
 
 ## Related
 

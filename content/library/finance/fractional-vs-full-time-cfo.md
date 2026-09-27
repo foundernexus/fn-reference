@@ -82,7 +82,7 @@ Cash bands below are publisher figures, not a blended market survey. Empty cells
 | Fully loaded three-person in-house team (staff + controller + CFO) | **$450,000–$650,000+** cash/year before equity | Kruze |
 | Break-even vs outsourcing (Kruze rule of thumb) | Do not bring the function in-house until outsourced billing exceeds roughly **$35,000–$45,000** per month | Kruze |
 
-fn-content has no verified benchmark atom for these metrics yet. Tracked as [benchmark request: fractional vs full-time CFO hire timing and cost](https://github.com/foundernexus/fn-content/issues/14). Peer executive equity bands for other seats live on [executive grants by stage](/library/equity/executive-grants-by-stage/). Runway math for the hire sits on the [runway calculator](/tools/runway-calculator/).
+We have no verified benchmark yet for these metrics. We track them as a [benchmark request: fractional vs full-time CFO hire timing and cost](https://github.com/foundernexus/fn-content/issues/14). Peer executive equity bands for other seats live on [executive grants by stage](/library/equity/executive-grants-by-stage/). Runway math for the hire sits on the [runway calculator](/tools/runway-calculator/).
 
 ## Checklist: when to upgrade from fractional to full-time
 
@@ -109,7 +109,7 @@ If the board pack is still a scramble every quarter but books are clean, buy fra
 - [Bessemer Venture Partners Atlas, How to hire a CFO and build a finance team](https://www.bvp.com/atlas/how-to-hire-a-cfo-and-build-a-finance-team). Mar 2023. Controllership vs FP&A; 37% at $10M–$25M ARR; complexity ~$5M–$10M; Kayton ~75% fractional spend rule.
 - [Majhi Group, Series A Leadership Team Benchmarks 2026](https://www.majhigroup.com/series-a-leadership-benchmarks-2026.html). June 2026. B2B SaaS: CFO months 12–24 or pre–Series B.
 - [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). founder session, February 2026. Hire for the phase. Say it in the offer. Not a survey.
-- [fn-content #14](https://github.com/foundernexus/fn-content/issues/14). benchmark request: fractional vs full-time CFO hire timing and cost.
+- [Benchmark request #14](https://github.com/foundernexus/fn-content/issues/14). benchmark request: fractional vs full-time CFO hire timing and cost.
 
 ## Related
 

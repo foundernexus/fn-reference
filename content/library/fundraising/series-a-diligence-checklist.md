@@ -23,11 +23,11 @@ You are deciding when to build the Series A data room: before outreach, or after
 - Y Combinator (Jason Kwon / Aaron Harris): assemble the full legal checklist in one data room **before** you sign a term sheet. That preparation can cut **as much as a week** off closing.
 - Underscore VC stages access: short deck on first meet, then long-form deck plus a controlled deal room at partner pitch, then full legal room only after the term sheet. Share enough to answer questions. Do not overshare early.
 - Burkland (2026): Series A underwrites **repeatable, capital-efficient growth**. Expect verification across PMF, unit economics, runway, model scalability, team, market, and GTM efficiency. Inconsistent metric definitions across deck, model, and room are themselves a red flag.
-- Operator judgment: the room is how you show you run the company. Clear folders and one source of truth beat a Drive dump the night after the term sheet ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
+- Operator judgment: the data room is how you show you run the company. Clear folders and one source of truth beat a Drive dump the night after the term sheet ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
 - Sibling pages for the numbers they will rebuild: [NRR vs GRR](/library/finance/nrr-vs-grr-board-pack/), [runway with hiring plan](/tools/runway-calculator/), [Series A hiring sequence](/library/hiring/series-a-leadership-hiring-sequence/).
 :::
 
-## What you are actually deciding
+## What you are deciding
 
 :::highlight
 You are choosing whether diligence starts as a controlled reveal of a machine you already operate, or as a scavenger hunt that teaches the investor your ops are behind the story.
@@ -37,11 +37,11 @@ You are choosing whether diligence starts as a controlled reveal of a machine yo
 | --- | --- | --- |
 | When to build the room | Before serious partner pitches | After the term sheet lands |
 | What to share pre-term sheet | Deck, team, product, financial summary, cap table, metrics with one definition each | Every customer contract and every board minute on day one |
-| What to finish pre-term sheet | YC legal categories ready to unlock on signature | Hunting unsigned IP assignments mid-close |
+| What to finish pre-term sheet | YC legal categories ready to open on signature | Hunting unsigned IP assignments mid-close |
 | How numbers hang | Same ARR, churn, CAC, NRR, and runway in deck, model, and board pack | A “fundraising forecast” that differs from the board forecast |
 | Access control | Per-investor folders or revocable links; shut off when they pass | One shared Drive link that never expires |
 
-fn-content has no verified atom yet for median days saved by a prepared Series A data room, or for how often unsigned IP assignments delay close. Tracked as [benchmark request: Series A data-room lead time and close delays](https://github.com/foundernexus/fn-content/issues/23). Until then, use the named public sources below. Do not invent a “typical” close timeline for your sector.
+We have no verified benchmark yet for median days saved by a prepared Series A data room, or for how often unsigned IP assignments delay close. We track it as a [benchmark request: Series A data-room lead time and close delays](https://github.com/foundernexus/fn-content/issues/23). Until then, use the named public sources below. Do not invent a “typical” close timeline for your sector.
 
 ## Stage the room. Do not dump it.
 
@@ -53,7 +53,7 @@ Underscore’s sequence is the operator frame: first meet, partner pitch, then l
 | --- | --- | --- |
 | First meet | Short-form pitch deck | Collect reservations. Do not open the full room. |
 | Partner pitch | Long-form deck + curated deal room | Answer the thesis with consistent evidence. Keep sensitive legal files closed. |
-| Post–term sheet | Full confirmatory / legal data room | Unlock YC-style corporate, IP, contracts, employment, and dispute files with counsel. |
+| Post–term sheet | Full confirmatory / legal data room | Open YC-style corporate, IP, contracts, employment, and dispute files with counsel. |
 
 Underscore’s operating partners are blunt on hygiene. Materials must hang together. If the deck’s cash-out date and the model disagree, that is a red flag. Do not rewrite the forecast mid-process. Share the same forecast you run the company on. Prefer a summary deck of drivers and assumptions over an interactive spreadsheet VCs can remix without context. Respond to follow-ups within a day when you can, ideally on a call with questions in advance so you control the message.
 
@@ -64,10 +64,10 @@ Underscore’s operating partners are blunt on hygiene. Materials must hang toge
 2. **Curate the partner-pitch room.** Cover note, long-form deck, team org and bios, product overview and roadmap, historical and projected financials with assumptions, fully diluted cap table plus prior SAFEs/notes, and the KPI pack. Underscore’s six-folder checklist is enough for this stage.
 3. **Finish the legal spine before outreach.** Corporate records, IP assignments for every founder/employee/contractor, equity plan and grant files, material agreements, employment and benefits, and any disputes. YC’s checklist is the map. Counsel should review before you open fundraising.
 4. **Clear the equity backlog.** YC warns that a term sheet is widely treated as a material event that can force a new 409A. Pending promised grants then land at a higher strike. Finish grants while your current valuation still applies. See [409A after a priced round](/library/equity/409a-after-priced-round/).
-5. **Line up evidence they will pull anyway.** Cohort retention tables, CAC payback by cohort, 5–10 customer references who know the call is coming, and a hiring plan tied to use of funds (Burkland). Keep customer contracts that match reported revenue ready for post–term sheet unlock.
+5. **Line up evidence they will pull anyway.** Cohort retention tables, CAC payback by cohort, 5–10 customer references who know the call is coming, and a hiring plan tied to use of funds (Burkland). Keep customer contracts that match reported revenue ready to share after the term sheet.
 :::
 
-## YC legal checklist (post–term sheet unlock)
+## YC legal checklist (after the term sheet)
 
 :::highlight
 This is confirmatory diligence. The goal is completeness and speed, not a second pitch.
@@ -143,10 +143,10 @@ Speed comes from readiness, not from pressure on the lawyers.
 
 ## Sources
 
-- [Y Combinator, Series A diligence checklist](https://www.ycombinator.com/library/3h-series-a-diligence-checklist) — Jason Kwon (YC Continuity GC) with Aaron Harris. Full post–term sheet document categories; prepare the data room before signing to cut as much as a week off closing; clear pending equity grants before a term sheet triggers a material-event 409A refresh.
-- [Underscore VC, What Should Be in a Series A Data Room?](https://underscore.vc/resources/series-a-data-room/) — Staged access (first meet / partner pitch / post–term sheet); consistency and anti-overshare norms; partner-pitch folder checklist; points to YC for legal diligence.
-- [Burkland, How Investors Evaluate Series A Startups in 2026](https://burklandassociates.com/2026/07/21/how-investors-evaluate-series-a-startups-in-2026/) — 21 Jul 2026. Evidence vs vision; seven evaluation lenses; diligence artifacts; red flags; directional SaaS/AI rubric; runway and dilution framing; 5–10 customer references.
-- [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: the room is an ops signal; one source of truth beats a post–term sheet scavenger hunt.
+- [Y Combinator, Series A diligence checklist](https://www.ycombinator.com/library/3h-series-a-diligence-checklist): Jason Kwon (YC Continuity GC) with Aaron Harris. Full post–term sheet document categories; prepare the data room before signing to cut as much as a week off closing; clear pending equity grants before a term sheet triggers a material-event 409A refresh.
+- [Underscore VC, What Should Be in a Series A Data Room?](https://underscore.vc/resources/series-a-data-room/): Staged access (first meet / partner pitch / post–term sheet); consistency and anti-overshare norms; partner-pitch folder checklist; points to YC for legal diligence.
+- [Burkland, How Investors Evaluate Series A Startups in 2026](https://burklandassociates.com/2026/07/21/how-investors-evaluate-series-a-startups-in-2026/): 21 Jul 2026. Evidence vs vision; seven evaluation lenses; diligence artifacts; red flags; directional SaaS/AI rubric; runway and dilution framing; 5–10 customer references.
+- [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): Operator judgment: the data room is an ops signal; one source of truth beats a post–term sheet scavenger hunt.
 
 ## Related
 

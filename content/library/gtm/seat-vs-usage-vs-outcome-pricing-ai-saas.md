@@ -21,10 +21,10 @@ You are choosing what you bill for. Seat, token, workflow task, or successful ou
 - Same playbook: AI gross margins often land around **50–60%** versus classic SaaS **80–90%**. Price for compute and human-in-the-loop from day one. If unit economics fail at 10 customers, they will not magically work at 1,000.
 - Hybrid is the early bridge Bessemer names: **platform fee (2× calculated delivery costs) + outcome credits**. Example shape: **$12K** annual platform, **100** resolutions included, then **$5K per 100** more. Predictable floor for the buyer; upside as outcomes scale.
 - Soft ROI copilots (advice without closing the loop) face a **2026 renewal cliff** as 2025 pilots reprice on proven value. Agents that close the loop hold harder ROI and stronger willingness to pay.
-- Operator judgment when the product truly closes the loop: seats for humans, outcomes for agents; stay hybrid while reliability is still climbing ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Siblings: [market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/), [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/).
+- Operator judgment when the product closes the loop: seats for humans, outcomes for agents; stay hybrid while reliability is still climbing ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Siblings: [market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/), [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/).
 :::
 
-## What you are actually deciding
+## What you are deciding
 
 :::highlight
 Pick the unit the buyer already budgets for. Then build ops so that unit stays profitable under real variance.
@@ -38,7 +38,7 @@ Pick the unit the buyer already budgets for. Then build ops so that unit stays p
 | Outcome (per successful result) | Unambiguous, measurable win; you can absorb compute variance | Outcome definition is fuzzy or failure modes are expensive | Intercom Fin: **$0.99** per ticket resolved, not per message or token |
 | Hybrid (base + usage/outcome) | Early stage; need predictability and expansion upside | You never harden one model and custom deals proliferate | Bessemer: middle ground for early startups; example **$12K + 100** included, then **$5K / 100** |
 
-fn-content has no verified atom yet for how common seat vs usage vs outcome is across AI SaaS cohorts. Tracked as [benchmark request: AI SaaS seat vs usage vs outcome pricing adoption mix](https://github.com/foundernexus/fn-content/issues/18). Until then, use Bessemer’s named examples and principles, not an invented category share.
+We have no verified benchmark yet for how common seat vs usage vs outcome is across AI SaaS cohorts. We track it as a [benchmark request: AI SaaS seat vs usage vs outcome pricing adoption mix](https://github.com/foundernexus/fn-content/issues/18). Until then, use Bessemer’s named examples and principles, not an invented category share.
 
 ## Predictability vs value alignment vs margin risk
 
@@ -104,7 +104,7 @@ Bessemer’s early-stage formula:
 
 Friction test they describe: start at a price. If buyers say “sold” instantly, raise. Stop just before price becomes a real blocker. That is how they say multi-billion-dollar companies found sweet spots over years five to ten. Not a spreadsheet oracle.
 
-Stay hybrid while reliability is still climbing. Move toward pure outcome only when the success definition is unambiguous and you can absorb the long-tail compute cases ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): seats for humans, outcomes for agents when the product truly closes the loop).
+Stay hybrid while reliability is still climbing. Move toward pure outcome only when the success definition is unambiguous and you can absorb the long-tail compute cases ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): seats for humans, outcomes for agents when the product closes the loop).
 
 ## Soft ROI, hard ROI, and the 2026 renewal cliff
 
@@ -114,7 +114,7 @@ Pilots sold on vibes renew on proof. Price the proof before the renewal packet l
 
 Bessemer maps products on revenue vs efficiency and hard vs soft ROI:
 
-- **Copilots** often sit in softer ROI: advice and suggestions without closing the loop. Buyers ask whether they are really getting value. That kills willingness to pay at renewal.
+- **Copilots** often sit in softer ROI: advice and suggestions without closing the loop. Buyers ask whether they are getting value. That kills willingness to pay at renewal.
 - **Agents** that finish the job create harder ROI and stronger pricing power.
 - **Service replacement** sells on total cost of ownership versus the legacy approach. Enterprises often undercount that legacy cost; your job is to make the comparison explicit.
 
@@ -128,7 +128,7 @@ This page is operator judgment on charge metrics, not legal, tax, or securities 
 Labeled sketches. Thresholds and dollar examples are Bessemer’s, not invented targets for your plan.
 :::
 
-**Seed copilot, you copied Microsoft’s seat add-on math.** Part III’s **~$30** Copilot add-on is an incumbent expansion story on Office seats. If your buyer is not buying more seats, seats will under-monetize. Prefer hybrid: platform fee covering 2× delivery cost plus credits for the jobs the copilot actually finishes.
+**Seed copilot, you copied Microsoft’s seat add-on math.** Part III’s **~$30** Copilot add-on is an incumbent expansion story on Office seats. If your buyer is not buying more seats, seats will under-monetize. Prefer hybrid: platform fee covering 2× delivery cost plus credits for the jobs the copilot finishes.
 
 **Agent that resolves tickets, still billing tokens.** Bessemer’s Leena AI lesson: consumption made customers wary of using the product. Intercom’s public shape is **$0.99 per resolution**. If you can define “resolved” cleanly and instrument it, move the charge metric to the outcome. Keep a platform floor until variance is known.
 
@@ -141,7 +141,7 @@ Labeled sketches. Thresholds and dollar examples are Bessemer’s, not invented 
 - [Bessemer Atlas, The AI pricing and monetization playbook](https://www.bvp.com/atlas/the-ai-pricing-and-monetization-playbook). Atlas Editors, published 10 Feb 2026. Three models (copilot / agent / AI-enabled service). Consumption vs workflow vs outcome trade-offs. Hybrid formula (platform fee at 2× delivery costs + outcome credits; **$12K** / 100 / **$5K per 100** example). AI margins often **50–60%** vs SaaS **80–90%**. Intercom Fin **$0.99** per AI resolution. Company examples table (DeepL, EvenUp, Intercom, Leena AI, Sett.ai, Zenskar, and others). Soft vs hard ROI; 2026 renewal cliff for soft-ROI pilots.
 - [Bessemer Atlas, Part III: Business model invention in the AI era](https://www.bvp.com/atlas/part-iii-business-model-invention-in-the-ai-era). Feinstein, Rea, Bennett, Deeter, et al., published 5 Dec 2024. Copilot seat framing; Microsoft Office 365 roughly **$15–$30** per license and Copilot add-on about **$30** additional. Early vertical pricing examples including Fin at **$0.99** per AI resolution.
 - [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. Seats for humans / outcomes for agents when the product closes the loop; hybrid while reliability climbs. Not a survey. No closed-session numbers.
-- [fn-content #18](https://github.com/foundernexus/fn-content/issues/18). Benchmark request: AI SaaS seat vs usage vs outcome pricing adoption mix.
+- [Benchmark request #18](https://github.com/foundernexus/fn-content/issues/18). Benchmark request: AI SaaS seat vs usage vs outcome pricing adoption mix.
 
 ## Related
 

@@ -120,11 +120,11 @@ Freeze grants Monday. Engage the valuation provider days 1–3 with financials, 
 
 ## Sources
 
-- [Carta, priced rounds](https://carta.com/learn/startups/fundraising/priced-rounds/) — 8 May 2026. Priced round as material event; update before new options; 12-month “good” unless material event; common FMV often meaningfully below preferred; down round as material event.
-- [Carta, 409A valuation](https://carta.com/learn/startups/equity-management/409a-valuation/) — 4 August 2026. Standalone cost roughly $1,000 to over $10,000.
-- [Kruze, 409A valuation cost](https://kruzeconsulting.com/409a-valuation-cost/) — Published Seed–C fees; others’ Seed/A bands; industry $2,000–$5,000+; cap-table vendor spend; 10 business days; 12 months or material change; backsolve bands 25–35% and about 30–40%.
-- [Kruze, founder checklist and timeline](https://kruzeconsulting.com/blog/409a-valuation-founder-checklist-and-timeline/) — 17 September 2025. Triggers; 2–4 weeks plus board/docs; document list.
-- [Promise Legal, 409A valuations](https://promise.legal/startup-legal-guide/funding/409a-valuations/) — Updated 29 September 2025. Timing table; stage cost/timeline table; holder penalties (ordinary income + 20% + interest).
+- [Carta, priced rounds](https://carta.com/learn/startups/fundraising/priced-rounds/): 8 May 2026. Priced round as material event; update before new options; 12-month “good” unless material event; common FMV often meaningfully below preferred; down round as material event.
+- [Carta, 409A valuation](https://carta.com/learn/startups/equity-management/409a-valuation/): 4 August 2026. Standalone cost roughly $1,000 to over $10,000.
+- [Kruze, 409A valuation cost](https://kruzeconsulting.com/409a-valuation-cost/): Published Seed–C fees; others’ Seed/A bands; industry $2,000–$5,000+; cap-table vendor spend; 10 business days; 12 months or material change; backsolve bands 25–35% and about 30–40%.
+- [Kruze, founder checklist and timeline](https://kruzeconsulting.com/blog/409a-valuation-founder-checklist-and-timeline/): 17 September 2025. Triggers; 2–4 weeks plus board/docs; document list.
+- [Promise Legal, 409A valuations](https://promise.legal/startup-legal-guide/funding/409a-valuations/): Updated 29 September 2025. Timing table; stage cost/timeline table; holder penalties (ordinary income + 20% + interest).
 
 ## Related
 

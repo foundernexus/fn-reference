@@ -95,11 +95,11 @@ This sketch is labeled. Not a company. Not a term sheet.
 
 ## Sources
 
-- [Carta, option pools](https://carta.com/learn/startups/equity-management/option-pool/) — 20 August 2026. Bottoms-up vs top-down; 12–18 month horizon; Q2 2025 Series A median 616 days since seed; HSBC Innovation Banking 2026 Term Sheet Guide for 10–15% / 10% most frequent.
-- [Index Ventures, Rewarding Talent](https://www.indexventures.com/rewarding-talent/) — ESOP size by stage; Series A hiring plan and $1.6M / 6.4% / 10.4% vs 12%; seed team of ten ≈ 5% FDE; YC / The Family 20% note.
+- [Carta, option pools](https://carta.com/learn/startups/equity-management/option-pool/): 20 August 2026. Bottoms-up vs top-down; 12–18 month horizon; Q2 2025 Series A median 616 days since seed; HSBC Innovation Banking 2026 Term Sheet Guide for 10–15% / 10% most frequent.
+- [Index Ventures, Rewarding Talent](https://www.indexventures.com/rewarding-talent/): ESOP size by stage; Series A hiring plan and $1.6M / 6.4% / 10.4% vs 12%; seed team of ten ≈ 5% FDE; YC / The Family 20% note.
 - [Index Ventures OptionPlan](https://www.indexventures.com/optionplan/)
-- [Kruze, option pool shuffle](https://kruzeconsulting.com/blog/option-pool-shuffle/) — 29 January 2024. 10% / 15% / 20% generic term-sheet asks; negotiate from an 18–24 month hiring plan.
-- [Executive equity grants by stage](/library/equity/executive-grants-by-stage/) — VP and C-level bands used when you put a number on a seat.
+- [Kruze, option pool shuffle](https://kruzeconsulting.com/blog/option-pool-shuffle/): 29 January 2024. 10% / 15% / 20% generic term-sheet asks; negotiate from an 18–24 month hiring plan.
+- [Executive equity grants by stage](/library/equity/executive-grants-by-stage/): VP and C-level bands used when you put a number on a seat.
 
 ## Related
 

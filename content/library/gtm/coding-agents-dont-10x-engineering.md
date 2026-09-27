@@ -1,6 +1,6 @@
 ---
 title: Why coding agents don't 10x the company: Amdahl's law on the delivery loop
-description: Speeding coding alone does not 10x delivery. Score design, code, review, test, deploy, and operate. Invest where the queue actually sits.
+description: Speeding coding alone does not 10x delivery. Score design, code, review, test, deploy, and operate. Invest where the queue sits.
 slug: coding-agents-dont-10x-engineering
 section: library
 cluster: gtm
@@ -26,7 +26,7 @@ You are deciding whether a coding-agent rollout is a company 10x or a local spee
 - Operator judgment: score every stage of the loop. Attack the lows. Make AI the default on more than typing, and put humans on policy instead of every gate ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Sibling: [data moat for AI startups](/library/gtm/data-moat-ai-startup/).
 :::
 
-## What you are actually deciding
+## What you are deciding
 
 :::highlight
 You are choosing whether next week’s engineering spend goes into more agent seats on the coding step, or into the stages that already gate verified production changes.
@@ -40,7 +40,7 @@ You are choosing whether next week’s engineering spend goes into more agent se
 | “Productivity is up” | Epics/tasks that reach customers with equal or lower risk | First draft appears in minutes; verified change still waits days |
 | “AI failed us” | You measured the whole loop and coding still dominates cycle time | You only sped typing and left review/ops untouched |
 
-fn-content has no verified atom yet for Seed–Series B share of cycle time in authoring vs review/CI/deploy, or for typical review-queue growth after high AI adoption. Tracked as [benchmark request: AI coding agent delivery-loop bottleneck metrics](https://github.com/foundernexus/fn-content/issues/25). Until then, use the named public sources above. Do not invent a “typical” company-level 10x.
+We have no verified benchmark yet for Seed–Series B share of cycle time in authoring vs review/CI/deploy, or for typical review-queue growth after high AI adoption. We track it as a [benchmark request: AI coding agent delivery-loop bottleneck metrics](https://github.com/foundernexus/fn-content/issues/25). Until then, use the named public sources above. Do not invent a “typical” company-level 10x.
 
 ## Amdahl’s law is the ceiling
 
@@ -60,7 +60,7 @@ Amdahl’s law is classic CS: overall speedup = 1 / ((1 − P) + P / S), where P
 
 Their point matches what Evan Meagher (30 Jan 2026) and others spell out for agentic coding: once drafting is cheap, review, local verification, safe deploy, and production observation become the visible moles. A slow CI job or a 30+ minute pipeline stops being “annoying” and becomes the clock.
 
-Illustrative equal-stage math (same shape as the Amdahl framing used in operator rooms): five stages at equal time; 10x one stage → about **20%** overall. That is not a measured benchmark for your company. It is the reason “we 10x’d coding” is the wrong victory condition.
+Illustrative equal-stage math (same shape as the Amdahl framing operators use in founder sessions): five stages at equal time; 10x one stage → about **20%** overall. Treat it as an illustration rather than a measured benchmark for your company. It shows why “we 10x’d coding” is the wrong victory condition.
 
 ## What the telemetry shows when adoption rises
 
@@ -135,7 +135,7 @@ Sketches. Thresholds come from the public sources above, not a new survey of you
 
 **Series A, merge rate up, on-call noisy.** Pull incidents-to-PR and unreviewed merges. Faros’s direction (+242.7% incidents-to-PR; +31.3% no-review merges in their cohort) is the board language: show whether you match the whiplash pattern. Freeze seat growth until risk-tiered review and CI confidence catch up.
 
-**Series B, board asks “why aren’t we 10x yet?”** Show the stage scores. Replace the coding-only slide with Amdahl math plus your queue metrics. Operator rooms keep the same punchline: default to AI across the loop, put humans on policy, and stop treating paste-between-tools as “using AI” ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
+**Series B, board asks “why aren’t we 10x yet?”** Show the stage scores. Replace the coding-only slide with Amdahl math plus your queue metrics. Operators in founder sessions land on the same point: default to AI across the loop, put humans on policy, and stop treating paste-between-tools as “using AI” ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
 
 ## Sources
 
@@ -145,7 +145,7 @@ Sketches. Thresholds come from the public sources above, not a new survey of you
 - [METR, Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/). 10 Jul 2025. RCT: **16** developers, **246** issues; expected **24%** faster; believed **20%** faster; measured **19%** longer. Early-2025 tools (primarily Cursor Pro + Claude 3.5/3.7). Setting-specific snapshot.
 - [Evan Meagher, Amdahl’s law and agentic coding](https://evnm.substack.com/p/amdahls-law-and-agentic-coding). 30 Jan 2026. Coding often was not the bottleneck; review, deploy, and slow CI surface after agents accelerate drafting.
 - [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions. Score design/code/review/test/deploy/operate; attack the lows; AI-native default unless someone shows why not; humans write policy instead of sitting in every gate. Not a survey. No closed-session numbers.
-- [fn-content #25](https://github.com/foundernexus/fn-content/issues/25). Benchmark request: AI coding agent delivery-loop bottleneck metrics.
+- [Benchmark request #25](https://github.com/foundernexus/fn-content/issues/25). Benchmark request: AI coding agent delivery-loop bottleneck metrics.
 
 ## Related
 

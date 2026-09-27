@@ -38,8 +38,8 @@ Nxt Level: the round alone is not the trigger. Hire the first VP when the founde
 Use the VP Sales bar and the Series A sequence together. Do not skip either.
 :::
 
-- [When to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/) — founder closes 10–20 paid deals, then two sellers at quota, then a leader who still sells. CRO Report, SaaStr, Index, and UltraTalent disagree on the title. They agree on the order.
-- [Series A leadership hiring sequence](/library/hiring/series-a-leadership-hiring-sequence/) — bottleneck-first after the raise. Majhi month bands for B2B SaaS, sector flips, CFO later, and what these seats cost.
+- [When to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/): founder closes 10–20 paid deals, then two sellers at quota, then a leader who still sells. CRO Report, SaaStr, Index, and UltraTalent disagree on the title. They agree on the order.
+- [Series A leadership hiring sequence](/library/hiring/series-a-leadership-hiring-sequence/): bottleneck-first after the raise. Majhi month bands for B2B SaaS, sector flips, CFO later, and what these seats cost.
 
 ## Composite sequence (cited, not averaged)
 
@@ -81,14 +81,14 @@ Recruiting these seats is a pursuit, not a two-week LinkedIn blast. Budget calen
 
 ## Sources
 
-- [Index Ventures, Rewarding Talent](https://www.indexventures.com/rewarding-talent/) — stage hiring table; ~4 executives after A; VP equity 0.3–0.8% FDE at Series A; title inflation at seed.
-- [Majhi Group, Series A leadership team benchmarks 2026](https://www.majhigroup.com/series-a-leadership-benchmarks-2026.html) — June 2026. 3–5 VP-level leaders within 18 months; B2B SaaS month sequence; sector first-hire table.
-- [Majhi Group, Series A leadership hiring playbook](https://www.majhigroup.com/series-a-leadership-hiring-playbook.html) — sequential hires; Series A VP cash $180k–$260k; equity 0.4%–1.0%.
-- [Nxt Level, executive hiring](https://nxtlevel.io/executive.html) — 50%+ founder-time trigger; Series A typical first exec Eng or Head of Product.
-- [Ready Set Exec, Series A executive search](https://readysetexec.com/series-a-executive-search-scale-vs-stall/) — bottleneck-first; sequential vs simultaneous.
-- [Kruze Consulting, when a startup needs a CFO](https://kruzeconsulting.com/startup-need-cfo/) — Series A generally does not need full-time CFO; part-time first.
-- [The CRO Report](https://www.thecroreport.com/) and SaaStr (via [when to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/)) — commercial sequence before the VP title.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder session, February 2026. Hire for the phase. Say it in the offer. Not a survey.
+- [Index Ventures, Rewarding Talent](https://www.indexventures.com/rewarding-talent/): stage hiring table; ~4 executives after A; VP equity 0.3–0.8% FDE at Series A; title inflation at seed.
+- [Majhi Group, Series A leadership team benchmarks 2026](https://www.majhigroup.com/series-a-leadership-benchmarks-2026.html): June 2026. 3–5 VP-level leaders within 18 months; B2B SaaS month sequence; sector first-hire table.
+- [Majhi Group, Series A leadership hiring playbook](https://www.majhigroup.com/series-a-leadership-hiring-playbook.html): sequential hires; Series A VP cash $180k–$260k; equity 0.4%–1.0%.
+- [Nxt Level, executive hiring](https://nxtlevel.io/executive.html): 50%+ founder-time trigger; Series A typical first exec Eng or Head of Product.
+- [Ready Set Exec, Series A executive search](https://readysetexec.com/series-a-executive-search-scale-vs-stall/): bottleneck-first; sequential vs simultaneous.
+- [Kruze Consulting, when a startup needs a CFO](https://kruzeconsulting.com/startup-need-cfo/): Series A generally does not need full-time CFO; part-time first.
+- [The CRO Report](https://www.thecroreport.com/) and SaaStr (via [when to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/)): commercial sequence before the VP title.
+- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): founder session, February 2026. Hire for the phase. Say it in the offer. Not a survey.
 
 ## Related
 

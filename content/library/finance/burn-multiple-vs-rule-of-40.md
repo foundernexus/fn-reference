@@ -100,11 +100,11 @@ Early: burn multiple trend. Later: add Rule of 40 (and say which profit). Never 
 Round numbers so the arithmetic is visible. Not a company.
 :::
 
-**Sketch A — early Series A SaaS.** Cash burn $1.8M in the quarter. Net new ARR $1.0M. Burn multiple = 1.8× (Sacks “good” band). YoY ARR growth 90%, FCF margin −70%. Rule of 40 = 20. The board should argue the 1.8× trend and the path toward ~1.5×, not celebrate or panic about a 20 Rule of 40 at this stage.
+**Sketch A: early Series A SaaS.** Cash burn $1.8M in the quarter. Net new ARR $1.0M. Burn multiple = 1.8× (Sacks “good” band). YoY ARR growth 90%, FCF margin −70%. Rule of 40 = 20. The board should argue the 1.8× trend and the path toward ~1.5×, not celebrate or panic about a 20 Rule of 40 at this stage.
 
-**Sketch B — growth-stage SaaS.** Cash burn $3.0M, net new ARR $2.5M → 1.2× (Sacks “great”). Growth 55%, FCF margin −10%. Rule of 40 = 45. Both metrics can sit on the same page. Say the periods match.
+**Sketch B: growth-stage SaaS.** Cash burn $3.0M, net new ARR $2.5M → 1.2× (Sacks “great”). Growth 55%, FCF margin −10%. Rule of 40 = 45. Both metrics can sit on the same page. Say the periods match.
 
-**Sketch C — same Rule of 40, different Rule of X (Bessemer logic).** Company G: 30% growth, 15% FCF → Rule of 40 = 45, Rule of X (2×) = 75. Company M: 15% growth, 30% FCF → Rule of 40 = 45, Rule of X (2×) = 60. Same Rule of 40. Bessemer argues G should be valued higher. Use this only when you are in a late-stage valuation conversation.
+**Sketch C: same Rule of 40, different Rule of X (Bessemer logic).** Company G: 30% growth, 15% FCF → Rule of 40 = 45, Rule of X (2×) = 75. Company M: 15% growth, 30% FCF → Rule of 40 = 45, Rule of X (2×) = 60. Same Rule of 40. Bessemer argues G should be valued higher. Use this only when you are in a late-stage valuation conversation.
 
 ## Mistakes that waste a board meeting
 
@@ -124,9 +124,9 @@ Wrong stage metric, mixed periods, and GAAP-as-cash are the usual failures.
 
 ## Sources
 
-- [David Sacks, The Burn Multiple (Craft Ventures / Medium)](https://medium.com/craft-ventures/the-burn-multiple-51a7e43cb200) — 23 April 2020. Formula; $2M / $1M = 2× example; tier chart; seed ~3× → post-A ~2× stage guidance; catch-all failure modes.
-- [Brad Feld, The Rule of 40% For a Healthy SaaS Company](https://feld.com/archives/2015/02/rule-40-healthy-saas-company/) — 25 February 2015. Growth + profit ≥ 40; ~$50M+ scale; EBITDA preference.
-- [Bessemer Venture Partners, The Rule of X](https://www.bvp.com/atlas/the-rule-of-x) — Rule of 40 restated; Rule of X formula and ~2× / ~2–3× multipliers; early-stage prefer burn multiple ~1×–1.5×; late-2023 Cloud Index ~31% / ~50% and top-decile ~48% / ~80%.
+- [David Sacks, The Burn Multiple (Craft Ventures / Medium)](https://medium.com/craft-ventures/the-burn-multiple-51a7e43cb200): 23 April 2020. Formula; $2M / $1M = 2× example; tier chart; seed ~3× → post-A ~2× stage guidance; catch-all failure modes.
+- [Brad Feld, The Rule of 40% For a Healthy SaaS Company](https://feld.com/archives/2015/02/rule-40-healthy-saas-company/): 25 February 2015. Growth + profit ≥ 40; ~$50M+ scale; EBITDA preference.
+- [Bessemer Venture Partners, The Rule of X](https://www.bvp.com/atlas/the-rule-of-x): Rule of 40 restated; Rule of X formula and ~2× / ~2–3× multipliers; early-stage prefer burn multiple ~1×–1.5×; late-2023 Cloud Index ~31% / ~50% and top-decile ~48% / ~80%.
 
 ## Related
 
