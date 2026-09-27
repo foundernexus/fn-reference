@@ -7,7 +7,7 @@ cluster: equity
 layout: article
 target_query: 409A after funding round
 date: 2026-09-02
-close: After the round closes, the 409A is a hiring gate, not a formality. If you want founders who just sequenced the freeze, refresh, and first post-round grants to walk through your calendar, that conversation happens at FounderNexus.
+close: After the round closes, the 409A gates your next hires. Founders who have sequenced the freeze, refresh, and first post-round grants will walk through your calendar in a FounderNexus session.
 disclaimer: not-legal-tax
 draft: false
 ---
@@ -18,7 +18,7 @@ A priced round is typically a material event under IRC §409A. Carta: reliance o
 - Freeze new grants at close. Refresh FMV, board-adopt, then grant.
 - A priced round typically ends reliance on the prior 409A (Carta).
 - Refresh at least every 12 months, or sooner after a material event.
-- Cost bands disagree. Show each source. Do not average.
+- Cost bands disagree. Show each source instead of an average.
 :::
 
 ## What triggers a refresh
@@ -42,7 +42,7 @@ Promise’s “within 30 days” is one published target. The IRS does not publi
 
 ## What a post-round 409A costs
 
-Sources disagree. Do not average them. Show each band as published.
+Sources disagree, so this section shows each band as published instead of an average.
 
 **Kruze published fees** ([409A valuation cost](https://kruzeconsulting.com/409a-valuation-cost/)):
 
@@ -74,7 +74,7 @@ Coordinate with the valuation provider ahead of the round so the updated 409A ca
 
 | Step | What operators do | Published timing |
 | --- | --- | --- |
-| Engage | Start the provider before or at close; assemble financials, cap table, funding docs, 12–24 month projections | Doc lead time is real (Kruze checklist) |
+| Engage | Start the provider before or at close; assemble financials, cap table, funding docs, 12–24 month projections | Allow for document lead time (Kruze checklist) |
 | Valuation | Provider runs the report | Kruze: can complete in 10 business days; checklist: set aside 2–4 weeks plus board and doc lead time |
 | Board | Board adopts the new FMV | Same meeting or shortly after the signed report |
 | Grants resume | Issue options at or above the adopted FMV | After adoption, not on the old strike |
@@ -102,13 +102,13 @@ Penalties for underpriced options hit the holder: ordinary income on the spread,
 
 ## Mistakes after the round
 
-**Granting through the close on the old FMV.** The prior valuation is stale once the priced round is treated as a material event (Carta).
+**Granting through the close on the old FMV.** Once the priced round counts as a material event, the prior valuation is stale (Carta).
 
 **Waiting months to refresh.** Promise targets within 30 days after closing; Kruze recommends a new valuation after a raise. Open offers sit without a strike while you wait.
 
 **Treating preferred price as common strike.** Preferred rights make common FMV lower (Carta; Kruze backsolve).
 
-**Skipping board adoption.** The report alone is not enough. The board adopts FMV, then you grant.
+**Skipping board adoption.** The signed report does not set FMV on its own. The board adopts FMV, then you grant.
 
 **Letting the annual clock slip.** Even without a raise, safe harbor is generally up to 12 months from the valuation date (Carta; Kruze; Promise).
 
@@ -120,11 +120,11 @@ Freeze grants Monday. Engage the valuation provider days 1–3 with financials, 
 
 ## Sources
 
-- [Carta, priced rounds](https://carta.com/learn/startups/fundraising/priced-rounds/): 8 May 2026. Priced round as material event; update before new options; 12-month “good” unless material event; common FMV often meaningfully below preferred; down round as material event.
-- [Carta, 409A valuation](https://carta.com/learn/startups/equity-management/409a-valuation/): 4 August 2026. Standalone cost roughly $1,000 to over $10,000.
-- [Kruze, 409A valuation cost](https://kruzeconsulting.com/409a-valuation-cost/): Published Seed–C fees; others’ Seed/A bands; industry $2,000–$5,000+; cap-table vendor spend; 10 business days; 12 months or material change; backsolve bands 25–35% and about 30–40%.
-- [Kruze, founder checklist and timeline](https://kruzeconsulting.com/blog/409a-valuation-founder-checklist-and-timeline/): 17 September 2025. Triggers; 2–4 weeks plus board/docs; document list.
-- [Promise Legal, 409A valuations](https://promise.legal/startup-legal-guide/funding/409a-valuations/): Updated 29 September 2025. Timing table; stage cost/timeline table; holder penalties (ordinary income + 20% + interest).
+- [Carta, priced rounds](https://carta.com/learn/startups/fundraising/priced-rounds/) — 8 May 2026. Priced round as material event; update before new options; 12-month “good” unless material event; common FMV often meaningfully below preferred; down round as material event.
+- [Carta, 409A valuation](https://carta.com/learn/startups/equity-management/409a-valuation/) — 4 August 2026. Standalone cost roughly $1,000 to over $10,000.
+- [Kruze, 409A valuation cost](https://kruzeconsulting.com/409a-valuation-cost/) — Published Seed–C fees; others’ Seed/A bands; industry $2,000–$5,000+; cap-table vendor spend; 10 business days; 12 months or material change; backsolve bands 25–35% and about 30–40%.
+- [Kruze, founder checklist and timeline](https://kruzeconsulting.com/blog/409a-valuation-founder-checklist-and-timeline/) — 17 September 2025. Triggers; 2–4 weeks plus board/docs; document list.
+- [Promise Legal, 409A valuations](https://promise.legal/startup-legal-guide/funding/409a-valuations/) — Updated 29 September 2025. Timing table; stage cost/timeline table; holder penalties (ordinary income + 20% + interest).
 
 ## Related
 

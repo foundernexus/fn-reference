@@ -7,7 +7,7 @@ cluster: gtm
 layout: article
 target_query: DIY PR for startups
 date: 2026-09-22
-close: If you want founders who already built a narrative and a short reporter list before they spent on a retainer, that conversation happens at FounderNexus.
+close: Founders who built a narrative and a short reporter list before paying for a retainer will pressure-test yours in a FounderNexus session.
 draft: false
 related:
 - library/gtm/market-ai-product-without-saying-ai
@@ -15,7 +15,7 @@ related:
 - library/gtm/ai-sdr-vs-human
 ---
 
-You are deciding whether to write the first pitches yourself or sign a PR retainer. Most Seed and early Series A teams should DIY the narrative and the first reporter relationships. An agency multiplies a story that already exists. It does not invent one. This page is the decision frame, not a press-kit template.
+You are deciding whether to write the first pitches yourself or sign a PR retainer. Most Seed and early Series A teams should DIY the narrative and the first reporter relationships. An agency amplifies a story you already have; it will not write one for you.
 
 :::takeaways
 - Y Combinator (Michael Seibel, 20 Sep 2016): treat PR like **bizdev**. Warm intros. Real news. Founders pitch. His early company spent **over $100,000** on agencies and PR people before learning reporters want CEOs and co-founders, not intermediaries. Cap press at about **5%** of founder time.
@@ -37,7 +37,7 @@ You are choosing who owns the first version of the company story, and when money
 | Fractional / boutique retainer | Senior operator time + existing contacts | Clear news cadence; founder still does interviews | Retainer starts before you can explain the company in two sentences |
 | Mid-size agency | Team coverage, surge capacity | Multi-market news, sustained campaign load | One announcement a quarter and a junior doing the pitching |
 
-We have no verified benchmark yet for Seed–Series B DIY vs agency spend or founder hours on press. We track it as a [benchmark request: DIY vs agency PR cost and founder hours by stage](https://github.com/foundernexus/fn-content/issues/21). Until then, use the named public ranges above. Do not invent a "typical" startup PR budget.
+fn-content has no verified atom yet for Seed–Series B DIY vs agency spend or founder hours on press. fn-content tracks it as [benchmark request: DIY vs agency PR cost and founder hours by stage](https://github.com/foundernexus/fn-content/issues/21). Until then, use the named public ranges above. Do not invent a "typical" startup PR budget.
 
 ## Build the narrative before you pitch
 
@@ -52,15 +52,15 @@ Hammerling's intake questions (First Round Review) are still the right checklist
 3. **Not-for line.** Who you are not selling. Carmichael: cut jargon until a non-industry friend gets it.
 4. **Headlines you want.** Carmichael: write desired headlines first, then gather the proof that would support them.
 
-NextView's Leah Fessler (ex-Quartz): do not tell the reporter what the story is. Set context and differentiation. Own competition instead of pretending it does not exist. The narrative is for you and for them. It is not a press release paste.
+NextView's Leah Fessler (ex-Quartz): do not tell the reporter what the story is. Set context and differentiation. Own competition instead of pretending it does not exist. The narrative serves you and the reporter; do not paste it into a press release.
 
 ## How DIY PR works in practice
 
 :::highlight
-News, warm intros, exclusive to one outlet at a time, then a steady queue. Not a launch-day blast.
+News, warm intros, an exclusive to one outlet at a time, then a steady queue instead of a launch-day blast.
 :::
 
-Seibel's YC frame maps cleanly:
+Seibel's YC frame maps onto this:
 
 | Step | Operator move | Why it works |
 | --- | --- | --- |
@@ -69,7 +69,7 @@ Seibel's YC frame maps cleanly:
 | Pitch an exclusive | One reporter at a time for the big beat | Blanket embargoes break trust for little gain early |
 | Keep a queue | 3–5 announceable items over ~6 months | One hit a month beats one mega story a year |
 
-Carmichael adds timing hygiene: early in the week, before morning edit meetings. No Friday afternoon. No cold calls. Background the reporter's last few pieces and say why *this* pitch fits *that* beat.
+Carmichael adds timing hygiene: pitch early in the week, before morning edit meetings, and skip Friday afternoons and cold calls. Background the reporter's last few pieces and say why *this* pitch fits *that* beat.
 
 Fessler: give lead time on exclusives (about a week, not Sunday night for Monday). Offer to be a useful source on the category, not only when you want a hit.
 
@@ -102,7 +102,7 @@ Pay for PR when you have a stable narrative, real news, and a founder who will s
 | Multi-geography or sustained category fight | Mid-size agency | Everything-PR mid-size **$10,000–$25,000**/month |
 | Crisis or regulated disclosure | Experienced counsel immediately | Separate from growth PR; do not DIY a crisis |
 
-Seibel's later-stage note still holds: once press comes to you, a buffer can help you be selective. That is after relationships exist. Not before.
+Seibel's later-stage note still holds: once press comes to you, a buffer can help you be selective. That comes after relationships exist.
 
 Red flags from public pricing and measurement guidance: guaranteed placements, **AVE** (advertising value equivalency) as a KPI (AMEC Barcelona Principles 3.0 reject it), and a target list the firm will not show before you sign.
 
@@ -119,9 +119,9 @@ Pick publications for the audience you need this quarter, not for screenshot van
 | Hiring | Engineer- and operator-read communities | Vanity national with no talent funnel |
 | Category education | Trade + owned data or byline | One launch blast with no follow-up |
 
-Carmichael: national splash is rarely required. Fragmented audiences mean the right niche compound. Fessler: research the beat and cite a past piece. Muck Rack: relevance to the audience beats volume of names.
+Carmichael: you rarely need a national splash. With fragmented audiences, the right niche outlets compound. Fessler: research the beat and cite a past piece. Muck Rack: relevance to the audience beats volume of names.
 
-Operator judgment from founder sessions: build the narrative before the launch window, keep the founder as the public voice, and match outlet lists to the goal of the cycle ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). No closed-session numbers here.
+Operator judgment from founder rooms: build the narrative before the launch window, keep the founder as the public voice, and match outlet lists to the goal of the cycle ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). No closed-session numbers here.
 
 ## Worked situations
 
@@ -145,7 +145,7 @@ Labeled sketches. Thresholds come from the public sources above, not a new surve
 - [Everything-PR, How much does a PR firm cost in 2026?](https://www.everything-pr.com/how-much-does-a-pr-firm-cost-in-2026/). 21 Jun 2026. Boutique **$3,500–$10,000**/mo; mid-size **$10,000–$25,000**; publicists **$2,000–$10,000**; projects **$10,000–$75,000**.
 - [AMEC, Barcelona Principles 3.0](https://amecorg.com/2020/07/barcelona-principles-3-0/). July 2020. Rejects AVE as a valid measure of communication value.
 - [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions. Narrative before the launch window; founder as the public voice; match outlets to the cycle goal. Not a survey. No closed-session numbers.
-- [Benchmark request #21](https://github.com/foundernexus/fn-content/issues/21). Benchmark request: DIY vs agency PR cost and founder hours by stage.
+- [fn-content #21](https://github.com/foundernexus/fn-content/issues/21). Benchmark request: DIY vs agency PR cost and founder hours by stage.
 
 ## Related
 

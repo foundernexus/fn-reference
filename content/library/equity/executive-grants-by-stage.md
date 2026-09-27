@@ -8,7 +8,7 @@ layout: article
 target_query: how much equity to give VP of sales startup
 date: 2026-08-29
 updated: 2026-09-18
-close: Public ranges are a starting point. If you want the number in the offer pressure-tested by founders who just made this hire, that conversation happens at FounderNexus.
+close: Public ranges are a starting point. Founders who have made this hire will pressure-test the number in your offer in a FounderNexus session.
 disclaimer: not-legal-tax
 draft: false
 ---
@@ -54,7 +54,7 @@ Empty cells mean the source did not publish that number.
 
 ## VP Sales cash and OTE
 
-Only VP Sales has stage-segmented cash in these sources. Other roles: blank on purpose.
+Only VP Sales has stage-segmented cash in these sources. Other roles stay blank on purpose.
 
 | Stage | Base | OTE | Source |
 | --- | --- | --- | --- |
@@ -72,9 +72,9 @@ Kruze (December 2024) publishes early-employee San Francisco “very senior” s
 
 ## The offer is a pool decision
 
-The grant is a draw on unallocated pool. That pool has to cover new-hire grants and refreshers through the next round.
+The grant draws on unallocated pool, and that pool has to cover new-hire grants and refreshers through the next round.
 
-Carta (20 August 2026): size the pool from a bottoms-up hiring plan for the next 12–18 months, then sanity-check top-down. Do not default to 10%. Most common pool size is 10–15% of company equity, 10% the most frequent (HSBC Innovation Banking 2026 Term Sheet Guide, cited by Carta). Among startups raising Series A in Q2 2025, median time since seed was 616 days. In 71% of cases an option pool was created or topped up in the term sheet.
+Carta (20 August 2026): size the pool from a bottoms-up hiring plan for the next 12–18 months, then sanity-check top-down. Do not default to 10%. Most common pool size is 10–15% of company equity, 10% the most frequent (HSBC Innovation Banking 2026 Term Sheet Guide, cited by Carta). Among startups raising Series A in Q2 2025, median time since seed was 616 days. In 71% of cases the term sheet created or topped up an option pool.
 
 Index: ESOP size is a board-level decision meant to cover talent needs through the next round. Traditionally 10% at seed. In the US, ESOPs typically rise from 10% at seed to 15% at Series A, then toward 20% or even 25% by Series D. Some accelerators (Y Combinator, The Family) advocate 20%, with the seed valuation increased to accommodate it. Index’s own bottom-up Series A hiring scenario needs 12% through Series B; recommended range 10–15%. Index also models 12% at Series A, 14% at Series B, and 16% at Series C for the next generation of successful European startups.
 
@@ -82,9 +82,9 @@ Kruze (29 January 2024): VCs often put the pool increase pre-money, so you take 
 
 ### Hypothetical illustration
 
-Not a company. Percentages are from cited bands. Remaining-pool is assumed so you can see the arithmetic.
+Not a company. Percentages are from cited bands. The remaining pool is an assumption so you can see the arithmetic.
 
-Series A close, 12% ESOP, 8% still unallocated. Next 18 months: VP Eng at 0.8% FDE, VP Sales at 0.5–0.6% FDE, plus IC and director grants. After the 0.8% grant you have 7.2% unallocated. That grant is 10% of the pool you started with. Whether 7.2% covers the rest of the plan is the question. Not whether 0.8% feels like a VP.
+Series A close, 12% ESOP, 8% still unallocated. Next 18 months: VP Eng at 0.8% FDE, VP Sales at 0.5–0.6% FDE, plus IC and director grants. After the 0.8% grant you have 7.2% unallocated. That grant is 10% of the pool you started with. Ask whether 7.2% covers the rest of the plan, and ignore whether 0.8% feels like a VP number.
 
 Run the same check in the [executive equity calculator](/tools/executive-equity-calculator).
 
@@ -94,7 +94,7 @@ Run the same check in the [executive equity calculator](/tools/executive-equity-
 
 **Paying scaler equity to a phase hire.** The person who gets you from zero to ten is often not the person who takes ten to fifty. Write the grant for the job in front of you. If you already know they may not be the seat in eighteen months, do not paper over that with a true-VP percentage. Say the phase out loud, keep the band honest, and leave room in the pool for the scaler.¹⁰
 
-**Late-stage cash on a seed percentage.** UltraTalent’s growth / Series D+ VP Sales cash is $380k–$500k base and $760k–$1M OTE, with 0.10–0.40% equity. Seed first-sales equity is 0.5–2.0% FD. Those are different jobs.
+**Late-stage cash on a seed percentage.** UltraTalent’s growth / Series D+ VP Sales cash is $380k–$500k base and $760k–$1M OTE, with 0.10–0.40% equity. Seed first-sales equity is 0.5–2.0% FD. Those numbers describe two different jobs.
 
 **Stale 409A.** A 409A is valid for 12 months from its effective date, and ends sooner after a material event (Carta, 4 August 2026). Strike must be at least FMV on the grant date. Board-approve the new FMV before you grant.
 
@@ -120,15 +120,15 @@ Standalone 409A cost, per Carta: $1,000 to over $10,000 depending on size and co
 
 ## Sources
 
-- [Index Ventures, Rewarding Talent](https://www.indexventures.com/rewarding-talent/): executive FDE bands, vest, double-trigger, ESOP size, refresh. Also [option grants at seed](https://www.indexventures.com/rewarding-talent/option-grants-at-seed) (Advanced HR VCECS Seed Data, 2018) and [option grants at Series A](https://www.indexventures.com/rewarding-talent/option-grants-at-series-a).
+- [Index Ventures, Rewarding Talent](https://www.indexventures.com/rewarding-talent/) — executive FDE bands, vest, double-trigger, ESOP size, refresh. Also [option grants at seed](https://www.indexventures.com/rewarding-talent/option-grants-at-seed) (Advanced HR VCECS Seed Data, 2018) and [option grants at Series A](https://www.indexventures.com/rewarding-talent/option-grants-at-series-a).
 - [Index Ventures OptionPlan](https://www.indexventures.com/optionplan/)
-- [Carta, option pools](https://carta.com/learn/startups/equity-management/option-pool/): 20 August 2026
-- [Carta, 409A valuation](https://carta.com/learn/startups/equity-management/409a-valuation/): 4 August 2026
-- [UltraTalent, VP Sales compensation benchmarks 2026](https://ultratalent.com/blog/vp-sales-compensation-benchmarks/): 29 July 2026
-- [The CRO Report, VP Sales salary at Series B](https://thecroreport.com/blog/vp-sales-salary-series-b/): 15 February 2026; April 2026 note
-- [Kruze, option pool shuffle](https://kruzeconsulting.com/blog/option-pool-shuffle/): 29 January 2024
-- [Kruze, startup compensation guide](https://kruzeconsulting.com/blog/startup-compensation-guide/): 4 December 2024
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): founder session, February 2026. Hire for the phase: the 0–10 operator is often not the 10–50 operator. Not a compensation dataset.
+- [Carta, option pools](https://carta.com/learn/startups/equity-management/option-pool/) — 20 August 2026
+- [Carta, 409A valuation](https://carta.com/learn/startups/equity-management/409a-valuation/) — 4 August 2026
+- [UltraTalent, VP Sales compensation benchmarks 2026](https://ultratalent.com/blog/vp-sales-compensation-benchmarks/) — 29 July 2026
+- [The CRO Report, VP Sales salary at Series B](https://thecroreport.com/blog/vp-sales-salary-series-b/) — 15 February 2026; April 2026 note
+- [Kruze, option pool shuffle](https://kruzeconsulting.com/blog/option-pool-shuffle/) — 29 January 2024
+- [Kruze, startup compensation guide](https://kruzeconsulting.com/blog/startup-compensation-guide/) — 4 December 2024
+- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder session, February 2026. Hire for the phase: the 0–10 operator is often not the 10–50 operator. Not a compensation dataset.
 
 ## Related
 

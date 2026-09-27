@@ -8,29 +8,29 @@ layout: article
 target_query: Series A leadership hiring sequence
 date: 2026-09-07
 updated: 2026-09-25
-close: Sequencing these seats is a board-visible call. If you want founders who just made the first two VP hires after a raise to pressure-test which bottleneck is yours, that conversation happens at FounderNexus.
+close: Founders who have made their first two VP hires after a raise will help you find which bottleneck is yours in a FounderNexus session.
 disclaimer: not-legal-tax
 draft: false
 ---
 
-After Series A, hire the one function that is bottlenecking the next 18 months. Then hire the next. Sources disagree on whether the first seat is Sales or Engineering. They agree you do not hire four VPs in the same quarter. Not legal, tax, or compensation advice.
+After Series A, hire for the one function that is bottlenecking the next 18 months, then move to the next. Sources disagree on whether the first seat is Sales or Engineering. They agree you do not hire four VPs in the same quarter. Not legal, tax, or compensation advice.
 
 :::takeaways
 - Index: Series A is when first customer-facing roles and initial executive hires typically arrive. Expect ~4 executives (3 VP + 1 C-suite) as you scale toward B.
 - Majhi Group (B2B SaaS, 2026): Sales months 1–4, Eng 3–8, Marketing 6–12, People 9–18, CFO 12–24 or pre-B. Sector tables flip the first seat.
-- Nxt Level: trigger is founder time, not the round. First VP when you spend 50%+ of the week on one function.
+- Nxt Level: founder time sets the trigger, not the round. First VP when you spend 50%+ of the week on one function.
 - Kruze: most Series A companies do not need a full-time CFO. Fractional or part-time first.
 :::
 
-## What changes at Series A
+## What Series A changes
 
 :::highlight
-Seed is product and engineering. Series A adds go-to-market and the first true exec seats.
+At seed you build product and engineering. At Series A you add go-to-market and the first true exec seats.
 :::
 
 Index Ventures ([Rewarding Talent](https://www.indexventures.com/rewarding-talent/)): seed headcount is roughly 0–10, mainly product and engineering. Series A is typically 10–60 people. That is when you ramp engineering and product, add first customer-facing roles (marketing, sales, customer success), and make initial executive-level hires. Series B shifts emphasis to commercial build-out, central teams (finance, HR, ops), and multi-layered management.
 
-Following Series A, Index expects roughly four executives: three at VP level and one at C-suite. Toward Series C+, a team of 6–10 VP-level executives is typical. That is a count, not a calendar. It does not tell you which seat goes first.
+Following Series A, Index expects roughly four executives: three at VP level and one at C-suite. Toward Series C+, a team of 6–10 VP-level executives is typical. Read it as a count; it does not tell you which seat goes first.
 
 ## Sources disagree on the first seat
 
@@ -42,7 +42,7 @@ Show each source. Do not average Sales-first and Eng-first into one order.
 | --- | --- |
 | Majhi Group, B2B SaaS benchmarks (June 2026) | First: VP Sales / CRO (months 1–4), after the board funded growth. Then Eng (3–8), Marketing (6–12), People (9–18), CFO (12–24 or pre-B). |
 | Majhi Group, by sector | First seat flips: AI/ML and DevTools start with VP Eng (or VP AI); Fintech with VP Eng or CFO; B2B SaaS with VP Sales. Not one universal ladder. |
-| Nxt Level | VP Engineering or Head of Product at Series A, when the founder spends 50%+ of the week on one function. The round alone is not the trigger. |
+| Nxt Level | VP Engineering or Head of Product at Series A, when the founder spends 50%+ of the week on one function. Closing the round alone does not trigger the hire. |
 | Ready Set Exec | Hire the single most acute bottleneck. Product-led with no commercial motion: VP Sales / CRO. Strong commercial, eng cannot scale: CTO / VP Eng. Both capable, ops efficiency dropping: CFO / COO. Sequential, not simultaneous. |
 | Index Ventures | Initial executive-level hires at Series A; avoid title inflation at seed. Customer-facing and exec seats arrive with the A. Stage and count, not a ranked month list. |
 
@@ -62,14 +62,14 @@ For a classic B2B SaaS company that closed Series A with early product-market fi
 2. **Technical leader (often months 3–8).** Majhi: VP Eng or CTO if not already in place, so the product roadmap can scale headcount without losing delivery. KORE1’s eng scaling guidance puts dedicated management later than founders expect; treat “hire a manager of none” as a separate failure mode from “hire a builder who still ships.”
 3. **Marketing or product (often months 6–12).** Majhi’s benchmarks put Marketing after first commercial signal. The playbook variant swaps Marketing/Product into months 9–12 depending on the growth constraint. Hire demand gen once you know what is working commercially.
 4. **People / ops (often months 9–18).** Majhi: when headcount approaches 40–60 and the CEO can no longer run people ops personally.
-5. **Finance leadership (often months 12–24, or pre-Series B).** See the CFO section. This is usually not a day-one full-time C-suite seat at Series A.
+5. **Finance leadership (often months 12–24, or pre-Series B).** At Series A this is usually not a day-one full-time C-suite seat (see the CFO section).
 
 If you are DevTools or AI/ML, Majhi’s sector table puts Engineering first. If you are PLG DevTools, VP Sales hired too early is the named gap. Match the sector column before you copy the SaaS month ladder into the board deck.
 
 ## CFO is usually later
 
 :::highlight
-Series A needs CFO-level work. It usually does not need a full-time CFO yet.
+At Series A you need CFO-level work, usually before you need a full-time CFO.
 :::
 
 Kruze Consulting: a Series A startup does not need a full-time CFO in the general case, with exceptions. Part-time / outsourced CFO work fits Seed through Series A–C. Know it is time for full-time when interaction with the part-time CFO becomes consistent. Otherwise you risk paying for a fundraise sprint and then carrying an overpaid controller for years. Kruze also notes many Series A clients run without a CFO or VP Finance, outsourcing until Series B (increasingly after Series C), depending on accounting quality.
@@ -82,14 +82,14 @@ Engage strategic finance support at least three months before a raise if the CEO
 The 0→10 operator is often not the 10→50 operator. Say the phase in the offer.
 :::
 
-A FounderNexus session put the same split on tenure: name the phase out loud. The person who builds the function for this chapter may not be the person who scales it after the next step-change. Say so in the offer so neither side pretends the job is permanent theater. Majhi’s failure data points the same way: hiring a VP who has mainly operated at a larger stage is the most common Series A mis-hire pattern they call out. Nxt Level: over-titling at Series A (calling someone VP when the org is still tiny) creates title inflation you regret when you need a real VP later.
+A FounderNexus session drew the same line on tenure: name the phase out loud. The person who builds the function for this chapter may not be the person who scales it after the next step-change. Say so in the offer so neither side pretends the job is permanent. Majhi’s failure data agrees: hiring a VP who has mainly operated at a larger stage is the most common Series A mis-hire pattern they call out. Nxt Level: over-titling at Series A (calling someone VP when the org is still tiny) creates title inflation you regret when you need a real VP later.
 
-Recruiting these seats is a pursuit, not a two-week LinkedIn blast. Budget calendar time accordingly. Once they start, plan a short, structured onboarding window with frequent founder contact in the first months. The founder-to-VP transition fails more often than the résumé screen: give real authority, or you hired a senior IC with a VP title (Nxt Level).
+Recruiting these seats takes a sustained pursuit, not a two-week LinkedIn blast, so budget calendar time. Once they start, plan a short, structured onboarding window with frequent founder contact in the first months. The founder-to-VP handoff fails more often than the résumé screen does. Give real authority; otherwise you have hired a senior IC with a VP title (Nxt Level).
 
 ## What these seats cost
 
 :::highlight
-Equity bands and cash bands come from different publishers. Show each. Do not blend.
+Equity bands and cash bands come from different publishers. Show each one separately.
 :::
 
 | Source | Cash / equity note at Series A |
@@ -112,7 +112,7 @@ Simultaneous VPs, wrong stage, no authority, and CFO-too-early burn calendar and
 
 **Hiring a scaler to build.** Same pattern as the VP Sales spoke. Stage fit beats logo pedigree.
 
-**Ignoring the founder-time trigger.** Nxt Level: if you are not spending half your week on the function, you may not be bottlenecked yet. If you have been bottlenecked for six months, you already paid the velocity tax.
+**Ignoring the founder-time trigger.** Nxt Level: if you are not spending half your week on the function, you may not have a bottleneck yet. If one function has held you up for six months, you have already paid the velocity tax.
 
 **Skipping the commercial sequence because you raised.** A VP of Sales without founder-closed deals and sellers at quota is still the wrong order. See [when to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/).
 
@@ -128,20 +128,20 @@ Simultaneous VPs, wrong stage, no authority, and CFO-too-early burn calendar and
 
 **Board wants four VPs named in the next board deck.** Push back with Index’s ~4-exec count as a through-B expectation, not a 90-day staffing plan. Bring Majhi’s month bands and your actual bottleneck. Simultaneous hires are the failure mode both search firms name.
 
-Labeled sketches. Not a company.
+These are labeled sketches, not real companies.
 
 ## Sources
 
-- [Index Ventures, Rewarding Talent](https://www.indexventures.com/rewarding-talent/): stage hiring table (seed vs Series A vs B); ~4 executives after A (3 VP + 1 C-suite); VP equity 0.3–0.8% FDE at Series A.
-- [Majhi Group, Series A leadership team benchmarks 2026](https://www.majhigroup.com/series-a-leadership-benchmarks-2026.html): June 2026. 3–5 VP-level leaders within 18 months; B2B SaaS month sequence; sector first-hire table.
-- [Majhi Group, Series A leadership hiring playbook](https://www.majhigroup.com/series-a-leadership-hiring-playbook.html): do not hire four VPs in one quarter; builder profile; Series A VP cash $180k–$260k and equity 0.4%–1.0%.
-- [Majhi Group, hiring your first VP](https://www.majhigroup.com/first-vp-hire.html): first VP A/B cash $180k–$280k; equity 0.3%–0.8%.
-- [Nxt Level, executive hiring](https://nxtlevel.io/executive.html): 50%+ founder-time trigger; Series A typical first exec Eng or Head of Product; founder-to-VP authority failure mode.
-- [Ready Set Exec, Series A executive search](https://readysetexec.com/series-a-executive-search-scale-vs-stall/): bottleneck-first; sequential vs simultaneous.
-- [KORE1, How to Scale Your Engineering Team After Series A](https://www.kore1.com/scale-engineering-team-series-a-startup-guide/): technical leadership first, then senior owners who ship independently; management layers later than founders expect.
-- [Kruze Consulting, when a startup needs a CFO](https://kruzeconsulting.com/startup-need-cfo/): Series A generally does not need full-time CFO; part-time fits Seed–Series C; hire full-time when part-time interaction is constant.
-- [Kruze Consulting, how to hire a SaaS CFO](https://kruzeconsulting.com/saas-cfo-hire/): many Series A clients have no CFO or VP Finance; outsource until B (often later).
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): founder session, February 2026. Hire for the phase. Say it in the offer. Not a survey.
+- [Index Ventures, Rewarding Talent](https://www.indexventures.com/rewarding-talent/) — stage hiring table (seed vs Series A vs B); ~4 executives after A (3 VP + 1 C-suite); VP equity 0.3–0.8% FDE at Series A.
+- [Majhi Group, Series A leadership team benchmarks 2026](https://www.majhigroup.com/series-a-leadership-benchmarks-2026.html) — June 2026. 3–5 VP-level leaders within 18 months; B2B SaaS month sequence; sector first-hire table.
+- [Majhi Group, Series A leadership hiring playbook](https://www.majhigroup.com/series-a-leadership-hiring-playbook.html) — do not hire four VPs in one quarter; builder profile; Series A VP cash $180k–$260k and equity 0.4%–1.0%.
+- [Majhi Group, hiring your first VP](https://www.majhigroup.com/first-vp-hire.html) — first VP A/B cash $180k–$280k; equity 0.3%–0.8%.
+- [Nxt Level, executive hiring](https://nxtlevel.io/executive.html) — 50%+ founder-time trigger; Series A typical first exec Eng or Head of Product; founder-to-VP authority failure mode.
+- [Ready Set Exec, Series A executive search](https://readysetexec.com/series-a-executive-search-scale-vs-stall/) — bottleneck-first; sequential vs simultaneous.
+- [KORE1, How to Scale Your Engineering Team After Series A](https://www.kore1.com/scale-engineering-team-series-a-startup-guide/) — technical leadership first, then senior owners who ship independently; management layers later than founders expect.
+- [Kruze Consulting, when a startup needs a CFO](https://kruzeconsulting.com/startup-need-cfo/) — Series A generally does not need full-time CFO; part-time fits Seed–Series C; hire full-time when part-time interaction is constant.
+- [Kruze Consulting, how to hire a SaaS CFO](https://kruzeconsulting.com/saas-cfo-hire/) — many Series A clients have no CFO or VP Finance; outsource until B (often later).
+- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder session, February 2026. Hire for the phase. Say it in the offer. Not a survey.
 
 ## Related
 

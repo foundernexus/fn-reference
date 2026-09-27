@@ -6,26 +6,26 @@ section: library
 cluster: equity
 target_query: startup option pool size
 date: 2026-08-31
-close: Pool math is a board decision. If you want founders who just sat that negotiation to pressure-test your hiring plan and remaining unallocated, that conversation happens at FounderNexus.
+close: Your board decides pool math. Founders who have sat through that negotiation will pressure-test your hiring plan and remaining unallocated pool in a FounderNexus session.
 disclaimer: not-legal-tax
 draft: false
 ---
 
-Size the option pool from a hiring plan that reaches the next round. Every executive grant is a draw on unallocated pool. When a term sheet tops up the pool pre-money, existing holders take that dilution. Not legal, tax, or compensation advice.
+Size the option pool from a hiring plan that reaches the next round. Each executive grant draws on unallocated pool. If a term sheet tops up the pool pre-money, existing holders take that dilution. Not legal, tax, or compensation advice.
 
 :::takeaways
 - Build the pool bottoms-up from hiring through the next round. Then check published ranges.
-- Every exec grant is a draw on unallocated pool, next to IC grants and refreshers.
-- A pre-money pool top-up dilutes existing holders. Same headline % post-money is a different owner.
+- Each exec grant draws on unallocated pool, next to IC grants and refreshers.
+- A pre-money pool top-up dilutes existing holders. Measure the same headline % post-money and the new investor shares the dilution.
 :::
 
 ## Option pool size by stage
 
 :::highlight
-Sources disagree on the percentage. Size from hiring, then check the range. Do not average.
+Size from hiring, then check the range. Sources disagree on the percentage, so do not average them.
 :::
 
-Sources disagree on the right percentage. Do not average them. Size bottoms-up from the seats you will hire, then check the range your investors expect.
+Size bottoms-up from the seats you will hire, then check the range your investors expect. The sources below disagree on the right percentage; keep them separate.
 
 | Source | Seed | Series A | Later / note |
 | --- | --- | --- | --- |
@@ -41,25 +41,25 @@ Carta (20 August 2026): build the pool bottoms-up from the next 12–18 months o
 
 ## Grants are pool draws
 
-Treat a VP grant as a line item against the remaining unallocated pool, next to IC grants and refreshers you have not written yet.
+Treat a VP grant as a line item against remaining unallocated pool, next to IC grants and refreshers you have not written yet. Liking the candidate does not change the pool.
 
 Use [size the option pool from a hiring plan](/library/equity/option-pool-from-hiring-plan/) to add the seats up. Use [executive equity grants by stage](/library/equity/executive-grants-by-stage/) for cited Seed–Series B bands by seat. Run a proposed percentage against remaining pool in the [executive equity calculator](/tools/executive-equity-calculator/).
 
 ## Option pool shuffle
 
-Pre-money vs post-money pool placement changes who dilutes.
+Pre-money vs post-money pool placement decides who takes the dilution.
 
-Kruze: investors often require the pool top-up to happen before the new money prices in. That shrinks founder and existing-holder ownership so the new round’s ownership math lands after a “full” pool. Carta covers the same mechanics in its option-pool guidance: the shuffle is a negotiation over when the pool is measured, not a free add-on.
+Kruze: investors often require the pool top-up to happen before the new money prices in. That shrinks founder and existing-holder ownership so the new round’s ownership math lands after a “full” pool. Carta covers the same mechanics in its option-pool guidance: you are negotiating when to measure the pool, and the top-up has a cost.
 
 ### Labeled hypothetical
 
-Not a company. Round numbers so the arithmetic is visible.
+Not a company. Round numbers keep the arithmetic visible.
 
-Pre-money valuation $40M. New money $10M. Investor wants a 15% pool measured pre-money, and unallocated pool today is 5%. The top-up to 15% dilutes existing holders before the new money. If the same 15% were measured post-money, more of that dilution would sit after the round. Same headline pool percentage. Different owner of the dilution. Run the side-by-side in the [option pool shuffle calculator](/tools/option-pool-shuffle-calculator/). Confirm with counsel and your cap table software. Do not treat this sketch as a term sheet.
+Pre-money valuation $40M. New money $10M. Investor wants a 15% pool measured pre-money, and unallocated pool today is 5%. The top-up to 15% dilutes existing holders before the new money. If you measured the same 15% post-money, more of that dilution would sit after the round. The headline pool percentage stays the same while a different holder pays for it. Run the side-by-side in the [option pool shuffle calculator](/tools/option-pool-shuffle-calculator/). Confirm with counsel and your cap table software. Do not treat this sketch as a term sheet.
 
 ## 409A before you grant after a priced round
 
-A priced round is a material event. Carta: a 409A is generally required before issuing common stock options to US tax residents; validity is typically 12 months from the effective date and ends sooner after a material event. Refresh the 409A, board-approve the new FMV, then grant. Strike must be at least FMV on the grant date. Standalone 409A cost, per Carta: roughly $1,000 to over $10,000 depending on size and complexity. Full spoke: [409A after a priced round](/library/equity/409a-after-priced-round/): cost bands, freeze-to-grant timeline, and why common ≠ preferred.
+A priced round is a material event. Carta: you generally need a 409A before issuing common stock options to US tax residents; validity is typically 12 months from the effective date and ends sooner after a material event. Refresh the 409A, board-approve the new FMV, then grant. Strike must be at least FMV on the grant date. Standalone 409A cost, per Carta: roughly $1,000 to over $10,000 depending on size and complexity. Full spoke: [409A after a priced round](/library/equity/409a-after-priced-round/) covers cost bands, the freeze-to-grant timeline, and why common ≠ preferred.
 
 ## Sources
 

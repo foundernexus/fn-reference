@@ -98,7 +98,7 @@
       return {
         tone: "good",
         text:
-          "Classic magic number is at or above ChartMogul’s ~0.75 “invest more” line. Scale’s long-term median is 0.7 — a separate publisher baseline.",
+          "Classic magic number is at or above ChartMogul’s ~0.75 “invest more” line. Scale’s long-term median of 0.7 is a separate publisher baseline.",
       };
     }
     if (classic >= 0.5) {
@@ -281,7 +281,7 @@
       var formulas = el("div", { className: "eq-note" }, [
         el("strong", null, ["Formulas. "]),
         document.createTextNode(
-          "Classic magic number = ((current-quarter ARR − prior-quarter ARR) × 4) ÷ prior-quarter S&M (Scale framing). GM-adjusted variant = ((current − prior) × gross margin × 4) ÷ prior S&M — labeled separately; not Scale’s classic. CAC payback (months) = CAC ÷ (monthly ARPA × gross margin %) (ChartMogul). Bessemer segment targets and Scale’s 0.7 median are cited on the page, not averaged into one threshold."
+          "Classic magic number = ((current-quarter ARR − prior-quarter ARR) × 4) ÷ prior-quarter S&M (Scale framing). GM-adjusted variant = ((current − prior) × gross margin × 4) ÷ prior S&M, labeled separately because it is not Scale’s classic. CAC payback (months) = CAC ÷ (monthly ARPA × gross margin %) (ChartMogul). Bessemer segment targets and Scale’s 0.7 median are cited on the page, not averaged into one threshold."
         ),
       ]);
 

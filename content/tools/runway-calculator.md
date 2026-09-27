@@ -8,7 +8,7 @@ layout: calculator
 calculator_js: runway-calculator.js
 target_query: startup runway calculator hiring plan
 date: 2026-09-10
-close: Runway and default-alive calls are board-visible. If you want founders who just lived that conversation to pressure-test your hiring plan against the cash left, that conversation happens at FounderNexus.
+close: Your board will ask about runway and default alive. Founders who have had that conversation will pressure-test your hiring plan against the cash left in a FounderNexus session.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -20,7 +20,7 @@ Enter cash, current revenue and expenses, a growth rate, and a planned hire ladd
 
 :::takeaways
 - Snapshot runway = cash ÷ monthly net burn (Kruze). Net burn = cash out − cash in. If net burn ≤ 0 at today’s run-rate, you are not burning.
-- A forecast without the hire ladder is a guess. Kruze: headcount is often 60–80% of burn.
+- Put the hire ladder in the forecast. Kruze: headcount is often 60–80% of burn.
 - Paul Graham (2015): default alive means, if expenses stay constant and recent revenue growth continues, you reach profitability on the cash you have. Default dead means you do not. Hiring too fast is by far the biggest killer of startups that raise money.
 - Carta Q1 2024: median Seed→A was 766 days; A→B was 824 days. Longer waits mean more runway required.
 - Use cash, not only P&L. Average net burn over the last 3–6 months when you set the starting point (Kruze).
@@ -32,9 +32,9 @@ Enter cash, current revenue and expenses, a growth rate, and a planned hire ladd
 Constant base expenses plus an explicit hire ladder, with revenue compounding monthly.
 :::
 
-Month zero is cash on hand, current monthly revenue, and current monthly expenses before planned hires. Each later month grows revenue by your growth %, adds fully loaded cost for every hire whose start month has arrived, holds other expenses flat, and updates cash by revenue minus expenses.
+Month zero is cash on hand, current monthly revenue, and current monthly expenses before planned hires. Each later month grows revenue by your growth %, adds fully loaded cost for each hire whose start month has arrived, holds other expenses flat, and updates cash by revenue minus expenses.
 
-That matches Paul Graham’s “expenses remain constant” test, with the hiring plan as the one expense path you choose to change. PG points to Trevor Blackwell’s calculator. This is a separate browser tool for the same question, with your hire dates typed in.
+That matches Paul Graham’s “expenses remain constant” test, with the hiring plan as the one expense path you choose to change. PG points to Trevor Blackwell’s calculator; this is a separate browser tool that asks the same question with your hire dates typed in.
 
 ## Snapshot runway vs trajectory
 
@@ -62,7 +62,7 @@ Carta’s State of Private Markets Q1 2024: median time between rounds lengthene
 Most burn is people. Model start dates, not hope dates.
 :::
 
-Kruze: headcount often runs 60–80% of total burn. A rolling 18-month cash forecast without the hire plan is not a forecast. They cite a US SBA rule of thumb for fully loaded cost of about 1.25–1.4× base salary. Build that into the monthly cost per hire field. Assume future hires start a month or two later than the date on the slide.
+Kruze: headcount often runs 60–80% of total burn. A rolling 18-month cash forecast that leaves out the hire plan will miss most of your burn. They cite a US SBA rule of thumb for fully loaded cost of about 1.25–1.4× base salary. Build that into the monthly cost per hire field. Assume future hires start a month or two later than the date on the slide.
 
 Spacing matters. Three hires in month two is a different cash path than one hire every other month. PG’s warning that hiring too fast is the biggest killer of startups that raise money is the same problem in operator language.
 
@@ -70,7 +70,7 @@ Spacing matters. Three hires in month two is a different cash path than one hire
 
 Not a company. Scaled to Kruze’s $4.2M / ~$350k example.
 
-Cash $4.2M. Revenue $80k. Expenses before planned hires $430k (so starting net burn $350k). Monthly revenue growth 8%. Three hires at $18k fully loaded per month each. First starts in month 2, then one per month. Horizon 18 months. Load those defaults. Read snapshot versus plan, then whether revenue covers expenses before cash hits zero. Replace every input with your numbers before you take anything to a board.
+Cash $4.2M. Revenue $80k. Expenses before planned hires $430k (so starting net burn $350k). Monthly revenue growth 8%. Three hires at $18k fully loaded per month each. First starts in month 2, then one per month. Horizon 18 months. Load those defaults. Read snapshot versus plan, then whether revenue covers expenses before cash hits zero. Replace each input with your numbers before you take anything to a board.
 
 ## Board uses
 
@@ -78,7 +78,7 @@ Cash $4.2M. Revenue $80k. Expenses before planned hires $430k (so starting net b
 Put both the static months and the alive/dead call in the pack with the hire dates.
 :::
 
-Show snapshot runway so everyone shares the same cash ÷ net burn starting point. Show the hire ladder and the month cash would hit zero if the plan runs. Show whether this model crosses to revenue ≥ expenses before that month. If Carta-style round timing is stretching, say how many months of buffer you are buying. Tie efficiency reads (burn multiple, Rule of 40) to a sibling page. Do not present a single “runway” number when the hire plan is still open.
+Show snapshot runway so the board starts from one cash ÷ net burn figure. Show the hire ladder and the month cash would hit zero if the plan runs. Show whether this model crosses to revenue ≥ expenses before that month. If Carta-style round timing is stretching, say how many months of buffer you are buying. Tie efficiency reads (burn multiple, Rule of 40) to a sibling page. Do not present a single “runway” number when the hire plan is still open.
 
 ## Mistakes
 

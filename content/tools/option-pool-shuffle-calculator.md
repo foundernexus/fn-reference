@@ -1,6 +1,6 @@
 ---
 title: Option pool shuffle calculator
-description: See who takes the dilution when a term sheet tops up the option pool pre-money versus post-money. Same headline pool percentage. Different owner of the dilution.
+description: See who takes the dilution when a term sheet tops up the option pool pre-money versus post-money. The headline pool percentage stays the same; the person who pays for it changes.
 slug: option-pool-shuffle-calculator
 section: tools
 cluster: equity
@@ -8,7 +8,7 @@ layout: calculator
 calculator_js: option-pool-shuffle-calculator.js
 target_query: option pool shuffle calculator
 date: 2026-09-01
-close: Pool placement is a price term. If you want founders who just sat that negotiation to pressure-test your hiring plan against the sheet, that conversation happens at FounderNexus.
+close: Pool placement is a price term. Founders who have sat through that negotiation will pressure-test your hiring plan against the sheet in a FounderNexus session.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -19,7 +19,7 @@ related:
 
 Enter pre-money, new money, current unallocated pool, and the target pool the sheet asks for. You get the top-up, existing-holder and investor ownership under pre-money versus post-money placement, and a short read of who paid for the pool.
 
-Companion to the [equity & cap table](/library/equity/) section on the option pool shuffle, and to [size the option pool from a hiring plan](/library/equity/option-pool-from-hiring-plan/). The hiring plan decides how big. This tool shows whose percentage moves. Not legal, tax, or compensation advice.
+Companion to the [equity & cap table](/library/equity/) section on the option pool shuffle, and to [size the option pool from a hiring plan](/library/equity/option-pool-from-hiring-plan/). Your hiring plan sets the size. This tool shows whose percentage moves. Not legal, tax, or compensation advice.
 
 ## What it does
 
@@ -29,11 +29,11 @@ Companion to the [equity & cap table](/library/equity/) section on the option po
 - **Target option pool %:** what the sheet asks for after the top-up, as a percent of post-round fully diluted shares.
 - **Side-by-side:** pre-money placement (existing holders fund the top-up before new money prices in) versus post-money placement (the top-up dilutes everyone, including the new investor).
 
-All arithmetic runs in the browser. Nothing is stored or sent. Round numbers. Formulas are shown under the result so you can check them with counsel and your cap table software.
+All arithmetic runs in your browser, and the tool stores and sends nothing. It rounds the output and prints the formulas under the result so you can check them with counsel and your cap table software.
 
 ## How to read the result
 
-Kruze: investors often require the pool increase pre-money, so founders and existing holders take that dilution while the new investor’s ownership is calculated on a “full” pool. Carta: a pre-money pool shifts more dilution to existing shareholders; a post-money pool shares it with the incoming investor. Same target percentage. Different owner of the dilution.
+Kruze: investors often require the pool increase pre-money, so founders and existing holders take that dilution while the investor calculates its ownership on a “full” pool. Carta: a pre-money pool shifts more dilution to existing shareholders; a post-money pool shares it with the incoming investor. The target percentage can match while a different holder pays for it.
 
 Pre-money placement is the usual sheet. Post-money placement is the founder-friendlier contrast. Kruze notes they almost never see the founder-friendly version in practice. Use the gap between the two columns as negotiation math, not as a promise the other side will take post-money.
 
@@ -45,7 +45,7 @@ SAFEs and converts that price at the close usually do not eat a pre-close pool i
 
 Not a company. Matches the sketch on the equity hub.
 
-Pre-money $40M. New money $10M. Unallocated today 5%. Target pool 15% of post-round fully diluted. Load those defaults in the form. Pre-money placement leaves existing holders lower than post-money placement. The investor stays at 20% only when the pool is carved pre-money. Run your real numbers with counsel. Do not treat this as a term sheet.
+Pre-money $40M. New money $10M. Unallocated today 5%. Target pool 15% of post-round fully diluted. Load those defaults in the form. Pre-money placement leaves existing holders lower than post-money placement. The investor stays at 20% only when you carve the pool out pre-money. Run your real numbers with counsel. Do not treat this as a term sheet.
 
 ## Sources
 

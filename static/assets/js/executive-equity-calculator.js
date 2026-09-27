@@ -17,12 +17,12 @@
       "VP Eng": {
         equity:
           "Index / Advanced HR VCECS Seed Data (2018): senior engineering 1.00% FD at US seed. Special cases 2%–3% (solo founder skill gap; deep-tech). No seed “VP Eng” band published.",
-        cash: "No VP Eng cash band in the fetched sources. Index 2018 US seed senior engineering cash is $120k (IC, not VP) — not used as a VP figure.",
+        cash: "No VP Eng cash band in the fetched sources. Index 2018 US seed senior engineering cash is $120k (IC, not VP), so the calculator does not use it as a VP figure.",
         vest: "4 years, 1-year cliff (Index; Kruze).",
       },
       "CFO / VP Finance": {
         equity:
-          "No seed CFO or VP Finance percentage in the fetched sources. Index places first true execs at Series A and finance as a Series B central team. C-level 0.8%–1.5% FDE is a Series A/B figure — not applied here.",
+          "No seed CFO or VP Finance percentage in the fetched sources. Index places first true execs at Series A and finance as a Series B central team. C-level 0.8%–1.5% FDE is a Series A/B figure, so the calculator does not apply it here.",
         cash: "No cited cash band.",
         vest: "4 years, 1-year cliff when you do grant (Index; Kruze).",
       },
@@ -201,7 +201,7 @@
     html += row(
       "Unallocated pool remaining",
       remaining < 0
-        ? fmtPct(remaining) + " — this grant is larger than remaining pool."
+        ? fmtPct(remaining) + " (this grant is larger than remaining pool)."
         : fmtPct(remaining) + " of the company"
     );
     html += row(
@@ -219,7 +219,7 @@
 
     var warn =
       remaining < 0
-        ? "This grant exceeds remaining unallocated pool. Resize the grant, recycle cancelled options, or top up the pool (that top-up is a dilution event — Carta, Kruze)."
+        ? "This grant exceeds remaining unallocated pool. Resize the grant, recycle cancelled options, or top up the pool (Carta and Kruze treat that top-up as a dilution event)."
         : remaining < grant
           ? "Pool remaining after this grant is smaller than the grant itself. Check the rest of the 12–18 month hiring plan (Carta) before you sign."
           : "Carta: size the pool from a 12–18 month hiring plan, not a default 10%. Index: the ESOP should cover talent needs through the next round.";

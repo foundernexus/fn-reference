@@ -22,6 +22,8 @@ Write like a sharp operator explaining it to another founder over coffee. Mature
 
 Short sentences. Vary length. Default to periods, not em dashes.
 
+Stop-slop is required. Every new or edited owned page follows `ops/stop-slop/RULES.md` (adapted from [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop), MIT) and passes the gate in `ops/stop-slop/GATE.md` before push: no em dashes, no named adverbs or jargon, no binary contrasts, active voice with a named actor. Numbers, citations, and `## Sources` stay exactly as written.
+
 Do not use: “It’s important to note”, “in today’s landscape”, “when it comes to”, “delve”, “utilize”, “leverage”, “robust”, “unlock”, “the bottom line”, “in conclusion”, “not just X, but Y”, stacked hedges, or throat-clearing.
 
 Do not announce that you are being careful. Just be careful. Do not say FounderNexus in the body except an optional closing paragraph. FounderNexus is one word.
@@ -63,8 +65,14 @@ Vercel: `vercel.json` runs `python3 build.py` and serves `dist/`. Set `FN_CONTEN
 ## Daily shipping workflow
 
 1. Add or edit a Markdown file under content/.
-2. Rebuild: python3 build.py
-3. Preview from dist with http.server, then stop.
+2. Stop-slop gate (required, see ops/stop-slop/GATE.md):
+   - `python3 ops/stop-slop/check.py --changed` must report `HARD=0`. Fix every HARD hit; read `--soft` and fix what a plainer sentence fixes.
+   - When you edited an existing page: `python3 ops/stop-slop/facts_guard.py origin/main` must print PASS (same numbers, URLs, Sources, title, slug).
+   - Read the page against ops/stop-slop/RULES.md and score it (Directness, Rhythm, Trust, Authenticity, Density). Below 35/50: revise.
+   - Record `stop-slop: pass (HARD=0, score NN/50)` in the commit body and the ops/inventory.md row.
+   - `ops/stop-slop/prepush.sh` runs the two scripts plus the build in one step. Never add the check to build.py or vercel.json; style must not fail a Vercel build.
+3. Rebuild: python3 build.py
+4. Preview from dist with http.server, then stop.
 
 Stdlib only. Draft pages are skipped. Do not git. Do not deploy. Do not leave a server running.
 
