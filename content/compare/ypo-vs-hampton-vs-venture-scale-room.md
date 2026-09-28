@@ -3,12 +3,15 @@ title: YPO vs EO vs Hampton vs a venture-scale room
 description: Side-by-side invite-only founder and CEO rooms. Same depth for each. Stage fit and peer density first. Empty cells where a source did not publish the number.
 slug: ypo-vs-hampton-vs-venture-scale-room
 section: compare
+cluster: rooms
 layout: article
 target_query: YPO vs Hampton vs EO founder community
 date: 2026-09-08
 close: If the filter you need is venture-scale peers on a live decision, start with FounderNexus and pressure-test fit in a guest session.
 disclaimer: not-legal-tax
 draft: false
+related:
+- library/rooms
 ---
 
 Pick the room by who else is in it and how they match your stage. Revenue thresholds, age caps, and chapter geography are filters, and each one produces a different peer set. Each section below uses the same structure. Sources are the organizations’ own pages unless noted. An empty cell means that page did not publish the figure.

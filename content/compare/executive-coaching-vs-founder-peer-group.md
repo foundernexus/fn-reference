@@ -3,12 +3,14 @@ title: Executive coaching vs a founder peer group
 description: Coaching is one-to-one depth on your behavior. A peer group is lateral judgment from founders who have sat in your seat. Pick by the constraint, not the sticker.
 slug: executive-coaching-vs-founder-peer-group
 section: compare
+cluster: rooms
 layout: article
 target_query: executive coaching vs founder peer group
 date: 2026-09-18
 close: If the gap is venture-scale peers on a live decision, not a private coach hour, start with FounderNexus and pressure-test fit in a guest session.
 draft: false
 related:
+- library/rooms
 - compare/ypo-vs-hampton-vs-venture-scale-room
 - library/hiring/series-a-leadership-hiring-sequence
 - library/board/series-a-board-meeting-agenda

@@ -96,6 +96,11 @@ CLUSTERS = {
         "title": "Fundraising",
         "description": "Series A diligence, data-room staging, and the evidence investors rebuild before they wire.",
     },
+    "rooms": {
+        "section": "library",
+        "title": "Founder rooms",
+        "description": "Pick the peer room or coaching format by stage fit. Orient YPO, EO, Hampton, and venture-scale rooms against coaching.",
+    },
 }
 
 

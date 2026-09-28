@@ -49,7 +49,7 @@ foundernexus.com/ → Apply product
 16. Series A board meeting agenda (done 2026-09-15 → /library/board/series-a-board-meeting-agenda/)
 17. Independent director: when, who, equity
 18. Fractional vs full-time CFO (done 2026-09-17 → /library/finance/fractional-vs-full-time-cfo/)
-19. Founder rooms hub
+19. Founder rooms hub — done 2026-09-28 → /library/rooms/. Query: YPO vs Hampton vs founder community. Orients two compare spokes (YPO/EO/Hampton/venture-scale + coaching vs peer group); composite room decision→when→spoke table. Cites YPO, EO, Hampton, Vistage, Powderkeg, FounderNexus filter; Manchester/ICF caveated via coaching spoke. FN quiet close. fn-content#16 covers coaching/dues.
 20. YPO vs EO vs Hampton vs venture-scale room (done 2026-09-08)
 21. Executive coaching vs founder peer group
 22. Fundraising hub + Series A diligence checklist
