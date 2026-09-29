@@ -10,6 +10,7 @@ date: 2026-09-22
 close: Founders who built a narrative and a short reporter list before paying for a retainer will pressure-test yours in a FounderNexus session.
 draft: false
 related:
+- library/gtm
 - library/gtm/market-ai-product-without-saying-ai
 - library/gtm/aeo-vs-seo-b2b-saas
 - library/gtm/ai-sdr-vs-human

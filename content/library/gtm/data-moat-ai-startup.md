@@ -10,6 +10,7 @@ date: 2026-09-23
 close: Founders who have tested whether their loop compounds or only piles up logs will pressure-test yours in a FounderNexus session.
 draft: false
 related:
+- library/gtm
 - library/gtm/market-ai-product-without-saying-ai
 - library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas
 - library/gtm/aeo-vs-seo-b2b-saas

@@ -10,6 +10,7 @@ date: 2026-09-20
 close: Founders who have picked a charge metric and a hybrid shape for an AI product will pressure-test yours in a FounderNexus session.
 draft: false
 related:
+- library/gtm
 - library/gtm/market-ai-product-without-saying-ai
 - library/gtm/ai-sdr-vs-human
 ---

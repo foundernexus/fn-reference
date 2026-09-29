@@ -10,6 +10,7 @@ date: 2026-09-19
 close: Founders who have rewritten an AI homepage around the job, and kept a person on the close, will pressure-test your message in a FounderNexus session.
 draft: false
 related:
+- library/gtm
 - library/gtm/ai-sdr-vs-human
 - library/hiring/when-to-hire-first-vp-sales
 ---

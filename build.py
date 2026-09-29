@@ -89,7 +89,7 @@ CLUSTERS = {
     "gtm": {
         "section": "library",
         "title": "Go-to-market",
-        "description": "Where AI sits in the sales motion, and the human SDR numbers to score it against.",
+        "description": "Pick the GTM decision in front of you. Orient AI SDR, messaging, pricing, AEO, founder PR, data moats, and coding-agent bets.",
     },
     "fundraising": {
         "section": "library",

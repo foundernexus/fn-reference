@@ -10,6 +10,7 @@ date: 2026-09-26
 close: Founders who have scored each stage of the delivery loop and moved AI past the coding step will compare notes with you in a FounderNexus session.
 draft: false
 related:
+- library/gtm
 - library/gtm/data-moat-ai-startup
 - library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas
 - library/gtm/ai-sdr-vs-human

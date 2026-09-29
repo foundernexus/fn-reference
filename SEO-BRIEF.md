@@ -87,7 +87,7 @@ Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Ju
 26. DIY founder PR / founder narrative before launch — done 2026-09-22 → /library/gtm/diy-founder-pr-narrative/. Query: DIY PR for startups. YC Seibel + Muck Rack 2026 + First Round Carmichael/Hammerling + NextView + Everything-PR retainers; FN session narrative/founder voice. fn-content#21.
 27. Data moat for AI startups — done 2026-09-23 → /library/gtm/data-moat-ai-startup/. Query: how to build a data moat startup. a16z Empty Promise + Bessemer Vertical AI Part IV + Sequoia Own Your Intelligence; FN session data-as-moat / instant feedback. fn-content#22.
 
-Priority for next days: #23–#27 shipped. Next: pick a crisp unpublished library/tools/compare decision (hubs only when two spokes exist; skip thin GTM-system clones). Cadence: one new page every day including weekends.
+Priority for next days: #23–#32 GTM spokes + GTM hub shipped (skip thin GTM-as-a-system clone). Next: pick a crisp unpublished library/tools/compare decision (hubs only when two spokes exist). Cadence: one new page every day including weekends.
 
 28. Series A diligence checklist — done 2026-09-24 → /library/fundraising/series-a-diligence-checklist/. Query: Series A diligence checklist. First fundraising spoke (hub deferred). Cite YC Kwon/Harris checklist + Underscore staged data room + Burkland 2026 evaluation lenses; FN session room-as-ops-signal. fn-content#23.
 29. Finance, metrics & runway hub — done 2026-09-25 → /library/finance/. Queue #10. Query: startup board financial metrics.
@@ -110,3 +110,4 @@ Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Ju
 ### Candidate weekday queue
 30. Why coding agents don’t 10x the company (Amdahl’s law on the delivery loop) — done 2026-09-26 → /library/gtm/coding-agents-dont-10x-engineering/. Query: why AI coding agents don't 10x engineering. Cite Amdahl 1967 + Atlassian (3 Apr 2026) + Faros Acceleration Whiplash (12 Apr 2026) + METR RCT (10 Jul 2025) + Meagher; FN session score-the-loop / AI-native default / policy not every gate. fn-content#25.
 31. Board & governance hub — done 2026-09-27 → /library/board/. SEO-BRIEF queue #15 / Sunday. Query: Series A board structure. Two spokes already live; composite table. No new fn-content issue (#13 covers independent equity).
+32. Go-to-market hub — done 2026-09-29 → /library/gtm/. Query: AI GTM for startups. Orients seven GTM spokes (AI SDR, market-AI, pricing, AEO, DIY PR, data moat, coding-agents); composite GTM decision→when→spoke table. Cites SaaStr, Bridge Group, Gartner, Bessemer Atlas, Google Search Central, YC Seibel, Muck Rack, a16z, Sequoia, Amdahl/Atlassian/Faros/METR; FN session AI-on-prep / humans-on-close. No new fn-content issue.

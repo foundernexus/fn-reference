@@ -10,6 +10,7 @@ date: 2026-09-21
 close: Founders who have rebalanced SEO and answer-engine work after buyers started asking AI before visiting the homepage will compare notes with you in a FounderNexus session.
 draft: false
 related:
+- library/gtm
 - library/gtm/ai-sdr-vs-human
 - library/gtm/market-ai-product-without-saying-ai
 - library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas
