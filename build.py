@@ -94,7 +94,7 @@ CLUSTERS = {
     "fundraising": {
         "section": "library",
         "title": "Fundraising",
-        "description": "Series A diligence, data-room staging, and the evidence investors rebuild before they wire.",
+        "description": "When to open Series A, data-room staging, and the evidence investors rebuild before they wire.",
     },
     "rooms": {
         "section": "library",
