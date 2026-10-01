@@ -94,7 +94,7 @@ CLUSTERS = {
     "fundraising": {
         "section": "library",
         "title": "Fundraising",
-        "description": "When to open Series A, data-room staging, and the evidence investors rebuild before they wire.",
+        "description": "Pick the Series A decision in front of you. Orient readiness timing and data-room staging before you open outreach.",
     },
     "rooms": {
         "section": "library",

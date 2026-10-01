@@ -11,6 +11,7 @@ close: Founders who have timed a Series A from a position of strength will press
 disclaimer: not-legal-tax
 draft: false
 related:
+- library/fundraising
 - library/fundraising/series-a-diligence-checklist
 - library/finance/nrr-vs-grr-board-pack
 - tools/runway-calculator

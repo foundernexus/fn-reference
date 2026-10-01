@@ -52,7 +52,7 @@ foundernexus.com/ → Apply product
 19. Founder rooms hub — done 2026-09-28 → /library/rooms/. Query: YPO vs Hampton vs founder community. Orients two compare spokes (YPO/EO/Hampton/venture-scale + coaching vs peer group); composite room decision→when→spoke table. Cites YPO, EO, Hampton, Vistage, Powderkeg, FounderNexus filter; Manchester/ICF caveated via coaching spoke. FN quiet close. fn-content#16 covers coaching/dues.
 20. YPO vs EO vs Hampton vs venture-scale room (done 2026-09-08)
 21. Executive coaching vs founder peer group
-22. Fundraising hub + Series A diligence checklist
+22. Fundraising hub + Series A diligence checklist — diligence done 2026-09-24; hub done 2026-10-01 → /library/fundraising/. Query: Series A fundraising. See candidate #34.
 
 ## Rules
 - Cite Index, Carta, Kruze, ChartMogul, Bessemer. Never imply FN proprietary comp data.
@@ -113,3 +113,5 @@ Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Ju
 32. Go-to-market hub — done 2026-09-29 → /library/gtm/. Query: AI GTM for startups. Orients seven GTM spokes (AI SDR, market-AI, pricing, AEO, DIY PR, data moat, coding-agents); composite GTM decision→when→spoke table. Cites SaaStr, Bridge Group, Gartner, Bessemer Atlas, Google Search Central, YC Seibel, Muck Rack, a16z, Sequoia, Amdahl/Atlassian/Faros/METR; FN session AI-on-prep / humans-on-close. No new fn-content issue.
 
 33. When to raise Series A (readiness signals) — done 2026-09-30 → /library/fundraising/when-to-raise-series-a/. Query: when to raise Series A. Second fundraising spoke (hub deferred). Cite Burkland 2026 readiness lenses + Carta seed→A timing (Q2 2025 616 days; Walker Q4 2025 1.9 years) + Bessemer SotC 2023 fundability; Sacks/Craft burn multiple via sibling; FN session six-lens score before outreach. fn-content#30.
+
+34. Fundraising hub — done 2026-10-01 → /library/fundraising/. SEO-BRIEF queue #22 / Thursday. Query: Series A fundraising. Two spokes already live (when-to-raise + diligence); composite raise decision→when→spoke table. Cites Burkland 2026, Carta seed→A timing, Bessemer SotC 2023, YC Kwon/Harris, Underscore, Sacks/Craft via sibling; FN session machine-score / cash-to-negotiate / room-as-ops-signal. No new fn-content issue (#23/#30 cover siblings).
