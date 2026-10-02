@@ -117,3 +117,24 @@ Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Ju
 34. Fundraising hub — done 2026-10-01 → /library/fundraising/. SEO-BRIEF queue #22 / Thursday. Query: Series A fundraising. Two spokes already live (when-to-raise + diligence); composite raise decision→when→spoke table. Cites Burkland 2026, Carta seed→A timing, Bessemer SotC 2023, YC Kwon/Harris, Underscore, Sacks/Craft via sibling; FN session machine-score / cash-to-negotiate / room-as-ops-signal. No new fn-content issue (#23/#30 cover siblings).
 
 35. SAFE vs priced round (Seed instrument) — done 2026-10-02 → /library/fundraising/safe-vs-priced-round/. Query: SAFE vs priced round. Third fundraising spoke. Cite YC post-money SAFE + SAFE vs note vs priced; Carta Q3 2024 seed mix (64/27/10) + size bands + Q1 2026 pre-seed 93% SAFE; Carta SAFE learn + State of Pre-Seed Q2 2025 under-$4M convertibles; Cooley GO discounts; CRV priced vs SAFE cost/timeline; FN session mid-Seed modeling / one-instrument stack. Hub orient + inbound related on siblings. fn-content#32.
+
+## Friday 2026-10-02 Startup Bible check (internal)
+Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Judgment only — no closed-session numbers on FD pages. Cite as FounderNexus session → https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library when earned. Preview host https://startup-bible-theta.vercel.app 308→ https://www.foundernexus.com/playbooks.
+
+### New/updated since 2026-09-25
+- **No new playbook pages** since last Friday. Counts unchanged: raising-money 11, getting-customers 8, building-the-company 5, marketing-pr 4, equity-legal 4; ~40 concepts; sitemap ~77 URLs (no lastmod stamps on playbooks sitemap-0).
+- Sessions index still **LAST REVIEWED 2026-09** / transcript batches **Dec 2025 – Sep 2026** (unchanged vs 2026-09-25).
+- Home copy polish only: headline/lede “Playbooks from live sessions, not a content mill.” — no section-count change. AI-engineering-10x + GTM-as-a-system remain the newest substantive playbooks (already reflected in FD coding-agents spoke + GTM hub).
+- Raising-money cluster still lists unpublished-for-FD topics that earn search queries: first angel check, when runway runs out, venture debt, term-sheet red flags, how seed VCs decide; Getting Customers still has pilots that convert.
+
+### Pressure-test (judgment only)
+- SAFE vs priced (`/library/fundraising/safe-vs-priced-round/`): aligns with Bible `raising-money/safes-notes-priced-rounds`. Public cites YC/Carta/Cooley/CRV + FN session; no Bible URL on live page — no edit.
+- When to raise Series A + Fundraising hub: aligned with running-the-raise / readiness framing already on pages via Burkland/Carta/Bessemer + FN session — no edit.
+- Series A diligence checklist: still aligned with data-rooms staged-access judgment — no edit.
+- Equity hub / GTM hub: still aligned with options-pools + Marketing & PR / Building the Company clusters — no edit.
+
+### Candidate weekday queue (do not ship from this check)
+36. First angel check — query: how to find angel investors / first angel check. Bible `raising-money/first-angel-check` (LAST REVIEWED 2026-08). Decision page only if crisp instrument/outreach choice; cite public angel/YC/Carta sources + FN session.
+37. When runway runs out — query: what to do when startup runway runs out. Bible `raising-money/when-runway-runs-out` (LAST REVIEWED 2026-09). Pair with finance runway tool; public cites PG default-alive / Kruze / Carta timing already on FD tools.
+38. Venture debt when it fits — query: venture debt for startups. Bible `raising-money/venture-debt` (LAST REVIEWED 2026-08). Stage/trigger decision table; need named public lender/counsel sources before ship.
+39. Pilots that convert — query: how to convert a pilot to a paid contract. Bible `getting-customers/pilots-that-convert` (LAST REVIEWED 2026-09). GTM spoke candidate after fundraising cluster cools; cite public pilot→contract playbooks + FN session.
