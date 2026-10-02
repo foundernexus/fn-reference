@@ -13,6 +13,7 @@ draft: false
 related:
 - library/fundraising
 - library/fundraising/when-to-raise-series-a
+- library/fundraising/safe-vs-priced-round
 - library/board/series-a-board-meeting-agenda
 - library/finance/nrr-vs-grr-board-pack
 - tools/runway-calculator

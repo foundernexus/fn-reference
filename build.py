@@ -94,7 +94,7 @@ CLUSTERS = {
     "fundraising": {
         "section": "library",
         "title": "Fundraising",
-        "description": "Pick the Series A decision in front of you. Orient readiness timing and data-room staging before you open outreach.",
+        "description": "Pick the fundraising decision in front of you. Orient Seed instrument choice, Series A readiness timing, and data-room staging before you open outreach.",
     },
     "rooms": {
         "section": "library",
