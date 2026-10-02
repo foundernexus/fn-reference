@@ -514,7 +514,7 @@ a.card:hover {
 .list-title { font-weight: 600; font-size: 17px; }
 .list-desc { flex-basis: 100%; color: var(--muted); font-size: 14px; margin: 0; }
 
-/* Tables — sticky header + first col, quiet zebra, professional scan */
+/* Tables — denser scan, stronger header, sticky first col, quiet zebra */
 .table-wrap {
   overflow-x: auto;
   margin: 8px 0 16px;
@@ -532,10 +532,10 @@ table {
 }
 th, td {
   text-align: left;
-  padding: 12px 18px;
+  padding: 10px 14px;
   border-bottom: 1px solid var(--border-subtle);
   vertical-align: top;
-  line-height: 1.5;
+  line-height: 1.45;
   overflow-wrap: break-word;
   word-break: normal;
   hyphens: auto;
@@ -556,9 +556,9 @@ th {
   font-size: 12px;
   letter-spacing: 0.01em;
   text-transform: none;
-  background: var(--pale);
+  background: var(--subtle);
   color: var(--navy);
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid var(--border-strong);
 }
 th:first-child,
 td:first-child {
@@ -580,8 +580,8 @@ td:first-child {
   th:first-child {
     top: 0;
     z-index: 3;
-    background: var(--pale);
-    box-shadow: 1px 0 0 var(--border-subtle), 0 1px 0 var(--border);
+    background: var(--subtle);
+    box-shadow: 1px 0 0 var(--border-subtle), 0 1px 0 var(--border-strong);
   }
   tbody tr:nth-child(even) td:first-child {
     background: var(--page);
@@ -592,6 +592,12 @@ td:first-child {
 }
 td.num {
   white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+/* Multi-band / source-stacked cells (br) — denser readable stack, not nowrap squeeze */
+.table-wrap td:has(br) {
+  white-space: normal;
+  line-height: 1.35;
   font-variant-numeric: tabular-nums;
 }
 caption {
@@ -1084,6 +1090,6 @@ input:focus, select:focus {
   .nav-links a { padding: 8px; font-size: 13px; }
   .brand-wordmark { font-size: 16px; }
   .eq-row { grid-template-columns: 1fr; gap: 4px; }
-  th, td { padding: 12px 14px; }
+  th, td { padding: 10px 12px; }
   body { font-size: 16px; }
 }
