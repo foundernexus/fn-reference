@@ -1,6 +1,6 @@
 ---
 title: "VP Sales equity: Seed 0.5–2%, A 0.3–0.8%"
-description: "How much equity for a VP of Sales? Seed first sales: 0.5–2.0% FD. Series A VP: 0.3–0.8% (Index). Peer Eng/Product/Finance bands; Series B shown separately."
+description: "How much equity to give a VP of Sales: Seed first sales 0.5–2.0% FD; Series A VP 0.3–0.8% (Index). Cited Seed–B by role; Series B sales not averaged."
 slug: executive-grants-by-stage
 section: library
 cluster: equity
@@ -13,10 +13,10 @@ disclaimer: not-legal-tax
 draft: false
 ---
 
-How much equity to give a VP of Sales depends on stage and whether the seat is a bag-carrying first sales hire or a true VP.
+How much equity to give a VP of Sales at Seed vs Series A depends on stage and whether the seat is a bag-carrying first sales hire or a true VP.
 
 :::highlight
-Seed first sales: 0.5–2.0% FD. Series A VP: 0.3–0.8% (Index). Eng/product high; sales low. Four-year vest, one-year cliff.
+Seed first sales: 0.5–2.0% FD. Series A VP: 0.3–0.8% (Index). Eng/product high; sales low. Series B sales: three source ranges, not averaged.
 :::
 
 A first sales leader at seed is typically 0.5–2.0% fully diluted. A Series A VP sits at 0.3–0.8% on Index’s rule of thumb: engineering and product at the high end, finance, people, and sales at the low end. Sources disagree at Series B sales, so the table shows those bands separately rather than averaging them. Percentages are fully diluted. The table covers Sales plus Eng, Product, Finance, and People so peer grants stay coherent. Not legal, tax, or compensation advice.
@@ -32,7 +32,7 @@ A first sales leader at seed is typically 0.5–2.0% fully diluted. A Series A V
 
 | Role | Seed | Series A | Series B |
 | --- | --- | --- | --- |
-| VP Sales | 0.5–2.0%¹ | 0.3–0.8%² | 0.2–0.7%³{br}0.5–1.5%⁴{br}0.1–0.5%⁵ |
+| VP Sales | 0.5–2.0%¹ | 0.3–0.8%² | Index 0.2–0.7%³{br}UltraTalent 0.5–1.5%⁴{br}CRO Report 0.1–0.5%⁵ |
 | VP Eng | 1.0%⁶ | 0.3–0.8%⁷ | 0.2–0.7%⁷ |
 | VP Product | 1.0%⁶ | 0.3–0.8%⁷ | 0.2–0.7%⁷ |
 | CFO | — | 0.8–1.5%⁸ | 0.8–1.5%⁸ |
