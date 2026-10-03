@@ -12,6 +12,7 @@ disclaimer: not-legal-tax
 draft: false
 related:
 - library/fundraising
+- library/fundraising/first-angel-check
 - library/fundraising/when-to-raise-series-a
 - library/fundraising/series-a-diligence-checklist
 - library/equity/409a-after-priced-round
@@ -122,6 +123,7 @@ Most Seed instrument pain comes from dilution you deferred or mixed paper, not f
 ## Related
 
 - [Fundraising](/library/fundraising/)
+- [First angel check](/library/fundraising/first-angel-check/)
 - [When to raise Series A](/library/fundraising/when-to-raise-series-a/)
 - [Series A diligence checklist](/library/fundraising/series-a-diligence-checklist/)
 - [409A after a priced round](/library/equity/409a-after-priced-round/)

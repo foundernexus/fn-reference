@@ -12,6 +12,7 @@ disclaimer: not-legal-tax
 draft: false
 related:
 - library/fundraising
+- library/fundraising/first-angel-check
 - library/fundraising/series-a-diligence-checklist
 - library/fundraising/safe-vs-priced-round
 - library/finance/nrr-vs-grr-board-pack
@@ -131,6 +132,7 @@ Most wasted processes start too late on cash or too early on evidence.
 
 ## Related
 
+- [First angel check](/library/fundraising/first-angel-check/)
 - [Series A diligence checklist](/library/fundraising/series-a-diligence-checklist/)
 - [NRR vs GRR for the board pack](/library/finance/nrr-vs-grr-board-pack/)
 - [Runway calculator with hiring plan](/tools/runway-calculator/)
