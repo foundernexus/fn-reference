@@ -15,6 +15,7 @@ related:
 - library/fundraising/first-angel-check
 - library/fundraising/when-to-raise-series-a
 - library/fundraising/safe-vs-priced-round
+- library/fundraising/when-runway-runs-out
 - library/board/series-a-board-meeting-agenda
 - library/finance/nrr-vs-grr-board-pack
 - tools/runway-calculator

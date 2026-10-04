@@ -38,6 +38,7 @@ Run the hire ladder and the GTM efficiency pair before the meeting, not during i
 :::
 
 - [Runway calculator with hiring plan](/tools/runway-calculator/): snapshot runway (Kruze) plus months to cash-out with hires, plus a Paul Graham–style default alive / default dead read. Headcount often 60–80% of burn (Kruze). With Carta’s Q1 2024 medians of 766 days Seed→A and 824 days A→B, you need a bigger buffer.
+- [When runway runs out](/library/fundraising/when-runway-runs-out/): diagnose short runway, cut burn, bridge or angel capital, or orderly wind-down. Pair with the calculator above.
 - [Magic number & CAC payback calculator](/tools/magic-number-cac-payback-calculator/): Scale-style magic number next to gross-margin CAC payback. Scale Studio long-term median 0.7. ChartMogul’s invest/pull-back bands (~0.75 / ~0.5) come from a different publisher. Bessemer payback targets by segment.
 
 ## Which metric → when → where

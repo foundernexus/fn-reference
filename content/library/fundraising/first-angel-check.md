@@ -13,6 +13,7 @@ draft: false
 related:
 - library/fundraising
 - library/fundraising/safe-vs-priced-round
+- library/fundraising/when-runway-runs-out
 - library/fundraising/when-to-raise-series-a
 - library/fundraising/series-a-diligence-checklist
 - library/equity/option-pool-from-hiring-plan

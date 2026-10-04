@@ -13,6 +13,7 @@ disclaimer: not-legal-tax
 draft: false
 related:
 - library/finance/burn-multiple-vs-rule-of-40
+- library/fundraising/when-runway-runs-out
 - tools/option-pool-shuffle-calculator
 ---
 
