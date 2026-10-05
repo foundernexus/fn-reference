@@ -15,6 +15,7 @@ related:
 - library/fundraising/when-to-raise-series-a
 - library/fundraising/first-angel-check
 - library/fundraising/safe-vs-priced-round
+- library/fundraising/venture-debt
 - library/finance
 - library/finance/burn-multiple-vs-rule-of-40
 - tools/runway-calculator
@@ -79,7 +80,7 @@ Pick one primary path. Stack a secondary only when it does not delay the primary
 | Grow revenue / extend with sales | You can close cash soon enough to change the trajectory (YC: least painful if it works) | “A big customer is about to close” is the only plan and you have not cut burn |
 | Bridge / insider round | Existing investors still believe and will fund a named milestone; you still believe there is a there there | You are buying months with no change in burn or product truth |
 | Angel / SAFE raise | You need product capital on simple terms and can still show a plan ([first angel check](/library/fundraising/first-angel-check/); [SAFE vs priced](/library/fundraising/safe-vs-priced-round/)) | You open a full fund process under Burkland’s **<6**-month desperation signal |
-| Venture debt (short pointer) | Seldom the first lever when runway is already critical; needs a fit you can defend later | You treat debt as free runway. Defer depth to a later venture-debt page; talk to counsel and lenders only after the cash math is honest |
+| Venture debt (short pointer) | Seldom the first lever when runway is already critical; needs a fit you can defend later | You treat debt as free runway. Fit, sizing, and terms live on [venture debt](/library/fundraising/venture-debt/); talk to counsel and lenders only after the cash math is honest |
 | Orderly wind-down / soft landing | Shutdown or team/asset sale is the honest outcome; cash remains for payroll, taxes, and close costs (YC) | You ride to zero to avoid “admitting defeat” and leave unpaid obligations |
 
 Operator judgment from [FounderNexus sessions](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): score the machine before a panic raise; cut non-critical burn before you sell desperation terms; bring the board options, not only a plea. That is session judgment, not a survey.

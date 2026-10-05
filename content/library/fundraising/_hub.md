@@ -1,20 +1,21 @@
 ---
 title: Fundraising
-description: Pick the fundraising decision in front of you. Orient first angel checks, Seed instrument choice, short-runway triage, Series A readiness timing, and data-room staging before you open outreach.
+description: Pick the fundraising decision in front of you. Orient first angel checks, Seed instrument choice, venture debt, short-runway triage, Series A readiness timing, and data-room staging before you open outreach.
 slug: fundraising
 section: library
 cluster: fundraising
 target_query: Series A fundraising
 date: 2026-10-01
-close: First angel checks, Seed instrument choice, short-runway triage, Series A timing, and diligence are ops decisions. Founders who have opened a raise from a position of strength will pressure-test your target list, instrument math, cash path, readiness score, and room map in a FounderNexus session.
+close: First angel checks, Seed instrument choice, venture debt, short-runway triage, Series A timing, and diligence are ops decisions. Founders who have opened a raise from a position of strength will pressure-test your target list, instrument math, debt terms, cash path, readiness score, and room map in a FounderNexus session.
 disclaimer: not-legal-tax
 draft: false
 ---
 
-Fundraising here is five decisions in sequence. First: how to find and close early angel checks. Then at Seed: which instrument fits the raise (SAFE, priced equity, or note). When cash is short: diagnose runway, cut burn, bridge, or land soft. Then at Series A: whether the machine is underwritable now, with enough cash to negotiate. Then: how you stage the evidence so investors rebuild your cohorts from one source of truth. Seed bet on a team and a thesis. Series A underwrites repeatable, capital-efficient growth (Burkland, 2026). Calendar anniversaries do not. Open the spoke for the question on your desk. Not legal, tax, or investment advice.
+Fundraising here is six decisions in sequence. First: how to find and close early angel checks. Then at Seed: which instrument fits the raise (SAFE, priced equity, or note). Right after an equity close: whether venture debt should sit on top. When cash is short: diagnose runway, cut burn, bridge, or land soft. Then at Series A: whether the machine is underwritable now, with enough cash to negotiate. Then: how you stage the evidence so investors rebuild your cohorts from one source of truth. Seed bet on a team and a thesis. Series A underwrites repeatable, capital-efficient growth (Burkland, 2026). Calendar anniversaries do not. Open the spoke for the question on your desk. Not legal, tax, or investment advice.
 
 :::takeaways
 - First angel checks: warm intros, filter for active writers, ask in runway months and dollars, default to a post-money SAFE. YC, Andreessen Horowitz, Cooley GO, and Carta context live on [first angel check](/library/fundraising/first-angel-check/).
+- Venture debt: add it soon after an equity close, with runway in hand and a named milestone, and fight the draw window, MAC, and covenants. SVB, Kruze, Mercury, and Orrick sizing and terms live on [venture debt](/library/fundraising/venture-debt/).
 - Short runway: diagnose snapshot vs default alive/dead, then cut, bridge/angel, extend with revenue, or orderly wind-down. PG, YC Caldwell, Kruze, Burkland, and Carta timing live on [when runway runs out](/library/fundraising/when-runway-runs-out/).
 - Seed instrument: pick a post-money SAFE, priced equity, or convertible note by raise size and lead terms. Carta mix and YC mechanics live on [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/).
 - Timing: raise when you can show a repeatable engine, not because the seed anniversary hit. Burkland: many SaaS conversations still cluster around roughly **$1M–$3M** ARR; **NRR** above **100%** is a strong signal; burn multiple under ~**2x** reads efficient for early SaaS. See [when to raise Series A](/library/fundraising/when-to-raise-series-a/).
@@ -27,11 +28,12 @@ Fundraising here is five decisions in sequence. First: how to find and close ear
 ## Spokes in this cluster
 
 :::highlight
-This cluster covers five decisions: how to get the first angel checks, which Seed instrument fits, what to do when runway is short, whether to open Series A now, and how to stage the data room before and after the term sheet.
+This cluster covers six decisions: how to get the first angel checks, which Seed instrument fits, whether venture debt belongs on top of a fresh round, what to do when runway is short, whether to open Series A now, and how to stage the data room before and after the term sheet.
 :::
 
 - [First angel check](/library/fundraising/first-angel-check/): find and close early angels. Warm intros, active-writer filter, raise ask, SAFE default, and angels vs funds live on the page.
 - [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/): pick post-money SAFE, priced equity, or a convertible note. YC mechanics and Carta instrument-mix by raise size live on the page.
+- [Venture debt](/library/fundraising/venture-debt/): decide whether a venture loan fits after an equity round, how much to borrow, and which terms to fight. SVB sizing, Kruze and Mercury cost bands, and Orrick on default clauses live on the page.
 - [When runway runs out](/library/fundraising/when-runway-runs-out/): diagnose snapshot vs default alive/dead, then cut burn, bridge or angel capital, extend with revenue, or orderly wind-down. Pair with the [runway calculator](/tools/runway-calculator/).
 - [When to raise Series A](/library/fundraising/when-to-raise-series-a/): score readiness across ARR/growth, NRR, burn multiple, runway at process start, GTM transfer, and hygiene. Burkland 2026 lenses, Carta seed→A medians, and Bessemer SotC 2023 fundability bands live on the page.
 - [Series A diligence checklist](/library/fundraising/series-a-diligence-checklist/): build the room before outreach. YC legal categories, Underscore staged access, and Burkland’s seven evaluation lenses and red flags live on the page.
@@ -48,6 +50,8 @@ One fundraising question per row. Open the spoke for numbers and publisher sampl
 | Angels or a seed fund for this check? | Choosing check size, speed, and whether you need a board now | [First angel check](/library/fundraising/first-angel-check/) |
 | SAFE, priced Seed, or note? | Structuring Seed paper; lead asks for preferred stock or debt terms | [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/) |
 | How much ownership will stacked SAFEs sell? | Signing the next SAFE without a running total | [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/) |
+| Add venture debt after this round? | Equity round closed in the last few months; runway in hand; board asks about non-dilutive capital | [Venture debt](/library/fundraising/venture-debt/) |
+| Which venture debt terms to fight? | Lender term sheet in hand; draw window, MAC, covenants, or warrants unclear | [Venture debt](/library/fundraising/venture-debt/) |
 | What to do when runway is short or critical? | Default dead; months left measured; payroll risk; board asks for a path | [When runway runs out](/library/fundraising/when-runway-runs-out/) |
 | Cut, bridge, raise, or wind down this week? | First-weeks triage with cash ÷ net burn and alive/dead written down | [When runway runs out](/library/fundraising/when-runway-runs-out/) + [runway calculator](/tools/runway-calculator/) |
 | Open Series A now, wait, or bridge? | Seed anniversary pressure; board asks if you are “A-ready” | [When to raise Series A](/library/fundraising/when-to-raise-series-a/) |
@@ -68,6 +72,8 @@ Early: prove the machine and extend cash. Close to outreach: lock the glossary a
 **Closing first angel checks.** Warm intros and active writers before spray lists ([first angel check](/library/fundraising/first-angel-check/)). Default to a post-money SAFE; treat platforms as auxiliary once you have real leads.
 
 **Structuring Seed paper.** Prefer a post-money SAFE unless a lead will price preferred stock now ([SAFE vs priced round](/library/fundraising/safe-vs-priced-round/)). Instrument mix and conversion traps live on that spoke. Keep early money on one instrument.
+
+**Right after an equity close.** Decide whether venture debt belongs on top while your position is strongest ([venture debt](/library/fundraising/venture-debt/)). Size from the round and debt service, and negotiate the draw window and default clauses before you sign the term sheet.
 
 **Short runway.** Measure snapshot and default alive/dead, then cut, bridge, extend with revenue, or land soft ([when runway runs out](/library/fundraising/when-runway-runs-out/)). Model cash in the [runway calculator](/tools/runway-calculator/). Do not open a full A process on thin cash; Burkland’s desperation signal lives on the spoke.
 
@@ -102,6 +108,7 @@ If the board asks burn, retention, or runway, use the [finance hub](/library/fin
 
 - [First angel check](/library/fundraising/first-angel-check/)
 - [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/)
+- [Venture debt](/library/fundraising/venture-debt/)
 - [When runway runs out](/library/fundraising/when-runway-runs-out/)
 - [When to raise Series A](/library/fundraising/when-to-raise-series-a/)
 - [Series A diligence checklist](/library/fundraising/series-a-diligence-checklist/)

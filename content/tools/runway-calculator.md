@@ -14,6 +14,7 @@ draft: false
 related:
 - library/finance/burn-multiple-vs-rule-of-40
 - library/fundraising/when-runway-runs-out
+- library/fundraising/venture-debt
 - tools/option-pool-shuffle-calculator
 ---
 

@@ -14,6 +14,7 @@ related:
 - library/fundraising
 - library/fundraising/first-angel-check
 - library/fundraising/when-runway-runs-out
+- library/fundraising/venture-debt
 - library/fundraising/when-to-raise-series-a
 - library/fundraising/series-a-diligence-checklist
 - library/equity/409a-after-priced-round
