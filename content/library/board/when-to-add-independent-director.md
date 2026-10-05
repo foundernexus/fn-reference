@@ -76,7 +76,7 @@ CRV: a lead director or board chair often gets a modest premium over other board
 
 Size the grant against the option pool you already sized from the hiring plan ([option pool from hiring plan](/library/equity/option-pool-from-hiring-plan/)). Peer executive bands live on [executive grants by stage](/library/equity/executive-grants-by-stage/).
 
-fn-content has no verified benchmark atom for this metric yet. fn-content tracks it as [benchmark request: independent director equity by stage](https://github.com/foundernexus/fn-content/issues/13).
+We have no verified benchmark yet for this metric. We track it as [benchmark request: independent director equity by stage](https://github.com/foundernexus/fn-content/issues/13).
 
 ## Mistakes that break the seat
 

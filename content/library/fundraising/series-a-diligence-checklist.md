@@ -46,7 +46,7 @@ You are choosing whether diligence starts as a controlled reveal of a machine yo
 | How numbers hang | Same ARR, churn, CAC, NRR, and runway in deck, model, and board pack | A “fundraising forecast” that differs from the board forecast |
 | Access control | Per-investor folders or revocable links; shut off when they pass | One shared Drive link that never expires |
 
-fn-content has no verified atom yet for median days saved by a prepared Series A data room, or for how often unsigned IP assignments delay close. fn-content tracks it as [benchmark request: Series A data-room lead time and close delays](https://github.com/foundernexus/fn-content/issues/23). Until then, use the named public sources below. Do not invent a “typical” close timeline for your sector.
+We have no verified benchmark yet for median days saved by a prepared Series A data room, or for how often unsigned IP assignments delay close. We track it as [benchmark request: Series A data-room lead time and close delays](https://github.com/foundernexus/fn-content/issues/23). Until then, use the named public sources below. Do not invent a “typical” close timeline for your sector.
 
 ## Stage the room instead of dumping it
 

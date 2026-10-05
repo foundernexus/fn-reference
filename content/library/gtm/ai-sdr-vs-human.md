@@ -60,7 +60,7 @@ These are medians for companies that already run SDR teams, at a median revenue 
 
 Sample: 351 B2B companies. 78% North America. 83% B2B SaaS. Median revenue $47M. Median ASP $50K. Published 6 February 2025. Survey responses, not an experiment. The full package for a first sales leader, which is a different seat, is on [when to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/).
 
-fn-content has no verified benchmark atom for these metrics yet. fn-content tracks it as [benchmark request: SDR OTE, ramp, quota attainment, and attrition](https://github.com/foundernexus/fn-content/issues/15).
+We have no verified benchmark yet for these metrics. We track them as [benchmark request: SDR OTE, ramp, quota attainment, and attrition](https://github.com/foundernexus/fn-content/issues/15).
 
 ## When the AI SDR is the wrong buy
 

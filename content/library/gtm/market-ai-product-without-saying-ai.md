@@ -40,7 +40,7 @@ You are choosing the first sentence a buyer reads. Job and outcome beat “AI-po
 | Proof | Named customer outcome, time saved, durable usage | Vague “AI magic,” unattributed pilots | Bessemer: case studies and third-party endorsements; Gartner: washers flood the category |
 | Sales motion | Founder-led until the message is repeatable | Cold demo asks with no problem framing | Bessemer: outbound that only introduces the product and asks for a demo fails |
 
-fn-content has no verified benchmark atom for outcome-led vs AI-led homepage conversion yet. fn-content tracks it as [benchmark request: AI product messaging: outcome-led vs AI-led conversion](https://github.com/foundernexus/fn-content/issues/17). Until then, use the named public judgment above, not an invented lift percentage.
+We have no verified benchmark yet for outcome-led vs AI-led homepage conversion. We track it as [benchmark request: AI product messaging: outcome-led vs AI-led conversion](https://github.com/foundernexus/fn-content/issues/17). Until then, use the named public judgment above, not an invented lift percentage.
 
 ## Why leading with AI fails
 

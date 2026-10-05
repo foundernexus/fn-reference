@@ -41,7 +41,7 @@ You are choosing whether next week’s engineering spend goes into more agent se
 | “Productivity is up” | Epics/tasks that reach customers with equal or lower risk | First draft appears in minutes; verified change still waits days |
 | “AI failed us” | You measured the whole loop and coding still dominates cycle time | You only sped typing and left review/ops untouched |
 
-fn-content has no verified atom yet for Seed–Series B share of cycle time in authoring vs review/CI/deploy, or for typical review-queue growth after high AI adoption. Tracked as [benchmark request: AI coding agent delivery-loop bottleneck metrics](https://github.com/foundernexus/fn-content/issues/25). Until then, use the named public sources above. Do not invent a “typical” company-level 10x.
+We have no verified benchmark yet for Seed–Series B share of cycle time in authoring vs review/CI/deploy, or for typical review-queue growth after high AI adoption. We track it as [benchmark request: AI coding agent delivery-loop bottleneck metrics](https://github.com/foundernexus/fn-content/issues/25). Until then, use the named public sources above. Do not invent a “typical” company-level 10x.
 
 ## Amdahl’s law is the ceiling
 

@@ -40,7 +40,7 @@ You are choosing whether to invest next week in a compounding loop, or keep ship
 | “Flywheel” | Each session creates corrections, exceptions, and ground truth you reuse | Accept/reject buttons nobody clicks; no trajectory store |
 | “Customers stay for the data” | Switching loses their history of decisions and edge cases | Switching loses a chat transcript they can export |
 
-fn-content has no verified atom yet for Seed–Series B time-to-minimum-viable-corpus, retention lift from proprietary loops, or quality-vs-quantity labeling spend. fn-content tracks it as [benchmark request: AI data moat signals](https://github.com/foundernexus/fn-content/issues/22). Until then, use the named public sources above. Do not invent a “typical” dataset size.
+We have no verified benchmark yet for Seed–Series B time-to-minimum-viable-corpus, retention lift from proprietary loops, or quality-vs-quantity labeling spend. We track it as [benchmark request: AI data moat signals](https://github.com/foundernexus/fn-content/issues/22). Until then, use the named public sources above. Do not invent a “typical” dataset size.
 
 ## Scale effects are not network effects
 
