@@ -1093,3 +1093,35 @@ input:focus, select:focus {
   th, td { padding: 10px 12px; }
   body { font-size: 16px; }
 }
+
+/* Sources: quiet numbered reference list. Owned pages only (generated /decisions/ and /benchmarks/ have no #sources). */
+.prose h2#sources + ul {
+  list-style: none;
+  padding-left: 0;
+  counter-reset: src;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.prose h2#sources + ul > li {
+  counter-increment: src;
+  position: relative;
+  margin: 0;
+  padding: 12px 0 12px 36px;
+  border-top: 1px solid var(--border-subtle);
+  color: var(--muted);
+}
+.prose h2#sources + ul > li:first-child { border-top: 0; padding-top: 2px; }
+.prose h2#sources + ul > li::before {
+  content: counter(src, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 14px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--blue);
+  font-variant-numeric: tabular-nums;
+}
+.prose h2#sources + ul > li:first-child::before { top: 4px; }
+.prose h2#sources + ul > li strong { color: var(--navy); }
+.prose h2#sources + ul > li a { font-weight: 500; }
