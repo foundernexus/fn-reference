@@ -11,6 +11,7 @@ close: Founders who have rewritten an AI homepage around the job, and kept a per
 draft: false
 related:
 - library/gtm
+- library/gtm/pilot-to-paid-contract
 - library/gtm/ai-sdr-vs-human
 - library/hiring/when-to-hire-first-vp-sales
 ---

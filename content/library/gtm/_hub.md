@@ -23,7 +23,7 @@ AI GTM for a Seed–Series B startup is a stack of separate decisions, not one p
 ## Spokes in this cluster
 
 :::highlight
-Seven decisions. One spoke each. Open the page that matches the question on your desk.
+Eight decisions. One spoke each. Open the page that matches the question on your desk.
 :::
 
 - [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/): whether a product can replace a seat. Score AI on quota, ramp, and pipeline. Bridge Group 2025 human SDR baselines and SaaStr founder-led sequence live on the page.
@@ -33,6 +33,7 @@ Seven decisions. One spoke each. Open the page that matches the question on your
 - [DIY founder PR: own the narrative before you hire an agency](/library/gtm/diy-founder-pr-narrative/): founder narrative and reporter list first. YC Seibel, Muck Rack 2026, and retainer ranges live on the page.
 - [Data moat for AI startups](/library/gtm/data-moat-ai-startup/): scarce, outcome-linked loop vs scale theater. a16z, Bessemer Vertical AI, and Sequoia on the page.
 - [Why coding agents don't 10x the company](/library/gtm/coding-agents-dont-10x-engineering/): Amdahl ceiling on coding-only speedups. Atlassian, Faros, and METR figures live on the page.
+- [How to convert a pilot to a paid contract](/library/gtm/pilot-to-paid-contract/): charge for the pilot and write the conversion before kickoff. SaaStr paid vs free pilot polls, AI buyer ROI expectations, and Gartner buying-group figures live on the page.
 
 ## Which GTM decision → when → where
 
@@ -49,6 +50,7 @@ One GTM question per row. Open the spoke for numbers and publisher samples. Do n
 | DIY PR or a retainer? | First pitches, or before signing agency spend | [DIY founder PR](/library/gtm/diy-founder-pr-narrative/) |
 | Is our data a moat? | Pitch says proprietary data; board asks what compounds | [Data moat for AI startups](/library/gtm/data-moat-ai-startup/) |
 | Will coding agents 10x delivery? | Rolling out agents and measuring only coding speed | [Coding agents don't 10x engineering](/library/gtm/coding-agents-dont-10x-engineering/) |
+| How does this pilot become a contract? | A buyer asks for a pilot before they will sign | [Pilot to paid contract](/library/gtm/pilot-to-paid-contract/) |
 
 Empty cells stay empty. Each row points at a spoke that already carries the cited numbers. A [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) session pushed the same pattern: AI on prep, humans on the close, job-first message, and charge metrics that match whether a person or an agent closes the loop. That is session judgment, not a survey.
 
@@ -58,7 +60,7 @@ Empty cells stay empty. Each row points at a spoke that already carries the cite
 Early: prove the motion and the message. Later: harden price, distribution, and what compounds in the product.
 :::
 
-**Seed, founder-led sales.** Close the first customers yourself before an AI SDR or a VP of Sales (SaaStr, on the AI SDR spoke). Write the homepage around the job, not the model. DIY the narrative and a short reporter list. Keep pricing hybrid or simple until unit economics are clear.
+**Seed, founder-led sales.** Close the first customers yourself before an AI SDR or a VP of Sales (SaaStr, on the AI SDR spoke). Write the homepage around the job, not the model. DIY the narrative and a short reporter list. Keep pricing hybrid or simple until unit economics are clear. Charge for pilots and write the conversion terms before kickoff.
 
 **Series A, first GTM hires and a repeatable message.** Score any AI SDR seat the way Bridge Group scores humans (on that spoke). Split SEO vs AEO hours with bottom-funnel pages protected. Revisit seat vs usage vs outcome once agents close loops. Audit whether product data forms a loop or only a corpus.
 
@@ -101,6 +103,7 @@ If the debate is when the first VP of Sales lands, use [when to hire the first V
 - [DIY founder PR: own the narrative before you hire an agency](/library/gtm/diy-founder-pr-narrative/)
 - [Data moat for AI startups](/library/gtm/data-moat-ai-startup/)
 - [Why coding agents don't 10x the company](/library/gtm/coding-agents-dont-10x-engineering/)
+- [How to convert a pilot to a paid contract](/library/gtm/pilot-to-paid-contract/)
 - [Hiring executives](/library/hiring/)
 - [When to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/)
 - [Finance, metrics & runway](/library/finance/)

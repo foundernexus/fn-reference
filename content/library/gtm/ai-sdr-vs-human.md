@@ -11,6 +11,7 @@ close: An AI SDR helps in one phase and does not close. Founders who have run on
 draft: false
 related:
 - library/gtm
+- library/gtm/pilot-to-paid-contract
 - library/hiring/when-to-hire-first-vp-sales
 - library/hiring/series-a-leadership-hiring-sequence
 ---
