@@ -527,7 +527,7 @@ table {
   border-collapse: separate;
   border-spacing: 0;
   font-size: 15px;
-  font-variant-numeric: tabular-nums;
+  font-variant-numeric: normal; /* proportional figures in text cells; td.num keeps tabular */
   min-width: 0;
 }
 th, td {
