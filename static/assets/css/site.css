@@ -794,6 +794,16 @@ caption {
   background: none;
   max-width: 40rem;
 }
+/* Owned pages only (.prose): quiet sign-off with a hairline rule + muted text,
+   so the close reads as a footer line, not body copy. /decisions/ untouched. */
+.prose .article-close {
+  padding-top: 18px;
+  border-top: 1px solid var(--border-subtle);
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--muted);
+}
+.prose .article-close a { font-weight: 500; }
 .empty {
   padding: 32px 0;
   color: var(--muted);
