@@ -16,6 +16,7 @@ related:
 - library/fundraising/when-runway-runs-out
 - library/fundraising/venture-debt
 - library/fundraising/when-to-raise-series-a
+- library/fundraising/term-sheet-red-flags
 - library/fundraising/series-a-diligence-checklist
 - library/equity/409a-after-priced-round
 - library/equity/option-pool-from-hiring-plan
@@ -127,6 +128,7 @@ Most Seed instrument pain comes from dilution you deferred or mixed paper, not f
 - [Fundraising](/library/fundraising/)
 - [First angel check](/library/fundraising/first-angel-check/)
 - [When to raise Series A](/library/fundraising/when-to-raise-series-a/)
+- [Term sheet red flags](/library/fundraising/term-sheet-red-flags/)
 - [Series A diligence checklist](/library/fundraising/series-a-diligence-checklist/)
 - [409A after a priced round](/library/equity/409a-after-priced-round/)
 - [Option pool from the hiring plan](/library/equity/option-pool-from-hiring-plan/)

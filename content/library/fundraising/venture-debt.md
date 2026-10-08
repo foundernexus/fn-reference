@@ -15,6 +15,7 @@ related:
 - library/fundraising/when-runway-runs-out
 - library/fundraising/safe-vs-priced-round
 - library/fundraising/when-to-raise-series-a
+- library/fundraising/term-sheet-red-flags
 - library/finance/burn-multiple-vs-rule-of-40
 - tools/runway-calculator
 ---
@@ -169,5 +170,6 @@ Pick Seed paper on [SAFE vs priced round](/library/fundraising/safe-vs-priced-ro
 - [When runway runs out](/library/fundraising/when-runway-runs-out/)
 - [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/)
 - [When to raise Series A](/library/fundraising/when-to-raise-series-a/)
+- [Term sheet red flags](/library/fundraising/term-sheet-red-flags/)
 - [Burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/)
 - [Runway calculator with hiring plan](/tools/runway-calculator/)

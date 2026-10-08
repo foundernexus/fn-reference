@@ -14,6 +14,7 @@ related:
 - library/fundraising
 - library/fundraising/first-angel-check
 - library/fundraising/series-a-diligence-checklist
+- library/fundraising/term-sheet-red-flags
 - library/fundraising/safe-vs-priced-round
 - library/fundraising/when-runway-runs-out
 - library/fundraising/venture-debt
@@ -136,6 +137,7 @@ Most wasted processes start too late on cash or too early on evidence.
 
 - [First angel check](/library/fundraising/first-angel-check/)
 - [Series A diligence checklist](/library/fundraising/series-a-diligence-checklist/)
+- [Term sheet red flags](/library/fundraising/term-sheet-red-flags/)
 - [NRR vs GRR for the board pack](/library/finance/nrr-vs-grr-board-pack/)
 - [Runway calculator with hiring plan](/tools/runway-calculator/)
 - [Burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/)

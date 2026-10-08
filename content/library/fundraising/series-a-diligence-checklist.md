@@ -14,6 +14,7 @@ related:
 - library/fundraising
 - library/fundraising/first-angel-check
 - library/fundraising/when-to-raise-series-a
+- library/fundraising/term-sheet-red-flags
 - library/fundraising/safe-vs-priced-round
 - library/fundraising/when-runway-runs-out
 - library/board/series-a-board-meeting-agenda
@@ -156,6 +157,7 @@ Speed comes from readiness, not from pressure on the lawyers.
 ## Related
 
 - [First angel check](/library/fundraising/first-angel-check/)
+- [Term sheet red flags](/library/fundraising/term-sheet-red-flags/)
 - [How to run a Series A board meeting](/library/board/series-a-board-meeting-agenda/)
 - [NRR vs GRR for the board pack](/library/finance/nrr-vs-grr-board-pack/)
 - [Runway calculator with hiring plan](/tools/runway-calculator/)
