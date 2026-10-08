@@ -38,7 +38,7 @@ You are choosing who owns the first version of the company story, and when money
 | Fractional / boutique retainer | Senior operator time + existing contacts | Clear news cadence; founder still does interviews | Retainer starts before you can explain the company in two sentences |
 | Mid-size agency | Team coverage, surge capacity | Multi-market news, sustained campaign load | One announcement a quarter and a junior doing the pitching |
 
-fn-content has no verified atom yet for Seed–Series B DIY vs agency spend or founder hours on press. fn-content tracks it as [benchmark request: DIY vs agency PR cost and founder hours by stage](https://github.com/foundernexus/fn-content/issues/21). Until then, use the named public ranges above. Do not invent a "typical" startup PR budget.
+There is no reliable public benchmark yet for Seed–Series B DIY vs agency spend or founder hours on press. Use the named public ranges above, and treat any "typical" startup PR budget as unsourced.
 
 ## Build the narrative before you pitch
 
@@ -146,7 +146,6 @@ Labeled sketches. Thresholds come from the public sources above, not a new surve
 - [Everything-PR, How much does a PR firm cost in 2026?](https://www.everything-pr.com/how-much-does-a-pr-firm-cost-in-2026/). 21 Jun 2026. Boutique **$3,500–$10,000**/mo; mid-size **$10,000–$25,000**; publicists **$2,000–$10,000**; projects **$10,000–$75,000**.
 - [AMEC, Barcelona Principles 3.0](https://amecorg.com/2020/07/barcelona-principles-3-0/). July 2020. Rejects AVE as a valid measure of communication value.
 - [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions. Narrative before the launch window; founder as the public voice; match outlets to the cycle goal. Not a survey. No closed-session numbers.
-- [fn-content #21](https://github.com/foundernexus/fn-content/issues/21). Benchmark request: DIY vs agency PR cost and founder hours by stage.
 
 ## Related
 

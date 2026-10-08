@@ -77,7 +77,6 @@ If the room debate is the first VP after the raise, use the [Series A leadership
 - [CEO Coaching International, CEO coaching vs peer advisory groups](https://ceocoachinginternational.com/ceo-coaching-vs-peer-advisory-groups/) — format table; when group vs 1:1 (authored by a coaching firm; use for structure, not as neutral market research).
 - [Manchester Consulting / McGovern et al., Maximizing the Impact of Executive Coaching](https://acaciacoaching.be/images/pdf/maximizing_the_impact_of_executive_coaching%201.pdf) — *The Manchester Review*, 2001. Large-company sample; interpret with caution on Series A plans.
 - [ICF Global Coaching Client Study](https://researchportal.coachingfederation.org/Document/Pdf/190.pdf) — company ROI figures from a small share of respondents who could supply spend and gain.
-- [fn-content #16](https://github.com/foundernexus/fn-content/issues/16) — benchmark request: executive coaching cost and founder peer group dues.
 
 ## Related
 

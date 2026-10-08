@@ -41,7 +41,7 @@ You are choosing whether next week’s engineering spend goes into more agent se
 | “Productivity is up” | Epics/tasks that reach customers with equal or lower risk | First draft appears in minutes; verified change still waits days |
 | “AI failed us” | You measured the whole loop and coding still dominates cycle time | You only sped typing and left review/ops untouched |
 
-fn-content has no verified atom yet for Seed–Series B share of cycle time in authoring vs review/CI/deploy, or for typical review-queue growth after high AI adoption. Tracked as [benchmark request: AI coding agent delivery-loop bottleneck metrics](https://github.com/foundernexus/fn-content/issues/25). Until then, use the named public sources above. Do not invent a “typical” company-level 10x.
+There is no reliable public benchmark yet for Seed–Series B share of cycle time in authoring vs review/CI/deploy, or for typical review-queue growth after high AI adoption at that stage. Use the named public sources above, and treat any “typical” company-level 10x as unsourced.
 
 ## Amdahl’s law is the ceiling
 
@@ -146,7 +146,6 @@ Labeled sketches. Thresholds come from the public sources above, not a new surve
 - [METR, Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/). 10 Jul 2025. RCT: **16** developers, **246** issues; expected **24%** faster; believed **20%** faster; measured **19%** longer. Early-2025 tools (primarily Cursor Pro + Claude 3.5/3.7). Setting-specific snapshot.
 - [Evan Meagher, Amdahl’s law and agentic coding](https://evnm.substack.com/p/amdahls-law-and-agentic-coding). 30 Jan 2026. Coding often was not the bottleneck; review, deploy, and slow CI surface after agents accelerate drafting.
 - [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions. Score design/code/review/test/deploy/operate; attack the lows; AI-native default unless someone shows why not; humans write policy instead of sitting in every gate. Not a survey. No closed-session numbers.
-- [fn-content #25](https://github.com/foundernexus/fn-content/issues/25). Benchmark request: AI coding agent delivery-loop bottleneck metrics.
 
 ## Related
 

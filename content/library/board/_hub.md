@@ -82,7 +82,6 @@ Independent grants draw on the same option pool as VP offers. Size bottoms-up wi
 - [Carta data via Peter Walker](https://www.linkedin.com/posts/peterjameswalker_cartadata-boards-startupequity-activity-7134995702211821568-e_WU) — Independent director initial equity medians: Seed 0.50%; Series A 0.40%; Series B 0.30% (n=2,718; grants from 1 Jan 2022).
 - [Boardspan / Paul Jones, Private Company Director Compensation Guidance](https://work.boardspan.com/library/articles/private-company-director-compensation-guidance?article_id=317) — Independent directors ~0.25%–2.0% equity; cash uncommon at startup stage beyond expenses.
 - [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder session. Updates are not decisions; drive the independent shortlist yourself. Not a survey.
-- [fn-content#13](https://github.com/foundernexus/fn-content/issues/13) — Benchmark request for verified independent-director equity atoms.
 
 ## Related
 

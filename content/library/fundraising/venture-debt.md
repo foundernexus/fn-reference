@@ -66,7 +66,7 @@ Size from the round you closed and from monthly debt service. Then check the siz
 
 SVB’s worked example: a **$20M** equity round could support **$4M–$8M** of debt. Amortization changes burn. SVB: a company burning **$250K** a month with a **$5M** facility amortizing over **30** months sees burn rise by more than **50%** once principal payments start. Put the payment schedule into the [runway calculator](/tools/runway-calculator/) before you sign.
 
-fn-content has no verified venture debt atom yet. Tracked as [benchmark request: venture debt sizing as % of last equity round](https://github.com/foundernexus/fn-content/issues/34). Until then, cite the named lender and advisor ranges above. Do not quote a blended “market” size.
+There is no reliable public benchmark yet for venture debt size as a share of the last equity round. Use the lender and advisor ranges above, each with its source, instead of a single blended “market” size.
 
 ## What it costs
 

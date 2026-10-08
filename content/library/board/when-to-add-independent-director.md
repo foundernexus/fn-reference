@@ -76,8 +76,6 @@ CRV: a lead director or board chair often gets a modest premium over other board
 
 Size the grant against the option pool you already sized from the hiring plan ([option pool from hiring plan](/library/equity/option-pool-from-hiring-plan/)). Peer executive bands live on [executive grants by stage](/library/equity/executive-grants-by-stage/).
 
-fn-content has no verified benchmark atom for this metric yet. fn-content tracks it as [benchmark request: independent director equity by stage](https://github.com/foundernexus/fn-content/issues/13).
-
 ## Mistakes that break the seat
 
 :::highlight
@@ -99,7 +97,6 @@ Board control comes from seats. If investors fill the swing seat, you lose contr
 - [Boardspan / Paul Jones, Private Company Director Compensation Guidance](https://work.boardspan.com/library/articles/private-company-director-compensation-guidance?article_id=317) — Independent directors ~0.25%–2.0% equity; often vest over ~2 years (3–4 exceptional); no cash at startup stage beyond expenses; insider and professional investor directors get nothing for the seat.
 - [CRV, How to Prepare for a Board Meeting](https://www.crv.com/content/how-to-prepare-for-a-board-meeting/) — Seed boards often three voting seats; Series A expands to three to five; CEO owns prep at seed/Series A.
 - [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: drive the independent shortlist yourself; do not outsource the swing seat to the lead alone.
-- [fn-content#13](https://github.com/foundernexus/fn-content/issues/13) — Benchmark request for verified independent-director equity atoms.
 
 ## Related
 

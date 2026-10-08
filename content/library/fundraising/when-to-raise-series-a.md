@@ -48,7 +48,7 @@ Start outreach when the machine is visible and you still have cash to negotiate.
 | Bridge or extend cash | Under ~**6** months runway into outreach (Burkland); you need months to hit a clear milestone before partner pitches | Starting a full process while desperate on cash |
 | Prep in parallel | Data room, metric glossary, and hiring plan built while you execute ([diligence checklist](/library/fundraising/series-a-diligence-checklist/)) | Waiting for a term sheet to assemble the room |
 
-fn-content has no verified atom yet for Series A readiness ARR bands, NRR at A, runway at process start, or median seed-to-A months. fn-content tracks it as [benchmark request: Series A readiness ARR / NRR / runway at process start](https://github.com/foundernexus/fn-content/issues/30). Until then, use the named public sources below. Do not invent a “typical” ARR for your sector.
+There is no reliable public benchmark yet for Series A readiness ARR bands, NRR at A, or runway at process start. Use the named public sources below, and treat any “typical” ARR for your sector as unsourced.
 
 ## Score readiness before you open the calendar
 

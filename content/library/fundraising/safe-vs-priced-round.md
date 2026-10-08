@@ -46,7 +46,7 @@ Match the instrument to raise size, lead expectations, and how much ownership yo
 | Priced equity round | Lead will set a pre-money valuation and full preferred terms; larger Seed where Carta shows priced equity dominating above **$5M**; Series A and later (YC) | You still lack a committed lead and a defensible price, and legal cost would burn a thin raise |
 | Convertible note | Investor requires interest and a maturity date; bridge where debt seniority matters; you already raised on notes and want one stack (YC) | You are starting fresh and no investor asked for debt features |
 
-fn-content has no verified atom yet for SAFE vs priced vs note mix by Seed round size. Tracked as [benchmark request: SAFE vs priced vs note instrument mix by seed round size](https://github.com/foundernexus/fn-content/issues/32). Until then, use the named Carta periods below. Do not invent a “typical” SAFE cap for your sector.
+Beyond the Carta periods below, there is no reliable public benchmark yet for SAFE vs priced vs note mix by Seed round size. Use those named periods, and treat any “typical” SAFE cap for your sector as unsourced.
 
 ## Mechanics founders decide on
 

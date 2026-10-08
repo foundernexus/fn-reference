@@ -40,7 +40,7 @@ Pick the unit the buyer already budgets for. Then build ops so that unit stays p
 | Outcome (per successful result) | Unambiguous, measurable win; you can absorb compute variance | Outcome definition is fuzzy or failure modes are expensive | Intercom Fin: **$0.99** per ticket resolved, not per message or token |
 | Hybrid (base + usage/outcome) | Early stage; need predictability and expansion upside | You never harden one model and custom deals proliferate | Bessemer: middle ground for early startups; example **$12K + 100** included, then **$5K / 100** |
 
-fn-content has no verified atom yet for how common seat vs usage vs outcome is across AI SaaS cohorts. fn-content tracks it as [benchmark request: AI SaaS seat vs usage vs outcome pricing adoption mix](https://github.com/foundernexus/fn-content/issues/18). Until then, use Bessemer’s named examples and principles, not an invented category share.
+There is no reliable public benchmark yet for how common seat vs usage vs outcome pricing is across AI SaaS cohorts. Use Bessemer’s named examples and principles instead of an invented category share.
 
 ## Predictability vs value alignment vs margin risk
 
@@ -143,7 +143,6 @@ Labeled sketches. Thresholds and dollar examples are Bessemer’s, not invented 
 - [Bessemer Atlas, The AI pricing and monetization playbook](https://www.bvp.com/atlas/the-ai-pricing-and-monetization-playbook). Atlas Editors, published 10 Feb 2026. Three models (copilot / agent / AI-enabled service). Consumption vs workflow vs outcome trade-offs. Hybrid formula (platform fee at 2× delivery costs + outcome credits; **$12K** / 100 / **$5K per 100** example). AI margins often **50–60%** vs SaaS **80–90%**. Intercom Fin **$0.99** per AI resolution. Company examples table (DeepL, EvenUp, Intercom, Leena AI, Sett.ai, Zenskar, and others). Soft vs hard ROI; 2026 renewal cliff for soft-ROI pilots.
 - [Bessemer Atlas, Part III: Business model invention in the AI era](https://www.bvp.com/atlas/part-iii-business-model-invention-in-the-ai-era). Feinstein, Rea, Bennett, Deeter, et al., published 5 Dec 2024. Copilot seat framing; Microsoft Office 365 roughly **$15–$30** per license and Copilot add-on about **$30** additional. Early vertical pricing examples including Fin at **$0.99** per AI resolution.
 - [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. Seats for humans / outcomes for agents when the product closes the loop; hybrid while reliability climbs. Not a survey. No closed-session numbers.
-- [fn-content #18](https://github.com/foundernexus/fn-content/issues/18). Benchmark request: AI SaaS seat vs usage vs outcome pricing adoption mix.
 
 ## Related
 

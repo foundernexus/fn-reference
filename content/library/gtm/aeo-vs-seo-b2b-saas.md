@@ -40,7 +40,7 @@ You are allocating writer and founder hours between pages that convert and pages
 
 Google’s AI features doc (updated 10 Dec 2025): there are **no additional technical requirements** beyond being indexed and eligible for a snippet. AI Overviews and AI Mode may use **query fan-out** (multiple related searches) and show a wider set of supporting links than classic Search.
 
-fn-content has no verified atom yet for how Seed–Series B B2B SaaS teams split SEO vs AEO hours, or for AI-referral share of pipeline. fn-content tracks it as [benchmark request: B2B SaaS SEO vs AEO effort split and AI-referral share](https://github.com/foundernexus/fn-content/issues/20). Until then, use the named public sources above and the stage table below, not an invented industry percentage.
+There is no reliable public benchmark yet for how Seed–Series B B2B SaaS teams split SEO vs AEO hours, or for AI-referral share of pipeline. Use the named public sources above and the stage table below instead of an invented industry percentage.
 
 ## What AEO means in practice (not a new Google product)
 
@@ -114,7 +114,7 @@ Protect converting SEO pages. Use remaining editorial capacity on citation-ready
 | Series A | ~60% SEO / ~40% AEO | Compare and integration SEO; category education AEO | AEO-only calendar with no demo or pricing updates |
 | Series B | ~50% SEO / ~50% AEO | Scale both; add GSC Gen AI report reviews to monthly growth | Spending on AEO “hacks” Google lists as myths |
 
-These percentages are operator judgment for venture-scale teams with one content owner, not a survey. Align them with how often buyers mention assistants in discovery calls ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). If you lack a verified cohort split, track your own hours and AI-referral influenced pipeline until fn-content#20 lands.
+These percentages are operator judgment for venture-scale teams with one content owner, not a survey. Align them with how often buyers mention assistants in discovery calls ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). If you lack a verified cohort split, track your own hours and AI-referral influenced pipeline until a public benchmark exists.
 
 ## Worked situations
 
@@ -138,7 +138,6 @@ Labeled sketches. Thresholds are the public sources above, not a new study of yo
 - [SparkToro, Similarweb downstream AI visibility research](https://sparktoro.com/blog/new-research-from-similarweb-how-ai-brand-mentions-influence-direct-visits-traditional-search-queries/). Rand Fishkin, 29 Jun 2026. Consumer panel examples: Amex **+7.2%**, Capital One **+14.2%** visit likelihood after AI mention (~7 days). Caveat: not B2B SaaS.
 - [SparkToro, Does your website still matter in the zero-click era?](https://sparktoro.com/blog/does-your-website-still-matter-in-the-zero-click-era/). Rand Fishkin, 14 Aug 2026. Site as home base that informs AI tools; conversion still on-site.
 - [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. Buyers ask AI before your site; keep bottom-funnel SEO while making category answers citation-ready. Not a survey. No closed-session numbers.
-- [fn-content #19](https://github.com/foundernexus/fn-content/issues/20). Benchmark request: B2B SaaS SEO vs AEO effort split and AI-referral share.
 
 ## Related
 

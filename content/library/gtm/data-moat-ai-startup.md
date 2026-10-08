@@ -40,7 +40,7 @@ You are choosing whether to invest next week in a compounding loop, or keep ship
 | “Flywheel” | Each session creates corrections, exceptions, and ground truth you reuse | Accept/reject buttons nobody clicks; no trajectory store |
 | “Customers stay for the data” | Switching loses their history of decisions and edge cases | Switching loses a chat transcript they can export |
 
-fn-content has no verified atom yet for Seed–Series B time-to-minimum-viable-corpus, retention lift from proprietary loops, or quality-vs-quantity labeling spend. fn-content tracks it as [benchmark request: AI data moat signals](https://github.com/foundernexus/fn-content/issues/22). Until then, use the named public sources above. Do not invent a “typical” dataset size.
+There is no reliable public benchmark yet for Seed–Series B time-to-minimum-viable-corpus, retention lift from proprietary loops, or quality-vs-quantity labeling spend. Use the named public sources above, and treat any “typical” dataset size as unsourced.
 
 ## Scale effects are not network effects
 
@@ -125,7 +125,6 @@ Labeled sketches. Thresholds come from the public sources above, not a new surve
 - [Bessemer Atlas, Part IV: Ten principles for building strong vertical AI businesses](https://www.bvp.com/atlas/part-iv-ten-principles-for-building-strong-vertical-ai-businesses). 28 Jan 2025. Principle 10 quality over quantity (EvenUp human review); principle 8 multimodality / models not a reliable moat; principle 2 end-to-end workflows vs commoditized features; industry-specific RAG as a foundational layer.
 - [Sequoia, Own Your Intelligence: A How-To Guide](https://sequoiacap.com/article/own-your-intelligence-a-how-to-guide). Sonya Huang, 19 Aug 2026. When proprietary data argues for owning stack slices; evals before post-training; harness and trajectories; Harvey Legal Agent Benchmark (**1,200+** tasks, **24** areas, **75,000+** rubric criteria); research team of **seven**.
 - [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions. Data as the ingredient a startup can own; unpublished collection and domain fluency; feedback that rewards the user instantly; small data still signals. Not a survey. No closed-session numbers.
-- [fn-content #22](https://github.com/foundernexus/fn-content/issues/22). Benchmark request: AI data moat signals (MVC size, loop latency, retention lift from proprietary loops).
 
 ## Related
 

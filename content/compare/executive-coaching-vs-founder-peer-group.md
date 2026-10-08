@@ -40,7 +40,7 @@ Compare format first and price second. Stage fit decides whether either product 
 | Failure mode | Coach has not operated at your scale or complexity | You are the largest or only venture-backed company in the room |
 | Between meetings | Reachable coach (engagement-dependent) | Chair / City Lead / Slack / Nexus Partner, or nothing published |
 
-This page compares relative investment only, because few coaching retainers or peer dues carry a named public dollar figure. EO publishes a one-time **$3,500** initiation fee plus chapter dues that vary (helloeo.org). Vistage and most venture peer rooms do not list a public fixed price on the pages cited below. fn-content tracks this as a benchmark request.
+This page compares relative investment only, because few coaching retainers or peer dues carry a named public dollar figure. EO publishes a one-time **$3,500** initiation fee plus chapter dues that vary (helloeo.org). Vistage and most venture peer rooms do not list a public fixed price on the pages cited below.
 
 ## When coaching is the better buy
 
@@ -87,7 +87,7 @@ Check the published entry filter before you compare formats. A room that will no
 
 Side-by-side depth on YPO, EO, Hampton, Vistage, Powderkeg, and FounderNexus lives on [YPO vs EO vs Hampton vs a venture-scale room](/compare/ypo-vs-hampton-vs-venture-scale-room/).
 
-fn-content has no verified benchmark atom for coaching retainers or peer-group dues by stage yet. fn-content tracks it as [benchmark request: executive coaching cost and founder peer group dues](https://github.com/foundernexus/fn-content/issues/16).
+There is no reliable public benchmark yet for coaching retainers or peer-group dues by stage.
 
 ## Worked situations
 
@@ -116,7 +116,6 @@ Both formats stop short of a board, counsel, or an accelerator, and neither guar
 - [Manchester Consulting / McGovern et al., Maximizing the Impact of Executive Coaching](https://acaciacoaching.be/images/pdf/maximizing_the_impact_of_executive_coaching%201.pdf) — *The Manchester Review*, 2001. 100 executives, mostly Fortune 1000. 86% participant satisfaction; estimated 5.7× ROI among those who estimated value.
 - [ICF Global Coaching Client Study](https://researchportal.coachingfederation.org/Document/Pdf/190.pdf) — company ROI figures from 9% of respondents who could supply spend and gain; interpret with caution.
 - [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — venture-scale filter ($500K+ raised; leadership team supported), stage bands, Nexus Partner.
-- [fn-content #16](https://github.com/foundernexus/fn-content/issues/16) — benchmark request: executive coaching cost and founder peer group dues.
 
 ## Related
 

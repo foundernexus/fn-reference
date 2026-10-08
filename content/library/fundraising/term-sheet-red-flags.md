@@ -75,7 +75,7 @@ Clean terms are the default in the 2026 law-firm samples. If your sheet carries 
 
 Down rounds change the mix. Cooley counted **12.1%** down rounds in Q2 2026. Among Wilson Sonsini’s 2025 down rounds, **42%** had pay-to-play and **46%** gave new money a senior preference (Series B and later). Carta saw participating preferred in more than **10%** of new primary rounds in Q1 2023 and less than half that rate by Q4 2024. If your round is flat or down, expect the heavier terms and model them.
 
-fn-content has no verified term-prevalence atom yet. Tracked as [benchmark request: term sheet term prevalence](https://github.com/foundernexus/fn-content/issues/37). Until then, cite the named law-firm and Carta samples above. Do not quote a blended “market” rate.
+There is no reliable public benchmark yet that pools term prevalence across firms. Read the Cooley, Wilson Sonsini, and Carta samples above separately, each with its own period and sample, instead of a blended “market” rate.
 
 ## Economic terms: model the exit
 

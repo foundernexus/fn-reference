@@ -62,6 +62,7 @@ foundernexus.com/ → Apply product
 - Membership is offered, not sold. Apply names the decision.
 - No session content scraped into the library.
 - Stop-slop gate before every push (required): `python3 ops/stop-slop/check.py --changed` at HARD=0, `facts_guard.py origin/main` PASS for edited pages, and a manual read against ops/stop-slop/RULES.md at 35/50 or better. Details in ops/stop-slop/GATE.md. The /decisions/ and /benchmarks/ pages come from fn-content; report slop there, do not edit it here.
+- Public copy never mentions fn-content, atoms, benchmark requests, "tracked as", or GitHub issue links (body or Sources). File the benchmark request in fn-content and keep it in this brief and ops/inventory.md. On the page, keep the named source and its figure; if no range exists, write "There is no reliable public benchmark yet for X."
 
 
 ## Friday 2026-09-18 Startup Bible check (internal)

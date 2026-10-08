@@ -691,7 +691,7 @@ def render_decision_json(page: dict) -> str:
 
 def render_decisions_index(pages: list[dict]) -> str:
     if not pages:
-        listing = '<div class="empty"><p>No decision pages from fn-content yet.</p></div>'
+        listing = '<div class="empty"><p>No decision pages yet.</p></div>'
     else:
         cards = []
         for p in pages:
@@ -708,7 +708,7 @@ def render_decisions_index(pages: list[dict]) -> str:
     <div class="wrap">
       {crumbs([("Home", url("/")), ("Decisions", None)])}
       <h1>Decisions</h1>
-      <p class="lead">Pages rendered from foundernexus/fn-content. One JSON file, one route.</p>
+      <p class="lead">Founder decisions by stage: the options, what mattered, and what founders chose.</p>
     </div>
   </section>
   <section class="section" style="padding-top:0">
@@ -717,7 +717,7 @@ def render_decisions_index(pages: list[dict]) -> str:
 </main>"""
     return base(
         title="Decisions",
-        description="Decision pages rendered from fn-content.",
+        description="Founder decisions by stage: the options, what mattered, and what founders chose.",
         canonical_path="/decisions/",
         body=body,
     )
@@ -842,7 +842,7 @@ def render_benchmark_json(page: dict) -> str:
 
 def render_benchmarks_index(pages: list[dict]) -> str:
     if not pages:
-        listing = '<div class="empty"><p>No benchmark pages from fn-content yet.</p></div>'
+        listing = '<div class="empty"><p>No benchmark pages yet.</p></div>'
     else:
         cards = []
         for p in pages:

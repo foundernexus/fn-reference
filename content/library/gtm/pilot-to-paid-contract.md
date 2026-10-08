@@ -119,7 +119,7 @@ The pilot fee and the contract price come from your charge metric. Settle the me
 
 Pick seats, usage, or outcomes on [seat vs usage vs outcome pricing for AI SaaS](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/). Lead the pilot pitch with the job and the outcome on [how to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/). If pilots pile up without an owner for the close, read [when to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/). Orient the rest of the motion from the [GTM hub](/library/gtm/).
 
-fn-content has no verified pilot-conversion atom yet. Tracked as [benchmark request: pilot-to-paid conversion rate](https://github.com/foundernexus/fn-content/issues/35). Until then, cite the named SaaStr, a16z, and Gartner figures above. Do not quote a blended market rate.
+There is no reliable public benchmark yet for pilot-to-paid conversion rates. Quote the SaaStr, a16z, and Gartner figures above with their sources instead of a blended market rate.
 
 ## Sources
 
