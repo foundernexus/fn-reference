@@ -12,6 +12,7 @@ disclaimer: not-legal-tax
 draft: false
 related:
 - library/fundraising
+- library/fundraising/how-seed-vcs-decide
 - library/fundraising/safe-vs-priced-round
 - library/fundraising/series-a-diligence-checklist
 - library/fundraising/when-to-raise-series-a
@@ -162,6 +163,7 @@ Pick Seed paper on [SAFE vs priced round](/library/fundraising/safe-vs-priced-ro
 ## Related
 
 - [Fundraising](/library/fundraising/)
+- [How seed VCs decide](/library/fundraising/how-seed-vcs-decide/)
 - [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/)
 - [Series A diligence checklist](/library/fundraising/series-a-diligence-checklist/)
 - [When to raise Series A](/library/fundraising/when-to-raise-series-a/)

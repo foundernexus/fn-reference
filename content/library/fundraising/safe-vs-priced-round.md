@@ -12,6 +12,7 @@ disclaimer: not-legal-tax
 draft: false
 related:
 - library/fundraising
+- library/fundraising/how-seed-vcs-decide
 - library/fundraising/first-angel-check
 - library/fundraising/when-runway-runs-out
 - library/fundraising/venture-debt
@@ -126,6 +127,7 @@ Most Seed instrument pain comes from dilution you deferred or mixed paper, not f
 ## Related
 
 - [Fundraising](/library/fundraising/)
+- [How seed VCs decide](/library/fundraising/how-seed-vcs-decide/)
 - [First angel check](/library/fundraising/first-angel-check/)
 - [When to raise Series A](/library/fundraising/when-to-raise-series-a/)
 - [Term sheet red flags](/library/fundraising/term-sheet-red-flags/)

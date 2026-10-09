@@ -12,6 +12,7 @@ disclaimer: not-legal-tax
 draft: false
 related:
 - library/fundraising
+- library/fundraising/how-seed-vcs-decide
 - library/fundraising/first-angel-check
 - library/fundraising/series-a-diligence-checklist
 - library/fundraising/term-sheet-red-flags
@@ -135,6 +136,7 @@ Most wasted processes start too late on cash or too early on evidence.
 
 ## Related
 
+- [How seed VCs decide](/library/fundraising/how-seed-vcs-decide/)
 - [First angel check](/library/fundraising/first-angel-check/)
 - [Series A diligence checklist](/library/fundraising/series-a-diligence-checklist/)
 - [Term sheet red flags](/library/fundraising/term-sheet-red-flags/)
