@@ -51,6 +51,8 @@ Weekly 2026-09-25: GSC auth blocked (mtmckinney@gmail.com password prompt on box
 
 Weekly 2026-09-18 Startup Bible check (internal): Marketing & PR + Building the Company pillars visible; GTM-as-a-system (Sep 2026) + AI-era stack / pricing / moats / SaaS repricing. Pressure-tests on six live pages = aligned / no action. Queue candidates appended to SEO-BRIEF.md. No new fn-content issues (14–16 already cover recent ships). Live /decisions/ clean of Bible URLs.
 
+Weekly 2026-10-09 (Friday review): Startup Bible — no new playbooks/concepts since 10/2 (77 URLs, all 200; refreshes only 10/4 + 10/6); pressure-tests aligned, no public edits; candidates #42–#44 added to SEO-BRIEF. Credibility: venture-debt, pilot-to-paid-contract, term-sheet-red-flags, how-seed-vcs-decide, when-runway-runs-out — every figure carries a named source (table columns/captions included); benchmarks.yaml rows still null, so nothing to swap in. when-runway-runs-out issue mapping: runway-at-process → fn-content#30 (reused); headcount share of burn + shutdown-runway thresholds have no request yet (drafted for approval). Design: skip link fully off-canvas (old top:-40px left a 4px navy sliver at top-left of every page). HubSpot-xai: 0 contacts / 0 deals referred by founderdecisions (7d and 28d); only 1 contact in the portal has any referrer.
+
 ## Visual chrome (renderer)
 
 - 2026-09-24: `/decisions/` options JSON → choice-card grid in `render_decision_json` (build.py only; no fn-content edit). `:::steps` fence + CSS for library markdown. Screenshots: `ops/screenshots/decisions-options-*-2026-09-24.png`.

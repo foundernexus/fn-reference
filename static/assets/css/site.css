@@ -72,17 +72,24 @@ a:hover { color: var(--blue-hover); }
   outline-offset: 2px;
 }
 
+/* Skip link: fully off-canvas until keyboard focus. The old top:-40px left a
+   4px navy sliver at the top-left of every page (link box is ~44px tall). */
 .skip {
   position: absolute;
   left: 16px;
-  top: -40px;
+  top: 16px;
   z-index: 20;
   background: var(--navy);
   color: var(--white);
   padding: 8px 16px;
   border-radius: 8px;
+  transform: translateY(calc(-100% - 32px));
 }
-.skip:focus { top: 16px; }
+.skip:focus,
+.skip:focus-visible { transform: none; }
+@media (prefers-reduced-motion: no-preference) {
+  .skip { transition: transform 0.15s ease-out; }
+}
 
 .wrap {
   width: min(var(--container), calc(100% - 64px));
