@@ -538,7 +538,7 @@ th, td {
   line-height: 1.45;
   overflow-wrap: break-word;
   word-break: normal;
-  hyphens: auto;
+  hyphens: manual; /* no auto-hyphenation in cells; break only at real hyphens or overflow */
 }
 tbody tr:last-child td { border-bottom: 0; }
 /* Quiet zebra — page wash on even rows, no marketing stripes */
