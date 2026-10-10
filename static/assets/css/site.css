@@ -1087,6 +1087,7 @@ input:focus, select:focus {
     min-width: 0;
   }
   .table-wrap td.num { white-space: normal; }
+  .table-wrap td.num-col { text-align: left; }
 }
 
 @media (max-width: 900px) {
