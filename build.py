@@ -294,6 +294,22 @@ def _looks_numeric(text: str) -> bool:
     return letters <= 8
 
 
+_FIGURE_RE = re.compile(
+    r"^[~≈<>≤≥]?\s*[-+]?\$?\d[\d.,]*\s*(%|x|×|[KMBkmb])?"
+    r"(\s*[–-]\s*\$?\d[\d.,]*\s*(%|x|×|[KMBkmb])?)?\+?$"
+)
+
+
+def _is_figure(text: str) -> bool:
+    """A cell that is only a figure or a figure range (bold markers ignored)."""
+    plain = text.replace("**", "").strip()
+    return bool(_FIGURE_RE.match(plain))
+
+
+def _is_blank_cell(text: str) -> bool:
+    return text.replace("**", "").strip() in ("", "—")
+
+
 def _render_table(rows: list[str]) -> str:
     parsed = []
     for row in rows:
@@ -307,12 +323,31 @@ def _render_table(rows: list[str]) -> str:
     def cell_inner(c: str) -> str:
         return "<br>".join(inline_md(part) for part in c.split("{br}"))
 
-    th = "".join(f"<th>{cell_inner(c)}</th>" for c in head)
+    # Figure-only columns (after the label column) align right so digits stack.
+    ncols = len(head)
+    fig_cols = {
+        idx
+        for idx in range(1, ncols)
+        if body
+        and any(_is_figure(r[idx]) for r in body if idx < len(r))
+        and all(_is_figure(r[idx]) or _is_blank_cell(r[idx]) for r in body if idx < len(r))
+    }
+
+    def th_html(idx: int, c: str) -> str:
+        cls = ' class="num-col"' if idx in fig_cols else ""
+        return f"<th{cls}>{cell_inner(c)}</th>"
+
+    th = "".join(th_html(idx, c) for idx, c in enumerate(head))
     trs = []
     for row in body:
         tds = []
         for idx, c in enumerate(row):
-            cls = ' class="num"' if _looks_numeric(c) else ""
+            classes = []
+            if _looks_numeric(c):
+                classes.append("num")
+            if idx in fig_cols:
+                classes.append("num-col")
+            cls = f' class="{" ".join(classes)}"' if classes else ""
             tds.append(f"<td{cls}>{cell_inner(c)}</td>")
         trs.append(f"<tr>{''.join(tds)}</tr>")
     return (

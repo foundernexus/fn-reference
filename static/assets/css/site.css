@@ -601,6 +601,12 @@ td.num {
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
 }
+/* Figure-only columns: right-align so digits and decimals stack */
+th.num-col,
+td.num-col {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
 /* Multi-band / source-stacked cells (br) — denser readable stack, not nowrap squeeze */
 .table-wrap td:has(br) {
   white-space: normal;
