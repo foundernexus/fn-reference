@@ -13,6 +13,7 @@ draft: false
 related:
 - library/fundraising
 - library/fundraising/first-angel-check
+- library/fundraising/seed-pitch-deck
 - library/fundraising/when-to-raise-series-a
 - library/fundraising/term-sheet-red-flags
 - library/fundraising/safe-vs-priced-round
@@ -157,6 +158,7 @@ Speed comes from readiness, not from pressure on the lawyers.
 ## Related
 
 - [First angel check](/library/fundraising/first-angel-check/)
+- [Seed pitch deck](/library/fundraising/seed-pitch-deck/)
 - [Term sheet red flags](/library/fundraising/term-sheet-red-flags/)
 - [How to run a Series A board meeting](/library/board/series-a-board-meeting-agenda/)
 - [NRR vs GRR for the board pack](/library/finance/nrr-vs-grr-board-pack/)

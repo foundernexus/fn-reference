@@ -1,21 +1,22 @@
 ---
 title: Fundraising
-description: Pick the fundraising decision in front of you. Orient first angel checks, how seed VCs decide, Seed instrument choice, venture debt, short-runway triage, Series A readiness timing, term sheet red flags, and data-room staging before you open outreach.
+description: Pick the fundraising decision in front of you. Orient first angel checks, how seed VCs decide, the seed pitch deck, Seed instrument choice, venture debt, short-runway triage, Series A readiness timing, term sheet red flags, and data-room staging before you open outreach.
 slug: fundraising
 section: library
 cluster: fundraising
 target_query: Series A fundraising
 date: 2026-10-01
-close: First angel checks, seed VC pitches, Seed instrument choice, venture debt, short-runway triage, Series A timing, term sheets, and diligence are ops decisions. Founders who have opened a raise from a position of strength will pressure-test your target list, fund lens, instrument math, debt terms, cash path, readiness score, term sheet, and room map in a FounderNexus session.
+close: First angel checks, seed VC pitches, seed decks, Seed instrument choice, venture debt, short-runway triage, Series A timing, term sheets, and diligence are ops decisions. Founders who have opened a raise from a position of strength will pressure-test your target list, fund lens, deck, instrument math, debt terms, cash path, readiness score, term sheet, and room map in a FounderNexus session.
 disclaimer: not-legal-tax
 draft: false
 ---
 
-Fundraising here is eight decisions in sequence. First: how to find and close early angel checks. Next: how seed VCs decide, so you pitch funds whose bet fits your proof. Then at Seed: which instrument fits the raise (SAFE, priced equity, or note). Right after an equity close: whether venture debt should sit on top. When cash is short: diagnose runway, cut burn, bridge, or land soft. Then at Series A: whether the machine is underwritable now, with enough cash to negotiate. Once a lead sends paper: which terms to push back on. Then: how you stage the evidence so investors rebuild your cohorts from one source of truth. Seed bet on a team and a thesis. Series A underwrites repeatable, capital-efficient growth (Burkland, 2026). Calendar anniversaries do not. Open the spoke for the question on your desk. Not legal, tax, or investment advice.
+Fundraising here is nine decisions in sequence. First: how to find and close early angel checks. Next: how seed VCs decide, so you pitch funds whose bet fits your proof. Then: a seed deck where each slide answers one investor question. Then at Seed: which instrument fits the raise (SAFE, priced equity, or note). Right after an equity close: whether venture debt should sit on top. When cash is short: diagnose runway, cut burn, bridge, or land soft. Then at Series A: whether the machine is underwritable now, with enough cash to negotiate. Once a lead sends paper: which terms to push back on. Then: how you stage the evidence so investors rebuild your cohorts from one source of truth. Seed bet on a team and a thesis. Series A underwrites repeatable, capital-efficient growth (Burkland, 2026). Calendar anniversaries do not. Open the spoke for the question on your desk. Not legal, tax, or investment advice.
 
 :::takeaways
 - First angel checks: warm intros, filter for active writers, ask in runway months and dollars, default to a post-money SAFE. YC, Andreessen Horowitz, Cooley GO, and Carta context live on [first angel check](/library/fundraising/first-angel-check/).
 - Seed VCs: the team comes first, then product, market, and fit with the fund; valuation ranks last at early stage. Gompers et al., Bernstein et al., Graham, YC, and Carta context live on [how seed VCs decide](/library/fundraising/how-seed-vcs-decide/).
+- Seed deck: open with purpose, problem, solution, and market, one takeaway per slide, numbers that match the model. DocSend, YC, and Sequoia structure lives on [seed pitch deck](/library/fundraising/seed-pitch-deck/).
 - Venture debt: add it soon after an equity close, with runway in hand and a named milestone, and fight the draw window, MAC, and covenants. SVB, Kruze, Mercury, and Orrick sizing and terms live on [venture debt](/library/fundraising/venture-debt/).
 - Short runway: diagnose snapshot vs default alive/dead, then cut, bridge/angel, extend with revenue, or orderly wind-down. PG, YC Caldwell, Kruze, Burkland, and Carta timing live on [when runway runs out](/library/fundraising/when-runway-runs-out/).
 - Seed instrument: pick a post-money SAFE, priced equity, or convertible note by raise size and lead terms. Carta mix and YC mechanics live on [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/).
@@ -30,11 +31,12 @@ Fundraising here is eight decisions in sequence. First: how to find and close ea
 ## Spokes in this cluster
 
 :::highlight
-This cluster covers eight decisions: how to get the first angel checks, how seed VCs decide, which Seed instrument fits, whether venture debt belongs on top of a fresh round, what to do when runway is short, whether to open Series A now, which term sheet lines to push back on, and how to stage the data room before and after the term sheet.
+This cluster covers nine decisions: how to get the first angel checks, how seed VCs decide, how to build the seed deck, which Seed instrument fits, whether venture debt belongs on top of a fresh round, what to do when runway is short, whether to open Series A now, which term sheet lines to push back on, and how to stage the data room before and after the term sheet.
 :::
 
 - [First angel check](/library/fundraising/first-angel-check/): find and close early angels. Warm intros, active-writer filter, raise ask, SAFE default, and angels vs funds live on the page.
 - [How seed VCs decide](/library/fundraising/how-seed-vcs-decide/): what seed investors weigh, how narrow the funnel is, and how to match proof to the fund’s bet. The Gompers et al. VC survey, the Bernstein et al. AngelList experiment, Graham, YC’s seed guide, and Carta pre-seed data live on the page.
+- [Seed pitch deck](/library/fundraising/seed-pitch-deck/): what each slide must answer, where investors spend their time, and which order to use. DocSend section timing, YC’s seed template, Hale’s slide design rules, and Sequoia’s outline live on the page.
 - [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/): pick post-money SAFE, priced equity, or a convertible note. YC mechanics and Carta instrument-mix by raise size live on the page.
 - [Venture debt](/library/fundraising/venture-debt/): decide whether a venture loan fits after an equity round, how much to borrow, and which terms to fight. SVB sizing, Kruze and Mercury cost bands, and Orrick on default clauses live on the page.
 - [When runway runs out](/library/fundraising/when-runway-runs-out/): diagnose snapshot vs default alive/dead, then cut burn, bridge or angel capital, extend with revenue, or orderly wind-down. Pair with the [runway calculator](/tools/runway-calculator/).
@@ -54,6 +56,8 @@ One fundraising question per row. Open the spoke for numbers and publisher sampl
 | Angels or a seed fund for this check? | Choosing check size, speed, and whether you need a board now | [First angel check](/library/fundraising/first-angel-check/) |
 | Which seed funds to pitch, and with what proof? | Seed outreach starting; fund theses differ on team, defensibility, or traction | [How seed VCs decide](/library/fundraising/how-seed-vcs-decide/) |
 | What will a seed VC weigh in the first meeting? | Deck and first-meeting prep; team slide, market path, and why now unclear | [How seed VCs decide](/library/fundraising/how-seed-vcs-decide/) |
+| What goes on each slide of the seed deck? | Deck draft before the first send; headlines read as labels, market slide sizes assets | [Seed pitch deck](/library/fundraising/seed-pitch-deck/) |
+| Which slide order: YC, Sequoia, or DocSend? | Choosing whether traction or the insight leads | [Seed pitch deck](/library/fundraising/seed-pitch-deck/) |
 | SAFE, priced Seed, or note? | Structuring Seed paper; lead asks for preferred stock or debt terms | [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/) |
 | How much ownership will stacked SAFEs sell? | Signing the next SAFE without a running total | [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/) |
 | Add venture debt after this round? | Equity round closed in the last few months; runway in hand; board asks about non-dilutive capital | [Venture debt](/library/fundraising/venture-debt/) |
@@ -69,7 +73,7 @@ One fundraising question per row. Open the spoke for numbers and publisher sampl
 | What to share pre- vs post–term sheet? | First meet vs partner pitch vs confirmatory legal | [Series A diligence checklist](/library/fundraising/series-a-diligence-checklist/) |
 | Metric definitions hang together? | Deck, model, and board pack still disagree on ARR, churn, or runway | Readiness and diligence spokes; fix the glossary before you open the room |
 
-Empty cells stay empty. Each row points at a spoke that already carries the cited numbers. A [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) session pushed the same pattern: close early angels with a clean filter and one instrument, pitch seed funds whose lens fits your proof, pick Seed paper that matches size and lead terms, triage short runway before a panic raise, score the machine with the bets named, open with cash to negotiate, and treat the room as an ops signal. That is session judgment, not a survey.
+Empty cells stay empty. Each row points at a spoke that already carries the cited numbers. A [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) session pushed the same pattern: close early angels with a clean filter and one instrument, pitch seed funds whose lens fits your proof, make each deck number match the model, pick Seed paper that matches size and lead terms, triage short runway before a panic raise, score the machine with the bets named, open with cash to negotiate, and treat the room as an ops signal. That is session judgment, not a survey.
 
 ## Stage sketch for the raise
 
@@ -80,6 +84,8 @@ Early: prove the machine and extend cash. Close to outreach: lock the glossary a
 **Closing first angel checks.** Warm intros and active writers before spray lists ([first angel check](/library/fundraising/first-angel-check/)). Default to a post-money SAFE; treat platforms as auxiliary once you have real leads.
 
 **Pitching seed funds.** Qualify each fund’s thesis, check size, and deployment before the pitch, lead with the team, and run each first meeting to earn the second ([how seed VCs decide](/library/fundraising/how-seed-vcs-decide/)).
+
+**Building the seed deck.** One takeaway per slide, revenue-based market size, and an ask tied to a milestone; send a short teaser and keep the appendix for the meeting ([seed pitch deck](/library/fundraising/seed-pitch-deck/)).
 
 **Structuring Seed paper.** Prefer a post-money SAFE unless a lead will price preferred stock now ([SAFE vs priced round](/library/fundraising/safe-vs-priced-round/)). Instrument mix and conversion traps live on that spoke. Keep early money on one instrument.
 
@@ -120,6 +126,7 @@ If the board asks burn, retention, or runway, use the [finance hub](/library/fin
 
 - [First angel check](/library/fundraising/first-angel-check/)
 - [How seed VCs decide](/library/fundraising/how-seed-vcs-decide/)
+- [Seed pitch deck](/library/fundraising/seed-pitch-deck/)
 - [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/)
 - [Venture debt](/library/fundraising/venture-debt/)
 - [When runway runs out](/library/fundraising/when-runway-runs-out/)

@@ -13,6 +13,7 @@ draft: false
 related:
 - library/fundraising
 - library/fundraising/first-angel-check
+- library/fundraising/seed-pitch-deck
 - library/fundraising/safe-vs-priced-round
 - library/fundraising/term-sheet-red-flags
 - library/fundraising/when-to-raise-series-a
@@ -165,6 +166,7 @@ Close early checks on [first angel check](/library/fundraising/first-angel-check
 ## Related
 
 - [Fundraising](/library/fundraising/)
+- [Seed pitch deck](/library/fundraising/seed-pitch-deck/)
 - [First angel check](/library/fundraising/first-angel-check/)
 - [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/)
 - [Term sheet red flags](/library/fundraising/term-sheet-red-flags/)
