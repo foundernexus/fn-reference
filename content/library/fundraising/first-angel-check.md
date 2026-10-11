@@ -14,6 +14,7 @@ related:
 - library/fundraising
 - library/fundraising/how-seed-vcs-decide
 - library/fundraising/seed-pitch-deck
+- library/fundraising/seed-fundraising-process
 - library/fundraising/safe-vs-priced-round
 - library/fundraising/when-runway-runs-out
 - library/fundraising/when-to-raise-series-a
@@ -142,6 +143,7 @@ Most first-check stalls come from weak targeting, mixed paper, or waiting on peo
 - [Fundraising](/library/fundraising/)
 - [How seed VCs decide](/library/fundraising/how-seed-vcs-decide/)
 - [Seed pitch deck](/library/fundraising/seed-pitch-deck/)
+- [Seed fundraising process](/library/fundraising/seed-fundraising-process/)
 - [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/)
 - [When to raise Series A](/library/fundraising/when-to-raise-series-a/)
 - [Series A diligence checklist](/library/fundraising/series-a-diligence-checklist/)

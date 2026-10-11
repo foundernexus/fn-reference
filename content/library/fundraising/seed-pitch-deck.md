@@ -13,6 +13,7 @@ draft: false
 related:
 - library/fundraising
 - library/fundraising/how-seed-vcs-decide
+- library/fundraising/seed-fundraising-process
 - library/fundraising/first-angel-check
 - library/fundraising/safe-vs-priced-round
 - library/fundraising/series-a-diligence-checklist
@@ -177,6 +178,7 @@ Learn what each fund weighs on [how seed VCs decide](/library/fundraising/how-se
 
 - [Fundraising](/library/fundraising/)
 - [How seed VCs decide](/library/fundraising/how-seed-vcs-decide/)
+- [Seed fundraising process](/library/fundraising/seed-fundraising-process/)
 - [First angel check](/library/fundraising/first-angel-check/)
 - [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/)
 - [Term sheet red flags](/library/fundraising/term-sheet-red-flags/)
