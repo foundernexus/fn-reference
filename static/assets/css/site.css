@@ -72,6 +72,12 @@ a:hover { color: var(--blue-hover); }
   outline-offset: 2px;
 }
 
+/* Brand text selection: pale chip blue with navy text (default OS blue clashes with #0072BA links). */
+::selection {
+  background: var(--chip);
+  color: var(--navy);
+}
+
 /* Skip link: fully off-canvas until keyboard focus. The old top:-40px left a
    4px navy sliver at the top-left of every page (link box is ~44px tall). */
 .skip {
