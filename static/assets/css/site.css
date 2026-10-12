@@ -243,6 +243,7 @@ h2, .h2 {
   letter-spacing: -0.015em;
   margin: 56px 0 16px;
   color: var(--navy);
+  text-wrap: balance; /* no one-word orphan lines on long section headings */
 }
 .prose h2 {
   margin: 64px 0 18px;
@@ -265,6 +266,7 @@ h3, .h3 {
   line-height: 1.35;
   margin: 32px 0 10px;
   color: var(--navy);
+  text-wrap: balance;
 }
 h4, .h4 {
   font-size: 16px;
