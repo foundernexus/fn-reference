@@ -1,6 +1,6 @@
 ---
 title: Finance, metrics & runway
-description: Put the right efficiency, retention, and runway reads in front of the board. Orient burn multiple, Rule of 40, NRR/GRR, magic number, and the CFO seat.
+description: Put the right efficiency, retention, and runway reads in front of the board. Orient burn multiple, Rule of 40, NRR/GRR, magic number, the ARR definition, and the CFO seat.
 slug: finance
 section: library
 cluster: finance
@@ -11,24 +11,26 @@ disclaimer: not-legal-tax
 draft: false
 ---
 
-Early boards live on burn multiple, runway with a hiring plan, and whether you are default alive. Retention slides need GRR beside NRR so expansion cannot mask a leaky base. Later boards add Rule of 40 with an explicit profit definition, and magic number / CAC payback when GTM efficiency is the question. At Series A you usually need CFO-level work before you need a full-time CFO. Pick the spoke or tool for the decision in front of you. Not legal, tax, or investment advice.
+Early boards live on burn multiple, runway with a hiring plan, and whether you are default alive. Retention slides need GRR beside NRR so expansion cannot mask a leaky base. ARR needs one written definition: subscription fees and minimum commits in, usage above the commit on its own labeled line. Later boards add Rule of 40 with an explicit profit definition, and magic number / CAC payback when GTM efficiency is the question. At Series A you usually need CFO-level work before you need a full-time CFO. Pick the spoke or tool for the decision in front of you. Not legal, tax, or investment advice.
 
 :::takeaways
 - Still burning (Seed to early growth): lead with burn multiple trend (Sacks). Snapshot runway is cash ÷ net burn (Kruze). Ask default alive with the hire ladder typed in (Paul Graham).
 - Retention: put GRR, NRR, and growth on one page (Wallington via ChartMogul). SaaS Capital 2023 median NRR 102% / GRR 91% is a different sample from ChartMogul Dec 2025 median NRR 82%. Show them on separate rows.
 - Approaching scale: add Rule of 40 (Feld; Bessemer popularized for cloud). Early negative-FCF: Bessemer prefers burn multiple ~1×–1.5× over Rule of X theater.
 - GTM efficiency: magic number (Scale long-term median 0.7) beside gross-margin CAC payback (ChartMogul; Bessemer segment targets <12 / <18 / <24 mo).
+- ARR definition: count subscriptions and recurring minimum commits. Show usage above the commit as a labeled usage run-rate with its window, and use the same definition in the deck, model, and board pack.
 - Finance seat: Series A generally fractional first (Kruze). Upgrade when interaction is constant or you hit the ARR / sequence window peers name (Bessemer; Majhi).
 :::
 
 ## Spokes in this cluster
 
 :::highlight
-This cluster covers three decisions: how to balance efficiency against scale, how to report retention without masking churn, and when to hire a full-time CFO.
+This cluster covers four decisions: how to balance efficiency against scale, how to report retention without masking churn, what counts as ARR when customers pay for usage, and when to hire a full-time CFO.
 :::
 
 - [Burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/): Burn multiple = net burn ÷ net new ARR (Sacks / Craft, April 2020). Rule of 40 = growth % + profit % (Feld, February 2015). Early pack: burn trend. Later: add Rule of 40 and say which profit. Bessemer’s Rule of X is a late-stage valuation frame, not a Seed slide.
 - [NRR vs GRR for the board pack](/library/finance/nrr-vs-grr-board-pack/): GRR is the leak check (capped at 100%). NRR includes expansion and can exceed 100%. ChartMogul formulas; SaaS Capital and Bessemer bands stay on separate rows. If GRR is 70% and NRR looks strong, expansion is hiding churn.
+- [Does usage revenue count as ARR?](/library/finance/usage-revenue-as-arr/): only up to the contract’s commit. Subscription fees and recurring minimum commits are ARR. Usage above the commit, pay-as-you-go, pilots, credits, and services go on separate lines. Write a one-page ARR policy and state the annualization window.
 - [Fractional vs full-time CFO](/library/finance/fractional-vs-full-time-cfo/): at Series A you need the model, board pack, and raise prep. Kruze: usually not a full-time CFO yet. Bessemer community: many CFOs land at $10M–$25M ARR. Majhi B2B SaaS: often months 12–24 after A, or pre-B.
 
 ## Tools in this cluster
@@ -52,6 +54,7 @@ One board question per row. Do not average publishers that disagree on stage or 
 | How much cash per dollar of net new ARR? | Burn multiple (net burn ÷ net new ARR) | Seed to early growth while still burning | [Burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/) |
 | Growth + margin at scale? | Rule of 40 (say which profit); Rule of X only in late-stage valuation talk | Approaching scale / later raise narrative | [Burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/) |
 | Is the base leaky under expansion? | GRR + NRR + growth on one page | Any recurring-revenue board with expansion stories | [NRR vs GRR for the board pack](/library/finance/nrr-vs-grr-board-pack/) |
+| Does our AI usage revenue count as ARR? | Committed ARR + labeled usage run-rate + pilots + services as separate lines | Any board or raise where customers pay for usage | [Usage revenue as ARR](/library/finance/usage-revenue-as-arr/) |
 | How many months of cash with this hire plan? | Snapshot runway; trajectory with hires; default alive / dead | Before a hire wave or a raise clock | [Runway calculator](/tools/runway-calculator/) |
 | Is GTM spend efficient this quarter? | Magic number + CAC payback months | When S&M ramp or segment payback is the debate | [Magic number & CAC payback calculator](/tools/magic-number-cac-payback-calculator/) |
 | Do we need a full-time CFO yet? | Fractional vs full-time (workload, complexity, ARR / sequence window) | Series A finance build; pre-B upgrade talk | [Fractional vs full-time CFO](/library/finance/fractional-vs-full-time-cfo/) |
@@ -68,7 +71,7 @@ Early: show the cash cost of growth and the cash left. Later: add margin balance
 
 **Growth / later raise prep.** Keep burn multiple while you are still cash-negative. Add Rule of 40 with an explicit profit definition (Feld prefers EBITDA; Bessemer often uses FCF margin in Rule of X). Bessemer: early negative-FCF companies should prefer an attractive burn multiple (~1×–1.5×); Rule of X is less relevant there.
 
-**Any recurring-revenue board.** Show GRR and NRR for the same cohort and period. SaaS Capital (2023, >$1M ARR): median NRR 102%, median GRR 91%; table stakes GRR at least ~90%. Label Bessemer SotC 2019 segment aims and ChartMogul Dec 2025 medians by source. Do not average 102% with 82%.
+**Any recurring-revenue board.** Show GRR and NRR for the same cohort and period. SaaS Capital (2023, >$1M ARR): median NRR 102%, median GRR 91%; table stakes GRR at least ~90%. Label Bessemer SotC 2019 segment aims and ChartMogul Dec 2025 medians by source. Do not average 102% with 82%. If customers pay for usage, run retention on committed ARR and show usage run-rate on its own line ([usage revenue as ARR](/library/finance/usage-revenue-as-arr/)).
 
 **GTM debate on the table.** Magic number with prior-quarter S&M in the denominator. CAC payback on gross margin. Show Scale’s 0.7 median and ChartMogul’s ~0.75 / ~0.5 bands as separate rows.
 
@@ -93,6 +96,7 @@ Early: show the cash cost of growth and the cash left. Later: add margin balance
 
 - [Burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/)
 - [NRR vs GRR for the board pack](/library/finance/nrr-vs-grr-board-pack/)
+- [Does usage revenue count as ARR?](/library/finance/usage-revenue-as-arr/)
 - [Fractional vs full-time CFO](/library/finance/fractional-vs-full-time-cfo/)
 - [Runway calculator with hiring plan](/tools/runway-calculator/)
 - [Magic number & CAC payback calculator](/tools/magic-number-cac-payback-calculator/)

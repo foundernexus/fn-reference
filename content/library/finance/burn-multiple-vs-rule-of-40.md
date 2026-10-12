@@ -131,6 +131,7 @@ Most wasted meetings come from the wrong stage metric, mixed periods, or GAAP nu
 ## Related
 
 - [Finance, metrics & runway](/library/finance/)
+- [Does usage revenue count as ARR?](/library/finance/usage-revenue-as-arr/)
 - [Library](/library/)
 - [When to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/)
 - [Series A leadership hiring sequence](/library/hiring/series-a-leadership-hiring-sequence/)

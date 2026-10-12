@@ -22,6 +22,7 @@ related:
 - library/finance/nrr-vs-grr-board-pack
 - tools/runway-calculator
 - library/hiring/series-a-leadership-hiring-sequence
+- library/finance/usage-revenue-as-arr
 ---
 
 You are deciding when to build the Series A data room: before outreach, or after someone sends a term sheet. Seed diligence bets on a team and a thesis. Series A diligence verifies a machine. Investors rebuild your cohorts from raw data, match revenue to contracts, and stress-test the forecast assumption by assumption. A messy room slows the lawyers and tells investors your operations are weak. Not legal or tax advice.
