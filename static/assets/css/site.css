@@ -1157,3 +1157,7 @@ input:focus, select:focus {
 .prose h2#sources + ul > li:first-child::before { top: 4px; }
 .prose h2#sources + ul > li strong { color: var(--navy); }
 .prose h2#sources + ul > li a { font-weight: 500; }
+
+/* Anchor jumps: give linked section headings breathing room instead of landing flush at the viewport edge. */
+.prose h2[id],
+.prose h3[id] { scroll-margin-top: 28px; }
