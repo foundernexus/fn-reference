@@ -15,6 +15,7 @@ related:
 - tools/magic-number-cac-payback-calculator
 - tools/runway-calculator
 - library/finance/usage-revenue-as-arr
+- library/finance/ai-gross-margin-inference-cogs
 ---
 
 GRR answers how much recurring revenue you keep from a starting cohort with zero credit for expansion. NRR answers whether that same cohort’s revenue grows after expansion, contraction, and churn. Boards need both. NRR alone can hide a leaky base. Not legal, tax, or investment advice.

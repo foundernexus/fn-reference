@@ -14,6 +14,7 @@ draft: false
 related:
 - library/finance/burn-multiple-vs-rule-of-40
 - tools/runway-calculator
+- library/finance/ai-gross-margin-inference-cogs
 ---
 
 Enter prior and current quarter recurring revenue plus prior-quarter sales and marketing spend for the magic number. Enter CAC, monthly ARPA, and gross margin for payback months. You get both reads on one page so the board sees efficiency and cash recovery together. Not legal, tax, or investment advice.

@@ -15,6 +15,7 @@ related:
 - library/gtm/market-ai-product-without-saying-ai
 - library/gtm/ai-sdr-vs-human
 - library/finance/usage-revenue-as-arr
+- library/finance/ai-gross-margin-inference-cogs
 ---
 
 You are choosing what you bill for: a seat, a token, a workflow task, or a successful outcome. That choice sets GTM and margin, so treat it as more than a Stripe setting. Bessemer’s AI pricing playbook (Feb 10, 2026) is the named public spine: copilots lean seat or consumption; agents lean workflow or outcome; hybrid (base fee plus usage or outcome tiers) is the early-stage middle ground when you are still learning cost variance.

@@ -17,6 +17,7 @@ related:
 - library/fundraising/series-a-diligence-checklist
 - library/finance/burn-multiple-vs-rule-of-40
 - library/gtm/pilot-to-paid-contract
+- library/finance/ai-gross-margin-inference-cogs
 ---
 
 Usage revenue counts as ARR only up to what the contract commits. Subscription fees and recurring minimum commits are ARR. Usage above the commit, pay-as-you-go consumption, pilots, credits, and services go on separate, labeled lines. Burkland’s 2026 playbook for AI startups puts it in one rule: if you cannot tie a dollar to a renewable contractual commitment, call it run-rate, bookings, services, or pipeline. Investors rebuild your ARR in diligence. If the number shifts between the deck and the data room, expect them to discount all of it. Not legal, tax, or investment advice.

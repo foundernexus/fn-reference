@@ -10,6 +10,13 @@ date: 2026-09-09
 close: Your board will judge capital efficiency. Founders who have defended a burn-multiple turn or a Rule of 40 path in a raise will pressure-test your board pack in a FounderNexus session.
 disclaimer: not-legal-tax
 draft: false
+related:
+- library/finance
+- library/finance/nrr-vs-grr-board-pack
+- library/finance/usage-revenue-as-arr
+- library/finance/ai-gross-margin-inference-cogs
+- tools/magic-number-cac-payback-calculator
+- tools/runway-calculator
 ---
 
 Burn multiple answers how much cash you spend for each dollar of net new ARR. Rule of 40 answers whether growth plus margin clears 40%. Early boards run on the first, and later boards add the second. Keep each one at its stage. Not legal, tax, or investment advice.
