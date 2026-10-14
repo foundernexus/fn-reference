@@ -108,3 +108,4 @@ Early: show the cash cost of growth and the cash left. Later: add margin balance
 - [Magic number & CAC payback calculator](/tools/magic-number-cac-payback-calculator/)
 - [Series A leadership hiring sequence](/library/hiring/series-a-leadership-hiring-sequence/)
 - [Hiring executives](/library/hiring/)
+- [Monthly investor update template](/library/board/monthly-investor-update/)

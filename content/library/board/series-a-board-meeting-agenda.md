@@ -13,6 +13,7 @@ related:
 - library/finance/nrr-vs-grr-board-pack
 - library/finance/burn-multiple-vs-rule-of-40
 - tools/runway-calculator
+- library/board/monthly-investor-update
 ---
 
 You lead a Series A board meeting as a working session, and you are not pitching your investors. Send a decision-first pack several days ahead. Open with highlights and lowlights, put the hardest decision early, and batch routine votes into a consent agenda. End with a closed session and named owners. Not legal advice on fiduciary process.
@@ -151,6 +152,7 @@ Status theater, late packs, and soft asks waste most board meetings.
 
 ## Related
 
+- [Monthly investor update template](/library/board/monthly-investor-update/)
 - [NRR vs GRR for the board pack](/library/finance/nrr-vs-grr-board-pack/)
 - [Burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/)
 - [Runway calculator with hiring plan](/tools/runway-calculator/)

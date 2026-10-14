@@ -1,6 +1,6 @@
 ---
 title: Board & governance
-description: Structure the Series A board, fill the independent seat with a real operator, and run decision-first meetings. Orient composition, cadence, and the pack.
+description: Structure the Series A board, fill the independent seat with a real operator, run decision-first meetings, and send a monthly investor update between meetings. Orient composition, cadence, pack, and the update.
 slug: board
 section: library
 cluster: board
@@ -11,12 +11,13 @@ disclaimer: not-legal-tax
 draft: false
 ---
 
-At Series A, you formalize the board. Seed boards are often founders plus at most one lead. After A, common shapes are 1–1–1 or 2–2–1 with a mutually approved independent as the swing vote. Meet every 6–8 weeks for about 2–3 hours. Send a decision-first pack days ahead, put the hard ask early, batch routine votes, and end with a closed session. Not legal, tax, or compensation advice.
+At Series A, you formalize the board. Seed boards are often founders plus at most one lead. After A, common shapes are 1–1–1 or 2–2–1 with a mutually approved independent as the swing vote. Meet every 6–8 weeks for about 2–3 hours. Send a decision-first pack days ahead, put the hard ask early, batch routine votes, and end with a closed session. Between meetings, send a short monthly investor update in a fixed order so the cap table stays warm without turning email into a board. Not legal, tax, or compensation advice.
 
 :::takeaways
 - Structure: seed boards are often three voting seats (founders plus lead). Series A commonly expands to three to five (CRV). Post–A norms include 1–1–1 or 2–2–1 with a mutually agreed independent.
 - Independent: Series A is the usual trigger (CRV). Drive the shortlist yourself. Equity is typically under 1%, with Carta medians 0.50% seed / 0.40% Series A / 0.30% Series B for independents only.
 - Cadence: every 6–8 weeks, about 2–3 hours (Lightspeed / Unusual). Pack ≥48 hours ahead (Feld) or 5–7 days on a fuller pack (CRV).
+- Between meetings: short monthly investor update in a fixed order (TL;DR, KPIs, highlights, lowlights, asks, cash/burn/runway, shout-outs). See [monthly investor update](/library/board/monthly-investor-update/).
 - Live time: hard decision first after a short open. Updates are not decisions ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Consent agenda for routine votes. Closed session at the end.
 - Pack metrics: runway, burn, plan vs actual, and retention without masking live on the [finance hub](/library/finance/). Do not rebuild formulas in the room.
 :::
@@ -24,11 +25,12 @@ At Series A, you formalize the board. Seed boards are often founders plus at mos
 ## Spokes in this cluster
 
 :::highlight
-This cluster covers two decisions: who sits and votes, and how you run the room once they do.
+This cluster covers three governance habits: who sits and votes, how you run the room, and how you keep investors informed between meetings.
 :::
 
 - [When to add an independent director (who and equity)](/library/board/when-to-add-independent-director/): Series A is the standard trigger (CRV). Fill the tie-break with a former operator who will disagree with both sides. Carta medians for independent grants: 0.50% seed / 0.40% Series A / 0.30% Series B. CRV: typically under 1%, vest 2–4 years. Cash usually waits until ~Series B.
 - [How to run a Series A board meeting](/library/board/series-a-board-meeting-agenda/): a decision-first pack, a highlights/lowlights open, the hard item early, a consent agenda, and a closed session. Includes a timed ~2.5 hour composite from Feld’s three-block structure plus Lightspeed’s open and CRV’s decision wording.
+- [Monthly investor update template](/library/board/monthly-investor-update/): short monthly email in a fixed order (TL;DR, same KPIs, highlights, lowlights with the fix, asks, cash/burn/runway, shout-outs). Warp/YC + Founder Collective skeleton with Visible cadence benchmarks on the spoke. Keeps investors warm between meetings; not a substitute for the board pack.
 
 ## Which decision → when → where
 
@@ -45,6 +47,8 @@ One governance question per row. Do not average publishers that disagree on stag
 | How often and how long do we meet? | Every 6–8 weeks; about 2–3 hours | First Series A board onward | [How to run a Series A board meeting](/library/board/series-a-board-meeting-agenda/) |
 | What goes in the pack vs live? | Pack days ahead (Feld ≥48h; CRV 5–7 days). Live: open, hard decisions, consent, closed session | Every meeting | [How to run a Series A board meeting](/library/board/series-a-board-meeting-agenda/) |
 | Which metrics belong in the pre-read? | Cash, runway, burn, plan vs actual, GRR beside NRR | Standing finance slides | [Finance, metrics & runway](/library/finance/) |
+| How do I keep investors informed between meetings? | Short monthly email: TL;DR, same KPIs, highlights, lowlights + fix, asks, cash/burn/runway, shout-outs | Every month between board meetings | [Monthly investor update](/library/board/monthly-investor-update/) |
+| Update email or board pack? | Email for continuity; pack + room for decisions (updates ≠ decisions) | Between meetings vs meeting week | [Monthly investor update](/library/board/monthly-investor-update/); [How to run a Series A board meeting](/library/board/series-a-board-meeting-agenda/) |
 
 Empty cells stay empty. Each row comes from a different publisher and answers a different board question. A [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) session made the same two points: updates are not decisions, and you drive the independent shortlist yourself. That is session judgment, not a survey.
 
@@ -54,11 +58,11 @@ Empty cells stay empty. Each row comes from a different publisher and answers a 
 Seed: keep it light. Series A: negotiate seats, then run a working session. Later: expect committees and cash retainers.
 :::
 
-**Seed.** CRV: most seed boards are two founder-elected seats and at most one lead-investor seat. Formalizing an independent too early adds fiduciary weight before you need it. Build candidate relationships so a name is ready for A.
+**Seed.** CRV: most seed boards are two founder-elected seats and at most one lead-investor seat. Formalizing an independent too early adds fiduciary weight before you need it. Build candidate relationships so a name is ready for A. Start a monthly investor update early so angels and the lead stay warm ([monthly investor update](/library/board/monthly-investor-update/)).
 
 **Series A close.** Composition is a closing condition. Leading startup law firms (via CRV) describe common post–A boards as three people (1–1–1) or five (2–2–1). Boards often leave the independent vacant at close; during the vacancy the board sits at founder–investor parity, and whoever picks the fill picks the swing vote. Enter negotiations with a candidate identified and mutual approval in the voting agreement (CRV).
 
-**First meetings after A.** CEO owns agenda, pack, logistics, and follow-up at seed and Series A (CRV). Lightspeed / Unusual: every 6–8 weeks, about 2–3 hours, for strategy and plan quality, not a progress report. Feld: reverse the default ~80% status / ~10% strategy split. Put the hardest live item first after a short open ([how to run a Series A board meeting](/library/board/series-a-board-meeting-agenda/)).
+**First meetings after A.** CEO owns agenda, pack, logistics, and follow-up at seed and Series A (CRV). Lightspeed / Unusual: every 6–8 weeks, about 2–3 hours, for strategy and plan quality, not a progress report. Feld: reverse the default ~80% status / ~10% strategy split. Put the hardest live item first after a short open ([how to run a Series A board meeting](/library/board/series-a-board-meeting-agenda/)). Between meetings, keep the monthly update on the same KPI definitions as the pack ([monthly investor update](/library/board/monthly-investor-update/)).
 
 **Series B and beyond.** CRV: by Series B, missing an independent is a recognizable governance gap. Independents also show up on related-party review and on audit and compensation committees. Cash retainers become more common around here; early-stage pay is mostly equity (Boardspan / Paul Jones; CRV).
 
@@ -87,6 +91,7 @@ Independent grants draw on the same option pool as VP offers. Size bottoms-up wi
 
 - [When to add an independent director (who and equity)](/library/board/when-to-add-independent-director/)
 - [How to run a Series A board meeting](/library/board/series-a-board-meeting-agenda/)
+- [Monthly investor update template](/library/board/monthly-investor-update/)
 - [Finance, metrics & runway](/library/finance/)
 - [Series A leadership hiring sequence](/library/hiring/series-a-leadership-hiring-sequence/)
 - [Hiring executives](/library/hiring/)

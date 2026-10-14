@@ -14,6 +14,7 @@ related:
 - library/board/series-a-board-meeting-agenda
 - library/equity/executive-grants-by-stage
 - library/equity/option-pool-from-hiring-plan
+- library/board/monthly-investor-update
 ---
 
 An independent director is a voting board member who is neither an employee nor an investor representative. The seat usually becomes standard at Series A. Pick for judgment and for the gaps on your board, not for brand. Equity is typically under 1% of outstanding shares, vested over two to four years. Cash retainers usually wait until later. Not legal or compensation advice.
@@ -101,5 +102,6 @@ Board control comes from seats. If investors fill the swing seat, you lose contr
 ## Related
 
 - [How to run a Series A board meeting](/library/board/series-a-board-meeting-agenda/)
+- [Monthly investor update template](/library/board/monthly-investor-update/)
 - [How much equity to give a VP of Sales (by stage)](/library/equity/executive-grants-by-stage/)
 - [Size the option pool from a hiring plan](/library/equity/option-pool-from-hiring-plan/)
