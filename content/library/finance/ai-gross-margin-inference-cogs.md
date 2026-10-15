@@ -12,6 +12,7 @@ disclaimer: not-legal-tax
 draft: false
 related:
 - library/finance
+- tools/ai-gross-margin-calculator
 - library/finance/usage-revenue-as-arr
 - library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas
 - library/finance/burn-multiple-vs-rule-of-40
@@ -169,6 +170,7 @@ In diligence, the gross margin bridge goes in the financials folder next to the 
 ## Related
 
 - [Finance, metrics & runway](/library/finance/)
+- [AI gross margin calculator](/tools/ai-gross-margin-calculator/)
 - [Does usage revenue count as ARR?](/library/finance/usage-revenue-as-arr/)
 - [Seat vs usage vs outcome pricing for AI SaaS](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/)
 - [Burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/)
