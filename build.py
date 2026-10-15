@@ -1127,6 +1127,24 @@ def calculator_mount_and_js(page: dict) -> tuple[str, str | None]:
     return mount_html, js
 
 
+def calculator_prose(body_md: str, mount_html: str) -> str:
+    """Render page prose. On calculator pages, put the tool right after the lede and
+    In short block (before the first ## section) so it sits on the first scroll
+    instead of below Sources. Pages without a ## heading keep the tool at the end."""
+    if not mount_html:
+        return render_markdown(body_md)
+    m = re.search(r"(?m)^## ", body_md)
+    if not m:
+        return render_markdown(body_md) + "\n" + mount_html
+    return (
+        render_markdown(body_md[: m.start()])
+        + "\n"
+        + mount_html
+        + "\n"
+        + render_markdown(body_md[m.start() :])
+    )
+
+
 def render_home(pages: list[dict]) -> str:
     latest = sorted(content_pages(pages), key=lambda p: p["date"], reverse=True)
     cluster_cards = []
@@ -1336,6 +1354,7 @@ def render_article(page: dict, by_key: dict[str, dict]) -> str:
         kicker = cluster["title"] if cluster else sec["kicker"]
         active = section
     extra, extra_js = calculator_mount_and_js(page)
+    prose_html = calculator_prose(page["_body"], extra)
     sentence = page.get("close") or page.get("cta_sentence") or ""
     close_html = article_close(sentence)
     related = related_block(page, by_key)
@@ -1352,8 +1371,7 @@ def render_article(page: dict, by_key: dict[str, dict]) -> str:
     </div>
   </section>
   <article class="prose article-width">
-    {render_markdown(page['_body'])}
-    {extra}
+    {prose_html}
     {close_html}
   </article>
   {related}

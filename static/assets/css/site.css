@@ -941,7 +941,7 @@ input:focus, select:focus {
   padding: 8px 0 80px;
 }
 
-.calc-mount { margin: 32px 0 8px; }
+.calc-mount { margin: 32px 0 48px; }
 #eq-form {
   background: var(--white);
   border: 1px solid var(--border-subtle);
