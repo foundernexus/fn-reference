@@ -765,6 +765,18 @@ caption {
   line-height: 1.55;
 }
 .steps ol > li:last-child { margin-bottom: 0; }
+/* Sequence rail: a thin chip-blue connector from each step number down to the next card,
+   so a :::steps stack reads as one ordered path rather than loose cards. Last step has none. */
+.steps ol > li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 25px;
+  top: 38px;
+  bottom: -15px;
+  width: 2px;
+  background: var(--chip);
+  pointer-events: none;
+}
 .steps ol > li::before {
   content: counter(fd-step);
   position: absolute;
