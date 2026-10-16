@@ -16,6 +16,7 @@ related:
 - tools/magic-number-cac-payback-calculator
 - library/finance/usage-revenue-as-arr
 - library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas
+- library/gtm/price-ai-features-inference-cost
 - library/finance/burn-multiple-vs-rule-of-40
 ---
 
@@ -101,7 +102,7 @@ Founders in a [FounderNexus](https://www.foundernexus.com?utm_source=founderdeci
 
 Murray names two levers. Pricing discipline: companies that package and charge for AI usage have better margins than those that absorb it into the base subscription. Model routing: send most tasks to smaller, cheaper models and escalate only the hard cases to frontier models. Bessemer’s pricing playbook adds a third. Each AI query has a real compute cost, so track true costs from day one and price to cover them.
 
-The calculator gives you the numbers for each lever. The heavy-cohort line tells you where usage pricing or caps would land. The per-user budget at target is the ceiling for routing work. The revenue lift tells you how far a price change has to go if costs stay put. The [seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/) page compares the pricing models.
+The calculator gives you the numbers for each lever. The heavy-cohort line tells you where usage pricing or caps would land. The per-user budget at target is the ceiling for routing work. The revenue lift tells you how far a price change has to go if costs stay put. The [seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/) page compares the pricing models. To turn the per-user budget into a price, an allowance, and an overage rate, use [how to price AI features to cover inference cost](/library/gtm/price-ai-features-inference-cost/).
 
 ## Before you put the number in the board pack
 

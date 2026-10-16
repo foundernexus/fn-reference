@@ -11,6 +11,7 @@ close: Founders who have picked a charge metric and a hybrid shape for an AI pro
 draft: false
 related:
 - library/gtm
+- library/gtm/price-ai-features-inference-cost
 - library/gtm/pilot-to-paid-contract
 - library/gtm/market-ai-product-without-saying-ai
 - library/gtm/ai-sdr-vs-human
@@ -108,6 +109,8 @@ Bessemer’s early-stage formula:
 
 Friction test they describe: start at a price. If buyers say “sold” instantly, raise it. Stop short of the point where price becomes a real blocker. Bessemer says multi-billion-dollar companies found their sweet spots this way over years five to ten, through buyer friction rather than a spreadsheet.
 
+Once the charge metric is set, size the allowance and price the overage against your inference cost per unit: [how to price AI features to cover inference cost](/library/gtm/price-ai-features-inference-cost/).
+
 Stay hybrid while reliability is still climbing. Move toward pure outcome only when the success definition is unambiguous and you can absorb the long-tail compute cases ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): seats for humans, outcomes for agents when the product closes the loop on its own).
 
 ## Soft ROI, hard ROI, and the 2026 renewal cliff
@@ -148,5 +151,6 @@ Labeled sketches. Thresholds and dollar examples are Bessemer’s, not invented 
 
 ## Related
 
+- [How to price AI features to cover inference cost](/library/gtm/price-ai-features-inference-cost/)
 - [How to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/)
 - [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/)

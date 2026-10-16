@@ -1,6 +1,6 @@
 ---
 title: Go-to-market
-description: Pick the GTM decision in front of you. Orient AI SDR, messaging, pricing, AEO, founder PR, data moats, and coding-agent bets.
+description: Pick the GTM decision in front of you. Orient AI SDR, messaging, pricing, AI feature pricing against inference cost, AEO, founder PR, data moats, and coding-agent bets.
 slug: gtm
 section: library
 cluster: gtm
@@ -15,7 +15,7 @@ AI GTM for a Seed–Series B startup is a stack of separate decisions, not one p
 :::takeaways
 - Motion: put AI on research and drafts; keep a person on inbound that matters and on the close (SaaStr; Bridge Group; FounderNexus session). See [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/).
 - Message: lead with the job and economic outcome; put the model in the how (Bessemer; Gartner agent-washing warning). See [how to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/).
-- Price: seats for copilots beside humans; usage or outcomes for agents that close the loop; hybrid while you learn cost variance (Bessemer AI pricing). See [seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/).
+- Price: seats for copilots beside humans; usage or outcomes for agents that close the loop; hybrid while you learn cost variance (Bessemer AI pricing). See [seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/). Then cover inference: floor from cost, price from value, an allowance for typical use, and metered overage above it ([price AI features to cover inference cost](/library/gtm/price-ai-features-inference-cost/)).
 - Distribution: keep bottom-funnel SEO as the revenue path; put AEO on category answers buyers ask before they hit the site (Google). DIY the founder narrative before a retainer (YC Seibel; Muck Rack).
 - Defensibility and delivery: a data moat needs a compounding loop, not a log pile (a16z; Bessemer; Sequoia). Coding agents do not 10x the company if review, test, and ops stay the bottleneck (Amdahl; Atlassian; Faros; METR).
 :::
@@ -23,12 +23,13 @@ AI GTM for a Seed–Series B startup is a stack of separate decisions, not one p
 ## Spokes in this cluster
 
 :::highlight
-Eight decisions. One spoke each. Open the page that matches the question on your desk.
+Nine decisions. One spoke each. Open the page that matches the question on your desk.
 :::
 
 - [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/): whether a product can replace a seat. Score AI on quota, ramp, and pipeline. Bridge Group 2025 human SDR baselines and SaaStr founder-led sequence live on the page.
 - [How to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/): hero and deck lead with job and outcome. Bessemer on AI as means; Gartner on agent washing.
 - [Seat vs usage vs outcome pricing for AI SaaS](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/): charge metric before scale. Bessemer copilots vs agents, hybrid bridge, and named outcome examples live on the page.
+- [How to price AI features to cover inference cost](/library/gtm/price-ai-features-inference-cost/): cost floor per unit, package choice, allowance and overage, and repricing with notice. Growth Unhinged survey figures and GitHub, Cursor, Notion, and Salesforce price changes live on the page.
 - [AEO vs SEO for B2B SaaS startups](/library/gtm/aeo-vs-seo-b2b-saas/): split writer hours between converting pages and citation-ready category answers. Google treats AEO as still SEO.
 - [DIY founder PR: own the narrative before you hire an agency](/library/gtm/diy-founder-pr-narrative/): founder narrative and reporter list first. YC Seibel, Muck Rack 2026, and retainer ranges live on the page.
 - [Data moat for AI startups](/library/gtm/data-moat-ai-startup/): scarce, outcome-linked loop vs scale theater. a16z, Bessemer Vertical AI, and Sequoia on the page.
@@ -46,6 +47,7 @@ One GTM question per row. Open the spoke for numbers and publisher samples. Do n
 | Can an AI SDR replace a hire? | Buying outreach tools before the motion is clear | [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/) |
 | What does the homepage lead with? | Rewriting hero, deck, or outbound for an AI product | [Market AI without saying AI](/library/gtm/market-ai-product-without-saying-ai/) |
 | Seat, usage, or outcome? | Picking the charge metric before you scale deals | [Seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/) |
+| Does the price cover inference? | Launching or repricing an AI feature with uneven usage | [Price AI features to cover inference cost](/library/gtm/price-ai-features-inference-cost/) |
 | SEO hours or answer-engine hours? | Allocating scarce content time in 2026 | [AEO vs SEO for B2B SaaS](/library/gtm/aeo-vs-seo-b2b-saas/) |
 | DIY PR or a retainer? | First pitches, or before signing agency spend | [DIY founder PR](/library/gtm/diy-founder-pr-narrative/) |
 | Is our data a moat? | Pitch says proprietary data; board asks what compounds | [Data moat for AI startups](/library/gtm/data-moat-ai-startup/) |
@@ -99,6 +101,7 @@ If the debate is when the first VP of Sales lands, use [when to hire the first V
 - [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/)
 - [How to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/)
 - [Seat vs usage vs outcome pricing for AI SaaS](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/)
+- [How to price AI features to cover inference cost](/library/gtm/price-ai-features-inference-cost/)
 - [AEO vs SEO for B2B SaaS startups](/library/gtm/aeo-vs-seo-b2b-saas/)
 - [DIY founder PR: own the narrative before you hire an agency](/library/gtm/diy-founder-pr-narrative/)
 - [Data moat for AI startups](/library/gtm/data-moat-ai-startup/)

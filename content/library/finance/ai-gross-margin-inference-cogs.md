@@ -15,6 +15,7 @@ related:
 - tools/ai-gross-margin-calculator
 - library/finance/usage-revenue-as-arr
 - library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas
+- library/gtm/price-ai-features-inference-cost
 - library/finance/burn-multiple-vs-rule-of-40
 - library/finance/nrr-vs-grr-board-pack
 - library/fundraising/series-a-diligence-checklist
@@ -139,7 +140,7 @@ Murray’s action list, in order, with the board steps added at the end.
 3. **Open the GL accounts.** Inference, model hosting, AI infrastructure layer, AI monitoring, and AI support, tagged to DevOps or an AI COGS cost center (Murray).
 4. **Classify each line.** Use the table above. Write your training and labeling position, and agree any capitalization with your auditor.
 5. **Segment heavy users.** Calculate AI cost per user and per workflow, split average users from power users (Murray).
-6. **Price or absorb.** Decide whether you charge for AI usage. Murray: companies that package and charge for AI usage have better margins than those that absorb it. See [seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/).
+6. **Price or absorb.** Decide whether you charge for AI usage. Murray: companies that package and charge for AI usage have better margins than those that absorb it. See [seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/) and [how to price AI features to cover inference cost](/library/gtm/price-ai-features-inference-cost/).
 7. **Write one policy.** One page: which costs sit in COGS, the cohort cut, the per-unit denominator. Use it in the deck, model, board pack, and data room.
 8. **Restate the trend.** Rebuild prior months on the new rule so the board sees one consistent line.
 9. **Dry-run with the board.** Walk one board member or an outside finance lead from the headline margin to the GL accounts before the meeting.
@@ -173,6 +174,7 @@ In diligence, the gross margin bridge goes in the financials folder next to the 
 - [AI gross margin calculator](/tools/ai-gross-margin-calculator/)
 - [Does usage revenue count as ARR?](/library/finance/usage-revenue-as-arr/)
 - [Seat vs usage vs outcome pricing for AI SaaS](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/)
+- [How to price AI features to cover inference cost](/library/gtm/price-ai-features-inference-cost/)
 - [Burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/)
 - [NRR vs GRR for the board pack](/library/finance/nrr-vs-grr-board-pack/)
 - [Series A diligence checklist](/library/fundraising/series-a-diligence-checklist/)
