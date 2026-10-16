@@ -1130,6 +1130,19 @@ input:focus, select:focus {
   .wrap, .article-width { width: min(var(--container), calc(100% - 40px)); }
 }
 
+/* Narrow header: brand on its own row, section links below, so the links never overlap the wordmark. */
+@media (max-width: 680px) {
+  .site-header { height: auto; }
+  .site-header .wrap { flex-wrap: wrap; row-gap: 2px; padding-top: 12px; padding-bottom: 6px; }
+  .nav-links { width: 100%; margin-left: -8px; overflow-x: auto; scrollbar-width: none; }
+  .nav-links::-webkit-scrollbar { display: none; }
+  .nav-links a { white-space: nowrap; }
+}
+@media (max-width: 400px) {
+  .site-header .nav-links { margin-left: -6px; gap: 2px; }
+  .site-header .nav-links a { padding: 8px 6px; }
+}
+
 @media (max-width: 560px) {
   .nav-links a { padding: 8px; font-size: 13px; }
   .brand-wordmark { font-size: 16px; }
