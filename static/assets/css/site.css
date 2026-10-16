@@ -427,13 +427,15 @@ article.prose + .section .section-title {
 }
 .related-section .page-list li:last-child { border-bottom: 0; }
 .related-section .page-list a {
-  padding: 20px 22px;
+  padding: 20px 22px 20px 20px;
   gap: 6px 16px;
-  transition: background-color 120ms var(--ease);
+  border-left: 2px solid transparent;
+  transition: background-color 120ms var(--ease), border-left-color 120ms var(--ease);
 }
 .related-section .page-list a:hover {
   background: var(--pale);
   color: var(--navy);
+  border-left-color: var(--blue);
 }
 .related-section .list-title {
   font-size: 16px;
