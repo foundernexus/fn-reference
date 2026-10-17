@@ -155,6 +155,15 @@ def _scalar(val: str):
     return val
 
 
+def _strong(m: re.Match) -> str:
+    # Short bold figure ranges ("10–20%", "$50k–$100k") get class="fig" so CSS can keep
+    # them on one line in narrow table cells and In short bullets (styled in .prose only).
+    t = m.group(1)
+    if len(t) <= 24 and "\u2013" in t and " " not in t and re.search(r"\d", t):
+        return f'<strong class="fig">{t}</strong>'
+    return f"<strong>{t}</strong>"
+
+
 def inline_md(text: str) -> str:
     # Capture markdown links before escape so query-string & is not double-encoded
     # into &amp;amp; inside hrefs.
@@ -167,7 +176,7 @@ def inline_md(text: str) -> str:
     text = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", _park_link, text)
     text = html.escape(text)
     text = re.sub(r"`([^`]+)`", r"<code>\1</code>", text)
-    text = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
+    text = re.sub(r"\*\*(.+?)\*\*", _strong, text)
     text = re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", r"<em>\1</em>", text)
     for i, (label, href) in enumerate(links):
         text = text.replace(

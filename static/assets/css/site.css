@@ -607,6 +607,8 @@ td:first-child {
     background: var(--pale);
   }
 }
+/* Short bold figure ranges (build adds .fig) stay on one line: no "10–" / "20%" split */
+.prose strong.fig { white-space: nowrap; }
 td.num {
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
