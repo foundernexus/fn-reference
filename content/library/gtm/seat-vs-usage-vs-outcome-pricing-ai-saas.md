@@ -13,6 +13,7 @@ related:
 - library/gtm
 - library/gtm/price-ai-features-inference-cost
 - library/gtm/pilot-to-paid-contract
+- library/gtm/first-customer-contract
 - library/gtm/market-ai-product-without-saying-ai
 - library/gtm/ai-sdr-vs-human
 - library/finance/usage-revenue-as-arr
@@ -152,5 +153,6 @@ Labeled sketches. Thresholds and dollar examples are Bessemer’s, not invented 
 ## Related
 
 - [How to price AI features to cover inference cost](/library/gtm/price-ai-features-inference-cost/)
+- [How to negotiate your first customer contract](/library/gtm/first-customer-contract/)
 - [How to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/)
 - [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/)

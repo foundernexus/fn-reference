@@ -16,6 +16,7 @@ related:
 - tools/ai-gross-margin-calculator
 - library/finance/usage-revenue-as-arr
 - library/gtm/pilot-to-paid-contract
+- library/gtm/first-customer-contract
 ---
 
 Price an AI feature from the value it delivers. Set the floor from what it costs to serve. Measure AI cost per unit twice, once for the typical user and once for your heaviest cohort, and divide by one minus your target AI margin to get the floor. Then include an allowance sized for typical use and meter everything above it with credits or overage priced at or above that floor. In Kyle Poyar’s 2026 Growth Unhinged survey of 230 software companies, internal costs and margins were the top factor in pricing AI capabilities (**54%**), and the median target AI margin was about **50%**. If you have not picked the charge metric yet, start with [seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/). This page covers the next step: making the price cover the inference bill.
@@ -189,3 +190,4 @@ This page is operator judgment on pricing design, not legal, tax, or accounting 
 - [AI gross margin calculator](/tools/ai-gross-margin-calculator/)
 - [Does usage revenue count as ARR?](/library/finance/usage-revenue-as-arr/)
 - [How to convert a pilot to a paid contract](/library/gtm/pilot-to-paid-contract/)
+- [How to negotiate your first customer contract](/library/gtm/first-customer-contract/)
