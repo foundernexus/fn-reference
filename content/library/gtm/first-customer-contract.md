@@ -13,6 +13,7 @@ draft: false
 related:
 - library/gtm
 - library/gtm/pilot-to-paid-contract
+- library/gtm/sell-to-enterprise
 - library/gtm/price-ai-features-inference-cost
 - library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas
 - library/finance/usage-revenue-as-arr
@@ -189,6 +190,7 @@ Not legal advice. Have counsel review the order form and the MSA before you sign
 
 - [Go-to-market](/library/gtm/)
 - [How to convert a pilot to a paid contract](/library/gtm/pilot-to-paid-contract/)
+- [Selling to the enterprise as an early-stage startup](/library/gtm/sell-to-enterprise/)
 - [How to price AI features to cover inference cost](/library/gtm/price-ai-features-inference-cost/)
 - [Seat vs usage vs outcome pricing for AI SaaS](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/)
 - [Does usage revenue count as ARR?](/library/finance/usage-revenue-as-arr/)
