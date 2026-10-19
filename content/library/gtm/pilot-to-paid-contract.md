@@ -12,6 +12,7 @@ disclaimer: not-legal-tax
 draft: false
 related:
 - library/gtm
+- library/gtm/validate-demand-before-you-build
 - library/gtm/first-customer-contract
 - library/gtm/sell-to-enterprise
 - library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas
@@ -119,7 +120,7 @@ Judgment from a [FounderNexus session](https://www.foundernexus.com?utm_source=f
 The pilot fee and the contract price come from your charge metric. Settle the metric first.
 :::
 
-Map the buying group and the security track before the pilot with [selling to the enterprise as an early-stage startup](/library/gtm/sell-to-enterprise/). Write the order form that follows the pilot with [how to negotiate your first customer contract](/library/gtm/first-customer-contract/). Pick seats, usage, or outcomes on [seat vs usage vs outcome pricing for AI SaaS](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/). Lead the pilot pitch with the job and the outcome on [how to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/). If pilots pile up without an owner for the close, read [when to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/). Orient the rest of the motion from the [GTM hub](/library/gtm/).
+If you have not yet tested whether anyone will pay, start with [how to validate demand before you build](/library/gtm/validate-demand-before-you-build/). Map the buying group and the security track before the pilot with [selling to the enterprise as an early-stage startup](/library/gtm/sell-to-enterprise/). Write the order form that follows the pilot with [how to negotiate your first customer contract](/library/gtm/first-customer-contract/). Pick seats, usage, or outcomes on [seat vs usage vs outcome pricing for AI SaaS](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/). Lead the pilot pitch with the job and the outcome on [how to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/). If pilots pile up without an owner for the close, read [when to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/). Orient the rest of the motion from the [GTM hub](/library/gtm/).
 
 There is no reliable public benchmark yet for pilot-to-paid conversion rates. Quote the SaaStr, a16z, and Gartner figures above with their sources instead of a blended market rate.
 

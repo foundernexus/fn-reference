@@ -14,6 +14,7 @@ related:
 - library/gtm/pilot-to-paid-contract
 - library/gtm/ai-sdr-vs-human
 - library/hiring/when-to-hire-first-vp-sales
+- library/gtm/validate-demand-before-you-build
 ---
 
 If you are asking this, you are deciding whether to put “AI” in the hero. Buyers already assume the stack uses models. They do not assume you understand their job, can name the economic outcome, and can prove it. Lead with the job, and put the model in the how.
@@ -112,5 +113,6 @@ Labeled sketches, not real companies. Thresholds come from the sources above.
 
 ## Related
 
+- [How to validate demand before you build](/library/gtm/validate-demand-before-you-build/)
 - [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/)
 - [When to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/)
