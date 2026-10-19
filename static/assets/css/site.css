@@ -607,6 +607,12 @@ td:first-child {
     background: var(--pale);
   }
 }
+/* Routing cells (a cell that is one internal link, e.g. hub "Use" columns): quiet blue arrow,
+   no underline, so decision tables read as a path to the spoke. */
+.prose td.route a { font-weight: 600; text-decoration: none; }
+/* Leading no-break space keeps the arrow on the same line as the last word. */
+.prose td.route a::after { content: "\00a0\2192"; color: var(--blue); }
+.prose td.route a:hover { color: var(--blue-hover); text-decoration: underline; }
 /* Short bold figure ranges (build adds .fig) stay on one line: no "10–" / "20%" split */
 .prose strong.fig { white-space: nowrap; }
 td.num {

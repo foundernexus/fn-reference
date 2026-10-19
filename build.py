@@ -356,6 +356,9 @@ def _render_table(rows: list[str]) -> str:
                 classes.append("num")
             if idx in fig_cols:
                 classes.append("num-col")
+            # Routing cell: the whole cell is one internal link (hub "Use" columns).
+            if re.fullmatch(r"\[[^\]]+\]\(/[^)\s]*\)", c):
+                classes.append("route")
             cls = f' class="{" ".join(classes)}"' if classes else ""
             tds.append(f"<td{cls}>{cell_inner(c)}</td>")
         trs.append(f"<tr>{''.join(tds)}</tr>")
