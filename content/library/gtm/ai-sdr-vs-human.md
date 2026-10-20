@@ -12,6 +12,7 @@ draft: false
 related:
 - library/gtm
 - library/gtm/pilot-to-paid-contract
+- library/gtm/customer-development-sales-funnel
 - library/hiring/when-to-hire-first-vp-sales
 - library/hiring/series-a-leadership-hiring-sequence
 ---
@@ -92,5 +93,6 @@ Labeled sketches, not real companies. The thresholds come from the sources above
 
 ## Related
 
+- [Customer development as your early sales funnel](/library/gtm/customer-development-sales-funnel/)
 - [When to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/)
 - [Series A leadership hiring sequence](/library/hiring/series-a-leadership-hiring-sequence/)

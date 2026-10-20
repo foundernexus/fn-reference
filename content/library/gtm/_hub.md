@@ -1,6 +1,6 @@
 ---
 title: Go-to-market
-description: Pick the GTM decision in front of you. Orient demand validation, AI SDR, messaging, pricing, AI feature pricing against inference cost, enterprise selling, first customer contracts, AEO, founder PR, data moats, and coding-agent bets.
+description: Pick the GTM decision in front of you. Orient demand validation, the customer development funnel, AI SDR, messaging, pricing, AI feature pricing against inference cost, enterprise selling, first customer contracts, AEO, founder PR, data moats, and coding-agent bets.
 slug: gtm
 section: library
 cluster: gtm
@@ -13,7 +13,7 @@ draft: false
 AI GTM for a Seed–Series B startup is a stack of separate decisions, not one playbook. You choose who researches and who closes. You choose what the homepage leads with and what you bill for. You allocate scarce content hours, decide whether to DIY PR, test whether the data compounds, and judge whether coding agents move delivery or only the coding step. Open the spoke for the decision on your desk. Numbers and publisher samples live on those pages.
 
 :::takeaways
-- Demand: before you build, write the bet as a number and count paid commitments over compliments ([validate demand before you build](/library/gtm/validate-demand-before-you-build/)).
+- Demand: before you build, write the bet as a number and count paid commitments over compliments ([validate demand before you build](/library/gtm/validate-demand-before-you-build/)). Then run discovery calls as the top of the pipeline: each stage ends on a buyer commitment, and close rate counts only qualified deals ([customer development as your early sales funnel](/library/gtm/customer-development-sales-funnel/)).
 - Motion: put AI on research and drafts; keep a person on inbound that matters and on the close (SaaStr; Bridge Group; FounderNexus session). See [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/). Go after enterprise accounts when one workflow beats the incumbent and the first deployment stays inside one team; map the champion and budget owner and send security proof first ([sell to the enterprise](/library/gtm/sell-to-enterprise/)).
 - Message: lead with the job and economic outcome; put the model in the how (Bessemer; Gartner agent-washing warning). See [how to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/).
 - Price: seats for copilots beside humans; usage or outcomes for agents that close the loop; hybrid while you learn cost variance (Bessemer AI pricing). See [seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/). Then cover inference: floor from cost, price from value, an allowance for typical use, and metered overage above it ([price AI features to cover inference cost](/library/gtm/price-ai-features-inference-cost/)). Paper the first paid deal at list price with a dated discount ([first customer contract](/library/gtm/first-customer-contract/)).
@@ -24,7 +24,7 @@ AI GTM for a Seed–Series B startup is a stack of separate decisions, not one p
 ## Spokes in this cluster
 
 :::highlight
-Twelve decisions. One spoke each. Open the page that matches the question on your desk.
+Thirteen decisions. One spoke each. Open the page that matches the question on your desk.
 :::
 
 - [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/): whether a product can replace a seat. Score AI on quota, ramp, and pipeline. Bridge Group 2025 human SDR baselines and SaaStr founder-led sequence live on the page.
@@ -38,6 +38,7 @@ Twelve decisions. One spoke each. Open the page that matches the question on you
 - [How to convert a pilot to a paid contract](/library/gtm/pilot-to-paid-contract/): charge for the pilot and write the conversion before kickoff. SaaStr paid vs free pilot polls, AI buyer ROI expectations, and Gartner buying-group figures live on the page.
 - [How to negotiate your first customer contract](/library/gtm/first-customer-contract/): list price on the paper, a dated discount traded for proof, and standard term, payment, and renewal. Common Paper contract benchmarks, Innovation Works discount guidance, and SaaStr multi-year figures live on the page.
 - [How to validate demand before you build](/library/gtm/validate-demand-before-you-build/): the demand bet as a number, problem interviews about past behavior, and a test that asks for time, an intro, or money before code. Savoia pretotyping, The Mom Test, and interview-count research live on the page.
+- [Customer development as your early sales funnel](/library/gtm/customer-development-sales-funnel/): one funnel from discovery call to referral, stage exits the buyer pays for, a written qualified line, and close rate by cohort. Steve Blank’s customer validation, The Mom Test on advancement, and YC sales lectures live on the page.
 - [Selling to the enterprise as an early-stage startup](/library/gtm/sell-to-enterprise/): readiness test, champion vs budget owner, security packet and audit timing, and procurement in parallel. Forrester buying-group figures, Vanta and Workstreet audit timelines, and Norwest sales cycles live on the page.
 
 ## Which GTM decision → when → where
@@ -49,6 +50,7 @@ One GTM question per row. Open the spoke for numbers and publisher samples. Do n
 | GTM decision | When it belongs | Use |
 | --- | --- | --- |
 | Will anyone pay before we build? | Before production code or a new product line | [Validate demand before you build](/library/gtm/validate-demand-before-you-build/) |
+| How do discovery calls become revenue? | Interviews pile up but few turn into paid deals | [Customer development as your sales funnel](/library/gtm/customer-development-sales-funnel/) |
 | Can an AI SDR replace a hire? | Buying outreach tools before the motion is clear | [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/) |
 | What does the homepage lead with? | Rewriting hero, deck, or outbound for an AI product | [Market AI without saying AI](/library/gtm/market-ai-product-without-saying-ai/) |
 | Seat, usage, or outcome? | Picking the charge metric before you scale deals | [Seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/) |
@@ -69,7 +71,7 @@ Empty cells stay empty. Each row points at a spoke that already carries the cite
 Early: prove the motion and the message. Later: harden price, distribution, and what compounds in the product.
 :::
 
-**Seed, founder-led sales.** Validate demand with priced commitments before you write production code. Close the first customers yourself before an AI SDR or a VP of Sales (SaaStr, on the AI SDR spoke). Write the homepage around the job, not the model. DIY the narrative and a short reporter list. Keep pricing hybrid or simple until unit economics are clear. Charge for pilots and write the conversion terms before kickoff. Write the first order form at list price with the discount on its own line. Take enterprise accounts only when the first deployment can stay inside one team, and send the security packet before the buyer asks.
+**Seed, founder-led sales.** Validate demand with priced commitments before you write production code. Run discovery calls as one funnel with a written qualified line and a booked next step on each call. Close the first customers yourself before an AI SDR or a VP of Sales (SaaStr, on the AI SDR spoke). Write the homepage around the job, not the model. DIY the narrative and a short reporter list. Keep pricing hybrid or simple until unit economics are clear. Charge for pilots and write the conversion terms before kickoff. Write the first order form at list price with the discount on its own line. Take enterprise accounts only when the first deployment can stay inside one team, and send the security packet before the buyer asks.
 
 **Series A, first GTM hires and a repeatable message.** Score any AI SDR seat the way Bridge Group scores humans (on that spoke). Split SEO vs AEO hours with bottom-funnel pages protected. Revisit seat vs usage vs outcome once agents close loops. Audit whether product data forms a loop or only a corpus.
 
@@ -106,6 +108,7 @@ If the debate is when the first VP of Sales lands, use [when to hire the first V
 ## Related
 
 - [How to validate demand before you build](/library/gtm/validate-demand-before-you-build/)
+- [Customer development as your early sales funnel](/library/gtm/customer-development-sales-funnel/)
 - [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/)
 - [How to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/)
 - [Seat vs usage vs outcome pricing for AI SaaS](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/)

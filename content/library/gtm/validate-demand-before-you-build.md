@@ -11,6 +11,7 @@ close: Founders who have killed or kept an idea on pre-build evidence will press
 draft: false
 related:
 - library/gtm
+- library/gtm/customer-development-sales-funnel
 - library/gtm/pilot-to-paid-contract
 - library/gtm/first-customer-contract
 - library/gtm/sell-to-enterprise
@@ -187,7 +188,7 @@ Each one makes a weak test read as a pass.
 This page gets you to buyers who will pay before the product exists. The sibling pages cover proof, paper, and the message.
 :::
 
-Turn a priced pilot into a purchase order with [how to convert a pilot to a paid contract](/library/gtm/pilot-to-paid-contract/). Write the first order form with [how to negotiate your first customer contract](/library/gtm/first-customer-contract/). If the first buyers are large companies, check readiness with [selling to the enterprise as an early-stage startup](/library/gtm/sell-to-enterprise/). Write the homepage and fake-door copy around the job with [how to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/). Bring the evidence into the raise with [the seed pitch deck page](/library/fundraising/seed-pitch-deck/). Orient the rest of the motion from the [GTM hub](/library/gtm/).
+Run the calls that follow as a sales funnel with [customer development as your early sales funnel](/library/gtm/customer-development-sales-funnel/). Turn a priced pilot into a purchase order with [how to convert a pilot to a paid contract](/library/gtm/pilot-to-paid-contract/). Write the first order form with [how to negotiate your first customer contract](/library/gtm/first-customer-contract/). If the first buyers are large companies, check readiness with [selling to the enterprise as an early-stage startup](/library/gtm/sell-to-enterprise/). Write the homepage and fake-door copy around the job with [how to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/). Bring the evidence into the raise with [the seed pitch deck page](/library/fundraising/seed-pitch-deck/). Orient the rest of the motion from the [GTM hub](/library/gtm/).
 
 ## Sources
 
@@ -207,6 +208,7 @@ Turn a priced pilot into a purchase order with [how to convert a pilot to a paid
 ## Related
 
 - [Go-to-market](/library/gtm/)
+- [Customer development as your early sales funnel](/library/gtm/customer-development-sales-funnel/)
 - [How to convert a pilot to a paid contract](/library/gtm/pilot-to-paid-contract/)
 - [How to negotiate your first customer contract](/library/gtm/first-customer-contract/)
 - [Selling to the enterprise as an early-stage startup](/library/gtm/sell-to-enterprise/)
