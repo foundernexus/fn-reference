@@ -294,6 +294,9 @@ h4, .h4 {
 .prose p { margin: 0 0 22px; }
 .prose ul, .prose ol { margin: 0 0 28px; padding-left: 22px; }
 .prose li { margin: 0 0 12px; }
+/* plain numbered lists in body copy: quiet --blue figures that line up, matching In short markers (steps keep their own chips) */
+.prose > ol > li::marker { color: var(--blue); font-weight: 600; font-variant-numeric: tabular-nums; }
+.prose > ol > li { padding-left: 4px; }
 .prose strong { font-weight: 600; }
 .prose hr {
   border: 0;
