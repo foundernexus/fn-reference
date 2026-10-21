@@ -15,6 +15,7 @@ related:
 - library/gtm/validate-demand-before-you-build
 - library/gtm/customer-development-sales-funnel
 - library/gtm/first-customer-contract
+- library/gtm/early-customer-retention
 - library/gtm/sell-to-enterprise
 - library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas
 - library/gtm/ai-sdr-vs-human
