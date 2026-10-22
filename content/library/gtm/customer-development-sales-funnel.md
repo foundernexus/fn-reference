@@ -16,6 +16,7 @@ related:
 - library/gtm/first-customer-contract
 - library/gtm/early-customer-retention
 - library/gtm/sell-to-enterprise
+- library/gtm/conference-to-customers
 - library/gtm/ai-sdr-vs-human
 - library/hiring/when-to-hire-first-vp-sales
 ---
@@ -170,7 +171,7 @@ Each one makes the funnel look fuller than the bank account.
 This page runs the funnel. The sibling pages cover the test before it and the paper after it.
 :::
 
-Test willingness to pay before you build with [how to validate demand before you build](/library/gtm/validate-demand-before-you-build/). Turn an evaluation into a purchase order with [how to convert a pilot to a paid contract](/library/gtm/pilot-to-paid-contract/). Write the first order form with [how to negotiate your first customer contract](/library/gtm/first-customer-contract/). Keep the customers you win with [how to keep your first customers](/library/gtm/early-customer-retention/). If the first buyers are large companies with a buying group and a security review, read [selling to the enterprise as an early-stage startup](/library/gtm/sell-to-enterprise/). Decide whether tooling can take any of the outreach with [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/). Orient the rest of the motion from the [GTM hub](/library/gtm/).
+Test willingness to pay before you build with [how to validate demand before you build](/library/gtm/validate-demand-before-you-build/). Turn an evaluation into a purchase order with [how to convert a pilot to a paid contract](/library/gtm/pilot-to-paid-contract/). Write the first order form with [how to negotiate your first customer contract](/library/gtm/first-customer-contract/). Keep the customers you win with [how to keep your first customers](/library/gtm/early-customer-retention/). If the first buyers are large companies with a buying group and a security review, read [selling to the enterprise as an early-stage startup](/library/gtm/sell-to-enterprise/). To fill the top of the funnel in person, read [how to turn a conference into customers](/library/gtm/conference-to-customers/). Decide whether tooling can take any of the outreach with [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/). Orient the rest of the motion from the [GTM hub](/library/gtm/).
 
 ## Sources
 
@@ -190,5 +191,6 @@ Test willingness to pay before you build with [how to validate demand before you
 - [How to negotiate your first customer contract](/library/gtm/first-customer-contract/)
 - [How to keep your first customers: feedback and early retention](/library/gtm/early-customer-retention/)
 - [Selling to the enterprise as an early-stage startup](/library/gtm/sell-to-enterprise/)
+- [How to turn a conference into customers](/library/gtm/conference-to-customers/)
 - [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/)
 - [When to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/)
