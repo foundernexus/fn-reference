@@ -305,11 +305,16 @@ h4, .h4 {
 }
 .prose blockquote {
   margin: 0 0 24px;
-  padding: 4px 0 4px 20px;
-  border-left: 2px solid var(--border);
-  background: transparent;
+  padding: 16px 20px;
+  border-left: 3px solid var(--blue);
+  border-radius: 0 8px 8px 0;
+  background: var(--pale);
   color: var(--navy);
+  font-size: 0.95em;
 }
+.prose blockquote p { margin: 0 0 10px; }
+.prose blockquote p:last-child { margin-bottom: 0; }
+.prose blockquote p:first-child:not(:last-child) { font-weight: 600; }
 .muted { color: var(--muted); }
 .small { font-size: 14px; line-height: 1.5; }
 .meta { font-size: 13px; font-weight: 500; color: var(--muted); }

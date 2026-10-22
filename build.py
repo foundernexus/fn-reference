@@ -248,7 +248,15 @@ def render_markdown(src: str) -> str:
             while i < len(lines) and lines[i].startswith(">"):
                 buf.append(lines[i].lstrip("> ").rstrip())
                 i += 1
-            out.append(f"<blockquote><p>{inline_md(' '.join(buf))}</p></blockquote>")
+            paras, cur = [], []
+            for ln in buf + [""]:
+                if ln:
+                    cur.append(ln)
+                elif cur:
+                    paras.append(" ".join(cur))
+                    cur = []
+            inner = "".join(f"<p>{inline_md(t)}</p>" for t in paras)
+            out.append(f"<blockquote>{inner}</blockquote>")
             continue
         if line.strip().startswith("|"):
             rows = []
