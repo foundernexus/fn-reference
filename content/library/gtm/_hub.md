@@ -1,6 +1,6 @@
 ---
 title: Go-to-market
-description: Pick the GTM decision in front of you. Orient demand validation, the customer development funnel, conference selling, early customer retention, AI SDR, messaging, pricing, AI feature pricing against inference cost, enterprise selling, first customer contracts, AEO, founder PR, data moats, and coding-agent bets.
+description: Pick the GTM decision in front of you. Orient demand validation, the customer development funnel, conference selling, early customer retention, AI SDR, messaging, landing pages, pricing, AI feature pricing against inference cost, enterprise selling, first customer contracts, AEO, founder PR, data moats, and coding-agent bets.
 slug: gtm
 section: library
 cluster: gtm
@@ -15,7 +15,7 @@ AI GTM for a Seed–Series B startup is a stack of separate decisions, not one p
 :::takeaways
 - Demand: before you build, write the bet as a number and count paid commitments over compliments ([validate demand before you build](/library/gtm/validate-demand-before-you-build/)). Then run discovery calls as the top of the pipeline: each stage ends on a buyer commitment, and close rate counts only qualified deals ([customer development as your early sales funnel](/library/gtm/customer-development-sales-funnel/)). At conferences, book meetings before you fly and score the trip on qualified opportunities ([turn a conference into customers](/library/gtm/conference-to-customers/)). After the first sale, log each request as the blocked task, tell the customer what waits, and review retention beside new sales ([keep your first customers](/library/gtm/early-customer-retention/)).
 - Motion: put AI on research and drafts; keep a person on inbound that matters and on the close (SaaStr; Bridge Group; FounderNexus session). See [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/). Go after enterprise accounts when one workflow beats the incumbent and the first deployment stays inside one team; map the champion and budget owner and send security proof first ([sell to the enterprise](/library/gtm/sell-to-enterprise/)).
-- Message: lead with the job and economic outcome; put the model in the how (Bessemer; Gartner agent-washing warning). See [how to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/).
+- Message: lead with the job and economic outcome; put the model in the how (Bessemer; Gartner agent-washing warning). See [how to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/). On the site, name the buyer and the pain in the first screen, put the payoff on the button, and show proof and product before price ([landing page that converts](/library/gtm/landing-page-that-converts/)).
 - Price: seats for copilots beside humans; usage or outcomes for agents that close the loop; hybrid while you learn cost variance (Bessemer AI pricing). See [seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/). Then cover inference: floor from cost, price from value, an allowance for typical use, and metered overage above it ([price AI features to cover inference cost](/library/gtm/price-ai-features-inference-cost/)). Paper the first paid deal at list price with a dated discount ([first customer contract](/library/gtm/first-customer-contract/)).
 - Distribution: keep bottom-funnel SEO as the revenue path; put AEO on category answers buyers ask before they hit the site (Google). DIY the founder narrative before a retainer (YC Seibel; Muck Rack).
 - Defensibility and delivery: a data moat needs a compounding loop, not a log pile (a16z; Bessemer; Sequoia). Coding agents do not 10x the company if review, test, and ops stay the bottleneck (Amdahl; Atlassian; Faros; METR).
@@ -24,11 +24,12 @@ AI GTM for a Seed–Series B startup is a stack of separate decisions, not one p
 ## Spokes in this cluster
 
 :::highlight
-Fifteen decisions. One spoke each. Open the page that matches the question on your desk.
+Sixteen decisions. One spoke each. Open the page that matches the question on your desk.
 :::
 
 - [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/): whether a product can replace a seat. Score AI on quota, ramp, and pipeline. Bridge Group 2025 human SDR baselines and SaaStr founder-led sequence live on the page.
 - [How to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/): hero and deck lead with job and outcome. Bessemer on AI as means; Gartner on agent washing.
+- [How to write a startup landing page that converts](/library/gtm/landing-page-that-converts/): audience, pain, and payoff in the first screen, countable proof, product before price, one call to action, and qualified demos by source. Nielsen Norman Group eyetracking, Unbounce SaaS conversion data, and TrustRadius buyer survey figures live on the page.
 - [Seat vs usage vs outcome pricing for AI SaaS](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/): charge metric before scale. Bessemer copilots vs agents, hybrid bridge, and named outcome examples live on the page.
 - [How to price AI features to cover inference cost](/library/gtm/price-ai-features-inference-cost/): cost floor per unit, package choice, allowance and overage, and repricing with notice. Growth Unhinged survey figures and GitHub, Cursor, Notion, and Salesforce price changes live on the page.
 - [AEO vs SEO for B2B SaaS startups](/library/gtm/aeo-vs-seo-b2b-saas/): split writer hours between converting pages and citation-ready category answers. Google treats AEO as still SEO.
@@ -57,6 +58,7 @@ One GTM question per row. Open the spoke for numbers and publisher samples. Do n
 | How do we keep the first customers? | Requests pile up after the first sale and some accounts go quiet | [Keep your first customers](/library/gtm/early-customer-retention/) |
 | Can an AI SDR replace a hire? | Buying outreach tools before the motion is clear | [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/) |
 | What does the homepage lead with? | Rewriting hero, deck, or outbound for an AI product | [Market AI without saying AI](/library/gtm/market-ai-product-without-saying-ai/) |
+| Does the site turn warm visitors into demos? | Rewriting the homepage or a campaign page, or before buying traffic | [Landing page that converts](/library/gtm/landing-page-that-converts/) |
 | Seat, usage, or outcome? | Picking the charge metric before you scale deals | [Seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/) |
 | Does the price cover inference? | Launching or repricing an AI feature with uneven usage | [Price AI features to cover inference cost](/library/gtm/price-ai-features-inference-cost/) |
 | SEO hours or answer-engine hours? | Allocating scarce content time in 2026 | [AEO vs SEO for B2B SaaS](/library/gtm/aeo-vs-seo-b2b-saas/) |
@@ -75,7 +77,7 @@ Empty cells stay empty. Each row points at a spoke that already carries the cite
 Early: prove the motion and the message. Later: harden price, distribution, and what compounds in the product.
 :::
 
-**Seed, founder-led sales.** Validate demand with priced commitments before you write production code. Run discovery calls as one funnel with a written qualified line and a booked next step on each call. Go to a conference with meetings already booked, and judge it by qualified opportunities. After the first sale, close the loop on each blocked task and add customers only as fast as you can serve them. Close the first customers yourself before an AI SDR or a VP of Sales (SaaStr, on the AI SDR spoke). Write the homepage around the job, not the model. DIY the narrative and a short reporter list. Keep pricing hybrid or simple until unit economics are clear. Charge for pilots and write the conversion terms before kickoff. Write the first order form at list price with the discount on its own line. Take enterprise accounts only when the first deployment can stay inside one team, and send the security packet before the buyer asks.
+**Seed, founder-led sales.** Validate demand with priced commitments before you write production code. Run discovery calls as one funnel with a written qualified line and a booked next step on each call. Go to a conference with meetings already booked, and judge it by qualified opportunities. After the first sale, close the loop on each blocked task and add customers only as fast as you can serve them. Close the first customers yourself before an AI SDR or a VP of Sales (SaaStr, on the AI SDR spoke). Write the homepage around the job, not the model, with the buyer and the pain in the first screen and one call to action. DIY the narrative and a short reporter list. Keep pricing hybrid or simple until unit economics are clear. Charge for pilots and write the conversion terms before kickoff. Write the first order form at list price with the discount on its own line. Take enterprise accounts only when the first deployment can stay inside one team, and send the security packet before the buyer asks.
 
 **Series A, first GTM hires and a repeatable message.** Score any AI SDR seat the way Bridge Group scores humans (on that spoke). Split SEO vs AEO hours with bottom-funnel pages protected. Revisit seat vs usage vs outcome once agents close loops. Audit whether product data forms a loop or only a corpus.
 
@@ -117,6 +119,7 @@ If the debate is when the first VP of Sales lands, use [when to hire the first V
 - [How to keep your first customers: feedback and early retention](/library/gtm/early-customer-retention/)
 - [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/)
 - [How to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/)
+- [How to write a startup landing page that converts](/library/gtm/landing-page-that-converts/)
 - [Seat vs usage vs outcome pricing for AI SaaS](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/)
 - [How to price AI features to cover inference cost](/library/gtm/price-ai-features-inference-cost/)
 - [AEO vs SEO for B2B SaaS startups](/library/gtm/aeo-vs-seo-b2b-saas/)

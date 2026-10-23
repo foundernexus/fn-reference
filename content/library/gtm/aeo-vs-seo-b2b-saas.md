@@ -14,6 +14,7 @@ related:
 - library/gtm/ai-sdr-vs-human
 - library/gtm/market-ai-product-without-saying-ai
 - library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas
+- library/gtm/landing-page-that-converts
 ---
 
 You are deciding where scarce content hours go in 2026. Classic SEO still owns commercial intent and the pages that close. Answer Engine Optimization (AEO) is the work of becoming the clear, citable source when buyers ask ChatGPT, Perplexity, Gemini, or Google AI Overviews before they hit your site. Google’s own Search Central guidance says optimizing for those AI features is still SEO. You can split the week between the two without building a second marketing department.
@@ -144,3 +145,4 @@ Labeled sketches. Thresholds are the public sources above, not a new study of yo
 - [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/)
 - [How to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/)
 - [Seat vs usage vs outcome pricing for AI SaaS](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/)
+- [How to write a startup landing page that converts](/library/gtm/landing-page-that-converts/)
