@@ -61,8 +61,8 @@ The locked site rules in `README.md` and `SEO-BRIEF.md` win over any style rule.
 - **Quoted text stays verbatim.** Text in curly quotes (source titles, quoted lines) and `## Sources` / `## Related` sections are exempt.
 - **Titles, slugs, and URLs are SEO-locked.** Do not change them for style. You may tighten a meta `description` or an H1 only when it is plainly slop.
 - **Keep the chrome.** `:::takeaways`, `:::steps`, `:::highlight`, choice cards, and decision tables stay. An em dash as an empty table cell ("—") is allowed.
-- **Close line.** One sentence. FounderNexus appears once, as the quiet link the renderer creates. Name the decision. No "If you want founders who just…" formula.
-- **Never name or link The Startup Bible** or its site. Never write "Published by FounderNexus".
+- **Close line.** One sentence. VEN appears once, as the quiet link the renderer creates (it renders as "VEN (Venture Executive Network)" if that is the page's first mention). The optional "Go deeper: VEN playbook on …" line under it is build-generated; do not hand-write it. Name the decision. No "If you want founders who just…" formula.
+- **Never name The Startup Bible.** Its pages (www.venexecs.com/playbooks) are linked only by the build's `VEN_PLAYBOOKS` mapping; never hand-link or copy them. Never write "Published by VEN" or link foundernexus.com.
 - **Hard vs judgment.** `check.py` fails (HARD) on em dashes, spaced en dashes, double hyphens, throat-clearing, emphasis crutches, filler, the named adverbs, jargon, meta-commentary, vague declaratives, binary contrasts, and "What if" / "Look," openers. It warns (soft) on other -ly adverbs, lazy extremes, passive voice, false agency, "So" openers, negative listing, and Wh- starters. Fix soft hits when a better sentence exists. A soft hit that carries a cited fact ("Bessemer is widely used…", "never" quoted from a source) can stay.
 - **Plain English wins over the letter of a rule.** Do not twist a sentence to dodge a pattern. If the fix reads worse, restate the fact more plainly.
 

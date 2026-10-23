@@ -1,7 +1,7 @@
-# FounderNexus directory: keyword and IA brief
+# Founder Decisions: keyword and IA brief
 Date: 2026-08-29
 Audience: venture-backed (already raised) and venture-scale (building toward $100M) founders, Seed–Series B.
-CTA: Apply now → https://platform.foundernexus.com/registration
+Publisher link: VEN (Venture Executive Network), formerly FounderNexus → https://www.venexecs.com/ (quiet close link only; no Apply CTA on FD pages)
 Volume: qualitative only. No Ahrefs/SEMrush dumps. Do not invent volumes.
 
 ## Page 1 (ship 2026-08-29)
@@ -23,7 +23,7 @@ Tool sibling: /tools/executive-equity-calculator
 10. Fractional vs full-time CFO (done 2026-09-17)
 
 ## IA
-foundernexus.com/ → Apply product
+www.venexecs.com/ → VEN (formerly foundernexus.com, which now 301s there)
 /library/ → directory index
 /library/{cluster}/ → hub
 /library/{cluster}/{spoke}/ → guide
@@ -54,11 +54,74 @@ foundernexus.com/ → Apply product
 21. Executive coaching vs founder peer group
 22. Fundraising hub + Series A diligence checklist — diligence done 2026-09-24; hub done 2026-10-01 → /library/fundraising/. Query: Series A fundraising. See candidate #34.
 
+## VEN links and citations (from 2026-10-23)
+FounderNexus is now VEN (Venture Executive Network) at https://www.venexecs.com. www.foundernexus.com 301s there. Public pages never link foundernexus.com.
+- Session cite: "VEN session" → `https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library`. Close line names "VEN"; the renderer links it.
+- First visible mention per page reads "VEN (Venture Executive Network)"; later mentions "VEN". `build.py` `expand_first_ven` does this at render time, so source markdown can just say "VEN".
+- Sources line: `- [VEN (Venture Executive Network)](<homepage UTM>) — founder sessions …`.
+- Org facts (from venexecs.com, 2026-10-23): operational support community for leadership teams of venture-backed companies; $1M+ raised from venture firms (angel/accelerator alone does not qualify); worldwide on Zoom; small ~60-minute peer sessions grouped by topic and operating experience; listings tagged Stage 1 ($0–2M ARR) and Stage 2 ($2–10M ARR); VEN Partner 15-minute monthly check-in; two free trial sessions; pricing by stage and experience; no equity. Re-check before quoting.
+- Playbook link: at most ONE quiet "Go deeper: VEN playbook on …" line per owned page, rendered under the close by `build.py` from `VEN_PLAYBOOKS` (page key → playbook path, anchor). Only on a genuine topic match; otherwise the page keeps only the homepage link. UTM: `utm_source=founderdecisions&utm_medium=referral&utm_campaign=playbook&utm_content=<page-slug>`. New pages: add a `VEN_PLAYBOOKS` entry or frontmatter `ven_playbook: <path under /playbooks/>` + `ven_playbook_label:`. Link out only; never copy playbook text; never say "Startup Bible", fn-content, GitHub issues, or "benchmark request" publicly. Closed-session numbers stay off FD pages.
+- Analytics: Vercel Web Analytics via `/_vercel/insights/script.js`. Clicks on any venexecs.com link fire custom event `ven_click` {page, target, type: homepage|playbook}. Custom events need Vercel Pro; on Hobby only pageviews are recorded (count VEN referrals on the venexecs.com side by utm_campaign library vs playbook).
+- Friday internal playbook check source: https://www.venexecs.com/sitemap.xml (filter /playbooks/). Keep the check internal; the only public trace is the mapped playbook link.
+
+### VEN_PLAYBOOKS mapping (48 pages, 2026-10-23)
+| FD page | VEN playbook |
+|---|---|
+| /library/board/ | /playbooks/guides/capital-runway-and-the-board (VEN guide to capital, runway and the board) |
+| /library/board/monthly-investor-update/ | /playbooks/concepts/material-change-update (VEN playbook note on material-change investor updates) |
+| /library/board/series-a-board-meeting-agenda/ | /playbooks/guides/capital-runway-and-the-board (VEN guide to capital, runway and the board) |
+| /library/equity/ | /playbooks/equity-legal/options-pools-advisor-equity (VEN playbook on options, pools and advisor equity) |
+| /library/equity/409a-after-priced-round/ | /playbooks/concepts/409a-valuation (VEN playbook note on 409A valuations) |
+| /library/equity/executive-grants-by-stage/ | /playbooks/equity-legal/options-pools-advisor-equity (VEN playbook on options, pools and advisor equity) |
+| /library/equity/option-pool-from-hiring-plan/ | /playbooks/equity-legal/options-pools-advisor-equity (VEN playbook on options, pools and advisor equity) |
+| /library/finance/ | /playbooks/guides/capital-runway-and-the-board (VEN guide to capital, runway and the board) |
+| /library/finance/ai-gross-margin-inference-cogs/ | /playbooks/building-the-company/pricing-in-the-ai-era (VEN playbook on pricing and margins in the AI era) |
+| /library/finance/burn-multiple-vs-rule-of-40/ | /playbooks/guides/capital-runway-and-the-board (VEN guide to capital, runway and the board) |
+| /library/finance/nrr-vs-grr-board-pack/ | /playbooks/guides/customer-retention-and-expansion (VEN guide to customer retention and expansion) |
+| /library/finance/usage-revenue-as-arr/ | /playbooks/building-the-company/pricing-in-the-ai-era (VEN playbook on pricing in the AI era) |
+| /library/fundraising/ | /playbooks/raising-money/running-the-raise (VEN playbook on running the raise) |
+| /library/fundraising/first-angel-check/ | /playbooks/raising-money/first-angel-check (VEN playbook on finding your first angel) |
+| /library/fundraising/how-seed-vcs-decide/ | /playbooks/raising-money/how-seed-vcs-decide (VEN playbook on how seed investors evaluate startups) |
+| /library/fundraising/safe-vs-priced-round/ | /playbooks/raising-money/safes-notes-priced-rounds (VEN playbook on SAFEs, notes and priced rounds) |
+| /library/fundraising/seed-fundraising-process/ | /playbooks/raising-money/running-the-raise (VEN playbook on running the raise) |
+| /library/fundraising/seed-pitch-deck/ | /playbooks/raising-money/pitch-deck (VEN playbook on the pitch deck) |
+| /library/fundraising/series-a-diligence-checklist/ | /playbooks/raising-money/data-rooms (VEN playbook on data rooms for due diligence) |
+| /library/fundraising/term-sheet-red-flags/ | /playbooks/raising-money/term-sheets-red-flags (VEN playbook on term sheets and red flags) |
+| /library/fundraising/venture-debt/ | /playbooks/raising-money/venture-debt (VEN playbook on venture debt) |
+| /library/fundraising/when-runway-runs-out/ | /playbooks/raising-money/when-runway-runs-out (VEN playbook on running out of runway) |
+| /library/fundraising/when-to-raise-series-a/ | /playbooks/raising-money/running-the-raise (VEN playbook on round size, outreach and timing) |
+| /library/gtm/ | /playbooks/marketing-pr/gtm-as-a-system (VEN playbook on GTM as a system) |
+| /library/gtm/aeo-vs-seo-b2b-saas/ | /playbooks/marketing-pr/ai-era-marketing-stack (VEN playbook on the AI-era marketing stack) |
+| /library/gtm/ai-sdr-vs-human/ | /playbooks/getting-customers/repeatable-sales-motion (VEN playbook on building a repeatable sales motion) |
+| /library/gtm/coding-agents-dont-10x-engineering/ | /playbooks/building-the-company/ai-engineering-10x (VEN playbook on why AI isn't making engineering 10x faster) |
+| /library/gtm/conference-to-customers/ | /playbooks/getting-customers/conferences-to-customers (VEN playbook on conference lead generation) |
+| /library/gtm/customer-development-sales-funnel/ | /playbooks/getting-customers/customer-development-funnel (VEN playbook on customer development as a sales funnel) |
+| /library/gtm/data-moat-ai-startup/ | /playbooks/building-the-company/data-moats-flywheels (VEN playbook on data moats and AI defensibility) |
+| /library/gtm/diy-founder-pr-narrative/ | /playbooks/marketing-pr/diy-pr (VEN playbook on DIY PR and the founder narrative) |
+| /library/gtm/early-customer-retention/ | /playbooks/getting-customers/customer-feedback-and-retention (VEN playbook on customer feedback and early retention) |
+| /library/gtm/first-customer-contract/ | /playbooks/getting-customers/first-customer-contracts (VEN playbook on first customer contracts) |
+| /library/gtm/landing-page-that-converts/ | /playbooks/getting-customers/landing-pages (VEN playbook on landing pages that convert) |
+| /library/gtm/market-ai-product-without-saying-ai/ | /playbooks/marketing-pr/marketing-ai-products (VEN playbook on marketing an AI product) |
+| /library/gtm/pilot-to-paid-contract/ | /playbooks/getting-customers/pilots-that-convert (VEN playbook on turning a pilot into a paid contract) |
+| /library/gtm/price-ai-features-inference-cost/ | /playbooks/building-the-company/pricing-in-the-ai-era (VEN playbook on pricing in the AI era) |
+| /library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/ | /playbooks/building-the-company/pricing-in-the-ai-era (VEN playbook on pricing in the AI era) |
+| /library/gtm/sell-to-enterprise/ | /playbooks/getting-customers/selling-to-the-enterprise (VEN playbook on selling to the enterprise) |
+| /library/gtm/validate-demand-before-you-build/ | /playbooks/getting-customers/validate-before-you-build (VEN playbook on validating demand before you build) |
+| /library/hiring/ | /playbooks/building-the-company/executive-team (VEN playbook on building your executive team) |
+| /library/hiring/series-a-leadership-hiring-sequence/ | /playbooks/building-the-company/executive-team (VEN playbook on building your executive team) |
+| /library/hiring/when-to-hire-first-vp-sales/ | /playbooks/getting-customers/repeatable-sales-motion (VEN playbook on building a repeatable sales motion) |
+| /tools/ai-gross-margin-calculator/ | /playbooks/building-the-company/pricing-in-the-ai-era (VEN playbook on pricing and margins in the AI era) |
+| /tools/executive-equity-calculator/ | /playbooks/equity-legal/options-pools-advisor-equity (VEN playbook on options, pools and advisor equity) |
+| /tools/magic-number-cac-payback-calculator/ | /playbooks/concepts/ltv-cac (VEN playbook note on LTV:CAC) |
+| /tools/option-pool-shuffle-calculator/ | /playbooks/equity-legal/options-pools-advisor-equity (VEN playbook on options, pools and advisor equity) |
+| /tools/runway-calculator/ | /playbooks/guides/capital-runway-and-the-board (VEN guide to capital, runway and the board) |
+No genuine match (homepage link only): /library/rooms/, both /compare/ pages, /library/board/when-to-add-independent-director/, /library/finance/fractional-vs-full-time-cfo/, /about/.
+
 ## Rules
-- Cite Index, Carta, Kruze, ChartMogul, Bessemer. Never imply FN proprietary comp data.
+- Cite Index, Carta, Kruze, ChartMogul, Bessemer. Never imply VEN proprietary comp data.
 - Every URL needs a tool, original cited table, template, or labeled composite scenario.
 - Not legal or tax advice on finance/legal pages.
-- Brand queries stay on foundernexus.com homepage.
+- Brand queries stay on the www.venexecs.com homepage.
 - Membership is offered, not sold. Apply names the decision.
 - No session content scraped into the library.
 - Stop-slop gate before every push (required): `python3 ops/stop-slop/check.py --changed` at HARD=0, `facts_guard.py origin/main` PASS for edited pages, and a manual read against ops/stop-slop/RULES.md at 35/50 or better. Details in ops/stop-slop/GATE.md. The /decisions/ and /benchmarks/ pages come from fn-content; report slop there, do not edit it here.
@@ -66,7 +129,7 @@ foundernexus.com/ → Apply product
 
 
 ## Friday 2026-09-18 Startup Bible check (internal)
-Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Judgment only — no closed-session numbers on FD pages. Cite as FounderNexus session → https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library when earned.
+Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Judgment only — no closed-session numbers on FD pages. Cite as VEN session → https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library when earned.
 
 ### New/updated since ~2026-09-11
 - Homepage now surfaces two extra pillars: Marketing & PR (4) and Building the Company (4), beyond Raising Money / Getting Customers / Equity & Legal / Reference.
@@ -95,7 +158,7 @@ Priority for next days: #23–#32 GTM spokes + GTM hub shipped (skip thin GTM-as
 
 
 ## Friday 2026-09-25 Startup Bible check (internal)
-Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Judgment only — no closed-session numbers on FD pages. Cite as FounderNexus session → https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library when earned.
+Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Judgment only — no closed-session numbers on FD pages. Cite as VEN session → https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library when earned.
 
 ### New/updated since 2026-09-18
 - **Why AI isn't making engineering 10x faster** — Building the Company (5th playbook). LAST REVIEWED 2026-09; Sep 2026 session. Amdahl’s law on delivery loop (design/code/review/test/deploy/operate); “meat proxy” tax; AI-native default; engineering sovereignty.
@@ -120,7 +183,7 @@ Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Ju
 35. SAFE vs priced round (Seed instrument) — done 2026-10-02 → /library/fundraising/safe-vs-priced-round/. Query: SAFE vs priced round. Third fundraising spoke. Cite YC post-money SAFE + SAFE vs note vs priced; Carta Q3 2024 seed mix (64/27/10) + size bands + Q1 2026 pre-seed 93% SAFE; Carta SAFE learn + State of Pre-Seed Q2 2025 under-$4M convertibles; Cooley GO discounts; CRV priced vs SAFE cost/timeline; FN session mid-Seed modeling / one-instrument stack. Hub orient + inbound related on siblings. fn-content#32.
 
 ## Friday 2026-10-02 Startup Bible check (internal)
-Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Judgment only — no closed-session numbers on FD pages. Cite as FounderNexus session → https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library when earned. Preview host https://startup-bible-theta.vercel.app 308→ https://www.foundernexus.com/playbooks.
+Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Judgment only — no closed-session numbers on FD pages. Cite as VEN session → https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library when earned. Preview host https://startup-bible-theta.vercel.app 308→ https://www.foundernexus.com/playbooks.
 
 ### New/updated since 2026-09-25
 - **No new playbook pages** since last Friday. Counts unchanged: raising-money 11, getting-customers 8, building-the-company 5, marketing-pr 4, equity-legal 4; ~40 concepts; sitemap ~77 URLs (no lastmod stamps on playbooks sitemap-0).
@@ -143,7 +206,7 @@ Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Ju
 41. How seed VCs decide — done 2026-10-09 → /library/fundraising/how-seed-vcs-decide/. Query: how do seed VCs decide to invest (secondary: what seed investors look for). Eighth fundraising spoke (hub already live). Selection-factor table (team / product / business model / market / fit / valuation / value-add, early vs late); funnel-per-closed-deal table; pricing from check + target ownership; labeled composite fund-lens table (team / defensibility / traction / category-leader bet, no thresholds); :::steps fund list → convince yourself → team → market path → lens evidence → milestone ask → first meeting for the second → reference-check lead; mistakes. Cites Gompers, Gornall, Kaplan & Strebulaev JFE 2020 (885 VCs / 681 firms; survey Nov 2015–Mar 2016; team 95% / 47%; early 96% / 53% vs late 39%; early valuation 0% most important; fit 13%; funnel 119 / 34 / 11 / 4.6 / 1.5 vs all 101 / 28 / 10 / 4.8 / 1.7; 73 vs 106 days, 81 vs 184 hours, 8 vs 13 references; desired ownership 75%, 63% set valuation from check + ownership, 20% target stake), Bernstein/Korteweg/Laws JF 2017 (AngelList ~4,500 investors / ~17,000 emails; team moves average investor, traction and leads do not), Paul Graham How to Convince Investors (2013), YC Ralston seed guide (10%/week; 12–18 months; up to 20% dilution, avoid >25%; first meeting → next meeting; no detailed financials), Carta State of Pre-Seed Q2 2026 ($3.19B / 11,500+ vs $3.22B / 14,825; $276K avg, +27%; AI 49% H1). FN session know-the-fund's-lens / qualify thesis-check-deployment / reference-check lead / friendly-no-next-step = no (no session numbers). Hub lede+takeaway+spokes+composite (2 rows)+stage sketch+close+Related updated (no new hub cite numbers; Sources unchanged); inbound related on first-angel-check, safe-vs-priced, when-to-raise, term-sheet-red-flags. fn-content#38 (new: seed VC deal funnel and selection factors). Bible check 2026-10-09: no new playbook pages (sitemap 77 URLs; raising-money 11, getting-customers 8, building-the-company 5, marketing-pr 4, equity-legal 4, concepts 39; unchanged). Lastmod bumps only: how-seed-vcs-decide, pitch-deck, running-the-raise, sessions (2026-10-06); how-seed-vcs-decide now adds category-leader, capital-fit, and founder-commitment lenses (used as judgment only). Raising-money playbooks not yet on FD: pitch deck, running the raise, exit process, exits and M&A.
 
 ## Friday 2026-10-09 Startup Bible check (internal)
-Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Judgment only — no closed-session numbers on FD pages. Cite as FounderNexus session → https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library when earned. Preview host https://startup-bible-theta.vercel.app 308→ https://www.foundernexus.com/playbooks.
+Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Judgment only — no closed-session numbers on FD pages. Cite as VEN session → https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library when earned. Preview host https://startup-bible-theta.vercel.app 308→ https://www.foundernexus.com/playbooks.
 
 ### New/updated since 2026-10-02
 - **No new playbook or concept pages.** Sitemap 77 URLs, all 200; path list identical to the 2026-10-07 snapshot. Counts: raising-money 11, getting-customers 8, building-the-company 5, marketing-pr 4, equity-legal 4, reference 3, concepts 39 (+ concepts index). Last fn-playbooks commit 2026-10-06 (216f7c4).
@@ -168,7 +231,7 @@ Lower priority (audience fit weaker for Seed–B): exit process / exits and M&A.
 48. How to price AI features to cover inference cost — done 2026-10-16 → /library/gtm/price-ai-features-inference-cost/. Query: how to price AI features (secondary: AI pricing inference cost, AI credits pricing, AI add-on pricing). Ninth GTM spoke (hub already live). Distinct from #24 seat-vs-usage (charge metric choice): this page is the next step, making the price cover the inference bill. Lede: value sets price, cost sets floor; floor = AI cost per unit ÷ (1 − target AI margin) for typical and heavy units; allowance sized to typical use + metered overage/credits at or above floor. Package decision table (#pick-the-package-before-you-set-the-number: bundle into tier / paid add-on / included allowance + overage / prepaid credit packs / per conversation or outcome; who carries heavy-user cost; public examples). Floor multiple table (40/50/60/70% → 1.67/2/2.5/3.33×, arithmetic). Labeled editorial example (1,000 seats; 900 × $2.50 + 100 × $60 = $8,250; heavy 73%; flat $16.50 uplift 50% → 14% if heavy cost doubles vs $10 uplift + $5 allowance + 2× overage 61% → 57%; heavy user $120). Allowance/overage sizing; heavy-user and agent guardrails; repricing table (Cursor 2025 / GitHub 2026 / Notion 2025 customer handling); :::steps AI feature price build (10) at #build-the-ai-price-in-order; mistakes. Cites Growth Unhinged 2026 State of B2B Monetization (Poyar, 13 May 2026: 230 cos; internal costs 54% / market 36% / productivity 30%; median target AI margin ~50%; 12% aim 80%+; similar share ≤20% (PostHog); credits 29% / 33% plan / +126% 2025; premium edition 50–100% above base; top 10% → 70%+ tokens (Poyar's experience); 3 in 4 changed pricing; hybrid 37%), Growth Unhinged AI credits (3 Sep 2025), Bessemer AI pricing playbook (10 Feb 2026, re-verified 10/16: cost-plus trap, 2X platform fee, caps/credits/hybrid/tiers, 50–60% vs 80–90%, Fin $0.99), Bessemer Part III (Copilot ~$30 add-on), The SaaS CFO Murray (heavy users 50–100×; reuse), GitHub blog Rodriguez 27 Apr 2026 + GitHub Docs usage-based billing (Pro $10 incl. $10 credits at API rates; flex allotment; 1 credit = $0.01; pooled; budgets; promo $30/$70 Jun–Aug; 10% auto-model discount), Cursor Truell 4 Jul 2025 (Pro $20 at API pricing, more at cost; 500 requests before; 225/550/650 at median; refunds), Notion AI for Work 13 May 2025 + pricing / product AI pages checked 16 Oct 2026 (Business $20; renewal after 13 Aug 2025; Custom Agents $10 per 1,000 credits from 4 May 2026; pause when out), Salesforce Flex Credits 15 May 2025 ($500 / 100k; 20 credits = $0.10; $2 per conversation), SaaStr/ICONIQ 7 Feb 2026 (inference 20% → 23%; routing). FN session judgment from Bible pricing-in-the-ai-era + pricing-and-packaging (anchor to buyer's existing spend, not your costs; know variable cost per unit of work so outcome pricing doesn't invert margin; prepaid allocations; no session numbers, no price-to-pain ratio). Hub description+takeaway (Price bullet)+spokes highlight (nine)+spoke bullet+composite row+Related (no new hub cite numbers; Sources unchanged); inbound related on seat-vs-usage (frontmatter + body line + Related), #45 spoke (frontmatter + step 6 + Related), #47 calculator (frontmatter + levers paragraph). fn-content#44 reused for AI cost per unit; new benchmark request for AI price markup over inference cost (credits/overage) opened as fn-content#46 (page says no reliable public benchmark yet). Bible check 2026-10-16: no new pages (sitemap 77 URLs, identical path list to bible-urls.txt; lastmods 10/4 + 10/6 only). Next candidate: queue empty after #48; Friday 10/16 Bible check found no new playbooks, so candidates must come from existing unpublished Bible topics (e.g. first customer contracts / enterprise selling, exit process lower priority) or GSC query gaps. GSC same-day indexing skipped 2026-10-16: desktop Chrome landed on logged-out /search-console/about.
 
 ## Friday 2026-10-16 Startup Bible check (internal)
-Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Judgment only — no closed-session numbers on FD pages. Cite as FounderNexus session → https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library when earned. Preview host https://startup-bible-theta.vercel.app 308→ https://www.foundernexus.com/playbooks.
+Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Judgment only — no closed-session numbers on FD pages. Cite as VEN session → https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library when earned. Preview host https://startup-bible-theta.vercel.app 308→ https://www.foundernexus.com/playbooks.
 
 ### New/updated since 2026-10-09
 - **No new playbook or concept pages.** Sitemap 77 URLs; lastmods still 10/4 + 10/6 only. Path list identical to the prior Friday snapshot. Counts unchanged: raising-money 11, getting-customers 8, building-the-company 5, marketing-pr 4, equity-legal 4, reference 3, concepts 39 (+ concepts index).
@@ -191,7 +254,7 @@ Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Ju
 Lower priority (audience fit weaker for Seed–B): exit process / exits and M&A.
 
 ## Friday 2026-10-23 Startup Bible check (internal)
-Source: weekly internal scan of FounderNexus Playbooks, now at www.venexecs.com/playbooks (never link publicly). Judgment only, no closed-session numbers on FD pages. Cite as FounderNexus session → https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library when earned.
+Source: weekly internal scan of FounderNexus Playbooks, now at www.venexecs.com/playbooks (never link publicly). Judgment only, no closed-session numbers on FD pages. Cite as VEN session → https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library when earned.
 
 ### New/updated since 2026-10-16
 - Sitemap: 89 /playbooks URLs (was 77 on the old host on 10/16). Path list identical to the 2026-10-20 snapshot, so nothing new since Tuesday.

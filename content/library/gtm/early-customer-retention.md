@@ -7,7 +7,7 @@ cluster: gtm
 layout: article
 target_query: early customer retention startup
 date: 2026-10-21
-close: Founders who have kept their first customers through a rough product year will pressure-test your feedback log, your capacity limit, and your retention review in a FounderNexus session.
+close: Founders who have kept their first customers through a rough product year will pressure-test your feedback log, your capacity limit, and your retention review in a VEN session.
 draft: false
 related:
 - library/gtm

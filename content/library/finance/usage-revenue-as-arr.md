@@ -7,7 +7,7 @@ cluster: finance
 layout: article
 target_query: is usage-based revenue ARR
 date: 2026-10-12
-close: Founders who have defended an ARR definition through a board pack and a raise will pressure-test your revenue lines in a FounderNexus session before the number goes in the deck.
+close: Founders who have defended an ARR definition through a board pack and a raise will pressure-test your revenue lines in a VEN session before the number goes in the deck.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -133,7 +133,7 @@ Burkland’s 30-day plan fits the month before a raise. Run it before the first 
 3. **Write the one-page policy.** Definitions, inclusion and exclusion rules, and the annualization window (Burkland; Stripe for minimum commits).
 4. **Restate the trend.** Rebuild past months on the new rule so the board sees one consistent line.
 5. **Build the schedules.** Contract schedule, ARR bridge, renewal calendar, and reconciliation (Burkland weeks 2 to 3).
-6. **Use one definitions page everywhere.** Deck, model, board pack, and data room (Burkland; FounderNexus session).
+6. **Use one definitions page everywhere.** Deck, model, board pack, and data room (Burkland; VEN session).
 7. **Dry-run diligence.** Have someone outside the build trace headline ARR to contracts and invoices (Burkland week 4).
 :::
 
@@ -147,7 +147,7 @@ Bessemer’s AI pricing playbook (February 2026) describes hybrid pricing as a b
 
 Growth Unhinged’s 2026 survey (Kyle Poyar, **230** companies, April to May 2026) found **37%** on hybrid pricing, up from **25%** twelve months earlier. Usage- and outcome-priced companies said their revenue is hard to forecast. Those are shares of companies by pricing model. There is no reliable public benchmark yet for usage revenue share of ARR in AI SaaS, so do not quote a “normal” mix to your board.
 
-A [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) session landed on the same rule: keep AI usage revenue out of ARR, and use one metric definition across the deck, the model, and the board pack. That is operator judgment, not a survey.
+A [VEN](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) session landed on the same rule: keep AI usage revenue out of ARR, and use one metric definition across the deck, the model, and the board pack. That is operator judgment, not a survey.
 
 ## Sources
 
@@ -162,7 +162,7 @@ A [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_me
 - [Bessemer Venture Partners, The AI pricing and monetization playbook](https://www.bvp.com/atlas/the-ai-pricing-and-monetization-playbook) — Atlas Editors, 10 February 2026. Hybrid pricing: base subscription for predictability, usage tiers for upside; middle ground for early-stage startups.
 - [Growth Unhinged, The state of B2B monetization in 2026](https://www.growthunhinged.com/p/the-state-of-b2b-monetization-in-2026) — Kyle Poyar, 13 May 2026. **230** B2B software and AI companies surveyed April to May 2026; **37%** hybrid pricing, up from **25%** twelve months earlier; usage- and outcome-based companies say revenue is hard to forecast.
 - [David Sacks, The Burn Multiple (Craft Ventures / Medium)](https://medium.com/craft-ventures/the-burn-multiple-51a7e43cb200) — 23 April 2020. Burn multiple = net burn ÷ net new ARR.
-- [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment from live finance and data-room sessions: keep AI usage revenue out of ARR; one metric definition across deck, model, and board pack. Not a survey.
+- [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment from live finance and data-room sessions: keep AI usage revenue out of ARR; one metric definition across deck, model, and board pack. Not a survey.
 
 ## Related
 

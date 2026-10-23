@@ -6,7 +6,7 @@ section: library
 cluster: fundraising
 target_query: Series A fundraising
 date: 2026-10-01
-close: First angel checks, seed VC pitches, seed decks, the seed process, Seed instrument choice, venture debt, short-runway triage, Series A timing, term sheets, and diligence are ops decisions. Founders who have opened a raise from a position of strength will pressure-test your target list, fund lens, deck, outreach order, instrument math, debt terms, cash path, readiness score, term sheet, and room map in a FounderNexus session.
+close: First angel checks, seed VC pitches, seed decks, the seed process, Seed instrument choice, venture debt, short-runway triage, Series A timing, term sheets, and diligence are ops decisions. Founders who have opened a raise from a position of strength will pressure-test your target list, fund lens, deck, outreach order, instrument math, debt terms, cash path, readiness score, term sheet, and room map in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 ---
@@ -77,7 +77,7 @@ One fundraising question per row. Open the spoke for numbers and publisher sampl
 | What to share pre- vs post–term sheet? | First meet vs partner pitch vs confirmatory legal | [Series A diligence checklist](/library/fundraising/series-a-diligence-checklist/) |
 | Metric definitions hang together? | Deck, model, and board pack still disagree on ARR, churn, or runway | Readiness and diligence spokes; fix the glossary before you open the room |
 
-Empty cells stay empty. Each row points at a spoke that already carries the cited numbers. A [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) session pushed the same pattern: close early angels with a clean filter and one instrument, pitch seed funds whose lens fits your proof, make each deck number match the model, run outreach in parallel from a filtered list, pick Seed paper that matches size and lead terms, triage short runway before a panic raise, score the machine with the bets named, open with cash to negotiate, and treat the room as an ops signal. That is session judgment, not a survey.
+Empty cells stay empty. Each row points at a spoke that already carries the cited numbers. A [VEN](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) session pushed the same pattern: close early angels with a clean filter and one instrument, pitch seed funds whose lens fits your proof, make each deck number match the model, run outreach in parallel from a filtered list, pick Seed paper that matches size and lead terms, triage short runway before a panic raise, score the machine with the bets named, open with cash to negotiate, and treat the room as an ops signal. That is session judgment, not a survey.
 
 ## Stage sketch for the raise
 
@@ -126,7 +126,7 @@ If the board asks burn, retention, or runway, use the [finance hub](/library/fin
 - [Y Combinator, Series A diligence checklist](https://www.ycombinator.com/library/3h-series-a-diligence-checklist) — Jason Kwon with Aaron Harris. Prepare the data room before signing; can cut as much as a week off closing; pending-grant 409A warning. On [Series A diligence checklist](/library/fundraising/series-a-diligence-checklist/).
 - [Underscore VC, What Should Be in a Series A Data Room?](https://underscore.vc/resources/series-a-data-room/) — Staged access; consistency and anti-overshare norms; partner-pitch folder checklist. On the diligence spoke.
 - [David Sacks, The Burn Multiple (Craft Ventures / Medium)](https://medium.com/craft-ventures/the-burn-multiple-51a7e43cb200) — 23 April 2020. Formula and early-stage bands; detail on [burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/).
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder sessions. Score the machine with the bets named; open with cash to negotiate; the room is an ops signal. Not a survey.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder sessions. Score the machine with the bets named; open with cash to negotiate; the room is an ops signal. Not a survey.
 
 ## Related
 

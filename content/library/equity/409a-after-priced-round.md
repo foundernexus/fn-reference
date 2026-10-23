@@ -7,7 +7,7 @@ cluster: equity
 layout: article
 target_query: 409A after funding round
 date: 2026-09-02
-close: After the round closes, the 409A gates your next hires. Founders who have sequenced the freeze, refresh, and first post-round grants will walk through your calendar in a FounderNexus session.
+close: After the round closes, the 409A gates your next hires. Founders who have sequenced the freeze, refresh, and first post-round grants will walk through your calendar in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 ---

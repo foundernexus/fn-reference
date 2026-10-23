@@ -7,7 +7,7 @@ cluster: gtm
 layout: article
 target_query: how to market an AI startup
 date: 2026-09-19
-close: Founders who have rewritten an AI homepage around the job, and kept a person on the close, will pressure-test your message in a FounderNexus session.
+close: Founders who have rewritten an AI homepage around the job, and kept a person on the close, will pressure-test your message in a VEN session.
 draft: false
 related:
 - library/gtm
@@ -25,7 +25,7 @@ If you are asking this, you are deciding whether to put “AI” in the hero. Bu
 - Gartner, 25 Jun 2025: vendors engage in **agent washing** (rebranding assistants, RPA, and chatbots as agentic). Gartner estimates only about **130** of the thousands of purported agentic AI vendors are real. Same release: over **40%** of agentic AI projects will be canceled by the end of 2027. If you lead with “agentic,” you sound like the washers.
 - Bessemer PMF for AI founders (29 Jul 2025): for the C-suite, lead with economic terms (replace cost, drive revenue). For end users, lead with capability and less mundane work. That is two messages for one product. Status quo first, then why you beat other tools.
 - Mid-funnel is the usual gap. Bessemer demand-gen playbook: website that speaks to the ICP, a content capsule (symptom, solution, value, customer story, product), LinkedIn with a narrative, earned media where buyers already listen. TOFU without MOFU does not convert.
-- Put the model behind the job. Keep a person on the close and on inbound that matters ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Sibling: [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/).
+- Put the model behind the job. Keep a person on the close and on inbound that matters ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Sibling: [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/).
 :::
 
 ## What you are deciding
@@ -103,14 +103,14 @@ Labeled sketches, not real companies. Thresholds come from the sources above.
 
 **Series A, C-suite loves the ROI slide, end users stall the rollout.** Bessemer PMF dual-message rule. Keep the economic deck for the buyer. Ship an end-user page that never leads with headcount replacement. Measure adoption and second use, not only pilot logos. ARR built on novelty does not last.
 
-**You want to say “agentic” because the category deck says so.** Gartner: about 130 of thousands of purported agentic vendors are real, and over 40% of agentic projects are forecast to be canceled by end of 2027. Use the word only when you can show the agentic behavior in the workflow. Prefer the job and the outcome on the public page. If the motion still needs a human on inbound and on the close, keep it that way ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library); see [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/)).
+**You want to say “agentic” because the category deck says so.** Gartner: about 130 of thousands of purported agentic vendors are real, and over 40% of agentic projects are forecast to be canceled by end of 2027. Use the word only when you can show the agentic behavior in the workflow. Prefer the job and the outcome on the public page. If the motion still needs a human on inbound and on the close, keep it that way ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library); see [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/)).
 
 ## Sources
 
 - [Bessemer Atlas, A B2B founder’s guide to generating demand from scratch](https://www.bvp.com/atlas/a-b2b-founders-guide-to-generating-demand-from-scratch). Allyson Letteri with Atlas Editors, published 13 Oct 2025. ICP five factors. Mid-funnel content capsule. Dual C-suite / end-user messaging. “AI is a feature and a means to an end; it’s not a value proposition in and of itself.”
 - [Bessemer Atlas, Mastering product-market fit: a detailed playbook for AI founders](https://www.bvp.com/atlas/mastering-product-market-fit-a-detailed-playbook-for-ai-founders). Christine Deakers, published 29 Jul 2025. Economic ROI for C-suite; capability messaging for end users; status-quo-first positioning (Kim Caldbeck); Brisk Teaching case (over 10 hours/week saved; over 1M educators as of March 2025 snapshot).
 - [Gartner, Over 40% of agentic AI projects will be canceled by the end of 2027](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027). Newsroom, 25 Jun 2025. Agent washing; about 130 of thousands of purported agentic vendors are real; over 40% cancel forecast. A forecast and an estimate, not your category win rate.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. Job-first placement; human on inbound and on the close. Not a survey.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. Job-first placement; human on inbound and on the close. Not a survey.
 
 ## Related
 

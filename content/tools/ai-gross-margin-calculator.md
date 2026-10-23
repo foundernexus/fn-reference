@@ -8,7 +8,7 @@ layout: calculator
 calculator_js: ai-gross-margin-calculator.js
 target_query: AI gross margin calculator
 date: 2026-10-15
-close: Founders who have walked a low AI margin and a credible path up through a raise will pressure-test your COGS map and target in a FounderNexus session.
+close: Founders who have walked a low AI margin and a credible path up through a raise will pressure-test your COGS map and target in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -98,7 +98,7 @@ Set a **65%** target, the top of Murray’s AI-native maturity band. The AI budg
 Explain the variable cost and show the path up before the board asks.
 :::
 
-Founders in a [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) session agreed on one rule: investors accept a low AI-native margin when you can explain the variable cost and show a credible path up. That is session judgment, not a survey.
+Founders in a [VEN](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) session agreed on one rule: investors accept a low AI-native margin when you can explain the variable cost and show a credible path up. That is session judgment, not a survey.
 
 Murray names two levers. Pricing discipline: companies that package and charge for AI usage have better margins than those that absorb it into the base subscription. Model routing: send most tasks to smaller, cheaper models and escalate only the hard cases to frontier models. Bessemer’s pricing playbook adds a third. Each AI query has a real compute cost, so track true costs from day one and price to cover them.
 
@@ -133,4 +133,4 @@ The calculator gives you the numbers for each lever. The heavy-cohort line tells
 - [Bessemer Venture Partners, The AI pricing and monetization playbook](https://www.bvp.com/atlas/the-ai-pricing-and-monetization-playbook). Atlas Editors, 10 February 2026. Every AI query incurs real compute costs; track true costs from day one and price to cover compute.
 - [SaaStr, AI Gross Margins Are Up, R&D Spend Is Way Up, AI Pricing is a Mess: 5 Key Takeaways from ICONIQ’s State of AI Report](https://www.saastr.com/the-execution-era-of-ai-5-key-takeaways-from-iconiqs-state-of-ai-report/). Jason Lemkin, 7 February 2026. ICONIQ State of AI (January 2026), about **300** executives; average AI product gross margin **41%** in 2024, **52%** projected for 2026.
 - [Mavvrik and Benchmarkit, 2025 State of AI Cost Governance (PDF)](https://www.mavvrik.ai/wp-content/uploads/State-of-AI-Cost-Governance-2025_FINAL.pdf). 2025. N=**372**; **84%** report more than **6** points of gross margin erosion from AI delivery costs, **26%** report **16** points or more; data platform usage **56%**, network access to models **52%**, LLM tokens **37%** as unexpected AI costs.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder session. A low AI-native margin is acceptable when the variable-cost story is clear and the path up is credible. Session judgment, not a survey.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder session. A low AI-native margin is acceptable when the variable-cost story is clear and the path up is credible. Session judgment, not a survey.

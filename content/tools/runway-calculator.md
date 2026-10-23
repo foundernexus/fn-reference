@@ -8,7 +8,7 @@ layout: calculator
 calculator_js: runway-calculator.js
 target_query: startup runway calculator hiring plan
 date: 2026-09-10
-close: Your board will ask about runway and default alive. Founders who have had that conversation will pressure-test your hiring plan against the cash left in a FounderNexus session.
+close: Your board will ask about runway and default alive. Founders who have had that conversation will pressure-test your hiring plan against the cash left in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 related:

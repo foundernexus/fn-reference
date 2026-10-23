@@ -8,7 +8,7 @@ layout: article
 target_query: Series A leadership hiring sequence
 date: 2026-09-07
 updated: 2026-09-25
-close: Founders who have made their first two VP hires after a raise will help you find which bottleneck is yours in a FounderNexus session.
+close: Founders who have made their first two VP hires after a raise will help you find which bottleneck is yours in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 ---
@@ -82,7 +82,7 @@ Engage strategic finance support at least three months before a raise if the CEO
 The 0→10 operator is often not the 10→50 operator. Say the phase in the offer.
 :::
 
-A FounderNexus session drew the same line on tenure: name the phase out loud. The person who builds the function for this chapter may not be the person who scales it after the next step-change. Say so in the offer so neither side pretends the job is permanent. Majhi’s failure data agrees: hiring a VP who has mainly operated at a larger stage is the most common Series A mis-hire pattern they call out. Nxt Level: over-titling at Series A (calling someone VP when the org is still tiny) creates title inflation you regret when you need a real VP later.
+A VEN session drew the same line on tenure: name the phase out loud. The person who builds the function for this chapter may not be the person who scales it after the next step-change. Say so in the offer so neither side pretends the job is permanent. Majhi’s failure data agrees: hiring a VP who has mainly operated at a larger stage is the most common Series A mis-hire pattern they call out. Nxt Level: over-titling at Series A (calling someone VP when the org is still tiny) creates title inflation you regret when you need a real VP later.
 
 Recruiting these seats takes a sustained pursuit, not a two-week LinkedIn blast, so budget calendar time. Once they start, plan a short, structured onboarding window with frequent founder contact in the first months. The founder-to-VP handoff fails more often than the résumé screen does. Give real authority; otherwise you have hired a senior IC with a VP title (Nxt Level).
 
@@ -141,7 +141,7 @@ These are labeled sketches, not real companies.
 - [KORE1, How to Scale Your Engineering Team After Series A](https://www.kore1.com/scale-engineering-team-series-a-startup-guide/) — technical leadership first, then senior owners who ship independently; management layers later than founders expect.
 - [Kruze Consulting, when a startup needs a CFO](https://kruzeconsulting.com/startup-need-cfo/) — Series A generally does not need full-time CFO; part-time fits Seed–Series C; hire full-time when part-time interaction is constant.
 - [Kruze Consulting, how to hire a SaaS CFO](https://kruzeconsulting.com/saas-cfo-hire/) — many Series A clients have no CFO or VP Finance; outsource until B (often later).
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder session, February 2026. Hire for the phase. Say it in the offer. Not a survey.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder session, February 2026. Hire for the phase. Say it in the offer. Not a survey.
 
 ## Related
 

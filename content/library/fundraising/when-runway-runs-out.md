@@ -7,7 +7,7 @@ cluster: fundraising
 layout: article
 target_query: what to do when startup runway runs out
 date: 2026-10-04
-close: Short-runway choices set the next raise, the next job, and how investors remember you. Founders who have cut burn, bridged, or landed soft will pressure-test your path against cash left in a FounderNexus session.
+close: Short-runway choices set the next raise, the next job, and how investors remember you. Founders who have cut burn, bridged, or landed soft will pressure-test your path against cash left in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -83,7 +83,7 @@ Pick one primary path. Stack a secondary only when it does not delay the primary
 | Venture debt (short pointer) | Seldom the first lever when runway is already critical; needs a fit you can defend later | You treat debt as free runway. Fit, sizing, and terms live on [venture debt](/library/fundraising/venture-debt/); talk to counsel and lenders only after the cash math is honest |
 | Orderly wind-down / soft landing | Shutdown or team/asset sale is the honest outcome; cash remains for payroll, taxes, and close costs (YC) | You ride to zero to avoid “admitting defeat” and leave unpaid obligations |
 
-Operator judgment from [FounderNexus sessions](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): score the machine before a panic raise; cut non-critical burn before you sell desperation terms; bring the board options, not only a plea. That is session judgment, not a survey.
+Operator judgment from [VEN sessions](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): score the machine before a panic raise; cut non-critical burn before you sell desperation terms; bring the board options, not only a plea. That is session judgment, not a survey.
 
 Efficiency context while you cut: burn multiple = net burn ÷ net new ARR (Sacks / Craft). Bands and stage reads live on [burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/). Do not invent a new “healthy” multiple here.
 
@@ -148,7 +148,7 @@ Use the [runway calculator](/tools/runway-calculator/) for snapshot vs plan. Use
 - [Carta, Series A Fundraising Q2 2025](https://carta.com/data/series-a-fundraising-q2-2025/) — 19 Sep 2025. Kevin Dowd. Median seed → primary Series A **616** days (~**20** months). On [when to raise Series A](/library/fundraising/when-to-raise-series-a/).
 - [Burkland, How Investors Evaluate Series A Startups in 2026](https://burklandassociates.com/2026/07/21/how-investors-evaluate-series-a-startups-in-2026/) — 21 Jul 2026. Under **6** months runway into the process as desperation; **9–12+** stronger; **3–6** months to close. On the readiness spoke.
 - [David Sacks, The Burn Multiple (Craft Ventures / Medium)](https://medium.com/craft-ventures/the-burn-multiple-51a7e43cb200) — 23 April 2020. Formula and bands; detail on [burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/).
-- [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: score the machine before a panic raise; cut non-critical burn before desperation terms; tell the board early with options. Not a survey.
+- [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: score the machine before a panic raise; cut non-critical burn before desperation terms; tell the board early with options. Not a survey.
 
 ## Related
 

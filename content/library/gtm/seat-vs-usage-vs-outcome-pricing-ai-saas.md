@@ -7,7 +7,7 @@ cluster: gtm
 layout: article
 target_query: seat based vs usage pricing AI SaaS
 date: 2026-09-20
-close: Founders who have picked a charge metric and a hybrid shape for an AI product will pressure-test yours in a FounderNexus session.
+close: Founders who have picked a charge metric and a hybrid shape for an AI product will pressure-test yours in a VEN session.
 draft: false
 related:
 - library/gtm
@@ -27,7 +27,7 @@ You are choosing what you bill for: a seat, a token, a workflow task, or a succe
 - Same playbook: AI gross margins often land around **50–60%** versus classic SaaS **80–90%**. Price for compute and human-in-the-loop from day one. If unit economics fail at 10 customers, they will not work at 1,000.
 - Hybrid is the early bridge Bessemer names: **platform fee (2× calculated delivery costs) + outcome credits**. Example shape: **$12K** annual platform, **100** resolutions included, then **$5K per 100** more. Predictable floor for the buyer; upside as outcomes scale.
 - Soft ROI copilots (advice without closing the loop) face a **2026 renewal cliff** as 2025 pilots reprice on proven value. Agents that close the loop hold harder ROI and stronger willingness to pay.
-- Operator judgment when the product closes the loop on its own: seats for humans, outcomes for agents; stay hybrid while reliability is still climbing ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Siblings: [market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/), [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/).
+- Operator judgment when the product closes the loop on its own: seats for humans, outcomes for agents; stay hybrid while reliability is still climbing ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Siblings: [market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/), [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/).
 :::
 
 ## What you are deciding
@@ -112,7 +112,7 @@ Friction test they describe: start at a price. If buyers say “sold” instantl
 
 Once the charge metric is set, size the allowance and price the overage against your inference cost per unit: [how to price AI features to cover inference cost](/library/gtm/price-ai-features-inference-cost/).
 
-Stay hybrid while reliability is still climbing. Move toward pure outcome only when the success definition is unambiguous and you can absorb the long-tail compute cases ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): seats for humans, outcomes for agents when the product closes the loop on its own).
+Stay hybrid while reliability is still climbing. Move toward pure outcome only when the success definition is unambiguous and you can absorb the long-tail compute cases ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): seats for humans, outcomes for agents when the product closes the loop on its own).
 
 ## Soft ROI, hard ROI, and the 2026 renewal cliff
 
@@ -148,7 +148,7 @@ Labeled sketches. Thresholds and dollar examples are Bessemer’s, not invented 
 
 - [Bessemer Atlas, The AI pricing and monetization playbook](https://www.bvp.com/atlas/the-ai-pricing-and-monetization-playbook). Atlas Editors, published 10 Feb 2026. Three models (copilot / agent / AI-enabled service). Consumption vs workflow vs outcome trade-offs. Hybrid formula (platform fee at 2× delivery costs + outcome credits; **$12K** / 100 / **$5K per 100** example). AI margins often **50–60%** vs SaaS **80–90%**. Intercom Fin **$0.99** per AI resolution. Company examples table (DeepL, EvenUp, Intercom, Leena AI, Sett.ai, Zenskar, and others). Soft vs hard ROI; 2026 renewal cliff for soft-ROI pilots.
 - [Bessemer Atlas, Part III: Business model invention in the AI era](https://www.bvp.com/atlas/part-iii-business-model-invention-in-the-ai-era). Feinstein, Rea, Bennett, Deeter, et al., published 5 Dec 2024. Copilot seat framing; Microsoft Office 365 roughly **$15–$30** per license and Copilot add-on about **$30** additional. Early vertical pricing examples including Fin at **$0.99** per AI resolution.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. Seats for humans / outcomes for agents when the product closes the loop; hybrid while reliability climbs. Not a survey. No closed-session numbers.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. Seats for humans / outcomes for agents when the product closes the loop; hybrid while reliability climbs. Not a survey. No closed-session numbers.
 
 ## Related
 

@@ -32,8 +32,9 @@ BASE_PATH = ""  # e.g. "/library" if this tree is mounted under that path
 
 SITE_NAME = "Founder Decisions"
 TAGLINE = "Decision pages for venture-scale founders."
-PUBLISHER_NAME = "FounderNexus"
-PUBLISHER_URL = "https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library"
+# VEN (Venture Executive Network), formerly FounderNexus. www.foundernexus.com 301s here.
+PUBLISHER_NAME = "VEN"
+PUBLISHER_URL = "https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library"
 DISCLAIMER_LEGAL = "Not legal, tax, or compensation advice."
 
 SECTIONS = {
@@ -502,7 +503,7 @@ INTERNAL_SOURCE_HOSTS = (
     "startup-bible",
 )
 PUBLIC_SESSION_SOURCE_URL = PUBLISHER_URL
-PUBLIC_SESSION_SOURCE_LABEL = "FounderNexus session"
+PUBLIC_SESSION_SOURCE_LABEL = "VEN session"
 
 
 def _is_internal_source_url(url: str) -> bool:
@@ -510,8 +511,40 @@ def _is_internal_source_url(url: str) -> bool:
     return any(h in u for h in INTERNAL_SOURCE_HOSTS)
 
 
+_FN_URL_RE = None
+
+
+def _rebrand_fn_text(text: str) -> str:
+    """fn-content still carries FounderNexus wording and foundernexus.com links.
+    Render them as VEN / www.venexecs.com (UTM params kept). Fix here, never in
+    generated /decisions/ or /benchmarks/ output."""
+    import re
+    global _FN_URL_RE
+    if not text or "oundernexus" not in text.lower():
+        return text
+    if _FN_URL_RE is None:
+        _FN_URL_RE = re.compile(r"https?://(?:www\.)?foundernexus\.com/?(?=[?#\s\"')\]]|$)", re.I)
+    out = _FN_URL_RE.sub("https://www.venexecs.com/", text)
+    out = out.replace(
+        "FounderNexus convenes stage-matched founder groups around decisions like this one.",
+        "VEN convenes small peer sessions around decisions like this one.",
+    )
+    out = re.sub(r"\bFounderNexus\b", "VEN", out)
+    return out
+
+
+def rebrand_page(obj):
+    if isinstance(obj, dict):
+        return {k: rebrand_page(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [rebrand_page(v) for v in obj]
+    if isinstance(obj, str):
+        return _rebrand_fn_text(obj)
+    return obj
+
+
 def _scrub_internal_source_text(text: str) -> str:
-    """Remove Startup Bible URLs/names from public copy. Keep FounderNexus session framing."""
+    """Remove Startup Bible URLs/names from public copy. Keep VEN session framing."""
     if not text:
         return text
     import re
@@ -527,9 +560,9 @@ def _scrub_internal_source_text(text: str) -> str:
         PUBLIC_SESSION_SOURCE_URL,
         out,
     )
-    out = re.sub(r"(?i)The Startup Bible", "a FounderNexus session", out)
-    out = re.sub(r"(?i)Startup Bible", "FounderNexus session", out)
-    return out.strip()
+    out = re.sub(r"(?i)The Startup Bible", "a VEN session", out)
+    out = re.sub(r"(?i)Startup Bible", "VEN session", out)
+    return _rebrand_fn_text(out).strip()
 
 
 def sanitize_decision_page(page: dict) -> dict:
@@ -556,7 +589,7 @@ def sanitize_decision_page(page: dict) -> dict:
     fn = page.get("fn_link")
     if isinstance(fn, dict):
         page["fn_link"] = walk(fn)
-    return page
+    return rebrand_page(page)
 
 
 def fetch_json_dir(dir_path: str, *, sanitize: bool = False) -> list[dict]:
@@ -621,7 +654,7 @@ def fetch_decision_json() -> list[dict]:
 
 
 def fetch_benchmark_json() -> list[dict]:
-    return fetch_json_dir(FN_BENCHMARKS_DIR)
+    return [rebrand_page(p) for p in fetch_json_dir(FN_BENCHMARKS_DIR)]
 
 
 
@@ -1028,12 +1061,19 @@ def base(
 </footer>
 {js}
 <script>window.va=window.va||function(){{(window.vaq=window.vaq||[]).push(arguments);}};</script>
-<script defer src="https://va.vercel-scripts.com/v1/script.js"></script>
+<script defer src="/_vercel/insights/script.js"></script>
 <script>
 document.addEventListener("click", function (e) {{
-  var a = e.target && e.target.closest && e.target.closest("a[data-fn-click]");
+  var a = e.target && e.target.closest && e.target.closest("a[href]");
   if (!a || typeof window.va !== "function") return;
-  window.va("event", {{ name: "fn_click", data: {{ slug: a.getAttribute("data-fn-click") }} }});
+  var u;
+  try {{ u = new URL(a.href, location.href); }} catch (err) {{ return; }}
+  if (!/(^|\.)venexecs\.com$/.test(u.hostname)) return;
+  window.va("event", {{ name: "ven_click", data: {{
+    page: location.pathname,
+    target: u.pathname,
+    type: u.pathname.indexOf("/playbooks") === 0 ? "playbook" : "homepage"
+  }} }});
 }});
 </script>
 </body>
@@ -1106,12 +1146,89 @@ def article_close(sentence: str) -> str:
     if not sentence:
         return ""
     escaped = html.escape(sentence)
-    linked = escaped.replace(
-        PUBLISHER_NAME,
+    import re
+    linked = re.sub(
+        rf"\b{re.escape(PUBLISHER_NAME)}\b",
         f'<a href="{html.escape(PUBLISHER_URL, quote=True)}" data-fn-click="close">{html.escape(PUBLISHER_NAME)}</a>',
-        1,
+        escaped,
+        count=1,
     )
     return f'<p class="article-close">{linked}</p>'
+
+
+VEN_PLAYBOOK_BASE = "https://www.venexecs.com/playbooks/"
+VEN_PLAYBOOK_UTM = "utm_source=founderdecisions&utm_medium=referral&utm_campaign=playbook&utm_content={slug}"
+# Owned page key (content path, no slashes at ends) -> (playbook path under /playbooks/, anchor text).
+# One quiet "Go deeper" link per page, only on a genuine topic match (venexecs.com/sitemap.xml).
+# Pages not listed keep only the homepage UTM link. Frontmatter `ven_playbook: <path>` and
+# `ven_playbook_label: <anchor>` override or add an entry for new daily pages.
+# Link out only; never copy playbook text onto Founder Decisions.
+VEN_PLAYBOOKS: dict[str, tuple[str, str]] = {
+    "library/board": ("guides/capital-runway-and-the-board", "VEN guide to capital, runway and the board"),
+    "library/board/monthly-investor-update": ("concepts/material-change-update", "VEN playbook note on material-change investor updates"),
+    "library/board/series-a-board-meeting-agenda": ("guides/capital-runway-and-the-board", "VEN guide to capital, runway and the board"),
+    "library/equity": ("equity-legal/options-pools-advisor-equity", "VEN playbook on options, pools and advisor equity"),
+    "library/equity/409a-after-priced-round": ("concepts/409a-valuation", "VEN playbook note on 409A valuations"),
+    "library/equity/executive-grants-by-stage": ("equity-legal/options-pools-advisor-equity", "VEN playbook on options, pools and advisor equity"),
+    "library/equity/option-pool-from-hiring-plan": ("equity-legal/options-pools-advisor-equity", "VEN playbook on options, pools and advisor equity"),
+    "library/finance": ("guides/capital-runway-and-the-board", "VEN guide to capital, runway and the board"),
+    "library/finance/ai-gross-margin-inference-cogs": ("building-the-company/pricing-in-the-ai-era", "VEN playbook on pricing and margins in the AI era"),
+    "library/finance/burn-multiple-vs-rule-of-40": ("guides/capital-runway-and-the-board", "VEN guide to capital, runway and the board"),
+    "library/finance/nrr-vs-grr-board-pack": ("guides/customer-retention-and-expansion", "VEN guide to customer retention and expansion"),
+    "library/finance/usage-revenue-as-arr": ("building-the-company/pricing-in-the-ai-era", "VEN playbook on pricing in the AI era"),
+    "library/fundraising": ("raising-money/running-the-raise", "VEN playbook on running the raise"),
+    "library/fundraising/first-angel-check": ("raising-money/first-angel-check", "VEN playbook on finding your first angel"),
+    "library/fundraising/how-seed-vcs-decide": ("raising-money/how-seed-vcs-decide", "VEN playbook on how seed investors evaluate startups"),
+    "library/fundraising/safe-vs-priced-round": ("raising-money/safes-notes-priced-rounds", "VEN playbook on SAFEs, notes and priced rounds"),
+    "library/fundraising/seed-fundraising-process": ("raising-money/running-the-raise", "VEN playbook on running the raise"),
+    "library/fundraising/seed-pitch-deck": ("raising-money/pitch-deck", "VEN playbook on the pitch deck"),
+    "library/fundraising/series-a-diligence-checklist": ("raising-money/data-rooms", "VEN playbook on data rooms for due diligence"),
+    "library/fundraising/term-sheet-red-flags": ("raising-money/term-sheets-red-flags", "VEN playbook on term sheets and red flags"),
+    "library/fundraising/venture-debt": ("raising-money/venture-debt", "VEN playbook on venture debt"),
+    "library/fundraising/when-runway-runs-out": ("raising-money/when-runway-runs-out", "VEN playbook on running out of runway"),
+    "library/fundraising/when-to-raise-series-a": ("raising-money/running-the-raise", "VEN playbook on round size, outreach and timing"),
+    "library/gtm": ("marketing-pr/gtm-as-a-system", "VEN playbook on GTM as a system"),
+    "library/gtm/aeo-vs-seo-b2b-saas": ("marketing-pr/ai-era-marketing-stack", "VEN playbook on the AI-era marketing stack"),
+    "library/gtm/ai-sdr-vs-human": ("getting-customers/repeatable-sales-motion", "VEN playbook on building a repeatable sales motion"),
+    "library/gtm/coding-agents-dont-10x-engineering": ("building-the-company/ai-engineering-10x", "VEN playbook on why AI isn't making engineering 10x faster"),
+    "library/gtm/conference-to-customers": ("getting-customers/conferences-to-customers", "VEN playbook on conference lead generation"),
+    "library/gtm/customer-development-sales-funnel": ("getting-customers/customer-development-funnel", "VEN playbook on customer development as a sales funnel"),
+    "library/gtm/data-moat-ai-startup": ("building-the-company/data-moats-flywheels", "VEN playbook on data moats and AI defensibility"),
+    "library/gtm/diy-founder-pr-narrative": ("marketing-pr/diy-pr", "VEN playbook on DIY PR and the founder narrative"),
+    "library/gtm/early-customer-retention": ("getting-customers/customer-feedback-and-retention", "VEN playbook on customer feedback and early retention"),
+    "library/gtm/first-customer-contract": ("getting-customers/first-customer-contracts", "VEN playbook on first customer contracts"),
+    "library/gtm/landing-page-that-converts": ("getting-customers/landing-pages", "VEN playbook on landing pages that convert"),
+    "library/gtm/market-ai-product-without-saying-ai": ("marketing-pr/marketing-ai-products", "VEN playbook on marketing an AI product"),
+    "library/gtm/pilot-to-paid-contract": ("getting-customers/pilots-that-convert", "VEN playbook on turning a pilot into a paid contract"),
+    "library/gtm/price-ai-features-inference-cost": ("building-the-company/pricing-in-the-ai-era", "VEN playbook on pricing in the AI era"),
+    "library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas": ("building-the-company/pricing-in-the-ai-era", "VEN playbook on pricing in the AI era"),
+    "library/gtm/sell-to-enterprise": ("getting-customers/selling-to-the-enterprise", "VEN playbook on selling to the enterprise"),
+    "library/gtm/validate-demand-before-you-build": ("getting-customers/validate-before-you-build", "VEN playbook on validating demand before you build"),
+    "library/hiring": ("building-the-company/executive-team", "VEN playbook on building your executive team"),
+    "library/hiring/series-a-leadership-hiring-sequence": ("building-the-company/executive-team", "VEN playbook on building your executive team"),
+    "library/hiring/when-to-hire-first-vp-sales": ("getting-customers/repeatable-sales-motion", "VEN playbook on building a repeatable sales motion"),
+    "tools/ai-gross-margin-calculator": ("building-the-company/pricing-in-the-ai-era", "VEN playbook on pricing and margins in the AI era"),
+    "tools/executive-equity-calculator": ("equity-legal/options-pools-advisor-equity", "VEN playbook on options, pools and advisor equity"),
+    "tools/magic-number-cac-payback-calculator": ("concepts/ltv-cac", "VEN playbook note on LTV:CAC"),
+    "tools/option-pool-shuffle-calculator": ("equity-legal/options-pools-advisor-equity", "VEN playbook on options, pools and advisor equity"),
+    "tools/runway-calculator": ("guides/capital-runway-and-the-board", "VEN guide to capital, runway and the board"),
+}
+
+
+def ven_playbook_line(key: str, page: dict | None = None) -> str:
+    page = page or {}
+    entry = VEN_PLAYBOOKS.get(key)
+    if page.get("ven_playbook"):
+        entry = (str(page["ven_playbook"]).strip("/"), str(page.get("ven_playbook_label") or (entry[1] if entry else "VEN playbook")))
+    if not entry:
+        return ""
+    path, label = entry
+    slug = key.rstrip("/").split("/")[-1] or "home"
+    href = f"{VEN_PLAYBOOK_BASE}{path}?{VEN_PLAYBOOK_UTM.format(slug=slug)}"
+    return (
+        f'<p class="article-more">Go deeper: '
+        f'<a href="{html.escape(href, quote=True)}">{html.escape(label)}</a></p>'
+    )
 
 
 # Default mount/JS for calculator pages that omit calculator_js.
@@ -1320,6 +1437,7 @@ def render_cluster(cid: str, pages: list[dict]) -> str:
             f'<article class="prose article-width">'
             f'{render_markdown(hub["_body"])}'
             f'{article_close(hub.get("close") or "")}'
+            f'{ven_playbook_line(cl["section"] + "/" + cid, hub)}'
             f"</article>"
         )
         body = f"""<main id="main">
@@ -1384,7 +1502,7 @@ def render_article(page: dict, by_key: dict[str, dict]) -> str:
     extra, extra_js = calculator_mount_and_js(page)
     prose_html = calculator_prose(page["_body"], extra)
     sentence = page.get("close") or page.get("cta_sentence") or ""
-    close_html = article_close(sentence)
+    close_html = article_close(sentence) + ven_playbook_line(page_key(page), page)
     related = related_block(page, by_key)
     eyebrow = ""
     if kicker:
@@ -1434,8 +1552,32 @@ def render_404() -> str:
     )
 
 
+_VEN_FULL = "VEN (Venture Executive Network)"
+
+
+def expand_first_ven(page_html: str) -> str:
+    """First visible mention of VEN in <body> reads "VEN (Venture Executive Network)"; later ones stay "VEN"."""
+    if not page_html.lstrip().startswith("<!") or "<body" not in page_html:
+        return page_html
+    head, sep, body = page_html.partition("<body")
+    parts = re.split(r"(<script\b.*?</script>|<style\b.*?</style>|<[^>]+>)", body, flags=re.S)
+    for i, part in enumerate(parts):
+        if not part or part.startswith("<"):
+            continue
+        m = re.search(r"\bVEN\b", part)
+        if not m:
+            continue
+        if part[m.end():].startswith(" (Venture Executive Network)"):
+            return page_html
+        parts[i] = part[: m.start()] + _VEN_FULL + part[m.end():]
+        return head + sep + "".join(parts)
+    return page_html
+
+
 def write(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
+    if path.suffix == ".html":
+        text = expand_first_ven(text)
     path.write_text(text, encoding="utf-8")
 
 

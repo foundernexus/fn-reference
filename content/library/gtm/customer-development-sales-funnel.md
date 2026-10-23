@@ -7,7 +7,7 @@ cluster: gtm
 layout: article
 target_query: customer development sales funnel startup
 date: 2026-10-20
-close: Founders who have turned discovery calls into their first paid customers will pressure-test your stage exits, qualification line, and next-step habit in a FounderNexus session.
+close: Founders who have turned discovery calls into their first paid customers will pressure-test your stage exits, qualification line, and next-step habit in a VEN session.
 draft: false
 related:
 - library/gtm
@@ -50,7 +50,7 @@ Six stages. Each one ends with something the buyer gives you, so you can count i
 
 Blank’s Customer Development model has four steps. In customer discovery, the founders test hypotheses about customer problems in front of customers. Customer validation is where you develop a sales model that can be replicated and scaled. Customer creation and company building come after. If you cannot find enough paying customers during validation, his model sends you back to discovery. He calls discovery done when customer responses converge and more interviews stop producing significantly new information.
 
-The FounderNexus session view: research and sales are two ends of the same conversation. Treat each stage as a qualification gate. A buyer who will not give feedback on a prototype was not going to buy, and finding that out at stage three costs you little. Judgment from a [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library), not a survey.
+The VEN session view: research and sales are two ends of the same conversation. Treat each stage as a qualification gate. A buyer who will not give feedback on a prototype was not going to buy, and finding that out at stage three costs you little. Judgment from a [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library), not a survey.
 
 ## Write down what qualified means
 
@@ -69,7 +69,7 @@ Koomen, who co-founded Optimizely, tells founders to spend the first call on que
 | Budget | What is your budget for this? How does your company buy software? | No budget and no owner who can create one |
 | Blockers | What would stop you from using this full-time? | A missing capability you cannot deliver soon |
 
-The influence and budget rows come from Koomen’s question list. The importance, satisfaction, and path-to-money rows are FounderNexus session judgment: hunt for high importance and low satisfaction, and prefer a payoff a few logical steps from the product. A long chain from product to payoff is a kill signal. The same session advice on who to call first: a manager or director who feels the problem and can influence the decision. Design the first call to disqualify, and test one customer hypothesis at a time in outbound.
+The influence and budget rows come from Koomen’s question list. The importance, satisfaction, and path-to-money rows are VEN session judgment: hunt for high importance and low satisfaction, and prefer a payoff a few logical steps from the product. A long chain from product to payoff is a kill signal. The same session advice on who to call first: a manager or director who feels the problem and can influence the decision. Design the first call to disqualify, and test one customer hypothesis at a time in outbound.
 
 ## End each call with the next step booked
 
@@ -81,7 +81,7 @@ Fitzpatrick’s The Mom Test names two signals that a meeting worked. Commitment
 
 Bosmeny’s advice from the Stanford startup class: get people to a yes or a no as quickly as you can. A thousand maybes will sink you, and a no frees you to move on to someone who might say yes. His follow-up slide for Clever’s second deal shows a long trail of unanswered emails, pricing calls, and redlines with a buyer who wanted the product.
 
-FounderNexus session judgment adds three stage-gate questions for later calls. What would we need to build for you to use this full-time? To pay full price? To refer us to peers? The referral answer doubles as a gap list. Whatever stops a happy buyer from referring you belongs on the roadmap. For deals with several people involved, write the remaining steps, owners, and dates in a plan the buyer edits with you, and keep your own close-date guess apart from dates the buyer agreed to.
+VEN session judgment adds three stage-gate questions for later calls. What would we need to build for you to use this full-time? To pay full price? To refer us to peers? The referral answer doubles as a gap list. Whatever stops a happy buyer from referring you belongs on the roadmap. For deals with several people involved, write the remaining steps, owners, and dates in a plan the buyer edits with you, and keep your own close-date guess apart from dates the buyer agreed to.
 
 ## Fill the top by hand
 
@@ -93,7 +93,7 @@ Bosmeny frames prospecting with Everett Rogers’s adoption curve. The innovator
 
 Paul Graham’s 2013 essay Do Things That Don’t Scale calls recruiting users by hand the most common unscalable thing founders do at the start. YC’s name for Stripe’s version is the Collison installation. Anyone who agreed to try Stripe heard “Right then, give me your laptop,” and the brothers set them up on the spot.
 
-FounderNexus session judgment on outbound: invite prospects into your content, such as an interview series or a podcast about their work, with no pitch. Keep prospects who are not buying now on a nurture cadence, and go back with something useful each time. The same session called AI-written first touches a poor start to a relationship, which matches the advice on [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/).
+VEN session judgment on outbound: invite prospects into your content, such as an interview series or a podcast about their work, with no pitch. Keep prospects who are not buying now on a nurture cadence, and go back with something useful each time. The same session called AI-written first touches a poor start to a relationship, which matches the advice on [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/).
 
 ## Sell it yourself until it repeats
 
@@ -105,7 +105,7 @@ Graham, in a footnote to the same essay: “you can’t avoid doing sales by hir
 
 Bosmeny names two closing traps. A buyer who will sign once you build one more feature is passing. Either put the feature in a signed agreement or wait until more customers ask for it. If a buyer asks for a free trial, offer an annual agreement with an opt-out in the first **30** or **60** days instead, because a free trial gets you no revenue and no commitment.
 
-FounderNexus session judgment on the handoff: GTM has no autopilot. Scale out of founder-led sales by hiring someone for your lowest-value bottleneck task. Hiring a VP to do the learning for you skips the stage where the company learns who buys and why. The sequence for that seat is on [when to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/).
+VEN session judgment on the handoff: GTM has no autopilot. Scale out of founder-led sales by hiring someone for your lowest-value bottleneck task. Hiring a VP to do the learning for you skips the stage where the company learns who buys and why. The sequence for that seat is on [when to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/).
 
 ## Measure the funnel by cohort
 
@@ -137,11 +137,11 @@ Ten steps from the first call to a cohort you can read. Each step leaves a recor
 2. **Write the qualified line.** Problem, today’s fix, path to money, influence, budget, and blockers.
 3. **Fill the top by hand.** Network, small industry conferences, and short cold email (Bosmeny).
 4. **Run exploratory interviews.** Past behavior, no pitch. The method is on the [demand validation page](/library/gtm/validate-demand-before-you-build/).
-5. **Score the pain.** Importance and satisfaction with today’s fix (FounderNexus session).
+5. **Score the pain.** Importance and satisfaction with today’s fix (VEN session).
 6. **Qualify before the demo.** Budget, buying process, and who decides (Koomen).
 7. **Book the next step before you hang up.** Advancement or a no (Fitzpatrick; Bosmeny).
 8. **Demo against their problem, then ask for money.** A priced pilot or the order form.
-9. **Ask what stops a referral.** Put the answer on the roadmap (FounderNexus session).
+9. **Ask what stops a referral.** Put the answer on the roadmap (VEN session).
 10. **Read the cohort.** Close rate on qualified deals, cycle time, and whether interviews still teach you something new (Blank).
 :::
 
@@ -161,7 +161,7 @@ Each one makes the funnel look fuller than the bank account.
 
 **Offering a free trial.** Offer an annual agreement with an early opt-out, or charge for the pilot.
 
-**Hiring a seller to find the motion.** Graham and the FounderNexus session agree: do sales yourself first.
+**Hiring a seller to find the motion.** Graham and the VEN session agree: do sales yourself first.
 
 **Trusting default stage probabilities.** HubSpot’s presets are placeholders until your cohorts replace them.
 
@@ -181,7 +181,7 @@ Test willingness to pay before you build with [how to validate demand before you
 - [Y Combinator, How to Start a Startup, Lecture 19: Sales and Marketing](https://www.youtube.com/watch?v=SHAh6WKBgiE). Tyler Bosmeny (Clever), Stanford CS183B, 2014. Funnel of prospecting, conversations, closing, revenue; Rogers innovators about **2.5%** of companies; over **400** companies contacted in the first two months of YC; network, conferences, and cold email; ask why they took the call; get people to a yes or a no; one-more-feature trap; free trials replaced by an annual agreement with a **30** or **60** day opt-out; founder passion and industry knowledge over sales experience.
 - [Paul Graham, Do Things That Don’t Scale](https://paulgraham.com/ds.html). July 2013. Recruiting users by hand as the most common unscalable thing founders do at the start; the Collison installation; footnote 2, founders do sales themselves initially and hire a salesperson later.
 - [HubSpot Knowledge Base, Set up and manage object pipelines](https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines). Last updated 29 September 2026. Default deal pipeline: seven stages with preset probabilities (**20%**, **40%**, **60%**, **80%**, **90%**, **100%** won, **0%** lost) used to compute weighted amounts in board view.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. Research and sales as two ends of one conversation; stages as qualification gates; score importance against satisfaction with today’s fix; short path to money; manager or director first; first call designed to disqualify; one customer hypothesis at a time; stage-gate questions on full-time use, full price, and referral; content-led outreach and nurture; no autopilot for GTM; hand off the lowest-value bottleneck task first. Not a survey. No closed-session numbers.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. Research and sales as two ends of one conversation; stages as qualification gates; score importance against satisfaction with today’s fix; short path to money; manager or director first; first call designed to disqualify; one customer hypothesis at a time; stage-gate questions on full-time use, full price, and referral; content-led outreach and nurture; no autopilot for GTM; hand off the lowest-value bottleneck task first. Not a survey. No closed-session numbers.
 
 ## Related
 

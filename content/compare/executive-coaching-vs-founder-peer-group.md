@@ -7,7 +7,7 @@ cluster: rooms
 layout: article
 target_query: executive coaching vs founder peer group
 date: 2026-09-18
-close: If the gap is venture-scale peers on a live decision, not a private coach hour, start with FounderNexus and pressure-test fit in a guest session.
+close: If the gap is venture-scale peers on a live decision, not a private coach hour, start with VEN and pressure-test fit in a trial session.
 draft: false
 related:
 - library/rooms
@@ -23,7 +23,7 @@ If you are weighing coaching against a peer room, you are comparing two differen
 - A peer group wins when the work is judgment under founder-level complexity: pricing, co-founder conflict, the VP hire, the raise, the board pack. Peers who have lived it catch what a generalist coach cannot.
 - Vistage publishes the hybrid: monthly peer group of **12–16** CEOs plus Chair **1:1** coaching. Entry: company revenue above **$5M** (Vistage member-info).
 - Classic rooms often miss Seed–Series A venture founders. EO: **$1M+** revenue, or venture path **$2M** private / **$5M** public raise and **10** employees (helloeo.org). YPO’s published bars sit at large-company scale. See the [rooms compare](/compare/ypo-vs-hampton-vs-venture-scale-room/).
-- FounderNexus filter for a venture peer room: venture-scale founders, at least **$500K** raised, supports the leadership team ([FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
+- VEN (Venture Executive Network) filter for a venture peer room: leadership teams of companies with at least **$1M** raised from venture firms ([VEN](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
 :::
 
 ## What you are comparing
@@ -38,7 +38,7 @@ Compare format first and price second. Stage fit decides whether either product 
 | What you buy | Depth on your specific situation and behavior | Lateral pattern-matching from people who have sat in a similar seat |
 | Best when | Named skill or leadership gap; exit or turnaround on a compressed timeline; you already know the move and need accountability | Recurring founder decisions; isolation; you need many perspectives, not one voice |
 | Failure mode | Coach has not operated at your scale or complexity | You are the largest or only venture-backed company in the room |
-| Between meetings | Reachable coach (engagement-dependent) | Chair / City Lead / Slack / Nexus Partner, or nothing published |
+| Between meetings | Reachable coach (engagement-dependent) | Chair / City Lead / Slack / VEN Partner, or nothing published |
 
 This page compares relative investment only, because few coaching retainers or peer dues carry a named public dollar figure. EO publishes a one-time **$3,500** initiation fee plus chapter dues that vary (helloeo.org). Vistage and most venture peer rooms do not list a public fixed price on the pages cited below.
 
@@ -83,9 +83,9 @@ Check the published entry filter before you compare formats. A room that will no
 | EO (published snapshot) | Median member sales **$4.3M**; **17,900+** members | Not ARR-stage venture rooms | helloeo.org |
 | YPO | Under 45; top operational leader; large FTE / revenue bars by company type (e.g. sales/service/manufacturing **$16M+**) | Confidential forums, global network | YPO membership requirements |
 | Hampton Core | **>$3M** revenue, or **>$3M** raised, or prior exit **>$10M**; chapter city; tech/digital-first | ~8 + paid moderator; Core never virtual | joinhampton.com FAQ |
-| FounderNexus | Venture-scale founders; at least **$500K** raised; supports the leadership team | Stage-matched ARR rooms; Nexus Partner between sessions | foundernexus.com |
+| VEN | Leadership teams of companies with at least **$1M** raised from venture firms | Small online peer sessions by topic and operating experience; VEN Partner between sessions | venexecs.com |
 
-Side-by-side depth on YPO, EO, Hampton, Vistage, Powderkeg, and FounderNexus lives on [YPO vs EO vs Hampton vs a venture-scale room](/compare/ypo-vs-hampton-vs-venture-scale-room/).
+Side-by-side depth on YPO, EO, Hampton, Vistage, Powderkeg, and VEN lives on [YPO vs EO vs Hampton vs a venture-scale room](/compare/ypo-vs-hampton-vs-venture-scale-room/).
 
 There is no reliable public benchmark yet for coaching retainers or peer-group dues by stage.
 
@@ -95,7 +95,7 @@ There is no reliable public benchmark yet for coaching retainers or peer-group d
 Labeled sketches, not real companies. Thresholds come from the sources above.
 :::
 
-**You’re at $1.2M ARR, raised a Seed above $500K, and isolation is the real problem.** A generalist executive coach can help with presence and calendar. The recurring decisions (pricing, first VP, board pack) need peers who have run a priced-round company. EO’s $1M revenue bar or venture path may or may not clear. Vistage’s $5M bar usually does not. FounderNexus’s published filter matches the raise and venture-scale intent. Start with the room; add a coach later if a named behavior gap remains.
+**You’re at $1.2M ARR, raised a $1.5M Seed from two funds, and isolation is the real problem.** A generalist executive coach can help with presence and calendar. The recurring decisions (pricing, first VP, board pack) need peers who have run a priced-round company. EO’s $1M revenue bar or venture path may or may not clear. Vistage’s $5M bar usually does not. VEN’s published filter ($1M+ from venture firms) matches the raise. Start with the room; add a coach later if a named behavior gap remains.
 
 **You’re at $8M ARR, the board wants “CEO coaching,” and you already know you need to fire a VP.** Coaching can own the hard conversation and the follow-through. A peer room can pressure-test whether the seat design is wrong before you hire the replacement. Many founders run both for a quarter and drop one when the calendar load gets too heavy.
 
@@ -115,7 +115,7 @@ Both formats stop short of a board, counsel, or an accelerator, and neither guar
 - [CEO Coaching International, CEO coaching vs peer advisory groups](https://ceocoachinginternational.com/ceo-coaching-vs-peer-advisory-groups/) — format table; when group vs 1:1 (authored by a coaching firm; use for structure, not as neutral market research).
 - [Manchester Consulting / McGovern et al., Maximizing the Impact of Executive Coaching](https://acaciacoaching.be/images/pdf/maximizing_the_impact_of_executive_coaching%201.pdf) — *The Manchester Review*, 2001. 100 executives, mostly Fortune 1000. 86% participant satisfaction; estimated 5.7× ROI among those who estimated value.
 - [ICF Global Coaching Client Study](https://researchportal.coachingfederation.org/Document/Pdf/190.pdf) — company ROI figures from 9% of respondents who could supply spend and gain; interpret with caution.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — venture-scale filter ($500K+ raised; leadership team supported), stage bands, Nexus Partner.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — eligibility ($1M+ raised from venture firms; leadership teams), peer sessions, VEN Partner, free trial.
 
 ## Related
 

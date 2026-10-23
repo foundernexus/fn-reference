@@ -7,7 +7,7 @@ cluster: equity
 layout: article
 target_query: how to size option pool
 date: 2026-08-31
-close: A hiring-plan pool is still a board number. Founders who have taken that math into a term sheet will pressure-test the seats and the remaining unallocated pool in a FounderNexus session.
+close: A hiring-plan pool is still a board number. Founders who have taken that math into a term sheet will pressure-test the seats and the remaining unallocated pool in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 ---

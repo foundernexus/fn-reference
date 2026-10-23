@@ -7,7 +7,7 @@ cluster: finance
 layout: article
 target_query: fractional vs full-time CFO startup
 date: 2026-09-17
-close: The CFO seat is a phase hire. Founders who have upgraded from fractional to full-time (or held the line and raised without one) will pressure-test your timing in a FounderNexus session.
+close: The CFO seat is a phase hire. Founders who have upgraded from fractional to full-time (or held the line and raised without one) will pressure-test your timing in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -25,7 +25,7 @@ Most Series A startups need CFO-level work before they need a full-time CFO. Buy
 - Engage strategic finance help at least three months before a raise if the CEO will be in process (Kruze). That is episodic work, not proof you need the seat day one after the A.
 - Upgrade trigger (Kruze): interaction with the part-time CFO becomes consistent. Otherwise you risk a fundraise sprint hire who becomes an overpaid controller for years.
 - Bessemer CFO Community (Atlas, Mar 2023): 37% said $10M–$25M ARR is the sweet spot for a CFO. First hire is often a VP / head of finance, not a titled CFO.
-- Majhi (B2B SaaS, June 2026): CFO typically months 12–24 after Series A, or pre–Series B. Hire for the phase ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
+- Majhi (B2B SaaS, June 2026): CFO typically months 12–24 after Series A, or pre–Series B. Hire for the phase ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
 :::
 
 ## What each seat owns
@@ -97,7 +97,7 @@ Use these as yes/no signals. One yes rarely justifies the hire; several together
 3. **You are in the ARR / sequence window peers name.** Bessemer community: **$10M–$25M ARR** for many CFOs. Majhi B2B SaaS: months **12–24** after A, or pre-B. Kruze: often Series B, increasingly after Series C, depending on accounting quality.
 4. **Complexity is daily.** Multi-entity, international, audit readiness, high transaction volume, or a finance org that needs a manager on-site (Kruze exceptions; Bessemer complexity signals).
 5. **IPO or major transaction is near.** Kruze: near-IPO needs a full-time CFO ASAP.
-6. **Hire for the phase.** The operator who built the model for the A may not be the operator who runs a 20-person finance function toward B. Say the phase out loud in the offer ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
+6. **Hire for the phase.** The operator who built the model for the A may not be the operator who runs a 20-person finance function toward B. Say the phase out loud in the offer ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
 
 If the board pack is still a scramble every quarter but books are clean, buy fractional first. The hiring sequence spoke works through that situation. Keep retention metrics honest on the pack with [NRR vs GRR](/library/finance/nrr-vs-grr-board-pack/) and efficiency with [burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/).
 
@@ -108,7 +108,7 @@ If the board pack is still a scramble every quarter but books are clean, buy fra
 - [Kruze Consulting, When to Hire an In-House Accounting/Finance Team](https://kruzeconsulting.com/when-to-hire-an-in-house-accountingfinance-team-the-cost-benefit-break-down/). role layers and salary bands; fractional $5K–$10K/mo; three-person in-house $450K–$650K+; ~$35K–$45K/mo outsource break-even.
 - [Bessemer Venture Partners Atlas, How to hire a CFO and build a finance team](https://www.bvp.com/atlas/how-to-hire-a-cfo-and-build-a-finance-team). Mar 2023. Controllership vs FP&A; 37% at $10M–$25M ARR; complexity ~$5M–$10M; Kayton ~75% fractional spend rule.
 - [Majhi Group, Series A Leadership Team Benchmarks 2026](https://www.majhigroup.com/series-a-leadership-benchmarks-2026.html). June 2026. B2B SaaS: CFO months 12–24 or pre–Series B.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). founder session, February 2026. Hire for the phase. Say it in the offer. Not a survey.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). founder session, February 2026. Hire for the phase. Say it in the offer. Not a survey.
 
 ## Related
 

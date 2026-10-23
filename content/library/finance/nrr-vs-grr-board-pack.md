@@ -7,7 +7,7 @@ cluster: finance
 layout: article
 target_query: nrr vs grr saas
 date: 2026-09-14
-close: Your board will read retention closely. Founders who have walked GRR and NRR through a raise or a board pack will pressure-test your cohort definitions in a FounderNexus session.
+close: Your board will read retention closely. Founders who have walked GRR and NRR through a raise or a board pack will pressure-test your cohort definitions in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 related:

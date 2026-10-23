@@ -7,7 +7,7 @@ cluster: fundraising
 layout: article
 target_query: when to raise Series A
 date: 2026-09-30
-close: Founders who have timed a Series A from a position of strength will pressure-test your readiness score against venture-scale peers (at least $500K raised, leadership team) in a FounderNexus session.
+close: Founders who have timed a Series A from a position of strength will pressure-test your readiness score against venture-backed peers in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -72,7 +72,7 @@ Treat each band as cited context for your model and cycle, not a pass/fail gate 
 
 :::steps Score, then sequence
 1. **Lock one metric glossary.** ARR, GRR, NRR, CAC, payback, burn, and runway mean the same thing in the board pack, model, and deck. Burkland calls inconsistent definitions a deal risk on their own.
-2. **Write the six-lens score.** Fill the table above with your last 3–6 months. Mark which lenses are evidence and which are still a bet. Operator judgment: if two or more core lenses are still bets, keep executing ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
+2. **Write the six-lens score.** Fill the table above with your last 3–6 months. Mark which lenses are evidence and which are still a bet. Operator judgment: if two or more core lenses are still bets, keep executing ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
 3. **Check cash at process start.** Compute runway with the hiring plan you will run. If you are under Burkland’s **6**-month warning, extend cash or delay outreach. Target **9–12+** months before first serious partner meetings.
 4. **Prove transfer beyond founder-led sales.** Show early seller ramps, a sequenced hiring plan tied to use of funds, or an honest gap with a date. Capital that only buys more founder hours is a weak A story.
 5. **Stage the room, then open.** Partner-pitch materials and legal spine ready before outreach ([diligence checklist](/library/fundraising/series-a-diligence-checklist/)). Burkland: preparation should start **6+** months before the raise, not when the first term sheet conversation begins.
@@ -132,7 +132,7 @@ Most wasted processes start too late on cash or too early on evidence.
 - [Carta / Peter Walker, Time Between Startup Rounds Is Finally Trending Down](https://carta.com/data/linkedin-time-between-startup-rounds-improving/) — 26 Feb 2026. Q4 2025 median Seed → Series A **1.9 years**; traditional advice band framed as **18–24** months.
 - [Bessemer Venture Partners, State of the Cloud 2023](https://www.bvp.com/atlas/state-of-the-cloud-2023) — 11 Apr 2023. Fund when you do not need the money; Good / Better / Best fundability (NRR, growth, runway, Efficiency Score / CAC payback).
 - [David Sacks, The Burn Multiple (Craft Ventures / Medium)](https://medium.com/craft-ventures/the-burn-multiple-51a7e43cb200) — 23 April 2020. Formula and early-stage bands; detail on [burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/).
-- [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: score the six lenses honestly; if core lenses are still bets, keep executing before you open a process.
+- [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: score the six lenses honestly; if core lenses are still bets, keep executing before you open a process.
 
 ## Related
 

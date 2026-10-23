@@ -7,7 +7,7 @@ cluster: board
 layout: article
 target_query: when to add independent director startup
 date: 2026-09-16
-close: Treat the independent seat as a governance hire. Founders who have filled a Series A independent seat and sat through the first contested vote will pressure-test your shortlist in a FounderNexus session.
+close: Treat the independent seat as a governance hire. Founders who have filled a Series A independent seat and sat through the first contested vote will pressure-test your shortlist in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -22,7 +22,7 @@ An independent director is a voting board member who is neither an employee nor 
 :::takeaways
 - Timing: Series A is the standard trigger (CRV). Seed is usually founders plus at most one lead; practice with advisors, not a premature seat.
 - Structure: post–Series A boards are commonly 1–1–1 (founder / VC / independent) or 2–2–1 (two founders, two VCs, one independent) (CRV).
-- Who: former operators one or two stages ahead; genuine independence from your VCs; you drive the shortlist ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
+- Who: former operators one or two stages ahead; genuine independence from your VCs; you drive the shortlist ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
 - Equity: Carta medians 0.50% seed / 0.40% Series A / 0.30% Series B (independent directors only). CRV: typically under 1%, vest 2–4 years. Cash often from ~Series B.
 :::
 
@@ -52,7 +52,7 @@ CRV’s job description is plain: no employment relationship with the company; j
 
 **Independence over prestige.** Source through founder peers and your own network. Mutual approval in the term sheet is necessary and not sufficient. CRV: enter negotiations with a candidate already identified, and keep mutual approval in the voting agreement. Prestige names who skip the pack are worse than a less famous director who shows up prepared.
 
-**Operator rule.** Treat the search like a senior hire. Reference-check for board behavior as well as the resume. Do not outsource the shortlist to the lead alone ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
+**Operator rule.** Treat the search like a senior hire. Reference-check for board behavior as well as the resume. Do not outsource the shortlist to the lead alone ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
 
 ## Equity and cash (show sources separately)
 
@@ -97,7 +97,7 @@ Board control comes from seats. If investors fill the swing seat, you lose contr
 - [Carta data via Peter Walker](https://www.linkedin.com/posts/peterjameswalker_cartadata-boards-startupequity-activity-7134995702211821568-e_WU) — Independent board member initial equity at early-stage Carta companies (n=2,718; grants from 1 Jan 2022): Seed median 0.50% / avg 0.78%; Series A median 0.40% / avg 0.53%; Series B median 0.30% / avg 0.39%; most common vest 4 years (many 2-year also).
 - [Boardspan / Paul Jones, Private Company Director Compensation Guidance](https://work.boardspan.com/library/articles/private-company-director-compensation-guidance?article_id=317) — Independent directors ~0.25%–2.0% equity; often vest over ~2 years (3–4 exceptional); no cash at startup stage beyond expenses; insider and professional investor directors get nothing for the seat.
 - [CRV, How to Prepare for a Board Meeting](https://www.crv.com/content/how-to-prepare-for-a-board-meeting/) — Seed boards often three voting seats; Series A expands to three to five; CEO owns prep at seed/Series A.
-- [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: drive the independent shortlist yourself; do not outsource the swing seat to the lead alone.
+- [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: drive the independent shortlist yourself; do not outsource the swing seat to the lead alone.
 
 ## Related
 

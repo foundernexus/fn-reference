@@ -7,7 +7,7 @@ cluster: board
 layout: article
 target_query: startup investor update template
 date: 2026-10-14
-close: Founders who have kept a cap table warm through hard months will pressure-test your next update in a FounderNexus session.
+close: Founders who have kept a cap table warm through hard months will pressure-test your next update in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -28,7 +28,7 @@ Send a short monthly email in a fixed order: TL;DR, the same KPIs every month, h
 - Fixed order: TL;DR → same KPIs every month → highlights → lowlights with the fix → asks → cash/burn/runway → shout-outs. Warp + YC six-section frame; Founder Collective fill-in; Visible block shares (Highlights **23%** most used, Lowlights **10%** least).
 - Metrics every month: ARR/MRR + MoM, NRR or churn, cash, burn, runway (Warp). Keep the definition identical to the board pack ([finance hub](/library/finance/)).
 - Send habits: CEO sends; body under two minutes (Warp: most great updates **200–400** words plus a metrics table). Visible median open rate **77%**; board **78%**, current investors **77%**, prospects **64%**. Smaller lists open more (**1–5** at **100%**; **50+** at **69%**).
-- Updates are not decisions ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Bad-month consistency matters more than polish. First Round / Paul Arnold: “investors can only help if you are transparent all the time,” including in hard months.
+- Updates are not decisions ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Bad-month consistency matters more than polish. First Round / Paul Arnold: “investors can only help if you are transparent all the time,” including in hard months.
 :::
 
 ## Why monthly beats ad hoc
@@ -41,7 +41,7 @@ Visible’s 2026 Investor Update Benchmarks cover **3.5M+** updates. Cadence sha
 
 Warp (Ayush Sharma, 25 Jan 2024, updated July 2026) frames early-stage (pre–Series B) as monthly and later stage as often quarterly. First Round Review / Paul Arnold (published 3 Mar 2015, updated 29 Feb 2024) asks for at least two updates per quarter covering wins, challenges, product, sales/traction, hiring, financials, and needs. That is a floor, not a ceiling, for founders who already ship monthly.
 
-A [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) made the same operating point: keep the relationship continuous between decision-first board meetings, and do not treat the update as a decision forum. Bad-month consistency matters more than polish.
+A [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) made the same operating point: keep the relationship continuous between decision-first board meetings, and do not treat the update as a decision forum. Bad-month consistency matters more than polish.
 
 ## Fixed section order
 
@@ -158,7 +158,7 @@ Each mistake below trains investors to stop reading or stop helping.
 
 **Mixing prospects into the investor list.** Prospect open rates are lower (**64%** vs **77%** for current investors on Visible). Separate lists keep fundraising status honest.
 
-**Treating the update as a board meeting.** Updates are not decisions ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Hard votes and strategy belong in the pack and the room.
+**Treating the update as a board meeting.** Updates are not decisions ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Hard votes and strategy belong in the pack and the room.
 
 ## Monthly investor update lock
 
@@ -184,7 +184,7 @@ Nine steps from calendar to send. Run them the same way every month.
 The email keeps people informed. The pack and the room make decisions.
 :::
 
-Board meetings run every **6–8** weeks for about **2–3** hours on a decision-first pack ([how to run a Series A board meeting](/library/board/series-a-board-meeting-agenda/)). The monthly update sits between those meetings. Same KPI definitions, shorter form, no consent agenda, no closed session. A [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) put it as: updates are not decisions. Use the email to keep the relationship continuous. Use the board pack when you need a vote, a hire, a raise posture, or a strategy call.
+Board meetings run every **6–8** weeks for about **2–3** hours on a decision-first pack ([how to run a Series A board meeting](/library/board/series-a-board-meeting-agenda/)). The monthly update sits between those meetings. Same KPI definitions, shorter form, no consent agenda, no closed session. A [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) put it as: updates are not decisions. Use the email to keep the relationship continuous. Use the board pack when you need a vote, a hire, a raise posture, or a strategy call.
 
 ## Sources
 
@@ -192,7 +192,7 @@ Board meetings run every **6–8** weeks for about **2–3** hours on a decision
 - [Warp, How to write investor updates](https://www.warp.co/blog/how-to-write-investor-updates) — Ayush Sharma, 25 January 2024, last updated July 2026. YC format: six core sections (exec summary, metrics, highlights, lowlights, shout-outs, priorities); asks most underused. Metrics minimum: Revenue MRR/ARR + MoM, NRR or churn, cash, burn, runway. Keep in email body; under two minutes; most great updates **200–400** words plus metrics table. Early-stage (pre–Series B) monthly; later often quarterly. CEO sends; pick a date; send in bad times.
 - [First Round Review / Paul Arnold, You Aren’t Getting the Most Out of Your Investors](https://review.firstround.com/you-arent-getting-the-most-out-of-your-investors-this-is-how-to-start/) — published 3 March 2015, updated 29 February 2024. At least two updates per quarter covering wins, challenges, product, sales/traction, hiring, financials, and needs. Specific named prospects/wish lists; open roles; thank investors who helped publicly. Investors can only help if you are transparent all the time, not just in good times.
 - [Founder Collective / Micah Rosenbloom, A fill-in-the-blank investor update template for busy founders](https://foundercollective.com/blog/a-fill-in-the-blank-investor-update-template-for-busy-founders/) — 28 September 2017. Fill-in structure: TL;DR, key metrics, product/sales narrative, fundraising status, learnings, team, what I feel good about, what I am freaked out about, what’s next, what I need help with, thank-yous.
-- [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: monthly updates keep the relationship continuous between decision-first board meetings; do not treat the update as a decision forum; bad-month consistency matters more than polish. Not a survey.
+- [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: monthly updates keep the relationship continuous between decision-first board meetings; do not treat the update as a decision forum; bad-month consistency matters more than polish. Not a survey.
 
 ## Related
 

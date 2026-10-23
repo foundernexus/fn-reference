@@ -1230,3 +1230,12 @@ input:focus, select:focus {
 /* Anchor jumps: give linked section headings breathing room instead of landing flush at the viewport edge. */
 .prose h2[id],
 .prose h3[id] { scroll-margin-top: 28px; }
+/* Quiet "Go deeper" line under the close: one topic-matched VEN playbook link. */
+.prose .article-more {
+  margin: 10px 0 0;
+  max-width: 40rem;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--muted);
+}
+.prose .article-more a { font-weight: 500; }

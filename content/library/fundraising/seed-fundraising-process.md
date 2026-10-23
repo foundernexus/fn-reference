@@ -7,7 +7,7 @@ cluster: fundraising
 layout: article
 target_query: how to run a fundraising process
 date: 2026-10-11
-close: Founders who have closed seed rounds will pressure-test your milestone plan, fund list, and outreach order in a FounderNexus session before the first intro goes out.
+close: Founders who have closed seed rounds will pressure-test your milestone plan, fund list, and outreach order in a VEN session before the first intro goes out.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -58,7 +58,7 @@ Ralston’s rule: raise enough to reach the next fundable milestone, usually **1
 
 Start low and raise the target as money commits. Graham’s example: if you want **$500k**, say **$250k** at first. At **$150k** you are more than half done, which signals momentum and tells investors the room is filling. Opening at **$500k** leaves you under a third done at the same point.
 
-Check the round label with the investors you plan to pitch. Carta’s Q2 2026 pre-seed data shows few pre-seed deals above **$2.5 million**, and the ones that exceed it typically stack ten or more instruments. A [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) flagged the label itself: a “seed” label can set expectations for the next round that your plan does not support yet. Ask investors what evidence they expect behind this label and the next one, then use one label across the deck, outreach, and records. That is session judgment, not a survey. Model the months in the [runway calculator](/tools/runway-calculator/) and pick the paper on [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/).
+Check the round label with the investors you plan to pitch. Carta’s Q2 2026 pre-seed data shows few pre-seed deals above **$2.5 million**, and the ones that exceed it typically stack ten or more instruments. A [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) flagged the label itself: a “seed” label can set expectations for the next round that your plan does not support yet. Ask investors what evidence they expect behind this label and the next one, then use one label across the deck, outreach, and records. That is session judgment, not a survey. Model the months in the [runway calculator](/tools/runway-calculator/) and pick the paper on [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/).
 
 ## Sequence the outreach
 
@@ -94,7 +94,7 @@ Read what investors do. Their words run warmer than their intent.
 | “Send the deck” before any meeting | Weak interest (Graham) | Favor investors who take the meeting |
 | Heavy diligence or detailed financials at seed | An investor to avoid (Ralston) | Decline and move on |
 | An offer that expires in under **3** working days | A sketchy investor (Graham) | Push back on the deadline |
-| “Keep me in the loop” | A no (FounderNexus session) | Log it; send updates on material change |
+| “Keep me in the loop” | A no (VEN session) | Log it; send updates on material change |
 
 Graham: never leave a meeting without asking what happens next. What else do they need to decide, who else must meet you, and by when? Ralston adds the same close: leave with an attempted close or clear next steps. Treat each investor as a no until you hold a definite offer with no contingencies.
 
@@ -136,12 +136,12 @@ Template is editorial. Keep investor updates on the same metric definitions you 
 :::steps Seed process
 1. **Write the milestone.** What you can prove today, what proof comes next, and the months and cash to get there (Ralston: usually **12 to 18** months).
 2. **Build two or three plans.** One per round size, each with what it buys (Ralston, Graham). Open with the low target (Graham).
-3. **Check the round label.** Ask target investors what evidence they expect at this label and the next (FounderNexus session).
+3. **Check the round label.** Ask target investors what evidence they expect at this label and the next (VEN session).
 4. **Filter the list.** Actively investing, your sector, your check size (DocSend). Fund size and deployment from public data (Carta).
 5. **Rank by expected value.** Chance of yes times value of yes. Investors who will not lead go last (Graham).
 6. **Line up warm intros to the right partner.** From founders they funded or investors who backed you (Graham, YC).
 7. **Run a practice wave.** A few real, lower-priority meetings to tighten the pitch (Graham).
-8. **Open the main wave in parallel.** One founder runs it. Name owners for customer work first (Graham; FounderNexus session).
+8. **Open the main wave in parallel.** One founder runs it. Name owners for customer work first (Graham; VEN session).
 9. **Ask for the next step in each meeting.** What they need and by when (Graham, Ralston).
 10. **Close each yes that week.** Then ask that investor for two intros (Graham).
 11. **Stop on your rule.** Send material-change notes to the passes (Heddleston, Graham).
@@ -163,7 +163,7 @@ Most of these come from running the raise like a series of one-off meetings.
 
 **More contacts instead of a better pitch.** DocSend finds more contacts bring more meetings, but the link to dollars raised is weaker. After a run of nos, change the deck or the progress (Heddleston).
 
-**A label your plan cannot support.** The label sets the bar for the next round. Check it with investors first (FounderNexus session).
+**A label your plan cannot support.** The label sets the bar for the next round. Check it with investors first (VEN session).
 
 ## Pair with fundraising siblings
 
@@ -183,7 +183,7 @@ Learn what each fund weighs on [how seed VCs decide](/library/fundraising/how-se
 - [Carta, VC Fund Performance: Q1 2026](https://carta.com/data/vc-fund-performance-q1-2026/) — Peter Walker and Kevin Dowd, 4 June 2026. **2,775** US venture funds closed 2017 through Q1 2026; about **89%** smaller than **$100 million**; the majority of funds closed smaller than **$25 million**.
 - [Carta, As deployment rates slow, VC dry powder is piling up](https://carta.com/data/vc-fund-deployment-q2-2024/) — Kevin Dowd, 12 September 2024. 2018, 2019, and 2020 vintages each deployed at least half of their capital in the first two years; 2022 vintage **43%** deployed after two years.
 - [Carta, State of Pre-Seed: Q2 2026](https://carta.com/data/state-of-pre-seed-q2-2026/) — Hamza Shad, 13 August 2026. Few pre-seed deals exceed **$2.5 million**; those that do typically stack ten or more instruments.
-- [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment from live fundraising sessions: check what evidence investors expect behind the round label; start with a few relevant conversations before the investors who matter most; assign owners for customer work before outreach; “keep me in the loop” is a no; send short material-change notes with no ask to investors who passed. Not a survey.
+- [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment from live fundraising sessions: check what evidence investors expect behind the round label; start with a few relevant conversations before the investors who matter most; assign owners for customer work before outreach; “keep me in the loop” is a no; send short material-change notes with no ask to investors who passed. Not a survey.
 
 ## Related
 

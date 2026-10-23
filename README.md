@@ -1,19 +1,19 @@
 # Founder Decisions
 
-Decision pages for venture-scale founders. An editorial/reference property, not a FounderNexus marketing site.
+Decision pages for venture-scale founders. An editorial/reference property, not a VEN marketing site.
 
 Canonical host: https://founderdecisions.com. Built by `python3 build.py` (output `dist/`). Hosted on Vercel. `FN_CONTENT_TOKEN` is required at build.
 
-FounderNexus is named once as publisher, in the footer, like First Round Review. It is how some readers go deeper on a live decision. It is not the product of the page.
+VEN (Venture Executive Network, https://www.venexecs.com, formerly FounderNexus) is the publisher behind the library. It is how some readers go deeper on a live decision. It is not the product of the page. Public pages never link foundernexus.com.
 
 ## No-marketing rule
 
 Do not turn this into a landing page.
 
-- Header wordmark is the text **Founder Decisions** (Plus Jakarta Sans 700, navy #01052A). No FounderNexus lockup or mark in the header or favicon.
+- Header wordmark is the text **Founder Decisions** (Plus Jakarta Sans 700, navy #01052A). No VEN or FounderNexus lockup or mark in the header or favicon.
 - No “Apply now” in global nav. No membership pitch, conversion column, or second navy band.
 - No “community” language. No “the room is the product.”
-- On an article, a contextual close is optional: one short paragraph plus a text link to FounderNexus as a next step, not as publisher. No CTA card, no header button, no “Published by FounderNexus.” Do not put this on the homepage. Do not link The Startup Bible; it is an internal check only.
+- On an article, a contextual close is optional: one short paragraph plus a text link to VEN as a next step, not as publisher. Under it the build may add one quiet “Go deeper: VEN playbook on …” link from `VEN_PLAYBOOKS` in build.py (genuine topic match only; see SEO-BRIEF). No CTA card, no header button, no “Published by VEN.” Do not put this on the homepage. Never name The Startup Bible; playbook pages are linked only through the `VEN_PLAYBOOKS` mapping and never copied.
 - `cta` in frontmatter is optional. The build does not fail if a page has none.
 
 ## Voice
@@ -26,7 +26,7 @@ Stop-slop is required. Every new or edited owned page follows `ops/stop-slop/RUL
 
 Do not use: “It’s important to note”, “in today’s landscape”, “when it comes to”, “delve”, “utilize”, “leverage”, “robust”, “unlock”, “the bottom line”, “in conclusion”, “not just X, but Y”, stacked hedges, or throat-clearing.
 
-Do not announce that you are being careful. Just be careful. Do not say FounderNexus in the body except an optional closing paragraph. FounderNexus is one word.
+Do not announce that you are being careful. Just be careful. Name VEN in the body only as a “VEN session” cite or in the closing paragraph. The first visible mention renders as “VEN (Venture Executive Network)” automatically.
 
 Do not invent ranges. Named public sources only. Empty cell if unknown. When sources disagree, show them separately.
 
@@ -58,7 +58,7 @@ export FN_CONTENT_TOKEN=...   # fine-grained PAT, foundernexus/fn-content, conte
 python3 build.py
 ```
 
-FounderNexus links fire a Vercel Web Analytics custom event `fn_click` with the page slug.
+Vercel Web Analytics loads from `/_vercel/insights/script.js`. Any venexecs.com link click fires custom event `ven_click` {page, target, type: homepage|playbook} (custom events need Vercel Pro; Hobby records pageviews only).
 
 Vercel: `vercel.json` runs `python3 build.py` and serves `dist/`. Set `FN_CONTENT_TOKEN` on the project (fine-grained PAT, foundernexus/fn-content, contents: read).
 
@@ -82,7 +82,7 @@ Create a .md file in content/library/<cluster>/, content/tools/, or content/comp
 
 Required frontmatter: title, description, slug, section, date.
 Library pages also need cluster.
-Optional: close (one-sentence contextual close; FounderNexus in that sentence becomes a text link), disclaimer: not-legal-tax, related (list of page keys), layout: calculator, draft: true.
+Optional: close (one-sentence contextual close; VEN in that sentence becomes a text link), disclaimer: not-legal-tax, related (list of page keys), layout: calculator, draft: true.
 
 Then rebuild. HTML is written to dist/.
 
@@ -109,7 +109,7 @@ Keep Plus Jakarta Sans 400/500/600/700. Navy #01052A. Blue #0072BA (links/action
 
 Do not introduce purple, emoji, Title Case headlines, or a second typeface.
 
-Favicon is a typographic FR mark, not the FounderNexus mark.
+Favicon is a typographic FR mark, not the VEN mark.
 
 ## Do not
 

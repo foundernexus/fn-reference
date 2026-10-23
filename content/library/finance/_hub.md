@@ -6,7 +6,7 @@ section: library
 cluster: finance
 target_query: startup board financial metrics
 date: 2026-09-25
-close: Board metrics and runway calls are ops decisions. Founders who have walked burn, retention, and default alive through a raise or a board pack will pressure-test your pack in a FounderNexus session.
+close: Board metrics and runway calls are ops decisions. Founders who have walked burn, retention, and default alive through a raise or a board pack will pressure-test your pack in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 ---
@@ -63,7 +63,7 @@ One board question per row. Do not average publishers that disagree on stage or 
 | Is GTM spend efficient this quarter? | Magic number + CAC payback months | When S&M ramp or segment payback is the debate | [Magic number & CAC payback calculator](/tools/magic-number-cac-payback-calculator/) |
 | Do we need a full-time CFO yet? | Fractional vs full-time (workload, complexity, ARR / sequence window) | Series A finance build; pre-B upgrade talk | [Fractional vs full-time CFO](/library/finance/fractional-vs-full-time-cfo/) |
 
-Empty cells stay empty. Each row comes from a different publisher and answers a different board question. A [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) session pushed on the same three things: stage-right metrics, GRR beside NRR, and default alive with the hire dates written down. That is session judgment, not a survey.
+Empty cells stay empty. Each row comes from a different publisher and answers a different board question. A [VEN](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) session pushed on the same three things: stage-right metrics, GRR beside NRR, and default alive with the hire dates written down. That is session judgment, not a survey.
 
 ## Stage sketch for the pack
 
@@ -96,7 +96,7 @@ Early: show the cash cost of growth and the cash left. Later: add margin balance
 - [Paul Graham, Default Alive or Default Dead?](http://www.paulgraham.com/aord.html) — October 2015. Alive/dead test; hiring too fast as the biggest killer after a raise.
 - [Kruze Consulting, rolling cash forecast / runway](https://kruzeconsulting.com/blog/build-a-rolling-cash-forecast/) — cash ÷ net burn; headcount 60–80% of burn. [When a startup needs a CFO](https://kruzeconsulting.com/startup-need-cfo/) — Series A generally fractional first.
 - [Carta, State of Private Markets Q1 2024](https://carta.com/sg/en/data/state-of-private-markets-q1-2024/) — median Seed→A 766 days; A→B 824 days.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder session. Stage-right board metrics; GRR beside NRR; default alive with hire dates. Not a survey.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder session. Stage-right board metrics; GRR beside NRR; default alive with hire dates. Not a survey.
 
 ## Related
 

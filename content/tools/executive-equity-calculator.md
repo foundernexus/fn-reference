@@ -7,7 +7,7 @@ cluster: equity
 layout: calculator
 target_query: how much equity to give VP of sales startup
 date: 2026-08-29
-close: To pressure-test this grant with founders who have made the same hire, bring it to a FounderNexus session.
+close: To pressure-test this grant with founders who have made the same hire, bring it to a VEN session.
 disclaimer: not-legal-tax
 draft: false
 related:

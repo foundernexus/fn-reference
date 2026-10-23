@@ -8,7 +8,7 @@ layout: calculator
 calculator_js: option-pool-shuffle-calculator.js
 target_query: option pool shuffle calculator
 date: 2026-09-01
-close: Pool placement is a price term. Founders who have sat through that negotiation will pressure-test your hiring plan against the sheet in a FounderNexus session.
+close: Pool placement is a price term. Founders who have sat through that negotiation will pressure-test your hiring plan against the sheet in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 related:

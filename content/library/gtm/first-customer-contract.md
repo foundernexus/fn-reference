@@ -7,7 +7,7 @@ cluster: gtm
 layout: article
 target_query: how to negotiate first customer contract startup
 date: 2026-10-17
-close: Founders who have papered their first paid customers will pressure-test your order form, discount trades, and renewal terms in a FounderNexus session.
+close: Founders who have papered their first paid customers will pressure-test your order form, discount trades, and renewal terms in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -26,7 +26,7 @@ You have a buyer ready to sign and a first order form to write. Put your full li
 :::takeaways
 - Write list, discount, and net as three lines. Innovation Works tells founders to show list and discount on invoices so later increases start from list. Expect a champion to ask for **10–20%** and procurement for about **10%** more.
 - Trade the discount for proof. **49%** of Common Paper design partner agreements include a discount on a future subscription, and **20%** is the most common level. SaaStr suggests **30–50%** for **12–24** months for design partners, then standard pricing.
-- Hold the price and move the term. A shorter first term answers a lowball without resetting your number (FounderNexus session).
+- Hold the price and move the term. A shorter first term answers a lowball without resetting your number (VEN session).
 - Plan the renewal now. Automatic fee increases fell from **23%** of Common Paper contracts in 2024 to **13%** in 2026. A dated discount returns the customer to list without an escalator clause.
 - Keep multi-year discounts near **10–20%** (Jason Lemkin). Past about **20%**, you give away years of revenue if churn is low.
 :::
@@ -91,7 +91,7 @@ Give on terms that cost you little now. Hold the price, the scope, and the liabi
 
 Most of the give column costs you cash timing or options later. The refuse column protects the number your next ten customers see.
 
-Answer a lowball on duration. Take a lower total for a shorter first term and keep the rate. The renewal clock then puts pressure on the buyer, and the price you renew from is still list. That is judgment from a [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library), not a survey.
+Answer a lowball on duration. Take a lower total for a shorter first term and keep the rate. The renewal clock then puts pressure on the buyer, and the price you renew from is still list. That is judgment from a [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library), not a survey.
 
 ## Size the discount and tie it to proof
 
@@ -107,7 +107,7 @@ Size the discount to what you get back. A design partner earns more than a buyer
 
 **Cap the depth.** SaaStr warns against over-discounting design partners and suggests **3–5** of them at most. Lemkin’s view on his own first big customer: if you give too crazy a discount, the deal is not real.
 
-The FounderNexus session view on what to trade for: a usage minimum, one consolidated feedback channel on a fixed cadence, before-and-after KPIs agreed at signing, and a pre-approved case study. Investors read usage and referenceable customers as the evidence. Revenue from a customer who does not use the product reads as a warning.
+The VEN session view on what to trade for: a usage minimum, one consolidated feedback channel on a fixed cadence, before-and-after KPIs agreed at signing, and a pre-approved case study. Investors read usage and referenceable customers as the evidence. Revenue from a customer who does not use the product reads as a warning.
 
 ## Set payment, term, and renewal
 
@@ -140,7 +140,7 @@ Ten steps from list price to signature. Run them before the buyer sends their pa
 :::
 
 :::steps First customer contract
-1. **Set list price before the paper conversation.** Anchor it to what the problem costs the buyer today (FounderNexus session).
+1. **Set list price before the paper conversation.** Anchor it to what the problem costs the buyer today (VEN session).
 2. **Write your floor and walk-away.** Know the lowest net price and shortest term you accept.
 3. **Start from a standard agreement.** A known MSA and order form shorten the buyer’s legal review.
 4. **Write list, discount, and net.** Three lines. Add the discount end date.
@@ -185,7 +185,7 @@ Not legal advice. Have counsel review the order form and the MSA before you sign
 - [Vendr, The Pricing Intelligence Report](https://www.vendr.com/resources/trends-report). 2025 full year and Q1 2026, **15,817** transactions. Salesforce profile: 12-month term, Net 30 annual payment, standard annual uplift **9%**, negotiable to **5–7%**.
 - [SaaS Capital, 2025 B2B SaaS Retention Benchmarks](https://www.saas-capital.com/wp-content/uploads/2025/09/RB32WS1-2025-B2B-SaaS-Retention-Benchmarks.pdf). Research Brief 32, 2025. More than **1,000** private B2B SaaS companies. Median NRR / GRR: multi-year **103%** / **94%**; annual **101%** / **90%**; month-to-month **100%** / **89%**.
 - [SaaS Capital, 2025 Benchmarking Private SaaS Company Growth Rates](https://www.saas-capital.com/wp-content/uploads/2025/06/RB33EM5-2025-B2B-Benchmarking-Private-SaaS-Company-Growth-Rates.pdf). Research Brief 33, 2025. Billing frequency had little impact on median growth for a fourth year; annual billing has a cash flow advantage.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. Write full price and show the discount; trade it for a utilization minimum, structured feedback, agreed KPIs, and a case study; answer a lowball on duration, not price; anchor to the buyer’s current cost of the problem; usage over revenue as investor evidence. Not a survey. No closed-session numbers.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. Write full price and show the discount; trade it for a utilization minimum, structured feedback, agreed KPIs, and a case study; answer a lowball on duration, not price; anchor to the buyer’s current cost of the problem; usage over revenue as investor evidence. Not a survey. No closed-session numbers.
 
 ## Related
 

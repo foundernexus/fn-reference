@@ -7,7 +7,7 @@ cluster: gtm
 layout: article
 target_query: validate demand before building product
 date: 2026-10-19
-close: Founders who have killed or kept an idea on pre-build evidence will pressure-test your demand bet, interview notes, and kill line in a FounderNexus session.
+close: Founders who have killed or kept an idea on pre-build evidence will pressure-test your demand bet, interview notes, and kill line in a VEN session.
 draft: false
 related:
 - library/gtm
@@ -50,7 +50,7 @@ A signal counts in proportion to what the buyer gives up. Rank the signals befor
 
 Fitzpatrick’s rule of thumb in The Mom Test: “The more they’re giving up, the more seriously you can take what they’re saying.” Alströmer, a YC group partner, says a five-minute video interview teaches you more than **500** or **5,000** survey responses. Paul Graham describes the trap with a made-up social network for pet owners: friends say “Yeah, maybe I could see using something like that,” and summed across the population that reaction gives you zero users.
 
-The FounderNexus session view: money is the signal, and interviews or surveys count for little on their own. While you test, state the full price in writing and offer the early buyer a lower test price. Their reaction to the full number is the data. Judgment from a [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library), not a survey.
+The VEN session view: money is the signal, and interviews or surveys count for little on their own. While you test, state the full price in writing and offer the early buyer a lower test price. Their reaction to the full number is the data. Judgment from a [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library), not a survey.
 
 ## Write the bet as a number first
 
@@ -70,7 +70,7 @@ Then zoom in. Savoia’s tactic is to think globally and test locally: turn the 
 
 Editorial example, not data: “At least 10% of revenue operations leads at B2B SaaS companies with 50 to 500 employees will pay $2,000 a month for renewal forecasting within 60 days of a first demo.” The local version: “At least 3 of the 30 revenue operations leads we can reach this month will sign a paid 60-day pilot at that price.”
 
-FounderNexus session judgment on Z: for long sales cycles, put a time bound in the sentence. A prospect who takes months to answer fails the bet on time even if the interest sounds real. Test demand first. Whether you can build it, and at what cost, comes after.
+VEN session judgment on Z: for long sales cycles, put a time bound in the sentence. A prospect who takes months to answer fails the bet on time even if the interest sounds real. Test demand first. Whether you can build it, and at what cost, comes after.
 
 ## Run problem interviews before you show the product
 
@@ -94,7 +94,7 @@ The left column comes from Migicovsky’s five questions and his prototype-stage
 
 **Plan the count.** Griffin and Hauser’s 1993 Marketing Science study concluded that **20–30** interviews should identify **90%** or more of customer needs in a relatively homogeneous segment. Alströmer moves to an MVP after **5** or **10** interviews. Use the small number to find the segment and the larger one to map its needs before you commit an engineering team.
 
-**Run the calls yourself.** Migicovsky: talking to customers is part of the CEO’s job description, and the engineers take part too. FounderNexus session judgment: score each problem on how much it matters to the buyer and how satisfied they are with today’s fix. Look for high importance, low satisfaction, and a short path to money made, money saved, or risk reduced. Book the next conversation before the call ends.
+**Run the calls yourself.** Migicovsky: talking to customers is part of the CEO’s job description, and the engineers take part too. VEN session judgment: score each problem on how much it matters to the buyer and how satisfied they are with today’s fix. Look for high importance, low satisfaction, and a short path to money made, money saved, or risk reduced. Book the next conversation before the call ends.
 
 ## Pick the cheapest test that asks for commitment
 
@@ -113,7 +113,7 @@ Match the test to the risk. Each test ends in a buyer action you can count.
 
 Savoia’s note on fake doors: tell visitors at once that the product is not ready, and thank them with a gift close to what they tried to buy. Paul Buchheit’s advice, quoted by Graham, is to “go sell the product ASAP (before wasting time building it).” Founders who do learn whether anyone wants it, and often find the better idea along the way.
 
-FounderNexus session judgment: the cheapest artifact today is often an AI-generated demo built in hours. Put it in front of target buyers and collect your own first-hand data. Industry reports and your own expertise do not count as that data.
+VEN session judgment: the cheapest artifact today is often an AI-generated demo built in hours. Put it in front of target buyers and collect your own first-hand data. Industry reports and your own expertise do not count as that data.
 
 ## Set the kill line before you test
 
@@ -133,7 +133,7 @@ Savoia names three paths for an idea: Drop It, Go for It, or Test It. He warns a
 
 There is no reliable public benchmark yet for the share of waitlist signups, LOIs, or fake-door clicks that become paying customers. Set X from your own revenue model and write it down before the first test.
 
-Two more checks from the FounderNexus session. First, find the companies that tried this and died. Call their founders, ask what killed the company, and solve each of those flaws before you build. Second, walk a product-free deck past a few investors with no ask attached. They raise the hard questions early and often name predecessors you missed. Treat their take as data on how the story lands, filtered through each investor’s bias. A design partner who pays nothing does not count as validation, because investors read it as an unfinished product looking for a buyer.
+Two more checks from the VEN session. First, find the companies that tried this and died. Call their founders, ask what killed the company, and solve each of those flaws before you build. Second, walk a product-free deck past a few investors with no ask attached. They raise the hard questions early and often name predecessors you missed. Treat their take as data on how the story lands, filtered through each investor’s bias. A design partner who pays nothing does not count as validation, because investors read it as an unfinished product looking for a buyer.
 
 ## Validate demand in order
 
@@ -146,8 +146,8 @@ Ten steps from a written bet to the first build. Each step ends with evidence yo
 2. **Zoom to a local test.** People you can reach this month through your network or one channel.
 3. **List earlyvangelists.** Buyers with the problem, a workaround, a timetable, and money (Blank).
 4. **Run problem interviews.** Past behavior only. Plan **20–30** in the segment (Griffin and Hauser).
-5. **Score the pain.** Importance, satisfaction with today’s fix, and the path to money (FounderNexus session).
-6. **Study the predecessors.** Call founders of companies that died on this problem (FounderNexus session).
+5. **Score the pain.** Importance, satisfaction with today’s fix, and the path to money (VEN session).
+6. **Study the predecessors.** Call founders of companies that died on this problem (VEN session).
 7. **Build the cheapest artifact.** A priced fake door, a demo, or a service you run by hand.
 8. **Ask for a commitment.** Time, an intro, or money, with the full price stated (Fitzpatrick).
 9. **Read the result against the kill line.** Keep, narrow, reprice, or drop, as written before the test.
@@ -180,7 +180,7 @@ Each one makes a weak test read as a pass.
 
 **Moving the kill line.** Rewriting the pass line after the result turns the test into a pitch.
 
-**Calling an unpaid design partner validation.** Ask design partners to pay something (FounderNexus session).
+**Calling an unpaid design partner validation.** Ask design partners to pay something (VEN session).
 
 ## Pair with pilots, contracts, and messaging
 
@@ -203,7 +203,7 @@ Run the calls that follow as a sales funnel with [customer development as your e
 - [TechCrunch, How DropBox Started As A Minimal Viable Product](https://techcrunch.com/2011/10/19/dropbox-minimal-viable-product/). Eric Ries, excerpt from The Lean Startup, 19 October 2011. Drew Houston: the beta waiting list went from **5,000** to **75,000** people overnight after the demo video.
 - [CB Insights, The top 9 reasons startups fail](https://www.cbinsights.com/research/report/startup-failure-reasons-top/). 5 March 2026. **431** VC-backed startups that shut down since 2023; reasons identified for **385**; poor product-market fit **43%**; ran out of capital **70%**, usually the final cause.
 - [First Round Review, How Superhuman Built an Engine to Find Product Market Fit](https://review.firstround.com/how-superhuman-built-an-engine-to-find-product-market-fit/). Rahul Vohra, 13 November 2018. Sean Ellis benchmark across nearly a hundred startups, **40%** “very disappointed”; Superhuman **22%** to **33%** after segmenting to **58%** within three quarters.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. Money is the signal; state the full price and offer a lower test price; time bound in Z; demand before buildability; score importance against satisfaction; book the next call; cheapest artifact is an AI-built demo; call founders of failed predecessors; product-free deck past investors with no ask; unpaid design partners are not validation. Not a survey. No closed-session numbers.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. Money is the signal; state the full price and offer a lower test price; time bound in Z; demand before buildability; score importance against satisfaction; book the next call; cheapest artifact is an AI-built demo; call founders of failed predecessors; product-free deck past investors with no ask; unpaid design partners are not validation. Not a survey. No closed-session numbers.
 
 ## Related
 

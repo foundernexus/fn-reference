@@ -7,7 +7,7 @@ cluster: finance
 layout: article
 target_query: AI SaaS gross margin
 date: 2026-10-13
-close: Founders who have defended an AI gross margin line through a board pack and a raise will pressure-test your COGS map in a FounderNexus session.
+close: Founders who have defended an AI gross margin line through a board pack and a raise will pressure-test your COGS map in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 related:

@@ -7,7 +7,7 @@ cluster: fundraising
 layout: article
 target_query: SAFE vs priced round
 date: 2026-10-02
-close: Instrument choice is an ops decision with years of cap-table consequences. Founders who have closed Seed on both SAFEs and priced equity will pressure-test your raise size, cap math, and lead terms in a FounderNexus session.
+close: Instrument choice is an ops decision with years of cap-table consequences. Founders who have closed Seed on both SAFEs and priced equity will pressure-test your raise size, cap math, and lead terms in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -82,7 +82,7 @@ Carta’s Seed split follows dollars more than founder preference. Model your ow
 | Seed up to about **$2M** | Still more likely than not a SAFE in that window | Keep modeling cumulative ownership as checks stack |
 | Seed above **$5M** | About **70%** priced / **20%** SAFE in that window | Expect a lead, preferred docs, and a board conversation |
 
-Operator judgment from [FounderNexus sessions](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): treat the mid Seed band as a modeling exercise. If a committed lead will price and you can defend the valuation, priced equity can clean the cap table earlier. If you are still collecting checks without a lead, stacking mismatched SAFEs is worse than waiting for one clean structure.
+Operator judgment from [VEN sessions](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): treat the mid Seed band as a modeling exercise. If a committed lead will price and you can defend the valuation, priced equity can clean the cap table earlier. If you are still collecting checks without a lead, stacking mismatched SAFEs is worse than waiting for one clean structure.
 
 ## Pick the instrument
 
@@ -122,7 +122,7 @@ Most Seed instrument pain comes from dilution you deferred or mixed paper, not f
 - [Carta, State of Pre-Seed: Q2 2025](https://carta.com/data/state-of-pre-seed-q2-2025/) — 21 Aug 2025. Hamza Shad. Majority of early-stage rounds under **$4M** on SAFEs or notes in H1 2025 (threshold moved up from about **$3M** in 2024).
 - [Cooley GO, What You Should Know About SAFEs](https://www.cooleygo.com/what-you-should-know-about-safes/) — Dennis Craig; last reviewed 28 Oct 2025. SAFE vs note (no interest/maturity); discount often **10–25%**; pre- vs post-money conversion clarity.
 - [CRV, Priced Round vs. SAFE](https://www.crv.com/content/priced-round-vs-safe) — 20 Jun 2026. Priced-round document set and counsel fee band (**$30k–$50k**); timeline often beyond one month; stage/size framing aligned to Carta deal-size splits.
-- [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: model mid-Seed both ways when a lead will price; keep early paper on one instrument; never stack SAFEs without a running ownership total.
+- [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: model mid-Seed both ways when a lead will price; keep early paper on one instrument; never stack SAFEs without a running ownership total.
 
 ## Related
 

@@ -55,7 +55,7 @@ Track what shipped, the query it should rank for, and the last review. Weekly re
 | 2026-09-14 | /library/finance/nrr-vs-grr-board-pack/ | nrr vs grr saas | 2026-09-14 | Second finance spoke (hub deferred). Cite ChartMogul formulas + Dec 2025 median, SaaS Capital RB28, Bessemer SotC 2019 / Scaling / churn. |
 | 2026-09-16 | /library/board/when-to-add-independent-director/ | when to add independent director startup | 2026-09-16 | Second board spoke (hub deferred). Cite CRV, Carta via Peter Walker, Boardspan. Equity table by stage; fn-content#13 benchmark request. |
 | 2026-09-15 | /library/board/series-a-board-meeting-agenda/ | how to run a Series A board meeting | 2026-09-15 | First board spoke (hub deferred). Cite Lightspeed/Unusual, Feld, CRV. Decision-first timed agenda. |
-FounderNexus links use `utm_source=founderdecisions&utm_medium=referral&utm_campaign=library` so HubSpot can see the referral once the site is public.
+VEN links (www.venexecs.com, formerly foundernexus.com) use `utm_source=founderdecisions&utm_medium=referral&utm_campaign=library`; mapped playbook links use `utm_campaign=playbook&utm_content=<page-slug>`. Rebrand shipped 2026-10-23 (see SEO-BRIEF "VEN links and citations").
 
 Weekly 2026-09-11 indexing: requested for runway-calculator, hiring hub, rooms compare, finance hub (magic-number already queued earlier same day). Burn-multiple already on Google. Indexing coverage: 11 indexed / 6 not indexed (3 redirect, 2 discovered-not-indexed, 1 crawled-not-indexed).
 

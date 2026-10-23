@@ -8,7 +8,7 @@ layout: calculator
 calculator_js: magic-number-cac-payback-calculator.js
 target_query: saas magic number cac payback calculator
 date: 2026-09-11
-close: Your board will see magic number and CAC payback. Founders who have defended those numbers in a raise or a board pack will pressure-test your S&M plan in a FounderNexus session.
+close: Your board will see magic number and CAC payback. Founders who have defended those numbers in a raise or a board pack will pressure-test your S&M plan in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 related:

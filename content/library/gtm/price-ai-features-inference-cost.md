@@ -7,7 +7,7 @@ cluster: gtm
 layout: article
 target_query: how to price AI features
 date: 2026-10-16
-close: Founders who have repriced an AI feature and kept their customers will pressure-test your allowance and overage math in a FounderNexus session.
+close: Founders who have repriced an AI feature and kept their customers will pressure-test your allowance and overage math in a VEN session.
 draft: false
 related:
 - library/gtm
@@ -64,7 +64,7 @@ Then apply the formula to both costs:
 
 Pick the target before you see the result. Poyar’s median target is about **50%**. **12%** of his sample aim for SaaS-like AI margins of **80%+**, and a similar share aim for **20%** or lower (he names PostHog). Bessemer puts AI gross margins at **50–60%** against **80–90%** for SaaS. Murray’s published bands by product type are on the gross margin page.
 
-The floor is the minimum price. Bessemer says most founders default to cost-plus (calculate costs, double it) and undercharge because asking for more feels awkward. Anchor the price against what the problem costs the buyer today. Keep the cost per unit of work in view so an outcome or flat price cannot invert your margin at scale ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). There is no reliable public benchmark yet for the markup AI companies charge over inference cost on credits or overage.
+The floor is the minimum price. Bessemer says most founders default to cost-plus (calculate costs, double it) and undercharge because asking for more feels awkward. Anchor the price against what the problem costs the buyer today. Keep the cost per unit of work in view so an outcome or flat price cannot invert your margin at scale ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). There is no reliable public benchmark yet for the markup AI companies charge over inference cost on credits or overage.
 
 ## A labeled example: flat bundle vs allowance plus overage
 
@@ -180,7 +180,7 @@ This page is operator judgment on pricing design, not legal, tax, or accounting 
 - [Notion, Pricing](https://www.notion.com/pricing) and [Notion AI](https://www.notion.com/product/ai). Checked 16 October 2026. Custom Agents **$10** per 1,000 Notion credits; credits apply from 4 May 2026; agents pause when credits run out.
 - [Salesforce, Salesforce Introduces New Flexible Agentforce Pricing](https://www.salesforce.com/news/press-releases/2025/05/15/agentforce-flexible-pricing-news/). 15 May 2025. Flex Credits **$500** per 100,000; one action 20 credits (**$0.10**); conversations **$2** each.
 - [SaaStr, 5 Key Takeaways from ICONIQ’s State of AI Report](https://www.saastr.com/the-execution-era-of-ai-5-key-takeaways-from-iconiqs-state-of-ai-report/). Jason Lemkin, 7 February 2026. ICONIQ January 2026, about **300** executives; inference **20%** to **23%** of spend as products scale; route most tasks to smaller models.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. Anchor price to the buyer’s current cost of the problem; know variable cost per unit of work so outcome pricing does not invert margin. Not a survey. No closed-session numbers.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. Anchor price to the buyer’s current cost of the problem; know variable cost per unit of work so outcome pricing does not invert margin. Not a survey. No closed-session numbers.
 
 ## Related
 

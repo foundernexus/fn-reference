@@ -7,7 +7,7 @@ cluster: fundraising
 layout: article
 target_query: venture debt for startups
 date: 2026-10-05
-close: Founders who have drawn, renegotiated, and repaid venture debt will pressure-test your draw month, covenants, and lender shortlist in a FounderNexus session.
+close: Founders who have drawn, renegotiated, and repaid venture debt will pressure-test your draw month, covenants, and lender shortlist in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -46,7 +46,7 @@ Venture debt stretches a plan your equity already funds. Write the milestone it 
 | Short runway or a looming down round | Seldom. Kruze: venture debt supplements equity and does not replace it | You cannot raise equity at all; in a down round a MAC clause lets the lender refuse further draws (Kruze) |
 | Seed or pre-revenue | Possible when institutional VCs back you (SVB). SVB lists **$4M+** raised in a single equity round as a common qualifier | Your money came from angels or friends and family (SVB) |
 
-Operator judgment from [FounderNexus sessions](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): treat venture debt as an accelerant for a company that is working. It makes a poor last resort for one that is failing. Raise it when you do not need it. That is session judgment, not a survey.
+Operator judgment from [VEN sessions](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): treat venture debt as an accelerant for a company that is working. It makes a poor last resort for one that is failing. Raise it when you do not need it. That is session judgment, not a survey.
 
 ## How much to borrow
 
@@ -107,7 +107,7 @@ Hellman says lenders seldom call a subjective default, yet most insist on at lea
 Pick the lender by how they behave when you miss plan. Rate comes second.
 :::
 
-Mercury’s comparison: banks tend to price lower and carry heavier covenants and reporting; venture debt funds price higher with lighter covenants and more warrant coverage. SVB names the biggest founder mistake as picking a lender on price and loan size alone. Session judgment from [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) matches: reference-check a lender through portfolio companies that went through a bad stretch with them, and hire counsel who lives in venture lending.
+Mercury’s comparison: banks tend to price lower and carry heavier covenants and reporting; venture debt funds price higher with lighter covenants and more warrant coverage. SVB names the biggest founder mistake as picking a lender on price and loan size alone. Session judgment from [VEN](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) matches: reference-check a lender through portfolio companies that went through a bad stretch with them, and hire counsel who lives in venture lending.
 
 ## Sequence: from equity close to first draw
 
@@ -162,7 +162,7 @@ Pick Seed paper on [SAFE vs priced round](/library/fundraising/safe-vs-priced-ro
 - [Orrick, Venture Debt Default Provisions: What Every Company Should Know Before They Sign on the Dotted Line](https://www.orrick.com/en/Insights/2018/06/Venture-Debt-Default-Provisions-What-Every-Company-Should-Know-Before-They-Sign-on-the-Dotted-Line) — 14 June 2018. Spinta Capital with Orrick partner Dolph Hellman. Term sheet stage is peak leverage; most lenders insist on at least one subjective default (MAC or investor abandonment); lenders rarely rely on them.
 - [Fred Wilson, Financings Options: Venture Debt (AVC)](https://avc.com/2011/07/financings-options-venture-debt/) — 25 July 2011. Lenders underwrite the VC syndicate; not a fan early; a fan late as a bridge to sale, IPO, or acquisition when you can pay it back.
 - [PitchBook, AI and a new scale of startups took US venture debt funding to another record](https://pitchbook.com/news/articles/ai-and-a-new-scale-of-startups-took-us-venture-debt-to-a-record) — Jacob Robbins, 2 February 2026. **$62.4B** US venture debt deal value in 2025 across **943** deals (vs **1,168** in 2024), per PitchBook-NVCA Venture Monitor.
-- [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: debt accelerates a working company and does not rescue a failing one; raise it when you do not need it; pick the lender by behavior after a miss; reference-check through portfolio companies; use counsel who does venture lending. Not a survey.
+- [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: debt accelerates a working company and does not rescue a failing one; raise it when you do not need it; pick the lender by behavior after a miss; reference-check through portfolio companies; use counsel who does venture lending. Not a survey.
 
 ## Related
 

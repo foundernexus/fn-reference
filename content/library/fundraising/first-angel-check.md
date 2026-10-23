@@ -7,7 +7,7 @@ cluster: fundraising
 layout: article
 target_query: how to find angel investors
 date: 2026-10-03
-close: First-check outreach is an ops decision with years of cap-table consequences. Founders who have closed early angels will pressure-test your target list, ask line, and SAFE math in a FounderNexus session.
+close: First-check outreach is an ops decision with years of cap-table consequences. Founders who have closed early angels will pressure-test your target list, ask line, and SAFE math in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -59,7 +59,7 @@ Build a short list of active writers who already understand your space. Qualify 
 | --- | --- | --- |
 | Warm intro from a founder they funded | Highest-signal path into angels and VCs (YC; Paul Graham ranks this near the top after an investor who already invested in you) | Ask for a specific intro after you close someone, or from a peer one stage ahead |
 | Operators and counsel in your vertical | Cooley GO: domain expertise and capital access matter as much as chemistry | Ask who is writing now, not who was famous five years ago |
-| Niche insiders (founder-owned operators in your category) | Operator judgment from [FounderNexus sessions](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): people who already live the problem need less story and often move faster | Structure so one strategic check does not block competitors as customers |
+| Niche insiders (founder-owned operators in your category) | Operator judgment from [VEN sessions](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): people who already live the problem need less story and often move faster | Structure so one strategic check does not block competitors as customers |
 | AngelList / directories / angel groups | Useful for research and for filling after leads exist (YC, Cooley GO) | Qualify activity and thesis first; Cooley GO notes angel groups can take longer to decide |
 | Cold email with a three-line ask | Michael Seibel (YC): what you do, why it is exciting, what you want (advice, investment, or intro). Let them escalate. Use your company domain. | Use when you lack an intro path; do not lead with LinkedIn walls of text (Seibel) |
 
@@ -136,7 +136,7 @@ Most first-check stalls come from weak targeting, mixed paper, or waiting on peo
 - [Cooley GO, What You Should Know About SAFEs](https://www.cooleygo.com/what-you-should-know-about-safes/) — Dennis Craig; last reviewed 28 Oct 2025. SAFE vs note; discount often **10–25%**; conversion clarity.
 - [Carta, At pre-seed and seed, the dominance of SAFEs continues to grow](https://carta.com/data/pre-seed-and-seed-safes-q3-2024/) — 7 Jan 2025. Kevin Dowd. Q3 2024 pre-seed about **88%** SAFE; Seed Q4 2023–Q3 2024 about **64%** SAFE / **27%** priced / **10%** notes; under **$500k** **86%** SAFE; above **$5M** **70%** priced / **20%** SAFE.
 - [Carta, Understanding the SAFE](https://carta.com/learn/startups/fundraising/convertible-securities/safes/) — 4 Aug 2026. Q1 2026 pre-seed **93%** SAFE / **7%** notes.
-- [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: filter for active writers; niche insiders who already know the problem can move stuck first checks; “join when you have a lead” often means they cannot evaluate you.
+- [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: filter for active writers; niche insiders who already know the problem can move stuck first checks; “join when you have a lead” often means they cannot evaluate you.
 
 ## Related
 

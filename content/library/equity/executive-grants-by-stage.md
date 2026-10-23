@@ -8,7 +8,7 @@ layout: article
 target_query: how much equity to give VP of sales startup
 date: 2026-08-29
 updated: 2026-09-18
-close: Public ranges are a starting point. Founders who have made this hire will pressure-test the number in your offer in a FounderNexus session.
+close: Public ranges are a starting point. Founders who have made this hire will pressure-test the number in your offer in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 ---
@@ -48,7 +48,7 @@ A first sales leader at seed is typically 0.5–2.0% fully diluted. A Series A V
 - ⁷ High end of the Index VP band (product and engineering). Non-founding CTO as C-level: Index says 1% is typical in the US at Series A or B (0.7% typical in Europe). C-level range 0.8–1.5% FDE.
 - ⁸ True CFO, Index C-level. Typical 1%. Index: most Series A and B companies have no more than three true non-founding C-level executives.
 - ⁹ Smaller end of the Index VP band (HR and finance). Index lists finance, HR, and ops as Series B central-team hires. No Head of People percentage is published as its own row.
-- ¹⁰ FounderNexus session, February 2026. Operator judgment, not a survey range.
+- ¹⁰ VEN session, February 2026. Operator judgment, not a survey range.
 
 Empty cells mean the source did not publish that number.
 
@@ -128,7 +128,7 @@ Standalone 409A cost, per Carta: $1,000 to over $10,000 depending on size and co
 - [The CRO Report, VP Sales salary at Series B](https://thecroreport.com/blog/vp-sales-salary-series-b/) — 15 February 2026; April 2026 note
 - [Kruze, option pool shuffle](https://kruzeconsulting.com/blog/option-pool-shuffle/) — 29 January 2024
 - [Kruze, startup compensation guide](https://kruzeconsulting.com/blog/startup-compensation-guide/) — 4 December 2024
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder session, February 2026. Hire for the phase: the 0–10 operator is often not the 10–50 operator. Not a compensation dataset.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder session, February 2026. Hire for the phase: the 0–10 operator is often not the 10–50 operator. Not a compensation dataset.
 
 ## Related
 

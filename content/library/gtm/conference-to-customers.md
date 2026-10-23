@@ -7,7 +7,7 @@ cluster: gtm
 layout: article
 target_query: B2B conference lead generation startup
 date: 2026-10-22
-close: Founders who have sold at conferences on a Seed budget will pressure-test your target list, your next-step script, and your event scorecard in a FounderNexus session.
+close: Founders who have sold at conferences on a Seed budget will pressure-test your target list, your next-step script, and your event scorecard in a VEN session.
 draft: false
 related:
 - library/gtm
@@ -67,7 +67,7 @@ Rob Fitzpatrick, in The Mom Test, argues that organizing your own event costs on
 
 Freeman asked attendees and exhibitors which factors most help commercial conversations at events. Exhibitors rate pre-set meetings higher than attendees do (**41%** against **20%**). Attendees rate product demonstrations higher than exhibitors do (**63%** against **34%**). Book meetings anyway, and spend them showing the product on the attendee’s own problem.
 
-The FounderNexus session view: judge a sponsorship package by the meetings and follow-up work it buys, and by who on your team will do that work. A paid booth without a follow-up owner produces a spreadsheet. Judgment from a [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library), not a survey.
+The VEN session view: judge a sponsorship package by the meetings and follow-up work it buys, and by who on your team will do that work. A paid booth without a follow-up owner produces a spreadsheet. Judgment from a [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library), not a survey.
 
 ## Build the list before you fly
 
@@ -130,7 +130,7 @@ Editorial template, not a tested sequence:
 
 Send it from the founder who held the conversation. Follow the event’s data terms and your own privacy notice for anyone you scanned. Plan two or three relevant follow-ups, then move the contact to nurture. Stop when someone declines or asks you to.
 
-The FounderNexus session view on follow-up: carry the actual conversation into the email, and continue an existing thread when it helps the person place you. Judgment from a [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library), not a survey.
+The VEN session view on follow-up: carry the actual conversation into the email, and continue an existing thread when it helps the person place you. Judgment from a [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library), not a survey.
 
 ## Measure meetings and opportunities
 
@@ -203,7 +203,7 @@ Move the next steps into [customer development as your early sales funnel](/libr
 - [CMO Council, Customer Attainment From Event Engagement](https://www.cmocouncil.org/about/media-center/press-releases/senior-marketers-call-for-better-measurement-of-event-value-new-technologies-helping-reveals-new-cmo-council-study). Press release, 23 April 2013, with the Exhibit & Event Marketers Association. Survey of more than **260** brand marketers fielded Q4 2012 and Q1 2013. **40%** cutting back on big shows in favor of more targeted gatherings; **44%** choosing to host their own events; **19%** lacking a strategy to act on the leads they gather.
 - [James B. Oldroyd, Kristina McElheran, and David Elkington, The Short Life of Online Sales Leads](https://hbr.org/2011/03/the-short-life-of-online-sales-leads). Harvard Business Review, March 2011. Audit of **2,241** US companies’ responses to web leads; contact within an hour nearly **7** times as likely to qualify the lead as an hour later, more than **60** times as likely as **24** hours or more; **23%** never responded.
 - [Rob Fitzpatrick, The Mom Test](https://www.momtestbook.com/). 2013. Chapter 6, Finding conversations: organize your own meetup for a little more effort than attending; organizer credibility; five or ten of the right people over attendee counts; speaking and teaching at conferences and workshops.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder session on conference selling, October 2026. Choose the outcome before buying tickets; speaker and sponsor lists as research leads; judge sponsorship by the meetings and follow-up work it buys; short first conversation ending on a specific next step; follow-up that carries the conversation; count qualified next steps over scans. Not a survey. No closed-session numbers.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder session on conference selling, October 2026. Choose the outcome before buying tickets; speaker and sponsor lists as research leads; judge sponsorship by the meetings and follow-up work it buys; short first conversation ending on a specific next step; follow-up that carries the conversation; count qualified next steps over scans. Not a survey. No closed-session numbers.
 
 ## Related
 

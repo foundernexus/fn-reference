@@ -6,7 +6,7 @@ section: library
 cluster: hiring
 target_query: when to hire executives startup
 date: 2026-09-08
-close: Your board will see how you sequence these seats. Founders who have made the first two VP hires after a raise will pressure-test which bottleneck is yours in a FounderNexus session.
+close: Your board will see how you sequence these seats. Founders who have made the first two VP hires after a raise will pressure-test which bottleneck is yours in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 ---
@@ -17,7 +17,7 @@ Hire for the one function that is bottlenecking the next 18 months, then move to
 - Index: Series A is when first customer-facing roles and initial executive hires typically arrive. Expect ~4 executives (3 VP + 1 C-suite) as you scale toward B.
 - Majhi (B2B SaaS): Sales months 1–4, Eng 3–8, Marketing 6–12, People 9–18, CFO 12–24 or pre-B. Sector tables flip the first seat.
 - Nxt Level: founder time sets the trigger, not the round. First VP when you spend 50%+ of the week on one function.
-- Hire for the phase and say so in the offer. A FounderNexus session drew the same line on tenure: the 0→10 operator is often not the 10→50 operator.
+- Hire for the phase and say so in the offer. A VEN session drew the same line on tenure: the 0→10 operator is often not the 10→50 operator.
 :::
 
 ## When the first executive is real
@@ -75,7 +75,7 @@ Index: VP grants typically 0.3–0.8% FDE at Series A (product and eng high end;
 The 0→10 operator is often not the 10→50 operator. Say the phase in the offer.
 :::
 
-A [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) session drew the same line on tenure: name the phase out loud. The person who builds the function for this chapter may not be the person who scales it after the next step-change. Majhi’s failure data agrees: hiring a VP who has mainly operated at a larger stage is the most common Series A mis-hire pattern they call out. Nxt Level: over-titling at Series A creates title inflation you regret when you need a real VP later.
+A [VEN](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) session drew the same line on tenure: name the phase out loud. The person who builds the function for this chapter may not be the person who scales it after the next step-change. Majhi’s failure data agrees: hiring a VP who has mainly operated at a larger stage is the most common Series A mis-hire pattern they call out. Nxt Level: over-titling at Series A creates title inflation you regret when you need a real VP later.
 
 Recruiting these seats takes a sustained pursuit, not a two-week LinkedIn blast, so budget calendar time. Once they start, plan a short, structured onboarding window with frequent founder contact in the first months. Give real authority; otherwise you have hired a senior IC with a VP title (Nxt Level).
 
@@ -88,7 +88,7 @@ Recruiting these seats takes a sustained pursuit, not a two-week LinkedIn blast,
 - [Ready Set Exec, Series A executive search](https://readysetexec.com/series-a-executive-search-scale-vs-stall/) — bottleneck-first; sequential vs simultaneous.
 - [Kruze Consulting, when a startup needs a CFO](https://kruzeconsulting.com/startup-need-cfo/) — Series A generally does not need full-time CFO; part-time first.
 - [The CRO Report](https://www.thecroreport.com/) and SaaStr (via [when to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/)) — commercial sequence before the VP title.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder session, February 2026. Hire for the phase. Say it in the offer. Not a survey.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder session, February 2026. Hire for the phase. Say it in the offer. Not a survey.
 
 ## Related
 

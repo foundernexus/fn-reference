@@ -7,7 +7,7 @@ cluster: gtm
 layout: article
 target_query: DIY PR for startups
 date: 2026-09-22
-close: Founders who built a narrative and a short reporter list before paying for a retainer will pressure-test yours in a FounderNexus session.
+close: Founders who built a narrative and a short reporter list before paying for a retainer will pressure-test yours in a VEN session.
 draft: false
 related:
 - library/gtm
@@ -23,7 +23,7 @@ You are deciding whether to write the first pitches yourself or sign a PR retain
 - Muck Rack, State of Journalism 2026 (~900 journalists): **86%** say PR pitches inspire at least some stories. **88%** immediately disregard pitches off their beat. **71%** reject overly promotional pitches. **50%** dismiss what looks like a mass email.
 - First Round Review (Terra Carmichael): do not scattershot every inbox. Write the headlines you want first. Prefer niche and trade outlets your buyers read. Founder outreach often beats a junior account email.
 - First Round Review (Brooke Hammerling): lock a one-sentence "cocktail party" message, then three proof points. The founder is the voice. Agency or not, reporters want the person who built it.
-- Everything-PR (21 Jun 2026): boutique retainers often **$3,500–$10,000**/month; mid-size **$10,000–$25,000**; solo publicists **$2,000–$10,000**. Hire paid help when you have a stable story and enough real news moments to feed it ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Sibling: [market AI without saying AI](/library/gtm/market-ai-product-without-saying-ai/).
+- Everything-PR (21 Jun 2026): boutique retainers often **$3,500–$10,000**/month; mid-size **$10,000–$25,000**; solo publicists **$2,000–$10,000**. Hire paid help when you have a stable story and enough real news moments to feed it ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Sibling: [market AI without saying AI](/library/gtm/market-ai-product-without-saying-ai/).
 :::
 
 ## What you are deciding
@@ -122,7 +122,7 @@ Pick publications for the audience you need this quarter, not for screenshot van
 
 Carmichael: you rarely need a national splash. With fragmented audiences, the right niche outlets compound. Fessler: research the beat and cite a past piece. Muck Rack: relevance to the audience beats volume of names.
 
-Operator judgment from founder rooms: build the narrative before the launch window, keep the founder as the public voice, and match outlet lists to the goal of the cycle ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). No closed-session numbers here.
+Operator judgment from founder rooms: build the narrative before the launch window, keep the founder as the public voice, and match outlet lists to the goal of the cycle ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). No closed-session numbers here.
 
 ## Worked situations
 
@@ -145,7 +145,7 @@ Labeled sketches. Thresholds come from the public sources above, not a new surve
 - [Muck Rack, State of Journalism 2026](https://media.muckrack.com/documents/State_of_Journalism_2026_1.pdf). ~900 journalists. **86%** pitches inspire some stories; **88%** delete off-beat; **71%** reject promotional; **50%** reject mass-email style.
 - [Everything-PR, How much does a PR firm cost in 2026?](https://www.everything-pr.com/how-much-does-a-pr-firm-cost-in-2026/). 21 Jun 2026. Boutique **$3,500–$10,000**/mo; mid-size **$10,000–$25,000**; publicists **$2,000–$10,000**; projects **$10,000–$75,000**.
 - [AMEC, Barcelona Principles 3.0](https://amecorg.com/2020/07/barcelona-principles-3-0/). July 2020. Rejects AVE as a valid measure of communication value.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions. Narrative before the launch window; founder as the public voice; match outlets to the cycle goal. Not a survey. No closed-session numbers.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions. Narrative before the launch window; founder as the public voice; match outlets to the cycle goal. Not a survey. No closed-session numbers.
 
 ## Related
 

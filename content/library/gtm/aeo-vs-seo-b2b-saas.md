@@ -7,7 +7,7 @@ cluster: gtm
 layout: article
 target_query: AEO vs SEO B2B SaaS
 date: 2026-09-21
-close: Founders who have rebalanced SEO and answer-engine work after buyers started asking AI before visiting the homepage will compare notes with you in a FounderNexus session.
+close: Founders who have rebalanced SEO and answer-engine work after buyers started asking AI before visiting the homepage will compare notes with you in a VEN session.
 draft: false
 related:
 - library/gtm
@@ -24,7 +24,7 @@ You are deciding where scarce content hours go in 2026. Classic SEO still owns c
 - Google (21 May 2025): when people click from results pages **with AI Overviews**, those clicks are **higher quality**. Users are more likely to spend more time on the site. Do not optimize only for click count.
 - Google Search Console (3 Jun 2026; worldwide 31 Aug 2026): use the **Generative AI performance reports** for impressions of your URLs inside AI Overviews / AI Mode. That is separate from classic blue-link vanity.
 - SparkToro on Similarweb’s downstream study (29 Jun 2026): in consumer finance examples, devices that saw an AI brand mention were **7.2%** (American Express) and **14.2%** (Capital One) more likely to visit that brand within ~7 days. It is a consumer panel, not a B2B SaaS conversion rate, so treat it as directional.
-- Operator split for Seed–Series B: keep **bottom-funnel SEO** (pricing, compare, “vs,” integration) as the hard revenue path. Put AEO effort on **category education and comparison queries** so you are the entity AI systems cite ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Siblings: [AI SDR vs human](/library/gtm/ai-sdr-vs-human/), [market AI without saying AI](/library/gtm/market-ai-product-without-saying-ai/), [seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/).
+- Operator split for Seed–Series B: keep **bottom-funnel SEO** (pricing, compare, “vs,” integration) as the hard revenue path. Put AEO effort on **category education and comparison queries** so you are the entity AI systems cite ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Siblings: [AI SDR vs human](/library/gtm/ai-sdr-vs-human/), [market AI without saying AI](/library/gtm/market-ai-product-without-saying-ai/), [seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/).
 :::
 
 ## What you are deciding
@@ -84,7 +84,7 @@ Prioritize AEO when the buyer researches the category in an assistant before the
 | New category or “what is [category]” | Assistants summarize; you want to be the grounded source | Definition + boundary + “not for” in one screen |
 | Multi-step compare (“X vs Y for Series A SaaS”) | Query fan-out pulls supporting pages | Decision tables with named sources |
 | Soft TOFU that used to be blog traffic | Zero-click and AI answers absorb some discovery | Keep a durable hub page; measure mentions and branded search, not only sessions |
-| Sales hears “ChatGPT said…” | Wrong entity data loses deals before the demo | Fix public docs and homepage entity copy first ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): buyers ask AI before your site) |
+| Sales hears “ChatGPT said…” | Wrong entity data loses deals before the demo | Fix public docs and homepage entity copy first ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): buyers ask AI before your site) |
 
 SparkToro’s read of Similarweb (consumer finance/travel/beauty panel): AI recommendations correlated with higher **direct** visits and slightly lower search share for mentioned brands. Treat that as a signal that **mentions move preference**, not as your SaaS CAC model. B2B ASP and buying committees are different.
 
@@ -115,7 +115,7 @@ Protect converting SEO pages. Use remaining editorial capacity on citation-ready
 | Series A | ~60% SEO / ~40% AEO | Compare and integration SEO; category education AEO | AEO-only calendar with no demo or pricing updates |
 | Series B | ~50% SEO / ~50% AEO | Scale both; add GSC Gen AI report reviews to monthly growth | Spending on AEO “hacks” Google lists as myths |
 
-These percentages are operator judgment for venture-scale teams with one content owner, not a survey. Align them with how often buyers mention assistants in discovery calls ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). If you lack a verified cohort split, track your own hours and AI-referral influenced pipeline until a public benchmark exists.
+These percentages are operator judgment for venture-scale teams with one content owner, not a survey. Align them with how often buyers mention assistants in discovery calls ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). If you lack a verified cohort split, track your own hours and AI-referral influenced pipeline until a public benchmark exists.
 
 ## Worked situations
 
@@ -138,7 +138,7 @@ Labeled sketches. Thresholds are the public sources above, not a new study of yo
 - [Google The Keyword, Generative AI in Search (I/O 2024)](https://blog.google/products/search/generative-ai-google-search-may-2024/). Elizabeth Reid, 14 May 2024. AI Overviews U.S. rollout; links in Overviews and greater diversity of sites on complex questions.
 - [SparkToro, Similarweb downstream AI visibility research](https://sparktoro.com/blog/new-research-from-similarweb-how-ai-brand-mentions-influence-direct-visits-traditional-search-queries/). Rand Fishkin, 29 Jun 2026. Consumer panel examples: Amex **+7.2%**, Capital One **+14.2%** visit likelihood after AI mention (~7 days). Caveat: not B2B SaaS.
 - [SparkToro, Does your website still matter in the zero-click era?](https://sparktoro.com/blog/does-your-website-still-matter-in-the-zero-click-era/). Rand Fishkin, 14 Aug 2026. Site as home base that informs AI tools; conversion still on-site.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. Buyers ask AI before your site; keep bottom-funnel SEO while making category answers citation-ready. Not a survey. No closed-session numbers.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. Buyers ask AI before your site; keep bottom-funnel SEO while making category answers citation-ready. Not a survey. No closed-session numbers.
 
 ## Related
 

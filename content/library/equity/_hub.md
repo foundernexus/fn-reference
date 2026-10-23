@@ -6,7 +6,7 @@ section: library
 cluster: equity
 target_query: startup option pool size
 date: 2026-08-31
-close: Your board decides pool math. Founders who have sat through that negotiation will pressure-test your hiring plan and remaining unallocated pool in a FounderNexus session.
+close: Your board decides pool math. Founders who have sat through that negotiation will pressure-test your hiring plan and remaining unallocated pool in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 ---

@@ -7,7 +7,7 @@ cluster: gtm
 layout: article
 target_query: how to build a data moat startup
 date: 2026-09-23
-close: Founders who have tested whether their loop compounds or only piles up logs will pressure-test yours in a FounderNexus session.
+close: Founders who have tested whether their loop compounds or only piles up logs will pressure-test yours in a VEN session.
 draft: false
 related:
 - library/gtm
@@ -22,7 +22,7 @@ You are deciding whether “we have proprietary data” is a real moat or a pitc
 - a16z (Martin Casado and Peter Lauten, 9 May 2019): most “data network effects” are **data scale effects**. Incremental data often costs more to capture while adding less value. Eloquent Labs chatbot study cited there: ~**20%** of capture effort covers ~**20%** of use cases; intent coverage asymptotes near **40%** in that support domain.
 - Bessemer Atlas, Vertical AI Part IV (28 Jan 2025): **prioritize data quality over quantity**. Early-stage volume is rarely the constraint. EvenUp’s early path invested in human review of demand letters so feedback quality compounded before scale arrived. Models alone are not a reliable moat; multimodality, workflow depth, and industry-specific RAG are stronger layers.
 - Sequoia (Sonya Huang, 19 Aug 2026): proprietary feedback, evals, and domain data are a reason to **own parts of the intelligence stack**. Capture trajectories (context, tools, output, user edits). Turn each failed task into an eval. Harvey’s Legal Agent Benchmark: **1,200+** agent tasks across **24** practice areas, graded against **75,000+** expert rubric criteria; research team of **seven**.
-- Operator judgment: you cannot out-algorithm the labs or out-compute the hyperscalers. Differentiated data comes from collecting what nobody publishes or from deep domain fluency about what is signal ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Design feedback that pays the user back instantly. Small labeled sets still surface strong signals.
+- Operator judgment: you cannot out-algorithm the labs or out-compute the hyperscalers. Differentiated data comes from collecting what nobody publishes or from deep domain fluency about what is signal ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Design feedback that pays the user back instantly. Small labeled sets still surface strong signals.
 - Sibling decisions: [market AI without saying AI](/library/gtm/market-ai-product-without-saying-ai/) and [seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/).
 :::
 
@@ -72,7 +72,7 @@ Defensibility shows up when sources are scarce, quality compounds, and the produ
 | Quality before volume | Narrow, high-fidelity loops beat broad mediocre dumps | Bessemer principle 10; EvenUp human review example |
 | Workflow + multimodality | End-to-end job with integrations and mixed inputs beats a wrapper feature | Bessemer principles 2 and 8; RAG on industry data as a floor |
 | Operational memory | History of decisions, exceptions, approvals, and failures stays in-product | Sequoia online-learning loop; operator judgment on compounding benefit |
-| Instant user reward | Users label when feedback improves *their* work now | FounderNexus session: feedback that pays instantly, not altruism |
+| Instant user reward | Users label when feedback improves *their* work now | VEN session: feedback that pays instantly, not altruism |
 
 Bessemer’s Vertical AI Part IV warns that models will not stay a moat as infrastructure costs fall. Ask why your product beats what a buyer can assemble from public models and public data. Industry-specific retrieval, compliance, and end-to-end workflows are the practical answers they emphasize.
 
@@ -87,7 +87,7 @@ Ship the shortest loop that improves a named eval. Then widen. Do not wait for �
 | 1. Eval | Turn real work into graded tasks (prompt, context, grader). Stop vibe-checking alone. | Sequoia / Harvey: benchmark before you own more of the stack |
 | 2. Capture | Log trajectories: context in, tools called, output, edits, undos, retries. | Sequoia online learning; failed task → new eval |
 | 3. Improve | Pick the lightest fix: RAG/context for missing facts; SFT for format; preference for taste; RL for specialized skill; distill for cost/latency. | Sequoia / Lin Qiao framing in Huang’s piece |
-| 4. Contract | Trade early discounts for usage minimums and structured feedback obligations when you need the first turns of the flywheel. | Operator judgment from founder rooms ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)) |
+| 4. Contract | Trade early discounts for usage minimums and structured feedback obligations when you need the first turns of the flywheel. | Operator judgment from founder rooms ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)) |
 
 Two sources of differentiated data that repeatedly show up in operator rooms (without closed-session numbers): collect what nobody publishes, and apply decades-style domain fluency about what is signal versus noise in a niche. Commodity enrichment feeds are table stakes.
 
@@ -124,7 +124,7 @@ Labeled sketches. Thresholds come from the public sources above, not a new surve
 - [a16z, The Empty Promise of Data Moats](https://a16z.com/the-empty-promise-of-data-moats/). Martin Casado and Peter Lauten, 9 May 2019. Scale effects vs network effects; rising acquisition cost / falling incremental value; Eloquent Labs chatbot coverage curve (~20% effort → ~20% coverage; ~40% intent asymptote in that study); minimum viable corpus; proprietary sources and holistic defensibility.
 - [Bessemer Atlas, Part IV: Ten principles for building strong vertical AI businesses](https://www.bvp.com/atlas/part-iv-ten-principles-for-building-strong-vertical-ai-businesses). 28 Jan 2025. Principle 10 quality over quantity (EvenUp human review); principle 8 multimodality / models not a reliable moat; principle 2 end-to-end workflows vs commoditized features; industry-specific RAG as a foundational layer.
 - [Sequoia, Own Your Intelligence: A How-To Guide](https://sequoiacap.com/article/own-your-intelligence-a-how-to-guide). Sonya Huang, 19 Aug 2026. When proprietary data argues for owning stack slices; evals before post-training; harness and trajectories; Harvey Legal Agent Benchmark (**1,200+** tasks, **24** areas, **75,000+** rubric criteria); research team of **seven**.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions. Data as the ingredient a startup can own; unpublished collection and domain fluency; feedback that rewards the user instantly; small data still signals. Not a survey. No closed-session numbers.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions. Data as the ingredient a startup can own; unpublished collection and domain fluency; feedback that rewards the user instantly; small data still signals. Not a survey. No closed-session numbers.
 
 ## Related
 

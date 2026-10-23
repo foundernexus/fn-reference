@@ -7,7 +7,7 @@ cluster: gtm
 layout: article
 target_query: how to sell to enterprise startups
 date: 2026-10-18
-close: Founders who have closed enterprise accounts at Seed and Series A will pressure-test your account list, buying-group map, and security packet in a FounderNexus session.
+close: Founders who have closed enterprise accounts at Seed and Series A will pressure-test your account list, buying-group map, and security packet in a VEN session.
 draft: false
 related:
 - library/gtm
@@ -50,7 +50,7 @@ Enterprise readiness is a test of the product, the team, and the runway. ARR alo
 
 Lemkin’s read of large buyers: at least **90%** of the time they pick the obvious, trusted vendor. Innovation groups bring in **1–2** new vendors a year that do not put the core business at risk. Startups still close Fortune 500 and Global 2000 customers in their first **1–12** months. They solve a specific problem the incumbents do not solve well, start small, and stay honest about team size.
 
-The FounderNexus session view on deployment: if the install needs skills the buyer lacks, make it simple or plan the hands-on hours into each deal. Pretending otherwise stretches the cycle. Judgment from a [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library), not a survey.
+The VEN session view on deployment: if the install needs skills the buyer lacks, make it simple or plan the hands-on hours into each deal. Pretending otherwise stretches the cycle. Judgment from a [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library), not a survey.
 
 ## Map the champion, the budget owner, and the blockers
 
@@ -73,7 +73,7 @@ Gartner found buyers spend **17%** of a purchase journey meeting potential suppl
 
 Ask the champion: is this budgeted? Lemkin: if it is, ask who else they are looking at. If it is not, you can still win from a smaller discretionary budget, so cut the first ask to fit.
 
-FounderNexus session judgment on reaching the group: a cold note to the CIO goes unanswered. Sell into the business functions the CIO serves, and win the technical staff who will deploy and run the product. Treat support, influence, and spending authority as three facts to confirm. A senior title or an enthusiastic call does not prove budget authority.
+VEN session judgment on reaching the group: a cold note to the CIO goes unanswered. Sell into the business functions the CIO serves, and win the technical staff who will deploy and run the product. Treat support, influence, and spending authority as three facts to confirm. A senior title or an enthusiastic call does not prove budget authority.
 
 ## Send security proof before they ask
 
@@ -83,7 +83,7 @@ Write one document that explains how you run the system. Send it with the first 
 
 Buyers now expect proof early. In Vanta’s 2025 State of Trust survey of **2,500** business and IT leaders, **77%** said stakeholders demand verified proof of compliance, up from **65%** in 2024. The same teams spend about **7** hours a week, or **9** working weeks a year, on vendor security reviews. Vanta puts a single security questionnaire at **5–15** hours of work, and standard formats such as CAIQ and SIG run to hundreds of questions.
 
-The FounderNexus session view: model the packet on the public security pages of large software companies. Describe where you store data, who can access it, how you handle an incident, and what you do with customer data in AI features. Evidence of how you operate carries more weight than a row of certification logos.
+The VEN session view: model the packet on the public security pages of large software companies. Describe where you store data, who can access it, how you handle an incident, and what you do with customer data in AI features. Evidence of how you operate carries more weight than a row of certification logos.
 
 | Your situation | Move | Timing (source) |
 | --- | --- | --- |
@@ -107,7 +107,7 @@ Pete Koomen, who co-founded Optimizely, describes closing as security, legal, an
 
 **List the procurement steps.** Vendor registration or portal, tax forms, insurance certificate, security review, MSA and data terms, order form, and a purchase order number. Name an owner on their side for each and a date.
 
-**Size the first deal to the path.** FounderNexus session judgment: a first deal that sits under the buyer’s approval threshold skips a sign-off and earns the larger contract from inside. Lemkin’s version: let big companies start smaller, with a paid pilot in a less risky workflow.
+**Size the first deal to the path.** VEN session judgment: a first deal that sits under the buyer’s approval threshold skips a sign-off and earns the larger contract from inside. Lemkin’s version: let big companies start smaller, with a paid pilot in a less risky workflow.
 
 **Use a stall rule.** Fullcast and Pavilion’s 2026 benchmark of **361,000** opportunities across **316** companies found lost deals took **225** days against **115** for won deals. If a deal runs well past your won-deal cycle with no new stakeholder or date, take it out of the forecast and go back to the budget owner.
 
@@ -119,8 +119,8 @@ Ten steps from account list to signature. The founder runs each one until the mo
 
 :::steps Enterprise deal
 1. **Pick accounts where one workflow hurts.** Keep the list short. Lemkin’s advice: research each buyer and spend half an hour writing each email.
-2. **Check fit before the meeting.** Confirm the product fits their environment before the first call (FounderNexus session).
-3. **Put price on page one.** Price, what they get, and how to trial it come before the founding story (FounderNexus session).
+2. **Check fit before the meeting.** Confirm the product fits their environment before the first call (VEN session).
+3. **Put price on page one.** Price, what they get, and how to trial it come before the founding story (VEN session).
 4. **Qualify the problem, budget, and authority.** Koomen: ask questions before you pitch. Ask whether it is budgeted (Lemkin).
 5. **Map the buying group.** Name the champion, the budget owner, the technical staff, and each blocker.
 6. **Send the security packet.** Attach it to the first follow-up, with SOC 2 status and dates.
@@ -138,9 +138,9 @@ Each one adds months or kills the deal in a room you are not in.
 
 **Treating the champion as the buyer.** Your contact may care a great deal and still lack a budget line.
 
-**Pitching the CIO cold.** Start with the functions the CIO serves and the people who will run the product (FounderNexus session).
+**Pitching the CIO cold.** Start with the functions the CIO serves and the people who will run the product (VEN session).
 
-**Bluffing a capability.** A claim that fails in technical evaluation kills the deal. Saying you do not do something, and naming a vendor who does, builds credibility for the next one (FounderNexus session).
+**Bluffing a capability.** A claim that fails in technical evaluation kills the deal. Saying you do not do something, and naming a vendor who does, builds credibility for the next one (VEN session).
 
 **Waiting for the questionnaire to start SOC 2.** A first Type 2 report needs an observation window of at least **3** months (Vanta).
 
@@ -171,7 +171,7 @@ Structure the proof with [how to convert a pilot to a paid contract](/library/gt
 - [SaaStr, Dear SaaStr: How Do Startups Really Sell to Big Enterprises Before They’re Proven?](https://www.saastr.com/dear-saastr-how-do-startups-really-sell-to-big-enterprises-before-theyre-proven/). Jason Lemkin, 29 September 2022. Big companies pick obvious, trusted vendors at least **90%** of the time; innovation groups add **1–2** new vendors a year; startups close Fortune 500 and Global 2000 customers in their first **1–12** months; paid pilots, start smaller, be honest, tailored outbound with half an hour per email, ask if it is budgeted.
 - [SaaStr, Dear SaaStr: How Can an Early Stage SaaS Startup Get its First 1-3 Pilot Fortune 500 Paying Customers?](https://www.saastr.com/what-does-jason-lemkin-think-is-the-best-way-for-an-early-stage-saas-company-to-get-its-first-1-3-pilot-fortune-500-paying-customers/). Jason Lemkin, 27 March 2024. One reasonably important thing **10x** better than enterprise-proven tools; the risk must be contained.
 - [Y Combinator, Enterprise Sales (Startup School)](https://www.youtube.com/watch?v=0fKYVl12VTA). Pete Koomen, 2024. Founders sell before product-market fit; qualify problem, budget, and authority; give internal stakeholders material to justify the cost; ask about procurement steps up front and run security questionnaires in parallel; the founder project-manages implementation.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. Check environment fit before the meeting; price, contents, and trial on page one; a security packet that describes real operations, sent before the buyer asks; sell sideways into business functions and technical staff; confirm budget authority separately from support; arm the champion; never bluff a capability; simplify the install or budget for it; size the first deal under the approval threshold. Not a survey. No closed-session numbers.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. Check environment fit before the meeting; price, contents, and trial on page one; a security packet that describes real operations, sent before the buyer asks; sell sideways into business functions and technical staff; confirm budget authority separately from support; arm the champion; never bluff a capability; simplify the install or budget for it; size the first deal under the approval threshold. Not a survey. No closed-session numbers.
 
 ## Related
 

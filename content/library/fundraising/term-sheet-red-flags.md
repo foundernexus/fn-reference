@@ -7,7 +7,7 @@ cluster: fundraising
 layout: article
 target_query: term sheet red flags
 date: 2026-10-08
-close: Founders who have negotiated priced rounds with counsel at their side will pressure-test your board terms, vetoes, and exit waterfall in a FounderNexus session.
+close: Founders who have negotiated priced rounds with counsel at their side will pressure-test your board terms, vetoes, and exit waterfall in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -102,7 +102,7 @@ Board seats and vetoes decide who runs the company after close. Give them more a
 
 **Founder vesting.** Cooley GO lists three things to read: the vesting start date, acceleration on termination without cause, and acceleration on a change of control, including double trigger.
 
-Operator judgment from [FounderNexus sessions](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): confirm in writing whether the headline valuation is pre- or post-money before you negotiate anything else. Have counsel build the pro forma cap table from the term sheet, then check the long-form documents against it. A request to re-vest founder stock is negotiable; keep a floor of shares fully vested. That is session judgment, not a survey.
+Operator judgment from [VEN sessions](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): confirm in writing whether the headline valuation is pre- or post-money before you negotiate anything else. Have counsel build the pro forma cap table from the term sheet, then check the long-form documents against it. A request to re-vest founder stock is negotiable; keep a floor of shares fully vested. That is session judgment, not a survey.
 
 ## Process terms: exclusivity and re-trading
 
@@ -158,7 +158,7 @@ Pick Seed paper on [SAFE vs priced round](/library/fundraising/safe-vs-priced-ro
 - [Brad Feld, Term Sheet: Protective Provisions (Feld Thoughts)](https://feld.com/archives/2005/01/term-sheet-protective-provisions/) — 18 January 2005. Sample veto list with a **$100,000** debt threshold; single class vs separate series votes; **90%** consent example with a **10.1%** holder.
 - [Venture Hacks, The Option Pool Shuffle](https://venturehacks.com/option-pool-shuffle) — Nivi, 10 April 2007. **$2M** on **$8M** pre-money with a **20%** post-money pool → **$6M** effective, **$1.00** vs **$1.33** per share; **10%** pool → **$7M** effective, **$1.17** (**17%** higher); size the pool from a 12-month hiring plan.
 - [NVCA, Model Legal Documents](https://nvca.org/model-legal-documents/) — Read 8 October 2026. Charter, stock purchase, and investors’ rights agreements updated October 2025; voting agreement updated June 2026.
-- [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: confirm pre- vs post-money in writing first; build the pro forma cap table and check the long-form documents against it; founder re-vesting is negotiable with a vested floor; board control outranks dilution. Not a survey.
+- [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: confirm pre- vs post-money in writing first; build the pro forma cap table and check the long-form documents against it; founder re-vesting is negotiable with a vested floor; board control outranks dilution. Not a survey.
 
 ## Related
 

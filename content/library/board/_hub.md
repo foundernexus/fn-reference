@@ -6,7 +6,7 @@ section: library
 cluster: board
 target_query: Series A board structure
 date: 2026-09-27
-close: As CEO, you own board structure and meeting process. Founders who have negotiated a Series A board and run the first contested vote will pressure-test your seats and agenda in a FounderNexus session.
+close: As CEO, you own board structure and meeting process. Founders who have negotiated a Series A board and run the first contested vote will pressure-test your seats and agenda in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 ---
@@ -18,7 +18,7 @@ At Series A, you formalize the board. Seed boards are often founders plus at mos
 - Independent: Series A is the usual trigger (CRV). Drive the shortlist yourself. Equity is typically under 1%, with Carta medians 0.50% seed / 0.40% Series A / 0.30% Series B for independents only.
 - Cadence: every 6–8 weeks, about 2–3 hours (Lightspeed / Unusual). Pack ≥48 hours ahead (Feld) or 5–7 days on a fuller pack (CRV).
 - Between meetings: short monthly investor update in a fixed order (TL;DR, KPIs, highlights, lowlights, asks, cash/burn/runway, shout-outs). See [monthly investor update](/library/board/monthly-investor-update/).
-- Live time: hard decision first after a short open. Updates are not decisions ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Consent agenda for routine votes. Closed session at the end.
+- Live time: hard decision first after a short open. Updates are not decisions ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Consent agenda for routine votes. Closed session at the end.
 - Pack metrics: runway, burn, plan vs actual, and retention without masking live on the [finance hub](/library/finance/). Do not rebuild formulas in the room.
 :::
 
@@ -50,7 +50,7 @@ One governance question per row. Do not average publishers that disagree on stag
 | How do I keep investors informed between meetings? | Short monthly email: TL;DR, same KPIs, highlights, lowlights + fix, asks, cash/burn/runway, shout-outs | Every month between board meetings | [Monthly investor update](/library/board/monthly-investor-update/) |
 | Update email or board pack? | Email for continuity; pack + room for decisions (updates ≠ decisions) | Between meetings vs meeting week | [Monthly investor update](/library/board/monthly-investor-update/); [How to run a Series A board meeting](/library/board/series-a-board-meeting-agenda/) |
 
-Empty cells stay empty. Each row comes from a different publisher and answers a different board question. A [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) session made the same two points: updates are not decisions, and you drive the independent shortlist yourself. That is session judgment, not a survey.
+Empty cells stay empty. Each row comes from a different publisher and answers a different board question. A [VEN](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) session made the same two points: updates are not decisions, and you drive the independent shortlist yourself. That is session judgment, not a survey.
 
 ## Stage sketch for the board
 
@@ -85,7 +85,7 @@ Independent grants draw on the same option pool as VP offers. Size bottoms-up wi
 - [Brad Feld, My Ideal Board Meeting](https://feld.com/archives/2014/02/ideal-board-meeting/) — 7 Feb 2014. Pack several days ahead; ~3-hour template with executive session.
 - [Carta data via Peter Walker](https://www.linkedin.com/posts/peterjameswalker_cartadata-boards-startupequity-activity-7134995702211821568-e_WU) — Independent director initial equity medians: Seed 0.50%; Series A 0.40%; Series B 0.30% (n=2,718; grants from 1 Jan 2022).
 - [Boardspan / Paul Jones, Private Company Director Compensation Guidance](https://work.boardspan.com/library/articles/private-company-director-compensation-guidance?article_id=317) — Independent directors ~0.25%–2.0% equity; cash uncommon at startup stage beyond expenses.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder session. Updates are not decisions; drive the independent shortlist yourself. Not a survey.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder session. Updates are not decisions; drive the independent shortlist yourself. Not a survey.
 
 ## Related
 

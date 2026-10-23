@@ -7,7 +7,7 @@ cluster: board
 layout: article
 target_query: how to run a Series A board meeting
 date: 2026-09-15
-close: Founders who have taken a Series A board through a hard decision and a clean closed session will pressure-test your next agenda in a FounderNexus session.
+close: Founders who have taken a Series A board through a hard decision and a clean closed session will pressure-test your next agenda in a VEN session.
 draft: false
 related:
 - library/finance/nrr-vs-grr-board-pack
@@ -21,7 +21,7 @@ You lead a Series A board meeting as a working session, and you are not pitching
 :::takeaways
 - Cadence: every 6–8 weeks, about 2–3 hours (Lightspeed / Unusual).
 - Pre-read: Feld asks for materials at least 48 hours ahead; CRV aims for 5–7 days on a fuller pack. Assume directors read. Do not re-present the deck.
-- Hard item first after a short state-of-the-company open. Updates are not decisions ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
+- Hard item first after a short state-of-the-company open. Updates are not decisions ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
 - Consent agenda for minutes, option grants, and other non-controversial approvals. Pull anything that needs discussion out before the vote.
 - Metrics pack belongs in the pre-read: runway, burn, plan vs actual, and retention (see [NRR vs GRR](/library/finance/nrr-vs-grr-board-pack/)). Live time is for judgment calls.
 :::
@@ -63,7 +63,7 @@ Write the ask as a decision with options. A vague topic eats the clock without p
 
 CRV’s fix is concrete. Do not put “Discuss Q2 hiring plan” on the agenda. Put “Approve three engineers in Q2 vs two engineers plus one PM.” Do not put “Review product roadmap.” Put “Build enterprise features for five pilots or ship self-serve to 500 SMBs.”
 
-Operator rule: **updates ≠ decisions**. If the board can only nod, it belongs in the pack or the consent list. If the board’s input changes your choice, it is a live item. Rank by impact and put the hardest live item first after a short open so you do not run out of time on soft updates ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
+Operator rule: **updates ≠ decisions**. If the board can only nod, it belongs in the pack or the consent list. If the board’s input changes your choice, it is a live item. Rank by impact and put the hardest live item first after a short open so you do not run out of time on soft updates ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
 
 Feld’s 2009 bar: most VC boards default to ~80% status / ~10% strategy / ~10% admin. Reverse the status/strategy split. Admin stays small. Feld’s 2014 template: up to five discussion topics that fit on one slide; CEO timeboxes; setup ≤5 minutes per topic, then discussion.
 
@@ -148,7 +148,7 @@ Status theater, late packs, and soft asks waste most board meetings.
 - [Brad Feld, My Ideal Board Meeting](https://feld.com/archives/2014/02/ideal-board-meeting/) — 7 Feb 2014. Pack several days ahead; ~3-hour template (admin / up to five topics / executive session); ending early is fine.
 - [Brad Feld, The Best Approach To A Board Package](https://feld.com/archives/2013/01/the-best-approach-to-a-board-package/) — 16 Jan 2013. Commentable pre-read; meeting without page-by-page deck walkthrough.
 - [CRV, How to Prepare for a Board Meeting](https://www.crv.com/content/how-to-prepare-for-a-board-meeting/) — Founder guide. CEO owns prep at seed/Series A; decision-first agenda wording; 5–7 day materials window; observer vs director; Series A board size framing.
-- [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: updates are not decisions; put the hard live item first.
+- [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: updates are not decisions; put the hard live item first.
 
 ## Related
 

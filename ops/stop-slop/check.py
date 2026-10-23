@@ -383,6 +383,29 @@ def changed_md_files() -> list[Path]:
     return files
 
 
+# Whole-file brand/leak guard (includes ## Sources and link URLs, which the prose scan skips).
+# FounderNexus is now VEN at www.venexecs.com; foundernexus.com must not be linked publicly.
+BRAND_RULES = [
+    ("brand-old-domain", re.compile(r"foundernexus\.com", I), "Old domain. Link https://www.venexecs.com/ with the FD UTM."),
+    ("internal-leak", re.compile(r"startup bible|fn-content|benchmark request|github\.com/[^)\s]*/issues", I),
+     "Internal reference on a public page. Remove it."),
+]
+
+
+def brand_hits(path: Path):
+    try:
+        lines = path.read_text(encoding="utf-8").splitlines()
+    except OSError:
+        return []
+    out = []
+    for n, line in enumerate(lines, 1):
+        for rid, pat, msg in BRAND_RULES:
+            m = pat.search(line)
+            if m:
+                out.append((n, "HARD", rid, m.group(0), line.strip(), msg, "raw"))
+    return out
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("files", nargs="*")
@@ -411,6 +434,8 @@ def main() -> int:
     per_file: list[tuple[str, int, int]] = []
     for f, units in targets:
         hits = scan_units(units, args.soft)
+        if not args.generated:
+            hits += brand_hits(f)
         rel = f.relative_to(ROOT).as_posix() if f.is_relative_to(ROOT) else str(f)
         h = sum(1 for x in hits if x[1] == "HARD")
         s = sum(1 for x in hits if x[1] == "soft")

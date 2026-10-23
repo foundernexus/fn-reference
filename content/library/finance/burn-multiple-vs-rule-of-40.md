@@ -7,7 +7,7 @@ cluster: finance
 layout: article
 target_query: burn multiple vs rule of 40
 date: 2026-09-09
-close: Your board will judge capital efficiency. Founders who have defended a burn-multiple turn or a Rule of 40 path in a raise will pressure-test your board pack in a FounderNexus session.
+close: Your board will judge capital efficiency. Founders who have defended a burn-multiple turn or a Rule of 40 path in a raise will pressure-test your board pack in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 related:

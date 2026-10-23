@@ -7,7 +7,7 @@ cluster: fundraising
 layout: article
 target_query: Series A diligence checklist
 date: 2026-09-24
-close: Investors read diligence speed as an operating signal. Founders who have closed a Series A with a clean room and consistent metrics will pressure-test your folder map in a FounderNexus session.
+close: Investors read diligence speed as an operating signal. Founders who have closed a Series A with a clean room and consistent metrics will pressure-test your folder map in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -31,7 +31,7 @@ You are deciding when to build the Series A data room: before outreach, or after
 - Y Combinator (Jason Kwon / Aaron Harris): assemble the full legal checklist in one data room **before** you sign a term sheet. That preparation can cut **as much as a week** off closing.
 - Underscore VC stages access: short deck on first meet, then long-form deck plus a controlled deal room at partner pitch, then full legal room only after the term sheet. Share enough to answer questions. Do not overshare early.
 - Burkland (2026): Series A underwrites **repeatable, capital-efficient growth**. Expect verification across PMF, unit economics, runway, model scalability, team, market, and GTM efficiency. Inconsistent metric definitions across deck, model, and room are themselves a red flag.
-- Operator judgment: the room is how you show you run the company. Clear folders and one source of truth beat a Drive dump the night after the term sheet ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
+- Operator judgment: the room is how you show you run the company. Clear folders and one source of truth beat a Drive dump the night after the term sheet ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
 - Sibling pages for the numbers they will rebuild: [NRR vs GRR](/library/finance/nrr-vs-grr-board-pack/), [runway with hiring plan](/tools/runway-calculator/), [Series A hiring sequence](/library/hiring/series-a-leadership-hiring-sequence/).
 :::
 
@@ -154,7 +154,7 @@ Speed comes from readiness, not from pressure on the lawyers.
 - [Y Combinator, Series A diligence checklist](https://www.ycombinator.com/library/3h-series-a-diligence-checklist) — Jason Kwon (YC Continuity GC) with Aaron Harris. Full post–term sheet document categories; prepare the data room before signing to cut as much as a week off closing; clear pending equity grants before a term sheet triggers a material-event 409A refresh.
 - [Underscore VC, What Should Be in a Series A Data Room?](https://underscore.vc/resources/series-a-data-room/) — Staged access (first meet / partner pitch / post–term sheet); consistency and anti-overshare norms; partner-pitch folder checklist; points to YC for legal diligence.
 - [Burkland, How Investors Evaluate Series A Startups in 2026](https://burklandassociates.com/2026/07/21/how-investors-evaluate-series-a-startups-in-2026/) — 21 Jul 2026. Evidence vs vision; seven evaluation lenses; diligence artifacts; red flags; directional SaaS/AI rubric; runway and dilution framing; 5–10 customer references.
-- [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: the room is an ops signal; one source of truth beats a post–term sheet scavenger hunt.
+- [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: the room is an ops signal; one source of truth beats a post–term sheet scavenger hunt.
 
 ## Related
 

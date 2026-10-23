@@ -7,7 +7,7 @@ cluster: gtm
 layout: article
 target_query: how to convert a pilot to a paid contract
 date: 2026-10-06
-close: Founders who have turned enterprise pilots into purchase orders will pressure-test your success criteria, buyer map, and conversion clause in a FounderNexus session.
+close: Founders who have turned enterprise pilots into purchase orders will pressure-test your success criteria, buyer map, and conversion clause in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -66,7 +66,7 @@ The pilot agreement is the first draft of the contract. If the conversion terms 
 
 Not legal advice. Have counsel review the pilot terms and the order form.
 
-Work backward from the contract you need. Ask the buyer before kickoff: if we hit these numbers, will you buy, at what price, and who signs? A pilot that succeeds against the wrong price is a lost deal. That is judgment from a [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library), not a survey. Price the pilot so the buyer can approve it fast, and save the larger number for the contract.
+Work backward from the contract you need. Ask the buyer before kickoff: if we hit these numbers, will you buy, at what price, and who signs? A pilot that succeeds against the wrong price is a lost deal. That is judgment from a [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library), not a survey. Price the pilot so the buyer can approve it fast, and save the larger number for the contract.
 
 ## Map the buying group in week one
 
@@ -114,7 +114,7 @@ Most stalls trace to a missing buyer, vague metrics, or a pilot that grew. Fix t
 | Procurement takes over the timeline | Ask the champion or buyer to push, tied to the date that forced the pilot in the first place |
 | They like it but have no budget | Shrink the first contract to one team or site before you discount. Session judgment: a discount sets the price for the next deal |
 
-Judgment from a [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): cut scope before you cut price, and ask for the PO the day you hit the metrics. A pilot that ends with “the team liked it” has failed as a sale.
+Judgment from a [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): cut scope before you cut price, and ask for the PO the day you hit the metrics. A pilot that ends with “the team liked it” has failed as a sale.
 
 ## Pair with pricing and sales hiring
 
@@ -136,4 +136,4 @@ There is no reliable public benchmark yet for pilot-to-paid conversion rates. Qu
 - [a16z, Need for Speed in AI Sales](https://a16z.com/need-for-speed-in-ai-sales-ai-doesnt-just-change-what-you-sell-it-also-changes-how-you-sell-it/) — Seema Amble and James da Costa, 21 November 2025. a16z Enterprise survey: **70%** of buyers rank speed of deployment a top factor; **57%** expect positive ROI within three months; **11%** immediately. Demos taking over the POC role; compliance expected from the start; buyers want to test an AI category once.
 - [Gartner, Gartner Predicts 30% of Generative AI Projects Will Be Abandoned After Proof of Concept By End of 2025](https://www.gartner.com/en/newsroom/press-releases/2024-07-29-gartner-predicts-30-percent-of-generative-ai-projects-will-be-abandoned-after-proof-of-concept-by-end-of-2025) — 29 July 2024. At least **30%** abandoned after POC, from poor data quality, inadequate risk controls, escalating costs, or unclear business value. A forecast, not a measured rate.
 - [Gartner, B2B Buying Report](https://emt.gartnerweb.com/ngw/globalassets/en/marketing/documents/gartner-b2b-buying-report_2023.pdf) — 2023. Average enterprise buying group of **5–11** stakeholders from an average of **5** business functions.
-- [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: the purchase order is the goal; agree the price before you prove anything; map approvers, payers, and blockers; start security and procurement in parallel; cut scope before price; ask for the PO at readout. Not a survey.
+- [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: the purchase order is the goal; agree the price before you prove anything; map approvers, payers, and blockers; start security and procurement in parallel; cut scope before price; ask for the PO at readout. Not a survey.

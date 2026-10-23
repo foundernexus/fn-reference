@@ -7,7 +7,7 @@ cluster: gtm
 layout: article
 target_query: why AI coding agents don't 10x engineering
 date: 2026-09-26
-close: Founders who have scored each stage of the delivery loop and moved AI past the coding step will compare notes with you in a FounderNexus session.
+close: Founders who have scored each stage of the delivery loop and moved AI past the coding step will compare notes with you in a VEN session.
 draft: false
 related:
 - library/gtm
@@ -24,7 +24,7 @@ You are deciding whether a coding-agent rollout is a company 10x or a local spee
 - Atlassian AI at Work (3 Apr 2026): if individual work is about **20%** of the lifecycle, even “instant” AI on that slice caps the whole system near **~1.25x**. They report a **43%** gap between felt individual speed and actual team output when handoffs stay unchanged.
 - Faros, AI Engineering Report 2026 (12 Apr 2026; telemetry on **22,000** developers / **4,000+** teams, low→high AI adoption): PR merge rate per developer **+16.2%**; incidents-to-PR **+242.7%**; median time to first PR review **+156.6%**; average time in code review **+199.6%**; PRs merged with no review **+31.3%**.
 - METR (10 Jul 2025 RCT): **16** experienced open-source developers, **246** real issues. They expected AI to cut time **24%** and afterward believed they were **20%** faster. Measured result: **19%** longer with early-2025 tools (primarily Cursor Pro + Claude 3.5/3.7). Snapshot of one setting, not a universal law.
-- Operator judgment: score every stage of the loop. Attack the lows. Make AI the default on more than typing, and put humans on policy instead of every gate ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Sibling: [data moat for AI startups](/library/gtm/data-moat-ai-startup/).
+- Operator judgment: score every stage of the loop. Attack the lows. Make AI the default on more than typing, and put humans on policy instead of every gate ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Sibling: [data moat for AI startups](/library/gtm/data-moat-ai-startup/).
 :::
 
 ## What you are deciding
@@ -109,7 +109,7 @@ Name where time and risk sit today. Then put agents on the lows, not only on the
 | Review | Smaller diffs; risk-tiered paths; agent-assisted summaries with humans on high-risk | Faros senior-engineer tax; Atlassian validation redesign |
 | Test | Deterministic suites, fast local runs, policy-as-code | Meagher: slow CI becomes the bottleneck |
 | Deploy | One-command environments; staged risk; green means go | Atlassian: trust the pipeline or humans stay the brake |
-| Operate | Alerts wake agents; humans write response policy | Operator judgment: get work off the laptop / out of paste loops ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)) |
+| Operate | Alerts wake agents; humans write response policy | Operator judgment: get work off the laptop / out of paste loops ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)) |
 
 ## Decision table: buy more seats or fix the loop
 
@@ -136,7 +136,7 @@ Labeled sketches. Thresholds come from the public sources above, not a new surve
 
 **Series A, merge rate up, on-call noisy.** Pull incidents-to-PR and unreviewed merges. Faros’s direction (+242.7% incidents-to-PR; +31.3% no-review merges in their cohort) is the board language: show whether you match the whiplash pattern. Freeze seat growth until risk-tiered review and CI confidence catch up.
 
-**Series B, board asks “why aren’t we 10x yet?”** Show the stage scores. Replace the coding-only slide with Amdahl math plus your queue metrics. Operator sessions land on the same advice: default to AI across the loop, put humans on policy, and stop treating paste-between-tools as “using AI” ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
+**Series B, board asks “why aren’t we 10x yet?”** Show the stage scores. Replace the coding-only slide with Amdahl math plus your queue metrics. Operator sessions land on the same advice: default to AI across the loop, put humans on policy, and stop treating paste-between-tools as “using AI” ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
 
 ## Sources
 
@@ -145,7 +145,7 @@ Labeled sketches. Thresholds come from the public sources above, not a new surve
 - [Faros, The AI Engineering Report 2026: The Acceleration Whiplash — Ten Takeaways](https://www.faros.ai/blog/ai-acceleration-whiplash-takeaways). 12 Apr 2026. Telemetry: **22,000** developers, **4,000+** teams; low→high AI adoption. PR merge **+16.2%**; incidents-to-PR **+242.7%**; monthly incidents **+57.9%**; median time to first review **+156.6%**; avg review time **+199.6%**; median time in review **+441.5%**; PRs with no review **+31.3%**; bugs/developer **+54%**.
 - [METR, Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/). 10 Jul 2025. RCT: **16** developers, **246** issues; expected **24%** faster; believed **20%** faster; measured **19%** longer. Early-2025 tools (primarily Cursor Pro + Claude 3.5/3.7). Setting-specific snapshot.
 - [Evan Meagher, Amdahl’s law and agentic coding](https://evnm.substack.com/p/amdahls-law-and-agentic-coding). 30 Jan 2026. Coding often was not the bottleneck; review, deploy, and slow CI surface after agents accelerate drafting.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions. Score design/code/review/test/deploy/operate; attack the lows; AI-native default unless someone shows why not; humans write policy instead of sitting in every gate. Not a survey. No closed-session numbers.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions. Score design/code/review/test/deploy/operate; attack the lows; AI-native default unless someone shows why not; humans write policy instead of sitting in every gate. Not a survey. No closed-session numbers.
 
 ## Related
 

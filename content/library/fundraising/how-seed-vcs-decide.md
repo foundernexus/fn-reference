@@ -7,7 +7,7 @@ cluster: fundraising
 layout: article
 target_query: how do seed VCs decide to invest
 date: 2026-10-09
-close: Founders who have raised seed rounds from institutional funds will pressure-test your fund list, team story, and evidence for each investor's thesis in a FounderNexus session.
+close: Founders who have raised seed rounds from institutional funds will pressure-test your fund list, team story, and evidence for each investor's thesis in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -112,7 +112,7 @@ Seed funds do not all buy the same thing. Find out which bet this fund makes, th
 | Traction bet | Customers pay and stay | Revenue sized to your price point, renewals, buyers beyond your network |
 | Category-leader bet | This can become the leading company in its market | The first market, the expansion path, why now |
 
-Labeled composite: built from Graham (founders, market, evidence), YC (team, product, market), Gompers et al. (fit), and [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) judgment that one deck cannot serve every lens. The rows carry no thresholds. A traction bar depends on your price point and market, and no public source sets one for seed.
+Labeled composite: built from Graham (founders, market, evidence), YC (team, product, market), Gompers et al. (fit), and [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) judgment that one deck cannot serve every lens. The rows carry no thresholds. A traction bar depends on your price point and market, and no public source sets one for seed.
 
 Operator judgment from those sessions: qualify the investor before you pitch. Ask about the thesis, the usual first check, and where the fund sits in its deployment period. A fund near the end of deployment may not be writing new checks however well the meeting goes. Reference-check the lead with founders from its portfolio. A difficult investor stays on your cap table for years. That is session judgment, not a survey.
 
@@ -162,7 +162,7 @@ Close early checks on [first angel check](/library/fundraising/first-angel-check
 - [Paul Graham, How to Convince Investors](https://paulgraham.com/convince.html) — August 2013. Formidable founders, a promising market, and usually evidence; investors decide in the first few minutes; plausible path to a big market and why now; explain how you would find an answer; talk openly about rejections.
 - [Y Combinator, A Guide to Seed Fundraising](https://www.ycombinator.com/library/4A-a-guide-to-seed-fundraising) — Geoff Ralston. When investors write checks; **10%** weekly growth for several weeks is impressive; raise for the next milestone, usually **12 to 18** months; seed dilution up to **20%**, avoid more than **25%**; first meeting goal is the next meeting; no detailed financials; investors have many ways to say no.
 - [Carta, State of Pre-Seed: Q2 2026](https://carta.com/data/state-of-pre-seed-q2-2026/) — Hamza Shad, 13 August 2026. **$3.19B** across more than **11,500** instruments in Q2 2026 vs **$3.22B** across **14,825** in Q2 2025; average instrument about **$276,000**, up **27%**; AI **49%** of H1 2026 pre-seed dollars.
-- [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: know which bet the fund makes, since one deck cannot serve every lens; qualify thesis, check size, and deployment period before pitching; reference-check the lead with portfolio founders. Not a survey.
+- [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: know which bet the fund makes, since one deck cannot serve every lens; qualify thesis, check size, and deployment period before pitching; reference-check the lead with portfolio founders. Not a survey.
 
 ## Related
 

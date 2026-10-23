@@ -1,4 +1,4 @@
-/* FounderNexus executive equity calculator.
+/* Founder Decisions executive equity calculator.
    Client-side only. No tracking, no network, no "Join now".
    Bands are cited public figures; this file does not invent ranges.
    Bound to #equity-calc (build.py calculator layout).
@@ -212,7 +212,7 @@
       html += row(
         "Cash you entered",
         "$" + Math.round(cash).toLocaleString("en-US") +
-          ". Compare only to the cited cash line above; there is no FounderNexus cash band."
+          ". Compare only to the cited cash line above; there is no VEN cash band."
       );
     }
     html += "</dl>";
@@ -237,6 +237,6 @@
     showError("");
     result.classList.add("result-placeholder");
     result.innerHTML =
-      '<p class="muted">Results land here. Bands are cited public figures, not FounderNexus data. Conflicting sources are shown separately.</p>';
+      '<p class="muted">Results land here. Bands are cited public figures, not VEN data. Conflicting sources are shown separately.</p>';
   });
 })();

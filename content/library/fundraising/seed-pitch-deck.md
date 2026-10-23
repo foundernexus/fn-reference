@@ -7,7 +7,7 @@ cluster: fundraising
 layout: article
 target_query: seed pitch deck
 date: 2026-10-10
-close: Founders who have raised seed rounds will tear down your deck headlines, market math, and ask in a FounderNexus session before the first send.
+close: Founders who have raised seed rounds will tear down your deck headlines, market math, and ask in a VEN session before the first send.
 disclaimer: not-legal-tax
 draft: false
 related:
@@ -27,7 +27,7 @@ A seed pitch deck has to earn the second meeting, and investors give it little t
 - Lead with purpose, problem, solution, and market (DocSend). Sequoia’s outline opens the same way and slots why now before market.
 - The business model section gets the longest look, **64** seconds on average, then product at **59** (DocSend). Make both easy to read.
 - One idea per slide. Kevin Hale (YC): legible, simple, obvious. Harris: about founders, and “Nobody cares about your advisors.”
-- The deck opens the conversation. Reconcile each number with your model and rehearse for interruptions (FounderNexus session).
+- The deck opens the conversation. Reconcile each number with your model and rehearse for interruptions (VEN session).
 :::
 
 ## Each slide answers one investor question
@@ -101,7 +101,7 @@ Three public templates agree on the opening and differ on where traction and tea
 | **11** | | | Financials |
 | **12** | | | Fundraising ask |
 
-Use the YC order when traction is your strongest proof, since it puts traction at slide **4**. Use the Sequoia or DocSend order when the case rests on the insight and the market. A [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) pushed the same rule from live deck reviews: put the insight or your strongest evidence in the opening, and move the team early when founder depth is the reason to believe. That is session judgment, not a survey.
+Use the YC order when traction is your strongest proof, since it puts traction at slide **4**. Use the Sequoia or DocSend order when the case rests on the insight and the market. A [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) pushed the same rule from live deck reviews: put the insight or your strongest evidence in the opening, and move the team early when founder depth is the reason to believe. That is session judgment, not a survey.
 
 ## Market size and numbers
 
@@ -113,7 +113,7 @@ Size revenue, not the value of the underlying assets. The total value of homes o
 
 Separate free users from paying customers. Sessions, active accounts, and paid contracts measure different things. Define each metric and its period on the slide.
 
-Reconcile each number on the slides with your model and with what you say out loud. Operators in FounderNexus deck reviews flag small gaps as the place investors park their worries. Pair the deck with one metric glossary, as on the [Series A diligence checklist](/library/fundraising/series-a-diligence-checklist/).
+Reconcile each number on the slides with your model and with what you say out loud. Operators in VEN deck reviews flag small gaps as the place investors park their worries. Pair the deck with one metric glossary, as on the [Series A diligence checklist](/library/fundraising/series-a-diligence-checklist/).
 
 ## The ask and the terms
 
@@ -134,7 +134,7 @@ Harris asks for the amount, what it gets you, and where you will be inside a yea
 6. **Reconcile the numbers.** Slides, model, and script match; each metric carries a definition and a period.
 7. **Write the ask.** Amount, months of runway, the milestone it buys (Harris).
 8. **Split send-ahead from presenting.** A short teaser to earn the meeting, an appendix for questions. Check it on a phone (DocSend 2015).
-9. **Rehearse interruptions.** Practice jumping to the slide a question needs (FounderNexus session).
+9. **Rehearse interruptions.** Practice jumping to the slide a question needs (VEN session).
 :::
 
 ## Mistakes that cost the second meeting
@@ -172,7 +172,7 @@ Learn what each fund weighs on [how seed VCs decide](/library/fundraising/how-se
 - [Y Combinator, How to build your seed round pitch deck](https://www.ycombinator.com/library/2u-how-to-build-your-seed-round-pitch-deck) — Aaron Harris, written ahead of YC’s Winter 2018 Demo Day. Ten-slide template order; keep each set to one slide if possible and probably no more than three; team is about founders, “Nobody cares about your advisors”; the ask says how much, what it gets you, and where you will be inside a year.
 - [Y Combinator, How to Design a Better Pitch Deck](https://www.ycombinator.com/blog/how-to-design-a-better-pitch-deck) — Kevin Hale, 15 November 2015. Slides should be legible, simple, and obvious; one idea per slide; the stranger test.
 - [Sequoia Capital, Writing a Business Plan](https://sequoiacap.com/article/writing-a-business-plan/) — Team Sequoia. Ten-part outline: company purpose, problem, solution, why now, market potential, competition / alternatives, business model, team, financials, vision.
-- [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment from live deck reviews: put the insight or strongest evidence in the opening; size revenue, not asset value; reconcile each number with the model and the script; prepare for the alternatives an investor finds; split teaser from presenting deck; practice interruptions. Not a survey.
+- [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment from live deck reviews: put the insight or strongest evidence in the opening; size revenue, not asset value; reconcile each number with the model and the script; prepare for the alternatives an investor finds; split teaser from presenting deck; practice interruptions. Not a survey.
 
 ## Related
 

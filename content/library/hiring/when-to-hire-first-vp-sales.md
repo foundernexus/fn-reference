@@ -7,7 +7,7 @@ cluster: hiring
 layout: article
 target_query: when to hire VP of sales startup
 date: 2026-09-02
-close: You time this seat with the board in the room. Founders who have made their first sales-leader hire will pressure-test whether you need a bag-carrier or a VP in a FounderNexus session.
+close: You time this seat with the board in the room. Founders who have made their first sales-leader hire will pressure-test whether you need a bag-carrier or a VP in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 ---
@@ -71,7 +71,7 @@ The CRO Report: do not title a 10-person company with no revenue org a CRO. You 
 Do not hire a scaler to build, skip the IC phase, or disappear on day one.
 :::
 
-**Hiring a scaler to build.** The CRO Report: the Salesforce VP who ran 200 people is not the person who builds from zero. Seed/Series A postings emphasize build, and Series B/C postings emphasize scale. You usually need different people for each. A FounderNexus session drew the same line on tenure: the 0–10 operator is often not the 10–50 operator. Say the phase in the offer instead of papering over it with a true-VP percentage.
+**Hiring a scaler to build.** The CRO Report: the Salesforce VP who ran 200 people is not the person who builds from zero. Seed/Series A postings emphasize build, and Series B/C postings emphasize scale. You usually need different people for each. A VEN session drew the same line on tenure: the 0–10 operator is often not the 10–50 operator. Say the phase in the offer instead of papering over it with a true-VP percentage.
 
 **Skipping the IC phase.** SaaStr and the CRO Report both want the early leader closing. A dashboard-only VP at seed has nothing to manage.
 
@@ -99,7 +99,7 @@ These are labeled sketches, not real companies.
 - [SaaStr, how to hire a VP of Sales](https://www.saastr.com/dear-saastr-how-do-i-hire-a-great-vp-of-sales/) — don’t hire too early; recruiting is the job; still has to sell.
 - [Index Ventures, Rewarding Talent](https://www.indexventures.com/rewarding-talent/) — seed headcount and title inflation; executive-level hires typically at Series A.
 - [UltraTalent, VP Sales compensation benchmarks 2026](https://ultratalent.com/blog/vp-sales-compensation-benchmarks/) — 29 July 2026. Seed = first sales hire; first VP = Series A to B.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder session, February 2026. Hire for the phase. Not a survey.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder session, February 2026. Hire for the phase. Not a survey.
 
 ## Related
 

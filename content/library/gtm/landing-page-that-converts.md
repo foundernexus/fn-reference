@@ -7,7 +7,7 @@ cluster: gtm
 layout: article
 target_query: startup landing page that converts
 date: 2026-10-23
-close: Founders who have rewritten an early B2B site after a live teardown will pressure-test your headline, your proof, and your call to action in a FounderNexus session.
+close: Founders who have rewritten an early B2B site after a live teardown will pressure-test your headline, your proof, and your call to action in a VEN session.
 draft: false
 related:
 - library/gtm
@@ -49,7 +49,7 @@ Unbounce analyzed SaaS campaign landing pages from July 2023 to July 2024. Media
 
 Unbounce counts any conversion event on its hosted pages, from a demo request to a download, so read these as a spread by channel. A demo request on your homepage is a different event.
 
-The FounderNexus session view: for a company whose first hundred customers came through founder intros and referrals, the website’s job was to avoid losing the deal. Sequence channels warm first, then cold and paid. Visitor identification tools that flag companies on your site help once traffic exists and do nothing before. Judgment from a [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library), not a survey.
+The VEN session view: for a company whose first hundred customers came through founder intros and referrals, the website’s job was to avoid losing the deal. Sequence channels warm first, then cold and paid. Visitor identification tools that flag companies on your site help once traffic exists and do nothing before. Judgment from a [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library), not a survey.
 
 ## Give the first screen three jobs
 
@@ -69,7 +69,7 @@ Nielsen Norman Group tracked more than **130,000** eye fixations from **120** pa
 
 Editorial examples, not tested copy. Write the headline in the words customers use. Aaron Epstein, a YC group partner, suggests asking existing users how they would describe the product and reusing their phrasing. In YC’s design review with Pete Koomen, co-founder of Optimizely, the pair argue for one clear call to action and against elements that compete with it.
 
-The FounderNexus session view on the first screen: name the audience, lead with the specific pain, and make the button say what the visitor gets. The strongest example in the session was a bookkeeping startup whose real hook was the founder’s complaint about an accountant who stopped answering. That complaint made a better headline than the category. The same session pushed logos and hard operating numbers up the page: an average response time in minutes says more than a satisfaction percentage. Judgment from a [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library), not a survey.
+The VEN session view on the first screen: name the audience, lead with the specific pain, and make the button say what the visitor gets. The strongest example in the session was a bookkeeping startup whose real hook was the founder’s complaint about an accountant who stopped answering. That complaint made a better headline than the category. The same session pushed logos and hard operating numbers up the page: an average response time in minutes says more than a satisfaction percentage. Judgment from a [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library), not a survey.
 
 ## Write it the way your buyer reads
 
@@ -207,7 +207,7 @@ For an AI product, decide what the headline leads with using [how to market an A
 - [6sense, 2024 Buyer Experience Report](https://6sense.com/newsroom/6sense-launches-2024-buyer-experience-report-unveiling-global-b2b-buyer-trends/). 9 October 2024. Buyers nearly **70%** through the process before engaging sellers; **81%** have a preferred vendor at first contact.
 - [Y Combinator, Design Review: How to convert more visitors into customers](https://www.ycombinator.com/blog/design-review-tips-for-increasing-conversions/). Greg Kumparak, 26 October 2023. Aaron Epstein with Pete Koomen: one clear call to action, fewer competing elements, faster path to the product’s value, less signup friction.
 - [Glance, Video critique of YC startup websites](https://www.glance.fyi/blog/video-critique-of-yc-startup-websites). Summary of a YC design review of W22 startup websites with Aaron Epstein and Zain Ali. Visitors ask what this is and whether it is for them; reuse customers’ own words in the headline; keep the page skimmable.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder session, live teardown of early-stage B2B sites, May 2026. Name the audience; lead with the specific pain; buttons that say what the visitor gets; logos and operating numbers over satisfaction percentages; product before price; at pre-seed the site keeps deals that warm channels start; visitor identification tools only once traffic exists. Not a survey. No closed-session numbers.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder session, live teardown of early-stage B2B sites, May 2026. Name the audience; lead with the specific pain; buttons that say what the visitor gets; logos and operating numbers over satisfaction percentages; product before price; at pre-seed the site keeps deals that warm channels start; visitor identification tools only once traffic exists. Not a survey. No closed-session numbers.
 
 ## Related
 

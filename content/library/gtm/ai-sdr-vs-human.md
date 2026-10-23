@@ -7,7 +7,7 @@ cluster: gtm
 layout: article
 target_query: AI SDR vs human SDR
 date: 2026-09-17
-close: An AI SDR helps in one phase and does not close. Founders who have run one while keeping a person on the deals will pressure-test where it sits in your motion in a FounderNexus session.
+close: An AI SDR helps in one phase and does not close. Founders who have run one while keeping a person on the deals will pressure-test where it sits in your motion in a VEN session.
 draft: false
 related:
 - library/gtm
@@ -24,7 +24,7 @@ If you are asking this, you are deciding whether a product can replace a seat. A
 - Bridge Group, 2025 report (351 B2B companies): **60%** of SDRs at quota, **$80K** median OTE, **3.0** month average ramp, **$3.78M** raw pipeline per SDR, **40%** median attrition in 2024. An AI SDR was its own category for **1%** of respondents, the first year they tracked it.
 - That sample is not a seed company. Median revenue **$47M**, median ASP **$50K**, 83% B2B SaaS. Do not paste $3.78M onto a Series A plan.
 - Gartner, 25 June 2025: over **40%** of agentic AI projects will be canceled by the end of 2027, from cost, unclear value, or weak risk controls. It forecasts projects in general and does not measure AI SDR failures, so keep it apart from the 1%.
-- Put AI on research and drafts. Keep a person on inbound and on the close ([FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
+- Put AI on research and drafts. Keep a person on inbound and on the close ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
 :::
 
 ## What you are comparing
@@ -37,9 +37,9 @@ An AI SDR is a prep tool for a motion you already understand. A person still lea
 | --- | --- | --- | --- |
 | Learn who buys, why, and at what price | No | Founder, until the motion transfers | SaaStr: close the first ~10 yourself before any sales hire |
 | First sales hire | No. Not the first seat | Two closers you would buy from, with AE experience | SaaStr: at least 18 months as an AE, beyond SDR work. Hire two, not one |
-| Research, lists, first-draft sequences | Yes, if a person reviews before it sends | The seller who already knows the buyer | [FounderNexus session](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) |
-| Chatbot in front of inbound | No | A person answers. Speed is the job | FounderNexus session |
-| Closing a deal large enough to matter | No | Founder or AE | SaaStr; FounderNexus session |
+| Research, lists, first-draft sequences | Yes, if a person reviews before it sends | The seller who already knows the buyer | [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) |
+| Chatbot in front of inbound | No | A person answers. Speed is the job | VEN session |
+| Closing a deal large enough to matter | No | Founder or AE | SaaStr; VEN session |
 | Replacing an SDR headcount line | Only after you can score it on the table below | The seat still has a quota, a ramp, and attrition | Bridge Group |
 
 This page does not cite vendor tests of AI SDR reply rates or cost per meeting. The ones in circulation do not publish a sample, a method, and a date you can check. Use the Bridge Group scoreboard instead.
@@ -70,7 +70,7 @@ Buy it to take prep off a seller who already knows the motion. Do not buy it to 
 
 1. **You have not closed the first customers.** SaaStr: close the first 10 or so yourself. You cannot teach a motion you have not run, and a tool cannot learn it for you.
 2. **The first seat you would buy is a meeting-booker.** SaaStr's bar for the first reps is 18 months as an AE, not an SDR-only resume, and two of them so you can tell whether the motion transferred.
-3. **Inbound is the leak.** Do not put a chatbot in front of it; have a person answer. A FounderNexus session drew the same line on the close: a human keeps the deals large enough to matter, and the goal is one seller made more effective, not a team deleted.
+3. **Inbound is the leak.** Do not put a chatbot in front of it; have a person answer. A VEN session drew the same line on the close: a human keeps the deals large enough to matter, and the goal is one seller made more effective, not a team deleted.
 4. **The dashboard you will manage is meetings booked.** Bridge Group scores the human seat on quota (60% at it), ramp (3.0 months), Stage 0 meetings held (10 a month), and raw pipeline ($3.78M). If you cannot read the pilot on that scoreboard, you are not comparing SDRs.
 5. **The plan has no kill criteria.** Gartner, 25 June 2025, forecasts that over 40% of agentic AI projects will be canceled by the end of 2027 because of escalating costs, unclear business value, or inadequate risk controls. That forecast covers agentic projects in general. Keep it separate from AI SDR win rates and from the Bridge Group 1%.
 
@@ -89,7 +89,7 @@ Labeled sketches, not real companies. The thresholds come from the sources above
 - [The Bridge Group, SDR Models, Motions & Metrics: 2025 Research Report](https://www.bridgegroupinc.com/research/2025-sdr-models-metrics-report-the-bridge-group). Matt Bertuzzi, 10th ed., published 6 February 2025. 351 B2B companies. 60% at quota, $80K OTE, 3.0 month ramp, $3.78M raw pipeline, Stage 0 quota of 10, 40% attrition, AI SDR category at 1%. Cite page: [sales-development-metrics](https://blog.bridgegroupinc.com/sales-development-metrics).
 - [Gartner, Over 40% of agentic AI projects will be canceled by the end of 2027](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027). Press release, 25 June 2025. Escalating costs, unclear business value, or inadequate risk controls. A forecast, not an SDR study.
 - [SaaStr, How to successfully source your first 2 sales reps](https://www.saastr.com/how-to-successfully-hire-your-first-2-sales-reps/). Close the first 10 or so yourself. Hire two. At least 18 months as an AE, not just as an SDR.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. AI on research and drafts. A person on inbound and on the close. Amplify the seller you have. Not a survey.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library). Founder sessions, 2026. AI on research and drafts. A person on inbound and on the close. Amplify the seller you have. Not a survey.
 
 ## Related
 

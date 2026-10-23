@@ -6,7 +6,7 @@ section: library
 cluster: gtm
 target_query: AI GTM for startups
 date: 2026-09-29
-close: GTM bets on AI seats, message, price, and distribution are ops decisions. Founders who have shipped these motions will pressure-test yours in a FounderNexus session.
+close: GTM bets on AI seats, message, price, and distribution are ops decisions. Founders who have shipped these motions will pressure-test yours in a VEN session.
 draft: false
 ---
 
@@ -14,7 +14,7 @@ AI GTM for a Seed–Series B startup is a stack of separate decisions, not one p
 
 :::takeaways
 - Demand: before you build, write the bet as a number and count paid commitments over compliments ([validate demand before you build](/library/gtm/validate-demand-before-you-build/)). Then run discovery calls as the top of the pipeline: each stage ends on a buyer commitment, and close rate counts only qualified deals ([customer development as your early sales funnel](/library/gtm/customer-development-sales-funnel/)). At conferences, book meetings before you fly and score the trip on qualified opportunities ([turn a conference into customers](/library/gtm/conference-to-customers/)). After the first sale, log each request as the blocked task, tell the customer what waits, and review retention beside new sales ([keep your first customers](/library/gtm/early-customer-retention/)).
-- Motion: put AI on research and drafts; keep a person on inbound that matters and on the close (SaaStr; Bridge Group; FounderNexus session). See [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/). Go after enterprise accounts when one workflow beats the incumbent and the first deployment stays inside one team; map the champion and budget owner and send security proof first ([sell to the enterprise](/library/gtm/sell-to-enterprise/)).
+- Motion: put AI on research and drafts; keep a person on inbound that matters and on the close (SaaStr; Bridge Group; VEN session). See [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/). Go after enterprise accounts when one workflow beats the incumbent and the first deployment stays inside one team; map the champion and budget owner and send security proof first ([sell to the enterprise](/library/gtm/sell-to-enterprise/)).
 - Message: lead with the job and economic outcome; put the model in the how (Bessemer; Gartner agent-washing warning). See [how to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/). On the site, name the buyer and the pain in the first screen, put the payoff on the button, and show proof and product before price ([landing page that converts](/library/gtm/landing-page-that-converts/)).
 - Price: seats for copilots beside humans; usage or outcomes for agents that close the loop; hybrid while you learn cost variance (Bessemer AI pricing). See [seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/). Then cover inference: floor from cost, price from value, an allowance for typical use, and metered overage above it ([price AI features to cover inference cost](/library/gtm/price-ai-features-inference-cost/)). Paper the first paid deal at list price with a dated discount ([first customer contract](/library/gtm/first-customer-contract/)).
 - Distribution: keep bottom-funnel SEO as the revenue path; put AEO on category answers buyers ask before they hit the site (Google). DIY the founder narrative before a retainer (YC Seibel; Muck Rack).
@@ -69,7 +69,7 @@ One GTM question per row. Open the spoke for numbers and publisher samples. Do n
 | What goes on the first order form? | A buyer says yes and asks for your paper | [First customer contract](/library/gtm/first-customer-contract/) |
 | Are we ready to sell to the enterprise? | A large account shows interest, or security sends a questionnaire | [Sell to the enterprise](/library/gtm/sell-to-enterprise/) |
 
-Empty cells stay empty. Each row points at a spoke that already carries the cited numbers. A [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) session pushed the same pattern: AI on prep, humans on the close, job-first message, and charge metrics that match whether a person or an agent closes the loop. That is session judgment, not a survey.
+Empty cells stay empty. Each row points at a spoke that already carries the cited numbers. A [VEN](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) session pushed the same pattern: AI on prep, humans on the close, job-first message, and charge metrics that match whether a person or an agent closes the loop. That is session judgment, not a survey.
 
 ## Stage sketch for GTM bets
 
@@ -109,7 +109,7 @@ If the debate is when the first VP of Sales lands, use [when to hire the first V
 - [Atlassian, How Amdahl's Law still applies to modern-day AI inefficiencies](https://www.atlassian.com/blog/ai-at-work/how-amdahls-law-still-applies-to-modern-day-ai-inefficiencies) — 3 Apr 2026. On the coding-agents spoke.
 - [Faros, The AI Engineering Report 2026: The Acceleration Whiplash](https://www.faros.ai/blog/ai-acceleration-whiplash-takeaways) — 12 Apr 2026. Merge/review/incident telemetry. On the coding-agents spoke.
 - [METR, Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) — 10 Jul 2025. RCT snapshot. On the coding-agents spoke.
-- [FounderNexus](https://www.foundernexus.com?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder sessions across these spokes. AI on prep; humans on the close; job-first message; charge metric matches who closes the loop. Not a survey.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder sessions across these spokes. AI on prep; humans on the close; job-first message; charge metric matches who closes the loop. Not a survey.
 
 ## Related
 
