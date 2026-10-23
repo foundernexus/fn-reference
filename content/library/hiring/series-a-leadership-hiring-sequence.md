@@ -1,6 +1,6 @@
 ---
-title: Series A leadership hiring sequence
-description: After Series A, hire the bottleneck first. Sources disagree on whether that is Sales or Engineering. They agree you do not staff four VPs in one quarter.
+title: "Series A C-suite hiring order: who first"
+description: "Hire one exec at a time, bottleneck first. B2B SaaS order after Series A (Majhi Group): Sales, Eng, Marketing, People, CFO. AI and DevTools start with Eng."
 slug: series-a-leadership-hiring-sequence
 section: library
 cluster: hiring
@@ -13,7 +13,7 @@ disclaimer: not-legal-tax
 draft: false
 ---
 
-After Series A, hire for the one function that is bottlenecking the next 18 months, then move to the next. Sources disagree on whether the first seat is Sales or Engineering. They agree you do not hire four VPs in the same quarter. Not legal, tax, or compensation advice.
+After Series A, build the C-suite one seat at a time, starting with the function that is bottlenecking the next 18 months. For B2B SaaS, Majhi Group’s order is Sales, then Engineering, Marketing, People, and Finance last. AI/ML and DevTools flip the first seat to Engineering. Sources agree you do not hire four VPs in the same quarter. Not legal, tax, or compensation advice.
 
 :::takeaways
 - Index: Series A is when first customer-facing roles and initial executive hires typically arrive. Expect ~4 executives (3 VP + 1 C-suite) as you scale toward B.
