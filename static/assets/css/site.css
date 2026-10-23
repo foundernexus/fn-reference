@@ -266,6 +266,23 @@ h2, .h2 {
 .prose h2::before { transition: width .25s ease; }
 .prose h2:target::before { width: 56px; }
 @media (prefers-reduced-motion: reduce) { .prose h2::before { transition: none; } }
+/* Section permalinks: a quiet --blue "#" after h2/h3 text, shown on hover or
+   keyboard focus, so a reader can copy a link to one section of a long page. */
+.prose .h-anchor {
+  display: inline-block;
+  margin-left: .3em;
+  color: var(--blue);
+  font-weight: 500;
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity .15s ease;
+}
+.prose .h-anchor::before { content: "#"; }
+.prose h2:hover .h-anchor, .prose h3:hover .h-anchor { opacity: .5; }
+.prose .h-anchor:hover, .prose .h-anchor:focus-visible { opacity: 1; }
+@media (hover: none) { .prose .h-anchor { display: none; } }
+@media (prefers-reduced-motion: reduce) { .prose .h-anchor { transition: none; } }
+@media print { .prose .h-anchor { display: none; } }
 h3, .h3 {
   font-size: 18px;
   font-weight: 600;

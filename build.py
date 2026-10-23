@@ -238,8 +238,16 @@ def render_markdown(src: str) -> str:
                 level = len(m.group(1))
                 text = m.group(2).strip()
                 hid = slugify(text)
+                hid_attr = html.escape(hid, quote=True)
+                # Section permalink: a quiet --blue "#" that shows on hover/focus
+                # (CSS generates the glyph, so heading text and SEO stay clean).
+                anchor = (
+                    f'<a class="h-anchor" href="#{hid_attr}" aria-label="Link to this section"></a>'
+                    if level in (2, 3)
+                    else ""
+                )
                 out.append(
-                    f'<h{level} id="{html.escape(hid, quote=True)}">{inline_md(text)}</h{level}>'
+                    f'<h{level} id="{hid_attr}">{inline_md(text)}{anchor}</h{level}>'
                 )
                 i += 1
                 continue
