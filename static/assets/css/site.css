@@ -260,6 +260,12 @@ h2, .h2 {
   margin-bottom: 14px;
   border-radius: 1px;
 }
+/* In-page anchors: land with breathing room, and the brand rule on the
+   targeted section widens so the reader sees where the link dropped them. */
+.prose h2[id], .prose h3[id] { scroll-margin-top: 24px; }
+.prose h2::before { transition: width .25s ease; }
+.prose h2:target::before { width: 56px; }
+@media (prefers-reduced-motion: reduce) { .prose h2::before { transition: none; } }
 h3, .h3 {
   font-size: 18px;
   font-weight: 600;
