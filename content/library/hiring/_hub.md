@@ -35,11 +35,12 @@ Nxt Level: closing a round does not by itself mean you need a VP. Hire the first
 ## Spokes in this cluster
 
 :::highlight
-Use the VP Sales bar and the Series A sequence together.
+Use the VP Sales bar and the Series A sequence to pick the seat. Use the onboarding page once the offer is signed.
 :::
 
 - [When to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/): founder closes 10–20 paid deals, then two sellers at quota, then a leader who still sells. CRO Report, SaaStr, Index, and UltraTalent disagree on the title. They agree on the order.
 - [Series A leadership hiring sequence](/library/hiring/series-a-leadership-hiring-sequence/): bottleneck-first after the raise. Majhi month bands for B2B SaaS, sector flips, CFO later, and what these seats cost.
+- [How to onboard your first executive hire](/library/hiring/onboard-first-executive/): a written plan before day one, the decisions you hand over, peer introductions, and written checkpoints. McKinsey, Watkins, Horowitz, and Elad Gil.
 
 ## Composite sequence (cited, not averaged)
 
@@ -77,7 +78,7 @@ The 0→10 operator is often not the 10→50 operator. Say the phase in the offe
 
 A [VEN](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) session drew the same line on tenure: name the phase out loud. The person who builds the function for this chapter may not be the person who scales it after the next step-change. Majhi’s failure data agrees: hiring a VP who has mainly operated at a larger stage is the most common Series A mis-hire pattern they call out. Nxt Level: over-titling at Series A creates title inflation you regret when you need a real VP later.
 
-Recruiting these seats takes a sustained pursuit, not a two-week LinkedIn blast, so budget calendar time. Once they start, plan a short, structured onboarding window with frequent founder contact in the first months. Give real authority; otherwise you have hired a senior IC with a VP title (Nxt Level).
+Recruiting these seats takes a sustained pursuit, not a two-week LinkedIn blast, so budget calendar time. Once they start, plan a short, [structured onboarding window](/library/hiring/onboard-first-executive/) with frequent founder contact in the first months. Give real authority; otherwise you have hired a senior IC with a VP title (Nxt Level).
 
 ## Sources
 
@@ -94,6 +95,7 @@ Recruiting these seats takes a sustained pursuit, not a two-week LinkedIn blast,
 
 - [When to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/)
 - [Series A leadership hiring sequence](/library/hiring/series-a-leadership-hiring-sequence/)
+- [How to onboard your first executive hire](/library/hiring/onboard-first-executive/)
 - [Executive equity grants by stage](/library/equity/executive-grants-by-stage/)
 - [Size the option pool from a hiring plan](/library/equity/option-pool-from-hiring-plan/)
 - [Executive equity calculator](/tools/executive-equity-calculator/)

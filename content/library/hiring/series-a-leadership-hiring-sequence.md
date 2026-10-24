@@ -84,7 +84,7 @@ The 0→10 operator is often not the 10→50 operator. Say the phase in the offe
 
 A VEN session drew the same line on tenure: name the phase out loud. The person who builds the function for this chapter may not be the person who scales it after the next step-change. Say so in the offer so neither side pretends the job is permanent. Majhi’s failure data agrees: hiring a VP who has mainly operated at a larger stage is the most common Series A mis-hire pattern they call out. Nxt Level: over-titling at Series A (calling someone VP when the org is still tiny) creates title inflation you regret when you need a real VP later.
 
-Recruiting these seats takes a sustained pursuit, not a two-week LinkedIn blast, so budget calendar time. Once they start, plan a short, structured onboarding window with frequent founder contact in the first months. The founder-to-VP handoff fails more often than the résumé screen does. Give real authority; otherwise you have hired a senior IC with a VP title (Nxt Level).
+Recruiting these seats takes a sustained pursuit, not a two-week LinkedIn blast, so budget calendar time. Once they start, plan a short, [structured onboarding window](/library/hiring/onboard-first-executive/) with frequent founder contact in the first months. The founder-to-VP handoff fails more often than the résumé screen does. Give real authority; otherwise you have hired a senior IC with a VP title (Nxt Level).
 
 ## What these seats cost
 
@@ -146,6 +146,7 @@ These are labeled sketches, not real companies.
 ## Related
 
 - [When to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/)
+- [How to onboard your first executive hire](/library/hiring/onboard-first-executive/)
 - [Executive equity grants by stage](/library/equity/executive-grants-by-stage/)
 - [Executive equity calculator](/tools/executive-equity-calculator/)
 - [Size the option pool from a hiring plan](/library/equity/option-pool-from-hiring-plan/)
