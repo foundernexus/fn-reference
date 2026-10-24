@@ -1239,3 +1239,21 @@ input:focus, select:focus {
   color: var(--muted);
 }
 .prose .article-more a { font-weight: 500; }
+
+/* Print: founders print 90-day plans and checklists. Drop site chrome, unstick
+   table headers and first columns, keep tables and steps whole across pages,
+   and print each source's URL after its title so the paper copy stays citable. */
+@media print {
+  .site-header, .site-footer, .skip, .nav-links, .related-section { display: none; }
+  body { font-size: 11pt; color: #000; background: #fff; }
+  th, td, th:first-child, td:first-child { position: static; box-shadow: none; }
+  .table-wrap { overflow: visible; }
+  .table-wrap, .steps, .takeaways, .highlight { break-inside: avoid; }
+  .prose h2, .prose h3 { break-after: avoid; }
+  .prose h2#sources + ul > li a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-weight: 400;
+    color: var(--muted);
+    overflow-wrap: anywhere;
+  }
+}
