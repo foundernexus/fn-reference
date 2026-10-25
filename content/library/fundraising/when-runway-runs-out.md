@@ -19,6 +19,7 @@ related:
 - library/finance
 - library/finance/burn-multiple-vs-rule-of-40
 - tools/runway-calculator
+- library/board/missed-plan-reforecast
 ---
 
 You are deciding what to do when cash runway is short or already critical: measure the real months left, pick a path in the first weeks, and execute before negotiating power disappears. Snapshot runway is cash ÷ monthly net burn (Kruze). Paul Graham’s default-alive test asks whether constant expenses and recent revenue growth still reach profitability on the cash you have. Y Combinator (Dalton Caldwell, 2015): if you are default dead, grow revenue faster, cut costs, or both. Under about **6** months into a raise process reads as desperation (Burkland); in many cases under **2** months is a point of no return for orderly shutdown (YC). Not legal, tax, or investment advice.
@@ -159,3 +160,4 @@ Use the [runway calculator](/tools/runway-calculator/) for snapshot vs plan. Use
 - [Finance, metrics & runway](/library/finance/)
 - [Burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/)
 - [Runway calculator with hiring plan](/tools/runway-calculator/)
+- [How to tell the board you missed the plan](/library/board/missed-plan-reforecast/)

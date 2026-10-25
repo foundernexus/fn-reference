@@ -1166,6 +1166,7 @@ VEN_PLAYBOOK_UTM = "utm_source=founderdecisions&utm_medium=referral&utm_campaign
 VEN_PLAYBOOKS: dict[str, tuple[str, str]] = {
     "library/board": ("guides/capital-runway-and-the-board", "VEN guide to capital, runway and the board"),
     "library/board/monthly-investor-update": ("concepts/material-change-update", "VEN playbook note on material-change investor updates"),
+    "library/board/missed-plan-reforecast": ("guides/running-against-the-plan", "VEN guide to running against the plan"),
     "library/board/series-a-board-meeting-agenda": ("guides/capital-runway-and-the-board", "VEN guide to capital, runway and the board"),
     "library/equity": ("equity-legal/options-pools-advisor-equity", "VEN playbook on options, pools and advisor equity"),
     "library/equity/409a-after-priced-round": ("concepts/409a-valuation", "VEN playbook note on 409A valuations"),

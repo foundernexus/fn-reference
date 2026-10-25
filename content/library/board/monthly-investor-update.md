@@ -13,6 +13,7 @@ draft: false
 related:
 - library/board
 - library/board/series-a-board-meeting-agenda
+- library/board/missed-plan-reforecast
 - library/board/when-to-add-independent-director
 - library/finance
 - library/finance/nrr-vs-grr-board-pack
@@ -198,6 +199,7 @@ Board meetings run every **6–8** weeks for about **2–3** hours on a decision
 
 - [Board & governance](/library/board/)
 - [How to run a Series A board meeting](/library/board/series-a-board-meeting-agenda/)
+- [How to tell the board you missed the plan](/library/board/missed-plan-reforecast/)
 - [When to add an independent director](/library/board/when-to-add-independent-director/)
 - [Finance, metrics & runway](/library/finance/)
 - [NRR vs GRR for the board pack](/library/finance/nrr-vs-grr-board-pack/)
