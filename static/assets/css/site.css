@@ -648,6 +648,9 @@ td:first-child {
 .prose td.route a:hover { color: var(--blue-hover); text-decoration: underline; }
 /* Short bold figure ranges (build adds .fig) stay on one line: no "10–" / "20%" split */
 .prose strong.fig { white-space: nowrap; }
+/* Bold cited figures in table cells: navy, tabular, kept on one line so
+   "**35%** planned vs **26%** actual" rows line up and never split a number. */
+.prose .table-wrap td strong { color: var(--navy); font-variant-numeric: tabular-nums; white-space: nowrap; }
 td.num {
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
