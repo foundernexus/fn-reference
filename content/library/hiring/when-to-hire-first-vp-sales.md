@@ -1,12 +1,13 @@
 ---
-title: When to hire the first VP of Sales
-description: A VP scales a motion that already works. A first sales hire at seed is usually still carrying a bag. Sources disagree on the title. They agree on the sequence.
+title: When to hire a VP of Sales: after 10–20 deals and 2 reps at quota
+description: Close 10–20 paid deals yourself, hire two quota-carrying reps, then a VP once both hit quota, usually past $1M–$2M ARR. At seed the seat is usually a first sales hire, not a VP.
 slug: when-to-hire-first-vp-sales
 section: library
 cluster: hiring
 layout: article
 target_query: when to hire VP of sales startup
 date: 2026-09-02
+updated: 2026-10-25
 close: You time this seat with the board in the room. Founders who have made their first sales-leader hire will pressure-test whether you need a bag-carrier or a VP in a VEN session.
 disclaimer: not-legal-tax
 draft: false

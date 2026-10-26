@@ -1,12 +1,13 @@
 ---
-title: When to add an independent director (who and equity)
-description: Series A is the usual trigger. Fill the tie-break seat with a real operator, not a prestige name. Equity is typically under 1%, with Carta medians by stage. Not legal or compensation advice.
+title: When to add an independent board director: Series A, under 1%
+description: Series A is the usual trigger. Carta medians: 0.50% at seed, 0.40% at Series A, 0.30% at Series B. Fill the tie-break seat with an operator a stage or two ahead, not a prestige name.
 slug: when-to-add-independent-director
 section: library
 cluster: board
 layout: article
 target_query: when to add independent director startup
 date: 2026-09-16
+updated: 2026-10-25
 close: Treat the independent seat as a governance hire. Founders who have filled a Series A independent seat and sat through the first contested vote will pressure-test your shortlist in a VEN session.
 disclaimer: not-legal-tax
 draft: false

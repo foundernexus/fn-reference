@@ -7,10 +7,16 @@ cluster: equity
 layout: article
 target_query: how much equity to give VP of sales startup
 date: 2026-08-29
-updated: 2026-09-18
+updated: 2026-10-02
 close: Public ranges are a starting point. Founders who have made this hire will pressure-test the number in your offer in a VEN session.
 disclaimer: not-legal-tax
 draft: false
+related:
+- library/hiring/when-to-hire-first-vp-sales
+- library/equity/option-pool-from-hiring-plan
+- library/hiring/series-a-leadership-hiring-sequence
+- library/board/when-to-add-independent-director
+- tools/executive-equity-calculator
 ---
 
 How much equity to give a VP of Sales at Seed vs Series A depends on stage and whether the seat is a bag-carrying first sales hire or a true VP.

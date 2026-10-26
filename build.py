@@ -663,6 +663,95 @@ def ld_json_script(payload: object) -> str:
     blob = json.dumps(payload, ensure_ascii=False).replace("<", "\\u003c")
     return f'<script type="application/ld+json">{blob}</script>\n'
 
+def page_modified(p: dict) -> str:
+    """Last real edit date: max(date, updated). ISO strings compare correctly."""
+    return max(str(p.get("date") or ""), str(p.get("updated") or "")) or date.today().isoformat()
+
+
+def newest_modified(pages: list[dict], fallback: str = "") -> str:
+    dates = [page_modified(p) for p in pages if p.get("date")]
+    return max(dates + ([fallback] if fallback else [])) if (dates or fallback) else date.today().isoformat()
+
+
+_PUBLISHER = {"@type": "Organization", "name": SITE_NAME, "url": BASE_URL + "/"}
+
+
+def breadcrumb_ld(trail: list[tuple[str, str | None]], canonical_path: str) -> dict:
+    items = []
+    for i, (label, href) in enumerate(trail, 1):
+        if href:
+            rel = href[len(BASE_PATH.rstrip("/")):] if BASE_PATH.strip("/") and href.startswith(BASE_PATH.rstrip("/")) else href
+            item_url = abs_url(rel)
+        else:
+            item_url = abs_url(canonical_path)
+        items.append({"@type": "ListItem", "position": i, "name": label, "item": item_url})
+    return {"@type": "BreadcrumbList", "itemListElement": items}
+
+
+def owned_json_ld(
+    *,
+    kind: str,
+    title: str,
+    description: str,
+    canonical_path: str,
+    trail: list[tuple[str, str | None]] | None = None,
+    published: str = "",
+    modified: str = "",
+    section_name: str = "",
+) -> str:
+    """Article / CollectionPage + BreadcrumbList for owned (non fn-content) pages."""
+    page_url = abs_url(canonical_path)
+    node: dict = {
+        "@type": kind,
+        "@id": page_url + "#page" if kind != "Article" else page_url + "#article",
+        "url": page_url,
+        "name" if kind != "Article" else "headline": title,
+        "description": description,
+        "inLanguage": "en",
+        "isPartOf": {"@type": "WebSite", "name": SITE_NAME, "url": BASE_URL + "/"},
+        "publisher": _PUBLISHER,
+    }
+    if kind == "Article":
+        node["mainEntityOfPage"] = page_url
+        node["author"] = _PUBLISHER
+        if section_name:
+            node["articleSection"] = section_name
+    if published:
+        node["datePublished"] = published
+    if modified:
+        node["dateModified"] = modified
+    graph = [node]
+    if trail:
+        graph.append(breadcrumb_ld(trail, canonical_path))
+    return ld_json_script({"@context": "https://schema.org", "@graph": graph})
+
+
+def home_json_ld() -> str:
+    return ld_json_script(
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "WebSite",
+                    "@id": BASE_URL + "/#website",
+                    "name": SITE_NAME,
+                    "url": BASE_URL + "/",
+                    "description": TAGLINE,
+                    "inLanguage": "en",
+                    "publisher": {"@id": BASE_URL + "/#org"},
+                },
+                {
+                    "@type": "Organization",
+                    "@id": BASE_URL + "/#org",
+                    "name": SITE_NAME,
+                    "url": BASE_URL + "/",
+                    "logo": abs_url("/assets/favicon.png"),
+                },
+            ],
+        }
+    )
+
+
 def json_ld_for_decision(page: dict) -> str:
     types = page.get("schema") or []
     blocks = {b.get("type"): b for b in page.get("blocks") or [] if isinstance(b, dict)}
@@ -1342,6 +1431,7 @@ def render_home(pages: list[dict]) -> str:
         canonical_path="/",
         body=body,
         active=None,
+        extra_head=home_json_ld(),
     )
 
 
@@ -1394,6 +1484,14 @@ def render_section(key: str, pages: list[dict]) -> str:
         canonical_path=f"/{key}/",
         body=body,
         active=key,
+        extra_head=owned_json_ld(
+            kind="CollectionPage",
+            title=sec["title"],
+            description=sec["description"],
+            canonical_path=f"/{key}/",
+            trail=[("Home", url("/")), (sec["title"], None)],
+            modified=newest_modified(subset),
+        ),
     )
 
 
@@ -1478,6 +1576,15 @@ def render_cluster(cid: str, pages: list[dict]) -> str:
         canonical_path=path,
         body=body,
         active=cl["section"],
+        extra_head=owned_json_ld(
+            kind="CollectionPage",
+            title=title,
+            description=description,
+            canonical_path=path,
+            trail=trail,
+            published=(hub.get("date") or "") if hub else "",
+            modified=newest_modified(subset, page_modified(hub) if hub and hub.get("date") else ""),
+        ),
     )
 
 
@@ -1532,6 +1639,16 @@ def render_article(page: dict, by_key: dict[str, dict]) -> str:
         active=active,
         extra_js=extra_js,
         og_type="article",
+        extra_head=owned_json_ld(
+            kind="Article" if section != "about" else "AboutPage",
+            title=page["title"],
+            description=page["description"],
+            canonical_path=page["path"],
+            trail=trail,
+            published=str(page.get("date") or ""),
+            modified=page_modified(page),
+            section_name=(kicker or ""),
+        ),
     )
 
 
@@ -1608,18 +1725,34 @@ def write_sitemap(
     decision_pages: list[dict] | None = None,
     benchmark_pages: list[dict] | None = None,
 ) -> None:
-    urls = [("/", date.today().isoformat(), "1.0")]
+    content = [p for p in pages if p["path"] != "/about/" and p.get("layout") != "hub"]
+    dec_dates = [str(d.get("source_date")) for d in decision_pages or [] if d.get("source_date")]
+    bench_dates = []
+    for b in benchmark_pages or []:
+        src = b.get("source") if isinstance(b.get("source"), dict) else {}
+        v = b.get("last_verified") or src.get("date")
+        if v:
+            bench_dates.append(str(v))
+    site_newest = max([newest_modified(content)] + dec_dates + bench_dates)
+    urls = [("/", site_newest, "1.0")]
     for key in SECTIONS:
-        urls.append((f"/{key}/", date.today().isoformat(), "0.8"))
-    urls.append(("/about/", date.today().isoformat(), "0.6"))
-    urls.append(("/decisions/", date.today().isoformat(), "0.8"))
-    urls.append(("/benchmarks/", date.today().isoformat(), "0.8"))
+        urls.append((f"/{key}/", newest_modified([p for p in content if p["section"] == key], ""), "0.8"))
+    about = next((p for p in pages if p["path"] == "/about/"), None)
+    urls.append(("/about/", page_modified(about) if about and about.get("date") else site_newest, "0.6"))
+    urls.append(("/decisions/", max(dec_dates) if dec_dates else site_newest, "0.8"))
+    urls.append(("/benchmarks/", max(bench_dates) if bench_dates else site_newest, "0.8"))
     for cid, cl in CLUSTERS.items():
-        urls.append((f"/{cl['section']}/{cid}/", date.today().isoformat(), "0.7"))
-    for p in pages:
-        if p["path"] == "/about/" or p.get("layout") == "hub":
-            continue
-        urls.append((p["path"], p["date"], "0.9"))
+        hub = load_hub(cid)
+        hub_date = page_modified(hub) if hub and hub.get("date") else ""
+        urls.append(
+            (
+                f"/{cl['section']}/{cid}/",
+                newest_modified([p for p in content if p.get("cluster") == cid], hub_date),
+                "0.7",
+            )
+        )
+    for p in content:
+        urls.append((p["path"], page_modified(p), "0.9"))
     for d in decision_pages or []:
         urls.append(
             (

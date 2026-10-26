@@ -1,12 +1,13 @@
 ---
-title: Seat vs usage vs outcome pricing for AI SaaS
-description: Pick the charge metric before you scale. Seats fit copilots. Usage fits tokens. Outcomes fit agents that close the loop. Hybrid is the early bridge.
+title: Seat vs usage vs outcome pricing for AI SaaS (2026)
+description: Seats fit copilots, usage fits tokens, outcomes fit agents that close the loop. Bessemer’s early hybrid: a platform fee at 2× delivery cost plus outcome credits, with AI margins near 50–60%.
 slug: seat-vs-usage-vs-outcome-pricing-ai-saas
 section: library
 cluster: gtm
 layout: article
 target_query: seat based vs usage pricing AI SaaS
 date: 2026-09-20
+updated: 2026-10-25
 close: Founders who have picked a charge metric and a hybrid shape for an AI product will pressure-test yours in a VEN session.
 draft: false
 related:

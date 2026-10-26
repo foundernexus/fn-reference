@@ -1,12 +1,13 @@
 ---
-title: Data moat for AI startups: what compounds vs what decays
-description: A data moat is a closed loop of scarce, outcome-linked data that measurably improves the product. Volume alone is usually a scale effect that erodes.
+title: How to build a data moat for an AI startup: what compounds
+description: A data moat is a closed loop: scarce inputs, outcome-linked feedback, and a product lift you can measure. a16z found most data network effects are scale effects that erode. The decision table shows when to invest in the loop.
 slug: data-moat-ai-startup
 section: library
 cluster: gtm
 layout: article
 target_query: how to build a data moat startup
 date: 2026-09-23
+updated: 2026-10-25
 close: Founders who have tested whether their loop compounds or only piles up logs will pressure-test yours in a VEN session.
 draft: false
 related:

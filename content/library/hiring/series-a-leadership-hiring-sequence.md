@@ -7,7 +7,7 @@ cluster: hiring
 layout: article
 target_query: Series A leadership hiring sequence
 date: 2026-09-07
-updated: 2026-09-25
+updated: 2026-10-23
 close: Founders who have made their first two VP hires after a raise will help you find which bottleneck is yours in a VEN session.
 disclaimer: not-legal-tax
 draft: false

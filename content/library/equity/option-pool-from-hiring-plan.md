@@ -1,12 +1,13 @@
 ---
-title: Size the option pool from a hiring plan
-description: Build the pool bottoms-up from the seats you will hire before the next round, then check it against 10–15% term-sheet defaults.
+title: How to size an option pool: 10–15%, from your hiring plan
+description: List the hires you will make before the next round, put a cited grant on each seat, add refresh and a buffer. Then check the total against 10–15% term-sheet defaults.
 slug: option-pool-from-hiring-plan
 section: library
 cluster: equity
 layout: article
 target_query: how to size option pool
 date: 2026-08-31
+updated: 2026-10-25
 close: A hiring-plan pool is still a board number. Founders who have taken that math into a term sheet will pressure-test the seats and the remaining unallocated pool in a VEN session.
 disclaimer: not-legal-tax
 draft: false
