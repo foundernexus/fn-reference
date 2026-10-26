@@ -841,6 +841,8 @@ caption {
   justify-content: center;
   line-height: 1;
 }
+/* Step lead: navy bold, so the action in each card reads before the detail. */
+.steps ol > li > strong:first-child { color: var(--navy); font-weight: 700; }
 .steps h3, .steps h4 {
   margin: 0 0 8px;
   font-size: 16px;
