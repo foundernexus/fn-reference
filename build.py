@@ -1293,6 +1293,7 @@ VEN_PLAYBOOKS: dict[str, tuple[str, str]] = {
     "library/gtm/price-ai-features-inference-cost": ("building-the-company/pricing-in-the-ai-era", "VEN playbook on pricing in the AI era"),
     "library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas": ("building-the-company/pricing-in-the-ai-era", "VEN playbook on pricing in the AI era"),
     "library/gtm/sell-to-enterprise": ("getting-customers/selling-to-the-enterprise", "VEN playbook on selling to the enterprise"),
+    "library/gtm/strategic-partnership-ip": ("equity-legal/strategic-partnerships-and-ip", "VEN playbook on strategic partnerships and IP"),
     "library/gtm/validate-demand-before-you-build": ("getting-customers/validate-before-you-build", "VEN playbook on validating demand before you build"),
     "library/hiring": ("building-the-company/executive-team", "VEN playbook on building your executive team"),
     "library/hiring/onboard-first-executive": ("building-the-company/executive-team", "VEN playbook on building your executive team"),

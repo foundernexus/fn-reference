@@ -15,6 +15,7 @@ related:
 - library/gtm/pilot-to-paid-contract
 - library/gtm/early-customer-retention
 - library/gtm/sell-to-enterprise
+- library/gtm/strategic-partnership-ip
 - library/gtm/price-ai-features-inference-cost
 - library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas
 - library/finance/usage-revenue-as-arr
@@ -197,3 +198,4 @@ Not legal advice. Have counsel review the order form and the MSA before you sign
 - [Seat vs usage vs outcome pricing for AI SaaS](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/)
 - [Does usage revenue count as ARR?](/library/finance/usage-revenue-as-arr/)
 - [NRR vs GRR for the board pack](/library/finance/nrr-vs-grr-board-pack/)
+- [Strategic partnerships and IP: what to settle before you sign](/library/gtm/strategic-partnership-ip/)

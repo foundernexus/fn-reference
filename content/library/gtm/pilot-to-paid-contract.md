@@ -17,6 +17,7 @@ related:
 - library/gtm/first-customer-contract
 - library/gtm/early-customer-retention
 - library/gtm/sell-to-enterprise
+- library/gtm/strategic-partnership-ip
 - library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas
 - library/gtm/ai-sdr-vs-human
 - library/gtm/market-ai-product-without-saying-ai

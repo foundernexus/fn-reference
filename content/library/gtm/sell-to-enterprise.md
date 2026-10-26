@@ -13,6 +13,7 @@ related:
 - library/gtm
 - library/gtm/pilot-to-paid-contract
 - library/gtm/first-customer-contract
+- library/gtm/strategic-partnership-ip
 - library/gtm/market-ai-product-without-saying-ai
 - library/gtm/ai-sdr-vs-human
 - library/hiring/when-to-hire-first-vp-sales
@@ -183,3 +184,4 @@ Structure the proof with [how to convert a pilot to a paid contract](/library/gt
 - [When to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/)
 - [How to validate demand before you build](/library/gtm/validate-demand-before-you-build/)
 - [How to turn a conference into customers](/library/gtm/conference-to-customers/)
+- [Strategic partnerships and IP: what to settle before you sign](/library/gtm/strategic-partnership-ip/)
