@@ -92,6 +92,6 @@ Show snapshot runway so the board starts from one cash ÷ net burn figure. Show 
 
 ## Sources
 
-- [Paul Graham, Default Alive or Default Dead?](http://paulgraham.com/aord.html). October 2015. Default alive vs default dead; hiring too fast; Airbnb’s four-month wait; fatal pinch; points to Trevor Blackwell’s calculator.
+- [Paul Graham, Default Alive or Default Dead?](https://paulgraham.com/aord.html). October 2015. Default alive vs default dead; hiring too fast; Airbnb’s four-month wait; fatal pinch; points to Trevor Blackwell’s calculator.
 - [Kruze Consulting, Build a Rolling Cash Forecast to Maximize Startup Runway](https://kruzeconsulting.com/blog/build-a-rolling-cash-forecast/). 22 February 2026. Gross vs net burn; runway = cash ÷ monthly net burn; $4.2M / $350k example; headcount 60–80% of burn; rolling 18-month forecast; SBA fully loaded 1.25–1.4×; recruiting slips; cash over P&L.
 - [Carta, State of Private Markets Q1 2024](https://carta.com/sg/en/data/state-of-private-markets-q1-2024/). Median Seed→A 766 days; A→B 824 days; longer waits imply more runway required.

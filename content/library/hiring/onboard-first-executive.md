@@ -1,12 +1,13 @@
 ---
 title: "How to onboard your first executive hire: the first 90 days"
-description: "Write the 90-day plan before day one, meet the new exec often, hand over named decisions, and review against agreed measures. McKinsey: 68% of executive transitions founder on politics, culture, and people."
+description: "Write the 90-day plan before day one, hand over named decisions, review weekly. McKinsey: 68% of executive transitions stumble on politics, culture, and people."
 slug: onboard-first-executive
 section: library
 cluster: hiring
 layout: article
 target_query: onboarding a new executive startup
 date: 2026-10-24
+updated: 2026-10-27
 close: Founders who have onboarded their first VPs after a raise will pressure-test your 90-day plan and the decisions you plan to hand over in a VEN session.
 disclaimer: not-legal-tax
 draft: false
@@ -43,7 +44,7 @@ Michael Watkins, in *The First 90 Days*, defines the breakeven point as the mome
 | Transitions that founder on politics, culture, and people | **68%** | McKinsey, 2018 |
 | External executive hires who find mentors or buddy networks helpful | **47%** | McKinsey, 2018 |
 | External executive hires who rate standard orientation effective | **19%** | McKinsey, 2018 |
-| Direct reports more likely to disengage or leave when their leader struggles | **20%** | McKinsey, 2018 |
+| How much more likely direct reports of a struggling leader are to disengage or leave | **20%** more likely | McKinsey, 2018 |
 | External hires who took far more than 90 days to reach full productivity | **92%** | McKinsey, 2018 |
 | Organizations that use tailored coaching or customized assimilation plans, which McKinsey says can double the odds of success | **32%** | McKinsey, 2018 |
 | Executive hires terminated, leaving, or below expectations after six to twelve months | **25%** to **40%** | Watkins, IMD, 2017 |

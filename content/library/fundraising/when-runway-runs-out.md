@@ -141,8 +141,8 @@ Use the [runway calculator](/tools/runway-calculator/) for snapshot vs plan. Use
 
 ## Sources
 
-- [Paul Graham, Default Alive or Default Dead?](http://paulgraham.com/aord.html) — October 2015. Default alive vs default dead; fatal pinch; hiring too fast; write plan B and the switch date; do not treat fundraising as more than plan A.
-- [Paul Graham, The Fatal Pinch](http://paulgraham.com/pinch.html) — December 2014. Default dead + slow growth + thin time; act as if this raise is the last; options are shut down, grow revenue, or cut spend.
+- [Paul Graham, Default Alive or Default Dead?](https://paulgraham.com/aord.html) — October 2015. Default alive vs default dead; fatal pinch; hiring too fast; write plan B and the switch date; do not treat fundraising as more than plan A.
+- [Paul Graham, The Fatal Pinch](https://paulgraham.com/pinch.html) — December 2014. Default dead + slow growth + thin time; act as if this raise is the last; options are shut down, grow revenue, or cut spend.
 - [Y Combinator, Advice for Companies With Less Than 1 Year of Runway](https://www.ycombinator.com/blog/advice-startups-running-out-of-money) — Dalton Caldwell, 22 Jan 2015. Default dead → grow revenue, cut costs, or both; delay is a bad strategy; payroll as main burn; easiest cuts (PR, marketing, perks); **<2** months often point of no return; pay payroll/tax; orderly shutdown with counsel.
 - [Kruze Consulting, Build a Rolling Cash Forecast to Maximize Startup Runway](https://kruzeconsulting.com/blog/build-a-rolling-cash-forecast/) — 22 February 2026. Gross vs net burn; runway = cash ÷ monthly net burn; **$4.2M** / **$350k** example; headcount **60–80%** of burn; average last **3–6** months; cash over P&L.
 - [Carta, State of Private Markets Q1 2024](https://carta.com/sg/en/data/state-of-private-markets-q1-2024/) — Median Seed→A **766** days; A→B **824** days; longer waits imply more runway. Also on the runway calculator.

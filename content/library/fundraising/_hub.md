@@ -1,6 +1,6 @@
 ---
 title: Fundraising
-description: Ten fundraising decisions from the first angel check to the Series A data room, in the order founders hit them. Find your question and open the page with the cited numbers.
+description: Ten fundraising decisions from the first angel check to the Series A data room, in the order founders hit them, each with cited numbers.
 slug: fundraising
 section: library
 cluster: fundraising

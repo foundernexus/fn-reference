@@ -1,6 +1,6 @@
 ---
 title: Go-to-market
-description: Eighteen go-to-market decisions for seed to Series B founders, grouped by stage. Find your question, read the one-line answer, and open the page with the numbers.
+description: Eighteen go-to-market decisions for seed to Series B founders, grouped by stage: validation, first deals, pricing, retention, and reach.
 slug: gtm
 section: library
 cluster: gtm

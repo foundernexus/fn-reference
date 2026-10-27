@@ -1,12 +1,13 @@
 ---
 title: "How to tell the board you missed the plan: the reforecast"
-description: "Call each director before the meeting, show the gap against the approved plan, split timing slips from lost revenue, and bring a reforecast you expect to beat with the cash plan attached. Benchmarkit: median SaaS growth came in at 26% against a 35% plan."
+description: "Call each director first, split the gap into timing and lost revenue, and bring a beatable reforecast with the cash plan. Median SaaS: 26% growth vs a 35% plan."
 slug: missed-plan-reforecast
 section: library
 cluster: board
 layout: article
 target_query: how to tell board you missed plan startup
 date: 2026-10-25
+updated: 2026-10-27
 close: Founders who have walked a board through a missed year and a new forecast will pressure-test your gap bridge and your cash plan in a VEN session.
 disclaimer: not-legal-tax
 draft: false

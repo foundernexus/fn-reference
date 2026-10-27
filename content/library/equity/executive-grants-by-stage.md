@@ -92,7 +92,7 @@ Not a company. Percentages are from cited bands. The remaining pool is an assump
 
 Series A close, 12% ESOP, 8% still unallocated. Next 18 months: VP Eng at 0.8% FDE, VP Sales at 0.5–0.6% FDE, plus IC and director grants. After the 0.8% grant you have 7.2% unallocated. That grant is 10% of the pool you started with. Ask whether 7.2% covers the rest of the plan, and ignore whether 0.8% feels like a VP number.
 
-Run the same check in the [executive equity calculator](/tools/executive-equity-calculator).
+Run the same check in the [executive equity calculator](/tools/executive-equity-calculator/).
 
 ## Mistakes that show up on the cap table
 

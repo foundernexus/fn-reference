@@ -7,7 +7,43 @@
   var items;
   try { items = JSON.parse(dataEl.textContent); } catch (e) { return; }
   var synonyms = { vp: "vp executive", ceo: "ceo", arr: "arr revenue", gtm: "customers sales", safe: "safe", pool: "pool option", options: "option equity", raise: "raise round fundraising", hire: "hire hiring" };
-  items.forEach(function (it) { it.hay = (it.t + " " + it.d + " " + it.k).toLowerCase(); it.tl = it.t.toLowerCase(); });
+  items.forEach(function (it) {
+    it.hay = (it.t + " " + it.d + " " + it.k).toLowerCase();
+    it.tl = it.t.toLowerCase();
+    it.flat = it.hay.replace(/[^a-z0-9]/g, "");
+    it.words = it.hay.split(/[^a-z0-9]+/).filter(function (w) { return w.length > 2; });
+    it.twords = it.tl.split(/[^a-z0-9]+/).filter(function (w) { return w.length > 2; });
+  });
+
+  // Typo tolerance: edit distance with an early exit once it passes max.
+  function near(a, b, max) {
+    if (Math.abs(a.length - b.length) > max) return false;
+    var prev = [], cur, i, j;
+    for (j = 0; j <= b.length; j++) prev[j] = j;
+    for (i = 1; i <= a.length; i++) {
+      cur = [i];
+      var low = i;
+      for (j = 1; j <= b.length; j++) {
+        cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+        if (cur[j] < low) low = cur[j];
+      }
+      if (low > max) return false;
+      prev = cur;
+    }
+    return prev[b.length] <= max;
+  }
+  function fuzzy(it, tok) {
+    if (tok.length < 4) return 0;
+    if (tok.length >= 5 && it.flat.indexOf(tok) !== -1) return 1; // "seriesa" -> "series a"
+    var max = tok.length >= 7 ? 2 : 1;
+    for (var t = 0; t < it.twords.length; t++) {
+      if (near(tok, it.twords[t], max)) return 2;
+    }
+    for (var w = 0; w < it.words.length; w++) {
+      if (near(tok, it.words[w], max)) return 1;
+    }
+    return 0;
+  }
   var active = -1, shown = [];
 
   function render(q) {
@@ -24,6 +60,7 @@
           if (it.tl.indexOf(alts[j]) !== -1) { hit = 3; break; }
           if (it.hay.indexOf(alts[j]) !== -1) hit = Math.max(hit, 1);
         }
+        if (!hit) hit = fuzzy(it, toks[i]);
         if (!hit) return null;
         score += hit;
       }

@@ -1,12 +1,13 @@
 ---
 title: "Strategic partnerships and IP: what to settle before you sign"
-description: Name the relationship, list what you own and license, and write who owns new work and improvements. Share in stages, strike a residuals clause, and keep a sale open by limiting exclusivity, ROFRs, and consent rights.
+description: "Before you sign with a big partner: name the deal, give new IP one owner, strike the NDA residuals clause, and keep a sale open: limit exclusivity and ROFRs."
 slug: strategic-partnership-ip
 section: library
 cluster: gtm
 layout: article
 target_query: startup strategic partnership agreement IP
 date: 2026-10-26
+updated: 2026-10-27
 close: Founders who have signed development deals with larger companies will pressure-test your ownership split, disclosure plan, and exit terms in a VEN session.
 disclaimer: not-legal-tax
 draft: false
@@ -146,7 +147,7 @@ Each one shows up in a later customer negotiation, financing, or acquisition dil
 
 **A right of first refusal on a sale.** Bidders hesitate to spend on diligence when one party can match.
 
-**Counting the partnership as an exit plan.** In BCG's 2019 survey, **42%** of startups said their sales-opportunity expectations were at least somewhat fulfilled.
+**Counting on the partnership for sales.** In BCG's 2019 survey, **42%** of startups said their sales-opportunity expectations were at least somewhat fulfilled.
 
 Not legal advice. Have counsel review the NDA, the development agreement, and any commercial rights in a financing before you sign.
 

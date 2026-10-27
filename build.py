@@ -42,7 +42,7 @@ SECTIONS = {
         "title": "Library",
         "nav": "Library",
         "kicker": "Library",
-        "description": "Decision pages for one challenge at a time.",
+        "description": "Sourced decision pages for seed to Series B founders: fundraising, equity, hiring, the board, finance, and go-to-market. One question per page.",
     },
     "tools": {
         "title": "Tools",
@@ -54,7 +54,7 @@ SECTIONS = {
         "title": "Comparisons",
         "nav": "Compare",
         "kicker": "Comparisons",
-        "description": "Side-by-side pages when a comparison is worth the time. Nothing ships here without a sourced reason to exist.",
+        "description": "Side-by-side comparisons for founders choosing a peer group or a coach, with each option's entry filters and sources.",
     },
 }
 
@@ -228,7 +228,7 @@ def render_markdown(src: str) -> str:
                         f'<span class="pick-desc">{inline_md(m.group(3))}</span></a></li>'
                     )
                 out.append(
-                    f'<section class="pick-group"><h3 class="pick-label">{html.escape(label.strip())}</h3>'
+                    f'<section class="pick-group"><h2 class="pick-label">{html.escape(label.strip())}</h2>'
                     f'<ul class="pick-list">{"".join(lis)}</ul></section>'
                 )
                 continue
@@ -1097,6 +1097,14 @@ def asset_version(rel: str) -> str:
     return f"?v={h}"
 
 
+_RANGE_RE = re.compile(r"\$?\d[\d.,]*[%kKMB]?\s?(?:–|-|to)\s?\$?\d[\d.,]*(?:%|x|[kKMB])?")
+
+
+def nw_ranges(escaped: str) -> str:
+    """Keep numeric ranges like 0.3–0.8% on one line in already-escaped text."""
+    return _RANGE_RE.sub(lambda m: f'<span class="nw">{m.group(0)}</span>', escaped)
+
+
 def base(
     *,
     title: str,
@@ -1110,6 +1118,8 @@ def base(
     og_type: str = "website",
 ) -> str:
     full_title = title if title.endswith(SITE_NAME) else f"{title} · {SITE_NAME}"
+    if len(full_title) > 70 and not title.endswith(SITE_NAME):
+        full_title = title  # long titles: keep the query words visible in search results, drop the brand suffix
     canonical = abs_url(canonical_path)
     robots_tag = (
         f'<meta name="robots" content="{html.escape(robots, quote=True)}">\n'
@@ -1486,7 +1496,7 @@ def render_home(pages: list[dict]) -> str:
         start_cards.append(
             f'<a class="card card-compact" href="{url(p["path"])}">'
             f'<span class="card-topic">{esc(_topic_label(p))}</span>'
-            f'<h3>{esc(p["title"])}</h3><p>{esc(line)}</p></a>'
+            f'<h3>{nw_ranges(esc(p["title"]))}</h3><p>{nw_ranges(esc(line))}</p></a>'
         )
 
     # Topic tiles
@@ -1502,7 +1512,7 @@ def render_home(pages: list[dict]) -> str:
             if p not in picks:
                 picks.append(p)
         hub = url(f"/{cl['section']}/{cid}/")
-        lis = "".join(f'<li><a href="{url(p["path"])}">{esc(p["title"])}</a></li>' for p in picks[:3])
+        lis = "".join(f'<li><a href="{url(p["path"])}">{nw_ranges(esc(p["title"]))}</a></li>' for p in picks[:3])
         tiles.append(
             f'<div class="topic-tile">'
             f'<h3><a href="{hub}">{esc(cl["title"])}</a></h3>'
@@ -1522,7 +1532,7 @@ def render_home(pages: list[dict]) -> str:
 
     # Newest
     new_rows = "".join(
-        f'<li><a href="{url(p["path"])}"><span class="list-title">{esc(p["title"])}</span>'
+        f'<li><a href="{url(p["path"])}"><span class="list-title">{nw_ranges(esc(p["title"]))}</span>'
         f'<span class="new-meta">{esc(_topic_label(p))} · {esc(p["date"])}</span></a></li>'
         for p in latest[:4]
     )
@@ -1531,11 +1541,11 @@ def render_home(pages: list[dict]) -> str:
     body = f"""<main id="main">
   <section class="home-hero">
     <div class="wrap">
-      <h1>{esc(TAGLINE.rstrip('.'))}</h1>
+      <h1>{esc(TAGLINE.rstrip('.')).replace("venture-scale", '<span class="nw">venture-scale</span>')}</h1>
       <p class="lead">Cited ranges, tables, and calculators for the calls between seed and Series B: the raise, the grant, the first VP, the board, and your first customers.</p>
       <form class="home-search" action="{url('/library/')}" method="get" role="search">
         <label class="home-search-label" for="home-q">What decision are you facing?</label>
-        <input id="home-q" name="q" type="search" placeholder="Try VP equity, SAFE, runway, or pilot" autocomplete="off" aria-controls="home-results">
+        <input id="home-q" name="q" type="search" placeholder="Try VP equity, SAFE, or runway" autocomplete="off" aria-controls="home-results">
         <ul id="home-results" class="home-results" hidden></ul>
       </form>
       <p class="home-popular"><span>Popular</span>{popular}</p>

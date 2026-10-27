@@ -14,8 +14,8 @@ draft: false
 You choose a founder room by who sits in it and what format you need. Revenue thresholds, age caps, and chapter geography change the peer set. Coaching is a private 1:1 on how you lead. A peer group is lateral judgment from operators who have lived the decision in front of you. Check the published entry filter before you compare formats. Not legal, tax, or investment advice.
 
 :::group Pick your question
-- [YPO vs EO vs Hampton vs a venture-scale room](/compare/ypo-vs-hampton-vs-venture-scale-room/): side-by-side filters for YPO, EO, Hampton, Vistage, Powderkeg, and VEN. Same depth for each. Empty cells where a source did not publish the number. Stage sketches for Seed through Series B.
-- [Executive coaching vs a founder peer group](/compare/executive-coaching-vs-founder-peer-group/): format table (1:1 depth vs lateral judgment). When coaching wins, when the room wins, and which published filters admit a venture-scale founder. Manchester 2001 and ICF ROI figures stay caveated for large-company samples.
+- [YPO vs EO vs Hampton vs a venture-scale room](/compare/ypo-vs-hampton-vs-venture-scale-room/): Choosing a peer group. Entry filters for YPO, EO, Hampton, Vistage, Powderkeg, and VEN side by side.
+- [Executive coaching vs a founder peer group](/compare/executive-coaching-vs-founder-peer-group/): Coach or peer group. When one-to-one depth wins and when a room of peers does.
 :::
 
 :::takeaways

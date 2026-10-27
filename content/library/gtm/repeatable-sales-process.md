@@ -1,6 +1,6 @@
 ---
 title: "How to tell if your sales process is repeatable before you hire reps"
-description: Your sales process is repeatable when one kind of buyer buys for one reason through steps you have written down, new customers reach a first result on time, and someone other than a founder closes with the same playbook. Then hire at a set pace.
+description: "Your sales process is repeatable when one buyer type buys for one reason, new customers reach value on time, and a non-founder closes. Then hire at a set pace."
 slug: repeatable-sales-process
 section: library
 cluster: gtm

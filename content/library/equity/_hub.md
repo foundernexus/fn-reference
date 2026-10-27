@@ -13,6 +13,17 @@ draft: false
 
 Size the option pool from a hiring plan that reaches the next round. Each executive grant draws on unallocated pool. If a term sheet tops up the pool pre-money, existing holders take that dilution. Not legal, tax, or compensation advice.
 
+:::group Pick your question
+- [How to size an option pool from your hiring plan](/library/equity/option-pool-from-hiring-plan/): A term sheet asks for a pool. Price each hire before the next round, then check against 10–15%.
+- [VP Sales equity by stage](/library/equity/executive-grants-by-stage/): Making a VP offer. Seed first sales leader 0.5–2.0%; Series A VP 0.3–0.8% (Index).
+- [409A after a priced round](/library/equity/409a-after-priced-round/): You closed a priced round. Pause grants, refresh the 409A, have the board adopt it, then grant.
+:::
+
+:::group Calculators
+- [Option pool shuffle calculator](/tools/option-pool-shuffle-calculator/): The pool tops up in the term sheet. See who takes the dilution, pre-money versus post-money.
+- [Executive equity calculator](/tools/executive-equity-calculator/): Check a VP grant against cited bands and your remaining unallocated pool.
+:::
+
 :::takeaways
 - Build the pool bottoms-up from hiring through the next round. Then check published ranges.
 - Each exec grant draws on unallocated pool, next to IC grants and refreshers.

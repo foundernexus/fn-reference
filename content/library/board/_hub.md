@@ -1,6 +1,6 @@
 ---
 title: Board & governance
-description: Structure the Series A board, fill the independent seat with a real operator, run decision-first meetings, and send a monthly investor update between meetings. Four pages, one decision each.
+description: Structure the Series A board, fill the independent seat, run decision-first meetings, send monthly updates, and tell the board when you miss plan.
 slug: board
 section: library
 cluster: board
@@ -14,10 +14,10 @@ draft: false
 At Series A, you formalize the board. Seed boards are often founders plus at most one lead. After A, common shapes are 1–1–1 or 2–2–1 with a mutually approved independent as the swing vote. Meet every 6–8 weeks for about 2–3 hours. Send a decision-first pack days ahead, put the hard ask early, batch routine votes, and end with a closed session. Between meetings, send a short monthly investor update in a fixed order so the cap table stays warm without turning email into a board. Not legal, tax, or compensation advice.
 
 :::group Pick your question
-- [When to add an independent director (who and equity)](/library/board/when-to-add-independent-director/): Series A is the standard trigger (CRV). Fill the tie-break with a former operator who will disagree with both sides. Carta medians for independent grants: 0.50% seed / 0.40% Series A / 0.30% Series B. CRV: typically under 1%, vest 2–4 years. Cash usually waits until ~Series B.
-- [How to run a Series A board meeting](/library/board/series-a-board-meeting-agenda/): a decision-first pack, a highlights/lowlights open, the hard item early, a consent agenda, and a closed session. Includes a timed ~2.5 hour composite from Feld’s three-block structure plus Lightspeed’s open and CRV’s decision wording.
-- [Monthly investor update template](/library/board/monthly-investor-update/): short monthly email in a fixed order (TL;DR, same KPIs, highlights, lowlights with the fix, asks, cash/burn/runway, shout-outs). Warp/YC + Founder Collective skeleton with Visible cadence benchmarks on the page. Keeps investors warm between meetings; not a substitute for the board pack.
-- [How to tell the board you missed the plan](/library/board/missed-plan-reforecast/): call each director before the pack, show the gap against the approved plan, split timing slips from lost revenue, and bring a reforecast with the cash plan. Base rates and sources are on the page.
+- [When to add an independent director (who and equity)](/library/board/when-to-add-independent-director/): Series A is the usual trigger. Pick a former operator for the swing seat; Carta median grant is 0.40% at Series A.
+- [How to run a Series A board meeting](/library/board/series-a-board-meeting-agenda/): Your first priced-round board. Send a decision-first pack, take the hard item early, end in closed session.
+- [Monthly investor update template](/library/board/monthly-investor-update/): Keep investors warm between board meetings. Send a short monthly email in a fixed order with the same KPIs.
+- [How to tell the board you missed the plan](/library/board/missed-plan-reforecast/): You will miss the plan. Call each director first, split timing from lost revenue, bring a reforecast and cash plan.
 :::
 
 :::takeaways

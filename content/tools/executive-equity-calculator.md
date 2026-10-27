@@ -16,7 +16,7 @@ related:
 
 Enter stage, role, remaining unallocated pool, and the grant you are about to write. You get the cited band for that seat, pool left after the grant, and the grant as a share of the company.
 
-Use it next to [executive equity grants by stage](/library/equity/executive-grants-by-stage). Not legal, tax, or compensation advice.
+Use it next to [executive equity grants by stage](/library/equity/executive-grants-by-stage/). Not legal, tax, or compensation advice.
 
 ## What it does
 

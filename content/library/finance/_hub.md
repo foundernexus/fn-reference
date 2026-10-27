@@ -1,6 +1,6 @@
 ---
 title: Finance, metrics & runway
-description: Put the right efficiency, retention, and runway numbers in front of the board: burn multiple, Rule of 40, NRR and GRR, magic number, what counts as ARR, AI gross margin, and when to hire a CFO.
+description: The numbers your board needs: burn multiple, Rule of 40, NRR and GRR, what counts as ARR, AI gross margin, runway, and when to hire a CFO.
 slug: finance
 section: library
 cluster: finance
@@ -14,18 +14,18 @@ draft: false
 Early boards live on burn multiple, runway with a hiring plan, and whether you are default alive. Retention slides need GRR beside NRR so expansion cannot mask a leaky base. ARR needs one written definition: subscription fees and minimum commits in, usage above the commit on its own labeled line. AI products need gross margin with production inference in COGS, shown beside the software-only figure. Later boards add Rule of 40 with an explicit profit definition, and magic number / CAC payback when GTM efficiency is the question. At Series A you usually need CFO-level work before you need a full-time CFO. Pick the page or calculator for the decision in front of you. Not legal, tax, or investment advice.
 
 :::group Metrics and the CFO seat
-- [Burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/): Burn multiple = net burn ÷ net new ARR (Sacks / Craft, April 2020). Rule of 40 = growth % + profit % (Feld, February 2015). Early pack: burn trend. Later: add Rule of 40 and say which profit. Bessemer’s Rule of X is a late-stage valuation frame, not a Seed slide.
-- [NRR vs GRR for the board pack](/library/finance/nrr-vs-grr-board-pack/): GRR is the leak check (capped at 100%). NRR includes expansion and can exceed 100%. ChartMogul formulas; SaaS Capital and Bessemer bands stay on separate rows. If GRR is 70% and NRR looks strong, expansion is hiding churn.
-- [Does usage revenue count as ARR?](/library/finance/usage-revenue-as-arr/): only up to the contract’s commit. Subscription fees and recurring minimum commits are ARR. Usage above the commit, pay-as-you-go, pilots, credits, and services go on separate lines. Write a one-page ARR policy and state the annualization window.
-- [AI SaaS gross margin: inference COGS in the board pack](/library/finance/ai-gross-margin-inference-cogs/): production inference, production GPU serving, retrieval serving customers, AI monitoring, AI support, and human review go in COGS. Training, fine-tuning, dev/test inference, and internal AI tools stay in R&D or the department that uses them. Split production and development AI accounts first (The SaaS CFO). Show AI-inclusive gross margin, software gross margin ex-AI, AI cost as a share of revenue, and a heavy-user cohort. Andreessen Horowitz, Bessemer, and ICONIQ bands stay on separate rows.
-- [Fractional vs full-time CFO](/library/finance/fractional-vs-full-time-cfo/): at Series A you need the model, board pack, and raise prep. Kruze: usually not a full-time CFO yet. Bessemer community: many CFOs land at $10M–$25M ARR. Majhi B2B SaaS: often months 12–24 after A, or pre-B.
+- [Burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/): Which efficiency number goes in the pack. Early: burn multiple trend. Later: add Rule of 40 and name the profit line.
+- [NRR vs GRR for the board pack](/library/finance/nrr-vs-grr-board-pack/): Retention looks strong on NRR alone. Show GRR beside it so expansion cannot hide churn.
+- [Does usage revenue count as ARR?](/library/finance/usage-revenue-as-arr/): Usage revenue in ARR. Count only up to the contract commit; put usage above it on its own line.
+- [AI SaaS gross margin: inference COGS in the board pack](/library/finance/ai-gross-margin-inference-cogs/): AI costs blur gross margin. Put production inference in COGS and show margin with and without AI.
+- [Fractional vs full-time CFO](/library/finance/fractional-vs-full-time-cfo/): Hiring finance after Series A. You need CFO-level work first; a full-time CFO usually comes later.
 :::
 
 :::group Calculators
-- [Runway calculator with hiring plan](/tools/runway-calculator/): snapshot runway (Kruze) plus months to cash-out with hires, plus a Paul Graham–style default alive / default dead read. Headcount often 60–80% of burn (Kruze). With Carta’s Q1 2024 medians of 766 days Seed→A and 824 days A→B, you need a bigger buffer.
-- [When runway runs out](/library/fundraising/when-runway-runs-out/): diagnose short runway, cut burn, bridge or angel capital, or orderly wind-down. Pair with the calculator above.
-- [Magic number & CAC payback calculator](/tools/magic-number-cac-payback-calculator/): Scale-style magic number next to gross-margin CAC payback. Scale Studio long-term median 0.7. ChartMogul’s invest/pull-back bands (~0.75 / ~0.5) come from a different publisher. Bessemer payback targets by segment.
-- [AI gross margin calculator](/tools/ai-gross-margin-calculator/): AI-inclusive gross margin beside software margin ex-AI, AI cost per user or workflow, a heavy-user cohort read, and the AI budget that hits your target margin. Reads against The SaaS CFO’s bands by product type.
+- [Runway calculator with hiring plan](/tools/runway-calculator/): Months to cash-out with your hiring plan, plus a default alive or default dead read.
+- [When runway runs out](/library/fundraising/when-runway-runs-out/): Runway is short. Cut burn, bridge, or wind down in order. Pair it with the calculator above.
+- [Magic number & CAC payback calculator](/tools/magic-number-cac-payback-calculator/): Is sales spend paying back? Magic number beside gross-margin CAC payback.
+- [AI gross margin calculator](/tools/ai-gross-margin-calculator/): Gross margin with and without AI costs, plus the AI budget that hits your target margin.
 :::
 
 :::takeaways
@@ -85,7 +85,7 @@ Early: show the cash cost of growth and the cash left. Later: add margin balance
 - [Bessemer Venture Partners, State of the Cloud 2019](https://www.bvp.com/atlas/state-of-the-cloud-2019) and [Scaling to $100 Million](https://www.bvp.com/atlas/scaling-to-100-million) — segment GRR/NRR aims; CAC payback targets by segment.
 - [Scale Venture Partners, From $0 to $1M: The Magic of 0.7](https://www.scalevp.com/blog/from-0-to-1m-the-magic-of-07) — Dale Chang, 17 Sep 2021. Scale Studio long-term median magic number 0.7. See also [SaaS Metrics: A History of the Magic Number](https://www.scalevp.com/blog/saas-metrics-a-history-of-the-magic-number).
 - [ChartMogul, SaaS metrics cheat sheet](https://chartmogul.com/saas-metrics/cheat-sheet/) — magic number invest/pull-back framing; CAC payback through gross margin.
-- [Paul Graham, Default Alive or Default Dead?](http://www.paulgraham.com/aord.html) — October 2015. Alive/dead test; hiring too fast as the biggest killer after a raise.
+- [Paul Graham, Default Alive or Default Dead?](https://paulgraham.com/aord.html) — October 2015. Alive/dead test; hiring too fast as the biggest killer after a raise.
 - [Kruze Consulting, rolling cash forecast / runway](https://kruzeconsulting.com/blog/build-a-rolling-cash-forecast/) — cash ÷ net burn; headcount 60–80% of burn. [When a startup needs a CFO](https://kruzeconsulting.com/startup-need-cfo/) — Series A generally fractional first.
 - [Carta, State of Private Markets Q1 2024](https://carta.com/sg/en/data/state-of-private-markets-q1-2024/) — median Seed→A 766 days; A→B 824 days.
 - [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder session. Stage-right board metrics; GRR beside NRR; default alive with hire dates. Not a survey.

@@ -1470,3 +1470,18 @@ input:focus, select:focus {
 @media (max-width: 620px) {
   .home-hero .lead { font-size: 17px; }
 }
+
+/* QA 2026-10-27: keep phrases and numeric ranges on one line; hub pick labels are h2 for heading order but keep the small label look; 48px brand tap target. */
+.nw { white-space: nowrap; }
+.prose h2.pick-label {
+  margin: 0 0 6px;
+  padding: 0;
+  border: 0;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0;
+  color: var(--muted);
+}
+.prose h2.pick-label::before { display: none; }
+.brand { min-height: 48px; }

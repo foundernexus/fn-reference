@@ -14,9 +14,9 @@ draft: false
 Hire for the one function that is bottlenecking the next 18 months, then move to the next. Sources disagree on whether the first seat is Sales or Engineering. They agree you do not staff four VPs in one quarter. You typically add true executive seats at Series A. At seed, founders usually still lead product and engineering. Not legal, tax, or compensation advice.
 
 :::group Pick your question
-- [When to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/): founder closes 10–20 paid deals, then two sellers at quota, then a leader who still sells. CRO Report, SaaStr, Index, and UltraTalent disagree on the title. They agree on the order.
-- [Series A leadership hiring sequence](/library/hiring/series-a-leadership-hiring-sequence/): bottleneck-first after the raise. Majhi month bands for B2B SaaS, sector flips, CFO later, and what these seats cost.
-- [How to onboard your first executive hire](/library/hiring/onboard-first-executive/): a written plan before day one, the decisions you hand over, peer introductions, and written checkpoints. McKinsey, Watkins, Horowitz, and Elad Gil.
+- [When to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/): Deals still close only through you. Founder closes 10–20 paid deals, then two sellers at quota, then a leader.
+- [Series A leadership hiring sequence](/library/hiring/series-a-leadership-hiring-sequence/): You raised a Series A. Hire the bottleneck seat first, the CFO later, and price each seat.
+- [How to onboard your first executive hire](/library/hiring/onboard-first-executive/): Your first executive starts soon. Write the 90-day plan before day one and hand over named decisions.
 :::
 
 :::takeaways
