@@ -714,6 +714,8 @@ caption {
 }
 .takeaways li { margin: 0 0 10px; line-height: 1.55; }
 .takeaways ul > li::marker { color: var(--blue); font-size: 0.9em; }
+/* Bold figures in "In short" match decision-table figures: navy 700, tabular. */
+.takeaways li strong { color: var(--navy); font-weight: 700; font-variant-numeric: tabular-nums; }
 .takeaways li:last-child { margin-bottom: 2px; }
 .takeaways p:last-child { margin-bottom: 0; }
 
