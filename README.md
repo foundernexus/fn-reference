@@ -76,6 +76,10 @@ Vercel: `vercel.json` runs `python3 build.py` and serves `dist/`. Set `FN_CONTEN
    - `ops/stop-slop/prepush.sh` runs the two scripts plus the build in one step. Never add the check to build.py or vercel.json; style must not fail a Vercel build.
 3. Rebuild: python3 build.py
 4. Preview from dist with http.server, then stop.
+5. After the push deploys, run the live check against founderdecisions.com:
+   - Daily ship: `python3 ops/qa/live_check.py --quiet`. Exit code 1 means a FAIL; fix it before calling the ship done. It checks the sitemap, canonicals, robots, JSON-LD, internal links, orphans, topic-page placement, homepage counts, New this week freshness, internal language, VEN UTMs, and (with Playwright) overflow, console errors, and search at 390px and 1280px.
+   - Friday review: `python3 ops/qa/live_check.py --full --json ops/qa/last-full.json` adds every external link and full-page screenshots. External 401/403/429 are WARN (sites that block bots); report them, do not delete the citation.
+   - One-time setup: `pip install playwright && python3 -m playwright install chromium`. `--no-browser` skips the browser checks.
 
 Stdlib only. Draft pages are skipped. Do not git. Do not deploy. Do not leave a server running.
 

@@ -140,6 +140,12 @@ No genuine match (homepage link only): /library/rooms/, both /compare/ pages, /l
 - CTR pass 2026-10-25 (85a5a44), using the 28-day page report saved 2026-10-02 (no fresher page-level export on the box): option-pool-from-hiring-plan (69 impr, pos 7.2), data-moat-ai-startup (50, 11.1), seat-vs-usage-vs-outcome-pricing-ai-saas (44, 13.2), when-to-add-independent-director (34, 11.3), when-to-hire-first-vp-sales (28, 5.4). Pattern: put the query words first and the cited answer (number or sequence) in the title; meta answers the question in its first sentence. executive-grants-by-stage now carries a Related block to the pages above.
 - Check at the 2026-11-06 weekly review: 28-day clicks and CTR for those five pages against the numbers above, and Search Console Enhancements (Breadcrumbs, Unparsable structured data) for the new JSON-LD.
 
+## Live QA (from 2026-10-27)
+- `ops/qa/live_check.py` checks the live site. The daily ship runs `python3 ops/qa/live_check.py --quiet` after the deploy; the Friday review runs `python3 ops/qa/live_check.py --full --json ops/qa/last-full.json` (adds external links and screenshots).
+- FAIL means fix now: broken internal link, orphan page, page missing from its topic page or /library/, homepage count mismatch, newest New this week page older than 1 day (`--max-age`), internal words in public text, VEN link without UTMs, JSON-LD that does not parse, overflow or JS errors at 390px or 1280px.
+- WARN goes in the Friday notes: titles over ~65 characters, meta descriptions over 160, YYYY-MM dates on generated /decisions/ pages, external links that block bots.
+- Titles: build.py drops the " · Founder Decisions" suffix when the full title would pass 70 characters, so the query words stay visible in results.
+
 ## Friday 2026-09-18 Startup Bible check (internal)
 Source: weekly internal scan of FounderNexus Playbooks (never link publicly). Judgment only — no closed-session numbers on FD pages. Cite as VEN session → https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library when earned.
 
