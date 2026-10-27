@@ -156,7 +156,7 @@ Directors forgive a missed number faster than a surprise or a story that changes
 
 ## Pair with
 
-Run the meeting with [how to run a Series A board meeting](/library/board/series-a-board-meeting-agenda/). Report the follow-through in the [monthly investor update](/library/board/monthly-investor-update/). Show retention without spin using [NRR vs GRR for the board pack](/library/finance/nrr-vs-grr-board-pack/). The [board and governance hub](/library/board/) covers seats and cadence.
+Run the meeting with [how to run a Series A board meeting](/library/board/series-a-board-meeting-agenda/). Report the follow-through in the [monthly investor update](/library/board/monthly-investor-update/). Show retention without spin using [NRR vs GRR for the board pack](/library/finance/nrr-vs-grr-board-pack/). [Board & governance](/library/board/) covers seats and cadence.
 
 ## Sources
 

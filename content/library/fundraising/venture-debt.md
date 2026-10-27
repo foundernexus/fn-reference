@@ -144,7 +144,7 @@ Market context: PitchBook-NVCA counted a record **$62.4B** of US venture debt de
 Debt sits beside the equity decision. Settle the equity plan first.
 :::
 
-Pick Seed paper on [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/). Score Series A readiness on [when to raise Series A](/library/fundraising/when-to-raise-series-a/). Watch efficiency while debt service runs with [burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/). Orient the rest of the raise from the [fundraising hub](/library/fundraising/).
+Pick Seed paper on [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/). Score Series A readiness on [when to raise Series A](/library/fundraising/when-to-raise-series-a/). Watch efficiency while debt service runs with [burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/). See every fundraising decision in order on [fundraising](/library/fundraising/).
 
 ## Sources
 

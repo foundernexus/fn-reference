@@ -1,6 +1,6 @@
 ---
 title: Go-to-market
-description: Pick the GTM decision in front of you. Orient demand validation, the customer development funnel, conference selling, early customer retention, AI SDR, messaging, landing pages, pricing, AI feature pricing against inference cost, enterprise selling, first customer contracts, strategic partnerships and IP, AEO, founder PR, data moats, and coding-agent bets.
+description: Seventeen go-to-market decisions for seed to Series B founders, grouped by stage. Find your question, read the one-line answer, and open the page with the numbers.
 slug: gtm
 section: library
 cluster: gtm
@@ -10,129 +10,70 @@ close: GTM bets on AI seats, message, price, and distribution are ops decisions.
 draft: false
 ---
 
-AI GTM for a Seed–Series B startup is a stack of separate decisions, not one playbook. You choose who researches and who closes. You choose what the homepage leads with and what you bill for. You allocate scarce content hours, decide whether to DIY PR, test whether the data compounds, and judge whether coding agents move delivery or only the coding step. Open the spoke for the decision on your desk. Numbers and publisher samples live on those pages.
+Go-to-market for a seed to Series B startup is a set of separate calls, not one playbook. Find the question you are facing below. Each page carries the cited numbers, the publisher samples, and the trade-offs.
 
-:::takeaways
-- Demand: before you build, write the bet as a number and count paid commitments over compliments ([validate demand before you build](/library/gtm/validate-demand-before-you-build/)). Then run discovery calls as the top of the pipeline: each stage ends on a buyer commitment, and close rate counts only qualified deals ([customer development as your early sales funnel](/library/gtm/customer-development-sales-funnel/)). At conferences, book meetings before you fly and score the trip on qualified opportunities ([turn a conference into customers](/library/gtm/conference-to-customers/)). After the first sale, log each request as the blocked task, tell the customer what waits, and review retention beside new sales ([keep your first customers](/library/gtm/early-customer-retention/)).
-- Motion: put AI on research and drafts; keep a person on inbound that matters and on the close (SaaStr; Bridge Group; VEN session). See [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/). Go after enterprise accounts when one workflow beats the incumbent and the first deployment stays inside one team; map the champion and budget owner and send security proof first ([sell to the enterprise](/library/gtm/sell-to-enterprise/)).
-- Message: lead with the job and economic outcome; put the model in the how (Bessemer; Gartner agent-washing warning). See [how to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/). On the site, name the buyer and the pain in the first screen, put the payoff on the button, and show proof and product before price ([landing page that converts](/library/gtm/landing-page-that-converts/)).
-- Price: seats for copilots beside humans; usage or outcomes for agents that close the loop; hybrid while you learn cost variance (Bessemer AI pricing). See [seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/). Then cover inference: floor from cost, price from value, an allowance for typical use, and metered overage above it ([price AI features to cover inference cost](/library/gtm/price-ai-features-inference-cost/)). Paper the first paid deal at list price with a dated discount ([first customer contract](/library/gtm/first-customer-contract/)). Before a development deal with a larger company, name the relationship, give new work one owner, and keep a sale open ([strategic partnerships and IP](/library/gtm/strategic-partnership-ip/)).
-- Distribution: keep bottom-funnel SEO as the revenue path; put AEO on category answers buyers ask before they hit the site (Google). DIY the founder narrative before a retainer (YC Seibel; Muck Rack).
-- Defensibility and delivery: a data moat needs a compounding loop, not a log pile (a16z; Bessemer; Sequoia). Coding agents do not 10x the company if review, test, and ops stay the bottleneck (Amdahl; Atlassian; Faros; METR).
+:::group Before you build: is anyone buying?
+- [How to validate demand before you build](/library/gtm/validate-demand-before-you-build/): Before production code. Write the bet as a number and ask for time, an intro, or money.
+- [Customer development as your early sales funnel](/library/gtm/customer-development-sales-funnel/): Interviews pile up but few turn into deals. Each stage ends on a buyer commitment.
+- [How to turn a conference into customers](/library/gtm/conference-to-customers/): Deciding on a ticket or a booth. Book meetings before you fly and count qualified opportunities.
 :::
 
-## Spokes in this cluster
-
-:::highlight
-Seventeen decisions. One spoke each. Open the page that matches the question on your desk.
+:::group Win the first deals
+- [How to convert a pilot to a paid contract](/library/gtm/pilot-to-paid-contract/): A buyer wants a pilot first. Charge for it and write the conversion terms before kickoff.
+- [How to negotiate your first customer contract](/library/gtm/first-customer-contract/): A buyer says yes and asks for your paper. List price, a dated discount, standard terms.
+- [Selling to the enterprise as an early-stage startup](/library/gtm/sell-to-enterprise/): A large account shows interest. Map champion and budget owner, send security proof first.
+- [Strategic partnerships and IP: what to settle before you sign](/library/gtm/strategic-partnership-ip/): A larger company proposes a joint build. Give new work one owner and keep a sale open.
+- [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/): Buying outreach tools before the motion is clear. AI on research, people on the close.
 :::
 
-- [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/): whether a product can replace a seat. Score AI on quota, ramp, and pipeline. Bridge Group 2025 human SDR baselines and SaaStr founder-led sequence live on the page.
-- [How to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/): hero and deck lead with job and outcome. Bessemer on AI as means; Gartner on agent washing.
-- [How to write a startup landing page that converts](/library/gtm/landing-page-that-converts/): audience, pain, and payoff in the first screen, countable proof, product before price, one call to action, and qualified demos by source. Nielsen Norman Group eyetracking, Unbounce SaaS conversion data, and TrustRadius buyer survey figures live on the page.
-- [Seat vs usage vs outcome pricing for AI SaaS](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/): charge metric before scale. Bessemer copilots vs agents, hybrid bridge, and named outcome examples live on the page.
-- [How to price AI features to cover inference cost](/library/gtm/price-ai-features-inference-cost/): cost floor per unit, package choice, allowance and overage, and repricing with notice. Growth Unhinged survey figures and GitHub, Cursor, Notion, and Salesforce price changes live on the page.
-- [AEO vs SEO for B2B SaaS startups](/library/gtm/aeo-vs-seo-b2b-saas/): split writer hours between converting pages and citation-ready category answers. Google treats AEO as still SEO.
-- [DIY founder PR: own the narrative before you hire an agency](/library/gtm/diy-founder-pr-narrative/): founder narrative and reporter list first. YC Seibel, Muck Rack 2026, and retainer ranges live on the page.
-- [Data moat for AI startups](/library/gtm/data-moat-ai-startup/): scarce, outcome-linked loop vs scale theater. a16z, Bessemer Vertical AI, and Sequoia on the page.
-- [Why coding agents don't 10x the company](/library/gtm/coding-agents-dont-10x-engineering/): Amdahl ceiling on coding-only speedups. Atlassian, Faros, and METR figures live on the page.
-- [How to convert a pilot to a paid contract](/library/gtm/pilot-to-paid-contract/): charge for the pilot and write the conversion before kickoff. SaaStr paid vs free pilot polls, AI buyer ROI expectations, and Gartner buying-group figures live on the page.
-- [How to negotiate your first customer contract](/library/gtm/first-customer-contract/): list price on the paper, a dated discount traded for proof, and standard term, payment, and renewal. Common Paper contract benchmarks, Innovation Works discount guidance, and SaaStr multi-year figures live on the page.
-- [How to validate demand before you build](/library/gtm/validate-demand-before-you-build/): the demand bet as a number, problem interviews about past behavior, and a test that asks for time, an intro, or money before code. Savoia pretotyping, The Mom Test, and interview-count research live on the page.
-- [Customer development as your early sales funnel](/library/gtm/customer-development-sales-funnel/): one funnel from discovery call to referral, stage exits the buyer pays for, a written qualified line, and close rate by cohort. Steve Blank’s customer validation, The Mom Test on advancement, and YC sales lectures live on the page.
-- [How to turn a conference into customers](/library/gtm/conference-to-customers/): outcome and budget before the ticket, meetings booked with named accounts, a dated next step from each conversation, follow-up within a day, and cost per qualified opportunity. Freeman attendee and exhibitor survey figures and HBR lead-response research live on the page.
-- [How to keep your first customers: feedback and early retention](/library/gtm/early-customer-retention/): log the blocked task behind each request, give it an owner and an update date, say what waits, and read retention by cohort. ChartMogul new-customer retention, Intercom on saying no, and Pendo feature adoption live on the page.
-- [Selling to the enterprise as an early-stage startup](/library/gtm/sell-to-enterprise/): readiness test, champion vs budget owner, security packet and audit timing, and procurement in parallel. Forrester buying-group figures, Vanta and Workstreet audit timelines, and Norwest sales cycles live on the page.
-- [Strategic partnerships and IP: what to settle before you sign](/library/gtm/strategic-partnership-ip/): name the relationship, separate ownership from permission to use, share in stages, and strike terms that block a sale. US patent and copyright statutes, Venable, Skadden, and Mayer Brown guidance, and BCG corporate-startup surveys live on the page.
-
-## Which GTM decision → when → where
-
-:::highlight
-One GTM question per row. Open the spoke for numbers and publisher samples. Do not invent a blended GTM score.
+:::group Price and position the product
+- [Seat vs usage vs outcome pricing for AI SaaS](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/): Picking the charge metric. Seats for copilots, usage or outcomes for agents that close the loop.
+- [How to price AI features to cover inference cost](/library/gtm/price-ai-features-inference-cost/): Usage is uneven. Floor from cost, price from value, an allowance, then metered overage.
+- [How to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/): Rewriting the hero or the deck. Lead with the job and the outcome; the model goes in the how.
+- [How to write a startup landing page that converts](/library/gtm/landing-page-that-converts/): Warm visitors do not book demos. Buyer and pain in the first screen, one call to action.
 :::
 
-| GTM decision | When it belongs | Use |
-| --- | --- | --- |
-| Will anyone pay before we build? | Before production code or a new product line | [Validate demand before you build](/library/gtm/validate-demand-before-you-build/) |
-| How do discovery calls become revenue? | Interviews pile up but few turn into paid deals | [Customer development as your sales funnel](/library/gtm/customer-development-sales-funnel/) |
-| Is this conference worth the trip? | Deciding on a ticket, a talk, or a booth | [Turn a conference into customers](/library/gtm/conference-to-customers/) |
-| How do we keep the first customers? | Requests pile up after the first sale and some accounts go quiet | [Keep your first customers](/library/gtm/early-customer-retention/) |
-| Can an AI SDR replace a hire? | Buying outreach tools before the motion is clear | [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/) |
-| What does the homepage lead with? | Rewriting hero, deck, or outbound for an AI product | [Market AI without saying AI](/library/gtm/market-ai-product-without-saying-ai/) |
-| Does the site turn warm visitors into demos? | Rewriting the homepage or a campaign page, or before buying traffic | [Landing page that converts](/library/gtm/landing-page-that-converts/) |
-| Seat, usage, or outcome? | Picking the charge metric before you scale deals | [Seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/) |
-| Does the price cover inference? | Launching or repricing an AI feature with uneven usage | [Price AI features to cover inference cost](/library/gtm/price-ai-features-inference-cost/) |
-| SEO hours or answer-engine hours? | Allocating scarce content time in 2026 | [AEO vs SEO for B2B SaaS](/library/gtm/aeo-vs-seo-b2b-saas/) |
-| DIY PR or a retainer? | First pitches, or before signing agency spend | [DIY founder PR](/library/gtm/diy-founder-pr-narrative/) |
-| Is our data a moat? | Pitch says proprietary data; board asks what compounds | [Data moat for AI startups](/library/gtm/data-moat-ai-startup/) |
-| Will coding agents 10x delivery? | Rolling out agents and measuring only coding speed | [Coding agents don't 10x engineering](/library/gtm/coding-agents-dont-10x-engineering/) |
-| How does this pilot become a contract? | A buyer asks for a pilot before they will sign | [Pilot to paid contract](/library/gtm/pilot-to-paid-contract/) |
-| What goes on the first order form? | A buyer says yes and asks for your paper | [First customer contract](/library/gtm/first-customer-contract/) |
-| Are we ready to sell to the enterprise? | A large account shows interest, or security sends a questionnaire | [Sell to the enterprise](/library/gtm/sell-to-enterprise/) |
-| Who owns what we build with a partner? | A larger company proposes a development, distribution, or co-selling deal | [Strategic partnerships and IP](/library/gtm/strategic-partnership-ip/) |
-
-Empty cells stay empty. Each row points at a spoke that already carries the cited numbers. A [VEN](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) session pushed the same pattern: AI on prep, humans on the close, job-first message, and charge metrics that match whether a person or an agent closes the loop. That is session judgment, not a survey.
-
-## Stage sketch for GTM bets
-
-:::highlight
-Early: prove the motion and the message. Later: harden price, distribution, and what compounds in the product.
+:::group Keep the customers you win
+- [How to keep your first customers: feedback and early retention](/library/gtm/early-customer-retention/): Requests pile up and some accounts go quiet. Log the blocked task, say what waits, read retention by cohort.
 :::
 
-**Seed, founder-led sales.** Validate demand with priced commitments before you write production code. Run discovery calls as one funnel with a written qualified line and a booked next step on each call. Go to a conference with meetings already booked, and judge it by qualified opportunities. After the first sale, close the loop on each blocked task and add customers only as fast as you can serve them. Close the first customers yourself before an AI SDR or a VP of Sales (SaaStr, on the AI SDR spoke). Write the homepage around the job, not the model, with the buyer and the pain in the first screen and one call to action. DIY the narrative and a short reporter list. Keep pricing hybrid or simple until unit economics are clear. Charge for pilots and write the conversion terms before kickoff. Write the first order form at list price with the discount on its own line. Take enterprise accounts only when the first deployment can stay inside one team, and send the security packet before the buyer asks. Before a larger company co-develops with you, give new work one owner and strike any right of first refusal on a sale.
+:::group Reach, defensibility, and delivery
+- [AEO vs SEO for B2B SaaS startups](/library/gtm/aeo-vs-seo-b2b-saas/): Splitting scarce content hours. Protect pages that convert; answer the category questions buyers ask first.
+- [DIY founder PR: own the narrative before you hire an agency](/library/gtm/diy-founder-pr-narrative/): First pitches, or before an agency retainer. Write the narrative and a short reporter list yourself.
+- [Data moat for AI startups](/library/gtm/data-moat-ai-startup/): The pitch says proprietary data. Show a loop that compounds, not a pile of logs.
+- [Why coding agents don't 10x the company](/library/gtm/coding-agents-dont-10x-engineering/): Rolling out agents. Measure review, test, and release, not coding speed alone.
+:::
 
-**Series A, first GTM hires and a repeatable message.** Score any AI SDR seat the way Bridge Group scores humans (on that spoke). Split SEO vs AEO hours with bottom-funnel pages protected. Revisit seat vs usage vs outcome once agents close loops. Audit whether product data forms a loop or only a corpus.
+## What changes by stage
 
-**Later growth or raise narrative.** Soft-ROI copilots face renewal pressure (Bessemer, on the pricing spoke). Data-moat and delivery-loop claims need eval deltas and stage-by-stage throughput, not PR count or felt-faster alone. Pair GTM efficiency metrics with the [finance hub](/library/finance/) when the board asks magic number or CAC payback.
+**Seed, founder-led sales.** Validate demand with priced commitments before you write production code. Run discovery calls as one funnel with a written qualified line and a booked next step on each call. Go to a conference with meetings already booked, and judge it by qualified opportunities. After the first sale, close the loop on each blocked task and add customers only as fast as you can serve them. Close the first customers yourself before an AI SDR or a VP of Sales (SaaStr, on the AI SDR page). Write the homepage around the job, not the model, with the buyer and the pain in the first screen and one call to action. DIY the narrative and a short reporter list. Keep pricing hybrid or simple until unit economics are clear. Charge for pilots and write the conversion terms before kickoff. Write the first order form at list price with the discount on its own line. Take enterprise accounts only when the first deployment can stay inside one team, and send the security packet before the buyer asks. Before a larger company co-develops with you, give new work one owner and strike any right of first refusal on a sale.
+
+**Series A, first GTM hires and a repeatable message.** Score any AI SDR seat the way Bridge Group scores humans (on the AI SDR page). Split SEO vs AEO hours with bottom-funnel pages protected. Revisit seat vs usage vs outcome once agents close loops. Audit whether product data forms a loop or only a corpus.
+
+**Later growth or raise narrative.** Soft-ROI copilots face renewal pressure (Bessemer, on the pricing page). Data-moat and delivery-loop claims need eval deltas and stage-by-stage throughput, not PR count or felt-faster alone. Pair GTM efficiency metrics with [finance, metrics & runway](/library/finance/) when the board asks magic number or CAC payback.
+
+A [VEN](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) session pushed the same pattern: AI on prep, humans on the close, job-first message, and charge metrics that match whether a person or an agent closes the loop. That is session judgment, not a survey.
 
 ## Pair with hiring and finance
 
-:::highlight
-GTM tools do not replace the first sales hire sequence or the board metrics pack.
-:::
-
-If the debate is when the first VP of Sales lands, use [when to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/) and the [hiring hub](/library/hiring/). If the board asks whether GTM spend is efficient, use the [magic number & CAC payback calculator](/tools/magic-number-cac-payback-calculator/) and the [finance hub](/library/finance/).
+If the debate is when the first VP of Sales lands, use [when to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/) and the rest of [hiring executives](/library/hiring/). If the board asks whether GTM spend is efficient, use the [magic number & CAC payback calculator](/tools/magic-number-cac-payback-calculator/) and [finance, metrics & runway](/library/finance/).
 
 ## Sources
 
 - [SaaStr, How to successfully source your first 2 sales reps](https://www.saastr.com/how-to-successfully-hire-your-first-2-sales-reps/) — founder-led closes; hire two AE-experienced reps. Full framing on [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/).
-- [The Bridge Group, SDR Models, Motions & Metrics: 2025 Research Report](https://www.bridgegroupinc.com/research/2025-sdr-models-metrics-report-the-bridge-group) — human SDR quota, OTE, ramp, pipeline, attrition baselines (sample caveats on the spoke).
-- [Gartner, Over 40% of agentic AI projects will be canceled by the end of 2027](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027) — 25 Jun 2025. Cancellation forecast and agent-washing estimate on the AI SDR and market-AI spokes.
+- [The Bridge Group, SDR Models, Motions & Metrics: 2025 Research Report](https://www.bridgegroupinc.com/research/2025-sdr-models-metrics-report-the-bridge-group) — human SDR quota, OTE, ramp, pipeline, attrition baselines (sample caveats on the AI SDR page).
+- [Gartner, Over 40% of agentic AI projects will be canceled by the end of 2027](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027) — 25 Jun 2025. Cancellation forecast and agent-washing estimate on the AI SDR and market-AI pages.
 - [Bessemer Atlas, A B2B founder's guide to generating demand from scratch](https://www.bvp.com/atlas/a-b2b-founders-guide-to-generating-demand-from-scratch) — Allyson Letteri, 13 Oct 2025. AI as means, not value prop. On [market AI without saying AI](/library/gtm/market-ai-product-without-saying-ai/).
-- [Bessemer Atlas, Mastering product-market fit for AI founders](https://www.bvp.com/atlas/mastering-product-market-fit-a-detailed-playbook-for-ai-founders) — Christine Deakers, 29 Jul 2025. C-suite economic framing vs end-user capability. On the market-AI spoke.
+- [Bessemer Atlas, Mastering product-market fit for AI founders](https://www.bvp.com/atlas/mastering-product-market-fit-a-detailed-playbook-for-ai-founders) — Christine Deakers, 29 Jul 2025. C-suite economic framing vs end-user capability. On the market-AI page.
 - [Bessemer Atlas, The AI pricing and monetization playbook](https://www.bvp.com/atlas/the-ai-pricing-and-monetization-playbook) — 10 Feb 2026. Seat / usage / outcome trade-offs and hybrid bridge. On [seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/).
 - [Google Search Central, Optimizing for generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) — AEO/GEO framed as still SEO. Full cites on [AEO vs SEO](/library/gtm/aeo-vs-seo-b2b-saas/).
 - [Y Combinator, Getting press for your startup](https://www.ycombinator.com/blog/getting-press-for-your-startup) — Michael Seibel, 20 Sep 2016. Founders pitch; agency lesson; time cap. On [DIY founder PR](/library/gtm/diy-founder-pr-narrative/).
-- [Muck Rack, State of Journalism 2026](https://media.muckrack.com/documents/State_of_Journalism_2026_1.pdf) — pitch inspiration and rejection rates. On the DIY PR spoke.
+- [Muck Rack, State of Journalism 2026](https://media.muckrack.com/documents/State_of_Journalism_2026_1.pdf) — pitch inspiration and rejection rates. On the DIY PR page.
 - [a16z, The Empty Promise of Data Moats](https://a16z.com/the-empty-promise-of-data-moats/) — Casado / Lauten, 9 May 2019. Scale effects vs network effects. On [data moat for AI startups](/library/gtm/data-moat-ai-startup/).
-- [Bessemer Atlas, Vertical AI Part IV](https://www.bvp.com/atlas/part-iv-ten-principles-for-building-strong-vertical-ai-businesses) — 28 Jan 2025. Quality over quantity; workflow depth. On the data-moat spoke.
-- [Sequoia, Own Your Intelligence](https://sequoiacap.com/article/own-your-intelligence-a-how-to-guide) — Sonya Huang, 19 Aug 2026. Proprietary feedback, evals, trajectories. On the data-moat spoke.
+- [Bessemer Atlas, Vertical AI Part IV](https://www.bvp.com/atlas/part-iv-ten-principles-for-building-strong-vertical-ai-businesses) — 28 Jan 2025. Quality over quantity; workflow depth. On the data-moat page.
+- [Sequoia, Own Your Intelligence](https://sequoiacap.com/article/own-your-intelligence-a-how-to-guide) — Sonya Huang, 19 Aug 2026. Proprietary feedback, evals, trajectories. On the data-moat page.
 - [Amdahl's law](https://en.wikipedia.org/wiki/Amdahl%27s_law) — Gene Amdahl, 1967. Speedup ceiling when one stage improves. On [coding agents don't 10x](/library/gtm/coding-agents-dont-10x-engineering/).
-- [Atlassian, How Amdahl's Law still applies to modern-day AI inefficiencies](https://www.atlassian.com/blog/ai-at-work/how-amdahls-law-still-applies-to-modern-day-ai-inefficiencies) — 3 Apr 2026. On the coding-agents spoke.
-- [Faros, The AI Engineering Report 2026: The Acceleration Whiplash](https://www.faros.ai/blog/ai-acceleration-whiplash-takeaways) — 12 Apr 2026. Merge/review/incident telemetry. On the coding-agents spoke.
-- [METR, Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) — 10 Jul 2025. RCT snapshot. On the coding-agents spoke.
-- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder sessions across these spokes. AI on prep; humans on the close; job-first message; charge metric matches who closes the loop. Not a survey.
-
-## Related
-
-- [How to validate demand before you build](/library/gtm/validate-demand-before-you-build/)
-- [Customer development as your early sales funnel](/library/gtm/customer-development-sales-funnel/)
-- [How to turn a conference into customers](/library/gtm/conference-to-customers/)
-- [How to keep your first customers: feedback and early retention](/library/gtm/early-customer-retention/)
-- [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/)
-- [How to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/)
-- [How to write a startup landing page that converts](/library/gtm/landing-page-that-converts/)
-- [Seat vs usage vs outcome pricing for AI SaaS](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/)
-- [How to price AI features to cover inference cost](/library/gtm/price-ai-features-inference-cost/)
-- [AEO vs SEO for B2B SaaS startups](/library/gtm/aeo-vs-seo-b2b-saas/)
-- [DIY founder PR: own the narrative before you hire an agency](/library/gtm/diy-founder-pr-narrative/)
-- [Data moat for AI startups](/library/gtm/data-moat-ai-startup/)
-- [Why coding agents don't 10x the company](/library/gtm/coding-agents-dont-10x-engineering/)
-- [How to convert a pilot to a paid contract](/library/gtm/pilot-to-paid-contract/)
-- [How to negotiate your first customer contract](/library/gtm/first-customer-contract/)
-- [Selling to the enterprise as an early-stage startup](/library/gtm/sell-to-enterprise/)
-- [Strategic partnerships and IP: what to settle before you sign](/library/gtm/strategic-partnership-ip/)
-- [Hiring executives](/library/hiring/)
-- [When to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/)
-- [Finance, metrics & runway](/library/finance/)
-- [Magic number & CAC payback calculator](/tools/magic-number-cac-payback-calculator/)
+- [Atlassian, How Amdahl's Law still applies to modern-day AI inefficiencies](https://www.atlassian.com/blog/ai-at-work/how-amdahls-law-still-applies-to-modern-day-ai-inefficiencies) — 3 Apr 2026. On the coding-agents page.
+- [Faros, The AI Engineering Report 2026: The Acceleration Whiplash](https://www.faros.ai/blog/ai-acceleration-whiplash-takeaways) — 12 Apr 2026. Merge/review/incident telemetry. On the coding-agents page.
+- [METR, Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) — 10 Jul 2025. RCT snapshot. On the coding-agents page.
+- [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder sessions across these topics. AI on prep; humans on the close; job-first message; charge metric matches who closes the loop. Not a survey.

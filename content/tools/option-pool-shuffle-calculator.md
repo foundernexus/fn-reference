@@ -43,7 +43,7 @@ SAFEs and converts that price at the close usually do not eat a pre-close pool i
 
 ## Labeled hypothetical
 
-Not a company. Matches the sketch on the equity hub.
+Not a company. Matches the sketch on the equity topic page.
 
 Pre-money $40M. New money $10M. Unallocated today 5%. Target pool 15% of post-round fully diluted. Load those defaults in the form. Pre-money placement leaves existing holders lower than post-money placement. The investor stays at 20% only when you carve the pool out pre-money. Run your real numbers with counsel. Do not treat this as a term sheet.
 

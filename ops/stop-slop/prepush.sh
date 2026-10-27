@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Founder Decisions stop-slop pre-push gate. Local only; never called by Vercel.
-# Runs: check.py --changed (HARD must be 0), facts_guard.py vs origin/main, build.py.
+# Runs: check.py --changed (HARD must be 0), facts_guard.py vs origin/main, build.py, check.py --dist.
 # The manual read against ops/stop-slop/RULES.md is still required.
 set -euo pipefail
 cd "$(git rev-parse --show-toplevel)"
@@ -11,4 +11,6 @@ echo "== stop-slop: facts guard vs origin/main =="
 python3 ops/stop-slop/facts_guard.py origin/main
 echo "== build =="
 python3 build.py >/dev/null
+echo "== stop-slop: rendered owned HTML (meta, JSON-LD, templates) =="
+python3 ops/stop-slop/check.py --dist --summary
 echo "stop-slop gate: PASS (mechanical). Manual read against ops/stop-slop/RULES.md still required."

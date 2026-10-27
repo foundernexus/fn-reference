@@ -27,7 +27,7 @@ Send a short monthly email in a fixed order: TL;DR, the same KPIs every month, h
 :::takeaways
 - Cadence: monthly for early stage (Warp: pre–Series B). Visible: **65%** monthly, **22%** quarterly, **13%** weekly. Pick a date and stick to it.
 - Fixed order: TL;DR → same KPIs every month → highlights → lowlights with the fix → asks → cash/burn/runway → shout-outs. Warp + YC six-section frame; Founder Collective fill-in; Visible block shares (Highlights **23%** most used, Lowlights **10%** least).
-- Metrics every month: ARR/MRR + MoM, NRR or churn, cash, burn, runway (Warp). Keep the definition identical to the board pack ([finance hub](/library/finance/)).
+- Metrics every month: ARR/MRR + MoM, NRR or churn, cash, burn, runway (Warp). Keep the definition identical to the board pack ([finance, metrics & runway](/library/finance/)).
 - Send habits: CEO sends; body under two minutes (Warp: most great updates **200–400** words plus a metrics table). Visible median open rate **77%**; board **78%**, current investors **77%**, prospects **64%**. Smaller lists open more (**1–5** at **100%**; **50+** at **69%**).
 - Updates are not decisions ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Bad-month consistency matters more than polish. First Round / Paul Arnold: “investors can only help if you are transparent all the time,” including in hard months.
 :::
@@ -73,7 +73,7 @@ Warp’s minimum set. Match board-pack definitions so the email and the meeting 
 
 | Metric | Why it belongs | Sibling |
 | --- | --- | --- |
-| ARR / MRR + MoM | Top-line trend in one line | [Finance hub](/library/finance/) |
+| ARR / MRR + MoM | Top-line trend in one line | [Finance, metrics & runway](/library/finance/) |
 | NRR or churn | Retention without a surprise at the board | [NRR vs GRR](/library/finance/nrr-vs-grr-board-pack/) |
 | Cash | Absolute liquidity | [Runway calculator](/tools/runway-calculator/) |
 | Burn | Net cash burn for the period | [Burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/) |
@@ -169,7 +169,7 @@ Nine steps from calendar to send. Run them the same way every month.
 
 :::steps Monthly investor update lock
 1. **Pick a permanent send date.** Visible’s **1st** is the most popular day. Warp: stick to it.
-2. **Freeze the KPI set.** ARR/MRR + MoM, NRR or churn, cash, burn, runway (Warp). Write definitions once with the [finance hub](/library/finance/).
+2. **Freeze the KPI set.** ARR/MRR + MoM, NRR or churn, cash, burn, runway (Warp). Write definitions once with [finance, metrics & runway](/library/finance/).
 3. **Draft TL;DR last.** Write highlights, lowlights, and asks first, then compress to two sentences.
 4. **Write lowlights with a fix.** Miss + owner + date in one bullet. Do not bury the miss in a soft paragraph.
 5. **Make asks specific.** Named intros, open roles, one decision you want advice on (Arnold; Warp).

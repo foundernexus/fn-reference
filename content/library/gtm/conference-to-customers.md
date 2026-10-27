@@ -195,7 +195,7 @@ Each one fills a spreadsheet and leaves the pipeline where it was.
 This page fills the top of the funnel in person. The sibling pages run the rest.
 :::
 
-Move the next steps into [customer development as your early sales funnel](/library/gtm/customer-development-sales-funnel/), where each stage ends on a buyer commitment. If the accounts you met run a buying group and a security review, use [selling to the enterprise as an early-stage startup](/library/gtm/sell-to-enterprise/). If you are still testing whether anyone will pay, run the event as research with [how to validate demand before you build](/library/gtm/validate-demand-before-you-build/). For a speaking slot or press at the event, see [DIY founder PR](/library/gtm/diy-founder-pr-narrative/). Decide whether tooling can take any outreach work with [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/). Orient the rest of the motion from the [GTM hub](/library/gtm/).
+Move the next steps into [customer development as your early sales funnel](/library/gtm/customer-development-sales-funnel/), where each stage ends on a buyer commitment. If the accounts you met run a buying group and a security review, use [selling to the enterprise as an early-stage startup](/library/gtm/sell-to-enterprise/). If you are still testing whether anyone will pay, run the event as research with [how to validate demand before you build](/library/gtm/validate-demand-before-you-build/). For a speaking slot or press at the event, see [DIY founder PR](/library/gtm/diy-founder-pr-narrative/). Decide whether tooling can take any outreach work with [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/). See every go-to-market decision by stage on [go-to-market](/library/gtm/).
 
 ## Sources
 

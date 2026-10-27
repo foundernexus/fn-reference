@@ -153,7 +153,7 @@ Each of these costs you the next meeting. Graham and YC name most of them.
 The seed VC decision sits between closing your first angels and reading the first term sheet.
 :::
 
-Close early checks on [first angel check](/library/fundraising/first-angel-check/). Pick the paper on [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/). Read the lead’s terms on [term sheet red flags](/library/fundraising/term-sheet-red-flags/). Plan the next raise on [when to raise Series A](/library/fundraising/when-to-raise-series-a/). Orient the rest from the [fundraising hub](/library/fundraising/).
+Close early checks on [first angel check](/library/fundraising/first-angel-check/). Pick the paper on [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/). Read the lead’s terms on [term sheet red flags](/library/fundraising/term-sheet-red-flags/). Plan the next raise on [when to raise Series A](/library/fundraising/when-to-raise-series-a/). See every fundraising decision in order on [fundraising](/library/fundraising/).
 
 ## Sources
 

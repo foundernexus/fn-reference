@@ -171,7 +171,7 @@ Most of these come from running the raise like a series of one-off meetings.
 The process sits between your fund list and the term sheet.
 :::
 
-Learn what each fund weighs on [how seed VCs decide](/library/fundraising/how-seed-vcs-decide/). Build the deck on [seed pitch deck](/library/fundraising/seed-pitch-deck/). Close early checks on [first angel check](/library/fundraising/first-angel-check/). Pick the paper on [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/). Read the lead’s terms on [term sheet red flags](/library/fundraising/term-sheet-red-flags/). Orient the rest from the [fundraising hub](/library/fundraising/).
+Learn what each fund weighs on [how seed VCs decide](/library/fundraising/how-seed-vcs-decide/). Build the deck on [seed pitch deck](/library/fundraising/seed-pitch-deck/). Close early checks on [first angel check](/library/fundraising/first-angel-check/). Pick the paper on [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/). Read the lead’s terms on [term sheet red flags](/library/fundraising/term-sheet-red-flags/). See every fundraising decision in order on [fundraising](/library/fundraising/).
 
 ## Sources
 

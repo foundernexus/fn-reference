@@ -72,7 +72,7 @@ Do not spend the 10% traditional seed pool on two “VP” titles. Hold unalloca
 
 Kruze: ask why they want that pool size. The usual answer is “enough for the next 18 or 24 months of hiring.” Put the list on the table. If it is lower than 15%, you can often bring the number down. If it is too low, you run out mid-round and top up with less negotiating power.
 
-Placement, meaning who pays for the top-up, is a separate argument. Pre-money pool dilutes existing holders before the new money prices in. Post-money shares it with the new investor. Kruze almost never sees the founder-friendly version. Carta calls the same mechanic the option pool shuffle. Walk the placement on the [equity hub](/library/equity/) or run the [option pool shuffle calculator](/tools/option-pool-shuffle-calculator/). Your hiring plan sets the size; placement sets whose percentage moves.
+Placement, meaning who pays for the top-up, is a separate argument. Pre-money pool dilutes existing holders before the new money prices in. Post-money shares it with the new investor. Kruze almost never sees the founder-friendly version. Carta calls the same mechanic the option pool shuffle. Walk the placement on [equity & cap table](/library/equity/) or run the [option pool shuffle calculator](/tools/option-pool-shuffle-calculator/). Your hiring plan sets the size; placement sets whose percentage moves.
 
 SAFEs and converts price at the close. Kruze: they usually do not eat the pre-close pool increase, so founders take more of it.
 

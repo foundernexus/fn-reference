@@ -55,7 +55,7 @@ Sources disagree, so this section shows each band as published instead of an ave
 
 Kruze also states typical industry cost of $2,000 to $5,000+ depending on complexity, and that startups on cap-table software vendors spend over $3,000 annually, with many over $10,000.
 
-**Carta standalone range** (hub cite, [409A valuation](https://carta.com/learn/startups/equity-management/409a-valuation/), 4 August 2026): roughly $1,000 to over $10,000 depending on size and complexity.
+**Carta standalone range** (also cited on the equity topic page, [409A valuation](https://carta.com/learn/startups/equity-management/409a-valuation/), 4 August 2026): roughly $1,000 to over $10,000 depending on size and complexity.
 
 **Promise Legal by stage** (updated 29 September 2025):
 

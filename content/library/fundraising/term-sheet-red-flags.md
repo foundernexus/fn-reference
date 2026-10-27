@@ -94,7 +94,7 @@ The option pool works the same way. Venture Hacks’ Nivi lays out a **$2M** inv
 Board seats and vetoes decide who runs the company after close. Give them more attention than a point of price.
 :::
 
-**Board.** Cooley GO describes the typical board after a first equity round as three seats: one investor and two founders representing common. YC’s clean Series A template keeps founders in control 2-1. YC says founders most often lose control at Series A through a 2-2-1 board: two founders, two investors, and one independent. Lose the board and the board can fire you from your own company. If you agree to an independent seat, pick that person with care. The [independent director](/library/board/when-to-add-independent-director/) spoke covers timing and equity.
+**Board.** Cooley GO describes the typical board after a first equity round as three seats: one investor and two founders representing common. YC’s clean Series A template keeps founders in control 2-1. YC says founders most often lose control at Series A through a 2-2-1 board: two founders, two investors, and one independent. Lose the board and the board can fire you from your own company. If you agree to an independent seat, pick that person with care. The [independent director](/library/board/when-to-add-independent-director/) page covers timing and equity.
 
 **Operating approvals.** YC flags a separate clause that makes the investor director approve the annual budget, executive hiring and firing, or a pivot. YC’s advice when the pitch and the terms disagree: “believe the terms.”
 
@@ -145,7 +145,7 @@ Most term sheet regret traces back to control terms read too fast and an unmodel
 The term sheet sits between readiness and diligence. Settle the instrument and the timing first.
 :::
 
-Pick Seed paper on [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/). Score readiness on [when to raise Series A](/library/fundraising/when-to-raise-series-a/). A lender term sheet has its own red flags on [venture debt](/library/fundraising/venture-debt/). Orient the rest of the raise from the [fundraising hub](/library/fundraising/).
+Pick Seed paper on [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/). Score readiness on [when to raise Series A](/library/fundraising/when-to-raise-series-a/). A lender term sheet has its own red flags on [venture debt](/library/fundraising/venture-debt/). See every fundraising decision in order on [fundraising](/library/fundraising/).
 
 ## Sources
 

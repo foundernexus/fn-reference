@@ -168,7 +168,7 @@ Each one leaves a capable hire guessing what the job is.
 
 ## Pair with
 
-Pick the seat with the [hiring executives hub](/library/hiring/) and the [Series A leadership hiring sequence](/library/hiring/series-a-leadership-hiring-sequence/). Size the grant with [executive equity grants by stage](/library/equity/executive-grants-by-stage/). If the hire is your first sales leader, set the bar with [when to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/).
+Pick the seat with [hiring executives](/library/hiring/) and the [Series A leadership hiring sequence](/library/hiring/series-a-leadership-hiring-sequence/). Size the grant with [executive equity grants by stage](/library/equity/executive-grants-by-stage/). If the hire is your first sales leader, set the bar with [when to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/).
 
 ## Sources
 

@@ -10,9 +10,10 @@ The gate runs locally. It is not wired into `build.py` or `vercel.json`, so a st
 2. **Facts guard (edited existing pages).** `python3 ops/stop-slop/facts_guard.py origin/main`. It must print PASS: same numbers, same link URLs, same `## Sources` text, same title and slug as main.
 3. **Manual read.** Read the page top to bottom against `ops/stop-slop/RULES.md`. Score it on the five dimensions. Below 35/50: revise.
 4. **Build.** `python3 build.py` must pass (JSON-LD assert included).
+4b. **Rendered check.** `python3 ops/stop-slop/check.py --dist` must report `HARD=0`. This catches internal planning words (spoke, hub, cluster, target query, “Orient…”) in meta descriptions, JSON-LD, homepage and template strings.
 5. **Record.** Put `stop-slop: pass (HARD=0, score NN/50)` in the commit message body and in the page's `ops/inventory.md` notes.
 
-`ops/stop-slop/prepush.sh` runs steps 1, 2, and 4 in order and stops on the first failure. Step 3 stays manual.
+`ops/stop-slop/prepush.sh` runs steps 1, 2, 4, and 4b in order and stops on the first failure. Step 3 stays manual.
 
 ## Optional git hook
 
@@ -24,5 +25,4 @@ ln -sf ../../ops/stop-slop/prepush.sh .git/hooks/pre-push
 
 ## Report-only scans
 
-- `python3 ops/stop-slop/check.py --dist` scans rendered owned HTML (homepage, hubs, template strings).
 - `python3 ops/stop-slop/check.py --generated` scans `/decisions/` and `/benchmarks/`. Never fix those in this repo. Send findings to foundernexus/fn-content.

@@ -97,7 +97,7 @@ Equity bands and cash bands come from different publishers. Show each one separa
 | Index Ventures | VP grants typically 0.3–0.8% FDE at Series A (product and eng high end; HR and finance lower; VP Sales often lower because of commission). Non-founding C-suite often ~0.8–1.5%. Expect ~3 VPs + 1 C-suite after A. |
 | Majhi Group playbook | Series A VP base typically $180k–$260k; equity 0.4%–1.0%, four-year vest, one-year cliff. |
 | Majhi Group first-VP page | First VP at A/B: base $180k–$280k; equity 0.3%–0.8%. |
-| UltraTalent (via VP Sales spoke) | First VP Sales title in their grid is Series A to B: $200k base, $325k median OTE, 0.60–1.00% FD. |
+| UltraTalent (via the VP Sales page) | First VP Sales title in their grid is Series A to B: $200k base, $325k median OTE, 0.60–1.00% FD. |
 | Nxt Level | Publishes heavier Series B+ VP Eng cash bands ($260k–$320k at A/B in their table). Use for later-stage pressure tests, not as a Series A universal. |
 
 Write the grant against remaining pool with [executive equity grants by stage](/library/equity/executive-grants-by-stage/) and the [executive equity calculator](/tools/executive-equity-calculator/). Do not stack Series B cash on a Series A builder job.
@@ -110,7 +110,7 @@ Simultaneous VPs, wrong stage, no authority, and CFO-too-early burn calendar and
 
 **Staffing the whole C-suite in one quarter.** Majhi and Ready Set Exec both call this out. Sequence beats a simultaneous slate.
 
-**Hiring a scaler to build.** Same pattern as the VP Sales spoke. Stage fit beats logo pedigree.
+**Hiring a scaler to build.** Same pattern as the VP Sales page. Stage fit beats logo pedigree.
 
 **Ignoring the founder-time trigger.** Nxt Level: if you are not spending half your week on the function, you may not have a bottleneck yet. If one function has held you up for six months, you have already paid the velocity tax.
 
@@ -120,7 +120,7 @@ Simultaneous VPs, wrong stage, no authority, and CFO-too-early burn calendar and
 
 ## Worked situations
 
-**Technical founder, $2M ARR, Series A closed, still on every deal, two AEs ramping.** Bottleneck is commercial. Majhi’s B2B SaaS first seat and the VP Sales spoke both point here. Hire the builder sales leader who still closes. Parallel-track eng leadership only if delivery is already slipping.
+**Technical founder, $2M ARR, Series A closed, still on every deal, two AEs ramping.** Bottleneck is commercial. Majhi’s B2B SaaS first seat and the VP Sales page both point here. Hire the builder sales leader who still closes. Parallel-track eng leadership only if delivery is already slipping.
 
 **Commercial founder, strong pipeline, eng team at ~12 and slipping roadmap.** Bottleneck is technical. Majhi’s AI/ML and DevTools rows, and Nxt Level’s Series A Eng/Product default, fit. Hire VP Eng / technical leader who can scale the team. Do not hire VP Sales to “use the raise” while the product cannot ship.
 

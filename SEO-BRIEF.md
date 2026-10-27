@@ -4,6 +4,8 @@ Audience: venture-backed (already raised) and venture-scale (building toward $10
 Publisher link: VEN (Venture Executive Network), formerly FounderNexus → https://www.venexecs.com/ (quiet close link only; no Apply CTA on FD pages)
 Volume: qualitative only. No Ahrefs/SEMrush dumps. Do not invent volumes.
 
+**Internal-only vocabulary.** The words in this brief (hub, spoke, cluster, pillar, target query, money page, queue, inventory, "orient") are planning shorthand for us. They never appear on a public page: not in body text, tables, Sources, link text, `description`, `close`, or `title`. On the page, a hub is a "topic" or its name ("go-to-market"), a spoke is a "page" or its title. Topic pages open with `:::group` pick lists grouped by the founder's question, one line per page, before any long table. `ops/stop-slop/check.py` (and `--dist` after the build) fails these words as HARD `internal-language`.
+
 ## Page 1 (ship 2026-08-29)
 Title: Executive equity grants by stage: what to offer a first VP at Seed, Series A, and Series B
 Target: how much equity to give VP of sales startup

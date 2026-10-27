@@ -1,6 +1,6 @@
 ---
 title: Board & governance
-description: Structure the Series A board, fill the independent seat with a real operator, run decision-first meetings, and send a monthly investor update between meetings. Orient composition, cadence, pack, and the update.
+description: Structure the Series A board, fill the independent seat with a real operator, run decision-first meetings, and send a monthly investor update between meetings. Four pages, one decision each.
 slug: board
 section: library
 cluster: board
@@ -13,25 +13,21 @@ draft: false
 
 At Series A, you formalize the board. Seed boards are often founders plus at most one lead. After A, common shapes are 1–1–1 or 2–2–1 with a mutually approved independent as the swing vote. Meet every 6–8 weeks for about 2–3 hours. Send a decision-first pack days ahead, put the hard ask early, batch routine votes, and end with a closed session. Between meetings, send a short monthly investor update in a fixed order so the cap table stays warm without turning email into a board. Not legal, tax, or compensation advice.
 
+:::group Pick your question
+- [When to add an independent director (who and equity)](/library/board/when-to-add-independent-director/): Series A is the standard trigger (CRV). Fill the tie-break with a former operator who will disagree with both sides. Carta medians for independent grants: 0.50% seed / 0.40% Series A / 0.30% Series B. CRV: typically under 1%, vest 2–4 years. Cash usually waits until ~Series B.
+- [How to run a Series A board meeting](/library/board/series-a-board-meeting-agenda/): a decision-first pack, a highlights/lowlights open, the hard item early, a consent agenda, and a closed session. Includes a timed ~2.5 hour composite from Feld’s three-block structure plus Lightspeed’s open and CRV’s decision wording.
+- [Monthly investor update template](/library/board/monthly-investor-update/): short monthly email in a fixed order (TL;DR, same KPIs, highlights, lowlights with the fix, asks, cash/burn/runway, shout-outs). Warp/YC + Founder Collective skeleton with Visible cadence benchmarks on the page. Keeps investors warm between meetings; not a substitute for the board pack.
+- [How to tell the board you missed the plan](/library/board/missed-plan-reforecast/): call each director before the pack, show the gap against the approved plan, split timing slips from lost revenue, and bring a reforecast with the cash plan. Base rates and sources are on the page.
+:::
+
 :::takeaways
 - Structure: seed boards are often three voting seats (founders plus lead). Series A commonly expands to three to five (CRV). Post–A norms include 1–1–1 or 2–2–1 with a mutually agreed independent.
 - Independent: Series A is the usual trigger (CRV). Drive the shortlist yourself. Equity is typically under 1%, with Carta medians 0.50% seed / 0.40% Series A / 0.30% Series B for independents only.
 - Cadence: every 6–8 weeks, about 2–3 hours (Lightspeed / Unusual). Pack ≥48 hours ahead (Feld) or 5–7 days on a fuller pack (CRV).
 - Between meetings: short monthly investor update in a fixed order (TL;DR, KPIs, highlights, lowlights, asks, cash/burn/runway, shout-outs). See [monthly investor update](/library/board/monthly-investor-update/).
 - Live time: hard decision first after a short open. Updates are not decisions ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)). Consent agenda for routine votes. Closed session at the end.
-- Pack metrics: runway, burn, plan vs actual, and retention without masking live on the [finance hub](/library/finance/). Do not rebuild formulas in the room.
+- Pack metrics: runway, burn, plan vs actual, and retention without masking live on [finance, metrics & runway](/library/finance/). Do not rebuild formulas in the room.
 :::
-
-## Spokes in this cluster
-
-:::highlight
-This cluster covers four governance habits: who sits and votes, how you run the room, how you keep investors informed between meetings, and how you report a missed plan.
-:::
-
-- [When to add an independent director (who and equity)](/library/board/when-to-add-independent-director/): Series A is the standard trigger (CRV). Fill the tie-break with a former operator who will disagree with both sides. Carta medians for independent grants: 0.50% seed / 0.40% Series A / 0.30% Series B. CRV: typically under 1%, vest 2–4 years. Cash usually waits until ~Series B.
-- [How to run a Series A board meeting](/library/board/series-a-board-meeting-agenda/): a decision-first pack, a highlights/lowlights open, the hard item early, a consent agenda, and a closed session. Includes a timed ~2.5 hour composite from Feld’s three-block structure plus Lightspeed’s open and CRV’s decision wording.
-- [Monthly investor update template](/library/board/monthly-investor-update/): short monthly email in a fixed order (TL;DR, same KPIs, highlights, lowlights with the fix, asks, cash/burn/runway, shout-outs). Warp/YC + Founder Collective skeleton with Visible cadence benchmarks on the spoke. Keeps investors warm between meetings; not a substitute for the board pack.
-- [How to tell the board you missed the plan](/library/board/missed-plan-reforecast/): call each director before the pack, show the gap against the approved plan, split timing slips from lost revenue, and bring a reforecast with the cash plan. Base rates and sources live on the spoke.
 
 ## Which decision → when → where
 
@@ -74,7 +70,7 @@ Seed: keep it light. Series A: negotiate seats, then run a working session. Late
 Size the pool before you staff the board and the C-suite, because both draw on it.
 :::
 
-Independent grants draw on the same option pool as VP offers. Size bottoms-up with [option pool from a hiring plan](/library/equity/option-pool-from-hiring-plan/). Peer executive bands live on [executive grants by stage](/library/equity/executive-grants-by-stage/). When the board asks which exec seat comes first after the raise, use the [Series A leadership hiring sequence](/library/hiring/series-a-leadership-hiring-sequence/) and the [hiring hub](/library/hiring/). Finance seat timing sits on [fractional vs full-time CFO](/library/finance/fractional-vs-full-time-cfo/).
+Independent grants draw on the same option pool as VP offers. Size bottoms-up with [option pool from a hiring plan](/library/equity/option-pool-from-hiring-plan/). Peer executive bands live on [executive grants by stage](/library/equity/executive-grants-by-stage/). When the board asks which exec seat comes first after the raise, use the [Series A leadership hiring sequence](/library/hiring/series-a-leadership-hiring-sequence/) and the rest of [hiring executives](/library/hiring/). Finance seat timing sits on [fractional vs full-time CFO](/library/finance/fractional-vs-full-time-cfo/).
 
 ## Sources
 

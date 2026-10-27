@@ -198,7 +198,7 @@ Each one feels like progress while the base drains.
 This page keeps the customers. The sibling pages win them and report on them.
 :::
 
-Run the calls that win them with [customer development as your early sales funnel](/library/gtm/customer-development-sales-funnel/). Handle pilot feedback inside the agreed scope with [how to convert a pilot to a paid contract](/library/gtm/pilot-to-paid-contract/). Write feedback duties into the paper with [how to negotiate your first customer contract](/library/gtm/first-customer-contract/). Report retention to the board with [NRR vs GRR for the board pack](/library/finance/nrr-vs-grr-board-pack/). Orient the rest of the motion from the [GTM hub](/library/gtm/).
+Run the calls that win them with [customer development as your early sales funnel](/library/gtm/customer-development-sales-funnel/). Handle pilot feedback inside the agreed scope with [how to convert a pilot to a paid contract](/library/gtm/pilot-to-paid-contract/). Write feedback duties into the paper with [how to negotiate your first customer contract](/library/gtm/first-customer-contract/). Report retention to the board with [NRR vs GRR for the board pack](/library/finance/nrr-vs-grr-board-pack/). See every go-to-market decision by stage on [go-to-market](/library/gtm/).
 
 ## Sources
 

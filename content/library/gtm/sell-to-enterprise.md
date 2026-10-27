@@ -155,7 +155,7 @@ Each one adds months or kills the deal in a room you are not in.
 This page gets you to a buyer who wants to buy. The sibling pages cover proof, paper, and the first sales hire.
 :::
 
-Structure the proof with [how to convert a pilot to a paid contract](/library/gtm/pilot-to-paid-contract/). Write the order form with [how to negotiate your first customer contract](/library/gtm/first-customer-contract/). Lead the deck with the job the buyer needs done on [how to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/). Once the founder-led motion repeats, time the first sales leader with [when to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/). Orient the rest of the motion from the [GTM hub](/library/gtm/).
+Structure the proof with [how to convert a pilot to a paid contract](/library/gtm/pilot-to-paid-contract/). Write the order form with [how to negotiate your first customer contract](/library/gtm/first-customer-contract/). Lead the deck with the job the buyer needs done on [how to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/). Once the founder-led motion repeats, time the first sales leader with [when to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/). See every go-to-market decision by stage on [go-to-market](/library/gtm/).
 
 ## Sources
 

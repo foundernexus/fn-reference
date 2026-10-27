@@ -99,7 +99,7 @@ Use these as yes/no signals. One yes rarely justifies the hire; several together
 5. **IPO or major transaction is near.** Kruze: near-IPO needs a full-time CFO ASAP.
 6. **Hire for the phase.** The operator who built the model for the A may not be the operator who runs a 20-person finance function toward B. Say the phase out loud in the offer ([VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library)).
 
-If the board pack is still a scramble every quarter but books are clean, buy fractional first. The hiring sequence spoke works through that situation. Keep retention metrics honest on the pack with [NRR vs GRR](/library/finance/nrr-vs-grr-board-pack/) and efficiency with [burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/).
+If the board pack is still a scramble every quarter but books are clean, buy fractional first. The [Series A leadership hiring sequence](/library/hiring/series-a-leadership-hiring-sequence/) works through that situation. Keep retention metrics honest on the pack with [NRR vs GRR](/library/finance/nrr-vs-grr-board-pack/) and efficiency with [burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/).
 
 ## Sources
 

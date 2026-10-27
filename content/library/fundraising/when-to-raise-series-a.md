@@ -123,7 +123,7 @@ Most wasted processes start too late on cash or too early on evidence.
 
 **Skipping GTM transfer.** If only founders close, Series A capital buys more of the same bottleneck.
 
-**Building a second “investor forecast.”** Underscore’s hygiene bar (on the diligence spoke) is the same here: share the forecast you run the company on.
+**Building a second “investor forecast.”** Underscore’s hygiene bar (on the diligence checklist page) is the same here: share the forecast you run the company on.
 
 ## Sources
 

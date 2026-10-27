@@ -392,6 +392,75 @@ BRAND_RULES = [
 ]
 
 
+# Internal planning language must never reach a reader. These words describe how we
+# organize the site (topic pages, link structure, search targets), not what the reader
+# gets. Whole-file check: covers Sources, tables, and frontmatter description/close/title,
+# and in --dist mode every visible string plus meta tags and JSON-LD.
+INTERNAL_LANGUAGE = [
+    re.compile(r"\bspokes?\b", I),
+    re.compile(r"hub[- ]and[- ]spoke", I),
+    re.compile(r"\bhubs?\b(?! page| network)", I),
+    re.compile(r"\b(?:this|the|content|topic|seo|keyword) clusters?\b(?! around)", I),
+    re.compile(r"\bclustered by\b", I),
+    re.compile(r"\bpillar (?:page|post|content)s?\b", I),
+    re.compile(r"SEO[- ]BRIEF", I),
+    re.compile(r"\btarget[ _-]quer(?:y|ies)\b", I),
+    re.compile(r"\bmoney (?:query|queries|page|pages|keyword|keywords)\b", I),
+    re.compile(r"\bhead terms?\b", I),
+    re.compile(r"inventory\.md|ops/inventory|\bthe inventory\b", I),
+    re.compile(r"\bthis hub\b|\bthis (?:page|section|topic) (?:collects|orients|gathers)\b", I),
+    re.compile(r"(?:^|[.!?:;]\s+|\)\s+)Orient\b"),
+]
+INTERNAL_MSG = ("Internal planning language (spoke, hub, cluster, target query, brief, inventory). "
+                "Say what the reader gets: 'page', 'topic', the topic name, or the page title.")
+_FM_PUBLIC = ("description", "close", "title")
+_MD_LINK_TARGET = re.compile(r"\]\([^)]*\)")
+
+
+def _internal_scan(lines_iter, kind: str):
+    out = []
+    for n, line in lines_iter:
+        for pat in INTERNAL_LANGUAGE:
+            for m in pat.finditer(line):
+                out.append((n, "HARD", "internal-language", m.group(0).strip(), line.strip()[:400], INTERNAL_MSG, kind))
+    return out
+
+
+def internal_hits_md(path: Path):
+    text = path.read_text(encoding="utf-8")
+    lines = text.splitlines()
+    fm_end = 0
+    if text.startswith("---"):
+        end = text.find("\n---", 3)
+        fm_end = text[:end].count("\n") + 1 if end != -1 else 0
+    keep = []
+    for n, line in enumerate(lines, 1):
+        if 1 < n <= fm_end:
+            key = line.split(":", 1)[0].strip()
+            if key not in _FM_PUBLIC:
+                continue
+        elif n == 1 and fm_end:
+            continue
+        keep.append((n, URL.sub(" ", _MD_LINK_TARGET.sub("]", COMMENT.sub(" ", line)))))
+    return _internal_scan(keep, "raw")
+
+
+_DIST_DROP = re.compile(
+    r"<style\b.*?</style>|<script\b(?![^>]*application/(?:ld\+)?json)[^>]*>.*?</script>", re.S | re.I)
+_DIST_ATTR = re.compile(r'\b(?:content|alt|title|aria-label|placeholder)="([^"]*)"', re.I)
+
+
+def internal_hits_dist(path: Path):
+    import html as _html
+    raw = _DIST_DROP.sub(" ", path.read_text(encoding="utf-8"))
+    attrs = " \n".join(_DIST_ATTR.findall(raw))
+    text = re.sub(r"<[^>]+>", "\n", raw)
+    text = _html.unescape(text + "\n" + _html.unescape(attrs))
+    text = URL.sub(" ", text)
+    units = [(i + 1, " ".join(u.split())) for i, u in enumerate(text.split("\n")) if u.strip()]
+    return _internal_scan(units, "html+meta+jsonld")
+
+
 def brand_hits(path: Path):
     try:
         lines = path.read_text(encoding="utf-8").splitlines()
@@ -436,6 +505,7 @@ def main() -> int:
         hits = scan_units(units, args.soft)
         if not args.generated:
             hits += brand_hits(f)
+            hits += internal_hits_dist(f) if args.dist else internal_hits_md(f)
         rel = f.relative_to(ROOT).as_posix() if f.is_relative_to(ROOT) else str(f)
         h = sum(1 for x in hits if x[1] == "HARD")
         s = sum(1 for x in hits if x[1] == "soft")

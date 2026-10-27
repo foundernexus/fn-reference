@@ -196,7 +196,7 @@ Each one makes a buyer who already heard of you do extra work to say yes.
 This page turns a visit into a conversation. The sibling pages cover the message, the motion, and the traffic.
 :::
 
-For an AI product, decide what the headline leads with using [how to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/). Move each qualified demo into [customer development as your early sales funnel](/library/gtm/customer-development-sales-funnel/). If you have no customers yet, run the page as a test with [how to validate demand before you build](/library/gtm/validate-demand-before-you-build/). Split writing hours between converting pages and category answers with [AEO vs SEO for B2B SaaS](/library/gtm/aeo-vs-seo-b2b-saas/). Set the charge metric with [seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/). Orient the rest of the motion from the [GTM hub](/library/gtm/).
+For an AI product, decide what the headline leads with using [how to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/). Move each qualified demo into [customer development as your early sales funnel](/library/gtm/customer-development-sales-funnel/). If you have no customers yet, run the page as a test with [how to validate demand before you build](/library/gtm/validate-demand-before-you-build/). Split writing hours between converting pages and category answers with [AEO vs SEO for B2B SaaS](/library/gtm/aeo-vs-seo-b2b-saas/). Set the charge metric with [seat vs usage vs outcome pricing](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/). See every go-to-market decision by stage on [go-to-market](/library/gtm/).
 
 ## Sources
 

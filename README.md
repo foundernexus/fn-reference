@@ -13,7 +13,7 @@ Do not turn this into a landing page.
 - Header wordmark is the text **Founder Decisions** (Plus Jakarta Sans 700, navy #01052A). No VEN or FounderNexus lockup or mark in the header or favicon.
 - No “Apply now” in global nav. No membership pitch, conversion column, or second navy band.
 - No “community” language. No “the room is the product.”
-- On an article, a contextual close is optional: one short paragraph plus a text link to VEN as a next step, not as publisher. Under it the build may add one quiet “Go deeper: VEN playbook on …” link from `VEN_PLAYBOOKS` in build.py (genuine topic match only; see SEO-BRIEF). No CTA card, no header button, no “Published by VEN.” Do not put this on the homepage. Never name The Startup Bible; playbook pages are linked only through the `VEN_PLAYBOOKS` mapping and never copied.
+- On an article, a contextual close is optional: one short paragraph plus a text link to VEN as a next step, not as publisher. Under it the build may add one quiet “Go deeper: VEN playbook on …” link from `VEN_PLAYBOOKS` in build.py (genuine topic match only; see SEO-BRIEF). No CTA card, no header button, no “Published by VEN.” The homepage carries one quiet VEN text line at the bottom (`HOME_VEN_URL`, utm_campaign=home); no other VEN element on the homepage. Never name The Startup Bible; playbook pages are linked only through the `VEN_PLAYBOOKS` mapping and never copied.
 - `cta` in frontmatter is optional. The build does not fail if a page has none.
 
 ## Voice
@@ -25,6 +25,8 @@ Short sentences. Vary length. Default to periods, not em dashes.
 Stop-slop is required. Every new or edited owned page follows `ops/stop-slop/RULES.md` (adapted from [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop), MIT) and passes the gate in `ops/stop-slop/GATE.md` before push: no em dashes, no named adverbs or jargon, no binary contrasts, active voice with a named actor. Numbers, citations, and `## Sources` stay exactly as written.
 
 Do not use: “It’s important to note”, “in today’s landscape”, “when it comes to”, “delve”, “utilize”, “leverage”, “robust”, “unlock”, “the bottom line”, “in conclusion”, “not just X, but Y”, stacked hedges, or throat-clearing.
+
+Internal words stay internal. Never write spoke, hub, cluster, pillar, target query, money page, SEO-BRIEF, inventory, or an “Orient…” / “this hub collects…” note in anything a reader sees: body, tables, Sources, `description`, `close`, `title`, link text. Say “page”, “topic”, or the topic name (“finance, metrics & runway”). Frontmatter keys such as `cluster:` and `target_query:` are fine; they never render. `check.py` fails these as HARD `internal-language`.
 
 Do not announce that you are being careful. Just be careful. Name VEN in the body only as a “VEN session” cite or in the closing paragraph. The first visible mention renders as “VEN (Venture Executive Network)” automatically.
 
@@ -39,6 +41,7 @@ Supported in `render_markdown` (library/compare/about bodies only; not fn-conten
 - `:::takeaways` / `:::takeaway` — In short box (optional label after the fence name).
 - `:::highlight` / `:::note` — thin blue left rule.
 - `:::steps` / `:::step` — numbered step/layer stack (CSS-only). Prefer an ordered list inside; optional label after the fence name.
+- `:::group <Question label>` — topic-page pick list. Each line `- [Page title](/path/): one-line answer`. Consecutive groups render as one two-column grid. Topic pages (`_hub.md`) lead with these, grouped by the question a founder asks, before any long table.
 
 ```md
 :::steps How to run it
@@ -66,7 +69,7 @@ Vercel: `vercel.json` runs `python3 build.py` and serves `dist/`. Set `FN_CONTEN
 
 1. Add or edit a Markdown file under content/.
 2. Stop-slop gate (required, see ops/stop-slop/GATE.md):
-   - `python3 ops/stop-slop/check.py --changed` must report `HARD=0`. Fix every HARD hit; read `--soft` and fix what a plainer sentence fixes.
+   - `python3 ops/stop-slop/check.py --changed` must report `HARD=0`. After the build, `python3 ops/stop-slop/check.py --dist` must also report `HARD=0` (catches internal words in meta tags, JSON-LD, and template strings). Fix every HARD hit; read `--soft` and fix what a plainer sentence fixes.
    - When you edited an existing page: `python3 ops/stop-slop/facts_guard.py origin/main` must print PASS (same numbers, URLs, Sources, title, slug).
    - Read the page against ops/stop-slop/RULES.md and score it (Directness, Rhythm, Trust, Authenticity, Density). Below 35/50: revise.
    - Record `stop-slop: pass (HARD=0, score NN/50)` in the commit body and the ops/inventory.md row.

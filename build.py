@@ -70,37 +70,37 @@ CLUSTERS = {
     "equity": {
         "section": "library",
         "title": "Equity & cap table",
-        "description": "Option pool size, executive grants as pool draws, and pre-money dilution through the next round.",
+        "description": "Size the option pool, check executive grants by stage, and plan the 409A after a priced round.",
     },
     "hiring": {
         "section": "library",
         "title": "Hiring executives",
-        "description": "When the first VP is a true VP, and when the motion is still founder-led.",
+        "description": "When to hire the first VP, which leadership seat comes first after Series A, and how to onboard them.",
     },
     "finance": {
         "section": "library",
         "title": "Finance, metrics & runway",
-        "description": "Runway with a hiring plan, burn multiple, Rule of 40, and the efficiency metrics boards ask for.",
+        "description": "Burn multiple, NRR and GRR, what counts as ARR, AI gross margin, and when to hire a CFO.",
     },
     "board": {
         "section": "library",
         "title": "Board & governance",
-        "description": "Series A board cadence, decision-first agendas, packs, and closed-session norms.",
+        "description": "Build the Series A board, run the meeting, write the monthly update, and report a missed plan.",
     },
     "gtm": {
         "section": "library",
         "title": "Go-to-market",
-        "description": "Pick the GTM decision in front of you. Orient AI SDR, messaging, pricing, AEO, founder PR, data moats, and coding-agent bets.",
+        "description": "Find, win, and keep your first customers: demand tests, pilots, contracts, pricing, and enterprise deals.",
     },
     "fundraising": {
         "section": "library",
         "title": "Fundraising",
-        "description": "Pick the fundraising decision in front of you. Orient Seed instrument choice, Series A readiness timing, and data-room staging before you open outreach.",
+        "description": "From the first angel check to the Series A data room: decks, SAFEs, term sheets, venture debt, and runway.",
     },
     "rooms": {
         "section": "library",
         "title": "Founder rooms",
-        "description": "Pick the peer room or coaching format by stage fit. Orient YPO, EO, Hampton, and venture-scale rooms against coaching.",
+        "description": "Compare peer groups, CEO forums, and executive coaching by stage, price, and who gets in.",
     },
 }
 
@@ -214,6 +214,24 @@ def render_markdown(src: str) -> str:
                 i += 1
             if i < len(lines) and lines[i].strip() == ":::":
                 i += 1
+            if kind == "group":
+                # :::group Label … ::: with "- [Title](/path/): one line" items → a
+                # scannable pick list. Consecutive groups share one grid (see end).
+                lis = []
+                for ln in buf:
+                    m = re.match(r"^\s*[-*]\s+\[([^\]]+)\]\(([^)]+)\)\s*:?\s*(.*)$", ln)
+                    if not m:
+                        continue
+                    lis.append(
+                        f'<li><a href="{html.escape(m.group(2), quote=True)}">'
+                        f'<span class="pick-title">{html.escape(m.group(1))}</span>'
+                        f'<span class="pick-desc">{inline_md(m.group(3))}</span></a></li>'
+                    )
+                out.append(
+                    f'<section class="pick-group"><h3 class="pick-label">{html.escape(label.strip())}</h3>'
+                    f'<ul class="pick-list">{"".join(lis)}</ul></section>'
+                )
+                continue
             inner_html = render_markdown("\n".join(buf))
             if kind in ("takeaways", "takeaway"):
                 label = label.strip() or "In short"
@@ -306,7 +324,16 @@ def render_markdown(src: str) -> str:
             buf.append(lines[i])
             i += 1
         out.append(f"<p>{inline_md(' '.join(buf))}</p>")
-    return "\n".join(out)
+    merged: list[str] = []
+    for block in out:
+        if block.startswith('<section class="pick-group">'):
+            if merged and merged[-1].startswith('<div class="pick-grid">'):
+                merged[-1] = merged[-1][: -len("</div>")] + block + "</div>"
+            else:
+                merged.append(f'<div class="pick-grid">{block}</div>')
+        else:
+            merged.append(block)
+    return "\n".join(merged)
 
 
 def _looks_numeric(text: str) -> bool:
@@ -1382,56 +1409,176 @@ def calculator_prose(body_md: str, mount_html: str) -> str:
     )
 
 
+# Homepage curation. Picks come from Search Console page impressions (W44 readout,
+# 18-24 Oct 2026: executive grants by stage leads, then pilot to paid, venture debt,
+# seed deck, validate demand, usage revenue). Refresh at the weekly review.
+HOME_START_HERE: list[tuple[str, str]] = [
+    ("library/equity/executive-grants-by-stage", "Seed, Series A, and Series B equity bands for VP and C-level offers."),
+    ("library/gtm/pilot-to-paid-contract", "Charge for the pilot and write the conversion terms before kickoff."),
+    ("library/fundraising/venture-debt", "When a venture loan fits after a round, how much, and which terms to fight."),
+    ("library/fundraising/seed-pitch-deck", "What each slide must answer and where investors spend their time."),
+    ("library/gtm/validate-demand-before-you-build", "Write the demand bet as a number and ask for money before code."),
+    ("library/finance/usage-revenue-as-arr", "Which usage and AI revenue counts as ARR, and how to show it to the board."),
+]
+HOME_TOPIC_ORDER = ["fundraising", "equity", "hiring", "board", "finance", "gtm", "rooms"]
+# Three links per topic tile, most useful first. Missing keys fall back to the newest pages.
+HOME_TOPIC_TOP: dict[str, list[str]] = {
+    "fundraising": ["library/fundraising/when-to-raise-series-a", "library/fundraising/safe-vs-priced-round", "library/fundraising/seed-fundraising-process"],
+    "equity": ["library/equity/executive-grants-by-stage", "library/equity/option-pool-from-hiring-plan", "library/equity/409a-after-priced-round"],
+    "hiring": ["library/hiring/when-to-hire-first-vp-sales", "library/hiring/series-a-leadership-hiring-sequence", "library/hiring/onboard-first-executive"],
+    "board": ["library/board/monthly-investor-update", "library/board/when-to-add-independent-director", "library/board/series-a-board-meeting-agenda"],
+    "finance": ["library/finance/burn-multiple-vs-rule-of-40", "library/finance/nrr-vs-grr-board-pack", "library/finance/ai-gross-margin-inference-cogs"],
+    "gtm": ["library/gtm/first-customer-contract", "library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas", "library/gtm/sell-to-enterprise"],
+    "rooms": ["compare/executive-coaching-vs-founder-peer-group", "compare/ypo-vs-hampton-vs-venture-scale-room"],
+}
+HOME_TOOL_LINES: dict[str, str] = {
+    "tools/executive-equity-calculator": "Check a VP grant against cited bands and your pool.",
+    "tools/runway-calculator": "Months to cash-out with your hiring plan in it.",
+    "tools/option-pool-shuffle-calculator": "Who pays for a pre-money pool top-up.",
+    "tools/magic-number-cac-payback-calculator": "Magic number and CAC payback side by side.",
+    "tools/ai-gross-margin-calculator": "Gross margin with inference cost counted.",
+}
+HOME_POPULAR: list[tuple[str, str]] = [
+    ("VP equity by stage", "/library/equity/executive-grants-by-stage/"),
+    ("When to raise Series A", "/library/fundraising/when-to-raise-series-a/"),
+    ("SAFE or priced round", "/library/fundraising/safe-vs-priced-round/"),
+    ("Runway calculator", "/tools/runway-calculator/"),
+]
+HOME_VEN_URL = "https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=home&utm_content=home"
+
+
+def _topic_label(p: dict) -> str:
+    cl = CLUSTERS.get(p.get("cluster") or "")
+    if cl:
+        return cl["title"]
+    return SECTIONS.get(p["section"], {}).get("kicker") or p["section"].title()
+
+
+def home_search_index(pages: list[dict]) -> str:
+    """Small inline JSON index (title, line, topic, url) for the homepage finder."""
+    items = []
+    for p in pages:
+        if p["section"] not in SECTIONS and p.get("layout") != "hub":
+            continue
+        items.append({
+            "t": p["title"],
+            "d": p["description"],
+            "k": _topic_label(p) if p.get("layout") != "hub" else "Topic",
+            "u": url(p["path"]),
+        })
+    raw = json.dumps(items, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    return f'<script type="application/json" id="fd-index">{raw}</script>'
+
+
 def render_home(pages: list[dict]) -> str:
-    latest = sorted(content_pages(pages), key=lambda p: p["date"], reverse=True)
-    cluster_cards = []
-    for cid, cl in CLUSTERS.items():
-        n = sum(1 for p in pages if p.get("cluster") == cid)
-        cluster_cards.append(
-            f"""<a class="card" href="{url('/' + cl['section'] + '/' + cid + '/')}">
-  <div><span class="chip">{html.escape(SECTIONS[cl['section']]['kicker'])}</span></div>
-  <h3>{html.escape(cl['title'])}</h3>
-  <p>{html.escape(cl['description'])}</p>
-  <p class="meta">{n} {'page' if n == 1 else 'pages'}</p>
-</a>"""
+    owned = [p for p in content_pages(pages) if p.get("layout") != "hub"]
+    by_key = {page_key(p): p for p in owned}
+    latest = sorted(owned, key=lambda p: (p["date"], p["title"]), reverse=True)
+    esc = html.escape
+
+    # Start here
+    start_cards = []
+    for key, line in HOME_START_HERE:
+        p = by_key.get(key)
+        if not p:
+            continue
+        start_cards.append(
+            f'<a class="card card-compact" href="{url(p["path"])}">'
+            f'<span class="card-topic">{esc(_topic_label(p))}</span>'
+            f'<h3>{esc(p["title"])}</h3><p>{esc(line)}</p></a>'
         )
+
+    # Topic tiles
+    tiles = []
+    for cid in HOME_TOPIC_ORDER:
+        cl = CLUSTERS[cid]
+        in_topic = [p for p in owned if p.get("cluster") == cid]
+        n = len(in_topic)
+        picks = [by_key[k] for k in HOME_TOPIC_TOP.get(cid, []) if k in by_key]
+        for p in sorted(in_topic, key=lambda p: p["date"], reverse=True):
+            if len(picks) >= 3:
+                break
+            if p not in picks:
+                picks.append(p)
+        hub = url(f"/{cl['section']}/{cid}/")
+        lis = "".join(f'<li><a href="{url(p["path"])}">{esc(p["title"])}</a></li>' for p in picks[:3])
+        tiles.append(
+            f'<div class="topic-tile">'
+            f'<h3><a href="{hub}">{esc(cl["title"])}</a></h3>'
+            f'<p class="topic-desc">{esc(cl["description"])}</p>'
+            f'<ul class="topic-links">{lis}</ul>'
+            f'<a class="topic-all" href="{hub}">All {n} {"page" if n == 1 else "pages"}<span aria-hidden="true"> →</span></a>'
+            f"</div>"
+        )
+
+    # Tools
+    tools = sorted((p for p in owned if p["section"] == "tools"), key=lambda p: list(HOME_TOOL_LINES).index(page_key(p)) if page_key(p) in HOME_TOOL_LINES else 99)
+    tool_cards = "".join(
+        f'<a class="tool-card" href="{url(p["path"])}"><span class="tool-title">{esc(p["title"].split(":")[0])}</span>'
+        f'<span class="tool-line">{esc(HOME_TOOL_LINES.get(page_key(p), ""))}</span></a>'
+        for p in tools
+    )
+
+    # Newest
+    new_rows = "".join(
+        f'<li><a href="{url(p["path"])}"><span class="list-title">{esc(p["title"])}</span>'
+        f'<span class="new-meta">{esc(_topic_label(p))} · {esc(p["date"])}</span></a></li>'
+        for p in latest[:4]
+    )
+    popular = "".join(f'<a href="{url(h)}">{esc(t)}</a>' for t, h in HOME_POPULAR)
+
     body = f"""<main id="main">
-  <section class="page-hero home-hero">
+  <section class="home-hero">
     <div class="wrap">
-      <p class="eyebrow">{html.escape(SITE_NAME)}</p>
-      <h1>{html.escape(TAGLINE.rstrip('.'))}</h1>
-      <p class="lead">Public ranges, tables, and calculators for the grants and hires you write. One challenge at a time.</p>
+      <h1>{esc(TAGLINE.rstrip('.'))}</h1>
+      <p class="lead">Cited ranges, tables, and calculators for the calls between seed and Series B: the raise, the grant, the first VP, the board, and your first customers.</p>
+      <form class="home-search" action="{url('/library/')}" method="get" role="search">
+        <label class="home-search-label" for="home-q">What decision are you facing?</label>
+        <input id="home-q" name="q" type="search" placeholder="Try VP equity, SAFE, runway, or pilot" autocomplete="off" aria-controls="home-results">
+        <ul id="home-results" class="home-results" hidden></ul>
+      </form>
+      <p class="home-popular"><span>Popular</span>{popular}</p>
+      <p class="home-trust">Every number links to its source. When sources disagree, the page shows both.</p>
     </div>
   </section>
-  <section class="how-strip" aria-label="How these pages work">
+  <section class="section home-block">
     <div class="wrap">
-      <p class="how-strip-label">How these pages work</p>
-      <ul class="how-strip-list">
-        <li><strong>One challenge</strong> Each page covers a single decision, not a curriculum.</li>
-        <li><strong>Cited ranges</strong> Tables and bands stay attributed to the source that published them.</li>
-        <li><strong>Disagreements shown</strong> When sources conflict, the page shows the split instead of averaging it away.</li>
-      </ul>
+      <div class="home-head"><h2 class="section-title">Start here</h2><p class="home-sub">The questions founders search for most</p></div>
+      <div class="grid grid-3">{''.join(start_cards)}</div>
     </div>
   </section>
-  <section class="section">
+  <section class="section section-alt home-block">
     <div class="wrap">
-      <h2 class="section-title">Latest pages</h2>
-      {page_cards(latest)}
+      <div class="home-head"><h2 class="section-title">Browse by topic</h2><a class="home-more" href="{url('/library/')}">Full library: {len([p for p in owned if p['section'] == 'library'])} pages<span aria-hidden="true"> →</span></a></div>
+      <div class="topic-grid">{''.join(tiles)}</div>
     </div>
   </section>
-  <section class="section section-alt">
+  <section class="section home-block">
     <div class="wrap">
-      <h2 class="section-title">Topics</h2>
-      <div class="grid grid-2">{''.join(cluster_cards)}</div>
+      <div class="home-head"><h2 class="section-title">Calculators</h2><a class="home-more" href="{url('/tools/')}">All tools<span aria-hidden="true"> →</span></a></div>
+      <div class="tool-row">{tool_cards}</div>
     </div>
   </section>
+  <section class="section section-alt home-block">
+    <div class="wrap">
+      <div class="home-head"><h2 class="section-title">New this week</h2><p class="home-sub">One new decision page every day</p></div>
+      <ul class="page-list new-list">{new_rows}</ul>
+    </div>
+  </section>
+  <section class="home-ven">
+    <div class="wrap">
+      <p>Working through one of these calls right now? <a href="{esc(HOME_VEN_URL, quote=True)}" data-fn-click="home">VEN</a> runs small sessions where founders who have made it pressure-test yours.</p>
+    </div>
+  </section>
+  {home_search_index(pages)}
 </main>"""
     return base(
         title=TAGLINE.rstrip("."),
-        description="Public ranges, tables, and calculators for venture-scale founders. Clustered by challenge.",
+        description="Cited ranges, tables, and calculators for venture-scale founders: fundraising, equity, executive hiring, the board, finance, and go-to-market.",
         canonical_path="/",
         body=body,
         active=None,
+        extra_js="home-search.js",
         extra_head=home_json_ld(),
     )
 
@@ -1518,7 +1665,7 @@ def render_cluster(cid: str, pages: list[dict]) -> str:
     listing = (
         page_cards(subset)
         if subset
-        else '<div class="empty"><p>No pages in this cluster yet.</p></div>'
+        else '<div class="empty"><p>No pages in this topic yet.</p></div>'
     )
     path = f"/{cl['section']}/{cid}/"
     trail = [
@@ -1534,6 +1681,24 @@ def render_cluster(cid: str, pages: list[dict]) -> str:
             if date
             else f'<p class="eyebrow">{html.escape(sec["kicker"])}</p>'
         )
+        # Pages already listed in the hub's own pick lists are not repeated as cards.
+        linked = set(re.findall(r"\]\((/[^)#]+)\)", hub["_body"]))
+        rest = [p for p in subset if p["path"] not in linked]
+        more_section = ""
+        if rest or not subset:
+            rows = "".join(
+                f'<li><a href="{url(p["path"])}"><span class="list-title">{html.escape(p["title"])}</span>'
+                f'<span class="list-desc">{html.escape(p["description"])}</span></a></li>'
+                for p in sorted(rest, key=lambda p: p["date"], reverse=True)
+            )
+            inner = f'<ul class="page-list">{rows}</ul>' if rest else listing
+            label = "More in this topic" if linked & {p["path"] for p in subset} else "In this topic"
+            more_section = f"""<section class="section">
+    <div class="wrap">
+      <h2 class="section-title">{label}</h2>
+      {inner}
+    </div>
+  </section>"""
         editorial = (
             f'<article class="prose article-width">'
             f'{render_markdown(hub["_body"])}'
@@ -1551,12 +1716,7 @@ def render_cluster(cid: str, pages: list[dict]) -> str:
     </div>
   </section>
   {editorial}
-  <section class="section">
-    <div class="wrap">
-      <h2 class="section-title">In this topic</h2>
-      {listing}
-    </div>
-  </section>
+  {more_section}
 </main>"""
     else:
         body = f"""<main id="main">

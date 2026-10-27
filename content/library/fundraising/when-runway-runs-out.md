@@ -134,10 +134,10 @@ Most late failures compound from delay, fantasy growth, and silence to the board
 ## Pair with finance and fundraising siblings
 
 :::highlight
-Cash math lives with finance tools. Raise shape lives with fundraising spokes. Keep one glossary.
+Cash math lives with finance tools. Raise shape lives on the fundraising pages. Keep one glossary.
 :::
 
-Use the [runway calculator](/tools/runway-calculator/) for snapshot vs plan. Use [burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/) when the board asks efficiency while you cut. Orient other board metrics from the [finance hub](/library/finance/). If the path is a raise, sequence [first angel check](/library/fundraising/first-angel-check/), [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/), and [when to raise Series A](/library/fundraising/when-to-raise-series-a/) from the [fundraising hub](/library/fundraising/).
+Use the [runway calculator](/tools/runway-calculator/) for snapshot vs plan. Use [burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/) when the board asks efficiency while you cut. Find the other board metrics in [finance, metrics & runway](/library/finance/). If the path is a raise, sequence [first angel check](/library/fundraising/first-angel-check/), [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/), and [when to raise Series A](/library/fundraising/when-to-raise-series-a/) from the [fundraising pages](/library/fundraising/).
 
 ## Sources
 
@@ -147,7 +147,7 @@ Use the [runway calculator](/tools/runway-calculator/) for snapshot vs plan. Use
 - [Kruze Consulting, Build a Rolling Cash Forecast to Maximize Startup Runway](https://kruzeconsulting.com/blog/build-a-rolling-cash-forecast/) — 22 February 2026. Gross vs net burn; runway = cash ÷ monthly net burn; **$4.2M** / **$350k** example; headcount **60–80%** of burn; average last **3–6** months; cash over P&L.
 - [Carta, State of Private Markets Q1 2024](https://carta.com/sg/en/data/state-of-private-markets-q1-2024/) — Median Seed→A **766** days; A→B **824** days; longer waits imply more runway. Also on the runway calculator.
 - [Carta, Series A Fundraising Q2 2025](https://carta.com/data/series-a-fundraising-q2-2025/) — 19 Sep 2025. Kevin Dowd. Median seed → primary Series A **616** days (~**20** months). On [when to raise Series A](/library/fundraising/when-to-raise-series-a/).
-- [Burkland, How Investors Evaluate Series A Startups in 2026](https://burklandassociates.com/2026/07/21/how-investors-evaluate-series-a-startups-in-2026/) — 21 Jul 2026. Under **6** months runway into the process as desperation; **9–12+** stronger; **3–6** months to close. On the readiness spoke.
+- [Burkland, How Investors Evaluate Series A Startups in 2026](https://burklandassociates.com/2026/07/21/how-investors-evaluate-series-a-startups-in-2026/) — 21 Jul 2026. Under **6** months runway into the process as desperation; **9–12+** stronger; **3–6** months to close. Also cited on [when to raise Series A](/library/fundraising/when-to-raise-series-a/).
 - [David Sacks, The Burn Multiple (Craft Ventures / Medium)](https://medium.com/craft-ventures/the-burn-multiple-51a7e43cb200) — 23 April 2020. Formula and bands; detail on [burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/).
 - [VEN session](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — Operator judgment: score the machine before a panic raise; cut non-critical burn before desperation terms; tell the board early with options. Not a survey.
 

@@ -79,3 +79,4 @@ Weekly 2026-10-23 (Friday review): Startup Bible (now www.venexecs.com/playbooks
 
 - 2026-09-24: `/decisions/` options JSON → choice-card grid in `render_decision_json` (build.py only; no fn-content edit). `:::steps` fence + CSS for library markdown. Screenshots: `ops/screenshots/decisions-options-*-2026-09-24.png`.
 
+- 2026-10-26: Homepage rebuilt as a router (search with inline index + `home-search.js`, Start here from W44 Search Console, topic tiles with 3 picks each, calculators row, 4 newest pages, one quiet VEN line `utm_campaign=home`). Topic pages lead with `:::group` pick lists; GTM and fundraising tables/takeaways removed; "More in this topic" only lists pages the body does not already link. Internal planning words scrubbed from 35 files; new HARD `internal-language` rule in check.py (md + `--dist`). stop-slop: pass (HARD=0, score 38/50).
