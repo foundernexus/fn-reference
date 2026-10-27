@@ -18,6 +18,7 @@ related:
 - library/gtm/sell-to-enterprise
 - library/gtm/conference-to-customers
 - library/gtm/ai-sdr-vs-human
+- library/gtm/repeatable-sales-process
 - library/hiring/when-to-hire-first-vp-sales
 ---
 
@@ -193,4 +194,5 @@ Test willingness to pay before you build with [how to validate demand before you
 - [Selling to the enterprise as an early-stage startup](/library/gtm/sell-to-enterprise/)
 - [How to turn a conference into customers](/library/gtm/conference-to-customers/)
 - [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/)
+- [How to tell if your sales process is repeatable before you hire reps](/library/gtm/repeatable-sales-process/)
 - [When to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/)

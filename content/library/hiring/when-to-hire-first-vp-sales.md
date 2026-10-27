@@ -105,6 +105,7 @@ These are labeled sketches, not real companies.
 ## Related
 
 - [How to onboard your first executive hire](/library/hiring/onboard-first-executive/)
+- [How to tell if your sales process is repeatable before you hire reps](/library/gtm/repeatable-sales-process/)
 - [Selling to the enterprise as an early-stage startup](/library/gtm/sell-to-enterprise/)
 - [Executive equity grants by stage](/library/equity/executive-grants-by-stage/)
 - [Executive equity calculator](/tools/executive-equity-calculator/)

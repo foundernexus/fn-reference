@@ -1,6 +1,6 @@
 ---
 title: Go-to-market
-description: Seventeen go-to-market decisions for seed to Series B founders, grouped by stage. Find your question, read the one-line answer, and open the page with the numbers.
+description: Eighteen go-to-market decisions for seed to Series B founders, grouped by stage. Find your question, read the one-line answer, and open the page with the numbers.
 slug: gtm
 section: library
 cluster: gtm
@@ -23,6 +23,7 @@ Go-to-market for a seed to Series B startup is a set of separate calls, not one 
 - [How to negotiate your first customer contract](/library/gtm/first-customer-contract/): A buyer says yes and asks for your paper. List price, a dated discount, standard terms.
 - [Selling to the enterprise as an early-stage startup](/library/gtm/sell-to-enterprise/): A large account shows interest. Map champion and budget owner, send security proof first.
 - [Strategic partnerships and IP: what to settle before you sign](/library/gtm/strategic-partnership-ip/): A larger company proposes a joint build. Give new work one owner and keep a sale open.
+- [How to tell if your sales process is repeatable before you hire reps](/library/gtm/repeatable-sales-process/): The board wants a sales team. Test buyer, reason, cohorts, and retention, then hire at a pace.
 - [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/): Buying outreach tools before the motion is clear. AI on research, people on the close.
 :::
 
@@ -48,7 +49,7 @@ Go-to-market for a seed to Series B startup is a set of separate calls, not one 
 
 **Seed, founder-led sales.** Validate demand with priced commitments before you write production code. Run discovery calls as one funnel with a written qualified line and a booked next step on each call. Go to a conference with meetings already booked, and judge it by qualified opportunities. After the first sale, close the loop on each blocked task and add customers only as fast as you can serve them. Close the first customers yourself before an AI SDR or a VP of Sales (SaaStr, on the AI SDR page). Write the homepage around the job, not the model, with the buyer and the pain in the first screen and one call to action. DIY the narrative and a short reporter list. Keep pricing hybrid or simple until unit economics are clear. Charge for pilots and write the conversion terms before kickoff. Write the first order form at list price with the discount on its own line. Take enterprise accounts only when the first deployment can stay inside one team, and send the security packet before the buyer asks. Before a larger company co-develops with you, give new work one owner and strike any right of first refusal on a sale.
 
-**Series A, first GTM hires and a repeatable message.** Score any AI SDR seat the way Bridge Group scores humans (on the AI SDR page). Split SEO vs AEO hours with bottom-funnel pages protected. Revisit seat vs usage vs outcome once agents close loops. Audit whether product data forms a loop or only a corpus.
+**Series A, first GTM hires and a repeatable message.** Before the first sales hires, check that won deals share one buyer and one reason, that mature cohorts close at similar rates, and that someone other than a founder can close with the written playbook ([repeatable sales process](/library/gtm/repeatable-sales-process/)). Score any AI SDR seat the way Bridge Group scores humans (on the AI SDR page). Split SEO vs AEO hours with bottom-funnel pages protected. Revisit seat vs usage vs outcome once agents close loops. Audit whether product data forms a loop or only a corpus.
 
 **Later growth or raise narrative.** Soft-ROI copilots face renewal pressure (Bessemer, on the pricing page). Data-moat and delivery-loop claims need eval deltas and stage-by-stage throughput, not PR count or felt-faster alone. Pair GTM efficiency metrics with [finance, metrics & runway](/library/finance/) when the board asks magic number or CAC payback.
 
