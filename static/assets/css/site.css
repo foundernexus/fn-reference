@@ -865,6 +865,7 @@ caption {
   font-size: 16px;
   line-height: 1.45;
   color: var(--navy);
+  font-weight: 600; /* the one-line answer under an H2 reads as the answer, not body copy */
 }
 .prose h2 + .highlight { margin-top: -8px; }
 .disclaimer {
