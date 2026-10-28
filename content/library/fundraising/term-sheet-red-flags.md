@@ -20,6 +20,7 @@ related:
 - library/equity/option-pool-from-hiring-plan
 - tools/option-pool-shuffle-calculator
 - library/board/when-to-add-independent-director
+- library/equity/founder-vesting-83b
 ---
 
 You have a VC term sheet and need to know which lines to fight. Start from the market. In Cooley’s Q2 2026 deals, **95.8%** carried a 1x liquidation preference and **96.4%** used nonparticipating preferred. In Wilson Sonsini’s 1H 2026 deals, **98%** used broad-based weighted average anti-dilution and **1%** used a full ratchet. A term outside that clean set tells you how the investor prices your risk (YC). Fight on price, the liquidation preference, and the board first. Cooley GO treats most of the rest as boilerplate. Not legal, tax, or investment advice.
@@ -100,7 +101,7 @@ Board seats and vetoes decide who runs the company after close. Give them more a
 
 **Vetoes.** YC names the two vetoes with the most impact: on a new financing and on a sale of the company. Cooley GO notes the financing veto is often written as consent to “creation of a new series of stock” or to charter amendments. Feld adds two traps for later rounds. Separate series votes give each class its own veto. A high consent threshold lets a small holder block: his example is **90%** consent, where a new investor with **10.1%** of the financing controls the vote. Feld’s sample debt veto sits at **$100,000**, and he says that threshold is often the first number raised for an operating business.
 
-**Founder vesting.** Cooley GO lists three things to read: the vesting start date, acceleration on termination without cause, and acceleration on a change of control, including double trigger.
+**Founder vesting.** Cooley GO lists three things to read: the vesting start date, acceleration on termination without cause, and acceleration on a change of control, including double trigger. [Founder vesting at a priced round](/library/equity/founder-vesting-83b/) covers credit for time served, acceleration, and the 83(b) clock.
 
 Operator judgment from [VEN sessions](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library): confirm in writing whether the headline valuation is pre- or post-money before you negotiate anything else. Have counsel build the pro forma cap table from the term sheet, then check the long-form documents against it. A request to re-vest founder stock is negotiable; keep a floor of shares fully vested. That is session judgment, not a survey.
 
@@ -170,4 +171,5 @@ Pick Seed paper on [SAFE vs priced round](/library/fundraising/safe-vs-priced-ro
 - [Venture debt](/library/fundraising/venture-debt/)
 - [Option pool from the hiring plan](/library/equity/option-pool-from-hiring-plan/)
 - [Option pool shuffle calculator](/tools/option-pool-shuffle-calculator/)
+- [Founder vesting at a priced round](/library/equity/founder-vesting-83b/)
 - [When to add an independent director](/library/board/when-to-add-independent-director/)

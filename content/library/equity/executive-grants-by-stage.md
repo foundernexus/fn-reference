@@ -17,6 +17,7 @@ related:
 - library/hiring/series-a-leadership-hiring-sequence
 - library/board/when-to-add-independent-director
 - tools/executive-equity-calculator
+- library/equity/founder-vesting-83b
 ---
 
 How much equity to give a VP of Sales at Seed vs Series A depends on stage and whether the seat is a bag-carrying first sales hire or a true VP.
@@ -141,3 +142,4 @@ Standalone 409A cost, per Carta: $1,000 to over $10,000 depending on size and co
 - [When to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/)
 - [Size the option pool from a hiring plan](/library/equity/option-pool-from-hiring-plan/)
 - [Executive equity calculator](/tools/executive-equity-calculator/)
+- [Founder vesting at a priced round](/library/equity/founder-vesting-83b/)

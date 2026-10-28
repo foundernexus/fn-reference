@@ -1296,6 +1296,7 @@ VEN_PLAYBOOKS: dict[str, tuple[str, str]] = {
     "library/board/series-a-board-meeting-agenda": ("guides/capital-runway-and-the-board", "VEN guide to capital, runway and the board"),
     "library/equity": ("equity-legal/options-pools-advisor-equity", "VEN playbook on options, pools and advisor equity"),
     "library/equity/409a-after-priced-round": ("concepts/409a-valuation", "VEN playbook note on 409A valuations"),
+    "library/equity/founder-vesting-83b": ("equity-legal/founder-stock-vesting-83b", "VEN playbook on founder stock, vesting and 83(b)"),
     "library/equity/executive-grants-by-stage": ("equity-legal/options-pools-advisor-equity", "VEN playbook on options, pools and advisor equity"),
     "library/equity/option-pool-from-hiring-plan": ("equity-legal/options-pools-advisor-equity", "VEN playbook on options, pools and advisor equity"),
     "library/finance": ("guides/capital-runway-and-the-board", "VEN guide to capital, runway and the board"),
