@@ -314,6 +314,8 @@ h4, .h4 {
 .prose p, .prose li { color: var(--navy); }
 /* no one-word last lines in body copy, In short bullets, steps, deks, or the hero lead (progressive: ignored where unsupported) */
 .prose p, .prose li, .page-hero .lead { text-wrap: pretty; }
+/* long unbroken strings (URLs, file names, slugs) wrap instead of pushing the column wider on phones */
+.prose p, .prose li { overflow-wrap: break-word; }
 .prose p { margin: 0 0 22px; }
 .prose ul, .prose ol { margin: 0 0 28px; padding-left: 22px; }
 .prose li { margin: 0 0 12px; }
