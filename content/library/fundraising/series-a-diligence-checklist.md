@@ -20,6 +20,7 @@ related:
 - library/fundraising/when-runway-runs-out
 - library/board/series-a-board-meeting-agenda
 - library/finance/nrr-vs-grr-board-pack
+- library/finance/customer-concentration
 - tools/runway-calculator
 - library/hiring/series-a-leadership-hiring-sequence
 - library/finance/usage-revenue-as-arr
@@ -127,7 +128,7 @@ Fix these before you open the room. Strong growth will not make investors ignore
 | --- | --- | --- |
 | Metrics that change between deck, model, and room | Investors rebuild the numbers; inconsistency looks like spin | One glossary; one source dashboard |
 | Gross churn hidden under blended growth | Masks a product that does not retain | Show GRR and NRR separately ([NRR vs GRR](/library/finance/nrr-vs-grr-board-pack/)) |
-| Extreme revenue concentration with no plan | One logo can sink the underwriting | Name it; show diversification plan |
+| Extreme revenue concentration with no plan | One logo can sink the underwriting | Name it; show diversification plan ([customer concentration](/library/finance/customer-concentration/)) |
 | Missing IP assignments or messy cap table | Legal cannot underwrite ownership | Assignments signed; dead equity cleaned with counsel |
 | Under 6 months of runway into the process | Weak negotiating position; rushed diligence | Extend cash or delay outreach |
 | Founder-only sales with no transfer evidence | Series A capital often buys distribution | Show early seller ramps or an honest hiring sequence |

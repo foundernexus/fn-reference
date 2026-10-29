@@ -16,6 +16,7 @@ related:
 - tools/runway-calculator
 - library/finance/usage-revenue-as-arr
 - library/finance/ai-gross-margin-inference-cogs
+- library/finance/customer-concentration
 - library/board/monthly-investor-update
 ---
 
@@ -179,6 +180,7 @@ Most wasted retention slides come from the wrong cohort, mixed acronyms, or aver
 
 ## Related
 
+- [Customer concentration risk](/library/finance/customer-concentration/)
 - [Burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/)
 - [Magic number & CAC payback calculator](/tools/magic-number-cac-payback-calculator/)
 - [Runway calculator with hiring plan](/tools/runway-calculator/)

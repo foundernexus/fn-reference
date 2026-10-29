@@ -18,6 +18,7 @@ Early boards live on burn multiple, runway with a hiring plan, and whether you a
 - [NRR vs GRR for the board pack](/library/finance/nrr-vs-grr-board-pack/): Retention looks strong on NRR alone. Show GRR beside it so expansion cannot hide churn.
 - [Does usage revenue count as ARR?](/library/finance/usage-revenue-as-arr/): Usage revenue in ARR. Count only up to the contract commit; put usage above it on its own line.
 - [AI SaaS gross margin: inference COGS in the board pack](/library/finance/ai-gross-margin-inference-cogs/): AI costs blur gross margin. Put production inference in COGS and show margin with and without AI.
+- [Customer concentration risk](/library/finance/customer-concentration/): One customer carries the revenue. Report largest and top-five share at the parent level, and grow around the account before a raise or sale.
 - [Fractional vs full-time CFO](/library/finance/fractional-vs-full-time-cfo/): Hiring finance after Series A. You need CFO-level work first; a full-time CFO usually comes later.
 :::
 
@@ -53,6 +54,7 @@ One board question per row. Do not average publishers that disagree on stage or 
 | What is our gross margin once inference is counted? | AI-inclusive gross margin + software gross margin ex-AI + AI cost % of revenue + cost per user or workflow + heavy-user cohort | Any board or raise where inference is part of delivery | [AI SaaS gross margin](/library/finance/ai-gross-margin-inference-cogs/) |
 | How many months of cash with this hire plan? | Snapshot runway; trajectory with hires; default alive / dead | Before a hire wave or a raise clock | [Runway calculator](/tools/runway-calculator/) |
 | Is GTM spend efficient this quarter? | Magic number + CAC payback months | When S&M ramp or segment payback is the debate | [Magic number & CAC payback calculator](/tools/magic-number-cac-payback-calculator/) |
+| How exposed are we to one customer? | Largest customer share + top-five share, rolled up to the parent, with trend | Before a raise, a sale, or a renewal of the big account | [Customer concentration risk](/library/finance/customer-concentration/) |
 | Do we need a full-time CFO yet? | Fractional vs full-time (workload, complexity, ARR / sequence window) | Series A finance build; pre-B upgrade talk | [Fractional vs full-time CFO](/library/finance/fractional-vs-full-time-cfo/) |
 
 Empty cells stay empty. Each row comes from a different publisher and answers a different board question. A [VEN](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) session pushed on the same three things: stage-right metrics, GRR beside NRR, and default alive with the hire dates written down. That is session judgment, not a survey.
@@ -96,6 +98,7 @@ Early: show the cash cost of growth and the cash left. Later: add margin balance
 - [NRR vs GRR for the board pack](/library/finance/nrr-vs-grr-board-pack/)
 - [Does usage revenue count as ARR?](/library/finance/usage-revenue-as-arr/)
 - [AI SaaS gross margin: inference COGS in the board pack](/library/finance/ai-gross-margin-inference-cogs/)
+- [Customer concentration risk](/library/finance/customer-concentration/)
 - [Fractional vs full-time CFO](/library/finance/fractional-vs-full-time-cfo/)
 - [Runway calculator with hiring plan](/tools/runway-calculator/)
 - [Magic number & CAC payback calculator](/tools/magic-number-cac-payback-calculator/)

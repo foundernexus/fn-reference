@@ -91,7 +91,7 @@ Waiting is a decision. Short runway plus a thin machine is how founders negotiat
 | NRR under the “strong” bar for your story, or GRR hidden under blended growth (Burkland / Bessemer) | Retention problems compound when you pour Series A into GTM | Fix product and success before buying distribution |
 | Founder-only sales with no transfer evidence (Burkland) | Series A capital often funds distribution scale | Hire or prove an early non-founder closer first |
 | Metric definitions that change across deck, model, and room (Burkland) | Associates rebuild the numbers; inconsistency looks like spin | One glossary; one source dashboard |
-| Extreme concentration with no diversification plan (Burkland) | One logo can sink the underwriting | Name it; show the next-20 customer plan |
+| Extreme concentration with no diversification plan (Burkland) | One logo can sink the underwriting | Name it; show the next-20 customer plan ([customer concentration](/library/finance/customer-concentration/)) |
 
 Carta’s stretching seed-to-A medians are market context. A longer wait than **18–24** months is common in recent years. It is not, by itself, a reason to force a process.
 

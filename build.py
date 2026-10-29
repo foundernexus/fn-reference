@@ -1301,6 +1301,7 @@ VEN_PLAYBOOKS: dict[str, tuple[str, str]] = {
     "library/equity/option-pool-from-hiring-plan": ("equity-legal/options-pools-advisor-equity", "VEN playbook on options, pools and advisor equity"),
     "library/finance": ("guides/capital-runway-and-the-board", "VEN guide to capital, runway and the board"),
     "library/finance/ai-gross-margin-inference-cogs": ("building-the-company/pricing-in-the-ai-era", "VEN playbook on pricing and margins in the AI era"),
+    "library/finance/customer-concentration": ("concepts/customer-concentration", "VEN playbook note on customer concentration"),
     "library/finance/burn-multiple-vs-rule-of-40": ("guides/capital-runway-and-the-board", "VEN guide to capital, runway and the board"),
     "library/finance/nrr-vs-grr-board-pack": ("guides/customer-retention-and-expansion", "VEN guide to customer retention and expansion"),
     "library/finance/usage-revenue-as-arr": ("building-the-company/pricing-in-the-ai-era", "VEN playbook on pricing in the AI era"),
