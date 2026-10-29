@@ -25,7 +25,7 @@ Customer concentration is the share of revenue from your largest customer, and f
 - Measure two numbers: largest customer share and top-five share, on trailing revenue. Count every subsidiary under common control as one customer (ASC 280-10-50-42).
 - **10%** is the line where a public company must disclose a single customer (ASC 280-10-50-42). Use it as your own reporting line.
 - **20%** draws a detailed buyer review and **30%** turns some buyers away (FOCUS). Valuation can fall by perhaps **20–35%** (FOCUS).
-- Concentration moves price into an earnout. SRS Acquiom found earnouts in **24%** of 2025 private-target deals, and earnouts have paid about **21** cents on the dollar.
+- Concentration moves price into an earnout. SRS Acquiom found earnouts in **24%** of 2025 private-target deals outside life sciences, and earnouts have paid about **21** cents on the dollar.
 - There is no reliable public benchmark yet for concentration at Seed to Series B. Show the trend and the plan.
 :::
 
@@ -76,7 +76,7 @@ Buyers usually take the risk back through the earnout. SRS Acquiom's 2026 Deal T
 
 | Earnout measure (non-life-sciences deals) | 2025 | Source |
 | --- | --- | --- |
-| Deals with an earnout | **24%** (22% in 2024, 33% in 2023) | SRS Acquiom 2026 |
+| Deals with an earnout (excluding life sciences) | **24%** (22% in 2024, 33% in 2023) | SRS Acquiom 2026 |
 | Median earnout potential as a share of the closing payment | **34%** | SRS Acquiom 2026 |
 | Median earnout length | **21** months | SRS Acquiom 2026 |
 | Payout across all deals with earnouts | About **21** cents per dollar | SRS Acquiom, 2024 Claims Insights |
