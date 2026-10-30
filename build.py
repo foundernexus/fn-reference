@@ -1552,7 +1552,8 @@ def render_home(pages: list[dict]) -> str:
     tools = sorted((p for p in owned if p["section"] == "tools"), key=lambda p: list(HOME_TOOL_LINES).index(page_key(p)) if page_key(p) in HOME_TOOL_LINES else 99)
     tool_cards = "".join(
         f'<a class="tool-card" href="{url(p["path"])}"><span class="tool-title">{esc(p["title"].split(":")[0])}</span>'
-        f'<span class="tool-line">{esc(HOME_TOOL_LINES.get(page_key(p), ""))}</span></a>'
+        f'<span class="tool-line">{esc(HOME_TOOL_LINES.get(page_key(p), ""))}</span>'
+        f'<span class="tool-go">Open calculator<span aria-hidden="true"> →</span></span></a>'
         for p in tools
     )
 
