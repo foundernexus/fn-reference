@@ -6,12 +6,13 @@ section: library
 cluster: board
 target_query: Series A board structure
 date: 2026-09-27
+updated: 2026-10-30
 close: As CEO, you own board structure and meeting process. Founders who have negotiated a Series A board and run the first contested vote will pressure-test your seats and agenda in a VEN session.
 disclaimer: not-legal-tax
 draft: false
 ---
 
-At Series A, you formalize the board. Seed boards are often founders plus at most one lead. After A, common shapes are 1–1–1 or 2–2–1 with a mutually approved independent as the swing vote. Meet every 6–8 weeks for about 2–3 hours. Send a decision-first pack days ahead, put the hard ask early, batch routine votes, and end with a closed session. Between meetings, send a short monthly investor update in a fixed order so the cap table stays warm without turning email into a board. Not legal, tax, or compensation advice.
+At Series A, you formalize the board. Seed boards are often founders plus at most one lead. After A, common shapes are 1–1–1 or 2–2–1 with a mutually approved independent as the swing vote. Lightspeed suggests meeting every 6–8 weeks for about 2–3 hours. Send a decision-first pack days ahead, put the hard ask early, batch routine votes, and end with a closed session. Between meetings, send a short monthly investor update in a fixed order so the cap table stays warm without turning email into a board. Not legal, tax, or compensation advice.
 
 :::group Pick your question
 - [When to add an independent director (who and equity)](/library/board/when-to-add-independent-director/): Series A is the usual trigger. Pick a former operator for the swing seat; Carta median grant is 0.40% at Series A.

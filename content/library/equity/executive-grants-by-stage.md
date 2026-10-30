@@ -7,7 +7,7 @@ cluster: equity
 layout: article
 target_query: how much equity to give VP of sales startup
 date: 2026-08-29
-updated: 2026-10-02
+updated: 2026-10-30
 close: Public ranges are a starting point. Founders who have made this hire will pressure-test the number in your offer in a VEN session.
 disclaimer: not-legal-tax
 draft: false
@@ -23,10 +23,10 @@ related:
 How much equity to give a VP of Sales at Seed vs Series A depends on stage and whether the seat is a bag-carrying first sales hire or a true VP.
 
 :::highlight
-Seed first sales: 0.5–2.0% FD. Series A VP: 0.3–0.8% (Index). Eng/product high; sales low. Series B sales: three source ranges, not averaged.
+Seed first sales: 0.5–2.0% FD (UltraTalent; CRO Report). Series A VP: 0.3–0.8% (Index). Eng/product high; sales low. Series B sales: three source ranges, not averaged.
 :::
 
-A first sales leader at seed is typically 0.5–2.0% fully diluted. A Series A VP sits at 0.3–0.8% on Index’s rule of thumb: engineering and product at the high end, finance, people, and sales at the low end. Sources disagree at Series B sales, so the table shows those bands separately rather than averaging them. Percentages are fully diluted. The table covers Sales plus Eng, Product, Finance, and People so peer grants stay coherent. Not legal, tax, or compensation advice.
+UltraTalent and The CRO Report put a first sales leader at seed at 0.5–2.0% fully diluted. A Series A VP sits at 0.3–0.8% on Index’s rule of thumb: engineering and product at the high end, finance, people, and sales at the low end. Sources disagree at Series B sales, so the table shows those bands separately rather than averaging them. Percentages are fully diluted. The table covers Sales plus Eng, Product, Finance, and People so peer grants stay coherent. Not legal, tax, or compensation advice.
 
 :::takeaways
 - Seed first sales leader: 0.5–2.0% fully diluted (UltraTalent, CRO Report).
@@ -101,7 +101,7 @@ Run the same check in the [executive equity calculator](/tools/executive-equity-
 
 **Paying scaler equity to a phase hire.** The person who gets you from zero to ten is often not the person who takes ten to fifty. Write the grant for the job in front of you. If you already know they may not be the seat in eighteen months, do not paper over that with a true-VP percentage. Say the phase out loud, keep the band honest, and leave room in the pool for the scaler.¹⁰
 
-**Late-stage cash on a seed percentage.** UltraTalent’s growth / Series D+ VP Sales cash is $380k–$500k base and $760k–$1M OTE, with 0.10–0.40% equity. Seed first-sales equity is 0.5–2.0% FD. Those numbers describe two different jobs.
+**Late-stage cash on a seed percentage.** UltraTalent’s growth / Series D+ VP Sales cash is $380k–$500k base and $760k–$1M OTE, with 0.10–0.40% equity. Seed first-sales equity is 0.5–2.0% FD (UltraTalent; CRO Report). Those numbers describe two different jobs.
 
 **Stale 409A.** A 409A is valid for 12 months from its effective date, and ends sooner after a material event (Carta, 4 August 2026). Strike must be at least FMV on the grant date. Board-approve the new FMV before you grant.
 

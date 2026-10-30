@@ -7,7 +7,7 @@ cluster: board
 layout: article
 target_query: when to add independent director startup
 date: 2026-09-16
-updated: 2026-10-25
+updated: 2026-10-30
 close: Treat the independent seat as a governance hire. Founders who have filled a Series A independent seat and sat through the first contested vote will pressure-test your shortlist in a VEN session.
 disclaimer: not-legal-tax
 draft: false
@@ -18,7 +18,7 @@ related:
 - library/board/monthly-investor-update
 ---
 
-An independent director is a voting board member who is neither an employee nor an investor representative. The seat usually becomes standard at Series A. Pick for judgment and for the gaps on your board, not for brand. Equity is typically under 1% of outstanding shares, vested over two to four years. Cash retainers usually wait until later. Not legal or compensation advice.
+An independent director is a voting board member who is neither an employee nor an investor representative. The seat usually becomes standard at Series A. Pick for judgment and for the gaps on your board, not for brand. CRV puts equity typically under 1% of outstanding shares, vested over two to four years. Cash retainers usually wait until later. Not legal or compensation advice.
 
 :::takeaways
 - Timing: Series A is the standard trigger (CRV). Seed is usually founders plus at most one lead; practice with advisors, not a premature seat.
