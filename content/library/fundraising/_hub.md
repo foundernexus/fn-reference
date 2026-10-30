@@ -22,6 +22,7 @@ Fundraising is a run of separate decisions, from the first angel check to the Se
 
 :::group Choose the paper
 - [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/): Structuring seed paper. Post-money SAFE, priced equity, or a note, by raise size and lead terms.
+- [SAFE dilution calculator](/tools/safe-dilution-calculator/): SAFEs signed, a round coming. See each holder's percentage after conversion, the pool, and the new money.
 - [Term sheet red flags](/library/fundraising/term-sheet-red-flags/): A lead sent paper. Read each line against the clean set and fight about three issues.
 - [Venture debt](/library/fundraising/venture-debt/): An equity round closed recently. Whether a loan fits, how much, and which terms to fight.
 :::

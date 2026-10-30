@@ -1344,6 +1344,7 @@ VEN_PLAYBOOKS: dict[str, tuple[str, str]] = {
     "tools/magic-number-cac-payback-calculator": ("concepts/ltv-cac", "VEN playbook note on LTV:CAC"),
     "tools/option-pool-shuffle-calculator": ("equity-legal/options-pools-advisor-equity", "VEN playbook on options, pools and advisor equity"),
     "tools/runway-calculator": ("guides/capital-runway-and-the-board", "VEN guide to capital, runway and the board"),
+    "tools/safe-dilution-calculator": ("raising-money/safes-notes-priced-rounds", "VEN playbook on SAFEs, notes and priced rounds"),
 }
 
 
@@ -1445,6 +1446,7 @@ HOME_TOPIC_TOP: dict[str, list[str]] = {
     "rooms": ["compare/executive-coaching-vs-founder-peer-group", "compare/ypo-vs-hampton-vs-venture-scale-room"],
 }
 HOME_TOOL_LINES: dict[str, str] = {
+    "tools/safe-dilution-calculator": "What founders keep after SAFEs convert.",
     "tools/executive-equity-calculator": "Check a VP grant against cited bands and your pool.",
     "tools/runway-calculator": "Months to cash-out with your hiring plan in it.",
     "tools/option-pool-shuffle-calculator": "Who pays for a pre-money pool top-up.",

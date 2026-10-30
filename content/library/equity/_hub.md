@@ -21,6 +21,7 @@ Size the option pool from a hiring plan that reaches the next round. Each execut
 :::
 
 :::group Calculators
+- [SAFE dilution calculator](/tools/safe-dilution-calculator/): Your SAFEs convert at the Series A. See what founders keep after the caps, the pool, and the new money.
 - [Option pool shuffle calculator](/tools/option-pool-shuffle-calculator/): The pool tops up in the term sheet. See who takes the dilution, pre-money versus post-money.
 - [Executive equity calculator](/tools/executive-equity-calculator/): Check a VP grant against cited bands and your remaining unallocated pool.
 :::

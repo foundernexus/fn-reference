@@ -1093,8 +1093,32 @@ input:focus, select:focus {
 .eq-dl dt { color: var(--muted); font-weight: 500; }
 .eq-dl dd { margin: 0; font-weight: 500; }
 .eq-note { font-size: 14px; color: var(--muted); margin: 16px 0 0; }
+.sdc-safe {
+  position: relative;
+  margin: 0 0 12px;
+  padding: 12px 16px 0;
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  background: var(--white);
+  min-width: 0;
+}
+.sdc-safe legend { padding: 0 6px; font-size: 13px; font-weight: 600; color: var(--navy); }
+.sdc-safe-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 16px; }
+.sdc-safe-grid .eq-field { margin-bottom: 14px; }
+.sdc-safe input { width: 100%; min-width: 0; }
+.sdc-remove {
+  position: absolute; top: -10px; right: 12px;
+  font: inherit; font-size: 12px; color: var(--muted);
+  background: var(--white); border: 0; padding: 0 6px; cursor: pointer;
+}
+.sdc-remove:hover, .sdc-remove:focus-visible { color: var(--navy); text-decoration: underline; }
+.sdc-table { overflow-x: auto; margin: 8px 0 0; -webkit-overflow-scrolling: touch; }
+.sdc-table table { font-size: 14px; background: var(--white); border: 1px solid var(--border-subtle); border-radius: 8px; }
+.sdc-table td { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.sdc-table tr.sdc-founders th, .sdc-table tr.sdc-founders td { color: var(--navy); font-weight: 600; }
 @media (max-width: 700px) {
   .eq-fields { grid-template-columns: 1fr; }
+  .sdc-safe-grid { grid-template-columns: 1fr; }
   .eq-summary { grid-template-columns: 1fr; }
 }
 
