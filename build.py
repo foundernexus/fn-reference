@@ -1485,6 +1485,25 @@ def home_search_index(pages: list[dict]) -> str:
     return f'<script type="application/json" id="fd-index">{raw}</script>'
 
 
+def topic_page_paths(cid: str, owned: list[dict]) -> set[str]:
+    """Pages a topic page shows: its own pages plus any page listed in the hub's pick groups."""
+    paths = {p["path"] for p in owned if p.get("cluster") == cid}
+    hub = load_hub(cid)
+    if hub:
+        known = {p["path"] for p in owned}
+        in_group = False
+        for line in hub["_body"].splitlines():
+            if line.startswith(":::group"):
+                in_group = True
+            elif line.startswith(":::"):
+                in_group = False
+            elif in_group:
+                m = re.match(r"\s*-\s*\[[^\]]+\]\((/[^)#]+)\)", line)
+                if m and m.group(1) in known:
+                    paths.add(m.group(1))
+    return paths
+
+
 def render_home(pages: list[dict]) -> str:
     owned = [p for p in content_pages(pages) if p.get("layout") != "hub"]
     by_key = {page_key(p): p for p in owned}
@@ -1508,7 +1527,7 @@ def render_home(pages: list[dict]) -> str:
     for cid in HOME_TOPIC_ORDER:
         cl = CLUSTERS[cid]
         in_topic = [p for p in owned if p.get("cluster") == cid]
-        n = len(in_topic)
+        n = len(topic_page_paths(cid, owned))
         picks = [by_key[k] for k in HOME_TOPIC_TOP.get(cid, []) if k in by_key]
         for p in sorted(in_topic, key=lambda p: p["date"], reverse=True):
             if len(picks) >= 3:
