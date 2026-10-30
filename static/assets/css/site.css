@@ -1112,10 +1112,12 @@ input:focus, select:focus {
   background: var(--white); border: 0; padding: 0 6px; cursor: pointer;
 }
 .sdc-remove:hover, .sdc-remove:focus-visible { color: var(--navy); text-decoration: underline; }
-.sdc-table { overflow-x: auto; margin: 8px 0 0; -webkit-overflow-scrolling: touch; }
+.sdc-table { overflow-x: auto; margin: 8px 0 16px; -webkit-overflow-scrolling: touch; }
 .sdc-table table { font-size: 14px; background: var(--white); border: 1px solid var(--border-subtle); border-radius: 8px; }
 .sdc-table td { font-variant-numeric: tabular-nums; white-space: nowrap; }
 .sdc-table tr.sdc-founders th, .sdc-table tr.sdc-founders td { color: var(--navy); font-weight: 600; }
+.sdc-table tr.sdc-founders td:last-child { color: var(--blue); }
+.sdc-formulas + .eq-note { margin-top: 10px; }
 @media (max-width: 700px) {
   .eq-fields { grid-template-columns: 1fr; }
   .sdc-safe-grid { grid-template-columns: 1fr; }
