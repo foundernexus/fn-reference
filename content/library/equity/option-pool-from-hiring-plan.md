@@ -1,13 +1,13 @@
 ---
 title: How to size an option pool: 10–15%, from your hiring plan
-description: List the hires you will make before the next round, put a cited grant on each seat, add refresh and a buffer. Then check the total against 10–15% term-sheet defaults.
+description: "Size the pool from your hiring plan: list hires before the next round, put a cited grant on each seat, add refresh and a buffer, then check against 10–15%."
 slug: option-pool-from-hiring-plan
 section: library
 cluster: equity
 layout: article
 target_query: how to size option pool
 date: 2026-08-31
-updated: 2026-10-25
+updated: 2026-10-30
 close: A hiring-plan pool is still a board number. Founders who have taken that math into a term sheet will pressure-test the seats and the remaining unallocated pool in a VEN session.
 disclaimer: not-legal-tax
 draft: false
@@ -66,7 +66,7 @@ Index: traditionally ~10% at seed. YC and The Family, via Index, advocate 20% at
 
 For a typical seed team of about ten, Index’s US seed grant grid (Advanced HR VCECS Seed Data, 2018) adds up to about 5% fully diluted at a $6 million post-money. Senior engineering and senior product/design at 1.0% FDE. Mid-level engineering 0.45%. Junior engineering 0.15%. Special cases at 2% or 3% (solo founder filling a skill gap; deep-tech ML/AI/VR). First sales is not a true VP in Index’s seed chapter; UltraTalent and The CRO Report put that seat at 0.5–2.0% FD.
 
-Do not spend the 10% traditional seed pool on two “VP” titles. Hold unallocated for the scaler. See grants by stage for the title-inflation mistake.
+Do not spend Index’s traditional ~10% seed pool on two “VP” titles. Hold unallocated for the scaler. See grants by stage for the title-inflation mistake.
 
 ## Take the list into the term sheet
 

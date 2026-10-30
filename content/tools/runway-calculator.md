@@ -1,6 +1,6 @@
 ---
 title: Runway calculator with hiring plan
-description: Turn cash, burn, revenue growth, and a hire ladder into snapshot runway, months to cash-out, and a Paul Graham–style default alive or default dead read. Labeled hypothetical. Not advice.
+description: "Enter cash, burn, growth, and a hiring plan. Get snapshot runway, months to cash-out, and a default alive or default dead read. Labeled hypothetical."
 slug: runway-calculator
 section: tools
 cluster: finance
@@ -8,6 +8,7 @@ layout: calculator
 calculator_js: runway-calculator.js
 target_query: startup runway calculator hiring plan
 date: 2026-09-10
+updated: 2026-10-30
 close: Your board will ask about runway and default alive. Founders who have had that conversation will pressure-test your hiring plan against the cash left in a VEN session.
 disclaimer: not-legal-tax
 draft: false

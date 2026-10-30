@@ -1,5 +1,5 @@
 ---
-title: "Monthly investor update template (what to send between board meetings)"
+title: "Monthly investor update template: what to send between meetings"
 description: Send a short monthly email in a fixed order: TL;DR, the same KPIs every month, highlights, lowlights with the fix, asks, cash/burn/runway, shout-outs. Put it in the body. Monthly is the dominant cadence. Not a substitute for the board pack.
 slug: monthly-investor-update
 section: library
@@ -7,6 +7,7 @@ cluster: board
 layout: article
 target_query: startup investor update template
 date: 2026-10-14
+updated: 2026-10-30
 close: Founders who have kept a cap table warm through hard months will pressure-test your next update in a VEN session.
 disclaimer: not-legal-tax
 draft: false

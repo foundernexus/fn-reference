@@ -1,6 +1,6 @@
 ---
 title: Magic number & CAC payback calculator
-description: Run the Scale-style SaaS magic number and a gross-margin CAC payback side by side. Cited bands from Scale, ChartMogul, and Bessemer. Labeled hypothetical. Not advice.
+description: "Run the SaaS magic number and gross-margin CAC payback side by side. Scale's long-term median magic number is 0.7. Bessemer targets SMB payback under 12 months."
 slug: magic-number-cac-payback-calculator
 section: tools
 cluster: finance
@@ -8,6 +8,7 @@ layout: calculator
 calculator_js: magic-number-cac-payback-calculator.js
 target_query: saas magic number cac payback calculator
 date: 2026-09-11
+updated: 2026-10-30
 close: Your board will see magic number and CAC payback. Founders who have defended those numbers in a raise or a board pack will pressure-test your S&M plan in a VEN session.
 disclaimer: not-legal-tax
 draft: false

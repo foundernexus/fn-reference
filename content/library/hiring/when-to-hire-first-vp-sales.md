@@ -1,13 +1,13 @@
 ---
 title: When to hire a VP of Sales: after 10–20 deals and 2 reps at quota
-description: Close 10–20 paid deals yourself, hire two quota-carrying reps, then a VP once both hit quota, usually past $1M–$2M ARR. At seed the seat is usually a first sales hire, not a VP.
+description: "Close 10–20 paid deals yourself, hire two quota-carrying reps, then hire a VP once both hit quota, usually past $1M–$2M ARR. At seed, hire a first seller."
 slug: when-to-hire-first-vp-sales
 section: library
 cluster: hiring
 layout: article
 target_query: when to hire VP of sales startup
 date: 2026-09-02
-updated: 2026-10-25
+updated: 2026-10-30
 close: You time this seat with the board in the room. Founders who have made their first sales-leader hire will pressure-test whether you need a bag-carrier or a VP in a VEN session.
 disclaimer: not-legal-tax
 draft: false
@@ -80,7 +80,7 @@ Do not hire a scaler to build, skip the IC phase, or disappear on day one.
 
 **Founder vanishes, or never leaves the call.** The CRO Report: stay on strategic deals for a defined window, often 3–6 months, then step back. If you disappear on day one, the number drops. If you stay on every call, you have not handed the motion to a leader.
 
-**Vague headcount.** 46.3% of CRO Report VP postings mention scaling the team. “Hire two AEs in Q1” and “15 people in 18 months” describe different jobs. When you and the hire disagree on headcount, the hire often fails inside 12 months.
+**Vague headcount.** 46.3% of CRO Report VP postings mention scaling the team. “Hire two AEs in Q1” and “15 people in 18 months” describe different jobs. Agree on the headcount number with the candidate before you make the offer.
 
 ## Worked situations
 

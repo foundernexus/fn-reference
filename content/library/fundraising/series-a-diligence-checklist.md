@@ -1,5 +1,5 @@
 ---
-title: Series A diligence checklist: build the data room before the term sheet
+title: "Series A diligence checklist: data room before the term sheet"
 description: Series A diligence is evidence, not a vision check. Stage a pre-term-sheet room, finish YC’s legal checklist before you sign, and keep every number consistent across deck, model, and board pack.
 slug: series-a-diligence-checklist
 section: library
@@ -7,6 +7,7 @@ cluster: fundraising
 layout: article
 target_query: Series A diligence checklist
 date: 2026-09-24
+updated: 2026-10-30
 close: Investors read diligence speed as an operating signal. Founders who have closed a Series A with a clean room and consistent metrics will pressure-test your folder map in a VEN session.
 disclaimer: not-legal-tax
 draft: false

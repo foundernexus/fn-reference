@@ -1,5 +1,5 @@
 ---
-title: 409A after a priced round: cost, timing, and when you can grant again
+title: "409A after a priced round: cost, timing, and when to grant again"
 description: A priced round ends reliance on your prior 409A. Freeze grants, refresh FMV, board-adopt, then grant. Costs, timelines, and common ≠ preferred.
 slug: 409a-after-priced-round
 section: library
@@ -7,6 +7,7 @@ cluster: equity
 layout: article
 target_query: 409A after funding round
 date: 2026-09-02
+updated: 2026-10-30
 close: After the round closes, the 409A gates your next hires. Founders who have sequenced the freeze, refresh, and first post-round grants will walk through your calendar in a VEN session.
 disclaimer: not-legal-tax
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "How to tell if your sales process is repeatable before you hire reps"
+title: "Repeatable sales process: how to tell before you hire reps"
 description: "Your sales process is repeatable when one buyer type buys for one reason, new customers reach value on time, and a non-founder closes. Then hire at a set pace."
 slug: repeatable-sales-process
 section: library
@@ -7,6 +7,7 @@ cluster: gtm
 layout: article
 target_query: repeatable sales process startup
 date: 2026-10-27
+updated: 2026-10-30
 close: Founders who have handed their first deals to a hired seller will pressure-test your cohort numbers, written playbook, and hiring pace in a VEN session.
 draft: false
 related:

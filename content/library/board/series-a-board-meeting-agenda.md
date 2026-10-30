@@ -1,12 +1,13 @@
 ---
 title: How to run a Series A board meeting
-description: Send the pack early. Put the hard decision first. Timebox updates. Use a consent agenda and a closed session. A Series A board meeting is for decisions, not a progress report.
+description: "Hold a Series A board meeting every 6–8 weeks for 2–3 hours. Send the pack 48 hours to 7 days ahead, put the hard decision first, and end in closed session."
 slug: series-a-board-meeting-agenda
 section: library
 cluster: board
 layout: article
 target_query: how to run a Series A board meeting
 date: 2026-09-15
+updated: 2026-10-30
 close: Founders who have taken a Series A board through a hard decision and a clean closed session will pressure-test your next agenda in a VEN session.
 draft: false
 related:

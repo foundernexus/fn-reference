@@ -1,12 +1,13 @@
 ---
 title: NRR vs GRR for the board pack
-description: NRR asks whether existing customers grow revenue. GRR asks how much you keep with zero expansion. Put both on the board slide with cited bands. Do not mask a leaky base.
+description: "Put NRR and GRR on the same board slide. GRR caps at 100% and ignores expansion. NRR can pass 100% and hide a leaky base. Formulas and cited bands inside."
 slug: nrr-vs-grr-board-pack
 section: library
 cluster: finance
 layout: article
 target_query: nrr vs grr saas
 date: 2026-09-14
+updated: 2026-10-30
 close: Your board will read retention closely. Founders who have walked GRR and NRR through a raise or a board pack will pressure-test your cohort definitions in a VEN session.
 disclaimer: not-legal-tax
 draft: false

@@ -1118,7 +1118,7 @@ def base(
     og_type: str = "website",
 ) -> str:
     full_title = title if title.endswith(SITE_NAME) else f"{title} · {SITE_NAME}"
-    if len(full_title) > 70 and not title.endswith(SITE_NAME):
+    if len(full_title) > 65 and not title.endswith(SITE_NAME):
         full_title = title  # long titles: keep the query words visible in search results, drop the brand suffix
     canonical = abs_url(canonical_path)
     robots_tag = (

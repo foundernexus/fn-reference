@@ -1,5 +1,5 @@
 ---
-title: "Does usage revenue count as ARR? AI usage vs subscription in the board pack"
+title: "Does usage revenue count as ARR? AI usage in the board pack"
 description: Subscription fees and contractual minimum commits count as ARR. Usage above the commit, pay-as-you-go consumption, pilots, and credits go on their own labeled lines. Write one definition and use it in the deck, model, board pack, and data room.
 slug: usage-revenue-as-arr
 section: library
@@ -7,6 +7,7 @@ cluster: finance
 layout: article
 target_query: is usage-based revenue ARR
 date: 2026-10-12
+updated: 2026-10-30
 close: Founders who have defended an ARR definition through a board pack and a raise will pressure-test your revenue lines in a VEN session before the number goes in the deck.
 disclaimer: not-legal-tax
 draft: false

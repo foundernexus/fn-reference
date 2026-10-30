@@ -1,5 +1,5 @@
 ---
-title: Why coding agents don't 10x the company: Amdahl's law on the delivery loop
+title: "Why coding agents don't 10x the company: Amdahl's law on delivery"
 description: Speeding coding alone does not 10x delivery. Score design, code, review, test, deploy, and operate. Invest where the queue sits.
 slug: coding-agents-dont-10x-engineering
 section: library
@@ -7,6 +7,7 @@ cluster: gtm
 layout: article
 target_query: why AI coding agents don't 10x engineering
 date: 2026-09-26
+updated: 2026-10-30
 close: Founders who have scored each stage of the delivery loop and moved AI past the coding step will compare notes with you in a VEN session.
 draft: false
 related:

@@ -1,6 +1,6 @@
 ---
 title: Option pool shuffle calculator
-description: See who takes the dilution when a term sheet tops up the option pool pre-money versus post-money. The headline pool percentage stays the same; the person who pays for it changes.
+description: "See who pays for an option pool top-up. Compare pre-money and post-money placement: the pool percentage stays the same, and the holder who absorbs it changes."
 slug: option-pool-shuffle-calculator
 section: tools
 cluster: equity
@@ -8,6 +8,7 @@ layout: calculator
 calculator_js: option-pool-shuffle-calculator.js
 target_query: option pool shuffle calculator
 date: 2026-09-01
+updated: 2026-10-30
 close: Pool placement is a price term. Founders who have sat through that negotiation will pressure-test your hiring plan against the sheet in a VEN session.
 disclaimer: not-legal-tax
 draft: false

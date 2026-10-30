@@ -1,12 +1,13 @@
 ---
 title: Burn multiple vs Rule of 40
-description: Burn multiple is the early-stage efficiency read. Rule of 40 is the later balance of growth and margin. Show both formulas, cited bands, and when each belongs in the board pack.
+description: "Use burn multiple early and add Rule of 40 later. Sacks rates under 1× amazing and over 3× bad. Formulas, cited bands, and where each fits the board pack."
 slug: burn-multiple-vs-rule-of-40
 section: library
 cluster: finance
 layout: article
 target_query: burn multiple vs rule of 40
 date: 2026-09-09
+updated: 2026-10-30
 close: Your board will judge capital efficiency. Founders who have defended a burn-multiple turn or a Rule of 40 path in a raise will pressure-test your board pack in a VEN session.
 disclaimer: not-legal-tax
 draft: false

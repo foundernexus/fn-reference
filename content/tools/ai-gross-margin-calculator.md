@@ -1,5 +1,5 @@
 ---
-title: "AI gross margin calculator: inference COGS, cost per user, and heavy users"
+title: "AI gross margin calculator: inference COGS and cost per user"
 description: Enter monthly revenue, classic COGS, and each AI delivery cost. Get AI-inclusive gross margin beside software margin ex-AI, AI cost per user, a heavy-user cohort read, the R&D misclassification swing, and the AI budget that hits your target. Bands cited by source. Not advice.
 slug: ai-gross-margin-calculator
 section: tools
@@ -8,6 +8,7 @@ layout: calculator
 calculator_js: ai-gross-margin-calculator.js
 target_query: AI gross margin calculator
 date: 2026-10-15
+updated: 2026-10-30
 close: Founders who have walked a low AI margin and a credible path up through a raise will pressure-test your COGS map and target in a VEN session.
 disclaimer: not-legal-tax
 draft: false
