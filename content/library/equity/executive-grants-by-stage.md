@@ -1,6 +1,6 @@
 ---
-title: "VP Sales equity: Seed 0.5–2%, A 0.3–0.8%"
-description: "How much equity to give a VP of Sales: Seed first sales 0.5–2.0% FD; Series A VP 0.3–0.8% (Index). Cited Seed–B by role; Series B sales not averaged."
+title: "How much equity to give a VP? Series A 0.3–0.8%, by role"
+description: "A Series A VP gets 0.3–0.8% fully diluted (Index), eng and product high, sales and finance low. Seed first sales leader: 0.5–2.0%. True CFO: 0.8–1.5%."
 slug: executive-grants-by-stage
 section: library
 cluster: equity
@@ -18,15 +18,16 @@ related:
 - library/board/when-to-add-independent-director
 - tools/executive-equity-calculator
 - library/equity/founder-vesting-83b
+- library/hiring/onboard-first-executive
 ---
 
-How much equity to give a VP of Sales at Seed vs Series A depends on stage and whether the seat is a bag-carrying first sales hire or a true VP.
+Give a first VP at Series A 0.3–0.8% fully diluted, on Index’s rule of thumb. Engineering and product sit at the high end; sales, finance, and people sit at the low end. At seed, UltraTalent and The CRO Report put a first sales leader at 0.5–2.0%, and Index notes that seat is often not a true VP.
 
 :::highlight
 Seed first sales: 0.5–2.0% FD (UltraTalent; CRO Report). Series A VP: 0.3–0.8% (Index). Eng/product high; sales low. Series B sales: three source ranges, not averaged.
 :::
 
-UltraTalent and The CRO Report put a first sales leader at seed at 0.5–2.0% fully diluted. A Series A VP sits at 0.3–0.8% on Index’s rule of thumb: engineering and product at the high end, finance, people, and sales at the low end. Sources disagree at Series B sales, so the table shows those bands separately rather than averaging them. Percentages are fully diluted. The table covers Sales plus Eng, Product, Finance, and People so peer grants stay coherent. Not legal, tax, or compensation advice.
+Sources disagree at Series B sales, so the table shows those bands separately rather than averaging them. Percentages are fully diluted. The table covers Sales plus Eng, Product, Finance, and People so peer grants stay coherent. Not legal, tax, or compensation advice.
 
 :::takeaways
 - Seed first sales leader: 0.5–2.0% fully diluted (UltraTalent, CRO Report).
@@ -143,3 +144,4 @@ Standalone 409A cost, per Carta: $1,000 to over $10,000 depending on size and co
 - [Size the option pool from a hiring plan](/library/equity/option-pool-from-hiring-plan/)
 - [Executive equity calculator](/tools/executive-equity-calculator/)
 - [Founder vesting at a priced round](/library/equity/founder-vesting-83b/)
+- [How to onboard your first executive hire](/library/hiring/onboard-first-executive/)
