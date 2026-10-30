@@ -1486,7 +1486,10 @@ def home_search_index(pages: list[dict]) -> str:
 
 
 def topic_page_paths(cid: str, owned: list[dict]) -> set[str]:
-    """Pages a topic page shows: its own pages plus any page listed in the hub's pick groups."""
+    """What a topic's "All N pages" counts: its own pages plus tools and compare pages in the hub's pick groups.
+
+    Articles from other topics that a hub cross-lists stay counted under their own topic.
+    """
     paths = {p["path"] for p in owned if p.get("cluster") == cid}
     hub = load_hub(cid)
     if hub:
@@ -1499,7 +1502,7 @@ def topic_page_paths(cid: str, owned: list[dict]) -> set[str]:
                 in_group = False
             elif in_group:
                 m = re.match(r"\s*-\s*\[[^\]]+\]\((/[^)#]+)\)", line)
-                if m and m.group(1) in known:
+                if m and m.group(1) in known and not m.group(1).startswith("/library/"):
                     paths.add(m.group(1))
     return paths
 
