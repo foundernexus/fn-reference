@@ -20,6 +20,7 @@ related:
 - library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas
 - library/finance/usage-revenue-as-arr
 - library/finance/nrr-vs-grr-board-pack
+- library/gtm/startup-pricing-packaging
 ---
 
 You have a buyer ready to sign and a first order form to write. Put your full list price on it, show the discount as a separate line with an end date, and write down what the discount buys: a longer term, annual prepay, a usage minimum, or a case study. If the buyer pushes on price, shorten the term and keep the rate. Take the standard paper on the rest. In Common Paper’s 2026 benchmark of **16,140** signed agreements, **87%** of SaaS contracts auto-renew and Net 30 is the norm for invoiced deals. Only **13%** still carry an automatic fee increase, so a visible discount with an end date is how you get back to list at renewal.

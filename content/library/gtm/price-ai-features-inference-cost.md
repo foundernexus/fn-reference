@@ -12,6 +12,7 @@ draft: false
 related:
 - library/gtm
 - library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas
+- library/gtm/startup-pricing-packaging
 - library/finance/ai-gross-margin-inference-cogs
 - tools/ai-gross-margin-calculator
 - library/finance/usage-revenue-as-arr
