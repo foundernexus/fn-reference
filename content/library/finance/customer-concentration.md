@@ -17,6 +17,7 @@ related:
 - library/fundraising/when-to-raise-series-a
 - library/gtm/first-customer-contract
 - library/board/monthly-investor-update
+- library/fundraising/how-to-sell-a-startup
 ---
 
 Customer concentration is the share of revenue from your largest customer, and from your top five. Buyers start a detailed review when one customer passes **20%** of revenue. Above **30%**, some buyers decline outright (FOCUS Investment Banking). Early on the bar is looser. Lighter Capital's rule for SaaS companies at **$200K** ARR or less is that no single customer should exceed **50%**. Measure at the parent company, show the trend every quarter, and grow around the big account rather than shrinking it. Not legal, tax, or investment advice.

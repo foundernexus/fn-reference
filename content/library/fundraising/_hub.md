@@ -1,6 +1,6 @@
 ---
 title: Fundraising
-description: Ten fundraising decisions from the first angel check to the Series A data room, in the order founders hit them, each with cited numbers.
+description: Eleven fundraising decisions from the first angel check to selling the company, in the order founders hit them, each with cited numbers.
 slug: fundraising
 section: library
 cluster: fundraising
@@ -34,6 +34,10 @@ Fundraising is a run of separate decisions, from the first angel check to the Se
 
 :::group Short on cash
 - [When runway runs out](/library/fundraising/when-runway-runs-out/): Default dead or payroll at risk. Cut, bridge, extend with revenue, or wind down in order. Pair with the [runway calculator](/tools/runway-calculator/).
+:::
+
+:::group Sell the company
+- [How to sell a startup: buyers, LOI, diligence, close](/library/fundraising/how-to-sell-a-startup/): A buyer is circling. Get a second bid before the LOI, keep exclusivity near 30 days, and model escrow and earnout.
 :::
 
 :::takeaways Numbers to know
@@ -71,6 +75,8 @@ A [VEN](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referra
 **Term sheet in hand.** Confirm pre- vs post-money in writing, model the waterfall and pool, and read the board and vetoes before price ([term sheet red flags](/library/fundraising/term-sheet-red-flags/)). Keep exclusivity short.
 
 **Post–term sheet.** Open confirmatory folders organized to YC’s categories so counsel is not inventing a map under deadline. Burkland’s common dilution framing (~**15–25%** including negotiated option-pool expansion) belongs in the model before you negotiate, not as a surprise mid-close.
+
+**Selling the company.** Know a senior executive at each likely buyer a year or two ahead, get a second bid before you sign a letter of intent, and push exclusivity toward 30 days ([how to sell a startup](/library/fundraising/how-to-sell-a-startup/)). Plan around cash at close after escrow and a discounted earnout, not the headline price.
 
 ## Pair with finance, board, and hiring
 

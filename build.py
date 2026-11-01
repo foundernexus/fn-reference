@@ -1306,6 +1306,7 @@ VEN_PLAYBOOKS: dict[str, tuple[str, str]] = {
     "library/finance/nrr-vs-grr-board-pack": ("guides/customer-retention-and-expansion", "VEN guide to customer retention and expansion"),
     "library/finance/usage-revenue-as-arr": ("building-the-company/pricing-in-the-ai-era", "VEN playbook on pricing in the AI era"),
     "library/fundraising": ("raising-money/running-the-raise", "VEN playbook on running the raise"),
+    "library/fundraising/how-to-sell-a-startup": ("raising-money/exit-process", "VEN playbook on running the exit process"),
     "library/fundraising/first-angel-check": ("raising-money/first-angel-check", "VEN playbook on finding your first angel"),
     "library/fundraising/how-seed-vcs-decide": ("raising-money/how-seed-vcs-decide", "VEN playbook on how seed investors evaluate startups"),
     "library/fundraising/safe-vs-priced-round": ("raising-money/safes-notes-priced-rounds", "VEN playbook on SAFEs, notes and priced rounds"),
