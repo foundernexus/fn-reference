@@ -17,6 +17,7 @@ related:
 - library/fundraising/when-runway-runs-out
 - library/fundraising/venture-debt
 - tools/option-pool-shuffle-calculator
+- library/finance/default-alive-default-dead
 ---
 
 Enter cash, current revenue and expenses, a growth rate, and a planned hire ladder. You get snapshot runway (ignore hiring and growth), months to cash-out with the plan, and whether this model is default alive or default dead before cash hits zero. Not legal, tax, or investment advice.

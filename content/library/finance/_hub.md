@@ -24,6 +24,7 @@ Early boards live on burn multiple, runway with a hiring plan, and whether you a
 
 :::group Calculators
 - [Runway calculator with hiring plan](/tools/runway-calculator/): Months to cash-out with your hiring plan, plus a default alive or default dead read.
+- [Default alive or default dead](/library/finance/default-alive-default-dead/): Cash may not last to profit. Hold costs flat, grow revenue at its recent rate, and find the growth rate that passes.
 - [When runway runs out](/library/fundraising/when-runway-runs-out/): Runway is short. Cut burn, bridge, or wind down in order. Pair it with the calculator above.
 - [Magic number & CAC payback calculator](/tools/magic-number-cac-payback-calculator/): Is sales spend paying back? Magic number beside gross-margin CAC payback.
 - [AI gross margin calculator](/tools/ai-gross-margin-calculator/): Gross margin with and without AI costs, plus the AI budget that hits your target margin.
@@ -100,6 +101,7 @@ Early: show the cash cost of growth and the cash left. Later: add margin balance
 - [AI SaaS gross margin: inference COGS in the board pack](/library/finance/ai-gross-margin-inference-cogs/)
 - [Customer concentration risk](/library/finance/customer-concentration/)
 - [Fractional vs full-time CFO](/library/finance/fractional-vs-full-time-cfo/)
+- [Default alive or default dead](/library/finance/default-alive-default-dead/)
 - [Runway calculator with hiring plan](/tools/runway-calculator/)
 - [Magic number & CAC payback calculator](/tools/magic-number-cac-payback-calculator/)
 - [AI gross margin calculator](/tools/ai-gross-margin-calculator/)
