@@ -1517,3 +1517,18 @@ input:focus, select:focus {
 }
 .prose h2.pick-label::before { display: none; }
 .brand { min-height: 48px; }
+
+/* Burn multiple calculator: band ladder */
+.bm-table table { width: 100%; }
+.bm-range { display: block; font-size: 12px; font-weight: 400; color: var(--muted); }
+.bm-table tr.bm-current th,
+.bm-table tr.bm-current td {
+  background: rgba(0, 114, 186, 0.08);
+  color: #01052A;
+  font-weight: 600;
+}
+.bm-table tr.bm-current th { box-shadow: inset 3px 0 0 #0072BA; }
+@media (max-width: 480px) {
+  .bm-table th, .bm-table td { padding: 8px 5px; font-size: 12px; }
+  .bm-table td { white-space: normal; }
+}

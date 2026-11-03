@@ -13,6 +13,7 @@ disclaimer: not-legal-tax
 draft: false
 related:
 - library/finance
+- tools/burn-multiple-calculator
 - library/finance/nrr-vs-grr-board-pack
 - library/finance/usage-revenue-as-arr
 - library/finance/ai-gross-margin-inference-cogs

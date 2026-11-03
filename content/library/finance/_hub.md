@@ -23,6 +23,7 @@ Early boards live on burn multiple, runway with a hiring plan, and whether you a
 :::
 
 :::group Calculators
+- [Burn multiple calculator](/tools/burn-multiple-calculator/): Board wants to know what growth costs. Net burn ÷ net new ARR, with Sacks' bands and what it takes to reach each.
 - [Runway calculator with hiring plan](/tools/runway-calculator/): Months to cash-out with your hiring plan, plus a default alive or default dead read.
 - [Default alive or default dead](/library/finance/default-alive-default-dead/): Cash may not last to profit. Hold costs flat, grow revenue at its recent rate, and find the growth rate that passes.
 - [When runway runs out](/library/fundraising/when-runway-runs-out/): Runway is short. Cut burn, bridge, or wind down in order. Pair it with the calculator above.
@@ -48,7 +49,7 @@ One board question per row. Do not average publishers that disagree on stage or 
 
 | Board question | Metric / call | When it belongs | Use |
 | --- | --- | --- | --- |
-| How much cash per dollar of net new ARR? | Burn multiple (net burn ÷ net new ARR) | Seed to early growth while still burning | [Burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/) |
+| How much cash per dollar of net new ARR? | Burn multiple (net burn ÷ net new ARR) | Seed to early growth while still burning | [Burn multiple calculator](/tools/burn-multiple-calculator/) and [Burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/) |
 | Growth + margin at scale? | Rule of 40 (say which profit); Rule of X only in late-stage valuation talk | Approaching scale / later raise narrative | [Burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/) |
 | Is the base leaky under expansion? | GRR + NRR + growth on one page | Any recurring-revenue board with expansion stories | [NRR vs GRR for the board pack](/library/finance/nrr-vs-grr-board-pack/) |
 | Does our AI usage revenue count as ARR? | Committed ARR + labeled usage run-rate + pilots + services as separate lines | Any board or raise where customers pay for usage | [Usage revenue as ARR](/library/finance/usage-revenue-as-arr/) |
@@ -102,6 +103,7 @@ Early: show the cash cost of growth and the cash left. Later: add margin balance
 - [Customer concentration risk](/library/finance/customer-concentration/)
 - [Fractional vs full-time CFO](/library/finance/fractional-vs-full-time-cfo/)
 - [Default alive or default dead](/library/finance/default-alive-default-dead/)
+- [Burn multiple calculator](/tools/burn-multiple-calculator/)
 - [Runway calculator with hiring plan](/tools/runway-calculator/)
 - [Magic number & CAC payback calculator](/tools/magic-number-cac-payback-calculator/)
 - [AI gross margin calculator](/tools/ai-gross-margin-calculator/)

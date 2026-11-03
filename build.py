@@ -1343,6 +1343,7 @@ VEN_PLAYBOOKS: dict[str, tuple[str, str]] = {
     "library/hiring/series-a-leadership-hiring-sequence": ("building-the-company/executive-team", "VEN playbook on building your executive team"),
     "library/hiring/when-to-hire-first-vp-sales": ("getting-customers/repeatable-sales-motion", "VEN playbook on building a repeatable sales motion"),
     "tools/ai-gross-margin-calculator": ("building-the-company/pricing-in-the-ai-era", "VEN playbook on pricing and margins in the AI era"),
+    "tools/burn-multiple-calculator": ("guides/capital-runway-and-the-board", "VEN guide to capital, runway and the board"),
     "tools/executive-equity-calculator": ("equity-legal/options-pools-advisor-equity", "VEN playbook on options, pools and advisor equity"),
     "tools/magic-number-cac-payback-calculator": ("concepts/ltv-cac", "VEN playbook note on LTV:CAC"),
     "tools/option-pool-shuffle-calculator": ("equity-legal/options-pools-advisor-equity", "VEN playbook on options, pools and advisor equity"),
@@ -1449,6 +1450,7 @@ HOME_TOPIC_TOP: dict[str, list[str]] = {
     "rooms": ["compare/executive-coaching-vs-founder-peer-group", "compare/ypo-vs-hampton-vs-venture-scale-room"],
 }
 HOME_TOOL_LINES: dict[str, str] = {
+    "tools/burn-multiple-calculator": "Cash burned per dollar of net new ARR, with Sacks' bands.",
     "tools/safe-dilution-calculator": "What founders keep after SAFEs convert.",
     "tools/executive-equity-calculator": "Check a VP grant against cited bands and your pool.",
     "tools/runway-calculator": "Months to cash-out with your hiring plan in it.",
