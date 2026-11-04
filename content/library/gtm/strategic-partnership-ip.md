@@ -19,6 +19,7 @@ related:
 - library/gtm/data-moat-ai-startup
 - library/fundraising/term-sheet-red-flags
 - library/fundraising/series-a-diligence-checklist
+- library/gtm/ai-startup-patents-ip
 ---
 
 A large company wants to "partner." Before you trade paper, write down what the relationship is: customer, design partner, licensee, investor, or joint venture. List the IP you own and the IP you license. Agree in writing who owns new work and improvements, and prefer one owner with a license to the other over joint ownership. Under US patent law, each joint owner can make, use, and sell the invention without the other's consent and without sharing the money (35 U.S.C. § 262). Share technical detail in stages, and strike a residuals clause from the NDA. Keep a future sale open: no right of first refusal on an acquisition, exclusivity scoped by field and time, and no change-of-control consent. Expect the deal to disappoint. In BCG's 2019 survey, **55%** of startups and **45%** of corporates were dissatisfied with their partnerships.
@@ -176,3 +177,4 @@ Not legal advice. Have counsel review the NDA, the development agreement, and an
 - [Data moat for AI startups](/library/gtm/data-moat-ai-startup/)
 - [Term sheet red flags](/library/fundraising/term-sheet-red-flags/)
 - [Series A diligence checklist](/library/fundraising/series-a-diligence-checklist/)
+- [Should an AI startup file patents?](/library/gtm/ai-startup-patents-ip/)

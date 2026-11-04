@@ -15,6 +15,7 @@ related:
 - library/gtm/market-ai-product-without-saying-ai
 - library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas
 - library/gtm/aeo-vs-seo-b2b-saas
+- library/gtm/ai-startup-patents-ip
 ---
 
 You are deciding whether “we have proprietary data” is a real moat or a pitch line. Many Seed and Series A AI teams confuse a growing log pile with defensibility. A data moat is a closed loop: scarce or hard-to-copy inputs, outcome-linked feedback, and a measurable product lift that brings more of the same data. Without the loop, you have a corpus, and competitors can catch up to a corpus.
@@ -132,3 +133,4 @@ Labeled sketches. Thresholds come from the public sources above, not a new surve
 - [How to market an AI product without leading with AI](/library/gtm/market-ai-product-without-saying-ai/)
 - [Seat vs usage vs outcome pricing for AI SaaS](/library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas/)
 - [AEO vs SEO for B2B SaaS startups](/library/gtm/aeo-vs-seo-b2b-saas/)
+- [Should an AI startup file patents?](/library/gtm/ai-startup-patents-ip/)

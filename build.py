@@ -1321,6 +1321,7 @@ VEN_PLAYBOOKS: dict[str, tuple[str, str]] = {
     "library/gtm": ("marketing-pr/gtm-as-a-system", "VEN playbook on GTM as a system"),
     "library/gtm/aeo-vs-seo-b2b-saas": ("marketing-pr/ai-era-marketing-stack", "VEN playbook on the AI-era marketing stack"),
     "library/gtm/ai-sdr-vs-human": ("getting-customers/repeatable-sales-motion", "VEN playbook on building a repeatable sales motion"),
+    "library/gtm/ai-startup-patents-ip": ("equity-legal/patents-ip-for-ai", "VEN playbook on patents and IP for AI startups"),
     "library/gtm/coding-agents-dont-10x-engineering": ("building-the-company/ai-engineering-10x", "VEN playbook on why AI isn't making engineering 10x faster"),
     "library/gtm/conference-to-customers": ("getting-customers/conferences-to-customers", "VEN playbook on conference lead generation"),
     "library/gtm/customer-development-sales-funnel": ("getting-customers/customer-development-funnel", "VEN playbook on customer development as a sales funnel"),
