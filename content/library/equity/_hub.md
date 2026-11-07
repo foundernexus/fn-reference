@@ -18,6 +18,7 @@ Size the option pool from a hiring plan that reaches the next round. Each execut
 - [VP Sales equity by stage](/library/equity/executive-grants-by-stage/): Making a VP offer. Seed first sales leader 0.5–2.0%; Series A VP 0.3–0.8% (Index).
 - [409A after a priced round](/library/equity/409a-after-priced-round/): You closed a priced round. Pause grants, refresh the 409A, have the board adopt it, then grant.
 - [Founder vesting at a priced round](/library/equity/founder-vesting-83b/): Your lead asks you to re-vest. Ask for credit for time served and no new cliff, then settle 83(b) with counsel before closing.
+- [How much equity to give an advisor](/library/equity/advisor-equity/): Signing an advisor. Start near Carta's median (0.12% at seed), vest monthly over two years, cap at the FAST expert cell.
 :::
 
 :::group Calculators
@@ -84,6 +85,7 @@ A priced round is a material event. Carta: you generally need a 409A before issu
 
 ## Related
 
+- [How much equity to give an advisor](/library/equity/advisor-equity/)
 - [Founder vesting at a priced round](/library/equity/founder-vesting-83b/)
 - [409A after a priced round](/library/equity/409a-after-priced-round/)
 - [Size the option pool from a hiring plan](/library/equity/option-pool-from-hiring-plan/)

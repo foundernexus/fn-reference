@@ -106,5 +106,6 @@ Labeled sketch: not a company and not a term sheet.
 
 - [Equity & cap table](/library/equity/)
 - [Executive equity grants by stage](/library/equity/executive-grants-by-stage/)
+- [How much equity to give an advisor](/library/equity/advisor-equity/)
 - [Executive equity calculator](/tools/executive-equity-calculator/)
 - [Option pool shuffle calculator](/tools/option-pool-shuffle-calculator/)

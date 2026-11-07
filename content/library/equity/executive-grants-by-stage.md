@@ -12,6 +12,7 @@ close: Public ranges are a starting point. Founders who have made this hire will
 disclaimer: not-legal-tax
 draft: false
 related:
+- library/equity/advisor-equity
 - library/hiring/when-to-hire-first-vp-sales
 - library/equity/option-pool-from-hiring-plan
 - library/hiring/series-a-leadership-hiring-sequence
@@ -144,4 +145,5 @@ Standalone 409A cost, per Carta: $1,000 to over $10,000 depending on size and co
 - [Size the option pool from a hiring plan](/library/equity/option-pool-from-hiring-plan/)
 - [Executive equity calculator](/tools/executive-equity-calculator/)
 - [Founder vesting at a priced round](/library/equity/founder-vesting-83b/)
+- [How much equity to give an advisor](/library/equity/advisor-equity/)
 - [How to onboard your first executive hire](/library/hiring/onboard-first-executive/)
