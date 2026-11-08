@@ -17,6 +17,7 @@ related:
 - library/equity/409a-after-priced-round
 - library/equity/executive-grants-by-stage
 - library/fundraising/series-a-diligence-checklist
+- library/equity/qsbs
 ---
 
 The standard founder vesting schedule is four years with a one-year cliff, then monthly (Carta). If you have not set one, your lead investor will likely make it a closing condition at Seed or Series A (Cooley GO). Agree to vesting and negotiate the terms. Ask for credit for the months you have already worked, no new cliff, and double-trigger acceleration on a sale. Then settle the 83(b) question with counsel before the **30**-day IRS window closes. Not legal or tax advice.
@@ -144,6 +145,7 @@ The VEN session judgment matches this order of work. Every founder goes on vesti
 - [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/) if you are still choosing the instrument.
 - [409A after a priced round](/library/equity/409a-after-priced-round/) for employee grants once the round closes.
 - [Series A diligence checklist](/library/fundraising/series-a-diligence-checklist/) to make sure your 83(b) copies are in the data room.
+- [QSBS for startup founders](/library/equity/qsbs/) if those shares may later qualify as QSBS. Filing the election discussed above can start that holding period.
 
 ## Sources
 
@@ -165,3 +167,4 @@ The VEN session judgment matches this order of work. Every founder goes on vesti
 - [409A after a priced round](/library/equity/409a-after-priced-round/)
 - [Executive equity grants by stage](/library/equity/executive-grants-by-stage/)
 - [Series A diligence checklist](/library/fundraising/series-a-diligence-checklist/)
+- [QSBS for startup founders](/library/equity/qsbs/)

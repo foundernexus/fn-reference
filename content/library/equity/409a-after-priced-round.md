@@ -135,3 +135,4 @@ Freeze grants Monday. Engage the valuation provider days 1–3 with financials, 
 - [Option pool shuffle calculator](/tools/option-pool-shuffle-calculator/)
 - [Executive equity calculator](/tools/executive-equity-calculator/)
 - [Founder vesting at a priced round](/library/equity/founder-vesting-83b/)
+- [QSBS for startup founders](/library/equity/qsbs/)
