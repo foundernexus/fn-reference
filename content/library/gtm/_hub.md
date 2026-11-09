@@ -1,6 +1,6 @@
 ---
 title: Go-to-market
-description: Twenty go-to-market decisions for seed to Series B founders, grouped by stage: validation, first deals, pricing, retention, and reach.
+description: Twenty-one go-to-market decisions for seed to Series B founders, grouped by stage: validation, first deals, pricing, retention, and reach.
 slug: gtm
 section: library
 cluster: gtm
@@ -22,6 +22,7 @@ Go-to-market for a seed to Series B startup is a set of separate calls, not one 
 - [How to convert a pilot to a paid contract](/library/gtm/pilot-to-paid-contract/): A buyer wants a pilot first. Charge for it and write the conversion terms before kickoff.
 - [How to negotiate your first customer contract](/library/gtm/first-customer-contract/): A buyer says yes and asks for your paper. List price, a dated discount, standard terms.
 - [Selling to the enterprise as an early-stage startup](/library/gtm/sell-to-enterprise/): A large account shows interest. Map champion and budget owner, send security proof first.
+- [SOC 2 for startups: when to start, cost, and auditor choice](/library/gtm/soc-2-for-startups/): A buyer asks for a security report. Security only, straight to Type 2, a peer-reviewed CPA firm.
 - [Strategic partnerships and IP: what to settle before you sign](/library/gtm/strategic-partnership-ip/): A larger company proposes a joint build. Give new work one owner and keep a sale open.
 - [How to tell if your sales process is repeatable before you hire reps](/library/gtm/repeatable-sales-process/): The board wants a sales team. Test buyer, reason, cohorts, and retention, then hire at a pace.
 - [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/): Buying outreach tools before the motion is clear. AI on research, people on the close.

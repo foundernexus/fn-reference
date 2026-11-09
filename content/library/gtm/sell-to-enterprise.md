@@ -10,6 +10,7 @@ date: 2026-10-18
 close: Founders who have closed enterprise accounts at Seed and Series A will pressure-test your account list, buying-group map, and security packet in a VEN session.
 draft: false
 related:
+- library/gtm/soc-2-for-startups
 - library/gtm
 - library/gtm/pilot-to-paid-contract
 - library/gtm/first-customer-contract
@@ -176,6 +177,7 @@ Structure the proof with [how to convert a pilot to a paid contract](/library/gt
 
 ## Related
 
+- [SOC 2 for startups: when to start, cost, and auditor choice](/library/gtm/soc-2-for-startups/)
 - [Go-to-market](/library/gtm/)
 - [How to convert a pilot to a paid contract](/library/gtm/pilot-to-paid-contract/)
 - [How to negotiate your first customer contract](/library/gtm/first-customer-contract/)
