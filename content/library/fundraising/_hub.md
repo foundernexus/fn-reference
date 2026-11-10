@@ -38,6 +38,7 @@ Fundraising is a run of separate decisions, from the first angel check to the Se
 
 :::group Sell the company
 - [How to sell a startup: buyers, LOI, diligence, close](/library/fundraising/how-to-sell-a-startup/): A buyer is circling. Get a second bid before the LOI, keep exclusivity near 30 days, and model escrow and earnout.
+- [Cap table waterfall calculator](/tools/cap-table-waterfall/): An offer has a number. See who gets paid what after each liquidation preference, and what founders keep.
 :::
 
 :::takeaways Numbers to know

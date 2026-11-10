@@ -23,6 +23,7 @@ Size the option pool from a hiring plan that reaches the next round. Each execut
 :::
 
 :::group Calculators
+- [Cap table waterfall calculator](/tools/cap-table-waterfall/): A sale is on the table. See what each preferred series, the options, and the founders take at that price.
 - [SAFE dilution calculator](/tools/safe-dilution-calculator/): Your SAFEs convert at the Series A. See what founders keep after the caps, the pool, and the new money.
 - [Option pool shuffle calculator](/tools/option-pool-shuffle-calculator/): The pool tops up in the term sheet. See who takes the dilution, pre-money versus post-money.
 - [Executive equity calculator](/tools/executive-equity-calculator/): Check a VP grant against cited bands and your remaining unallocated pool.
@@ -92,5 +93,6 @@ A priced round is a material event. Carta: you generally need a 409A before issu
 - [409A after a priced round](/library/equity/409a-after-priced-round/)
 - [Size the option pool from a hiring plan](/library/equity/option-pool-from-hiring-plan/)
 - [Executive equity grants by stage](/library/equity/executive-grants-by-stage/)
+- [Cap table waterfall calculator](/tools/cap-table-waterfall/)
 - [Executive equity calculator](/tools/executive-equity-calculator/)
 - [Option pool shuffle calculator](/tools/option-pool-shuffle-calculator/)

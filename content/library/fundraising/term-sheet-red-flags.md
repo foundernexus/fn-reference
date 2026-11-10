@@ -22,6 +22,7 @@ related:
 - library/board/when-to-add-independent-director
 - library/equity/founder-vesting-83b
 - library/fundraising/how-to-sell-a-startup
+- tools/cap-table-waterfall
 ---
 
 You have a VC term sheet and need to know which lines to fight. Start from the market. In Cooley’s Q2 2026 deals, **95.8%** carried a 1x liquidation preference and **96.4%** used nonparticipating preferred. In Wilson Sonsini’s 1H 2026 deals, **98%** used broad-based weighted average anti-dilution and **1%** used a full ratchet. A term outside that clean set tells you how the investor prices your risk (YC). Fight on price, the liquidation preference, and the board first. Cooley GO treats most of the rest as boilerplate. Not legal, tax, or investment advice.

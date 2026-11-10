@@ -18,6 +18,7 @@ related:
 - library/equity/founder-vesting-83b
 - library/fundraising/term-sheet-red-flags
 - library/fundraising/first-angel-check
+- tools/cap-table-waterfall
 - library/equity
 ---
 

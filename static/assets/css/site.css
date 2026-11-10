@@ -1532,3 +1532,13 @@ input:focus, select:focus {
   .bm-table th, .bm-table td { padding: 8px 5px; font-size: 12px; }
   .bm-table td { white-space: normal; }
 }
+
+/* Cap table waterfall calculator */
+.ctw-series select { width: 100%; min-width: 0; }
+.ctw-table table { width: 100%; }
+.ctw-table tr.ctw-founders td:nth-child(2) { color: var(--blue); }
+.ctw-table tr.ctw-founders td:last-child { color: var(--navy); }
+@media (max-width: 480px) {
+  .ctw-table th, .ctw-table td { padding: 8px 5px; font-size: 12px; }
+  .ctw-table td:last-child { white-space: normal; min-width: 7rem; }
+}
