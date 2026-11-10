@@ -1538,7 +1538,8 @@ input:focus, select:focus {
 .ctw-table table { width: 100%; }
 .ctw-table tr.ctw-founders td:nth-child(2) { color: var(--blue); }
 .ctw-table tr.ctw-founders td:last-child { color: var(--navy); }
+.ctw-table td:last-child { white-space: normal; min-width: 8rem; }
 @media (max-width: 480px) {
   .ctw-table th, .ctw-table td { padding: 8px 5px; font-size: 12px; }
-  .ctw-table td:last-child { white-space: normal; min-width: 7rem; }
+  .ctw-table td:last-child { min-width: 7rem; }
 }
