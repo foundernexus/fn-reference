@@ -19,6 +19,7 @@ related:
 - library/fundraising/venture-debt
 - library/fundraising/when-to-raise-series-a
 - library/fundraising/term-sheet-red-flags
+- library/fundraising/delaware-flip
 - library/fundraising/series-a-diligence-checklist
 - library/equity/409a-after-priced-round
 - library/equity/option-pool-from-hiring-plan

@@ -1,6 +1,6 @@
 ---
 title: Fundraising
-description: Eleven fundraising decisions from the first angel check to selling the company, in the order founders hit them, each with cited numbers.
+description: Twelve fundraising decisions from the first angel check to selling the company, in the order founders hit them, each with cited numbers.
 slug: fundraising
 section: library
 cluster: fundraising
@@ -18,6 +18,7 @@ Fundraising is a run of separate decisions, from the first angel check to the Se
 - [How seed VCs decide](/library/fundraising/how-seed-vcs-decide/): Picking funds to pitch. Team first, then product, market, and fit with the fund; valuation last.
 - [Seed pitch deck](/library/fundraising/seed-pitch-deck/): Deck draft before the first send. One takeaway per slide, numbers that match the model.
 - [Seed fundraising process](/library/fundraising/seed-fundraising-process/): Deck ready. Size the ask to a milestone, filter funds, then meet them in parallel.
+- [Delaware flip](/library/fundraising/delaware-flip/): Non-US company, US lead asking for Delaware stock. Get home-country tax advice, then flip before the round while shares are worth little.
 :::
 
 :::group Choose the paper
@@ -60,6 +61,8 @@ A [VEN](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referra
 **Building the seed deck.** One takeaway per slide, revenue-based market size, and an ask tied to a milestone; send a short teaser and keep the appendix for the meeting ([seed pitch deck](/library/fundraising/seed-pitch-deck/)).
 
 **Running the seed raise.** Write the milestone first, filter funds before asking for intros, warm up on a few real meetings, then run the main list in parallel and close each yes the same week ([seed fundraising process](/library/fundraising/seed-fundraising-process/)).
+
+**Non-US company raising from US investors.** Flip to a Delaware parent only when the lead or accelerator makes it a condition, and get tax advice in each shareholder's country first ([Delaware flip](/library/fundraising/delaware-flip/)). For US hires alone, a subsidiary may be enough.
 
 **Structuring Seed paper.** Prefer a post-money SAFE unless a lead will price preferred stock now ([SAFE vs priced round](/library/fundraising/safe-vs-priced-round/)). Instrument mix and conversion traps live on that page. Keep early money on one instrument.
 

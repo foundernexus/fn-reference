@@ -18,6 +18,7 @@ related:
 - library/fundraising/how-to-sell-a-startup
 - library/equity/409a-after-priced-round
 - library/fundraising/safe-vs-priced-round
+- library/fundraising/delaware-flip
 ---
 
 QSBS (qualified small business stock) lets a non-corporate taxpayer exclude federal gain on a sale of stock in a domestic C corporation, if the shares were acquired at original issuance, the company met the tests at that issuance, and you hold the stock long enough. For stock acquired after July 4, 2025, the exclusion is **50%** after three years, **75%** after four years, and **100%** after five years or more, capped at the greater of **$15 million** or **10** times your adjusted basis ([26 U.S.C. § 1202](https://www.law.cornell.edu/uscode/text/26/1202); [Pub. L. 119-21 § 70431](https://www.congress.gov/119/plaws/publ21/PLAW-119publ21.htm)). For stock issued after that date, the company's aggregate gross assets must not exceed **$75 million** immediately after the issuance, including the proceeds of that issuance. Stock acquired on or before July 4, 2025 keeps the older rules: more than five years, **100%** if acquired after September 27, 2010, a **$10 million** cap (or 10 times basis), and a **$50 million** asset test. Not legal or tax advice.
@@ -164,3 +165,4 @@ If the same sale produced **$22,000,000** of gain after a five-year hold, only *
 - [How to sell a startup](/library/fundraising/how-to-sell-a-startup/)
 - [409A after a priced round](/library/equity/409a-after-priced-round/)
 - [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/)
+- [Delaware flip for non-US startups](/library/fundraising/delaware-flip/)
