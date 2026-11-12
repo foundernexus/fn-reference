@@ -13,6 +13,7 @@ draft: false
 related:
 - library/fundraising
 - tools/safe-dilution-calculator
+- library/fundraising/pre-money-vs-post-money
 - library/fundraising/how-seed-vcs-decide
 - library/fundraising/first-angel-check
 - library/fundraising/when-runway-runs-out

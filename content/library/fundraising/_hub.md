@@ -1,6 +1,6 @@
 ---
 title: Fundraising
-description: Twelve fundraising decisions from the first angel check to selling the company, in the order founders hit them, each with cited numbers.
+description: Thirteen fundraising decisions from the first angel check to selling the company, in the order founders hit them, each with cited numbers.
 slug: fundraising
 section: library
 cluster: fundraising
@@ -23,6 +23,7 @@ Fundraising is a run of separate decisions, from the first angel check to the Se
 
 :::group Choose the paper
 - [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/): Structuring seed paper. Post-money SAFE, priced equity, or a note, by raise size and lead terms.
+- [Pre-money vs post-money valuation](/library/fundraising/pre-money-vs-post-money/): A lead named a valuation. Confirm pre or post, find the pool inside the pre-money, and compare offers on what you own after close.
 - [SAFE dilution calculator](/tools/safe-dilution-calculator/): SAFEs signed, a round coming. See each holder's percentage after conversion, the pool, and the new money.
 - [Term sheet red flags](/library/fundraising/term-sheet-red-flags/): A lead sent paper. Read each line against the clean set and fight about three issues.
 - [Venture debt](/library/fundraising/venture-debt/): An equity round closed recently. Whether a loan fits, how much, and which terms to fight.
@@ -65,6 +66,8 @@ A [VEN](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referra
 **Non-US company raising from US investors.** Flip to a Delaware parent only when the lead or accelerator makes it a condition, and get tax advice in each shareholder's country first ([Delaware flip](/library/fundraising/delaware-flip/)). For US hires alone, a subsidiary may be enough.
 
 **Structuring Seed paper.** Prefer a post-money SAFE unless a lead will price preferred stock now ([SAFE vs priced round](/library/fundraising/safe-vs-priced-round/)). Instrument mix and conversion traps live on that page. Keep early money on one instrument.
+
+**Reading the valuation.** Post-money is pre-money plus new money. Ask what sits inside the pre-money: a pool increase or converting SAFEs lowers your price per share ([pre-money vs post-money](/library/fundraising/pre-money-vs-post-money/)).
 
 **Right after an equity close.** Decide whether venture debt belongs on top while your position is strongest ([venture debt](/library/fundraising/venture-debt/)). Size from the round and debt service, and negotiate the draw window and default clauses before you sign the term sheet.
 

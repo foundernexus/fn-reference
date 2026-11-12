@@ -16,6 +16,7 @@ related:
 - library/equity
 - library/equity/option-pool-from-hiring-plan
 - tools/executive-equity-calculator
+- library/fundraising/pre-money-vs-post-money
 ---
 
 Enter pre-money, new money, current unallocated pool, and the target pool the sheet asks for. You get the top-up, existing-holder and investor ownership under pre-money versus post-money placement, and a short read of who paid for the pool.
