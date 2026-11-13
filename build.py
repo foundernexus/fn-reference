@@ -391,6 +391,16 @@ def _render_table(rows: list[str]) -> str:
         return f"<th{cls}>{cell_inner(c)}</th>"
 
     th = "".join(th_html(idx, c) for idx, c in enumerate(head))
+
+    def label_attr(idx: int) -> str:
+        # Column header as plain text, shown above each value when the table stacks into cards.
+        if idx == 0 or idx >= ncols:
+            return ""
+        raw = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", head[idx])
+        raw = re.sub(r"[*_`]|\{br\}", " ", raw)
+        raw = " ".join(raw.split())
+        return f' data-label="{html.escape(raw, quote=True)}"' if raw else ""
+
     trs = []
     for row in body:
         tds = []
@@ -404,7 +414,7 @@ def _render_table(rows: list[str]) -> str:
             if re.fullmatch(r"\[[^\]]+\]\(/[^)\s]*\)", c):
                 classes.append("route")
             cls = f' class="{" ".join(classes)}"' if classes else ""
-            tds.append(f"<td{cls}>{cell_inner(c)}</td>")
+            tds.append(f"<td{cls}{label_attr(idx)}>{cell_inner(c)}</td>")
         trs.append(f"<tr>{''.join(tds)}</tr>")
     return (
         '<div class="table-wrap"><table>'

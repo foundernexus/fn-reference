@@ -1188,6 +1188,16 @@ input:focus, select:focus {
   }
   .table-wrap td.num { white-space: normal; }
   .table-wrap td.num-col { text-align: left; }
+  /* Stacked cards: name the column above each value (header text from build.py data-label) */
+  .table-wrap td[data-label]::before {
+    content: attr(data-label);
+    display: block;
+    margin-bottom: 2px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--muted);
+  }
 }
 
 @media (max-width: 900px) {
