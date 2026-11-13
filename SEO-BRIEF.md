@@ -362,3 +362,6 @@ Source: https://www.venexecs.com/sitemap.xml filtered to /playbooks/ (200). Snap
 - Spot-checked live: ChartMogul NRR Dec 2025 median 82% / top quartile 97%, GRR best-in-class >86%, 70% GRR / 115% NRR warning; FOCUS 20% / 30% concentration bars; The SaaS CFO AI margin bands (50–65%, 25–30%, 72–85%, 70–80%); Bessemer 50–60% vs 80–90%; Kruze 409A common at 25–35% and 30–40% of preferred. All match.
 - One attribution made explicit: seat-vs-usage-vs-outcome-pricing-ai-saas takeaway "Same playbook:" → "Bessemer, same piece:" (reads as a VEN reference otherwise).
 - Every page that says "no reliable public benchmark yet" already has an open fn-content benchmark request (#13–#76). No new issue needed.
+
+### Live QA 2026-11-13 (Friday review)
+- Run 1: pages=109 FAIL=1 (Glacier Lake Partners source on customer-concentration returned HTTP 402 site-wide; repointed to the 18 June 2026 Wayback copy in 36e7fc8). Run 2: FAIL=2, both status 0 timeouts to venexecs.com (200 on manual curl). Run 3: pages=109 FAIL=0 WARN=97 (WARNs: generated /decisions/ sitemap lastmod months and known bot-blocked citations).
