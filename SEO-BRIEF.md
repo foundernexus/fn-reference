@@ -338,3 +338,21 @@ Improvement queue item 4: Cited public-data exec comp benchmark table (improveme
 74. Founder-led sales: when to hand off → /library/gtm/founder-led-sales/. Query: founder led sales (secondary: when to stop founder-led sales). Playbook concepts/founder-led-sales. Check overlap with when-to-hire-first-vp-sales and repeatable-sales-process; frame as the founder's own selling playbook and the handoff test.
 75. Raising US money as a non-US founder → /library/fundraising/us-fundraising-non-us-founders/. Query: raising from us vcs as a foreign founder. Playbook us-expansion/us-fundraising-for-non-us-founders. Lower priority (thin public data).
 Lower priority: founder immigration (equity-legal/founder-immigration; legal-heavy), the SaaS repricing post (building-the-company/saas-pocalypse; opinion piece, weak query fit).
+
+## Friday 2026-11-13 VEN Playbooks check (internal)
+Source: https://www.venexecs.com/sitemap.xml filtered to /playbooks/ (200). Snapshot: ops/ven-playbook-urls-2026-11-13.txt (97 URLs, up from 89 on 2026-10-30). Judgment only; never copy playbook text; never name the Startup Bible publicly.
+
+### New since 2026-10-30 (8 URLs)
+- building-the-company/ai-code-review-bottleneck (new; no FD page → candidate #76 below)
+- concepts/delaware-flip, us-expansion/delaware-flip (FD page delaware-flip already links us-expansion/delaware-flip)
+- concepts/qsbs (FD qsbs already links it)
+- getting-customers/soc-2-for-startups (FD soc-2-for-startups already links it)
+- us-expansion (section index), us-expansion/us-subsidiary-setup (candidate #72), us-expansion/us-fundraising-for-non-us-founders (candidate #75)
+- None removed. The sitemap now carries per-URL lastmod: 31 playbook URLs show 2026-11-03 or 2026-11-04 (bulk refresh; no content diff read from it).
+
+### Link health and mapping
+- All 46 distinct playbook paths used by VEN_PLAYBOOKS plus frontmatter `ven_playbook` return 200 (curl -L, no redirect) and all are in the sitemap. Nothing broken.
+- No new mappings: every new playbook with an FD page is already linked. Unmapped owned pages (when-to-add-independent-director, fractional-vs-full-time-cfo, the two compare pages, rooms topic page, about) still have no genuine topic match. coding-agents-dont-10x-engineering keeps ai-engineering-10x (one link per page; the closer match).
+
+### New article candidate (continue after #75)
+76. When AI code review becomes the bottleneck → /library/gtm/ai-code-review-bottleneck/. Query: ai code review bottleneck (secondary: code review ai generated code, ai pull request review time). Playbook building-the-company/ai-code-review-bottleneck. Sequel to coding-agents-dont-10x-engineering (that page: why throughput does not 10x; this one: the review queue and merge gates). Check public data first (DORA 2025 State of AI-assisted Software Development, Faros AI productivity paradox report, METR 2025 study); every number cited; no session numbers.
