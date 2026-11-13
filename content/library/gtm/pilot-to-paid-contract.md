@@ -1,12 +1,13 @@
 ---
-title: How to convert a pilot to a paid contract
-description: Write the paid contract before the pilot starts. Charge for the pilot, sign 2–3 success metrics, start security and procurement in week one, and ask for the PO at readout.
+title: "Paid pilot before an annual contract: yes, and how it converts"
+description: "Yes. Charge for a scoped pilot, sign 2–3 success metrics, and put the annual price and signing date in the pilot paper. SaaStr polls: paid 74%, free 42%."
 slug: pilot-to-paid-contract
 section: library
 cluster: gtm
 layout: article
 target_query: how to convert a pilot to a paid contract
 date: 2026-10-06
+updated: 2026-11-13
 close: Founders who have turned enterprise pilots into purchase orders will pressure-test your success criteria, buyer map, and conversion clause in a VEN session.
 disclaimer: not-legal-tax
 draft: false
@@ -24,7 +25,7 @@ related:
 - library/hiring/when-to-hire-first-vp-sales
 ---
 
-You are deciding how to structure a pilot so it ends in a purchase order. Write the paid contract before the pilot starts. Charge for the pilot, sign two or three success metrics with the economic buyer, put the price and the conversion date in the pilot paper, and start security and procurement in week one. At readout you check the boxes and ask for the signature. SaaStr readers report paid pilots convert far more often than free ones: **74%** vs **42%**.
+Yes. A buyer can run a paid pilot before signing an annual contract, and SaaStr notes enterprise buyers often won’t buy from a startup without one. Make the pilot convert on paper before it starts. Scope it to one workflow, charge for it, and sign two or three success metrics with the economic buyer. Write the annual price and the signing date into the pilot agreement, so you and the buyer agree on conversion before kickoff. Start security and procurement in week one. At readout you check the boxes and ask for the signature. SaaStr readers report paid pilots convert far more often than free ones: **74%** vs **42%**.
 
 :::takeaways
 - Charge. In SaaStr reader polls, **74%** said paid pilots convert to paid customers and **42%** said free pilots generally do. Jason Lemkin: if you don’t charge, it’s an extended demo.
