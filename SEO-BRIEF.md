@@ -356,3 +356,9 @@ Source: https://www.venexecs.com/sitemap.xml filtered to /playbooks/ (200). Snap
 
 ### New article candidate (continue after #75)
 76. When AI code review becomes the bottleneck → /library/gtm/ai-code-review-bottleneck/. Query: ai code review bottleneck (secondary: code review ai generated code, ai pull request review time). Playbook building-the-company/ai-code-review-bottleneck. Sequel to coding-agents-dont-10x-engineering (that page: why throughput does not 10x; this one: the review queue and merge gates). Check public data first (DORA 2025 State of AI-assisted Software Development, Faros AI productivity paradox report, METR 2025 study); every number cited; no session numbers.
+
+### Credibility pass 2026-11-13 (internal)
+- Heuristic scan of all owned content/**/*.md (body lines and table rows with %, $, or × figures and no named publisher, link, or labeled example nearby): 32 flags, all traced to an attribution in the same paragraph, table header, takeaway, or Sources line. No unsourced figure found.
+- Spot-checked live: ChartMogul NRR Dec 2025 median 82% / top quartile 97%, GRR best-in-class >86%, 70% GRR / 115% NRR warning; FOCUS 20% / 30% concentration bars; The SaaS CFO AI margin bands (50–65%, 25–30%, 72–85%, 70–80%); Bessemer 50–60% vs 80–90%; Kruze 409A common at 25–35% and 30–40% of preferred. All match.
+- One attribution made explicit: seat-vs-usage-vs-outcome-pricing-ai-saas takeaway "Same playbook:" → "Bessemer, same piece:" (reads as a VEN reference otherwise).
+- Every page that says "no reliable public benchmark yet" already has an open fn-content benchmark request (#13–#76). No new issue needed.
