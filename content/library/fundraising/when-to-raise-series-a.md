@@ -1,12 +1,13 @@
 ---
 title: When to raise Series A: readiness signals that beat the calendar
-description: Raise Series A when you can show a repeatable growth engine, not because the seed anniversary hit. Score ARR, NRR, burn multiple, runway at process start, and GTM transfer before you open outreach.
+description: "Raise Series A when you can show a repeatable growth engine. Carta's median seed-to-A wait was about 20 months in Q2 2025. Score ARR, NRR, and runway first."
 slug: when-to-raise-series-a
 section: library
 cluster: fundraising
 layout: article
 target_query: when to raise Series A
 date: 2026-09-30
+updated: 2026-11-13
 close: Founders who have timed a Series A from a position of strength will pressure-test your readiness score against venture-backed peers in a VEN session.
 disclaimer: not-legal-tax
 draft: false

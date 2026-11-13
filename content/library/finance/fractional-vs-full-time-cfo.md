@@ -1,12 +1,13 @@
 ---
 title: Fractional vs full-time CFO
-description: Series A usually needs CFO-level work, not a full-time seat. Use fractional first. Upgrade when the work is constant, complexity rises, or you are past the ARR band peers name.
+description: "Most Series A startups need CFO-level work before a full-time CFO. Start fractional. Hire full-time when the work is constant or complexity is daily."
 slug: fractional-vs-full-time-cfo
 section: library
 cluster: finance
 layout: article
 target_query: fractional vs full-time CFO startup
 date: 2026-09-17
+updated: 2026-11-13
 close: The CFO seat is a phase hire. Founders who have upgraded from fractional to full-time (or held the line and raised without one) will pressure-test your timing in a VEN session.
 disclaimer: not-legal-tax
 draft: false

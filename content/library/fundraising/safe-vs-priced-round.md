@@ -1,12 +1,13 @@
 ---
 title: SAFE vs priced round: which instrument fits Seed
-description: Pick a post-money SAFE for most Seed raises under a few million. Price the round when a lead wants preferred stock, a board seat, and a firm valuation. Convertible notes stay for bridges and debt-specific asks.
+description: "Use a post-money SAFE for most Seed raises (Carta's Q1 2026 pre-seed sample is 93% SAFE). Price the round when a lead wants preferred stock and a board seat."
 slug: safe-vs-priced-round
 section: library
 cluster: fundraising
 layout: article
 target_query: SAFE vs priced round
 date: 2026-10-02
+updated: 2026-11-13
 close: Instrument choice is an ops decision with years of cap-table consequences. Founders who have closed Seed on both SAFEs and priced equity will pressure-test your raise size, cap math, and lead terms in a VEN session.
 disclaimer: not-legal-tax
 draft: false
