@@ -20,6 +20,7 @@ related:
 - tools/executive-equity-calculator
 - library/equity/founder-vesting-83b
 - library/hiring/onboard-first-executive
+- library/hiring/executive-compensation-benchmarks
 ---
 
 Give a first VP at Series A 0.3–0.8% fully diluted, on Index’s rule of thumb. Engineering and product sit at the high end; sales, finance, and people sit at the low end. At seed, UltraTalent and The CRO Report put a first sales leader at 0.5–2.0%, and Index notes that seat is often not a true VP.
@@ -147,3 +148,4 @@ Standalone 409A cost, per Carta: $1,000 to over $10,000 depending on size and co
 - [Founder vesting at a priced round](/library/equity/founder-vesting-83b/)
 - [How much equity to give an advisor](/library/equity/advisor-equity/)
 - [How to onboard your first executive hire](/library/hiring/onboard-first-executive/)
+- [Startup executive compensation benchmarks](/library/hiring/executive-compensation-benchmarks/)

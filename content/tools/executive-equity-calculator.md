@@ -12,6 +12,7 @@ disclaimer: not-legal-tax
 draft: false
 related:
 - library/equity/executive-grants-by-stage
+- library/hiring/executive-compensation-benchmarks
 ---
 
 Enter stage, role, remaining unallocated pool, and the grant you are about to write. You get the cited band for that seat, pool left after the grant, and the grant as a share of the company.

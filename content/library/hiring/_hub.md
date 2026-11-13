@@ -17,6 +17,7 @@ Hire for the one function that is bottlenecking the next 18 months, then move to
 - [When to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/): Deals still close only through you. Founder closes 10–20 paid deals, then two sellers at quota, then a leader.
 - [Series A leadership hiring sequence](/library/hiring/series-a-leadership-hiring-sequence/): You raised a Series A. Hire the bottleneck seat first, the CFO later, and price each seat.
 - [How to onboard your first executive hire](/library/hiring/onboard-first-executive/): Your first executive starts soon. Write the 90-day plan before day one and hand over named decisions.
+- [Startup executive compensation benchmarks](/library/hiring/executive-compensation-benchmarks/): You are pricing an executive offer. Set cash and the grant by stage from cited payroll data and equity bands.
 :::
 
 :::takeaways
@@ -92,6 +93,7 @@ Recruiting these seats takes a sustained pursuit, not a two-week LinkedIn blast,
 - [When to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/)
 - [Series A leadership hiring sequence](/library/hiring/series-a-leadership-hiring-sequence/)
 - [How to onboard your first executive hire](/library/hiring/onboard-first-executive/)
+- [Startup executive compensation benchmarks](/library/hiring/executive-compensation-benchmarks/)
 - [Executive equity grants by stage](/library/equity/executive-grants-by-stage/)
 - [Size the option pool from a hiring plan](/library/equity/option-pool-from-hiring-plan/)
 - [Executive equity calculator](/tools/executive-equity-calculator/)
