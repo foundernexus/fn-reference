@@ -107,7 +107,11 @@ a:hover { color: var(--blue-hover); }
   margin-inline: auto;
 }
 article.article-width {
-  padding: 8px 0 80px;
+  /* Opening rhythm: the answer paragraph starts clear of the hero rule. */
+  padding: 36px 0 80px;
+}
+@media (max-width: 560px) {
+  article.article-width { padding-top: 28px; }
 }
 
 /* Header */
@@ -702,13 +706,14 @@ caption {
   margin: 8px 0 32px;
   box-shadow: none;
 }
-.takeaways-label {
+.takeaways-label,
+.prose .takeaways-label {
   font-size: 13px;
   font-weight: 600;
   letter-spacing: -0.01em;
   text-transform: none;
   color: var(--muted);
-  margin: 0 0 12px;
+  margin: 0 0 10px;
 }
 .takeaways ul, .takeaways ol {
   margin: 0 0 14px;

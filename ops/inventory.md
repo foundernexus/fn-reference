@@ -95,6 +95,8 @@ Weekly 2026-10-30 (Friday review, improvement day): VEN Playbooks — 89 URLs, p
 
 ## Visual chrome (renderer)
 
+- 2026-11-13 (Friday design pass): article opening rhythm. Owned article/topic/tool bodies start 36px below the hero rule (28px at ≤560px; was 8px), and the In short label sits 10px above its first bullet (`.prose p` margin had been overriding it to 22px). In short stays gray. /decisions/ uses its own template and is unchanged. Screenshots: `ops/screenshots/article-opening-rhythm-{before,after,tool}-{1280,390}-2026-11-13.png`.
+
 - 2026-11-13 (800859c): markdown tables emit `data-label` (plain header text) on non-label cells; when tables stack into cards at ≤1100px, CSS shows the column name above each value. Screenshot: `ops/screenshots/executive-compensation-benchmarks-390-2026-11-13.png`.
 
 - 2026-09-24: `/decisions/` options JSON → choice-card grid in `render_decision_json` (build.py only; no fn-content edit). `:::steps` fence + CSS for library markdown. Screenshots: `ops/screenshots/decisions-options-*-2026-09-24.png`.
