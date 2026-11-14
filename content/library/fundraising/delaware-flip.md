@@ -15,6 +15,7 @@ draft: false
 related:
 - library/fundraising
 - library/equity/qsbs
+- library/fundraising/us-subsidiary-setup
 - library/fundraising/safe-vs-priced-round
 - library/fundraising/how-seed-vcs-decide
 - library/fundraising/first-angel-check
@@ -147,6 +148,7 @@ Home-country legal and tax work comes on top of the US-side fee, and no public s
 ## Pair this with
 
 - [QSBS for startup founders](/library/equity/qsbs/) for the US gain exclusion your investors expect on new Delaware stock.
+- [US subsidiary for a foreign startup](/library/fundraising/us-subsidiary-setup/) if you need US hires and contracts but no US parent.
 - [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/) for the paper you sign right after the flip.
 - [How seed VCs decide](/library/fundraising/how-seed-vcs-decide/) to judge whether a US lead is worth the restructuring.
 - [409A after a priced round](/library/equity/409a-after-priced-round/) before you grant options over Delaware stock to US hires.
