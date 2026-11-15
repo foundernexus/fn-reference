@@ -12,6 +12,7 @@ close: Investors read diligence speed as an operating signal. Founders who have 
 disclaimer: not-legal-tax
 draft: false
 related:
+- library/equity/ip-assignment
 - library/fundraising
 - library/fundraising/first-angel-check
 - library/fundraising/seed-pitch-deck

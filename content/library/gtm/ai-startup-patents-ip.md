@@ -11,6 +11,7 @@ close: Founders who have decided what to patent, what to keep secret, and what t
 disclaimer: not-legal-tax
 draft: false
 related:
+- library/equity/ip-assignment
 - library/gtm
 - library/gtm/data-moat-ai-startup
 - library/gtm/strategic-partnership-ip
