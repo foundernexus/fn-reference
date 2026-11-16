@@ -1,6 +1,6 @@
 ---
 title: Fundraising
-description: Fourteen fundraising decisions from the first angel check to selling the company, in the order founders hit them, each with cited numbers.
+description: Fifteen fundraising decisions from the first angel check to selling the company, in the order founders hit them, each with cited numbers.
 slug: fundraising
 section: library
 cluster: fundraising
@@ -23,6 +23,7 @@ Fundraising is a run of separate decisions, from the first angel check to the Se
 
 :::group Going to the US
 - [US subsidiary for a foreign startup](/library/fundraising/us-subsidiary-setup/): Non-US company, first US hires. Use an EOR for one or two, then form a Delaware subsidiary before your first US seller or about 10 US staff.
+- [Raising from US VCs as a foreign founder](/library/fundraising/us-fundraising-non-us-founders/): Non-US company, thinking about a US lead. Raise there once you sell in the US, come in through warm intros, and settle the flip or PFIC question before the term sheet.
 :::
 
 :::group Choose the paper
@@ -70,6 +71,8 @@ A [VEN](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referra
 **Non-US company raising from US investors.** Flip to a Delaware parent only when the lead or accelerator makes it a condition, and get tax advice in each shareholder's country first ([Delaware flip](/library/fundraising/delaware-flip/)). For US hires alone, a subsidiary may be enough.
 
 **Hiring in the US without flipping.** Start with an employer of record for the first one or two hires, then form a Delaware subsidiary owned by your current parent and file Form 5472 every year ([US subsidiary for a foreign startup](/library/fundraising/us-subsidiary-setup/)).
+
+**Pitching US funds from abroad.** Show a US angle before you pitch a US lead, get in through investor and founder referrals, and answer the Delaware or PFIC question early ([raising from US VCs as a foreign founder](/library/fundraising/us-fundraising-non-us-founders/)).
 
 **Structuring Seed paper.** Prefer a post-money SAFE unless a lead will price preferred stock now ([SAFE vs priced round](/library/fundraising/safe-vs-priced-round/)). Instrument mix and conversion traps live on that page. Keep early money on one instrument.
 

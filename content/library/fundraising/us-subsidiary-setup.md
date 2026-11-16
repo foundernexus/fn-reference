@@ -14,6 +14,7 @@ ven_playbook_label: VEN playbook on setting up a US subsidiary
 draft: false
 related:
 - library/fundraising
+- library/fundraising/us-fundraising-non-us-founders
 - library/fundraising/delaware-flip
 - library/equity/qsbs
 - library/equity/409a-after-priced-round

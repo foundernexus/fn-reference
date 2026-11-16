@@ -14,6 +14,7 @@ ven_playbook_label: VEN playbook on the Delaware flip for non-US startups
 draft: false
 related:
 - library/fundraising
+- library/fundraising/us-fundraising-non-us-founders
 - library/equity/qsbs
 - library/fundraising/us-subsidiary-setup
 - library/fundraising/safe-vs-priced-round
