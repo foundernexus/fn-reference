@@ -13,6 +13,7 @@ disclaimer: not-legal-tax
 draft: false
 related:
 - library/fundraising/safe-vs-priced-round
+- library/fundraising/safe-seed-terms-benchmarks
 - tools/option-pool-shuffle-calculator
 - library/equity/option-pool-from-hiring-plan
 - library/equity/founder-vesting-83b

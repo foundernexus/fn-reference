@@ -16,6 +16,7 @@ related:
 - library/fundraising
 - tools/option-pool-shuffle-calculator
 - tools/safe-dilution-calculator
+- library/fundraising/safe-seed-terms-benchmarks
 - library/fundraising/safe-vs-priced-round
 - library/fundraising/term-sheet-red-flags
 - library/equity/option-pool-from-hiring-plan

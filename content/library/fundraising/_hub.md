@@ -1,6 +1,6 @@
 ---
 title: Fundraising
-description: Fifteen fundraising decisions from the first angel check to selling the company, in the order founders hit them, each with cited numbers.
+description: Sixteen fundraising decisions from the first angel check to selling the company, in the order founders hit them, each with cited numbers.
 slug: fundraising
 section: library
 cluster: fundraising
@@ -29,6 +29,7 @@ Fundraising is a run of separate decisions, from the first angel check to the Se
 :::group Choose the paper
 - [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/): Structuring seed paper. Post-money SAFE, priced equity, or a note, by raise size and lead terms.
 - [Pre-money vs post-money valuation](/library/fundraising/pre-money-vs-post-money/): A lead named a valuation. Confirm pre or post, find the pool inside the pre-money, and compare offers on what you own after close.
+- [SAFE and seed round terms](/library/fundraising/safe-seed-terms-benchmarks/): Setting a cap or a discount. Compare your terms with the median for rounds your size, then check the seed medians.
 - [SAFE dilution calculator](/tools/safe-dilution-calculator/): SAFEs signed, a round coming. See each holder's percentage after conversion, the pool, and the new money.
 - [Term sheet red flags](/library/fundraising/term-sheet-red-flags/): A lead sent paper. Read each line against the clean set and fight about three issues.
 - [Venture debt](/library/fundraising/venture-debt/): An equity round closed recently. Whether a loan fits, how much, and which terms to fight.
@@ -75,6 +76,8 @@ A [VEN](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referra
 **Pitching US funds from abroad.** Show a US angle before you pitch a US lead, get in through investor and founder referrals, and answer the Delaware or PFIC question early ([raising from US VCs as a foreign founder](/library/fundraising/us-fundraising-non-us-founders/)).
 
 **Structuring Seed paper.** Prefer a post-money SAFE unless a lead will price preferred stock now ([SAFE vs priced round](/library/fundraising/safe-vs-priced-round/)). Instrument mix and conversion traps live on that page. Keep early money on one instrument.
+
+**Setting SAFE terms.** Pick the cap from rounds your size and keep a discount optional ([SAFE and seed round terms](/library/fundraising/safe-seed-terms-benchmarks/)). The minimum stake you sell is the round divided by the cap.
 
 **Reading the valuation.** Post-money is pre-money plus new money. Ask what sits inside the pre-money: a pool increase or converting SAFEs lowers your price per share ([pre-money vs post-money](/library/fundraising/pre-money-vs-post-money/)).
 
