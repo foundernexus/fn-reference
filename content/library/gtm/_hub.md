@@ -1,6 +1,6 @@
 ---
 title: Go-to-market
-description: Twenty-one go-to-market decisions for seed to Series B founders, grouped by stage: validation, first deals, pricing, retention, and reach.
+description: Twenty-two go-to-market decisions for seed to Series B founders, grouped by stage: validation, first deals, pricing, retention, and reach.
 slug: gtm
 section: library
 cluster: gtm
@@ -46,6 +46,7 @@ Go-to-market for a seed to Series B startup is a set of separate calls, not one 
 - [Data moat for AI startups](/library/gtm/data-moat-ai-startup/): The pitch says proprietary data. Show a loop that compounds, not a pile of logs.
 - [Should an AI startup file patents?](/library/gtm/ai-startup-patents-ip/): Deciding what to patent, keep secret, or leave open. Patent a method that changes how the model runs; sign present-tense assignments first.
 - [Why coding agents don't 10x the company](/library/gtm/coding-agents-dont-10x-engineering/): Rolling out agents. Measure review, test, and release, not coding speed alone.
+- [AI code review bottleneck: how to clear the review queue](/library/gtm/ai-code-review-bottleneck/): Agent pull requests wait for reviewers. Cap the size, name an owner, tier review by risk.
 :::
 
 ## What changes by stage
@@ -80,4 +81,5 @@ If the debate is when the first VP of Sales lands, use [when to hire the first V
 - [Atlassian, How Amdahl's Law still applies to modern-day AI inefficiencies](https://www.atlassian.com/blog/ai-at-work/how-amdahls-law-still-applies-to-modern-day-ai-inefficiencies) — 3 Apr 2026. On the coding-agents page.
 - [Faros, The AI Engineering Report 2026: The Acceleration Whiplash](https://www.faros.ai/blog/ai-acceleration-whiplash-takeaways) — 12 Apr 2026. Merge/review/incident telemetry. On the coding-agents page.
 - [METR, Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) — 10 Jul 2025. RCT snapshot. On the coding-agents page.
+- [LinearB, Engineering benchmarks 2026](https://linearb.io/library/engineering-benchmarks-and-research) — pickup and review time by pull request type, 30-day acceptance. On [AI code review bottleneck](/library/gtm/ai-code-review-bottleneck/).
 - [VEN (Venture Executive Network)](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referral&utm_campaign=library) — founder sessions across these topics. AI on prep; humans on the close; job-first message; charge metric matches who closes the loop. Not a survey.

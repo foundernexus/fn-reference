@@ -12,6 +12,7 @@ close: Founders who have scored each stage of the delivery loop and moved AI pas
 draft: false
 related:
 - library/gtm
+- library/gtm/ai-code-review-bottleneck
 - library/gtm/data-moat-ai-startup
 - library/gtm/seat-vs-usage-vs-outcome-pricing-ai-saas
 - library/gtm/ai-sdr-vs-human
