@@ -20,6 +20,7 @@ related:
 - library/fundraising/venture-debt
 - tools/safe-dilution-calculator
 - library/equity/qsbs
+- library/fundraising/quality-of-earnings
 ---
 
 To sell a startup, build relationships with likely buyers a year or two before you want an offer, then run a short process with at least two bidders. Price and terms only move while a second buyer is live. Once you sign a letter of intent (LOI), you stop talking to anyone else, so negotiate exclusivity down toward **30** days; Orrick's M&A partners say it usually runs **30–60**. Expect a large share of the price to arrive after closing. In SRS Acquiom's 2026 study of more than **2,300** private-target deals, **88%** of 2025 deals held back part of the price in an escrow or holdback, and the median escrow on deals without deal insurance was **10%** of the price. Not legal, tax, or investment advice.
@@ -203,3 +204,4 @@ Not legal or tax advice. Approvals, escrow terms, tax treatment of the sale, and
 - [Venture debt](/library/fundraising/venture-debt/)
 - [SAFE dilution calculator](/tools/safe-dilution-calculator/)
 - [QSBS for startup founders](/library/equity/qsbs/)
+- [Quality of earnings report for a startup sale](/library/fundraising/quality-of-earnings/)

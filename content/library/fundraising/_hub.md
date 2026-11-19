@@ -1,6 +1,6 @@
 ---
 title: Fundraising
-description: Sixteen fundraising decisions from the first angel check to selling the company, in the order founders hit them, each with cited numbers.
+description: Seventeen fundraising decisions from the first angel check to selling the company, in the order founders hit them, each with cited numbers.
 slug: fundraising
 section: library
 cluster: fundraising
@@ -46,6 +46,7 @@ Fundraising is a run of separate decisions, from the first angel check to the Se
 
 :::group Sell the company
 - [How to sell a startup: buyers, LOI, diligence, close](/library/fundraising/how-to-sell-a-startup/): A buyer is circling. Get a second bid before the LOI, keep exclusivity near 30 days, and model escrow and earnout.
+- [Quality of earnings report for a startup sale](/library/fundraising/quality-of-earnings/): A sale is likely within a year. Rebuild ARR from invoices, fix deferred revenue and add-backs, and finish a sell-side QoE before the LOI.
 - [Cap table waterfall calculator](/tools/cap-table-waterfall/): An offer has a number. See who gets paid what after each liquidation preference, and what founders keep.
 :::
 
@@ -96,6 +97,8 @@ A [VEN](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referra
 **Post–term sheet.** Open confirmatory folders organized to YC’s categories so counsel is not inventing a map under deadline. Burkland’s common dilution framing (~**15–25%** including negotiated option-pool expansion) belongs in the model before you negotiate, not as a surprise mid-close.
 
 **Selling the company.** Know a senior executive at each likely buyer a year or two ahead, get a second bid before you sign a letter of intent, and push exclusivity toward 30 days ([how to sell a startup](/library/fundraising/how-to-sell-a-startup/)). Plan around cash at close after escrow and a discounted earnout, not the headline price.
+
+**Before the buyer's diligence.** Rebuild ARR from invoices, build a monthly deferred revenue waterfall, and put a working capital target in the LOI ([quality of earnings report](/library/fundraising/quality-of-earnings/)). QoE gaps ended **21.3%** of the broken 2025 LOIs Axial reviewed.
 
 ## Pair with finance, board, and hiring
 
