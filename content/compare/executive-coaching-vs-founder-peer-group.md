@@ -1,6 +1,6 @@
 ---
-title: Executive coaching vs a founder peer group
-description: "Coaching is private 1:1 work on how you lead. A peer group puts founders who have sat in your seat on the decision in front of you. Pick by the constraint."
+title: Peer forums or executive coaching for growth?
+description: "Peer forums win for growth when the bottleneck is judgment on founder decisions. Coaching wins for a named skill gap. Vistage pairs 12–16 CEOs with 1:1s."
 slug: executive-coaching-vs-founder-peer-group
 section: compare
 cluster: rooms
@@ -17,7 +17,7 @@ related:
 - library/board/series-a-board-meeting-agenda
 ---
 
-Coaching is a private 1:1 on how you lead. A peer group is a room of operators who pressure-test the decision in front of you; Vistage’s meets monthly with **12–16** CEOs (Vistage member-info). Pick by the constraint, then check whether the published entry filter admits a venture-scale founder at your stage.
+Are peer forums better for growth than executive coaching? Yes, when your bottleneck is judgment on recurring founder decisions such as pricing, the VP hire, or the raise: peers who have run those calls pressure-test the one in front of you. Coaching is the better buy when the gap is a named personal skill, such as presence or a conflict you keep dodging. Vistage sells both: a monthly group of **12–16** CEOs plus Chair 1:1s (Vistage member-info). Pick by the constraint, then check whether the published entry filter admits a venture-scale founder at your stage.
 
 :::takeaways
 - Coaching wins when the work is personal, specific, and behavior-based: conflict avoidance, executive presence, a named skill gap, or follow-through on a plan you already know.
