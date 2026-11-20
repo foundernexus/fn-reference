@@ -484,6 +484,40 @@ article.prose + .section .section-title {
   margin-top: 2px;
   line-height: 1.45;
 }
+.related-section .list-kind {
+  flex-basis: 100%;
+  margin-bottom: -4px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+}
+/* Related as a two-column card grid on wide screens: shorter scroll, easier scan. */
+@media (min-width: 900px) {
+  .related-section .related-width { width: min(60rem, calc(100% - 64px)); }
+  .related-section .page-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    border: 0;
+    border-radius: 0;
+    background: none;
+    overflow: visible;
+  }
+  .related-section .page-list li,
+  .related-section .page-list li:last-child {
+    display: flex;
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    background: var(--white);
+    overflow: hidden;
+  }
+  .related-section .page-list a {
+    flex: 1;
+    align-content: flex-start;
+  }
+  .related-section .page-list li:only-child { grid-column: 1 / -1; }
+}
 
 .crumbs {
   display: flex;

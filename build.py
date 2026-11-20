@@ -1255,6 +1255,18 @@ def page_cards(pages: list[dict]) -> str:
     return f'<div class="grid grid-2">{"".join(cards)}</div>'
 
 
+def related_kind(p: dict) -> str:
+    """Short reader-facing label above each Related card: Calculator, Comparison, Topic, or the topic name."""
+    if p.get("layout") == "hub":
+        return "Topic"
+    if p["section"] == "tools":
+        return "Calculator"
+    if p["section"] == "compare":
+        return "Comparison"
+    cl = CLUSTERS.get(p.get("cluster") or "")
+    return cl["title"] if cl else (SECTIONS.get(p["section"], {}).get("kicker") or p["section"].title())
+
+
 def related_block(page: dict, by_key: dict[str, dict]) -> str:
     keys = page.get("related") or []
     items = []
@@ -1265,13 +1277,14 @@ def related_block(page: dict, by_key: dict[str, dict]) -> str:
     if not items:
         return ""
     lis = "".join(
-        f'<li><a href="{url(o["path"])}"><span class="list-title">{html.escape(o["title"])}</span>'
+        f'<li><a href="{url(o["path"])}"><span class="list-kind">{html.escape(related_kind(o))}</span>'
+        f'<span class="list-title">{html.escape(o["title"])}</span>'
         f'<p class="list-desc">{html.escape(o["description"])}</p></a></li>'
         for o in items
     )
     return (
         '<section class="section related-section" aria-label="Related">'
-        '<div class="article-width">'
+        '<div class="article-width related-width">'
         f'<h2 class="related-heading">Related</h2>'
         f'<ul class="page-list">{lis}</ul>'
         "</div></section>"
