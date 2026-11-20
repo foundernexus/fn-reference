@@ -1,12 +1,13 @@
 ---
 title: Term sheet red flags: which VC terms to push back on
-description: Clean VC terms are a 1x nonparticipating preference, broad-based anti-dilution, a board where common holds the majority, and 30–45 days of exclusivity. Push back on anything heavier.
+description: Clean VC terms: 1x nonparticipating preference, broad-based anti-dilution, a common-majority board, 30–45 days of exclusivity. Push back on anything heavier.
 slug: term-sheet-red-flags
 section: library
 cluster: fundraising
 layout: article
 target_query: term sheet red flags
 date: 2026-10-08
+updated: 2026-11-20
 close: Founders who have negotiated priced rounds with counsel at their side will pressure-test your board terms, vetoes, and exit waterfall in a VEN session.
 disclaimer: not-legal-tax
 draft: false

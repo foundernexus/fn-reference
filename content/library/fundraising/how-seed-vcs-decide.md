@@ -1,13 +1,13 @@
 ---
 title: "How seed VCs decide: what investors check before they invest"
-description: Seed VCs decide on the team first, then the market and the evidence. In a survey of 885 VCs, 53% of early-stage firms ranked the team the most important factor, and they close about 1 deal for every 119 they consider.
+description: Seed VCs decide on the team first. In a survey of 885 VCs, 53% of early-stage firms ranked the team first, and they closed about 1 deal per 119 considered.
 slug: how-seed-vcs-decide
 section: library
 cluster: fundraising
 layout: article
 target_query: how do seed VCs decide to invest
 date: 2026-10-09
-updated: 2026-10-30
+updated: 2026-11-20
 close: Founders who have raised seed rounds from institutional funds will pressure-test your fund list, team story, and evidence for each investor's thesis in a VEN session.
 disclaimer: not-legal-tax
 draft: false

@@ -1,12 +1,13 @@
 ---
 title: How to negotiate your first customer contract
-description: Put the full list price on the order form and show the discount as its own dated line. Trade each point of discount for term, prepay, usage, or a case study, and give on term length before price.
+description: Put full list price on your first order form and show the discount as its own dated line. Trade discount for term, prepay, or a case study; give on term first.
 slug: first-customer-contract
 section: library
 cluster: gtm
 layout: article
 target_query: how to negotiate first customer contract startup
 date: 2026-10-17
+updated: 2026-11-20
 close: Founders who have papered their first paid customers will pressure-test your order form, discount trades, and renewal terms in a VEN session.
 disclaimer: not-legal-tax
 draft: false

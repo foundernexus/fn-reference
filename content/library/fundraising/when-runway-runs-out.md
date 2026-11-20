@@ -1,12 +1,13 @@
 ---
 title: When runway runs out: diagnose, cut, raise, or land soft
-description: What to do when startup runway runs short. Snapshot vs trajectory, default alive or dead, cut burn, bridge or angel capital, revenue extension, or orderly wind-down.
+description: When runway runs short, measure months left and whether you are default alive, then pick one path: cut burn, raise a bridge, extend with revenue, or wind down.
 slug: when-runway-runs-out
 section: library
 cluster: fundraising
 layout: article
 target_query: what to do when startup runway runs out
 date: 2026-10-04
+updated: 2026-11-20
 close: Short-runway choices set the next raise, the next job, and how investors remember you. Founders who have cut burn, bridged, or landed soft will pressure-test your path against cash left in a VEN session.
 disclaimer: not-legal-tax
 draft: false

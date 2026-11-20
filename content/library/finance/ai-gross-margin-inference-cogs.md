@@ -1,12 +1,13 @@
 ---
 title: "AI SaaS gross margin: inference COGS in the board pack"
-description: Classic SaaS gross margin bands assume delivery is almost free. Put production inference, GPU serving, retrieval, AI monitoring, and AI support in COGS. Keep training, dev/test inference, and internal AI tools in R&D or OpEx. Show AI gross margin as its own board line with one written definition.
+description: The classic 70–80% SaaS gross margin benchmark does not fit AI products. Put production inference, GPU serving, and retrieval in COGS; keep training in R&D.
 slug: ai-gross-margin-inference-cogs
 section: library
 cluster: finance
 layout: article
 target_query: AI SaaS gross margin
 date: 2026-10-13
+updated: 2026-11-20
 close: Founders who have defended an AI gross margin line through a board pack and a raise will pressure-test your COGS map in a VEN session.
 disclaimer: not-legal-tax
 draft: false

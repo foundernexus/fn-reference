@@ -141,7 +141,7 @@ Illustrative arithmetic, not data from any deal. A buyer offers **$40M** at clos
 
 The headline reads **$53.6M**. Planning cash is **$36M** on day one, most of the **$4M** escrow a year later, and perhaps **$2.9M** of earnout. Fees come off the top, and preferred holders take their preferences before common. Run your own waterfall with counsel.
 
-When a buyer buys deal insurance, the median escrow falls from **10%** to **0.5%**, so ask whether the buyer will buy a policy before you agree to a **10%** escrow.
+In SRS Acquiom's data, the median escrow falls from **10%** to **0.5%** when a buyer buys deal insurance, so ask whether the buyer will buy a policy before you agree to a **10%** escrow.
 
 ## Keep the company running through diligence
 

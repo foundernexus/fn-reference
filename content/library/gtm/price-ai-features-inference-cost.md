@@ -1,12 +1,13 @@
 ---
 title: How to price AI features to cover inference cost
-description: Cost sets the floor and value sets the price. Measure AI cost per unit for the typical user and the heavy cohort, include an allowance sized to typical use, and meter the rest with credits or overage priced at or above the floor.
+description: Price AI features from value with cost as the floor: AI cost per unit ÷ (1 − target margin), or 2× cost at a 50% target. Include an allowance; meter the rest.
 slug: price-ai-features-inference-cost
 section: library
 cluster: gtm
 layout: article
 target_query: how to price AI features
 date: 2026-10-16
+updated: 2026-11-20
 close: Founders who have repriced an AI feature and kept their customers will pressure-test your allowance and overage math in a VEN session.
 draft: false
 related:
