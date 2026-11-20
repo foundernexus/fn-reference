@@ -374,3 +374,32 @@ Source: https://www.venexecs.com/sitemap.xml filtered to /playbooks/ (200). Snap
 
 ### Next article candidate (added 2026-11-19, after #77)
 78. Acqui-hire: when a talent deal beats a wind-down → /library/fundraising/acqui-hire/. Query: acqui-hire (secondary: acquihire vs asset sale, what happens to investors in an acqui-hire). Playbook concepts/acqui-hire (no FD page yet). Check overlap with how-to-sell-a-startup (sale process) and when-runway-runs-out (wind-down options); frame as the deal structure, retention packages, and what common and preferred holders receive. Public data first (Carta M&A / shutdown data, SRS Acquiom, named law firm guides); every number cited.
+
+## Friday 2026-11-20 VEN Playbooks check (internal)
+Source: https://www.venexecs.com/sitemap.xml filtered to /playbooks/ (200). Snapshot: ops/ven-playbook-urls-2026-11-20.txt (97 URLs). Judgment only; never copy playbook text; never name the Startup Bible publicly.
+
+### New since 2026-11-13
+- None. Path list identical to ops/ven-playbook-urls-2026-11-13.txt (97 URLs, none added or removed).
+- Sitemap lastmod: 46 playbook URLs now read 2026-11-09, 13 read 2026-11-04, 10 read 2026-11-03, one 2026-11-02 (bulk refresh; no content diff read).
+
+### Link health and mapping
+- All 52 distinct playbook paths used by VEN_PLAYBOOKS plus frontmatter `ven_playbook` return 200 (no redirect) and all are in the sitemap. Nothing broken.
+- No new mappings. Unmapped owned pages are unchanged (when-to-add-independent-director, fractional-vs-full-time-cfo, the two compare pages, rooms topic page, about); still no genuine playbook match.
+
+### Improvement queue
+- Empty since item 6 shipped 2026-11-20 (be04202). Proposed next, pending Matt: venture debt cost and warrant calculator; SaaS and AI metrics benchmarks by stage table; investor update template builder. Do not start without his go-ahead.
+
+### New article candidates (after #78; from unmapped VEN playbooks, check search demand and overlap before shipping)
+79. Shutting down a startup: dissolution steps and what founders owe → /library/fundraising/shut-down-a-startup/. Query: how to shut down a startup (secondary: dissolve a Delaware corporation, startup wind-down). Playbook concepts/administrative-dissolution. Check overlap with when-runway-runs-out (decision to wind down) and #78 acqui-hire; this page is the mechanics after the decision: board and stockholder approval, Delaware certificate of dissolution, final payroll and tax filings, investor notice. Public data first (Carta shutdown data, Delaware Division of Corporations, named law firm guides).
+80. Strategic vs financial buyer: who pays more for a startup → /library/fundraising/strategic-vs-financial-buyer/. Query: strategic vs financial buyer (secondary: EBITDA multiple by deal size). Playbooks concepts/strategic-vs-financial-buyer and concepts/ebitda-multiple-bands. Check overlap with how-to-sell-a-startup (1984 Ventures buyer-group table); frame as the price, structure, and post-close role each buyer type brings. Every multiple needs a named public source (e.g. GF Data, PitchBook); if none, say so and open a benchmark request.
+81. Earnout terms in a startup acquisition → /library/fundraising/earnout/. Query: earnout startup acquisition (secondary: how earnouts work, earnout red flags). Playbook concepts/earn-out. how-to-sell-a-startup already carries SRS Acquiom 24% / 34% / ~21 cents; this page must add the term-level detail (metric choice, measurement period, buyer covenants, acceleration) or it is not worth shipping.
+82. Internal champion and the buying committee in an enterprise deal → /library/gtm/internal-champion/. Query: internal champion b2b sales (secondary: buying committee size). Playbooks concepts/internal-champion and concepts/buying-committee. Check overlap with sell-to-enterprise; ship only if it carries its own frame (finding, testing, and arming the champion).
+Lower priority unchanged: founder immigration (legal-heavy), SaaS repricing post (weak query fit).
+
+### Credibility pass 2026-11-20 (internal)
+- Heuristic scan (body paragraphs and tables with %, $, × or multi-digit figures and no named publisher, link, or labeled example) of the six pages shipped since 11-13 plus the ten answer-first pages edited 11-20: every flag traced to an inline publisher, a statute, a source column, a table caption, or a labeled example. No unsourced figure.
+- One attribution made explicit (dad8a18): how-to-sell-a-startup escrow sentence after the illustrative waterfall now opens "In SRS Acquiom's data" (the 10% / 0.5% figures came from the table above it).
+- No missing benchmarks.yaml range found; every "no reliable public benchmark yet" page since 11-13 already has an open request (fn-content#77, #80–#83). No new issue.
+
+### Live QA 2026-11-20 (Friday review)
+- Run 1 after dad8a18 + ab24512 deployed: pages=115 FAIL=0 WARN=104 (6 over-length descriptions, 35 bot-blocked or timed-out external citations (403 / status 0; four status-0 links checked by hand, all 200), 63 generated /decisions/ and /benchmarks/ JSON-LD and sitemap YYYY-MM dates).

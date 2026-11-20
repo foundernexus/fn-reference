@@ -1,0 +1,692 @@
+{
+ "date": "2026-11-20",
+ "full": true,
+ "fail": 0,
+ "warn": 104,
+ "results": [
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/set-a-decision-date-when-runway-is-short/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/pick-an-ending-before-runway-forces-one/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/run-the-raise-as-a-filtered-pipeline/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/match-the-deck-to-the-funds-lens/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/choose-safe-note-or-priced-round-by-raise-size/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/hold-the-line-on-liquidation-preference/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/take-venture-debt-only-as-an-accelerant/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/qualify-angels-before-pitching-them/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/show-what-the-money-does-not-a-magic-number/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/keep-usage-revenue-out-of-arr/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/extend-runway-before-acquisition-talks-start/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/turn-inbound-interest-into-a-competitive-process/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/test-with-money-before-writing-real-code/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/anchor-high-then-discount-visibly/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/charge-for-the-pilot-and-keep-it-short/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/counter-price-pushback-with-a-shorter-term/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/start-smaller-than-you-plan-to-end-up/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/enter-the-enterprise-sideways-not-through-the-cio/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/scale-out-of-founder-led-sales-by-delegating-down/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/lead-the-page-with-the-pain-not-a-tagline/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/name-the-phase-when-hiring-an-executive/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/price-by-who-consumes-the-product/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/rebuild-go-to-market-for-an-ai-first-buyer/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/ship-the-first-data-loop-with-small-data/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/file-the-83b-within-thirty-days/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/keep-advisor-equity-inside-market-bands/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/patent-the-training-method-not-the-application/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/make-the-founder-the-face-of-pr/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/sell-outcomes-mention-ai-later/"
+  },
+  {
+   "level": "WARN",
+   "check": "sitemap",
+   "msg": "lastmod is not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/keep-chatbots-off-inbound-sales/"
+  },
+  {
+   "level": "INFO",
+   "check": "sitemap",
+   "msg": "115 URLs, lastmod range 2026-08-29 .. 2026-11-20",
+   "url": ""
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "no JSON-LD",
+   "url": "https://founderdecisions.com/decisions/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "no JSON-LD",
+   "url": "https://founderdecisions.com/benchmarks/"
+  },
+  {
+   "level": "WARN",
+   "check": "seo",
+   "msg": "meta description 236 chars",
+   "url": "https://founderdecisions.com/library/gtm/conference-to-customers/"
+  },
+  {
+   "level": "WARN",
+   "check": "seo",
+   "msg": "meta description 208 chars",
+   "url": "https://founderdecisions.com/library/gtm/customer-development-sales-funnel/"
+  },
+  {
+   "level": "WARN",
+   "check": "seo",
+   "msg": "meta description 225 chars",
+   "url": "https://founderdecisions.com/library/gtm/early-customer-retention/"
+  },
+  {
+   "level": "WARN",
+   "check": "seo",
+   "msg": "meta description 191 chars",
+   "url": "https://founderdecisions.com/library/gtm/landing-page-that-converts/"
+  },
+  {
+   "level": "WARN",
+   "check": "seo",
+   "msg": "meta description 192 chars",
+   "url": "https://founderdecisions.com/library/gtm/sell-to-enterprise/"
+  },
+  {
+   "level": "WARN",
+   "check": "seo",
+   "msg": "meta description 177 chars",
+   "url": "https://founderdecisions.com/library/gtm/validate-demand-before-you-build/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/set-a-decision-date-when-runway-is-short/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/pick-an-ending-before-runway-forces-one/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/run-the-raise-as-a-filtered-pipeline/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/match-the-deck-to-the-funds-lens/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/choose-safe-note-or-priced-round-by-raise-size/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/hold-the-line-on-liquidation-preference/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/take-venture-debt-only-as-an-accelerant/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/qualify-angels-before-pitching-them/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/show-what-the-money-does-not-a-magic-number/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/keep-usage-revenue-out-of-arr/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/extend-runway-before-acquisition-talks-start/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/turn-inbound-interest-into-a-competitive-process/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/test-with-money-before-writing-real-code/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/anchor-high-then-discount-visibly/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/charge-for-the-pilot-and-keep-it-short/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/counter-price-pushback-with-a-shorter-term/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/start-smaller-than-you-plan-to-end-up/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/enter-the-enterprise-sideways-not-through-the-cio/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/scale-out-of-founder-led-sales-by-delegating-down/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/lead-the-page-with-the-pain-not-a-tagline/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/name-the-phase-when-hiring-an-executive/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/price-by-who-consumes-the-product/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/rebuild-go-to-market-for-an-ai-first-buyer/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/ship-the-first-data-loop-with-small-data/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/file-the-83b-within-thirty-days/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/keep-advisor-equity-inside-market-bands/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/patent-the-training-method-not-the-application/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/make-the-founder-the-face-of-pr/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/sell-outcomes-mention-ai-later/"
+  },
+  {
+   "level": "WARN",
+   "check": "jsonld",
+   "msg": "datePublished not a full date: 2026-09",
+   "url": "https://founderdecisions.com/decisions/keep-chatbots-off-inbound-sales/"
+  },
+  {
+   "level": "INFO",
+   "check": "links",
+   "msg": "115 internal targets, 537 external targets",
+   "url": ""
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 403 (from ['https://founderdecisions.com/library/gtm/landing-page-that-converts/', 'https://founderdecisions.com/library/gtm/sell-to-enterprise/'])",
+   "url": "https://6sense.com/newsroom/6sense-launches-2024-buyer-experience-report-unveiling-global-b2b-buyer-trends/"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 403 (from ['https://founderdecisions.com/library/gtm/startup-pricing-packaging/'])",
+   "url": "https://doi.org/10.1086/209205"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 403 (from ['https://founderdecisions.com/library/gtm/ai-startup-patents-ip/'])",
+   "url": "https://doi.org/10.1111/jofi.12867"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 403 (from ['https://founderdecisions.com/library/gtm/validate-demand-before-you-build/'])",
+   "url": "https://doi.org/10.1287/mksc.12.1.1"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 403 (from ['https://founderdecisions.com/library/gtm/soc-2-for-startups/'])",
+   "url": "https://drata.com/learn/soc-2/cost"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 403 (from ['https://founderdecisions.com/library/finance/usage-revenue-as-arr/'])",
+   "url": "https://gtmnow.com/arr-vs-err-why-every-dollar-isnt-equal/"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 403 (from ['https://founderdecisions.com/library/equity/ip-assignment/'])",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=LAB&sectionNum=2870"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 403 (from ['https://founderdecisions.com/library/equity/ip-assignment/'])",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=LAB&sectionNum=2872"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 403 (from ['https://founderdecisions.com/library/finance/', 'https://founderdecisions.com/library/finance/ai-gross-margin-inference-cogs/'])",
+   "url": "https://medium.com/craft-ventures/the-burn-multiple-51a7e43cb200"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 403 (from ['https://founderdecisions.com/library/fundraising/how-seed-vcs-decide/'])",
+   "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2432044"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 403 (from ['https://founderdecisions.com/library/fundraising/us-fundraising-non-us-founders/'])",
+   "url": "https://pitchbook.com/news/articles/accelerators-top-us-investors-in-european-vc"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 403 (from ['https://founderdecisions.com/library/fundraising/venture-debt/'])",
+   "url": "https://pitchbook.com/news/articles/ai-and-a-new-scale-of-startups-took-us-venture-debt-to-a-record"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 403 (from ['https://founderdecisions.com/library/equity/ip-assignment/', 'https://founderdecisions.com/library/gtm/ai-startup-patents-ip/'])",
+   "url": "https://supreme.justia.com/cases/federal/us/563/776/"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 403 (from ['https://founderdecisions.com/library/gtm/landing-page-that-converts/'])",
+   "url": "https://unbounce.com/conversion-benchmark-report/methodology/"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 403 (from ['https://founderdecisions.com/library/gtm/landing-page-that-converts/'])",
+   "url": "https://unbounce.com/conversion-benchmark-report/saas-conversion-rate/"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 403 (from ['https://founderdecisions.com/library/gtm/landing-page-that-converts/'])",
+   "url": "https://unbounce.com/landing-pages/whats-a-good-conversion-rate/"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 403 (from ['https://founderdecisions.com/library/fundraising/quality-of-earnings/'])",
+   "url": "https://www.axial.net/forum/dead-deal-report-unpacking-2025s-broken-lois/"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 403 (from ['https://founderdecisions.com/library/gtm/strategic-partnership-ip/'])",
+   "url": "https://www.bipc.com/more-about-boilerplate-non-disclosure-agreements"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 403 (from ['https://founderdecisions.com/library/fundraising/seed-pitch-deck/'])",
+   "url": "https://www.docsend.com/blog/what-vcs-really-want-to-see-inside-your-seed-deck/"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 403 (from ['https://founderdecisions.com/library/fundraising/us-subsidiary-setup/'])",
+   "url": "https://www.ftb.ca.gov/file/business/types/corporations/index.html"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 403 (from ['https://founderdecisions.com/library/gtm/pilot-to-paid-contract/'])",
+   "url": "https://www.gartner.com/en/newsroom/press-releases/2024-07-29-gartner-predicts-30-percent-of-generative-ai-projects-will-be-abandoned-after-proof-of-concept-by-end-of-2025"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 403 (from ['https://founderdecisions.com/library/gtm/', 'https://founderdecisions.com/library/gtm/ai-sdr-vs-human/'])",
+   "url": "https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 0 (from ['https://founderdecisions.com/library/finance/customer-concentration/'])",
+   "url": "https://www.lightercapital.com/blog/how-saas-startups-minimize-customer-concentration-risk"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 0 (from ['https://founderdecisions.com/library/board/', 'https://founderdecisions.com/library/board/when-to-add-independent-director/'])",
+   "url": "https://www.linkedin.com/posts/peterjameswalker_cartadata-boards-startupequity-activity-7134995702211821568-e_WU"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 0 (from ['https://founderdecisions.com/library/gtm/first-customer-contract/'])",
+   "url": "https://www.linkedin.com/posts/ryanneu_discounts-dont-creep-as-contracts-get-bigger-activity-7417595055374225408-pQyR"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 0 (from ['https://founderdecisions.com/library/finance/fractional-vs-full-time-cfo/', 'https://founderdecisions.com/library/hiring/'])",
+   "url": "https://www.majhigroup.com/series-a-leadership-benchmarks-2026.html"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 0 (from ['https://founderdecisions.com/library/finance/ai-gross-margin-inference-cogs/', 'https://founderdecisions.com/tools/ai-gross-margin-calculator/'])",
+   "url": "https://www.mavvrik.ai/wp-content/uploads/State-of-AI-Cost-Governance-2025_FINAL.pdf"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 0 (from ['https://founderdecisions.com/library/gtm/startup-pricing-packaging/'])",
+   "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/pricing-new-products"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 0 (from ['https://founderdecisions.com/library/gtm/startup-pricing-packaging/'])",
+   "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/the-power-of-pricing"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 0 (from ['https://founderdecisions.com/library/hiring/onboard-first-executive/'])",
+   "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/successfully-transitioning-to-new-leadership-roles"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 0 (from ['https://founderdecisions.com/library/fundraising/us-subsidiary-setup/'])",
+   "url": "https://www.mintz.com/insights-center/viewpoints/2911/2024-08-22-checklist-foreign-companies-expanding-us"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 0 (from ['https://founderdecisions.com/library/fundraising/first-angel-check/'])",
+   "url": "https://www.paulgraham.com/fr.html"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 0 (from ['https://founderdecisions.com/library/fundraising/us-fundraising-non-us-founders/'])",
+   "url": "https://www.pillsburypropel.com/guidance/delaware-us-venture-capital-investors-company-structure"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 0 (from ['https://founderdecisions.com/library/gtm/first-customer-contract/'])",
+   "url": "https://www.saastr.com/how-big-a-discount-should-i-give-for-multi-year-deals/"
+  },
+  {
+   "level": "WARN",
+   "check": "external",
+   "msg": "external link -> 0 (from ['https://founderdecisions.com/library/gtm/first-customer-contract/', 'https://founderdecisions.com/library/gtm/pilot-to-paid-contract/'])",
+   "url": "https://www.saastr.com/the-top-20-saastr-polls-on-freemium-discounts-and-much-more/"
+  },
+  {
+   "level": "INFO",
+   "check": "hubs",
+   "msg": "board: 4 articles + 0 tools/compare",
+   "url": ""
+  },
+  {
+   "level": "INFO",
+   "check": "hubs",
+   "msg": "equity: 7 articles + 4 tools/compare",
+   "url": ""
+  },
+  {
+   "level": "INFO",
+   "check": "hubs",
+   "msg": "finance: 7 articles + 4 tools/compare",
+   "url": ""
+  },
+  {
+   "level": "INFO",
+   "check": "hubs",
+   "msg": "fundraising: 17 articles + 2 tools/compare",
+   "url": ""
+  },
+  {
+   "level": "INFO",
+   "check": "hubs",
+   "msg": "gtm: 22 articles + 0 tools/compare",
+   "url": ""
+  },
+  {
+   "level": "INFO",
+   "check": "hubs",
+   "msg": "hiring: 4 articles + 0 tools/compare",
+   "url": ""
+  },
+  {
+   "level": "INFO",
+   "check": "hubs",
+   "msg": "rooms: 0 articles + 2 tools/compare",
+   "url": ""
+  },
+  {
+   "level": "INFO",
+   "check": "freshness",
+   "msg": "New this week newest 2026-11-19 (1d old): /library/fundraising/quality-of-earnings/",
+   "url": ""
+  }
+ ]
+}
