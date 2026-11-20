@@ -7,7 +7,7 @@ cluster: fundraising
 layout: article
 target_query: how to sell a startup
 date: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-20
 close: Founders who have run a sale, or walked away from one, will pressure-test your buyer list, your letter of intent, and what you take home at close in a VEN session.
 disclaimer: not-legal-tax
 draft: false
@@ -23,7 +23,7 @@ related:
 - library/fundraising/quality-of-earnings
 ---
 
-To sell a startup, build relationships with likely buyers a year or two before you want an offer, then run a short process with at least two bidders. Price and terms only move while a second buyer is live. Once you sign a letter of intent (LOI), you stop talking to anyone else, so negotiate exclusivity down toward **30** days; Orrick's M&A partners say it usually runs **30–60**. Expect a large share of the price to arrive after closing. In SRS Acquiom's 2026 study of more than **2,300** private-target deals, **88%** of 2025 deals held back part of the price in an escrow or holdback, and the median escrow on deals without deal insurance was **10%** of the price. Not legal, tax, or investment advice.
+To sell a startup, build relationships with likely buyers a year or two before you want an offer, then run a short process with at least two bidders. Once you sign a letter of intent (LOI), you stop talking to anyone else, so negotiate exclusivity down toward **30** days; Orrick's M&A partners say it usually runs **30–60**. Price and terms only move while a second buyer is live. Expect a large share of the price to arrive after closing. In SRS Acquiom's 2026 study of more than **2,300** private-target deals, **88%** of 2025 deals held back part of the price in an escrow or holdback, and the median escrow on deals without deal insurance was **10%** of the price. Not legal, tax, or investment advice.
 
 :::takeaways
 - Start early. 1984 Ventures' handbook says build buyer relationships a year or two out; with **3–6** months of cash left, you get a fire sale.

@@ -7,7 +7,7 @@ cluster: equity
 layout: article
 target_query: how much equity to give VP of sales startup
 date: 2026-08-29
-updated: 2026-10-30
+updated: 2026-11-20
 close: Public ranges are a starting point. Founders who have made this hire will pressure-test the number in your offer in a VEN session.
 disclaimer: not-legal-tax
 draft: false
@@ -23,7 +23,7 @@ related:
 - library/hiring/executive-compensation-benchmarks
 ---
 
-Give a first VP at Series A 0.3–0.8% fully diluted, on Index’s rule of thumb. Engineering and product sit at the high end; sales, finance, and people sit at the low end. At seed, UltraTalent and The CRO Report put a first sales leader at 0.5–2.0%, and Index notes that seat is often not a true VP.
+A first VP at Series A gets **0.3–0.8%** fully diluted, on Index’s rule of thumb. At seed, UltraTalent and The CRO Report put a first sales leader at **0.5–2.0%**. Engineering and product sit at the high end of the Series A range; sales, finance, and people sit at the low end. Index notes the seed sales seat is often not a true VP.
 
 :::highlight
 Seed first sales: 0.5–2.0% FD (UltraTalent; CRO Report). Series A VP: 0.3–0.8% (Index). Eng/product high; sales low. Series B sales: three source ranges, not averaged.

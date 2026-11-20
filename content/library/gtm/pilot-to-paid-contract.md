@@ -7,7 +7,7 @@ cluster: gtm
 layout: article
 target_query: how to convert a pilot to a paid contract
 date: 2026-10-06
-updated: 2026-11-13
+updated: 2026-11-20
 close: Founders who have turned enterprise pilots into purchase orders will pressure-test your success criteria, buyer map, and conversion clause in a VEN session.
 disclaimer: not-legal-tax
 draft: false
@@ -25,7 +25,7 @@ related:
 - library/hiring/when-to-hire-first-vp-sales
 ---
 
-Yes. A buyer can run a paid pilot before signing an annual contract, and SaaStr notes enterprise buyers often won’t buy from a startup without one. Make the pilot convert on paper before it starts. Scope it to one workflow, charge for it, and sign two or three success metrics with the economic buyer. Write the annual price and the signing date into the pilot agreement, so you and the buyer agree on conversion before kickoff. Start security and procurement in week one. At readout you check the boxes and ask for the signature. SaaStr readers report paid pilots convert far more often than free ones: **74%** vs **42%**.
+Yes. Charge for it: in SaaStr reader polls, **74%** said paid pilots convert to paid customers and **42%** said free pilots do. SaaStr also notes enterprise buyers often won’t buy from a startup without a pilot. Make the pilot convert on paper before it starts. Scope it to one workflow and sign two or three success metrics with the economic buyer. Write the annual price and the signing date into the pilot agreement, so you and the buyer agree on conversion before kickoff. Start security and procurement in week one. At readout you check the boxes and ask for the signature.
 
 :::takeaways
 - Charge. In SaaStr reader polls, **74%** said paid pilots convert to paid customers and **42%** said free pilots generally do. Jason Lemkin: if you don’t charge, it’s an extended demo.

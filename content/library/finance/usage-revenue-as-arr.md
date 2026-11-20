@@ -1,13 +1,13 @@
 ---
 title: "Does usage revenue count as ARR? AI usage in the board pack"
-description: Subscription fees and contractual minimum commits count as ARR. Usage above the commit, pay-as-you-go consumption, pilots, and credits go on their own labeled lines. Write one definition and use it in the deck, model, board pack, and data room.
+description: "Only contracted commits count as ARR (Burkland, Stripe). Usage above the commit, pay-as-you-go use, pilots, and credits go on their own labeled lines."
 slug: usage-revenue-as-arr
 section: library
 cluster: finance
 layout: article
 target_query: is usage-based revenue ARR
 date: 2026-10-12
-updated: 2026-10-30
+updated: 2026-11-20
 close: Founders who have defended an ARR definition through a board pack and a raise will pressure-test your revenue lines in a VEN session before the number goes in the deck.
 disclaimer: not-legal-tax
 draft: false
@@ -21,7 +21,7 @@ related:
 - library/finance/ai-gross-margin-inference-cogs
 ---
 
-Usage revenue counts as ARR only up to what the contract commits. Subscription fees and recurring minimum commits are ARR. Usage above the commit, pay-as-you-go consumption, pilots, credits, and services go on separate, labeled lines. Burkland’s 2026 playbook for AI startups puts it in one rule: if you cannot tie a dollar to a renewable contractual commitment, call it run-rate, bookings, services, or pipeline. Investors rebuild your ARR in diligence. If the number shifts between the deck and the data room, expect them to discount all of it. Not legal, tax, or investment advice.
+Usage revenue counts as ARR only up to what the contract commits (Burkland, Stripe). Report usage above that as a labeled run-rate with a stated window, the way MongoDB’s 10-K annualizes the prior **90** days of Atlas direct-sales usage. Subscription fees and recurring minimum commits are ARR. Usage above the commit, pay-as-you-go consumption, pilots, credits, and services go on separate, labeled lines. Burkland’s 2026 playbook for AI startups puts it in one rule: if you cannot tie a dollar to a renewable contractual commitment, call it run-rate, bookings, services, or pipeline. Investors rebuild your ARR in diligence. If the number shifts between the deck and the data room, expect them to discount all of it. Not legal, tax, or investment advice.
 
 :::takeaways
 - ARR is subscription revenue plus recurring minimum commits. Stripe: usage-based charges without minimum commitments do not belong in committed ARR. Burkland: count usage only up to the minimum commit or a clearly renewable baseline.

@@ -7,7 +7,7 @@ cluster: rooms
 layout: article
 target_query: executive coaching vs founder peer group
 date: 2026-09-18
-updated: 2026-11-13
+updated: 2026-11-20
 close: If the gap is venture-scale peers on a live decision, not a private coach hour, start with VEN and pressure-test fit in a trial session.
 draft: false
 related:
@@ -17,7 +17,7 @@ related:
 - library/board/series-a-board-meeting-agenda
 ---
 
-If you are weighing coaching against a peer room, you are comparing two different products. Coaching is a private 1:1 on how you lead. A peer group is a room of operators who pressure-test the decision in front of you. Pick by the constraint, then check whether the published entry filter admits a venture-scale founder at your stage.
+Coaching is a private 1:1 on how you lead. A peer group is a room of operators who pressure-test the decision in front of you; Vistage’s meets monthly with **12–16** CEOs (Vistage member-info). Pick by the constraint, then check whether the published entry filter admits a venture-scale founder at your stage.
 
 :::takeaways
 - Coaching wins when the work is personal, specific, and behavior-based: conflict avoidance, executive presence, a named skill gap, or follow-through on a plan you already know.

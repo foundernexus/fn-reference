@@ -7,6 +7,7 @@ cluster: equity
 layout: article
 target_query: how much equity to give an advisor
 date: 2026-11-07
+updated: 2026-11-20
 close: Founders who have sized, vested, and later unwound advisor grants will pressure-test your advisor offer and your pool in a VEN session.
 disclaimer: not-legal-tax
 ven_playbook: concepts/advisor-equity
@@ -21,7 +22,7 @@ related:
 - tools/executive-equity-calculator
 ---
 
-A typical seed advisor gets about **0.12%** of the company. Carta's median advisor grant in the first half of 2024 was **0.21%** at pre-seed, **0.12%** at seed, and **0.05%** at Series A. The Founder Institute's FAST template sits above that: **0.25%** for a standard seed advisor and **0.75%** for an expert one, with **1%** as its ceiling at pre-seed. Vest it monthly over two years, with no cliff or a three-month cliff. Grant NSOs or restricted stock from the option pool, with board approval. Not legal or tax advice.
+A typical seed advisor gets about **0.12%** of the company, Carta's median advisor grant for the first half of 2024. Carta's medians run **0.21%** at pre-seed and **0.05%** at Series A. The Founder Institute's FAST template sits above that: **0.25%** for a standard seed advisor and **0.75%** for an expert one, with **1%** as its ceiling at pre-seed. Vest it monthly over two years, with no cliff or a three-month cliff. Grant NSOs or restricted stock from the option pool, with board approval. Not legal or tax advice.
 
 :::takeaways
 - Anchor on the market median, then move up for real work. Carta: only **10%** of pre-seed advisors got **1%** or more in H1 2024.

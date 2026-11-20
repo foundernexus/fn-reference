@@ -1,12 +1,13 @@
 ---
 title: "Seed pitch deck: what investors check slide by slide"
-description: A seed pitch deck has to earn the second meeting. DocSend sees VCs spend 3 minutes 44 seconds on a seed deck, and 58% read to the end. The slide order, the question each slide answers, and the evidence that settles it.
+description: "A seed deck has to earn the second meeting. DocSend: VCs spend 3 minutes 44 seconds on a seed deck, and 58% read to the end. Slide order and evidence."
 slug: seed-pitch-deck
 section: library
 cluster: fundraising
 layout: article
 target_query: seed pitch deck
 date: 2026-10-10
+updated: 2026-11-20
 close: Founders who have raised seed rounds will tear down your deck headlines, market math, and ask in a VEN session before the first send.
 disclaimer: not-legal-tax
 draft: false
@@ -20,7 +21,7 @@ related:
 - tools/runway-calculator
 ---
 
-A seed pitch deck has to earn the second meeting, and investors give it little time. DocSend’s seed guide reports VCs spend an average of **3 minutes 44 seconds** on a seed deck, and only **58%** of decks get read to the end. Open with the company purpose, the problem, the solution, and the market. DocSend says founders who lead with those four sections are more likely to raise. Give each section one slide where you can, and probably no more than three (Aaron Harris, YC). Write each headline as the point you want the investor to remember, and keep the deeper evidence in an appendix for the meeting. Not legal, tax, or investment advice.
+A seed pitch deck has to earn the second meeting in under four minutes. DocSend’s seed guide reports VCs spend an average of **3 minutes 44 seconds** on a seed deck, and only **58%** of decks get read to the end. Open with the company purpose, the problem, the solution, and the market. DocSend says founders who lead with those four sections are more likely to raise. Give each section one slide where you can, and probably no more than three (Aaron Harris, YC). Write each headline as the point you want the investor to remember, and keep the deeper evidence in an appendix for the meeting. Not legal, tax, or investment advice.
 
 :::takeaways
 - Attention is short. DocSend’s seed guide puts average review time at **3:44** with **58%** read to the end. Its quarterly data hit an all-time low of **2 minutes 24 seconds** per deck in Q4 2023.

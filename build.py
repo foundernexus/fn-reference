@@ -1933,8 +1933,105 @@ def copy_static() -> None:
 def write_robots() -> None:
     write(
         DIST / "robots.txt",
-        f"User-agent: *\nAllow: /\nSitemap: {abs_url('/sitemap.xml')}\n",
+        f"User-agent: *\nAllow: /\nSitemap: {abs_url('/sitemap.xml')}\n"
+        f"# Plain-text page index for AI assistants: {abs_url('/llms.txt')}\n",
     )
+
+
+
+# ---------------------------------------------------------------------------
+# /llms.txt (llmstxt.org): generated from frontmatter on every build.
+# ---------------------------------------------------------------------------
+
+# Most-seen owned pages in Search Console (28-day page export, 2026-11-13).
+# Refresh from the newest ops/gsc/*-pages.csv when a new export lands.
+LLMS_TOP_PAGES = [
+    "library/equity/executive-grants-by-stage",
+    "library/fundraising/venture-debt",
+    "library/gtm/pilot-to-paid-contract",
+    "library/fundraising/how-to-sell-a-startup",
+    "library/fundraising/seed-fundraising-process",
+    "library/fundraising/seed-pitch-deck",
+    "compare/executive-coaching-vs-founder-peer-group",
+    "library/finance/usage-revenue-as-arr",
+    "library/fundraising/safe-vs-priced-round",
+    "library/equity/advisor-equity",
+]
+
+_LLMS_BANNED = re.compile(
+    r"foundernexus|startup bible|fn-content|github|\bspokes?\b|\bclusters?\b|\bpillars?\b"
+    r"|\bhub notes?\b|target query|seo-brief|\binventory\b|\u2014",
+    re.I,
+)
+
+
+def _llms_line(text: str) -> str:
+    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", str(text))
+    text = text.replace("**", "").replace("`", "")
+    return " ".join(text.split())
+
+
+def _llms_item(title: str, path: str, desc: str) -> str:
+    return f"- [{_llms_line(title)}]({abs_url(path)}): {_llms_line(desc)}"
+
+
+def render_llms_txt(pages: list[dict], decision_pages: list[dict], benchmark_pages: list[dict]) -> str:
+    owned = [p for p in content_pages(pages) if p.get("layout") != "hub"]
+    by_key = {page_key(p): p for p in owned}
+    lines = [
+        f"# {SITE_NAME}",
+        "",
+        f"> {TAGLINE} {SECTIONS['library']['description']} "
+        "Every figure on a page names its source. Pages are not legal, tax, or investment advice.",
+        "",
+        "Each page answers one founder question in its first paragraph, then shows the cited "
+        "tables, steps, and sources behind the answer.",
+        "",
+        "## Topics",
+        "",
+        _llms_item("Library", "/library/", SECTIONS["library"]["description"]),
+    ]
+    for cid, cl in CLUSTERS.items():
+        hub = load_hub(cid) or {}
+        lines.append(
+            _llms_item(
+                hub.get("title") or cl["title"],
+                f"/{cl['section']}/{cid}/",
+                hub.get("description") or cl["description"],
+            )
+        )
+    if benchmark_pages:
+        lines.append(_llms_item("Benchmarks", "/benchmarks/", "Cited metric ranges for venture-scale founders. One publisher per figure."))
+    if decision_pages:
+        lines.append(_llms_item("Decisions", "/decisions/", "Founder decisions by stage: the options, what mattered, and what founders chose."))
+
+    tools = sorted((p for p in owned if p["section"] == "tools"), key=lambda p: p["title"])
+    lines += ["", "## Tools and calculators", ""]
+    lines += [_llms_item(p["title"], p["path"], p["description"]) for p in tools]
+
+    top = [by_key[k] for k in LLMS_TOP_PAGES if k in by_key]
+    lines += ["", "## Top pages", ""]
+    lines += [_llms_item(p["title"], p["path"], p["description"]) for p in top]
+
+    compare = sorted((p for p in owned if p["section"] == "compare" and p not in top), key=lambda p: p["title"])
+    if compare:
+        lines += ["", "## Comparisons", ""]
+        lines += [_llms_item(p["title"], p["path"], p["description"]) for p in compare]
+
+    shown = {id(p) for p in tools + top + compare}
+    rest = [p for p in owned if p["section"] == "library" and id(p) not in shown]
+    lines += ["", "## Optional", ""]
+    for cid, cl in CLUSTERS.items():
+        for p in sorted((p for p in rest if p.get("cluster") == cid), key=lambda p: p["title"]):
+            lines.append(_llms_item(p["title"], p["path"], p["description"]))
+    about = next((p for p in pages if p["path"] == "/about/"), None)
+    if about:
+        lines.append(_llms_item(about["title"], about["path"], about["description"]))
+    text = "\n".join(lines) + "\n"
+    bad = sorted({m.group(0) for m in _LLMS_BANNED.finditer(text)})
+    if bad:
+        raise SystemExit(f"llms.txt contains internal or banned words: {bad}")
+    return text
 
 
 def write_sitemap(
@@ -2078,6 +2175,7 @@ def build() -> None:
 
     write_robots()
     write_sitemap(pages, decision_pages, benchmark_pages)
+    write(DIST / "llms.txt", render_llms_txt(pages, decision_pages, benchmark_pages))
     write(DIST / "CNAME", "founderdecisions.com\n")
 
     assert_json_ld_parses(DIST)

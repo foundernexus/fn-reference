@@ -1,12 +1,13 @@
 ---
 title: "How to run a seed fundraising process: list, sequence, close"
-description: Run a seed raise as one short, parallel process. DocSend found pre-seed raises averaged 12 weeks in 2024, and most successful seed companies closed in 12 weeks or less. Size the ask, filter funds, sequence intros, and close.
+description: "Run a seed raise as one short, parallel process. DocSend: pre-seed raises averaged 12 weeks in 2024. Size the ask, filter funds, sequence intros, and close."
 slug: seed-fundraising-process
 section: library
 cluster: fundraising
 layout: article
 target_query: how to run a fundraising process
 date: 2026-10-11
+updated: 2026-11-20
 close: Founders who have closed seed rounds will pressure-test your milestone plan, fund list, and outreach order in a VEN session before the first intro goes out.
 disclaimer: not-legal-tax
 draft: false
@@ -19,7 +20,7 @@ related:
 - tools/runway-calculator
 ---
 
-Run a seed raise as one short, parallel process with a start date and a stop rule. DocSend’s 2024 data puts the average pre-seed raise at **12 weeks**, and most successful seed companies closed in **12 weeks or less**. Size the round to your next fundable milestone, usually **12 to 18** months out (Geoff Ralston, YC). Filter funds on stage, check size, sector, and whether they are writing new checks. Then meet them in parallel, ranked by how likely each one is to say yes and how much that yes is worth (Paul Graham). Close the first commitment fast and use it to pull in the rest. Not legal, tax, or investment advice.
+Run a seed raise as one short, parallel process with a start date and a stop rule. Plan on about **12 weeks**: that was DocSend’s 2024 average for a pre-seed raise, and most successful seed companies closed in **12 weeks or less**. Size the round to your next fundable milestone, usually **12 to 18** months out (Geoff Ralston, YC). Filter funds on stage, check size, sector, and whether they are writing new checks. Then meet them in parallel, ranked by how likely each one is to say yes and how much that yes is worth (Paul Graham). Close the first commitment fast and use it to pull in the rest. Not legal, tax, or investment advice.
 
 :::takeaways
 - Keep it short. DocSend: pre-seed raises averaged **12 weeks** in 2024, and most successful seed companies closed in **12 weeks or less**. Graham: be in fundraising mode or out of it.

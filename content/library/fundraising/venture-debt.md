@@ -1,12 +1,13 @@
 ---
 title: Venture debt for startups: when it fits and which terms to fight
-description: Venture debt fits right after an equity round, with 12+ months of runway and a named milestone. Size it near 20–40% of the round. Fight the draw window, MAC, and covenants.
+description: "Venture debt fits right after an equity round, with 12+ months of runway. Size it near 20–40% of the round (SVB). Fight the draw window, MAC, and covenants."
 slug: venture-debt
 section: library
 cluster: fundraising
 layout: article
 target_query: venture debt for startups
 date: 2026-10-05
+updated: 2026-11-20
 close: Founders who have drawn, renegotiated, and repaid venture debt will pressure-test your draw month, covenants, and lender shortlist in a VEN session.
 disclaimer: not-legal-tax
 draft: false
@@ -20,7 +21,7 @@ related:
 - tools/runway-calculator
 ---
 
-You are deciding whether to add a venture loan on top of your equity. It fits in a narrow window: within a few months of a fresh equity round, with at least **12** months of runway before the debt, to buy about **6** more months toward a milestone the next round will price (SVB). Size it near **20–40%** of the last round (SVB). The lender is underwriting your investors, not your cash flow (Fred Wilson, AVC). Skip it when runway is already short or the goal is to dodge a down round. Not legal, tax, or financial advice.
+Venture debt fits within a few months of a fresh equity round, with at least **12** months of runway before the debt, to buy about **6** more months toward a milestone the next round will price (SVB). Size it near **20–40%** of the last round (SVB). The lender is underwriting your investors, not your cash flow (Fred Wilson, AVC). Skip it when runway is already short or the goal is to dodge a down round. Not legal, tax, or financial advice.
 
 :::takeaways
 - Fit: raise it soon after an equity close, while you hold **12+** months of runway exclusive of debt (SVB). Kruze says lenders are easier to win at **12–18** months. A lender bets your venture investors keep funding you past the loan term (Wilson).

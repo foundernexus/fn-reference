@@ -7,7 +7,7 @@ cluster: fundraising
 layout: article
 target_query: SAFE vs priced round
 date: 2026-10-02
-updated: 2026-11-13
+updated: 2026-11-20
 close: Instrument choice is an ops decision with years of cap-table consequences. Founders who have closed Seed on both SAFEs and priced equity will pressure-test your raise size, cap math, and lead terms in a VEN session.
 disclaimer: not-legal-tax
 draft: false
@@ -30,7 +30,7 @@ related:
 - tools/option-pool-shuffle-calculator
 ---
 
-You are deciding how to take Seed money: a post-money SAFE, a priced equity round, or (less often) a convertible note. Y Combinator built the SAFE in 2013 and standardized the post-money form in 2018. Carta’s Q1 2026 pre-seed sample is **93%** SAFE. At Seed, deal size and whether a lead wants preferred stock decide the rest. Not legal, tax, or investment advice.
+Use a post-money SAFE for most Seed raises: Carta’s Q1 2026 pre-seed sample is **93%** SAFE. Price the round when a lead wants preferred stock and a board seat. A convertible note is the less common third option. Y Combinator built the SAFE in 2013 and standardized the post-money form in 2018. Round size and the lead's terms decide the rest. Not legal, tax, or investment advice.
 
 :::takeaways
 - Default early: YC treats the post-money SAFE as the modern early-raise instrument. No interest, no maturity date, ownership sold equals investment divided by the valuation cap.
