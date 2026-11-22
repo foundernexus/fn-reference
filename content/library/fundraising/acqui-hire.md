@@ -20,6 +20,7 @@ related:
 - library/fundraising/term-sheet-red-flags
 - library/fundraising/safe-vs-priced-round
 - library/equity/ip-assignment
+- library/fundraising/shut-down-a-startup
 ---
 
 An acqui-hire is a sale where the buyer wants your team, and maybe your code, but not your business. The buyer's money arrives in two parts. A purchase price goes to the company and runs through your liquidation preference waterfall, so preferred holders are paid first. Retention pay goes straight to the people the buyer hires, as sign-on cash and new stock that vests over **2–4** years (Foley & Lardner's Gurpreet Bal). If the price sits below the preference stack, common holders get nothing unless investors fund a management carve-out, commonly **5% to 10%** of net proceeds (Westaway). An acqui-hire beats a wind-down when the price plus a carve-out returns more to investors than liquidating would, and the team wants the jobs. Not legal or tax advice.
@@ -163,3 +164,4 @@ Take a talent deal when it returns more than a wind-down and the team wants the 
 - [Term sheet red flags](/library/fundraising/term-sheet-red-flags/)
 - [SAFE vs priced round](/library/fundraising/safe-vs-priced-round/)
 - [IP assignment](/library/equity/ip-assignment/)
+- [How to shut down a startup](/library/fundraising/shut-down-a-startup/)

@@ -1,6 +1,6 @@
 ---
 title: Fundraising
-description: Eighteen fundraising decisions from the first angel check to selling the company, in the order founders hit them, each with cited numbers.
+description: Nineteen fundraising decisions from the first angel check to selling or closing the company, in the order founders hit them, each with cited numbers.
 slug: fundraising
 section: library
 cluster: fundraising
@@ -42,6 +42,7 @@ Fundraising is a run of separate decisions, from the first angel check to the Se
 
 :::group Short on cash
 - [When runway runs out](/library/fundraising/when-runway-runs-out/): Default dead or payroll at risk. Cut, bridge, extend with revenue, or wind down in order. Pair with the [runway calculator](/tools/runway-calculator/).
+- [How to shut down a startup: dissolution steps and costs](/library/fundraising/shut-down-a-startup/): The board has decided to close. Get the votes, clear Delaware franchise tax, file the $224 certificate, and file IRS Form 966 within 30 days.
 :::
 
 :::group Sell the company
@@ -102,6 +103,8 @@ A [VEN](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referra
 **Before the buyer's diligence.** Rebuild ARR from invoices, build a monthly deferred revenue waterfall, and put a working capital target in the LOI ([quality of earnings report](/library/fundraising/quality-of-earnings/)). QoE gaps ended **21.3%** of the broken 2025 LOIs Axial reviewed.
 
 **A buyer wants only the team.** Get the purchase price and the retention pool in writing, run the price through the waterfall, and get preferred approval for a carve-out before signing ([acqui-hire](/library/fundraising/acqui-hire/)). Westaway puts carve-outs at **5% to 10%** of net proceeds.
+
+**Closing the company.** Run the board and stockholder votes, pay Delaware franchise tax through the effective month, file the certificate of dissolution, and choose the § 280 claims process or a § 281(b) reserve plan before paying any stockholder ([how to shut down a startup](/library/fundraising/shut-down-a-startup/)). IRS Form 966 is due within **30** days of the resolution.
 
 ## Pair with finance, board, and hiring
 
