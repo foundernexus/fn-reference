@@ -112,7 +112,7 @@ Adding customers moves the share faster than cutting the big one, and you keep t
 4. **Add relationship owners.** Glacier Lake: if you are the main contact for your top three customers, diligence will find it. Name an owner below you for each of the top five.
 5. **Write the plan to grow around it.** Name the next accounts in the same segment and when they close.
 6. **Line up a reference.** A call with the big customer's decision maker answers the renewal question better than a slide (Lighter Capital).
-7. **Price the earnout before you need to.** If a buyer offers one, ask for the metric, the period, and the reporting rights in writing.
+7. **Price the earnout before you need to.** If a buyer offers one, ask for the metric, the period, and the reporting rights in writing ([earnout terms](/library/fundraising/earnout/)).
 :::
 
 ## Mistakes founders make with a big customer

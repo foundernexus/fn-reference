@@ -23,6 +23,7 @@ related:
 - library/fundraising/quality-of-earnings
 - library/fundraising/acqui-hire
 - library/fundraising/strategic-vs-financial-buyer
+- library/fundraising/earnout
 ---
 
 To sell a startup, build relationships with likely buyers a year or two before you want an offer, then run a short process with at least two bidders. Once you sign a letter of intent (LOI), you stop talking to anyone else, so negotiate exclusivity down toward **30** days; Orrick's M&A partners say it usually runs **30–60**. Price and terms only move while a second buyer is live. Expect a large share of the price to arrive after closing. In SRS Acquiom's 2026 study of more than **2,300** private-target deals, **88%** of 2025 deals held back part of the price in an escrow or holdback, and the median escrow on deals without deal insurance was **10%** of the price. Not legal, tax, or investment advice.
@@ -141,6 +142,8 @@ Illustrative arithmetic, not data from any deal. A buyer offers **$40M** at clos
 | Earnout potential | $13.6M |
 | Earnout at about **21** cents per dollar | About $2.9M |
 
+For the earnout clause itself, metric, period, buyer covenants, and acceleration, see [earnout terms](/library/fundraising/earnout/).
+
 The headline reads **$53.6M**. Planning cash is **$36M** on day one, most of the **$4M** escrow a year later, and perhaps **$2.9M** of earnout. Fees come off the top, and preferred holders take their preferences before common. Run your own waterfall with counsel.
 
 In SRS Acquiom's data, the median escrow falls from **10%** to **0.5%** when a buyer buys deal insurance, so ask whether the buyer will buy a policy before you agree to a **10%** escrow.
@@ -209,3 +212,4 @@ Not legal or tax advice. Approvals, escrow terms, tax treatment of the sale, and
 - [Quality of earnings report for a startup sale](/library/fundraising/quality-of-earnings/)
 - [Acqui-hire: who gets paid](/library/fundraising/acqui-hire/)
 - [Strategic vs financial buyer](/library/fundraising/strategic-vs-financial-buyer/)
+- [Earnout terms](/library/fundraising/earnout/)

@@ -17,6 +17,7 @@ related:
 - library/fundraising/how-to-sell-a-startup
 - library/fundraising/quality-of-earnings
 - library/fundraising/acqui-hire
+- library/fundraising/earnout
 - tools/cap-table-waterfall
 - library/fundraising/term-sheet-red-flags
 - library/equity/qsbs
@@ -160,6 +161,7 @@ Match the buyer to the number you can show and the job you want next.
 - [How to sell a startup](/library/fundraising/how-to-sell-a-startup/)
 - [Quality of earnings report](/library/fundraising/quality-of-earnings/)
 - [Acqui-hire: who gets paid](/library/fundraising/acqui-hire/)
+- [Earnout terms](/library/fundraising/earnout/)
 - [Cap table waterfall calculator](/tools/cap-table-waterfall/)
 - [Term sheet red flags](/library/fundraising/term-sheet-red-flags/)
 - [QSBS](/library/equity/qsbs/)
