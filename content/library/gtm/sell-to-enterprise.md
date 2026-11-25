@@ -20,6 +20,7 @@ related:
 - library/hiring/when-to-hire-first-vp-sales
 - library/gtm/validate-demand-before-you-build
 - library/gtm/conference-to-customers
+- library/gtm/internal-champion
 ---
 
 You can sell to the enterprise at Seed if three things hold. Your product does one important job far better than the vendor the buyer already trusts. The first deployment can stay inside one team. You can deliver what you promise within about **90** days of signing, which is Jason Lemkin’s test for too soon. Then run each deal on three tracks from the first call: the champion who wants it, the budget owner who signs, and the security and procurement teams who can stall it. Send your security packet before anyone asks. Forrester’s 2026 survey counts **13** internal stakeholders in a typical buying decision, and procurement acts as a decision-maker in **53%** of buying cycles.
@@ -74,6 +75,8 @@ Gartner found buyers spend **17%** of a purchase journey meeting potential suppl
 | Legal | Contract terms | Your standard MSA and data terms |
 
 Ask the champion: is this budgeted? Lemkin: if it is, ask who else they are looking at. If it is not, you can still win from a smaller discretionary budget, so cut the first ask to fit.
+
+To check whether your champion is real before you forecast the deal, and what to hand them for the rest of the group, see [internal champion in B2B sales](/library/gtm/internal-champion/).
 
 VEN session judgment on reaching the group: a cold note to the CIO goes unanswered. Sell into the business functions the CIO serves, and win the technical staff who will deploy and run the product. Treat support, influence, and spending authority as three facts to confirm. A senior title or an enthusiastic call does not prove budget authority.
 
@@ -187,3 +190,4 @@ Structure the proof with [how to convert a pilot to a paid contract](/library/gt
 - [How to validate demand before you build](/library/gtm/validate-demand-before-you-build/)
 - [How to turn a conference into customers](/library/gtm/conference-to-customers/)
 - [Strategic partnerships and IP: what to settle before you sign](/library/gtm/strategic-partnership-ip/)
+- [Internal champion in B2B sales: how to find, test, and arm one](/library/gtm/internal-champion/)

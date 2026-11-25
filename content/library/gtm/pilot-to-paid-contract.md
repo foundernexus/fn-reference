@@ -23,6 +23,7 @@ related:
 - library/gtm/ai-sdr-vs-human
 - library/gtm/market-ai-product-without-saying-ai
 - library/hiring/when-to-hire-first-vp-sales
+- library/gtm/internal-champion
 ---
 
 Yes. Charge for it: in SaaStr reader polls, **74%** said paid pilots convert to paid customers and **42%** said free pilots do. SaaStr also notes enterprise buyers often won’t buy from a startup without a pilot. Make the pilot convert on paper before it starts. Scope it to one workflow and sign two or three success metrics with the economic buyer. Write the annual price and the signing date into the pilot agreement, so you and the buyer agree on conversion before kickoff. Start security and procurement in week one. At readout you check the boxes and ask for the signature.
