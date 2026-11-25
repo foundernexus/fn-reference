@@ -48,7 +48,7 @@ MEDDICC, the qualification method many enterprise sales teams use, sorts the peo
 
 Source: MEDDICC, champion definition and levels; Andy Whyte, the Champion Test.
 
-Power is the one trait you cannot build. Andy Whyte, who co-wrote the MEDDICC book, calls it non-negotiable: it comes from how the company sees that person. You can grow the stake by tying your product to their own goals. They will not sell for you until they have that stake.
+Power is the one trait you cannot build. Andy Whyte, who wrote the book MEDDICC, calls it non-negotiable: it comes from how the company sees that person. You can grow the stake by tying your product to their own goals. They will not sell for you until they have that stake.
 
 ## Who else sits on the buying committee
 
