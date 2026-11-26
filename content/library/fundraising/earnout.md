@@ -17,6 +17,7 @@ related:
 - library/fundraising/how-to-sell-a-startup
 - library/fundraising/strategic-vs-financial-buyer
 - library/fundraising/quality-of-earnings
+- library/fundraising/letter-of-intent
 - library/finance/customer-concentration
 - tools/cap-table-waterfall
 ---
@@ -184,5 +185,6 @@ Accept an earnout when it bridges a real gap in price, not when it replaces cash
 - [How to sell a startup](/library/fundraising/how-to-sell-a-startup/)
 - [Strategic vs financial buyer](/library/fundraising/strategic-vs-financial-buyer/)
 - [Quality of earnings report](/library/fundraising/quality-of-earnings/)
+- [Letter of intent in a startup acquisition](/library/fundraising/letter-of-intent/)
 - [Customer concentration risk](/library/finance/customer-concentration/)
 - [Cap table waterfall calculator](/tools/cap-table-waterfall/)

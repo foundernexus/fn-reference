@@ -24,6 +24,7 @@ related:
 - library/fundraising/acqui-hire
 - library/fundraising/strategic-vs-financial-buyer
 - library/fundraising/earnout
+- library/fundraising/letter-of-intent
 ---
 
 To sell a startup, build relationships with likely buyers a year or two before you want an offer, then run a short process with at least two bidders. Once you sign a letter of intent (LOI), you stop talking to anyone else, so negotiate exclusivity down toward **30** days; Orrick's M&A partners say it usually runs **30–60**. Price and terms only move while a second buyer is live. Expect a large share of the price to arrive after closing. In SRS Acquiom's 2026 study of more than **2,300** private-target deals, **88%** of 2025 deals held back part of the price in an escrow or holdback, and the median escrow on deals without deal insurance was **10%** of the price. Not legal, tax, or investment advice.
@@ -112,6 +113,8 @@ Most LOI terms are non-binding, but the letter sets price, structure, and an exc
 In SRS Acquiom's 2025 data, **43%** of deals signed and closed on the same day and **57%** signed first and closed later. A US deal above **$133.9M** may need a Hart-Scott-Rodino filing with the FTC and Justice Department and a waiting period before close; the filing fee is **$35,000** below **$189.6M** (FTC, 2026 thresholds in the Federal Register). Ask counsel early if your price is near that line.
 
 Read each LOI term that moves cash: the payment at close, the escrow size and length, any earnout metric, the treatment of unvested employee equity, and retention packages for you and the team.
+
+For the letter clause by clause, what binds, the working capital method, and exclusivity exits, see [letter of intent in a startup acquisition](/library/fundraising/letter-of-intent/).
 
 ## Price the escrow, the earnout, and the claims window
 
@@ -213,3 +216,4 @@ Not legal or tax advice. Approvals, escrow terms, tax treatment of the sale, and
 - [Acqui-hire: who gets paid](/library/fundraising/acqui-hire/)
 - [Strategic vs financial buyer](/library/fundraising/strategic-vs-financial-buyer/)
 - [Earnout terms](/library/fundraising/earnout/)
+- [Letter of intent in a startup acquisition](/library/fundraising/letter-of-intent/)

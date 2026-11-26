@@ -1,6 +1,6 @@
 ---
 title: Fundraising
-description: Twenty-one fundraising decisions from the first angel check to selling or closing the company, in the order founders hit them, each with cited numbers.
+description: Twenty-two fundraising decisions from the first angel check to selling or closing the company, in the order founders hit them, each with cited numbers.
 slug: fundraising
 section: library
 cluster: fundraising
@@ -47,6 +47,7 @@ Fundraising is a run of separate decisions, from the first angel check to the Se
 
 :::group Sell the company
 - [How to sell a startup: buyers, LOI, diligence, close](/library/fundraising/how-to-sell-a-startup/): A buyer is circling. Get a second bid before the LOI, keep exclusivity near 30 days, and model escrow and earnout.
+- [Letter of intent in a startup acquisition: what to negotiate](/library/fundraising/letter-of-intent/): A buyer sent an LOI. Price terms are non-binding but exclusivity is not, so settle escrow, working capital, and the team, and keep exclusivity short.
 - [Strategic vs financial buyer: who pays more for a startup](/library/fundraising/strategic-vs-financial-buyer/): Two kinds of buyer are interested. Growing and unprofitable, a strategic usually pays more on revenue. With steady EBITDA, private equity can win but asks for rollover.
 - [Earnout terms in a startup acquisition: what to negotiate](/library/fundraising/earnout/): Part of the offer is paid later. Price it at what earnouts pay, about 21% of the maximum, then fix the metric, the period, and acceleration.
 - [Quality of earnings report for a startup sale](/library/fundraising/quality-of-earnings/): A sale is likely within a year. Rebuild ARR from invoices, fix deferred revenue and add-backs, and finish a sell-side QoE before the LOI.
@@ -101,6 +102,8 @@ A [VEN](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referra
 **Post–term sheet.** Open confirmatory folders organized to YC’s categories so counsel is not inventing a map under deadline. Burkland’s common dilution framing (~**15–25%** including negotiated option-pool expansion) belongs in the model before you negotiate, not as a surprise mid-close.
 
 **Selling the company.** Know a senior executive at each likely buyer a year or two ahead, get a second bid before you sign a letter of intent, and push exclusivity toward 30 days ([how to sell a startup](/library/fundraising/how-to-sell-a-startup/)). Plan around cash at close after escrow and a discounted earnout, not the headline price.
+
+**An LOI is on the table.** Treat its price as the ceiling, write the working capital method, escrow, and employee terms into the letter, and give 30 to 45 days of exclusivity that ends on any price cut ([letter of intent](/library/fundraising/letter-of-intent/)). Axial: broken 2025 technology LOIs had sat **94** days under exclusivity.
 
 **Choosing between buyers.** Ask each bidder whether it prices revenue or EBITDA, then compare cash at close after rollover, escrow, and fees ([strategic vs financial buyer](/library/fundraising/strategic-vs-financial-buyer/)). Kroll's 2026 software medians: **6.1x** revenue for strategics, **4.0x** for private equity.
 
