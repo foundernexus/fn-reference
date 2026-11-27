@@ -18,6 +18,7 @@ related:
 - library/fundraising/when-to-raise-series-a
 - library/fundraising/term-sheet-red-flags
 - library/finance/burn-multiple-vs-rule-of-40
+- tools/venture-debt-calculator
 - tools/runway-calculator
 ---
 
@@ -83,7 +84,7 @@ Compare offers on total cost: interest, fees, final payment, prepayment, and war
 | Prepayment fee | Does it step down near maturity, or can you strike it (Mercury) | Lender-specific; Mercury says you may get it removed |
 | Warrants | Coverage, strike price, expiry, and how much vests at signing vs draw (Kruze) | Kruze: **2–10%** of loan amount; usually under **1%** of the cap table. Mercury: light-covenant lenders **10–20%**, heavy **0–5%** |
 
-Kruze on warrant timing: parties often split coverage half at commitment and half at draw. If you draw only part of the facility, you pay only part of the warrant.
+Kruze on warrant timing: parties often split coverage half at commitment and half at draw. If you draw only part of the facility, you pay only part of the warrant. Price a term sheet line by line in the [venture debt calculator](/tools/venture-debt-calculator/).
 
 ## Terms to fight at the term sheet
 
@@ -173,4 +174,5 @@ Pick Seed paper on [SAFE vs priced round](/library/fundraising/safe-vs-priced-ro
 - [When to raise Series A](/library/fundraising/when-to-raise-series-a/)
 - [Term sheet red flags](/library/fundraising/term-sheet-red-flags/)
 - [Burn multiple vs Rule of 40](/library/finance/burn-multiple-vs-rule-of-40/)
+- [Venture debt calculator](/tools/venture-debt-calculator/)
 - [Runway calculator with hiring plan](/tools/runway-calculator/)

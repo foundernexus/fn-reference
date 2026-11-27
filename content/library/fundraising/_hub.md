@@ -33,6 +33,7 @@ Fundraising is a run of separate decisions, from the first angel check to the Se
 - [SAFE dilution calculator](/tools/safe-dilution-calculator/): SAFEs signed, a round coming. See each holder's percentage after conversion, the pool, and the new money.
 - [Term sheet red flags](/library/fundraising/term-sheet-red-flags/): A lead sent paper. Read each line against the clean set and fight about three issues.
 - [Venture debt](/library/fundraising/venture-debt/): An equity round closed recently. Whether a loan fits, how much, and which terms to fight.
+- [Venture debt calculator](/tools/venture-debt-calculator/): A lender sent a term sheet. See the payments, the all-in annual cost with fees and warrants, and the ownership the warrant takes vs equity.
 :::
 
 :::group Series A
@@ -87,7 +88,7 @@ A [VEN](https://www.venexecs.com/?utm_source=founderdecisions&utm_medium=referra
 
 **Reading the valuation.** Post-money is pre-money plus new money. Ask what sits inside the pre-money: a pool increase or converting SAFEs lowers your price per share ([pre-money vs post-money](/library/fundraising/pre-money-vs-post-money/)).
 
-**Right after an equity close.** Decide whether venture debt belongs on top while your position is strongest ([venture debt](/library/fundraising/venture-debt/)). Size from the round and debt service, and negotiate the draw window and default clauses before you sign the term sheet.
+**Right after an equity close.** Decide whether venture debt belongs on top while your position is strongest ([venture debt](/library/fundraising/venture-debt/)). Size from the round and debt service, price the offer in the [venture debt calculator](/tools/venture-debt-calculator/), and negotiate the draw window and default clauses before you sign the term sheet.
 
 **Short runway.** Measure snapshot and default alive/dead, then cut, bridge, extend with revenue, or land soft ([when runway runs out](/library/fundraising/when-runway-runs-out/)). Model cash in the [runway calculator](/tools/runway-calculator/). Do not open a full A process on thin cash; Burkland’s desperation signal lives on that page.
 

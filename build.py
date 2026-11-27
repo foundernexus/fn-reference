@@ -1374,6 +1374,7 @@ VEN_PLAYBOOKS: dict[str, tuple[str, str]] = {
     "tools/option-pool-shuffle-calculator": ("equity-legal/options-pools-advisor-equity", "VEN playbook on options, pools and advisor equity"),
     "tools/runway-calculator": ("guides/capital-runway-and-the-board", "VEN guide to capital, runway and the board"),
     "tools/safe-dilution-calculator": ("raising-money/safes-notes-priced-rounds", "VEN playbook on SAFEs, notes and priced rounds"),
+    "tools/venture-debt-calculator": ("raising-money/venture-debt", "VEN playbook on venture debt"),
 }
 
 
@@ -1475,6 +1476,7 @@ HOME_TOPIC_TOP: dict[str, list[str]] = {
     "rooms": ["compare/executive-coaching-vs-founder-peer-group", "compare/ypo-vs-hampton-vs-venture-scale-room"],
 }
 HOME_TOOL_LINES: dict[str, str] = {
+    "tools/venture-debt-calculator": "A loan's all-in cost with fees and warrants, vs equity.",
     "tools/cap-table-waterfall": "Who gets what at an exit, preference by preference.",
     "tools/burn-multiple-calculator": "Cash burned per dollar of net new ARR, with Sacks' bands.",
     "tools/safe-dilution-calculator": "What founders keep after SAFEs convert.",
