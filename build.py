@@ -1327,6 +1327,7 @@ VEN_PLAYBOOKS: dict[str, tuple[str, str]] = {
     "library/finance/customer-concentration": ("concepts/customer-concentration", "VEN playbook note on customer concentration"),
     "library/finance/default-alive-default-dead": ("concepts/default-alive", "VEN playbook note on default alive"),
     "library/finance/burn-multiple-vs-rule-of-40": ("guides/capital-runway-and-the-board", "VEN guide to capital, runway and the board"),
+    "library/finance/fractional-vs-full-time-cfo": ("guides/leading-the-executive-team", "VEN guide to leading the executive team"),
     "library/finance/nrr-vs-grr-board-pack": ("guides/customer-retention-and-expansion", "VEN guide to customer retention and expansion"),
     "library/finance/usage-revenue-as-arr": ("building-the-company/pricing-in-the-ai-era", "VEN playbook on pricing in the AI era"),
     "library/fundraising": ("raising-money/running-the-raise", "VEN playbook on running the raise"),
