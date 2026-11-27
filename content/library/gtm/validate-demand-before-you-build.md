@@ -7,6 +7,7 @@ cluster: gtm
 layout: article
 target_query: validate demand before building product
 date: 2026-10-19
+updated: 2026-11-27
 close: Founders who have killed or kept an idea on pre-build evidence will pressure-test your demand bet, interview notes, and kill line in a VEN session.
 draft: false
 related:

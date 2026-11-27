@@ -7,6 +7,7 @@ cluster: gtm
 layout: article
 target_query: customer development sales funnel startup
 date: 2026-10-20
+updated: 2026-11-27
 close: Founders who have turned discovery calls into their first paid customers will pressure-test your stage exits, qualification line, and next-step habit in a VEN session.
 draft: false
 related:

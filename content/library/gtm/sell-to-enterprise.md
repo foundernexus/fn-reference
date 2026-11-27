@@ -7,6 +7,7 @@ cluster: gtm
 layout: article
 target_query: how to sell to enterprise startups
 date: 2026-10-18
+updated: 2026-11-27
 close: Founders who have closed enterprise accounts at Seed and Series A will pressure-test your account list, buying-group map, and security packet in a VEN session.
 draft: false
 related:

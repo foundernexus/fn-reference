@@ -7,6 +7,7 @@ cluster: gtm
 layout: article
 target_query: B2B conference lead generation startup
 date: 2026-10-22
+updated: 2026-11-27
 close: Founders who have sold at conferences on a Seed budget will pressure-test your target list, your next-step script, and your event scorecard in a VEN session.
 draft: false
 related:

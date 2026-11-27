@@ -7,6 +7,7 @@ cluster: gtm
 layout: article
 target_query: startup landing page that converts
 date: 2026-10-23
+updated: 2026-11-27
 close: Founders who have rewritten an early B2B site after a live teardown will pressure-test your headline, your proof, and your call to action in a VEN session.
 draft: false
 related:
