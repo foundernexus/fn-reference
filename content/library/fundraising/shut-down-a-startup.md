@@ -26,7 +26,7 @@ To shut down a Delaware startup, the board adopts a resolution and a plan of dis
 
 :::takeaways
 - Two votes start it. A board resolution, then a majority of the outstanding stock entitled to vote, plus any separate preferred vote your charter requires (DGCL § 275; Cooley).
-- Delaware will not file the certificate until franchise taxes through the effective month are paid and every annual report is filed (DGCL § 277). The filing fee is **$224**.
+- Delaware will not file the certificate until franchise taxes through the effective month are paid and every annual report is filed (DGCL § 277). The filing fee is **$224** (Division of Corporations form).
 - Pick the claims path. The long-form § 280 process bars late claims but makes you wait at least **150** days after the last rejection notice before paying stockholders. The § 281(b) path is faster and requires reserves for claims likely to arise within **10** years.
 - The IRS wants Form 966 within **30** days of the resolution, a final Form 1120 marked final, and final 941, 940, W-2, and 1099 filings.
 - Buy the D&O tail before you cancel the policy. Six years is the common runoff period for private-company D&O (By Design Law).

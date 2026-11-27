@@ -27,9 +27,9 @@ An earnout is part of the sale price paid later, only if the business hits a tar
 :::takeaways
 - Price it at what earnouts pay. Across **199** deals, sellers got **21%** of maximum earnout dollars; the median deal got **17%** (SRS Acquiom 2026).
 - Shorter pays. **74%** of earnouts with a period of one year or less paid something, vs **49%** at one to two years (SRS Acquiom 2026).
-- Revenue is the usual metric, in **69%** of 2025 earnouts. EBITDA appeared in **21%**, and it is easier for a buyer to move.
-- Most protections are rare. Only **16%** of 2025 earnouts carried a commercially reasonable efforts duty and **24%** accelerated on a resale; **65%** let the buyer offset claims against the earnout.
-- Fight before signing. A third of sellers contested the earnout, and only **3%** of contested deals went to a final judgment.
+- Revenue is the usual metric, in **69%** of 2025 earnouts. EBITDA appeared in **21%**, and it is easier for a buyer to move (SRS Acquiom Deal Terms 2026).
+- Most protections are rare. Only **16%** of 2025 earnouts carried a commercially reasonable efforts duty and **24%** accelerated on a resale; **65%** let the buyer offset claims against the earnout (SRS Acquiom Deal Terms 2026).
+- Fight before signing. A third of sellers contested the earnout, and only **3%** of contested deals went to a final judgment (SRS Acquiom 2026).
 :::
 
 This page covers the earnout clause line by line. For the full sale process and how the earnout fits next to escrow and fees, start with [how to sell a startup](/library/fundraising/how-to-sell-a-startup/). If one large customer is the reason the buyer wants an earnout, read [customer concentration risk](/library/finance/customer-concentration/). If you are choosing between a corporate buyer and a fund, see [strategic vs financial buyer](/library/fundraising/strategic-vs-financial-buyer/), because the payout odds differ by buyer type.
@@ -116,7 +116,7 @@ Ask what happens to the earnout if the buyer sells you, fires you, or makes a cl
 
 Only **24%** of 2025 earnouts accelerated, fully or partly, when the buyer sold the earnout business, usually unless the new owner took on the obligation (SRS Acquiom Deal Terms 2026). Ask for acceleration on a resale, on the buyer shutting down or folding the product, and on a breach of the covenants above.
 
-The buyer could set off indemnity claims against future earnout payments in **65%** of 2025 earnouts. The rest were silent, and none expressly barred it. An offset right turns every post-close claim into a reason to hold back earnout money. If you cannot remove it, limit it to finally resolved claims and cap it.
+The buyer could set off indemnity claims against future earnout payments in **65%** of 2025 earnouts (SRS Acquiom Deal Terms 2026). The rest were silent, and none expressly barred it. An offset right turns every post-close claim into a reason to hold back earnout money. If you cannot remove it, limit it to finally resolved claims and cap it.
 
 ## If the earnout depends on you staying
 
