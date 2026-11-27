@@ -1,6 +1,6 @@
 ---
 title: "How to keep your first customers: feedback and early retention"
-description: After the first sale, log each request as the task the customer could not finish, give it an owner and an update date, tell the customer what waits and why, and review retention beside new sales before you add more customers.
+description: "Log each request as the task the customer could not finish, with an owner and update date. ChartMogul: top-quartile SaaS keeps 90% of new customers to month 3."
 slug: early-customer-retention
 section: library
 cluster: gtm

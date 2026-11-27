@@ -1,6 +1,6 @@
 ---
 title: Customer development as your early sales funnel
-description: Run discovery calls as the top of your pipeline. End each stage on something the buyer gives you, write down what makes an opportunity qualified, and judge close rate on qualified deals instead of interviews.
+description: "Run discovery calls as the top of your sales funnel. End each stage on a buyer commitment, define what makes a deal qualified, and judge close rate on those."
 slug: customer-development-sales-funnel
 section: library
 cluster: gtm

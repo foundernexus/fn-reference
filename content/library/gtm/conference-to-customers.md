@@ -1,6 +1,6 @@
 ---
 title: How to turn a conference into customers
-description: Decide what the event should produce before you buy a ticket, book meetings with named accounts before you fly, end each conversation on a dated next step, follow up within a day, and count qualified opportunities against the full cost.
+description: "A conference pays off when you book meetings with named accounts before you fly, follow up within a day, and count qualified deals against the full trip cost."
 slug: conference-to-customers
 section: library
 cluster: gtm

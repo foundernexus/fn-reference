@@ -1,6 +1,6 @@
 ---
 title: Selling to the enterprise as an early-stage startup
-description: Sell to the enterprise when one workflow beats the incumbent by a wide margin and you can deliver within 90 days. Map the champion and budget owner, and send security proof before anyone asks.
+description: "Sell to the enterprise when one workflow beats the incumbent and you can deliver in 90 days. Forrester counts 13 stakeholders a deal; send security proof early."
 slug: sell-to-enterprise
 section: library
 cluster: gtm

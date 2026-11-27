@@ -1,6 +1,6 @@
 ---
 title: How to validate demand before you build
-description: Write the demand bet as a number, interview buyers about what they did last time, and ask for time, an intro, or money before you write production code. Set the kill line first.
+description: "Write the demand bet as a number, interview buyers about the last time the problem hit, and ask for time, an intro, or money before you write production code."
 slug: validate-demand-before-you-build
 section: library
 cluster: gtm

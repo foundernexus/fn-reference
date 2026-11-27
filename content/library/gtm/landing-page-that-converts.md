@@ -1,6 +1,6 @@
 ---
 title: How to write a startup landing page that converts
-description: Name the buyer, lead with the pain, and put the payoff on the button. Then show proof and the product before the price, keep one call to action, and measure qualified demos by traffic source.
+description: "Name the buyer, lead with the pain, and put the payoff on the button. Show proof and the product before the price, and keep one call to action."
 slug: landing-page-that-converts
 section: library
 cluster: gtm
