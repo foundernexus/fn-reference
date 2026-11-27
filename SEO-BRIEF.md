@@ -432,3 +432,4 @@ Carried: concepts/add-backs (own frame only), concepts/ebitda-multiple-bands, ra
 
 ### Live QA 2026-11-27 (Friday review)
 - Run 1: pages=122 FAIL=1: Cooley Q2 2026 Venture Financing Report URL now 404 (cited on term-sheet-red-flags, safe-seed-terms-benchmarks, cap-table-waterfall). Repointed to the 29 Oct 2026 Wayback copy (cdf62c7).
+- Run 2: FAIL=4, all status-0 timeouts to venexecs.com playbook URLs (200 in ~0.1s on manual curl). Run 3: FAIL=1, the Wayback copy returned 404 to GET (HEAD 200; it flaps). Switched to Cooley's own PDF of the same report (every cited figure checked in the PDF text).
