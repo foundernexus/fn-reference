@@ -1,6 +1,6 @@
 ---
-title: "Startup executive compensation: salary and equity by stage"
-description: "Founder-CEOs average $153K cash at seed, $203K at Series A, $216K at B (Kruze). Non-founder C-level hires get ~1% equity; the median VP gets 0.17% (Carta)."
+title: "Startup executive compensation: CEO, CFO, COO salary by stage"
+description: "Founder-CEOs average $153K at seed, $203K at A, $216K at B; COOs $227K at A; seed CFOs $150K–$175K (Kruze 2026). C-level equity ~1%, VP 0.17% (Carta)."
 slug: executive-compensation-benchmarks
 section: library
 cluster: hiring
@@ -32,6 +32,30 @@ Founder-CEOs at venture-backed US startups average **$153,000** in cash salary a
 :::
 
 Use this page to price the cash and the grant. To check the grant against your remaining pool, run the [executive equity calculator](/tools/executive-equity-calculator/). For the grant ranges by function in more detail, read [executive equity grants by stage](/library/equity/executive-grants-by-stage/).
+
+## Startup CEO, CFO and COO salary at a glance
+
+Cash salary only. Equity is further down the page.
+
+### Startup CEO salary
+
+A founder-CEO at a funded US startup averages **$153,000** at seed, **$203,000** at Series A and **$216,000** at Series B in Kruze's 2026 payroll data. Typical ranges run **$130,000–$170,000**, **$180,000–$230,000** and **$200,000–$260,000**. Across all stages the average is **$165,000** and the median **$159,000**. If you are hiring a CEO from outside, expect to pay more: Pave's data puts non-founder CEOs about **10–25%+** above founder CEOs in cash.
+
+### Startup CFO salary
+
+Kruze's finance guide puts seed-stage finance leaders at **$150,000–$175,000** and Series B+ CFOs at **$250,000–$350,000+** in cash, often with **0.5–2%** equity. Kruze gives no Series A figure. Majhi Group's search ranges put a Series A CFO at **$200K–$270K** base, from one recruiter's placements. Majhi puts CFO and COO bonuses at **20–30%** of base. Before you hire full time, compare [fractional vs full-time CFO](/library/finance/fractional-vs-full-time-cfo/).
+
+### Startup COO salary
+
+COOs in Kruze's payroll data average **$144,000** at seed, **$227,000** at Series A and **$246,000** at Series B. After seed they out-earn the CEO and the CTO. The overall COO median is **$150,000**. Kruze describes these as operating founders, so price a hired COO against the Series A and B rows.
+
+### Startup CTO salary
+
+CTOs average **$155,000** at seed, ahead of the CEO and COO at that stage, then **$196,000** at Series A and **$238,000** at Series B. The overall median is **$166,000** (Kruze).
+
+### CMO, VP Sales and other VP seats
+
+A first VP Sales at Series A to B earns a **$200K** base against a **$325K** median OTE (UltraTalent). For the CMO, VP Engineering, VP Product and VP People, Majhi Group's ranges are the only published figures. Its CMO / VP Marketing range is **$170K–$225K** at Series A. The full ranges by stage are in the tables below.
 
 ## Cash salary by role and stage
 
