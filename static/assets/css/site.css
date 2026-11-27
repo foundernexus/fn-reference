@@ -760,6 +760,59 @@ caption {
 .takeaways li:last-child { margin-bottom: 2px; }
 .takeaways p:last-child { margin-bottom: 0; }
 
+/* On this page: quiet jump list on long articles (4+ sections), under In short.
+   Hairline rules, muted label, brand-blue links; two columns on wide screens. */
+.article-toc {
+  margin: 0 0 36px;
+  padding: 14px 0 12px;
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+}
+.article-toc-label,
+.prose .article-toc-label {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--muted);
+  margin: 0 0 8px;
+}
+.prose .article-toc ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: toc;
+  columns: 1;
+}
+.prose .article-toc li {
+  counter-increment: toc;
+  break-inside: avoid;
+  margin: 0;
+  padding: 5px 0 5px 26px;
+  position: relative;
+  font-size: 15px;
+  line-height: 1.4;
+}
+.prose .article-toc li::before {
+  content: counter(toc, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 7px;
+  font-size: 12px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--gray);
+}
+.prose .article-toc a {
+  color: var(--blue);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+.prose .article-toc a:hover { color: var(--blue-hover); text-decoration: underline; text-underline-offset: 3px; }
+@media (min-width: 720px) {
+  .prose .article-toc ol { columns: 2; column-gap: 32px; }
+}
+@media print { .article-toc { display: none; } }
+
 /* Decision choice cards — options JSON → scannable grid (renderer only) */
 .choice-grid {
   display: grid;

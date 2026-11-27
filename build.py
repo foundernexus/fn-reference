@@ -1821,6 +1821,37 @@ def render_cluster(cid: str, pages: list[dict]) -> str:
     )
 
 
+TOC_MIN_SECTIONS = 4
+TOC_SKIP = {"sources", "related"}
+
+
+def add_article_toc(prose_html: str) -> str:
+    """Insert a quiet "On this page" jump list on long articles.
+
+    Lists the h2 sections (Sources excluded) once a page has TOC_MIN_SECTIONS
+    or more. Placed after the opening In short block, or before the first h2.
+    """
+    heads = re.findall(r'<h2 id="([^"]+)">(.*?)<a class="h-anchor"', prose_html)
+    items = [(hid, txt) for hid, txt in heads if hid not in TOC_SKIP and not hid.startswith("sources")]
+    if len(items) < TOC_MIN_SECTIONS:
+        return prose_html
+    lis = "".join(
+        f'<li><a href="#{hid}">{re.sub(r"<[^>]+>", "", txt)}</a></li>' for hid, txt in items
+    )
+    nav = (
+        '<nav class="article-toc" aria-label="On this page">'
+        f'<p class="article-toc-label">On this page</p><ol>{lis}</ol></nav>'
+    )
+    first_h2 = prose_html.find("<h2 ")
+    aside_end = prose_html.find("</aside>")
+    if aside_end != -1 and (first_h2 == -1 or aside_end < first_h2) and 'class="takeaways"' in prose_html[:aside_end]:
+        cut = aside_end + len("</aside>")
+        return prose_html[:cut] + nav + prose_html[cut:]
+    if first_h2 == -1:
+        return prose_html
+    return prose_html[:first_h2] + nav + prose_html[first_h2:]
+
+
 def render_article(page: dict, by_key: dict[str, dict]) -> str:
     section = page["section"]
     if section == "about":
@@ -1843,6 +1874,8 @@ def render_article(page: dict, by_key: dict[str, dict]) -> str:
         active = section
     extra, extra_js = calculator_mount_and_js(page)
     prose_html = calculator_prose(page["_body"], extra)
+    if page.get("layout", "article") == "article" and section in ("library", "compare"):
+        prose_html = add_article_toc(prose_html)
     sentence = page.get("close") or page.get("cta_sentence") or ""
     close_html = article_close(sentence) + ven_playbook_line(page_key(page), page)
     related = related_block(page, by_key)
