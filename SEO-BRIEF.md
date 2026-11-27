@@ -66,7 +66,7 @@ FounderNexus is now VEN (Venture Executive Network) at https://www.venexecs.com.
 - Analytics: Vercel Web Analytics via `/_vercel/insights/script.js`. Clicks on any venexecs.com link fire custom event `ven_click` {page, target, type: homepage|playbook}. Custom events need Vercel Pro; on Hobby only pageviews are recorded (count VEN referrals on the venexecs.com side by utm_campaign library vs playbook).
 - Friday internal playbook check source: https://www.venexecs.com/sitemap.xml (filter /playbooks/). Keep the check internal; the only public trace is the mapped playbook link.
 
-### VEN_PLAYBOOKS mapping (63 pages, 2026-11-13)
+### VEN_PLAYBOOKS mapping (64 pages, 2026-11-27)
 | FD page | VEN playbook |
 |---|---|
 | /library/board/ | /playbooks/guides/capital-runway-and-the-board (VEN guide to capital, runway and the board) |
@@ -88,6 +88,7 @@ FounderNexus is now VEN (Venture Executive Network) at https://www.venexecs.com.
 | /library/finance/customer-concentration/ | /playbooks/concepts/customer-concentration (VEN playbook note on customer concentration) |
 | /library/finance/default-alive-default-dead/ | /playbooks/concepts/default-alive (VEN playbook note on default alive) |
 | /library/finance/burn-multiple-vs-rule-of-40/ | /playbooks/guides/capital-runway-and-the-board (VEN guide to capital, runway and the board) |
+| /library/finance/fractional-vs-full-time-cfo/ | /playbooks/guides/leading-the-executive-team (VEN guide to leading the executive team; added 2026-11-27) |
 | /library/finance/nrr-vs-grr-board-pack/ | /playbooks/guides/customer-retention-and-expansion (VEN guide to customer retention and expansion) |
 | /library/finance/usage-revenue-as-arr/ | /playbooks/building-the-company/pricing-in-the-ai-era (VEN playbook on pricing in the AI era) |
 | /library/fundraising/ | /playbooks/raising-money/running-the-raise (VEN playbook on running the raise) |
@@ -135,7 +136,7 @@ FounderNexus is now VEN (Venture Executive Network) at https://www.venexecs.com.
 | /tools/runway-calculator/ | /playbooks/guides/capital-runway-and-the-board (VEN guide to capital, runway and the board) |
 | /tools/cap-table-waterfall/ | /playbooks/concepts/liquidation-preference (VEN playbook note on liquidation preferences) |
 | /tools/safe-dilution-calculator/ | /playbooks/raising-money/safes-notes-priced-rounds (VEN playbook on SAFEs, notes and priced rounds) |
-No genuine match (homepage link only): /library/rooms/, both /compare/ pages, /library/board/when-to-add-independent-director/, /library/finance/fractional-vs-full-time-cfo/, /about/.
+No genuine match (homepage link only): /library/rooms/, both /compare/ pages, /library/board/when-to-add-independent-director/, /about/.
 
 ## Rules
 - Cite Index, Carta, Kruze, ChartMogul, Bessemer. Never imply VEN proprietary comp data.
@@ -408,3 +409,26 @@ Lower priority unchanged: founder immigration (legal-heavy), SaaS repricing post
 
 ### Improvement queue 2
 Queue 2 item 1: Venture debt cost and warrant calculator (Friday improvement day, tool) — done 2026-11-27 → /tools/venture-debt-calculator/. Title: Venture debt calculator: true cost, warrants, and dilution (58). Description 147. Query: venture debt cost calculator (secondary: venture debt warrant coverage, when to draw venture debt). Fundraising tool (cluster fundraising). Plain JS static/assets/js/venture-debt-calculator.js: loan, rate, IO months, amortization months (equal or straight-line), upfront fee %, final payment %, warrant coverage %, strike, FD shares, equity pre-money, exit price, years to exit, optional net burn; auto-calculates defaults on load. Outputs IO and amortizing payments, cash cost, effective annual cost (monthly IRR, cash only and all-in with warrant value in the exit month), warrant shares and ownership vs equity, SVB <25% burn check, formula + assumptions. Typical-terms table cites Kruze (8–12%, 24–48 mo, 2–10% coverage, <1% cap table, equity 10–30%), Mercury (3–5 yr, IO 12–18, light/heavy bands, warrant life 10–12 up to 15), Hercules FY2025 10-K (3–20% coverage at last-round strike, 7–14%, 2–5 yr, 36–48 mo maturities, IO 3–18, 97.9% floating, 12.9% effective yield Q4 2025), Codexis 8-K 5 Nov 2026 and Taysha 10-Q note 7 (Trinity: 1.00% fee, 5.00% end-of-term, 3/2/1% prepayment), SVB (25% of burn, 12+ months + ~6, $250K/$5M/30 mo >50%). Three hand-checked worked examples on page and in commit af48b05 (default 15.39% / 18.21%; Codexis terms 1,180,556 shares, 12.22% / 12.73%; Mercury 12/36 straight-line 11.57%). No reliable public benchmark yet for upfront fee and final payment; fn-content#91 opened (#34 sizing still open). No VEN session cite; close + Go deeper raising-money/venture-debt via VEN_PLAYBOOKS. Homepage calculators row (first) + New this week; fundraising topic page Choose the paper line + stage line; inbound Related + body link on venture-debt. stop-slop 37/50; live_check FAIL=0 (122 pages). Next improvement item: queue 2 item 2, SaaS and AI metrics by stage benchmark table, Tue 2026-12-01.
+
+## Friday 2026-11-27 VEN Playbooks check (internal)
+Source: https://www.venexecs.com/sitemap.xml filtered to /playbooks/ (200). Snapshot: ops/ven-playbook-urls-2026-11-27.txt (97 URLs). Judgment only; never copy playbook text; never name the Startup Bible publicly.
+
+### New since 2026-11-20
+- None. Path list identical to ops/ven-playbook-urls-2026-11-20.txt (97 URLs, none added or removed).
+
+### Link health and mapping
+- All 59 distinct playbook paths used by VEN_PLAYBOOKS plus frontmatter `ven_playbook` (after the new mapping) return 200 and all are in the sitemap. Nothing broken.
+- New mapping (93fbb88): /library/finance/fractional-vs-full-time-cfo/ → guides/leading-the-executive-team ("VEN guide to leading the executive team"). The guide's frame (define the work before choosing the role, check management capacity) is the page's question. Still unmapped: when-to-add-independent-director, the two compare pages, rooms topic page, about.
+
+### New article candidates (after #83; from unmapped VEN playbooks, check search demand and overlap before shipping)
+84. Sales pipeline review and forecast at Seed–Series A. Query: sales pipeline review startup (secondary: sales forecast accuracy, pipeline inspection). Playbook guides/predictable-growth (unmapped). Check overlap with repeatable-sales-process and customer-development-sales-funnel; frame as the weekly deal review: comparable opportunities, the reason behind each close date, and which deals to cut. Public data first (Gong, Clari, Ebsta/Pavilion benchmark reports); every number cited.
+85. Qualify investors before you pitch them. Query: how to qualify investors (secondary: investor fit check seed, which VCs lead rounds). Playbook concepts/investor-qualification (unmapped). Check overlap with seed-fundraising-process (filtered pipeline) and how-seed-vcs-decide; frame as the founder's own screen: lead vs follow, check size, fund vintage and reserves, partner fit. Public data first (Carta, PitchBook, DocSend); every number cited.
+Carried: concepts/add-backs (own frame only), concepts/ebitda-multiple-bands, raising-money/exits-and-ma. Lower priority unchanged: founder immigration, SaaS repricing post.
+
+### Credibility pass 2026-11-27 (internal)
+- Heuristic scan (body lines, table rows, and In short bullets with %, $, × or multi-digit figures and no named publisher, link, source column, or labeled example) of acqui-hire, shut-down-a-startup, strategic-vs-financial-buyer, earnout, internal-champion, letter-of-intent, venture-debt-calculator. Every table row has a source column; worked examples are labeled illustrative.
+- Fixed (52a5f3f): earnout In short bullets 3–5 and the offset paragraph now carry "(SRS Acquiom Deal Terms 2026)" / "(SRS Acquiom 2026)" inline (figures came from the tables and Sources); shut-down In short "$224" now names the Division of Corporations form.
+- No missing benchmarks.yaml range found; every "no reliable public benchmark yet" page since 11-20 already has an open request (fn-content#84–#91). No new issue.
+
+### Live QA 2026-11-27 (Friday review)
+- Run 1: pages=122 FAIL=1: Cooley Q2 2026 Venture Financing Report URL now 404 (cited on term-sheet-red-flags, safe-seed-terms-benchmarks, cap-table-waterfall). Repointed to the 29 Oct 2026 Wayback copy (cdf62c7).
