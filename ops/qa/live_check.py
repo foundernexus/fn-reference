@@ -39,6 +39,7 @@ import re
 import sys
 import urllib.error
 import urllib.parse
+import time
 import urllib.request
 from collections import Counter, defaultdict
 from html.parser import HTMLParser
@@ -297,6 +298,9 @@ def check_links(pages: dict[str, str], full: bool) -> None:
 
     def ext(t):
         st, final, _ = fetch(t, "GET", timeout=25)
+        if st == 0:  # network timeout/reset under load: retry once before reporting
+            time.sleep(2)
+            st, final, _ = fetch(t, "GET", timeout=30)
         return t, st
 
     with cf.ThreadPoolExecutor(16) as ex:
