@@ -17,6 +17,7 @@ related:
 - library/gtm/early-customer-retention
 - library/gtm/sell-to-enterprise
 - library/gtm/ai-sdr-vs-human
+- library/gtm/sales-pipeline-review
 - tools/magic-number-cac-payback-calculator
 ---
 
@@ -196,4 +197,5 @@ Pair this page with [when to hire a VP of Sales](/library/hiring/when-to-hire-fi
 - [How to keep your first customers: feedback and early retention](/library/gtm/early-customer-retention/)
 - [Selling to the enterprise as an early-stage startup](/library/gtm/sell-to-enterprise/)
 - [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/)
+- [Sales pipeline review: a weekly deal and forecast check](/library/gtm/sales-pipeline-review/)
 - [Magic number and CAC payback calculator](/tools/magic-number-cac-payback-calculator/)

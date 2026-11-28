@@ -21,6 +21,7 @@ related:
 - library/gtm/ai-sdr-vs-human
 - library/gtm/repeatable-sales-process
 - library/hiring/when-to-hire-first-vp-sales
+- library/gtm/sales-pipeline-review
 ---
 
 Run customer development and early sales as one funnel, with a founder running the calls. Each stage ends when the buyer gives something up: a second meeting, an intro to the person with budget, a priced evaluation, a signature, a referral. Write down what makes an opportunity qualified: you have confirmed the problem, your contact can influence the purchase, a budget path exists, and no missing capability blocks it. Count close rate only on those deals. Steve Blank designed customer development so discovery feeds customer validation, the step where early sales prove a repeatable sales process. He has written that **3–5** early customers may be enough to show it in enterprise software, and **300–500** for a web product.
@@ -197,3 +198,4 @@ Test willingness to pay before you build with [how to validate demand before you
 - [AI SDR vs a human SDR](/library/gtm/ai-sdr-vs-human/)
 - [How to tell if your sales process is repeatable before you hire reps](/library/gtm/repeatable-sales-process/)
 - [When to hire the first VP of Sales](/library/hiring/when-to-hire-first-vp-sales/)
+- [Sales pipeline review: a weekly deal and forecast check](/library/gtm/sales-pipeline-review/)
